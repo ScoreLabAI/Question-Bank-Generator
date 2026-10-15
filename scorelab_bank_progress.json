@@ -195,9 +195,9 @@
       "skill_subcategory": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": 2,
       "target_count": 10,
-      "status": "pending",
-      "accepted_count": 9,
-      "note": "2026-10-15 (run 23): +1 relabeled from d1 (system y=x^2-5, y=4x, y of greater-x solution). 2026-10-15 (run 25): 5 attempts (1 rocket draft rejected pre-critique as duplicate of banked rocket item and regenerated), 4 Medium banked (9/10): tangent-line discriminant with k>0, quadratic-in-form exponential with rejected root, two-scanner rational work-rate with negative root, xy=10 system with x>0 selection. Calibrated Easy (relabeled to d1): (x-3)^2=5(x-3) sum of roots. Next: 1 more Medium; favor extraneous-root or multi-concept shapes."
+      "status": "done",
+      "accepted_count": 11,
+      "note": "2026-10-15 (run 23): +1 relabeled from d1 (system y=x^2-5, y=4x, y of greater-x solution). 2026-10-15 (run 25): 5 attempts (1 rocket draft rejected pre-critique as duplicate of banked rocket item and regenerated), 4 Medium banked (9/10): tangent-line discriminant with k>0, quadratic-in-form exponential with rejected root, two-scanner rational work-rate with negative root, xy=10 system with x>0 selection. Calibrated Easy (relabeled to d1): (x-3)^2=5(x-3) sum of roots. Next: 1 more Medium; favor extraneous-root or multi-concept shapes. 2026-10-15 (run 25): +2 relabeled from d3 (double radical, symmetric x^2+y^2/xy system); cell now over target."
     },
     {
       "domain": "math",
@@ -206,7 +206,8 @@
       "difficulty": 3,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 2,
+      "note": "2026-10-15 (run 25): 4 Hard attempts, 2 Hard banked (2/10): rational equation with parameter k, two no-solution mechanisms (k=-2 gives 0x=20; k=3 makes only candidate excluded) -- borderline Hard; circle + line y=2x+b counting integer b via discriminant (b+4)^2<145 -- firm Hard. Calibrated DOWN to Medium: double radical sqrt(2x-6)=sqrt(x-2)+1 (second squaring forces x>=5, kills 3 quickly), symmetric system x^2+y^2=337, xy=144 (identity/inspection). Next: 8 more Hard; favor parameter-count/boundary-integer and stacked-mechanism shapes; avoid radical-with-one-extraneous and identity-solvable symmetric systems."
     },
     {
       "domain": "math",

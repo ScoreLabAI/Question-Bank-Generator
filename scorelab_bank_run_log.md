@@ -1057,3 +1057,15 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: Medium shapes that held are extraneous-root and multi-concept items; single-quadratic stories, Vieta sums and common-base exponentials calibrate Easy. Setup note: first `pip install` hung when run chained with other commands; rerun it alone with a timeout.
 **Token usage:** ~24 subagent calls (10 generators ~55k, 11 critics ~45k, 3 calibrators ~45k) roughly 1.2M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Nonlinear functions d3 (9/10, needs 1), Nonlinear equations d2 (5/10, needs 5), then d3.
+
+
+## Run 25 -- 2026-10-15
+**Cells worked:** Advanced Math / Nonlinear functions / d3 (needed 1, generated 1), Nonlinear equations / d2 (needed 5, generated 5 after 1 regeneration), Nonlinear equations / d3 (needed 4, generated 4 to keep run ~10).
+**Outcome:** 10 generated, 10 passed critique. 1 pre-critique rejection: a rocket-launch "later time" draft for NE d2 was a near-duplicate of a banked rocket item; regenerated with a different mandated shape ((x-a)^2=c(x-a)). In-place fixes: discriminant item distractor D 11 -> 19 (old "divide 16 by 2" path contrived), scanner item A/C explanations reworded and "constant rate" added to stem, shifted-function NF item B/C explanations made explicit, circle-line item explanation rewritten to the discriminant route (distance formula is outside SAT scope) and A reworded, symmetric-system D replaced path 2(x+y)=50. 0 discards.
+**Calibration:** NF d3 -> 1 Hard (borderline). NE d2 batch -> 4 Medium, 1 relabeled Easy ((x-3)^2=5(x-3) sum). NE d3 batch -> 2 Hard (rational-k two-mechanism no-solution, borderline; circle+line integer-b count, firm), 2 relabeled Medium (double radical; x^2+y^2/xy symmetric system).
+**Banked:** NF d3 +1 (10/10, done), NE d1 +1 (over target), NE d2 +6 total this run counting generated-for-d2 plus relabeled-from-d3 (now 11, done), NE d3 +2 (2/10, pending). Master 260 -> 270. 10 lines appended to used_topics.
+**Visuals:** none needed; all 10 text-only (no graphs in the chosen shapes).
+**Validation:** validate_batch.py passed on all three batches (key-skew WARN on NE d3 batch, choices numeric and ascending so not reorderable).
+**Skill updates (Step 5):** none applied; nothing queued. Observation: a "mandated shape" list in the Generator prompt avoided duplicates except the projectile/rocket collision -- the Generator was not told about the banked rocket item until it was named. Setup note: matplotlib was missing; `pip install matplotlib numpy` succeeded.
+**Token usage:** 18 subagent calls (10 generators ~55k, 10 critics ~44k incl. regen, 3 calibrators ~43k), roughly 1.1M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Nonlinear equations d3 (2/10, needs 8), then Equivalent expressions d1.

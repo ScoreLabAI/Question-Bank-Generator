@@ -280,3 +280,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] County archive two scanners work-rate 1/x+1/(x+6)=1/4, reject negative root.
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] System xy=10, x-2y=1, x+y for solution with x>0.
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d1] Equation (x-3)^2=5(x-3), sum of solutions, dividing loses a root (relabeled Easy).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] Rational equation k/(x-3)+2/(x+1)=12/(x^2-2x-3), sum of two k values giving no solution (0x=20 and excluded x=3).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Double radical sqrt(2x-6)=sqrt(x-2)+1, extraneous root x=3 (relabeled Medium).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Symmetric system x^2+y^2=337, xy=144, x>y>0, value of 2x+y (relabeled Medium).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] Circle (x-1)^2+(y+2)^2=29 with line y=2x+b, count integer b for two intersections (sqrt(145) bound).
