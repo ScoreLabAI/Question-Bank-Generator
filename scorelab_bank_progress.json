@@ -166,7 +166,7 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 18,
+   "accepted_count": 19,
    "note": "2026-10-14 (run 20): first attempt. 10 generated, 10 passed critique (after in-place fixes), 3 relabeled Easy and banked in d1, 7 honest Medium banked here (7/10). Confirmed Medium shapes: derive-then-evaluate exponential with 3-hour period (medication); quadratic graph, vertex read then solve for a then evaluate (f(6)); vertex/max interpretation with time-height statements in parallel frame (diver); quadratic table 5 rows, extend to week 7; revenue maximization (jam, asks max revenue); exponential t/3 interpretation (goat herd); factored cubic with k fixed by p(2)=24. Calibrated Easy (avoid for d2): graph-read plus halving extrapolation, single table lookup after transformation, vertex-read minus point-read subtraction. Critic fixes applied: removed answer-giving vertex from stem so graph is needed; table made asymmetric so no-shift and f(x)-2 misreadings don't collide with key; replaced out-of-scale distractor (40 -> 2,000); parallel-frame choices for the diver item. Next: 3 more Medium needed; try composition/inverse or quadratic-vs-exponential comparison shapes and keep key letters balanced (this batch keyed C x4). 2026-10-15 (run 21): 3 generated for d2 (composition f(g(x))=27 with positive-x; quadratic-vs-doubling users difference) -> 2 banked Medium; graph-transform item calibrated Easy (banked d1). Also 3 intended-Hard items calibrated DOWN to Medium and banked here: table-symmetry minimum, two-exponential crossing with weeks/days conversion, capacity-capped revenue with rounding-up. Cell now 12 vs target 10, complete. 2026-10-15 (run 23): +2 relabeled from d3 (bike-share exponential; restricted-interval enclosure max)."
   },
   {
@@ -176,7 +176,7 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 8,
+   "accepted_count": 9,
    "note": "2026-10-15 (run 21): first attempt, 7 Hard attempts, 4 confirmed Hard and banked (4/10); 3 calibrated down to Medium (table symmetry minimum via equal outputs; two-exponential crossing with unit conversion, backsolvable; capacity-capped revenue with stated inequality). Confirmed Hard (some borderline): abstract 'must be true' f(x)=-2 has no real solutions -> c>-2 (borderline, discriminant route exists); line tangent to parabola for two k values then product of tangent y-coords (borderline, long/mechanical); g=a*f+c from graph with minimum of g forcing a<0 (borderline with Medium); factored polynomial with double root, solve a, count sign over integer range excluding zero (firmest Hard). Next: 6 more Hard; favor hidden-structure/multiplicity/counterexample shapes; avoid signposted rejections and backsolvable numeric items. 2026-10-15 (run 23): 4 Hard attempts, 2 confirmed Hard and banked (8/10): quartic y=x^4-8x^2+k counting integer k for >=3 intercepts via u=x^2 with k=0 / k=16 boundary cases (firm Hard); abstract quadratic with axis x=4, f(1)<0, f(3)>0 'must be true' (borderline Hard). Calibrated DOWN to Medium: exponential M=a*b^t with 9x the t=1 value (b^4=3 trick, short), and quadratic area max on stated interval with vertex outside (signposted by the interval)."
   },
   {

@@ -264,3 +264,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Nonlinear equations, d1] Graph of y=2^x and y=2x, y-coordinate of lesser-x intersection.
 - [Advanced Math/Nonlinear equations, d1] Exponential equation 5(2^(x+2))=160, solve for x.
 - [Advanced Math/Nonlinear equations, d1] Radical equation sqrt(2x+3)=5, solve for x.
+- [Advanced Math/Nonlinear functions, d3] Rational function (x^3-3x^2-4x)/(x+1) with hole at (-1,5), count integer k in [-6,8] with f(x)=k having exactly two solutions.
+- [Advanced Math/Nonlinear functions, d2] Pottery studio mug revenue R=ax^2+bx fit from two data points, maximum profit after fixed and per-100 cost (relabeled Medium).
