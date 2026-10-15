@@ -1,0 +1,39 @@
+name: Sync accepted batches to ScoreLab-Site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "batch_*.json"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Question-Bank-Generator
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Checkout ScoreLab-Site
+        uses: actions/checkout@v4
+        with:
+          repository: ScoreLabAI/ScoreLab-Site
+          token: ${{ secrets.SITE_PUSH_TOKEN }}
+          path: site
+
+      - name: Copy accepted batch files
+        run: cp source/batch_*.json site/question-bank/
+
+      - name: Commit and push if changed
+        working-directory: site
+        run: |
+          git config user.name "question-bank-generator-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add question-bank/
+          if git diff --cached --quiet; then
+            echo "No new/changed batch files to sync"
+          else
+            git commit -m "Sync question batches from Question-Bank-Generator"
+            git push
+          fi
