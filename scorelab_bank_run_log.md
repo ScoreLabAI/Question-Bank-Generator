@@ -1045,3 +1045,15 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Setup note: `pip install` hit a different interpreter than python3 -- use `python3 -m pip install matplotlib numpy`.
 **Token usage:** 22 subagent calls (10 generators ~55k, 10 critics ~46k, 2 calibrators ~55k) roughly 1.1M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Nonlinear functions d3 (8/10, needs 2), then Nonlinear equations d1 (8/10, needs 2) and d2/d3.
+
+
+## Run 24 -- 2026-10-15
+**Cells worked:** Advanced Math / Nonlinear functions / d3 (needed 2, generated 2), Nonlinear equations / d1 (needed 2, generated 2), Nonlinear equations / d2 (needed 8; 6 generated to keep run ~10).
+**Outcome:** 10 generated, 10 passed critique (0 regenerations, 0 discards). In-place fixes: kayak distractor A explanation reworded (mechanism did not produce 3); radical-equation distractor B -2 (sum of roots, arbitrary) replaced by -3 (other root of the mis-squared equation) with new explanation; graph item explanations given "Choice X ..." prefixes. Advisory, not applied: NE d2 rational item's C/D (sum/product of roots) are weak distractors.
+**Calibration (batched):** NF d3 -> 1 Hard (hole/tangent integer-k count), 1 relabeled Medium (pottery profit). NE d1 -> both Easy. NE d2 -> 3 Medium (radical with extraneous root, graph + vertex form, rational with extraneous root), 3 relabeled Easy (rocket later time, Vieta sum-of-x system, common-base exponential).
+**Banked:** NF d3 +1 (9/10, pending), NF d2 +1 (19, over target), NE d1 +5 (13, done, over target), NE d2 +3 (5/10, pending). Master 250 -> 260. 10 lines appended to used_topics.
+**Visuals:** 1 graph rendered via render_visual.py (spec needs the {visual_type, visual_data} wrapper), 9 text-only.
+**Validation:** validate_batch.py passed on all three batches (NF 2/2, NE d1 2/2, NE d2 6/6).
+**Skill updates (Step 5):** none applied; nothing queued. Observation: Medium shapes that held are extraneous-root and multi-concept items; single-quadratic stories, Vieta sums and common-base exponentials calibrate Easy. Setup note: first `pip install` hung when run chained with other commands; rerun it alone with a timeout.
+**Token usage:** ~24 subagent calls (10 generators ~55k, 11 critics ~45k, 3 calibrators ~45k) roughly 1.2M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Nonlinear functions d3 (9/10, needs 1), Nonlinear equations d2 (5/10, needs 5), then d3.

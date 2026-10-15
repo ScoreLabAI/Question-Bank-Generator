@@ -268,3 +268,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Nonlinear functions, d2] Pottery studio mug revenue R=ax^2+bx fit from two data points, maximum profit after fixed and per-100 cost (relabeled Medium).
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d1] Kayak trip cost split, rational equation 40/(x-2)=5, original sign-ups.
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d1] Camera on a track stops where (x-3)^2=49, leftmost stop.
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d1] Foam rocket h=-16t^2+80t+36 reaches 100 ft, later time (relabeled Easy).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d1] System y=x^2-6x+5, y=2x-10, sum of x-coordinates of solutions (relabeled Easy).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Radical equation sqrt(2x+19)=x+2 with extraneous root -5.
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d1] Backup server caches 16^(x-1)=8^(x+1), common-base exponential (relabeled Easy).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Graph of y=x+1 and parabola with vertex (1,8) through (0,7), positive difference of intersection x-coordinates.
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Rational equation 4x/(x-2)=8/(x-2)+x with extraneous root x=2.

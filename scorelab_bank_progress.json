@@ -177,7 +177,7 @@
    "target_count": 10,
    "status": "pending",
    "accepted_count": 9,
-   "note": "2026-10-15 (run 21): first attempt, 7 Hard attempts, 4 confirmed Hard and banked (4/10); 3 calibrated down to Medium (table symmetry minimum via equal outputs; two-exponential crossing with unit conversion, backsolvable; capacity-capped revenue with stated inequality). Confirmed Hard (some borderline): abstract 'must be true' f(x)=-2 has no real solutions -> c>-2 (borderline, discriminant route exists); line tangent to parabola for two k values then product of tangent y-coords (borderline, long/mechanical); g=a*f+c from graph with minimum of g forcing a<0 (borderline with Medium); factored polynomial with double root, solve a, count sign over integer range excluding zero (firmest Hard). Next: 6 more Hard; favor hidden-structure/multiplicity/counterexample shapes; avoid signposted rejections and backsolvable numeric items. 2026-10-15 (run 23): 4 Hard attempts, 2 confirmed Hard and banked (8/10): quartic y=x^4-8x^2+k counting integer k for >=3 intercepts via u=x^2 with k=0 / k=16 boundary cases (firm Hard); abstract quadratic with axis x=4, f(1)<0, f(3)>0 'must be true' (borderline Hard). Calibrated DOWN to Medium: exponential M=a*b^t with 9x the t=1 value (b^4=3 trick, short), and quadratic area max on stated interval with vertex outside (signposted by the interval)."
+   "note": "2026-10-15 (run 21): first attempt, 7 Hard attempts, 4 confirmed Hard and banked (4/10); 3 calibrated down to Medium (table symmetry minimum via equal outputs; two-exponential crossing with unit conversion, backsolvable; capacity-capped revenue with stated inequality). Confirmed Hard (some borderline): abstract 'must be true' f(x)=-2 has no real solutions -> c>-2 (borderline, discriminant route exists); line tangent to parabola for two k values then product of tangent y-coords (borderline, long/mechanical); g=a*f+c from graph with minimum of g forcing a<0 (borderline with Medium); factored polynomial with double root, solve a, count sign over integer range excluding zero (firmest Hard). Next: 6 more Hard; favor hidden-structure/multiplicity/counterexample shapes; avoid signposted rejections and backsolvable numeric items. 2026-10-15 (run 23): 4 Hard attempts, 2 confirmed Hard and banked (8/10): quartic y=x^4-8x^2+k counting integer k for >=3 intercepts via u=x^2 with k=0 / k=16 boundary cases (firm Hard); abstract quadratic with axis x=4, f(1)<0, f(3)>0 'must be true' (borderline Hard). Calibrated DOWN to Medium: exponential M=a*b^t with 9x the t=1 value (b^4=3 trick, short), and quadratic area max on stated interval with vertex outside (signposted by the interval). 2026-10-15 (run 24): 2 attempts, 1 Hard banked (9/10): rational function with hole (x^3-3x^2-4x)/(x+1), count integer k with exactly two solutions (hole at k=5, tangent at k=-4; firm lower-end Hard). Calibrated DOWN to Medium: pottery R=ax^2+bx fit from two points then max profit (standard multi-step modeling). Next: 1 more Hard."
   },
   {
    "domain": "math",
@@ -186,7 +186,7 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 10,
+   "accepted_count": 13,
    "note": "2026-10-15 (run 23): 6 Easy attempts, 5 confirmed Easy and banked (8/10): factorable quadratic greater root, story free-fall h=0, graph exp-vs-line intersection read, common-base exponential with coefficient, single radical equation. Calibrated UP to Medium: linear-quadratic system asking y-coordinate of greater-x solution (substitute, factor, back-substitute)."
   },
   {
@@ -196,7 +196,7 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 2,
+   "accepted_count": 5,
    "note": " 2026-10-15 (run 23): +1 relabeled from d1 (system y=x^2-5, y=4x, y of greater-x solution)."
   },
   {
