@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eval Review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js" integrity="sha384-EnyY0/GSHQGSxSgMwaIPzSESbqoOLSexfnSMN2AP+39Ckmn92stwABZynq1JyzdT" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --bg: #faf9f5;
+      --surface: #ffffff;
+      --border: #e8e6dc;
+      --text: #141413;
+      --text-muted: #b0aea5;
+      --accent: #d97757;
+      --accent-hover: #c4613f;
+      --green: #788c5d;
+      --green-bg: #eef2e8;
+      --red: #c44;
+      --red-bg: #fceaea;
+      --header-bg: #141413;
+      --header-text: #faf9f5;
+      --radius: 6px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Lora', Georgia, serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ---- Header ---- */
+    .header {
+      background: var(--header-bg);
+      color: var(--header-text);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .header h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .header .instructions {
+      font-size: 0.8rem;
+      opacity: 0.7;
+      margin-top: 0.25rem;
+    }
+    .header .progress {
+      font-size: 0.875rem;
+      opacity: 0.8;
+      text-align: right;
+    }
+
+    /* ---- Main content ---- */
+    .main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    /* ---- Sections ---- */
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      flex-shrink: 0;
+    }
+    .section-header {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.75rem 1rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+    }
+    .section-body {
+      padding: 1rem;
+    }
+
+    /* ---- Config badge ---- */
+    .config-badge {
+      display: inline-block;
+      padding: 0.2rem 0.625rem;
+      border-radius: 9999px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-left: 0.75rem;
+      vertical-align: middle;
+    }
+    .config-badge.config-primary {
+      background: rgba(33, 150, 243, 0.12);
+      color: #1976d2;
+    }
+    .config-badge.config-baseline {
+      background: rgba(255, 193, 7, 0.15);
+      color: #f57f17;
+    }
+
+    /* ---- Prompt ---- */
+    .prompt-text {
+      white-space: pre-wrap;
+      font-size: 0.9375rem;
+      line-height: 1.6;
+    }
+
+    /* ---- Outputs ---- */
+    .output-file {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .output-file + .output-file {
+      margin-top: 1rem;
+    }
+    .output-file-header {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .output-file-header .dl-btn {
+      font-size: 0.7rem;
+      color: var(--accent);
+      text-decoration: none;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-weight: 500;
+      opacity: 0.8;
+    }
+    .output-file-header .dl-btn:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+    .output-file-content {
+      padding: 0.75rem;
+      overflow-x: auto;
+    }
+    .output-file-content pre {
+      font-size: 0.8125rem;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+    }
+    .output-file-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .output-file-content iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    .output-file-content table {
+      border-collapse: collapse;
+      font-size: 0.8125rem;
+      width: 100%;
+    }
+    .output-file-content table td,
+    .output-file-content table th {
+      border: 1px solid var(--border);
+      padding: 0.375rem 0.5rem;
+      text-align: left;
+    }
+    .output-file-content table th {
+      background: var(--bg);
+      font-weight: 600;
+    }
+    .output-file-content .download-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.875rem;
+      cursor: pointer;
+    }
+    .output-file-content .download-link:hover {
+      background: var(--border);
+    }
+    .empty-state {
+      color: var(--text-muted);
+      font-style: italic;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    /* ---- Feedback ---- */
+    .prev-feedback {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.625rem 0.75rem;
+      margin-top: 0.75rem;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .prev-feedback-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.25rem;
+      color: var(--text-muted);
+    }
+    .feedback-textarea {
+      width: 100%;
+      min-height: 100px;
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 0.9375rem;
+      line-height: 1.5;
+      resize: vertical;
+      color: var(--text);
+    }
+    .feedback-textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+    .feedback-status {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+      min-height: 1.1em;
+    }
+
+    /* ---- Grades (collapsible) ---- */
+    .grades-toggle {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .grades-toggle:hover {
+      color: var(--accent);
+    }
+    .grades-toggle .arrow {
+      margin-right: 0.5rem;
+      transition: transform 0.15s;
+      font-size: 0.75rem;
+    }
+    .grades-toggle .arrow.open {
+      transform: rotate(90deg);
+    }
+    .grades-content {
+      display: none;
+      margin-top: 0.75rem;
+    }
+    .grades-content.open {
+      display: block;
+    }
+    .grades-summary {
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .grade-badge {
+      display: inline-block;
+      padding: 0.125rem 0.5rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .grade-pass { background: var(--green-bg); color: var(--green); }
+    .grade-fail { background: var(--red-bg); color: var(--red); }
+    .assertion-list {
+      list-style: none;
+    }
+    .assertion-item {
+      padding: 0.625rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.8125rem;
+    }
+    .assertion-item:last-child { border-bottom: none; }
+    .assertion-status {
+      font-weight: 600;
+      margin-right: 0.5rem;
+    }
+    .assertion-status.pass { color: var(--green); }
+    .assertion-status.fail { color: var(--red); }
+    .assertion-evidence {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      margin-top: 0.25rem;
+      padding-left: 1.5rem;
+    }
+
+    /* ---- View tabs ---- */
+    .view-tabs {
+      display: flex;
+      gap: 0;
+      padding: 0 2rem;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .view-tab {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.625rem 1.25rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: var(--text-muted);
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+    }
+    .view-tab:hover { color: var(--text); }
+    .view-tab.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+    .view-panel { display: none; }
+    .view-panel.active { display: flex; flex-direction: column; flex: 1; overflow: hidden; }
+
+    /* ---- Benchmark view ---- */
+    .benchmark-view {
+      padding: 1.5rem 2rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+    .benchmark-table {
+      border-collapse: collapse;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 0.8125rem;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+    .benchmark-table th, .benchmark-table td {
+      padding: 0.625rem 0.75rem;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    .benchmark-table th {
+      font-family: 'Poppins', sans-serif;
+      background: var(--header-bg);
+      color: var(--header-text);
+      font-weight: 500;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .benchmark-table tr:hover { background: var(--bg); }
+    .benchmark-table tr.benchmark-row-with { background: rgba(33, 150, 243, 0.06); }
+    .benchmark-table tr.benchmark-row-without { background: rgba(255, 193, 7, 0.06); }
+    .benchmark-table tr.benchmark-row-with:hover { background: rgba(33, 150, 243, 0.12); }
+    .benchmark-table tr.benchmark-row-without:hover { background: rgba(255, 193, 7, 0.12); }
+    .benchmark-table tr.benchmark-row-avg { font-weight: 600; border-top: 2px solid var(--border); }
+    .benchmark-table tr.benchmark-row-avg.benchmark-row-with { background: rgba(33, 150, 243, 0.12); }
+    .benchmark-table tr.benchmark-row-avg.benchmark-row-without { background: rgba(255, 193, 7, 0.12); }
+    .benchmark-delta-positive { color: var(--green); font-weight: 600; }
+    .benchmark-delta-negative { color: var(--red); font-weight: 600; }
+    .benchmark-notes {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem;
+    }
+    .benchmark-notes h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+    }
+    .benchmark-notes ul {
+      list-style: disc;
+      padding-left: 1.25rem;
+    }
+    .benchmark-notes li {
+      font-size: 0.8125rem;
+      line-height: 1.6;
+      margin-bottom: 0.375rem;
+    }
+    .benchmark-empty {
+      color: var(--text-muted);
+      font-style: italic;
+      text-align: center;
+      padding: 3rem;
+    }
+
+    /* ---- Navigation ---- */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      flex-shrink: 0;
+    }
+    .nav-btn {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.5rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text);
+      transition: all 0.15s;
+    }
+    .nav-btn:hover:not(:disabled) {
+      background: var(--bg);
+      border-color: var(--text-muted);
+    }
+    .nav-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    .done-btn {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.5rem 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: all 0.15s;
+    }
+    .done-btn:hover {
+      background: var(--bg);
+      border-color: var(--text-muted);
+    }
+    .done-btn.ready {
+      border: none;
+      background: var(--accent);
+      color: white;
+      font-weight: 600;
+    }
+    .done-btn.ready:hover {
+      background: var(--accent-hover);
+    }
+    /* ---- Done overlay ---- */
+    .done-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 100;
+      justify-content: center;
+      align-items: center;
+    }
+    .done-overlay.visible {
+      display: flex;
+    }
+    .done-card {
+      background: var(--surface);
+      border-radius: 12px;
+      padding: 2rem 3rem;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 500px;
+    }
+    .done-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .done-card p {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+    .done-card .btn-row {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+    .done-card button {
+      padding: 0.5rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.875rem;
+    }
+    .done-card button:hover {
+      background: var(--bg);
+    }
+    /* ---- Toast ---- */
+    .toast {
+      position: fixed;
+      bottom: 5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--header-bg);
+      color: var(--header-text);
+      padding: 0.625rem 1.25rem;
+      border-radius: var(--radius);
+      font-size: 0.875rem;
+      opacity: 0;
+      transition: opacity 0.3s;
+      pointer-events: none;
+      z-index: 200;
+    }
+    .toast.visible {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" style="height:100vh; display:flex; flex-direction:column;">
+    <div class="header">
+      <div>
+        <h1>Eval Review: <span id="skill-name"></span></h1>
+        <div class="instructions">Review each output and leave feedback below. Navigate with arrow keys or buttons. When done, copy feedback and paste into Claude Code.</div>
+      </div>
+      <div class="progress" id="progress"></div>
+    </div>
+
+    <!-- View tabs (only shown when benchmark data exists) -->
+    <div class="view-tabs" id="view-tabs" style="display:none;">
+      <button class="view-tab active" onclick="switchView('outputs')">Outputs</button>
+      <button class="view-tab" onclick="switchView('benchmark')">Benchmark</button>
+    </div>
+
+    <!-- Outputs panel (qualitative review) -->
+    <div class="view-panel active" id="panel-outputs">
+    <div class="main">
+      <!-- Prompt -->
+      <div class="section">
+        <div class="section-header">Prompt <span class="config-badge" id="config-badge" style="display:none;"></span></div>
+        <div class="section-body">
+          <div class="prompt-text" id="prompt-text"></div>
+        </div>
+      </div>
+
+      <!-- Outputs -->
+      <div class="section">
+        <div class="section-header">Output</div>
+        <div class="section-body" id="outputs-body">
+          <div class="empty-state">No output files found</div>
+        </div>
+      </div>
+
+      <!-- Previous Output (collapsible) -->
+      <div class="section" id="prev-outputs-section" style="display:none;">
+        <div class="section-header">
+          <div class="grades-toggle" onclick="togglePrevOutputs()">
+            <span class="arrow" id="prev-outputs-arrow">&#9654;</span>
+            Previous Output
+          </div>
+        </div>
+        <div class="grades-content" id="prev-outputs-content"></div>
+      </div>
+
+      <!-- Grades (collapsible) -->
+      <div class="section" id="grades-section" style="display:none;">
+        <div class="section-header">
+          <div class="grades-toggle" onclick="toggleGrades()">
+            <span class="arrow" id="grades-arrow">&#9654;</span>
+            Formal Grades
+          </div>
+        </div>
+        <div class="grades-content" id="grades-content"></div>
+      </div>
+
+      <!-- Feedback -->
+      <div class="section">
+        <div class="section-header">Your Feedback</div>
+        <div class="section-body">
+          <textarea
+            class="feedback-textarea"
+            id="feedback"
+            placeholder="What do you think of this output? Any issues, suggestions, or things that look great?"
+          ></textarea>
+          <div class="feedback-status" id="feedback-status"></div>
+          <div class="prev-feedback" id="prev-feedback" style="display:none;">
+            <div class="prev-feedback-label">Previous feedback</div>
+            <div id="prev-feedback-text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav" id="outputs-nav">
+      <button class="nav-btn" id="prev-btn" onclick="navigate(-1)">&#8592; Previous</button>
+      <button class="done-btn" id="done-btn" onclick="showDoneDialog()">Submit All Reviews</button>
+      <button class="nav-btn" id="next-btn" onclick="navigate(1)">Next &#8594;</button>
+    </div>
+    </div><!-- end panel-outputs -->
+
+    <!-- Benchmark panel (quantitative stats) -->
+    <div class="view-panel" id="panel-benchmark">
+      <div class="benchmark-view" id="benchmark-content">
+        <div class="benchmark-empty">No benchmark data available. Run a benchmark to see quantitative results here.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Done overlay -->
+  <div class="done-overlay" id="done-overlay">
+    <div class="done-card">
+      <h2>Review Complete</h2>
+      <p>Your feedback has been saved. Go back to your Claude Code session and tell Claude you're done reviewing.</p>
+      <div class="btn-row">
+        <button onclick="closeDoneDialog()">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // ---- Embedded data (injected by generate_review.py) ----
+    const EMBEDDED_DATA = {"skill_name": "sat-question-generator", "runs": [{"id": "eval-hard-algebra-linear-eq-with_skill", "prompt": "(No prompt found)", "eval_id": null, "outputs": [{"name": "batch.json", "type": "text", "content": "[\n  {\n    \"section\": \"math\",\n    \"skill_category\": \"Algebra\",\n    \"skill_subcategory\": \"Linear equations in two variables\",\n    \"difficulty\": 3,\n    \"module_type\": \"standard\",\n    \"question_text\": \"Line k is defined by the equation 4x + cy = 20, where c is a constant, and line k passes through the point (2, 4). Line m is perpendicular to line k and passes through the point (4, -3). Which of the following is an equation of line m?\",\n    \"answer_a\": \"x - 2y = 10\",\n    \"answer_b\": \"3x - 4y = 24\",\n    \"answer_c\": \"4x + 3y = 7\",\n    \"answer_d\": \"3x + 4y = 0\",\n    \"correct_answer\": \"B\",\n    \"explanation\": \"First find c using the point (2, 4) on line k: 4(2) + c(4) = 20, so 8 + 4c = 20, giving c = 3. Line k is therefore 4x + 3y = 20, which in slope-intercept form is y = -4/3x + 20/3, so line k has slope -4/3. Since line m is perpendicular to line k, its slope is the negative reciprocal of -4/3, which is 3/4. Using point-slope form with (4, -3): y - (-3) = 3/4(x - 4), so y + 3 = 3/4x - 3, giving y = 3/4x - 6. Multiplying by 4: 4y = 3x - 24, which rearranges to 3x - 4y = 24.\",\n    \"distractor_a_explanation\": \"This results from swapping the coordinates of the given point when solving for c -- substituting x = 4, y = 2 instead of x = 2, y = 4 into 4x + cy = 20, which gives 16 + 2c = 20, so c = 2. This makes line k appear to be 4x + 2y = 20 (slope -2) instead of the correct 4x + 3y = 20. Taking the (now incorrect) perpendicular slope of 1/2 and applying point-slope form correctly with (4, -3) produces y = 1/2x - 5, or x - 2y = 10 -- a wrong final answer built on a wrong value of c.\",\n    \"distractor_b_explanation\": \"\",\n    \"distractor_c_explanation\": \"This results from correctly finding c = 3 and correctly identifying line k's slope as -4/3, but then mistakenly using that same slope for line m (as if line m were parallel to line k) instead of using the perpendicular slope. Applying point-slope form with slope -4/3 through (4, -3) gives y = -4/3x + 7/3, or 4x + 3y = 7.\",\n    \"distractor_d_explanation\": \"This results from correctly finding c = 3 and line k's slope of -4/3, but then taking the plain reciprocal of the slope (flipping the fraction to -3/4) without negating the sign, confusing \\\"negative reciprocal\\\" with an ordinary reciprocal. Applying point-slope form with slope -3/4 through (4, -3) gives y = -3/4x, or 3x + 4y = 0.\",\n    \"is_diagnostic\": false,\n    \"is_active\": true\n  },\n  {\n    \"section\": \"math\",\n    \"skill_category\": \"Algebra\",\n    \"skill_subcategory\": \"Linear equations in two variables\",\n    \"difficulty\": 3,\n    \"module_type\": \"standard\",\n    \"question_text\": \"Line \u2113 has a y-intercept of (0, k + 1) and passes through the point (6, 2k \u2212 3) in the xy-plane. Line m is defined by the equation 6x \u2212 9y = 27. If line \u2113 is parallel to line m, what is the value of k?\",\n    \"answer_a\": \"-5\",\n    \"answer_b\": \"0\",\n    \"answer_c\": \"3\",\n    \"answer_d\": \"8\",\n    \"correct_answer\": \"D\",\n    \"explanation\": \"First find the slope of line m by rewriting 6x \u2212 9y = 27 in slope-intercept form: \u22129y = \u22126x + 27, so y = (2/3)x \u2212 3. The slope of line m is 2/3. Next, find the slope of line \u2113 using its two given pieces of information -- the y-intercept (0, k + 1) and the point (6, 2k \u2212 3): slope = [(2k \u2212 3) \u2212 (k + 1)] / (6 \u2212 0) = (k \u2212 4)/6. Since \u2113 is parallel to m, the slopes must be equal: (k \u2212 4)/6 = 2/3. Multiplying both sides by 6 gives k \u2212 4 = 4, so k = 8.\",\n    \"distractor_a_explanation\": \"This results from confusing parallel with perpendicular lines. A student who correctly finds the slope of line m as 2/3 but mistakenly uses its negative reciprocal, \u22123/2, sets up (k \u2212 4)/6 = \u22123/2, giving k \u2212 4 = \u22129, so k = \u22125.\",\n    \"distractor_b_explanation\": \"This results from mis-extracting the slope of line m from standard form with a sign error (e.g., mishandling the negative coefficient on y and getting \u22122/3 instead of +2/3). Using the correct slope expression for \u2113, (k \u2212 4)/6 = \u22122/3 gives k \u2212 4 = \u22124, so k = 0.\",\n    \"distractor_c_explanation\": \"This results from using the wrong combination of coordinates for the given point -- swapping its x- and y-values, treating (6, 2k \u2212 3) as if it were (2k \u2212 3, 6), instead of pairing it correctly with the y-intercept (0, k + 1). This gives slope = [6 \u2212 (k + 1)] / [(2k \u2212 3) \u2212 0] = (5 \u2212 k)/(2k \u2212 3). Setting this equal to 2/3: 3(5 \u2212 k) = 2(2k \u2212 3), so 15 \u2212 3k = 4k \u2212 6, giving 21 = 7k, so k = 3.\",\n    \"distractor_d_explanation\": \"\",\n    \"is_diagnostic\": false,\n    \"is_active\": true\n  },\n  {\n    \"section\": \"math\",\n    \"skill_category\": \"Algebra\",\n    \"skill_subcategory\": \"Linear equations in two variables\",\n    \"difficulty\": 3,\n    \"module_type\": \"standard\",\n    \"question_text\": \"In the xy-plane, line \u2113 is defined by the equation ax + by = 40, where a and b are positive constants. The x-intercept of line \u2113 is 3 times its y-intercept, and line \u2113 passes through the point (2, 6). What is the value of a?\",\n    \"answer_a\": \"2\",\n    \"answer_b\": \"6\",\n    \"answer_c\": \"10\",\n    \"answer_d\": \"10/3\",\n    \"correct_answer\": \"A\",\n    \"explanation\": \"Find the intercepts of ax + by = 40 in terms of a and b. Setting y = 0 gives the x-intercept x = 40/a. Setting x = 0 gives the y-intercept y = 40/b. The condition 'x-intercept is 3 times the y-intercept' means 40/a = 3(40/b), so 40/a = 120/b. Cross-multiplying gives 40b = 120a, so b = 3a. Now use the point (2, 6) on the line: a(2) + b(6) = 40, i.e., 2a + 6b = 40. Substituting b = 3a gives 2a + 6(3a) = 2a + 18a = 20a = 40, so a = 2 (and b = 6). Checking: the line is 2x + 6y = 40, or x + 3y = 20, which has x-intercept 20 and y-intercept 20/3, and indeed 20 = 3(20/3). The point (2, 6) satisfies 2 + 3(6) = 20. So a = 2.\",\n    \"distractor_a_explanation\": \"\",\n    \"distractor_b_explanation\": \"This is the correct value of b, not a. A student who correctly derives b = 3a and correctly solves 2a + 6b = 40 to get a = 2 and b = 6 but then reports b instead of a has confused which unknown the question is asking for -- both a and b were solved for along the way, and this choice answers for the wrong one.\",\n    \"distractor_c_explanation\": \"This comes from inverting the intercept-coefficient relationship. Because x-intercept = 40/a and y-intercept = 40/b, a larger intercept actually corresponds to a smaller coefficient (they are inversely related). A student who assumes intercepts scale directly with their coefficients would incorrectly set a = 3b (instead of the correct b = 3a). Substituting a = 3b into 2a + 6b = 40 gives 2(3b) + 6b = 12b = 40, so b = 10/3 and a = 3b = 10. This misinterprets what the coefficients a and b represent in relation to the intercepts.\",\n    \"distractor_d_explanation\": \"This results from reversing the coordinates of the given point, substituting x = 6 and y = 2 instead of x = 2 and y = 6 into ax + by = 40. Using the correct relationship b = 3a but the swapped point gives 6a + 2b = 40, so 6a + 2(3a) = 12a = 40, and a = 10/3. This error confuses which coordinate of the ordered pair (2, 6) represents x and which represents y.\",\n    \"is_diagnostic\": false,\n    \"is_active\": true\n  }\n]\n"}, {"name": "summary.md", "type": "text", "content": "# Batch Summary \u2014 SAT Math, Algebra: Linear equations in two variables, Difficulty: Hard (3)\n\n**Requested:** 3 questions\n**Accepted into final batch:** 3 questions\n**Discarded permanently:** 0 (all discarded *drafts* along the way were replaced by successful attempts within the same question slot \u2014 see below)\n\n## Pipeline outcome per question slot\n\n### Question 1 \u2014 final: perpendicular-line equation with unknown coefficient\n- **Draft 1** (\"landscaping crew planting trees\" word problem, equation handed to student): Critic **PASS**. Calibrator **downgraded Hard to Medium** (\"no computation needed, only one inference step\"). Regenerated once per the skill's flagged-question process (kept same underlying scenario, asked generator to fix the specific calibrator complaint).\n- **Draft 2** (same tree scenario, revised to require deriving the equation via a matched-group ratio): Critic **PASS**. Calibrator **again downgraded Hard to Medium** (\"single core concept, arithmetic-slip distractors\"). This was the second calibration failure for this scenario, so per the skill's rule (\"if it fails a second time, discard it and note it in your summary\"), the tree/labor-hours concept was **discarded**.\n- **Draft 3** (fresh concept: shipping-fee word problem, derive rate from two data points, transfer to a second scenario): Critic **PASS**. Calibrator **downgraded Hard to Medium** (\"shared-slope relationship stated outright, careless-error-style distractors\"). Regenerated once (switched to an abstract standard-form-equation format instead of a word problem).\n- **Draft 4** (abstract: line ax+by=24, x- and y-intercepts related, solve for a minus b): Critic **PASS**. Calibrator **again downgraded Hard to Medium** (\"intercepts decouple a and b completely, no real system to solve, distractors are simple slip-ups\"). Second calibration failure for this concept \u2014 **discarded**.\n- **Draft 5** (fresh concept: perpendicular line through a given point): Critic **PASS**. Calibrator **downgraded Hard to Medium** (\"standard, expected route for this templated question type\"). Regenerated once, adding a hidden first step (an unknown coefficient c in the original line's equation that must be solved for from a given point before the perpendicular-line logic can even start).\n- **Draft 6 (accepted)**: Line k: 4x + cy = 20 through (2,4); line m perpendicular to k through (4,-3); find line m's equation. Critic **PASS** (exactly one defensible answer, B). Calibrator **confirmed Hard is honest** (\"five steps across three concepts, non-obvious setup since c must be solved first, distractors require genuine conceptual understanding, not just arithmetic\"). **Accepted at difficulty 3.**\n- Note: Draft 6's raw generator output had a field-labeling bug (the explanation for why answer C was wrong was placed under the distractor_b_explanation key instead of distractor_c_explanation, leaving distractor_c_explanation empty even though B was correct_answer). I verified the underlying math and distractor logic were correct and fixed the field mapping directly (a deterministic correction, not a re-generation) before assembling the final batch.\n\n### Question 2 \u2014 final: parallel-line condition with unknown embedded in two structural pieces\n- **Draft 1** (line through two numeric-in-k points, parallel to a given line, solve for k): Critic **PASS**. Calibrator **downgraded Hard to Medium** (\"standard 'parallel lines, set slopes equal' task, fully telegraphed, no non-obvious insight\"). This was the first calibration failure for this concept, so one regeneration attempt was used.\n- **Draft 2 (accepted)**: Same parallel-line core concept, but k now appears in both the y-intercept (0, k+1) and a separate point (6, 2k-3), so the student must combine two pieces of information about the same unknown before applying the parallel-slope condition. Critic **PASS** (exactly one defensible answer, D). Calibrator **confirmed Hard is honest** (\"three concepts chained: standard-to-slope-intercept conversion, slope formula with algebraic coordinates, parallel condition; distractors punish conceptual gaps, not arithmetic slips\"). **Accepted at difficulty 3.**\n- Note: this draft's raw generator output had \"correct_answer\": \"d\" in lowercase, violating the schema's A/B/C/D requirement. I corrected this to uppercase \"D\" directly (deterministic fix, verified against the math) before finalizing.\n\n### Question 3 \u2014 final: intercept-ratio condition combined with a point condition\n- **Draft 1 (accepted on first attempt)**: Line ax + by = 40 (a,b positive constants); x-intercept is 3x the y-intercept; line passes through (2,6); find a. Critic **PASS** (exactly one defensible answer, A). Calibrator **confirmed Hard is honest** on the first pass (\"multi-step system-solving plus reversal-trap distractors push it genuinely into Hard territory\"). **Accepted at difficulty 3** with no regeneration needed.\n- Note: this draft's raw generator output omitted the required module_type, is_diagnostic, and is_active fields entirely. I added them (module_type: \"standard\", is_diagnostic: false, is_active: true, matching the defaults specified in every generation prompt) before finalizing \u2014 a deterministic schema fix, not a content change.\n\n## Totals\n- Questions requested: 3\n- Questions accepted into final batch: 3 (all difficulty 3 / Hard, all Critic PASS, all Calibrator-confirmed Hard)\n- Questions regenerated once and then passed: 2 (final Q1 draft, final Q2 draft \u2014 both passed critique+calibration after their one allowed regeneration)\n- Question concepts discarded after two calibration failures: 2 (Q1's original tree/labor-hours word problem, and Q1's second attempt at an abstract-intercept a-minus-b question) \u2014 both replaced by a new concept for the same slot, which is why the final batch still totals 3/3 rather than falling short\n- Structural/schema bugs caught and fixed by hand (not requiring re-generation): 3 (a distractor-field mislabeling in Q1's final draft, a lowercase correct_answer value in Q2's final draft, and missing module_type/is_diagnostic/is_active fields in Q3's draft)\n\n## Deviation from the skill's literal instructions (and why)\n\nThe skill's \"Handling flagged questions\" section describes discard-after-second-failure specifically for Critic flags. None of the questions in this batch were ever flagged by the Critic \u2014 every single draft had exactly one defensible answer and passed adversarial review on its first attempt. The repeated failures were all at the Calibration stage: the Calibrator consistently judged early drafts as Medium (2) rather than the requested Hard (3).\n\nThe skill's literal instruction for a calibration mismatch is: \"correct the difficulty field rather than discarding the question... a mistagged-but-otherwise-valid question is still usable once relabeled.\" I did not follow this literally, because the user's request was specifically for 3 Hard-difficulty questions \u2014 mechanically relabeling a downgraded question to Medium and including it anyway would have silently under-delivered on the actual ask (2 or fewer genuinely Hard questions instead of 3). Instead, I treated calibration downgrades the same way the skill treats Critic flags: one regeneration attempt addressing the calibrator's specific, quoted reasoning, and if that failed a second time, discarding the concept and starting a new one for that slot \u2014 always keeping the target of 3 Hard questions rather than diluting the count with relabeled Medium questions. This judgment call is documented in full, with every calibrator verdict quoted verbatim, in transcript.md.\n\n## Validation\n\nscripts/validate_batch.py was run against the final batch.json:\n\n```\n3/3 questions passed structural validation.\n```\nExit code: 0 (no structural failures \u2014 all required fields present, exactly one correct_answer per question, four distinct non-empty answer choices, all three required distractor explanations present for each question).\n"}], "grading": {"expectations": [{"text": "Every question has exactly one defensibly correct answer among the four choices", "passed": true, "evidence": "Critic subagent independently argued all four choices per question and converged on the generator's intended answer for all 3 questions on first pass (transcript.md)."}, {"text": "Output is schema-valid and ready for direct Supabase import", "passed": true, "evidence": "scripts/validate_batch.py reports 3/3 questions passed structural validation."}, {"text": "Each wrong choice has an explanation citing a specific, nameable error", "passed": true, "evidence": "e.g. Q1 distractor_a_explanation names the exact coordinate-swap error and re-derives the resulting wrong slope; not generic 'this is wrong' text."}, {"text": "Work includes independent verification, not just the generator's self-report", "passed": true, "evidence": "transcript.md documents 8 Generator + 8 Critic + 8 Calibrator subagent calls; Calibrator downgraded multiple drafts from Hard to Medium before 3 genuinely Hard questions were accepted."}], "summary": {"passed": 4, "failed": 0, "total": 4, "pass_rate": 1.0}, "timing": {"total_duration_seconds": 1725.0}, "notes": "Took 8 generation attempts across 3 question concepts because the Calibrator repeatedly rejected drafts as not genuinely Hard. This is the pipeline doing its job, but it means wall-clock cost per accepted Hard math question is meaningfully higher than for questions where the first draft holds up."}}, {"id": "eval-hard-algebra-linear-eq-without_skill", "prompt": "(No prompt found)", "eval_id": null, "outputs": [{"name": "batch.json", "type": "text", "content": "[\n  {\n    \"question_text\": \"In the system of equations below, k is a constant.\\n\\n6x + ky = 15\\n2x + 5y = 7\\n\\nFor which value of k does the system of equations have no solution?\",\n    \"answer_a\": \"3\",\n    \"answer_b\": \"6\",\n    \"answer_c\": \"10\",\n    \"answer_d\": \"15\",\n    \"correct_answer\": \"D\",\n    \"explanation\": \"A system of two linear equations has no solution when the two lines are parallel but not identical, which happens when the ratio of the x-coefficients equals the ratio of the y-coefficients, but that common ratio does not also equal the ratio of the constant terms. Setting the ratio of x-coefficients equal to the ratio of y-coefficients: 6/2 = k/5, so 3 = k/5, giving k = 15. To confirm the lines are not identical, substitute k = 15 into the first equation: 6x + 15y = 15, which simplifies (dividing by 3) to 2x + 5y = 5. This has the same left-hand side as the second equation, 2x + 5y = 7, but a different constant (5 \u2260 7), confirming the lines are parallel and distinct. Therefore, k = 15 gives a system with no solution.\",\n    \"distractor_explanation_a\": \"3 is the value of the ratio 6/2 itself, not the value of k. A student may correctly compute that the x-coefficients are in a 3:1 ratio with the y-coefficients but stop there instead of using this ratio to solve the proportion 6/2 = k/5 for k.\",\n    \"distractor_explanation_b\": \"6 is simply the x-coefficient copied from the first equation. This answer likely comes from assuming k must match an existing coefficient in the system rather than solving the proportion that sets the coefficient ratios equal.\",\n    \"distractor_explanation_c\": \"10 comes from multiplying the wrong pair of coefficients, such as the x-coefficient of the second equation (2) by the y-coefficient of the second equation (5), instead of correctly solving 6/2 = k/5, which requires setting up the proportion between corresponding coefficients across the two equations.\"\n  },\n  {\n    \"question_text\": \"On Friday, a community theater sold 3 adult tickets and 2 child tickets for a total of $78. On Saturday, the theater sold 2 adult tickets and 3 child tickets for a total of $72. The price of each type of ticket was the same on both days. What was the price, in dollars, of one adult ticket?\",\n    \"answer_a\": \"12\",\n    \"answer_b\": \"15\",\n    \"answer_c\": \"16\",\n    \"answer_d\": \"18\",\n    \"correct_answer\": \"D\",\n    \"explanation\": \"Let a be the price of an adult ticket and c be the price of a child ticket. The two days of sales give the system: 3a + 2c = 78 and 2a + 3c = 72. To eliminate c, multiply the first equation by 3 and the second equation by 2: 9a + 6c = 234 and 4a + 6c = 144. Subtracting the second from the first: 5a = 90, so a = 18. (Substituting back confirms c = 12, and 3(18) + 2(12) = 78 and 2(18) + 3(12) = 72, both true.) The price of one adult ticket is $18.\",\n    \"distractor_explanation_a\": \"12 is the price of one child ticket (c = 12), not the adult ticket. This choice results from correctly solving the system but reporting the value of the wrong variable.\",\n    \"distractor_explanation_b\": \"15 comes from adding the two equations together to get 5a + 5c = 150, so a + c = 30, and then incorrectly assuming the two ticket prices are equal and dividing by 2. Since adult and child ticket prices are not the same, this shortcut does not give a valid answer.\",\n    \"distractor_explanation_c\": \"16 results from an arithmetic slip while eliminating c. After correctly setting up 9a + 6c = 234 and 4a + 6c = 144, a student might subtract the constants incorrectly (234 \u2212 144 = 80 instead of 90), giving 5a = 80 and a = 16 instead of the correct a = 18.\"\n  },\n  {\n    \"question_text\": \"ax - 6y = 15\\n4x - by = 30\\n\\nIn the system of equations above, a and b are constants. If the system has infinitely many solutions, what is the value of a + b?\",\n    \"answer_a\": \"8\",\n    \"answer_b\": \"11\",\n    \"answer_c\": \"14\",\n    \"answer_d\": \"18\",\n    \"correct_answer\": \"C\",\n    \"explanation\": \"A system of two linear equations has infinitely many solutions only when the second equation is a scalar multiple of the first. Comparing the constant terms, 30 = 2(15), so the scale factor is 2. Multiplying the entire first equation by 2 gives 2ax - 12y = 30. Matching this to the second equation, 4x - by = 30, the coefficients of x must be equal: 2a = 4, so a = 2. The coefficients of y must also be equal: -12 = -b, so b = 12. Therefore, a + b = 2 + 12 = 14.\",\n    \"distractor_explanation_a\": \"8 results from correctly solving 2a = 4 to get a = 2, but then finding b by matching coefficients directly from the original, unscaled first equation (setting b = 6 from -6y) instead of first multiplying the equation by the scale factor of 2 to get b = 12. This gives the incorrect sum a + b = 2 + 6 = 8.\",\n    \"distractor_explanation_b\": \"11 results from computing the scale factor upside down, using 15/30 = 1/2 instead of the correct 30/15 = 2. Applying this inverted factor gives a = 4 \u00f7 (1/2) = 8 and b = 6 \u00d7 (1/2) = 3, leading to the incorrect sum a + b = 8 + 3 = 11.\",\n    \"distractor_explanation_d\": \"18 results from misreading the y-coefficient of the first equation (-6) as the value of a, instead of solving 2a = 4 for a = 2. Combining this misread value (a = 6) with the correctly found b = 12 gives the incorrect sum a + b = 6 + 12 = 18.\"\n  }\n]\n"}], "grading": {"expectations": [{"text": "Every question has exactly one defensibly correct answer among the four choices", "passed": true, "evidence": "Manual inspection found no second defensible answer in any of the 3 questions in this run."}, {"text": "Output is schema-valid and ready for direct Supabase import", "passed": false, "evidence": "scripts/validate_batch.py reports 0/3 passed: missing section, skill_category, skill_subcategory, difficulty, module_type, is_diagnostic, is_active on every question, and distractor fields named distractor_explanation_a/b/c instead of the required distractor_a_explanation/b/c/d_explanation."}, {"text": "Each wrong choice has an explanation citing a specific, nameable error", "passed": true, "evidence": "Content is present and specific (e.g. Q2's distractor_explanation_b explains the 'average the two totals' error), just under non-schema field names."}, {"text": "Work includes independent verification, not just the generator's self-report", "passed": false, "evidence": "Run was explicitly instructed to be a single naive pass with no critique or calibration step, per the eval design."}], "summary": {"passed": 2, "failed": 2, "total": 4, "pass_rate": 0.5}, "timing": {"total_duration_seconds": 185.2}, "notes": "Content quality was reasonable in this particular run, but the output cannot go into Supabase as-is and there is no independent record that it was checked for correctness -- you'd be trusting a single unverified pass."}}, {"id": "eval-medium-boundaries-grammar-with_skill", "prompt": "(No prompt found)", "eval_id": null, "outputs": [{"name": "batch.json", "type": "text", "content": "[\n  {\n    \"section\": \"reading_writing\",\n    \"skill_category\": \"Standard English Conventions\",\n    \"skill_subcategory\": \"Boundaries\",\n    \"difficulty\": 2,\n    \"module_type\": \"standard\",\n    \"question_text\": \"The marine biologist Sylvia Earle has spent decades advocating for ocean conservation. Her research expeditions have taken her to some of the deepest parts of the ocean___she has also worked to establish marine protected areas that limit human activity in fragile ecosystems.\\n\\nWhich choice completes the text so that it conforms to the conventions of Standard English?\",\n    \"answer_a\": \"ocean, she has also worked to establish marine protected areas that limit human activity in fragile ecosystems.\",\n    \"answer_b\": \"ocean; she has also worked to establish marine protected areas that limit human activity in fragile ecosystems.\",\n    \"answer_c\": \"ocean she has also worked to establish marine protected areas that limit human activity in fragile ecosystems.\",\n    \"answer_d\": \"ocean; and she has also worked to establish marine protected areas that limit human activity in fragile ecosystems.\",\n    \"correct_answer\": \"B\",\n    \"explanation\": \"Both 'Her research expeditions have taken her to some of the deepest parts of the ocean' and 'she has also worked to establish marine protected areas that limit human activity in fragile ecosystems' are independent clauses, each capable of standing alone as a complete sentence. When two independent clauses are closely related in meaning and no coordinating conjunction is used, a semicolon is the correct mark to join them. Choice B supplies this semicolon correctly.\",\n    \"distractor_a_explanation\": \"This choice joins the two independent clauses with only a comma, creating a comma splice. A comma alone cannot connect two independent clauses; doing so violates the rule against comma splices.\",\n    \"distractor_c_explanation\": \"This choice provides no punctuation at all between the two independent clauses, creating a run-on (fused) sentence. Two independent clauses can never be joined with no punctuation or connecting word.\",\n    \"distractor_d_explanation\": \"This choice pairs a semicolon with the coordinating conjunction 'and.' A semicolon must join two independent clauses on its own; adding a coordinating conjunction after it is a nonstandard, redundant construction (the correct pairing would be a comma plus 'and,' not a semicolon plus 'and').\",\n    \"is_diagnostic\": false,\n    \"is_active\": true\n  },\n  {\n    \"section\": \"reading_writing\",\n    \"skill_category\": \"Standard English Conventions\",\n    \"skill_subcategory\": \"Boundaries\",\n    \"difficulty\": 2,\n    \"module_type\": \"standard\",\n    \"question_text\": \"Before the invention of synthetic dyes, textile makers relied on a narrow set of natural sources for color _____ indigo plants, cochineal insects, and madder root. Each material required a laborious extraction process, yet artisans prized the rich, stable hues these sources produced.\\n\\nWhich choice completes the underlined portion of the text with the most logical and precise use of punctuation?\\n\\nUnderlined portion: \\\"for color _____ indigo plants, cochineal insects, and madder root\\\"\",\n    \"answer_a\": \"for color: indigo plants, cochineal insects, and madder root\",\n    \"answer_b\": \"for color, indigo plants, cochineal insects, and madder root\",\n    \"answer_c\": \"for color; indigo plants, cochineal insects, and madder root\",\n    \"answer_d\": \"for color: indigo plants; cochineal insects, and madder root\",\n    \"correct_answer\": \"A\",\n    \"explanation\": \"\\\"Textile makers relied on a narrow set of natural sources for color\\\" is a complete independent clause. A colon may correctly follow a complete independent clause to introduce a list, explanation, or elaboration -- here, the list of natural dye sources (indigo plants, cochineal insects, and madder root). Choice A places a single colon directly after \\\"color\\\" and then separates the three list items with plain commas throughout, which is exactly the correct structure.\",\n    \"distractor_b_explanation\": \"A comma cannot be used to introduce a list following a complete independent clause. Doing so here creates an unclear, run-on-like construction that fails to formally separate the independent clause from the list that explains it; a colon is required for this function, not a comma.\",\n    \"distractor_c_explanation\": \"A semicolon must join two independent clauses. \\\"Indigo plants, cochineal insects, and madder root\\\" has no subject-verb structure of its own and is not an independent clause, so joining it to the preceding clause with a semicolon violates the rule that semicolons require independent clauses on both sides.\",\n    \"distractor_d_explanation\": \"Choice D correctly opens with a colon after \\\"color,\\\" but it then inserts a semicolon between the first two list items (\\\"indigo plants; cochineal insects\\\") before reverting to a comma before the final item. Semicolons are only used to separate list items when at least one item contains an internal comma (acting as a \\\"super-comma\\\"); none of these three items does, so mixing a semicolon into an otherwise comma-separated list is inconsistent and incorrect.\",\n    \"is_diagnostic\": false,\n    \"is_active\": true\n  },\n  {\n    \"section\": \"reading_writing\",\n    \"skill_category\": \"Standard English Conventions\",\n    \"skill_subcategory\": \"Boundaries\",\n    \"difficulty\": 2,\n    \"module_type\": \"standard\",\n    \"question_text\": \"Henrietta Leavitt ______ discovered that a star's pulsation period reveals its true brightness, a finding that later enabled astronomers to calculate distances across the universe. Her calculations, published in 1912, remain fundamental to modern astronomy.\\n\\nWhich choice completes the text so that it conforms to the conventions of Standard English?\",\n    \"answer_a\": \", a Harvard astronomer who cataloged thousands of star photographs,\",\n    \"answer_b\": \"\u2014 a Harvard astronomer who cataloged thousands of star photographs,\",\n    \"answer_c\": \", a Harvard astronomer who cataloged thousands of star photographs\",\n    \"answer_d\": \"a Harvard astronomer who cataloged thousands of star photographs\",\n    \"correct_answer\": \"A\",\n    \"explanation\": \"The phrase \\\"a Harvard astronomer who cataloged thousands of star photographs\\\" is a nonessential appositive describing Henrietta Leavitt: it adds extra information but isn't needed to identify her, since her name already does that. A nonessential element that interrupts the middle of a sentence must be enclosed by a matched pair of boundary marks, either two commas or two dashes, placed symmetrically on both sides. Choice A opens with a comma before \\\"a\\\" and closes with a comma after \\\"photographs,\\\" correctly setting off the interrupter on both sides while leaving the main clause \\\"Henrietta Leavitt discovered that...\\\" intact and grammatical.\",\n    \"distractor_b_explanation\": \"This choice opens the interrupter with an em dash but closes it with a comma. Paired boundary marks must match in kind: two commas or two dashes, not one of each. Mixing an opening dash with a closing comma violates the rule that a matched pair of the same mark is required to set off a nonessential element, even though each mark individually can perform that function.\",\n    \"distractor_c_explanation\": \"This choice supplies an opening comma before \\\"a\\\" but omits the closing mark after \\\"photographs,\\\" so the appositive runs directly into the verb \\\"discovered\\\" with no separation. A mid-sentence nonessential element requires punctuation on both sides; marking only the opening boundary and leaving the closing boundary unmarked is an incomplete, ungrammatical pairing.\",\n    \"distractor_d_explanation\": \"This choice includes no punctuation at all, so the appositive is fused to both the subject \\\"Leavitt\\\" and the verb \\\"discovered\\\" with no indication that it is a nonessential interruption. Without any boundary marks, the reader cannot tell where the interrupter begins and ends, and the sentence fails to signal the nonrestrictive break required around it.\",\n    \"is_diagnostic\": false,\n    \"is_active\": true\n  }\n]\n"}, {"name": "summary.md", "type": "text", "content": "# Batch Summary \u2014 Standard English Conventions / Boundaries (Medium)\n\n**Domain:** reading_writing\n**Skill category:** Standard English Conventions\n**Skill subcategory:** Boundaries (sentence boundaries and punctuation)\n**Difficulty:** 2 (medium)\n**Requested count:** 3\n**Pipeline:** Generate -> Adversarial Critique -> Difficulty Calibration (run per question, each stage a separate isolated subagent)\n\n## Results\n\n| # | Topic | Boundary concept tested | Correct | Critique result | Calibration result | Final status |\n|---|-------|--------------------------|---------|------------------|---------------------|---------------|\n| 1 | Sylvia Earle / ocean conservation | Independent clauses joined with semicolon vs. comma splice vs. run-on vs. semicolon+conjunction | B | PASS on first attempt (critic independently chose B) | Confirmed difficulty 2 | Accepted |\n| 2 | Natural dye sources for textiles | Colon introducing a list after an independent clause vs. comma/semicolon misuse vs. inconsistent list punctuation | A | FLAGGED on first attempt (structural flaw, not an ambiguous-answer flaw -- see below); PASS after one regeneration | Confirmed difficulty 2 (post-regeneration) | Accepted (regenerated once) |\n| 3 | Henrietta Leavitt / astronomy | Matched comma pair setting off a nonrestrictive appositive vs. mismatched dash/comma pair vs. missing closing mark vs. no marks | A | PASS on first attempt (critic independently chose A) | Confirmed difficulty 2 | Accepted |\n\n## Totals\n\n- Questions requested: 3\n- Questions accepted into final batch: 3\n- Questions regenerated once and passed: 1 (Question 2)\n- Questions discarded after two failures: 0\n\n## Why Question 2 was flagged and regenerated\n\nThe first draft of Question 2 embedded the correct colon directly in the surrounding passage text (\"...for color: indigo plants, cochineal insects, and madder root...\") and then asked the reader to choose among rewritten versions of that same \"underlined portion.\" The adversarial critic determined that:\n\n1. Choice A was character-for-character identical to what was already printed in the passage, with no \"NO CHANGE\" label to signal that intentionally (standard SAT convention). This meant a test-taker could select the right answer by pattern-matching against the passage instead of applying the colon rule.\n2. Distractor D deleted the word \"color\" rather than varying punctuation only, confounding wording changes with punctuation changes and making it rejectable for the wrong reason (\"looks incomplete\") rather than the intended reason (colon misuse).\n\nBoth issues were formatting/construction flaws, not ambiguity in which answer was grammatically correct -- the critic was still able to identify exactly one defensible answer (A) even in the flawed version. Per the skill's \"Handling flagged questions\" procedure, this was still treated as a failure requiring one regeneration attempt (not discarded, since the flag was fixable without redoing the whole question).\n\nThe regeneration instruction given to the Generator was narrow and specific: replace the passage's baked-in colon with a genuine blank placeholder, and rewrite distractor D as a true minimal pair that preserves \"color\" and varies only punctuation (it now mixes a semicolon and commas inconsistently within the same simple list -- a real, nameable rule violation). The regenerated question was re-run through a fresh Critic subagent and passed cleanly (PASS, chosen answer A, no formatting flaws noted), then calibrated and confirmed at difficulty 2.\n\n## Validation\n\nscripts/validate_batch.py was run against batch.json:\n\n```\n3/3 questions passed structural validation.\n```\n\nNo missing fields, no invalid section/difficulty/correct_answer values, all four answer choices distinct in each question, and all required distractor explanations present for the three wrong choices in each question.\n\n## Notes on rigor\n\nBoundaries/grammar-punctuation questions are the category most prone to multiple-defensible-answer errors, so the adversarial critique step was run in full for every question (fresh, isolated subagent per critique, given only the question text and four choices -- never told which answer the generator intended). In two of three cases the critic independently converged on the same answer the generator intended, which is the expected PASS outcome. In the third case (Question 2) the critique step did its job: it did not find an ambiguous-answer problem, but it did catch a structural flaw that would have made the question too easy to game by pattern-matching against the passage rather than by testing the punctuation rule -- exactly the kind of issue this pipeline exists to surface. That question was fixed and re-verified rather than shipped as-is or discarded outright.\n"}], "grading": {"expectations": [{"text": "Every question has exactly one defensibly correct answer among the four choices", "passed": true, "evidence": "Critic independently verified all 3; Q2's first draft was FLAGGED for a structural flaw (correct choice was a verbatim match to the passage rather than requiring rule application) and was regenerated before landing in the batch -- documented in transcript.md."}, {"text": "Output is schema-valid and ready for direct Supabase import", "passed": true, "evidence": "scripts/validate_batch.py reports 3/3 questions passed structural validation."}, {"text": "Each wrong choice has an explanation citing a specific, nameable grammar/punctuation rule", "passed": true, "evidence": "e.g. Q3's distractor_d_explanation names the exact rule violated: 'a matched pair of the same mark is required... mixing an opening dash with a closing comma violates' that rule."}, {"text": "Work includes independent verification, not just the generator's self-report", "passed": true, "evidence": "1 of 3 questions was actually caught and fixed by the critique step -- this is the exact failure mode (Boundaries/grammar ambiguity) the pipeline was built to catch."}], "summary": {"passed": 4, "failed": 0, "total": 4, "pass_rate": 1.0}, "timing": {"total_duration_seconds": 897.5}, "notes": "This is the clearest evidence of the pipeline earning its cost: one question was flagged and fixed mid-run in exactly the skill category that originally motivated building this."}}, {"id": "eval-medium-boundaries-grammar-without_skill", "prompt": "(No prompt found)", "eval_id": null, "outputs": [{"name": "batch.json", "type": "text", "content": "[\n  {\n    \"question_text\": \"Marine biologists have long assumed that octopuses are solitary creatures, but recent underwater footage suggests otherwise. In warm coastal waters off eastern Australia, researchers recorded groups of gloomy octopuses gathering repeatedly at the same rocky ______\\n\\nWhich choice completes the text so that it conforms to the conventions of Standard English?\",\n    \"answer_a\": \"den, however the animals appeared to communicate through visible changes in skin color and posture.\",\n    \"answer_b\": \"den; the animals appeared to communicate through visible changes in skin color and posture.\",\n    \"answer_c\": \"den, the animals appeared to communicate through visible changes in skin color and posture.\",\n    \"answer_d\": \"den the animals appeared to communicate through visible changes in skin color and posture.\",\n    \"correct_answer\": \"B\",\n    \"explanation\": \"Both \\\"researchers recorded groups of gloomy octopuses gathering repeatedly at the same rocky den\\\" and \\\"the animals appeared to communicate through visible changes in skin color and posture\\\" are independent clauses\u2014each has its own subject and verb and could stand alone as a sentence. When two independent clauses are closely related in meaning, a semicolon is a correct way to join them without a coordinating conjunction, so choice B correctly separates the two clauses.\",\n    \"distractor_explanation_a\": \"\\\"However\\\" is a conjunctive adverb, not a coordinating conjunction, so it cannot be joined to the previous independent clause with only a comma. This produces a comma splice; a correct version would need a semicolon before \\\"however\\\" and a comma after it (\\\"den; however, the animals...\\\").\",\n    \"distractor_explanation_c\": \"A comma alone is not strong enough punctuation to join two independent clauses. Using only a comma here creates a comma splice.\",\n    \"distractor_explanation_d\": \"With no punctuation at all between the two independent clauses, this choice creates a fused (run-on) sentence, incorrectly merging two complete thoughts into one unbroken clause.\"\n  },\n  {\n    \"question_text\": \"Perched on a ridge above the town of Millbrook, the Ashgrove Observatory has drawn stargazers since it opened in 1935. Its original brass telescope, prized for decades by amateur astronomers, was retired from active use after newer digital instruments proved more precise. Although the observatory's original telescope was decommissioned in ______\\n\\nWhich choice completes the text so that it conforms to the conventions of Standard English?\",\n    \"answer_a\": \"1998. The building itself remains open to visitors, who can tour the historic dome and view photographs from the site's earliest astronomical surveys.\",\n    \"answer_b\": \"1998, the building itself remains open to visitors, who can tour the historic dome and view photographs from the site's earliest astronomical surveys.\",\n    \"answer_c\": \"1998; the building itself remains open to visitors, who can tour the historic dome and view photographs from the site's earliest astronomical surveys.\",\n    \"answer_d\": \"1998 the building itself remains open to visitors, who can tour the historic dome and view photographs from the site's earliest astronomical surveys.\",\n    \"correct_answer\": \"B\",\n    \"explanation\": \"\\\"Although the observatory's original telescope was decommissioned in 1998\\\" is a dependent (subordinate) clause\u2014it begins with the subordinating conjunction \\\"although\\\" and cannot stand alone as a sentence. \\\"The building itself remains open to visitors...\\\" is an independent clause. A comma is the correct punctuation to separate an introductory dependent clause from the independent clause that follows, making choice B correct.\",\n    \"distractor_explanation_a\": \"Ending the sentence with a period after \\\"1998\\\" leaves \\\"Although the observatory's original telescope was decommissioned in 1998\\\" standing alone as its own sentence. Because it begins with the subordinating conjunction \\\"although,\\\" it cannot function as a complete sentence, so this choice creates a sentence fragment.\",\n    \"distractor_explanation_c\": \"A semicolon must join two independent clauses. Since \\\"Although the observatory's original telescope was decommissioned in 1998\\\" is a dependent clause, not an independent one, a semicolon cannot correctly be used here.\",\n    \"distractor_explanation_d\": \"Omitting punctuation entirely after an introductory dependent clause is incorrect; a comma is required to signal the boundary between the introductory clause and the main clause that follows.\"\n  },\n  {\n    \"question_text\": \"The city's history museum recently unveiled a new exhibit featuring artifacts from three ancient trade hubs: Ephesus, in modern-day ______\\n\\nWhich choice completes the text so that it conforms to the conventions of Standard English?\",\n    \"answer_a\": \"Turkey, Palmyra, in present-day Syria; and Petra, in southern Jordan. According to curators, many of the pieces on display had never before left the countries where they were excavated.\",\n    \"answer_b\": \"Turkey; Palmyra, in present-day Syria; and Petra, in southern Jordan. According to curators, many of the pieces on display had never before left the countries where they were excavated.\",\n    \"answer_c\": \"Turkey. Palmyra, in present-day Syria; and Petra, in southern Jordan. According to curators, many of the pieces on display had never before left the countries where they were excavated.\",\n    \"answer_d\": \"Turkey: Palmyra, in present-day Syria; and Petra, in southern Jordan. According to curators, many of the pieces on display had never before left the countries where they were excavated.\",\n    \"correct_answer\": \"B\",\n    \"explanation\": \"This sentence presents a list of three items, and each item itself contains an internal comma (\\\"Ephesus, in modern-day Turkey,\\\" \\\"Palmyra, in present-day Syria,\\\" and \\\"Petra, in southern Jordan\\\"). When list items already contain commas, semicolons must be used to separate the items themselves so the boundaries between them stay clear. Choice B correctly uses a semicolon after \\\"Turkey,\\\" matching the semicolon already used before \\\"and Petra.\\\"\",\n    \"distractor_explanation_a\": \"Using a comma after \\\"Turkey\\\" is incorrect because commas are already used within each list item; a comma here fails to distinguish the boundary between one list item and the next, creating a confusing, ambiguous list.\",\n    \"distractor_explanation_c\": \"A period after \\\"Turkey\\\" ends the sentence, leaving \\\"Palmyra, in present-day Syria; and Petra, in southern Jordan\\\" without a main verb or subject performing an action tied to the earlier sentence, which is a sentence fragment.\",\n    \"distractor_explanation_d\": \"A colon has already been used earlier in the sentence to introduce the list (\\\"three ancient trade hubs:\\\"). A second colon cannot be used to separate individual items within that same list; colons introduce lists or explanations but do not function as item separators.\"\n  }\n]\n"}], "grading": {"expectations": [{"text": "Every question has exactly one defensibly correct answer among the four choices", "passed": true, "evidence": "Manual inspection found no second defensible answer in any of the 3 questions in this run."}, {"text": "Output is schema-valid and ready for direct Supabase import", "passed": false, "evidence": "scripts/validate_batch.py reports 0/3 passed: missing section, skill_category, skill_subcategory, difficulty, module_type, is_diagnostic, is_active, and wrong distractor field names on every question."}, {"text": "Each wrong choice has an explanation citing a specific, nameable grammar/punctuation rule", "passed": true, "evidence": "Content is present and specific in this run (e.g. Q3 correctly explains the internal-comma-in-list-items rule for semicolons)."}, {"text": "Work includes independent verification, not just the generator's self-report", "passed": false, "evidence": "Run was explicitly instructed to be a single naive pass with no critique step, per the eval design."}], "summary": {"passed": 2, "failed": 2, "total": 4, "pass_rate": 0.5}, "timing": {"total_duration_seconds": 175.0}, "notes": "Worth being honest: this particular baseline run did not reproduce an obvious multiple-answer bug -- the model did reasonably well on content this time. The concrete, repeatable gap is schema-readiness and the absence of any verification record, not necessarily 'the questions were wrong.' Ambiguity errors are the kind of thing that show up intermittently across many generations, which is exactly why an automated, always-on critique step matters more than any single spot-check can tell you."}}], "previous_feedback": {}, "previous_outputs": {}, "benchmark": {"metadata": {"skill_name": "sat-question-generator", "skill_path": "sat-question-generator", "executor_model": "claude-sonnet-5", "analyzer_model": "claude-sonnet-5", "timestamp": "2026-08-11T00:00:00Z", "evals_run": ["hard-algebra-linear-eq", "medium-boundaries-grammar"], "runs_per_configuration": 1}, "runs": [{"eval_id": 1, "eval_name": "hard-algebra-linear-eq", "configuration": "with_skill", "run_number": 1, "result": {"pass_rate": 1.0, "passed": 4, "failed": 0, "total": 4, "time_seconds": 1725.0, "tokens": 129048, "tool_calls": 69, "errors": 0}, "expectations": [{"text": "Every question has exactly one defensibly correct answer", "passed": true, "evidence": "Critic verified all 3 independently"}, {"text": "Schema-valid, ready for Supabase import", "passed": true, "evidence": "validate_batch.py: 3/3 passed"}, {"text": "Distractor explanations cite specific rules", "passed": true, "evidence": "e.g. coordinate-swap error re-derived in Q1"}, {"text": "Independent verification performed", "passed": true, "evidence": "24 subagent calls documented in transcript.md"}], "notes": ["8 generation attempts needed across 3 concepts -- Calibrator rejected several drafts as not genuinely Hard"]}, {"eval_id": 1, "eval_name": "hard-algebra-linear-eq", "configuration": "without_skill", "run_number": 1, "result": {"pass_rate": 0.5, "passed": 2, "failed": 2, "total": 4, "time_seconds": 185.2, "tokens": 38087, "tool_calls": 2, "errors": 0}, "expectations": [{"text": "Every question has exactly one defensibly correct answer", "passed": true, "evidence": "No ambiguity found on manual inspection in this run"}, {"text": "Schema-valid, ready for Supabase import", "passed": false, "evidence": "validate_batch.py: 0/3 passed -- missing 7 required fields, wrong distractor field names"}, {"text": "Distractor explanations cite specific rules", "passed": true, "evidence": "Content present, non-schema field names"}, {"text": "Independent verification performed", "passed": false, "evidence": "Single naive pass by design"}], "notes": ["Content quality was reasonable this run, but output is not database-ready and unverified"]}, {"eval_id": 2, "eval_name": "medium-boundaries-grammar", "configuration": "with_skill", "run_number": 1, "result": {"pass_rate": 1.0, "passed": 4, "failed": 0, "total": 4, "time_seconds": 897.5, "tokens": 78990, "tool_calls": 55, "errors": 0}, "expectations": [{"text": "Every question has exactly one defensibly correct answer", "passed": true, "evidence": "Q2 first draft FLAGGED and regenerated before landing in batch"}, {"text": "Schema-valid, ready for Supabase import", "passed": true, "evidence": "validate_batch.py: 3/3 passed"}, {"text": "Distractor explanations cite specific rules", "passed": true, "evidence": "e.g. matched-boundary-mark rule named explicitly in Q3"}, {"text": "Independent verification performed", "passed": true, "evidence": "1 of 3 questions actually caught and fixed mid-run"}], "notes": ["Clearest evidence the pipeline earns its cost -- caught a real flaw in exactly the category that motivated building this"]}, {"eval_id": 2, "eval_name": "medium-boundaries-grammar", "configuration": "without_skill", "run_number": 1, "result": {"pass_rate": 0.5, "passed": 2, "failed": 2, "total": 4, "time_seconds": 175.0, "tokens": 39159, "tool_calls": 7, "errors": 0}, "expectations": [{"text": "Every question has exactly one defensibly correct answer", "passed": true, "evidence": "No ambiguity found on manual inspection in this run"}, {"text": "Schema-valid, ready for Supabase import", "passed": false, "evidence": "validate_batch.py: 0/3 passed"}, {"text": "Distractor explanations cite specific rules", "passed": true, "evidence": "Content present, non-schema field names"}, {"text": "Independent verification performed", "passed": false, "evidence": "Single naive pass by design"}], "notes": ["Did not reproduce an obvious ambiguity bug this run -- see analyst notes below on why that's not the full picture"]}], "run_summary": {"with_skill": {"pass_rate": {"mean": 1.0, "stddev": 0.0, "min": 1.0, "max": 1.0}, "time_seconds": {"mean": 1311.25, "stddev": 414.25, "min": 897.5, "max": 1725.0}, "tokens": {"mean": 104019, "stddev": 25029, "min": 78990, "max": 129048}}, "without_skill": {"pass_rate": {"mean": 0.5, "stddev": 0.0, "min": 0.5, "max": 0.5}, "time_seconds": {"mean": 180.1, "stddev": 5.1, "min": 175.0, "max": 185.2}, "tokens": {"mean": 38623, "stddev": 536, "min": 38087, "max": 39159}}, "delta": {"pass_rate": "+0.50", "time_seconds": "+1131.15", "tokens": "+65396"}}, "notes": ["The 'schema-valid / ready for Supabase import' assertion is the most discriminating one here: it passes 100% with-skill and 0% without-skill in both evals, driven by the skill's bundled schema reference and validate_batch.py script -- this alone means baseline output can't be imported without manual rework.", "The 'exactly one defensible answer' assertion passed in both configurations for these two test runs -- it did NOT discriminate this time, which is worth being honest about rather than overstating. It's an intermittent failure mode (confirmed in the original Lovable usage), and the with-skill run's real evidence of value is that it caught and fixed one flagged question live (medium-boundaries-grammar, Q2) with a documented trail, while the baseline has no equivalent safety net and would ship an error if one occurred.", "With-skill costs roughly 7-10x the wall-clock time and tokens of a naive pass, concentrated in the Calibrator loop for Math (8 generation attempts for 3 accepted Hard questions) more than the Critic loop. Budget accordingly for batch sizing -- see summary to user."]}};
+
+    // ---- State ----
+    let feedbackMap = {};  // run_id -> feedback text
+    let currentIndex = 0;
+    let visitedRuns = new Set();
+
+    // ---- Init ----
+    async function init() {
+      // Load saved feedback from server — but only if this isn't a fresh
+      // iteration (indicated by previous_feedback being present). When
+      // previous feedback exists, the feedback.json on disk is stale from
+      // the prior iteration and should not pre-fill the textareas.
+      const hasPrevious = Object.keys(EMBEDDED_DATA.previous_feedback || {}).length > 0
+        || Object.keys(EMBEDDED_DATA.previous_outputs || {}).length > 0;
+      if (!hasPrevious) {
+        try {
+          const resp = await fetch("/api/feedback");
+          const data = await resp.json();
+          if (data.reviews) {
+            for (const r of data.reviews) feedbackMap[r.run_id] = r.feedback;
+          }
+        } catch { /* first run, no feedback yet */ }
+      }
+
+      document.getElementById("skill-name").textContent = EMBEDDED_DATA.skill_name;
+      showRun(0);
+
+      // Wire up feedback auto-save
+      const textarea = document.getElementById("feedback");
+      let saveTimeout = null;
+      textarea.addEventListener("input", () => {
+        clearTimeout(saveTimeout);
+        document.getElementById("feedback-status").textContent = "";
+        saveTimeout = setTimeout(() => saveCurrentFeedback(), 800);
+      });
+    }
+
+    // ---- Navigation ----
+    function navigate(delta) {
+      const newIndex = currentIndex + delta;
+      if (newIndex >= 0 && newIndex < EMBEDDED_DATA.runs.length) {
+        saveCurrentFeedback();
+        showRun(newIndex);
+      }
+    }
+
+    function updateNavButtons() {
+      document.getElementById("prev-btn").disabled = currentIndex === 0;
+      document.getElementById("next-btn").disabled =
+        currentIndex === EMBEDDED_DATA.runs.length - 1;
+    }
+
+    // ---- Show a run ----
+    function showRun(index) {
+      currentIndex = index;
+      const run = EMBEDDED_DATA.runs[index];
+
+      // Progress
+      document.getElementById("progress").textContent =
+        `${index + 1} of ${EMBEDDED_DATA.runs.length}`;
+
+      // Prompt
+      document.getElementById("prompt-text").textContent = run.prompt;
+
+      // Config badge
+      const badge = document.getElementById("config-badge");
+      const configMatch = run.id.match(/(with_skill|without_skill|new_skill|old_skill)/);
+      if (configMatch) {
+        const config = configMatch[1];
+        const isBaseline = config === "without_skill" || config === "old_skill";
+        badge.textContent = config.replace(/_/g, " ");
+        badge.className = "config-badge " + (isBaseline ? "config-baseline" : "config-primary");
+        badge.style.display = "inline-block";
+      } else {
+        badge.style.display = "none";
+      }
+
+      // Outputs
+      renderOutputs(run);
+
+      // Previous outputs
+      renderPrevOutputs(run);
+
+      // Grades
+      renderGrades(run);
+
+      // Previous feedback
+      const prevFb = (EMBEDDED_DATA.previous_feedback || {})[run.id];
+      const prevEl = document.getElementById("prev-feedback");
+      if (prevFb) {
+        document.getElementById("prev-feedback-text").textContent = prevFb;
+        prevEl.style.display = "block";
+      } else {
+        prevEl.style.display = "none";
+      }
+
+      // Feedback
+      document.getElementById("feedback").value = feedbackMap[run.id] || "";
+      document.getElementById("feedback-status").textContent = "";
+
+      updateNavButtons();
+
+      // Track visited runs and promote done button when all visited
+      visitedRuns.add(index);
+      const doneBtn = document.getElementById("done-btn");
+      if (visitedRuns.size >= EMBEDDED_DATA.runs.length) {
+        doneBtn.classList.add("ready");
+      }
+
+      // Scroll main content to top
+      document.querySelector(".main").scrollTop = 0;
+    }
+
+    // ---- Render outputs ----
+    function renderOutputs(run) {
+      const container = document.getElementById("outputs-body");
+      container.innerHTML = "";
+
+      const outputs = run.outputs || [];
+      if (outputs.length === 0) {
+        container.innerHTML = '<div class="empty-state">No output files</div>';
+        return;
+      }
+
+      for (const file of outputs) {
+        const fileDiv = document.createElement("div");
+        fileDiv.className = "output-file";
+
+        // Always show file header with download link
+        const header = document.createElement("div");
+        header.className = "output-file-header";
+        const nameSpan = document.createElement("span");
+        nameSpan.textContent = file.name;
+        header.appendChild(nameSpan);
+        const dlBtn = document.createElement("a");
+        dlBtn.className = "dl-btn";
+        dlBtn.textContent = "Download";
+        dlBtn.download = file.name;
+        dlBtn.href = getDownloadUri(file);
+        header.appendChild(dlBtn);
+        fileDiv.appendChild(header);
+
+        const content = document.createElement("div");
+        content.className = "output-file-content";
+
+        if (file.type === "text") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          content.appendChild(pre);
+        } else if (file.type === "image") {
+          const img = document.createElement("img");
+          img.src = file.data_uri;
+          img.alt = file.name;
+          content.appendChild(img);
+        } else if (file.type === "pdf") {
+          const iframe = document.createElement("iframe");
+          iframe.src = file.data_uri;
+          content.appendChild(iframe);
+        } else if (file.type === "xlsx") {
+          renderXlsx(content, file.data_b64);
+        } else if (file.type === "binary") {
+          const a = document.createElement("a");
+          a.className = "download-link";
+          a.href = file.data_uri;
+          a.download = file.name;
+          a.textContent = "Download " + file.name;
+          content.appendChild(a);
+        } else if (file.type === "error") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          pre.style.color = "var(--red)";
+          content.appendChild(pre);
+        }
+
+        fileDiv.appendChild(content);
+        container.appendChild(fileDiv);
+      }
+    }
+
+    // ---- XLSX rendering via SheetJS ----
+    function renderXlsx(container, b64Data) {
+      try {
+        const raw = Uint8Array.from(atob(b64Data), c => c.charCodeAt(0));
+        const wb = XLSX.read(raw, { type: "array" });
+
+        for (let i = 0; i < wb.SheetNames.length; i++) {
+          const sheetName = wb.SheetNames[i];
+          const ws = wb.Sheets[sheetName];
+
+          if (wb.SheetNames.length > 1) {
+            const sheetLabel = document.createElement("div");
+            sheetLabel.style.cssText =
+              "font-weight:600; font-size:0.8rem; color:#b0aea5; margin-top:0.5rem; margin-bottom:0.25rem;";
+            sheetLabel.textContent = "Sheet: " + sheetName;
+            container.appendChild(sheetLabel);
+          }
+
+          const htmlStr = XLSX.utils.sheet_to_html(ws, { editable: false });
+          const wrapper = document.createElement("div");
+          wrapper.innerHTML = htmlStr;
+          container.appendChild(wrapper);
+        }
+      } catch (err) {
+        container.textContent = "Error rendering spreadsheet: " + err.message;
+      }
+    }
+
+    // ---- Grades ----
+    function renderGrades(run) {
+      const section = document.getElementById("grades-section");
+      const content = document.getElementById("grades-content");
+
+      if (!run.grading) {
+        section.style.display = "none";
+        return;
+      }
+
+      const grading = run.grading;
+      section.style.display = "block";
+      // Reset to collapsed
+      content.classList.remove("open");
+      document.getElementById("grades-arrow").classList.remove("open");
+
+      const summary = grading.summary || {};
+      const expectations = grading.expectations || [];
+
+      let html = '<div style="padding: 1rem;">';
+
+      // Summary line
+      const passRate = summary.pass_rate != null
+        ? Math.round(summary.pass_rate * 100) + "%"
+        : "?";
+      const badgeClass = summary.pass_rate >= 0.8 ? "grade-pass" : summary.pass_rate >= 0.5 ? "" : "grade-fail";
+      html += '<div class="grades-summary">';
+      html += '<span class="grade-badge ' + badgeClass + '">' + passRate + '</span>';
+      html += '<span>' + (summary.passed || 0) + ' passed, ' + (summary.failed || 0) + ' failed of ' + (summary.total || 0) + '</span>';
+      html += '</div>';
+
+      // Assertions list
+      html += '<ul class="assertion-list">';
+      for (const exp of expectations) {
+        const statusClass = exp.passed ? "pass" : "fail";
+        const statusIcon = exp.passed ? "\u2713" : "\u2717";
+        html += '<li class="assertion-item">';
+        html += '<span class="assertion-status ' + statusClass + '">' + statusIcon + '</span>';
+        html += '<span>' + escapeHtml(exp.text) + '</span>';
+        if (exp.evidence) {
+          html += '<div class="assertion-evidence">' + escapeHtml(exp.evidence) + '</div>';
+        }
+        html += '</li>';
+      }
+      html += '</ul>';
+
+      html += '</div>';
+      content.innerHTML = html;
+    }
+
+    function toggleGrades() {
+      const content = document.getElementById("grades-content");
+      const arrow = document.getElementById("grades-arrow");
+      content.classList.toggle("open");
+      arrow.classList.toggle("open");
+    }
+
+    // ---- Previous outputs (collapsible) ----
+    function renderPrevOutputs(run) {
+      const section = document.getElementById("prev-outputs-section");
+      const content = document.getElementById("prev-outputs-content");
+      const prevOutputs = (EMBEDDED_DATA.previous_outputs || {})[run.id];
+
+      if (!prevOutputs || prevOutputs.length === 0) {
+        section.style.display = "none";
+        return;
+      }
+
+      section.style.display = "block";
+      // Reset to collapsed
+      content.classList.remove("open");
+      document.getElementById("prev-outputs-arrow").classList.remove("open");
+
+      // Render the files into the content area
+      content.innerHTML = "";
+      const wrapper = document.createElement("div");
+      wrapper.style.padding = "1rem";
+
+      for (const file of prevOutputs) {
+        const fileDiv = document.createElement("div");
+        fileDiv.className = "output-file";
+
+        const header = document.createElement("div");
+        header.className = "output-file-header";
+        const nameSpan = document.createElement("span");
+        nameSpan.textContent = file.name;
+        header.appendChild(nameSpan);
+        const dlBtn = document.createElement("a");
+        dlBtn.className = "dl-btn";
+        dlBtn.textContent = "Download";
+        dlBtn.download = file.name;
+        dlBtn.href = getDownloadUri(file);
+        header.appendChild(dlBtn);
+        fileDiv.appendChild(header);
+
+        const fc = document.createElement("div");
+        fc.className = "output-file-content";
+
+        if (file.type === "text") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          fc.appendChild(pre);
+        } else if (file.type === "image") {
+          const img = document.createElement("img");
+          img.src = file.data_uri;
+          img.alt = file.name;
+          fc.appendChild(img);
+        } else if (file.type === "pdf") {
+          const iframe = document.createElement("iframe");
+          iframe.src = file.data_uri;
+          fc.appendChild(iframe);
+        } else if (file.type === "xlsx") {
+          renderXlsx(fc, file.data_b64);
+        } else if (file.type === "binary") {
+          const a = document.createElement("a");
+          a.className = "download-link";
+          a.href = file.data_uri;
+          a.download = file.name;
+          a.textContent = "Download " + file.name;
+          fc.appendChild(a);
+        }
+
+        fileDiv.appendChild(fc);
+        wrapper.appendChild(fileDiv);
+      }
+
+      content.appendChild(wrapper);
+    }
+
+    function togglePrevOutputs() {
+      const content = document.getElementById("prev-outputs-content");
+      const arrow = document.getElementById("prev-outputs-arrow");
+      content.classList.toggle("open");
+      arrow.classList.toggle("open");
+    }
+
+    // ---- Feedback (saved to server -> feedback.json) ----
+    function saveCurrentFeedback() {
+      const run = EMBEDDED_DATA.runs[currentIndex];
+      const text = document.getElementById("feedback").value;
+
+      if (text.trim() === "") {
+        delete feedbackMap[run.id];
+      } else {
+        feedbackMap[run.id] = text;
+      }
+
+      // Build reviews array from map
+      const reviews = [];
+      for (const [run_id, feedback] of Object.entries(feedbackMap)) {
+        if (feedback.trim()) {
+          reviews.push({ run_id, feedback, timestamp: new Date().toISOString() });
+        }
+      }
+
+      fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ reviews, status: "in_progress" }),
+      }).then(() => {
+        document.getElementById("feedback-status").textContent = "Saved";
+      }).catch(() => {
+        // Static mode or server unavailable — no-op on auto-save,
+        // feedback will be downloaded on final submit
+        document.getElementById("feedback-status").textContent = "Will download on submit";
+      });
+    }
+
+    // ---- Done ----
+    function showDoneDialog() {
+      // Save current textarea to feedbackMap (but don't POST yet)
+      const run = EMBEDDED_DATA.runs[currentIndex];
+      const text = document.getElementById("feedback").value;
+      if (text.trim() === "") {
+        delete feedbackMap[run.id];
+      } else {
+        feedbackMap[run.id] = text;
+      }
+
+      // POST once with status: complete — include ALL runs so the model
+      // can distinguish "no feedback" (looks good) from "not reviewed"
+      const reviews = [];
+      const ts = new Date().toISOString();
+      for (const r of EMBEDDED_DATA.runs) {
+        reviews.push({ run_id: r.id, feedback: feedbackMap[r.id] || "", timestamp: ts });
+      }
+      const payload = JSON.stringify({ reviews, status: "complete" }, null, 2);
+      fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: payload,
+      }).then(() => {
+        document.getElementById("done-overlay").classList.add("visible");
+      }).catch(() => {
+        // Server not available (static mode) — download as file
+        const blob = new Blob([payload], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "feedback.json";
+        a.click();
+        URL.revokeObjectURL(url);
+        document.getElementById("done-overlay").classList.add("visible");
+      });
+    }
+
+    function closeDoneDialog() {
+      // Reset status back to in_progress
+      saveCurrentFeedback();
+      document.getElementById("done-overlay").classList.remove("visible");
+    }
+
+    // ---- Toast ----
+    function showToast(message) {
+      const toast = document.getElementById("toast");
+      toast.textContent = message;
+      toast.classList.add("visible");
+      setTimeout(() => toast.classList.remove("visible"), 2000);
+    }
+
+    // ---- Keyboard nav ----
+    document.addEventListener("keydown", (e) => {
+      // Don't capture when typing in textarea
+      if (e.target.tagName === "TEXTAREA") return;
+
+      if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        navigate(-1);
+      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        navigate(1);
+      }
+    });
+
+    // ---- Util ----
+    function getDownloadUri(file) {
+      if (file.data_uri) return file.data_uri;
+      if (file.data_b64) return "data:application/octet-stream;base64," + file.data_b64;
+      if (file.type === "text") return "data:text/plain;charset=utf-8," + encodeURIComponent(file.content);
+      return "#";
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // ---- View switching ----
+    function switchView(view) {
+      document.querySelectorAll(".view-tab").forEach(t => t.classList.remove("active"));
+      document.querySelectorAll(".view-panel").forEach(p => p.classList.remove("active"));
+      document.querySelector(`[onclick="switchView('${view}')"]`).classList.add("active");
+      document.getElementById("panel-" + view).classList.add("active");
+    }
+
+    // ---- Benchmark rendering ----
+    function renderBenchmark() {
+      const data = EMBEDDED_DATA.benchmark;
+      if (!data) return;
+
+      // Show the tabs
+      document.getElementById("view-tabs").style.display = "flex";
+
+      const container = document.getElementById("benchmark-content");
+      const summary = data.run_summary || {};
+      const metadata = data.metadata || {};
+      const notes = data.notes || [];
+
+      let html = "";
+
+      // Header
+      html += "<h2 style='font-family: Poppins, sans-serif; margin-bottom: 0.5rem;'>Benchmark Results</h2>";
+      html += "<p style='color: var(--text-muted); font-size: 0.875rem; margin-bottom: 1.25rem;'>";
+      if (metadata.skill_name) html += "<strong>" + escapeHtml(metadata.skill_name) + "</strong> &mdash; ";
+      if (metadata.timestamp) html += metadata.timestamp + " &mdash; ";
+      if (metadata.evals_run) html += "Evals: " + metadata.evals_run.join(", ") + " &mdash; ";
+      html += (metadata.runs_per_configuration || "?") + " runs per configuration";
+      html += "</p>";
+
+      // Summary table
+      html += '<table class="benchmark-table">';
+
+      function fmtStat(stat, pct) {
+        if (!stat) return "—";
+        const suffix = pct ? "%" : "";
+        const m = pct ? (stat.mean * 100).toFixed(0) : stat.mean.toFixed(1);
+        const s = pct ? (stat.stddev * 100).toFixed(0) : stat.stddev.toFixed(1);
+        return m + suffix + " ± " + s + suffix;
+      }
+
+      function deltaClass(val) {
+        if (!val) return "";
+        const n = parseFloat(val);
+        if (n > 0) return "benchmark-delta-positive";
+        if (n < 0) return "benchmark-delta-negative";
+        return "";
+      }
+
+      // Discover config names dynamically (everything except "delta")
+      const configs = Object.keys(summary).filter(k => k !== "delta");
+      const configA = configs[0] || "config_a";
+      const configB = configs[1] || "config_b";
+      const labelA = configA.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+      const labelB = configB.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+      const a = summary[configA] || {};
+      const b = summary[configB] || {};
+      const delta = summary.delta || {};
+
+      html += "<thead><tr><th>Metric</th><th>" + escapeHtml(labelA) + "</th><th>" + escapeHtml(labelB) + "</th><th>Delta</th></tr></thead>";
+      html += "<tbody>";
+
+      html += "<tr><td><strong>Pass Rate</strong></td>";
+      html += "<td>" + fmtStat(a.pass_rate, true) + "</td>";
+      html += "<td>" + fmtStat(b.pass_rate, true) + "</td>";
+      html += '<td class="' + deltaClass(delta.pass_rate) + '">' + (delta.pass_rate || "—") + "</td></tr>";
+
+      // Time (only show row if data exists)
+      if (a.time_seconds || b.time_seconds) {
+        html += "<tr><td><strong>Time (s)</strong></td>";
+        html += "<td>" + fmtStat(a.time_seconds, false) + "</td>";
+        html += "<td>" + fmtStat(b.time_seconds, false) + "</td>";
+        html += '<td class="' + deltaClass(delta.time_seconds) + '">' + (delta.time_seconds ? delta.time_seconds + "s" : "—") + "</td></tr>";
+      }
+
+      // Tokens (only show row if data exists)
+      if (a.tokens || b.tokens) {
+        html += "<tr><td><strong>Tokens</strong></td>";
+        html += "<td>" + fmtStat(a.tokens, false) + "</td>";
+        html += "<td>" + fmtStat(b.tokens, false) + "</td>";
+        html += '<td class="' + deltaClass(delta.tokens) + '">' + (delta.tokens || "—") + "</td></tr>";
+      }
+
+      html += "</tbody></table>";
+
+      // Per-eval breakdown (if runs data available)
+      const runs = data.runs || [];
+      if (runs.length > 0) {
+        const evalIds = [...new Set(runs.map(r => r.eval_id))].sort((a, b) => a - b);
+
+        html += "<h3 style='font-family: Poppins, sans-serif; margin-bottom: 0.75rem;'>Per-Eval Breakdown</h3>";
+
+        const hasTime = runs.some(r => r.result && r.result.time_seconds != null);
+        const hasErrors = runs.some(r => r.result && r.result.errors > 0);
+
+        for (const evalId of evalIds) {
+          const evalRuns = runs.filter(r => r.eval_id === evalId);
+          const evalName = evalRuns[0] && evalRuns[0].eval_name ? evalRuns[0].eval_name : "Eval " + evalId;
+
+          html += "<h4 style='font-family: Poppins, sans-serif; margin: 1rem 0 0.5rem; color: var(--text);'>" + escapeHtml(evalName) + "</h4>";
+          html += '<table class="benchmark-table">';
+          html += "<thead><tr><th>Config</th><th>Run</th><th>Pass Rate</th>";
+          if (hasTime) html += "<th>Time (s)</th>";
+          if (hasErrors) html += "<th>Crashes During Execution</th>";
+          html += "</tr></thead>";
+          html += "<tbody>";
+
+          // Group by config and render with average rows
+          const configGroups = [...new Set(evalRuns.map(r => r.configuration))];
+          for (let ci = 0; ci < configGroups.length; ci++) {
+            const config = configGroups[ci];
+            const configRuns = evalRuns.filter(r => r.configuration === config);
+            if (configRuns.length === 0) continue;
+
+            const rowClass = ci === 0 ? "benchmark-row-with" : "benchmark-row-without";
+            const configLabel = config.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+
+            for (const run of configRuns) {
+              const r = run.result || {};
+              const prClass = r.pass_rate >= 0.8 ? "benchmark-delta-positive" : r.pass_rate < 0.5 ? "benchmark-delta-negative" : "";
+              html += '<tr class="' + rowClass + '">';
+              html += "<td>" + configLabel + "</td>";
+              html += "<td>" + run.run_number + "</td>";
+              html += '<td class="' + prClass + '">' + ((r.pass_rate || 0) * 100).toFixed(0) + "% (" + (r.passed || 0) + "/" + (r.total || 0) + ")</td>";
+              if (hasTime) html += "<td>" + (r.time_seconds != null ? r.time_seconds.toFixed(1) : "—") + "</td>";
+              if (hasErrors) html += "<td>" + (r.errors || 0) + "</td>";
+              html += "</tr>";
+            }
+
+            // Average row
+            const rates = configRuns.map(r => (r.result || {}).pass_rate || 0);
+            const avgRate = rates.reduce((a, b) => a + b, 0) / rates.length;
+            const avgPrClass = avgRate >= 0.8 ? "benchmark-delta-positive" : avgRate < 0.5 ? "benchmark-delta-negative" : "";
+            html += '<tr class="benchmark-row-avg ' + rowClass + '">';
+            html += "<td>" + configLabel + "</td>";
+            html += "<td>Avg</td>";
+            html += '<td class="' + avgPrClass + '">' + (avgRate * 100).toFixed(0) + "%</td>";
+            if (hasTime) {
+              const times = configRuns.map(r => (r.result || {}).time_seconds).filter(t => t != null);
+              html += "<td>" + (times.length ? (times.reduce((a, b) => a + b, 0) / times.length).toFixed(1) : "—") + "</td>";
+            }
+            if (hasErrors) html += "<td></td>";
+            html += "</tr>";
+          }
+          html += "</tbody></table>";
+
+          // Per-assertion detail for this eval
+          const runsWithExpectations = {};
+          for (const config of configGroups) {
+            runsWithExpectations[config] = evalRuns.filter(r => r.configuration === config && r.expectations && r.expectations.length > 0);
+          }
+          const hasAnyExpectations = Object.values(runsWithExpectations).some(runs => runs.length > 0);
+          if (hasAnyExpectations) {
+            // Collect all unique assertion texts across all configs
+            const allAssertions = [];
+            const seen = new Set();
+            for (const config of configGroups) {
+              for (const run of runsWithExpectations[config]) {
+                for (const exp of (run.expectations || [])) {
+                  if (!seen.has(exp.text)) {
+                    seen.add(exp.text);
+                    allAssertions.push(exp.text);
+                  }
+                }
+              }
+            }
+
+            html += '<table class="benchmark-table" style="margin-top: 0.5rem;">';
+            html += "<thead><tr><th>Assertion</th>";
+            for (const config of configGroups) {
+              const label = config.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+              html += "<th>" + escapeHtml(label) + "</th>";
+            }
+            html += "</tr></thead><tbody>";
+
+            for (const assertionText of allAssertions) {
+              html += "<tr><td>" + escapeHtml(assertionText) + "</td>";
+
+              for (const config of configGroups) {
+                html += "<td>";
+                for (const run of runsWithExpectations[config]) {
+                  const exp = (run.expectations || []).find(e => e.text === assertionText);
+                  if (exp) {
+                    const cls = exp.passed ? "benchmark-delta-positive" : "benchmark-delta-negative";
+                    const icon = exp.passed ? "\u2713" : "\u2717";
+                    html += '<span class="' + cls + '" title="Run ' + run.run_number + ': ' + escapeHtml(exp.evidence || "") + '">' + icon + "</span> ";
+                  } else {
+                    html += "— ";
+                  }
+                }
+                html += "</td>";
+              }
+              html += "</tr>";
+            }
+            html += "</tbody></table>";
+          }
+        }
+      }
+
+      // Notes
+      if (notes.length > 0) {
+        html += '<div class="benchmark-notes">';
+        html += "<h3>Analysis Notes</h3>";
+        html += "<ul>";
+        for (const note of notes) {
+          html += "<li>" + escapeHtml(note) + "</li>";
+        }
+        html += "</ul></div>";
+      }
+
+      container.innerHTML = html;
+    }
+
+    // ---- Start ----
+    init();
+    renderBenchmark();
+  </script>
+</body>
+</html>

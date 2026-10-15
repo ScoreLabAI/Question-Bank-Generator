@@ -1,0 +1,37 @@
+{
+  "_pipeline_status": "PENDING as of run 2026-09-07/run after run 16 (Advanced Math / Nonlinear functions / difficulty 1 cell, first-ever run for this cell). This question was generated and is believed correct, but could NOT be rendered or critiqued this run because the sandbox/VM became unavailable (bash wedged, 5 consecutive connection failures) mid-run, blocking scripts/render_visual.py. Per SKILL.md, SVG must never be hand-written, so this draft was withheld rather than shipped with fabricated SVG. NEXT RUN: run scripts/render_visual.py on the visual_data below, set visual_svg to the result, then send through a fresh adversarial critique and difficulty calibration before banking. If still blocked, re-defer and update this note.",
+  "generated_run": "run after run 16, 2026-09-07",
+  "draft": {
+    "section": "math",
+    "skill_category": "Advanced Math",
+    "skill_subcategory": "Nonlinear functions",
+    "difficulty": 1,
+    "module_type": "standard",
+    "question_text": "The graph shown gives the resale value V, in dollars, of a camera drone t years after it was purchased, where V is an exponential function of t. Based on the graph, what was the resale value of the drone at the time it was purchased, when t = 0?",
+    "answer_a": "$100",
+    "answer_b": "$200",
+    "answer_c": "$400",
+    "answer_d": "$800",
+    "correct_answer": "D",
+    "explanation": "Choice D is correct. The graph shows that when t = 0, V = 800. Therefore, the resale value of the drone at the time it was purchased was $800.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the resale value of the drone 3 years after it was purchased (t = 3), not at the time it was purchased.",
+    "distractor_b_explanation": "Choice B is incorrect. This is the resale value of the drone 2 years after it was purchased (t = 2), not at the time it was purchased.",
+    "distractor_c_explanation": "Choice C is incorrect. This is the resale value of the drone 1 year after it was purchased (t = 1), not at the time it was purchased.",
+    "distractor_d_explanation": "",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "graph",
+    "visual_data": {
+      "chart_type": "function",
+      "function": {"kind": "exponential", "params": {"a": 800, "b": 0.5}},
+      "x_range": [0, 5],
+      "y_range": [0, 800],
+      "x_tick_step": 1,
+      "y_tick_step": 100,
+      "x_label": "t (years since purchase)",
+      "y_label": "V (dollars)"
+    },
+    "visual_svg": null
+  }
+}

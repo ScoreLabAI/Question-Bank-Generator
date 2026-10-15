@@ -1,0 +1,17 @@
+{
+  "skill_name": "sat-question-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Generate 3 hard-difficulty SAT Math questions on Linear equations in two variables (Algebra domain) for the ScoreLab AI question bank. Save the batch as a JSON file.",
+      "expected_output": "A JSON array of 3 math questions, each with exactly one correct answer, four distinct answer choices, distractor explanations for the three wrong choices, and a difficulty tag that genuinely reflects hard-level Algebra content (multiple steps or a non-obvious setup, not just a longer equation).",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Generate 3 medium-difficulty SAT Reading & Writing questions on Standard English Conventions, specifically the Boundaries subcategory (sentence boundaries and punctuation) for the ScoreLab AI question bank. Save the batch as a JSON file.",
+      "expected_output": "A JSON array of 3 grammar/punctuation questions where exactly one answer choice is correct and each of the other three choices violates a specific, nameable punctuation or grammar rule -- no question should have two defensible correct answers.",
+      "files": []
+    }
+  ]
+}

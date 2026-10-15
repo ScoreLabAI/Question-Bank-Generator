@@ -1,0 +1,6 @@
+{
+  "_pipeline_status": "CONSUMED by run 11 on 2026-09-01. This draft was critiqued (PASS) and calibrated (DOWN to difficulty 2), then banked in the Algebra / Linear functions / difficulty-2 cell of scorelab_question_bank_master.json. Do NOT re-process it; this file is kept only as a marker and can be deleted.",
+  "consumed_run": 11,
+  "consumed_date": "2026-09-01",
+  "banked_as_difficulty": 2
+}

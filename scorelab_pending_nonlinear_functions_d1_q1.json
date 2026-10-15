@@ -1,0 +1,38 @@
+{
+  "_pipeline_status": "PENDING as of run 2026-09-07/run after run 16 (Advanced Math / Nonlinear functions / difficulty 1 cell, first-ever run for this cell). This question was generated and is believed correct, but could NOT be rendered or critiqued this run because the sandbox/VM became unavailable (bash wedged, 5 consecutive connection failures) mid-run, blocking scripts/render_visual.py. Per SKILL.md, SVG must never be hand-written, so this draft was withheld rather than shipped with fabricated SVG. NEXT RUN: run scripts/render_visual.py on the visual_data below, set visual_svg to the result, then send through a fresh adversarial critique and difficulty calibration before banking. If still blocked, re-defer and update this note.",
+  "generated_run": "run after run 16, 2026-09-07",
+  "draft": {
+    "section": "math",
+    "skill_category": "Advanced Math",
+    "skill_subcategory": "Nonlinear functions",
+    "difficulty": 1,
+    "module_type": "standard",
+    "question_text": "The graph shown gives the height h, in feet, of a stream of water shot from a decorative fountain's nozzle, as a function of the horizontal distance x, in feet, from the nozzle. Based on the graph, what is the maximum height, in feet, reached by the water?",
+    "answer_a": "0",
+    "answer_b": "3",
+    "answer_c": "6",
+    "answer_d": "9",
+    "correct_answer": "D",
+    "explanation": "Choice D is correct. The graph shows the height of the water stream increasing to a greatest value of 9, reached when the horizontal distance x is 3. Therefore, the maximum height reached by the water is 9 feet.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the height of the water at the nozzle (x = 0) and at the point where it lands (x = 6), not the maximum height reached.",
+    "distractor_b_explanation": "Choice B is incorrect. This is the horizontal distance, in feet, from the nozzle at which the water reaches its maximum height, not the height itself.",
+    "distractor_c_explanation": "Choice C is incorrect. This is the horizontal distance, in feet, from the nozzle to where the water lands, not the maximum height reached.",
+    "distractor_d_explanation": "",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "graph",
+    "visual_data": {
+      "chart_type": "function",
+      "function": {"kind": "quadratic", "params": {"a": -1, "b": 6, "c": 0}},
+      "x_range": [0, 6],
+      "y_range": [0, 10],
+      "x_tick_step": 1,
+      "y_tick_step": 1,
+      "x_label": "Horizontal distance from nozzle (feet)",
+      "y_label": "Height (feet)",
+      "mark_points": [{"point": [3, 9], "label": "Maximum height"}]
+    },
+    "visual_svg": null
+  }
+}
