@@ -254,3 +254,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Nonlinear equations, d1] Bacteria culture N=5(2)^(t+1), time to reach 80.
 - [Advanced Math/Nonlinear equations, d1] Graph of parabola y=x^2-4 and line y=x-2, x-coordinate of positive-x intersection.
 - [Advanced Math/Nonlinear equations, d2] Rectangular glass-tile mosaic panel, length 3 ft more than width, area 54, find width (relabeled Medium).
+- [Advanced Math/Nonlinear functions, d2] Bike-share membership exponential M(t)=a*b^t, 9x the t=1 membership from M(2)=400, M(6)=1200 (relabeled Medium).
+- [Advanced Math/Nonlinear functions, d3] Quartic y=x^4-8x^2+k, count integer k giving at least three distinct x-intercepts.
+- [Advanced Math/Nonlinear functions, d3] Abstract quadratic f=a(x-p)(x-q), axis x=4, f(1)<0, f(3)>0, which must be true.
+- [Advanced Math/Nonlinear functions, d2] Rancher three-sided enclosure against barn wall, quadratic area max on restricted width interval 2-4 with vertex outside (relabeled Medium).
