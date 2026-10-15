@@ -244,3 +244,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Nonlinear functions, d3] Line y=k(x-2)-5 tangent to y=2x^2-4x+3 for two k values, product of tangent-point y-coordinates.
 - [Advanced Math/Nonlinear functions, d3] Abstract quadratic graph y=-x^2+4x+5, g=a f(x)+c with minimum -3 and g(0)=5, find g(-2).
 - [Advanced Math/Nonlinear functions, d3] Factored polynomial a(x^2-9)(x^2-6x+9)(x+3), f(0)=486, count integers in [-5,5] with f>0.
+- [Advanced Math/Nonlinear functions, d3] Quadratic f(x)=(x-1)(x-5), count real x with f(f(x))=45 via tangent-at-vertex case.
+- [Advanced Math/Nonlinear functions, d3] Parabola y=x^2-6x and line y=2x+k, count integer k giving two positive-x intersections.
+- [Advanced Math/Nonlinear functions, d2] Radioactive tracer in radiology lab, mass at t=7 is 1/4 of t=1, time to 1/8 of original (relabeled Medium).
+- [Advanced Math/Nonlinear functions, d2] Graph of cubic touching x-axis at 2 and crossing at -3, point (1,2), evaluate f(5) (relabeled Medium).
+- [Advanced Math/Nonlinear functions, d2] Abstract quadratic with f(1)=f(5), a<0, f(0)<0, which must be true (relabeled Medium).
+- [Advanced Math/Nonlinear functions, d2] Table of quadratic f, g(x)=f(2x-4)+3, x-value of minimum of g (relabeled Medium).
+- [Advanced Math/Nonlinear equations, d1] System y=x^2-6, y=x, which ordered pair is a solution.
+- [Advanced Math/Nonlinear equations, d1] Bacteria culture N=5(2)^(t+1), time to reach 80.
+- [Advanced Math/Nonlinear equations, d1] Graph of parabola y=x^2-4 and line y=x-2, x-coordinate of positive-x intersection.
+- [Advanced Math/Nonlinear equations, d2] Rectangular glass-tile mosaic panel, length 3 ft more than width, area 54, find width (relabeled Medium).

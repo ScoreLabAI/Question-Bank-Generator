@@ -1023,3 +1023,14 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Token usage:** ~24 subagent calls, roughly 1.4M subagent tokens (generators ~65k each, critics ~50k each, 2 calibrators ~50k); orchestrator not included.
 **Deviation note:** I accidentally let one critic see correct_answer (g2) in its output; it reported independent derivation. Another critic file-reading detail: critics were told to ignore the key field.
 **Next run should pick up at:** Nonlinear functions d3 (4/10, needs 6), then Nonlinear equations d1.
+
+
+## Run 22 -- 2026-10-15
+**Cells worked:** Advanced Math / Nonlinear functions / d3 (needed 6, generated 6) and Nonlinear equations / d1 (needed 4 of 10 to keep run ~10, generated 4).
+**Outcome:** 10 generated, 10 passed critique (0 full regenerations, 0 discards). Critic in-place fixes: bacteria distractor 8 -> 7 (eq d1); optional explanation polish on 3 items. Generator Q3 (cubic graph) stem rewritten to stop giving away the touch point. Batched calibrators: d3 batch -> 2 Hard (f(f(x))=45 count; integer-k count, borderline), 4 relabeled Medium; eq d1 batch -> 3 Easy, 1 relabeled Medium.
+**Banked:** Nonlinear functions d3 +2 (6/10, pending), d2 +4 (16, over target), Nonlinear equations d1 +3 (3/10, pending), d2 +1 (1/10). Master 230 -> 240. 10 lines appended to used_topics.
+**Visuals:** 2 graphs rendered via render_visual.py (cubic graph, parabola+line), 1 table, 7 text-only.
+**Skill/tool changes (Step 5):** extended render_visual.py with a "cubic" function kind (a,b,c,d); backward compatible, no existing spec touched. Nothing queued. Observation: critics' optional notes only; mandated Hard shapes that held: composition solution count, parameter-count. Graph/table/abstract-symmetry shapes calibrate Medium.
+**Validation:** validate_batch.py passed on all four batches; key skew WARN on d2 batch (numeric choices, no reorder possible).
+**Token usage:** ~17 subagent calls, roughly 0.85M subagent tokens (generators ~55k, critics ~46k, calibrators ~50k); orchestrator not included.
+**Next run should pick up at:** Nonlinear functions d3 (6/10, needs 4), then Nonlinear equations d1 (3/10, needs 7).
