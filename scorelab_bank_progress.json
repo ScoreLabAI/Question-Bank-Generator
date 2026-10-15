@@ -206,8 +206,8 @@
       "difficulty": 3,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 2,
-      "note": "2026-10-15 (run 25): 4 Hard attempts, 2 Hard banked (2/10): rational equation with parameter k, two no-solution mechanisms (k=-2 gives 0x=20; k=3 makes only candidate excluded) -- borderline Hard; circle + line y=2x+b counting integer b via discriminant (b+4)^2<145 -- firm Hard. Calibrated DOWN to Medium: double radical sqrt(2x-6)=sqrt(x-2)+1 (second squaring forces x>=5, kills 3 quickly), symmetric system x^2+y^2=337, xy=144 (identity/inspection). Next: 8 more Hard; favor parameter-count/boundary-integer and stacked-mechanism shapes; avoid radical-with-one-extraneous and identity-solvable symmetric systems."
+      "accepted_count": 7,
+      "note": "2026-10-15 (run 26): 8 attempts, 5 Hard banked (7/10): 9^x-k*3^x+20 positive-roots k-count (firm Hard), |x^2-10x+c|=12 exactly three solutions (Hard), biquadratic x^4-10x^2+k exactly two solutions with k=0 and k=25 traps (Hard), parabola/circle y>=0 four-solution r-count (Hard), rational (x+k)/(x-3)=x two-mechanism sum of k (Hard). Calibrated DOWN to Medium: plain discriminant integer-k count for parabola+line with no solution, parabola through point tangent to line (clean single tangency), 12/(x-2) with line tangent product of k. Prior (run 25): 4 Hard attempts, 2 Hard banked (2/10): rational equation with parameter k, two no-solution mechanisms (k=-2 gives 0x=20; k=3 makes only candidate excluded) -- borderline Hard; circle + line y=2x+b counting integer b via discriminant (b+4)^2<145 -- firm Hard. Calibrated DOWN to Medium: double radical sqrt(2x-6)=sqrt(x-2)+1 (second squaring forces x>=5, kills 3 quickly), symmetric system x^2+y^2=337, xy=144 (identity/inspection). Next: 3 more Hard; favor multi-case parameter-count shapes (biquadratic, positive-root, y>=0 restriction); avoid single-tangency and one-discriminant counts."
     },
     {
       "domain": "math",

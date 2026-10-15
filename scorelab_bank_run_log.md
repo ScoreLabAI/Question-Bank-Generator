@@ -1069,3 +1069,15 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: a "mandated shape" list in the Generator prompt avoided duplicates except the projectile/rocket collision -- the Generator was not told about the banked rocket item until it was named. Setup note: matplotlib was missing; `pip install matplotlib numpy` succeeded.
 **Token usage:** 18 subagent calls (10 generators ~55k, 10 critics ~44k incl. regen, 3 calibrators ~43k), roughly 1.1M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Nonlinear equations d3 (2/10, needs 8), then Equivalent expressions d1.
+
+
+## Run 26 -- 2026-10-15
+**Cells worked:** Advanced Math / Nonlinear equations / d3 (needed 8, generated 8).
+**Outcome:** 8 generated, 8 passed critique (0 regenerations, 0 discards). In-place fixes: |x^2-10x+c|=12 distractor A 5 -> 12 (old "vertex x-coordinate" path arbitrary); parabola-through-point tangent item distractor A -> -4 (y-coordinate) and D explanation rewritten (old A/C/D all one formula slip); hyperbola-tangent item distractor D 108 -> 180 (discriminant sign slip; old 108 just negated the key); rational-k item D explanation tightened to a single sign slip; no-solution k-count D explanation "nonnegative discriminant".
+**Calibration (one batched call):** 5 Hard (9^x-k*3^x positive-roots count, |quadratic|=12 three solutions, biquadratic exactly-two count, parabola/circle four-solution r count, rational two-mechanism sum of k), 3 relabeled Medium (parabola+line no-solution integer-k count, parabola through point tangent to line, 12/(x-2) tangent product of k).
+**Banked:** NE d3 +5 (7/10, pending), NE d2 +3 (over target). Master 270 -> 278. 8 lines appended to used_topics.
+**Visuals:** none; all 8 text-only.
+**Validation:** validate_batch.py passed on both batches (key-skew WARN on d3 batch; numeric choices so not reorderable).
+**Skill updates (Step 5):** none applied; nothing queued. Observation: single-tangency / one-discriminant count shapes calibrate Medium even with non-integer boundaries; multi-case parameter counts (several regions, boundary traps) hold Hard.
+**Token usage:** 17 subagent calls (8 generators ~55k, 8 critics ~46k, 1 calibrator ~47k), roughly 0.85M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Nonlinear equations d3 (7/10, needs 3), then Equivalent expressions d1.

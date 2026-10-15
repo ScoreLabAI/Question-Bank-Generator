@@ -284,3 +284,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Double radical sqrt(2x-6)=sqrt(x-2)+1, extraneous root x=3 (relabeled Medium).
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Symmetric system x^2+y^2=337, xy=144, x>y>0, value of 2x+y (relabeled Medium).
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] Circle (x-1)^2+(y+2)^2=29 with line y=2x+b, count integer b for two intersections (sqrt(145) bound).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] System y=x^2-4x+7, y=3x+k, count integer k in (-20,20) with no real solution (relabeled Medium).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] Exponential quadratic-in-form 9^x-k(3^x)+20=0, count integer k with two real solutions (positive-roots condition).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] Absolute-value quadratic |x^2-10x+c|=12 with exactly three solutions, find c.
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Parabola y=ax^2+5x+c through (1,6) tangent to line y=x-3, x-coordinate of tangency (relabeled Medium).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] Biquadratic x^4-10x^2+k=0, count integer k in [-10,30] with exactly two real solutions (k=0 and k=25 traps).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Hyperbola y=12/(x-2) and line y=-3x+k tangent for two k, product of k values (relabeled Medium).
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] Parabola y=x^2 and circle x^2+(y-6)^2=r^2, count integer r in [1,10] with four intersection points.
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] Rational equation (x+k)/(x-3)=x with exactly one solution, sum of k (double root k=-4 plus excluded root k=-3).
