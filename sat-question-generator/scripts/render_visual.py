@@ -38,6 +38,7 @@ Spec format (visual_type "graph"):
       // kind "quadratic": params a, b, c -> y = a*x^2 + b*x + c
       // kind "absolute_value": params a, h, k -> y = a*|x - h| + k
       // kind "exponential": params a, b -> y = a * b^x
+      // kind "cubic": params a, b, c, d -> y = a*x^3 + b*x^2 + c*x + d  (added run 22)
 
     // chart_type == "function": TWO OR MORE functions on one grid (e.g. a system of two
     // linear equations, where the answer is the intersection point). Use "functions"
@@ -127,6 +128,8 @@ def eval_function(fn, x):
         return p["a"] * np.abs(x - p["h"]) + p["k"]
     elif kind == "exponential":
         return p["a"] * np.power(p["b"], x)
+    elif kind == "cubic":
+        return p["a"] * x**3 + p["b"] * x**2 + p["c"] * x + p["d"]
     raise ValueError(f"Unknown function kind: {kind}")
 
 
