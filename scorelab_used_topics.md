@@ -258,3 +258,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Nonlinear functions, d3] Quartic y=x^4-8x^2+k, count integer k giving at least three distinct x-intercepts.
 - [Advanced Math/Nonlinear functions, d3] Abstract quadratic f=a(x-p)(x-q), axis x=4, f(1)<0, f(3)>0, which must be true.
 - [Advanced Math/Nonlinear functions, d2] Rancher three-sided enclosure against barn wall, quadratic area max on restricted width interval 2-4 with vertex outside (relabeled Medium).
+- [Advanced Math/Nonlinear equations, d1] Plain quadratic x^2+3x-28=0, greater solution.
+- [Advanced Math/Nonlinear equations, d2] System y=x^2-5, y=4x, y-coordinate of solution with greater x (relabeled Medium).
+- [Advanced Math/Nonlinear equations, d1] Tennis ball dropped from roof h=-16t^2+144, time to reach ground.
+- [Advanced Math/Nonlinear equations, d1] Graph of y=2^x and y=2x, y-coordinate of lesser-x intersection.
+- [Advanced Math/Nonlinear equations, d1] Exponential equation 5(2^(x+2))=160, solve for x.
+- [Advanced Math/Nonlinear equations, d1] Radical equation sqrt(2x+3)=5, solve for x.

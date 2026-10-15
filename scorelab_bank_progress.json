@@ -186,7 +186,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 3
+   "accepted_count": 8,
+   "note": "2026-10-15 (run 23): 6 Easy attempts, 5 confirmed Easy and banked (8/10): factorable quadratic greater root, story free-fall h=0, graph exp-vs-line intersection read, common-base exponential with coefficient, single radical equation. Calibrated UP to Medium: linear-quadratic system asking y-coordinate of greater-x solution (substitute, factor, back-substitute)."
   },
   {
    "domain": "math",
@@ -195,7 +196,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 1
+   "accepted_count": 2,
+   "note": " 2026-10-15 (run 23): +1 relabeled from d1 (system y=x^2-5, y=4x, y of greater-x solution)."
   },
   {
    "domain": "math",

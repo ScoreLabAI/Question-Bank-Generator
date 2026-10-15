@@ -1034,3 +1034,14 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Validation:** validate_batch.py passed on all four batches; key skew WARN on d2 batch (numeric choices, no reorder possible).
 **Token usage:** ~17 subagent calls, roughly 0.85M subagent tokens (generators ~55k, critics ~46k, calibrators ~50k); orchestrator not included.
 **Next run should pick up at:** Nonlinear functions d3 (6/10, needs 4), then Nonlinear equations d1 (3/10, needs 7).
+
+
+## Run 23 -- 2026-10-15
+**Cells worked:** Advanced Math / Nonlinear functions / d3 (needed 4, generated 4) and Nonlinear equations / d1 (needed 7; 6 generated to keep run ~10).
+**Outcome:** 10 generated, 10 passed critique (0 regenerations, 0 discards). Critic in-place fixes: quartic-intercepts distractor D 32 -> 31 with new explanation (32 was arbitrary); explanation polish on enclosure B, abstract-quadratic B, system B, free-fall D. Batched calibrators: NF d3 -> 2 Hard (quartic k-count firm; abstract axis-x=4 borderline), 2 relabeled Medium (bike-share exponential; restricted-interval enclosure max). NE d1 batch -> 5 Easy, 1 relabeled Medium (linear-quadratic system, y of greater-x solution).
+**Banked:** NF d3 +2 (8/10, pending), NF d2 +2 (18, over target), NE d1 +5 (8/10, pending), NE d2 +1 (2/10). Master 240 -> 254 after merge of earlier 4 + 6 (see counts). 10 lines appended to used_topics.
+**Visuals:** 1 graph rendered via render_visual.py (2^x vs 2x), 9 text-only.
+**Validation:** validate_batch.py passed on both batches (key-skew WARN on NF d3 batch; only one non-numeric item so not reorderable).
+**Skill updates (Step 5):** none applied; nothing queued. Setup note: `pip install` hit a different interpreter than python3 -- use `python3 -m pip install matplotlib numpy`.
+**Token usage:** 22 subagent calls (~6 generators-equivalents... 10 generators ~55k, 10 critics ~46k, 2 calibrators ~55k) roughly 1.1M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Nonlinear functions d3 (8/10, needs 2), then Nonlinear equations d1 (8/10, needs 2) and d2/d3.
