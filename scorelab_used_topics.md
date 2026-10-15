@@ -275,3 +275,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Graph of y=x+1 and parabola with vertex (1,8) through (0,7), positive difference of intersection x-coordinates.
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Rational equation 4x/(x-2)=8/(x-2)+x with extraneous root x=2.
 - [Advanced Math/Nonlinear functions, d3] Shifted function g(x)=f(x+h) with y-intercept 12 fixing h, positive x-intercepts rejecting h=6.
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Line y=kx-1 and parabola y=x^2+3x+3 tangent (discriminant), k>0 selects k=7.
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Exponential quadratic-in-form 4^x-5*2^x-24=0, reject 2^x=-3, sum of real solutions.
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] County archive two scanners work-rate 1/x+1/(x+6)=1/4, reject negative root.
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] System xy=10, x-2y=1, x+y for solution with x>0.
+- [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d1] Equation (x-3)^2=5(x-3), sum of solutions, dividing loses a root (relabeled Easy).

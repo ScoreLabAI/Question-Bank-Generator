@@ -186,8 +186,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "done",
-      "accepted_count": 13,
-      "note": "2026-10-15 (run 23): 6 Easy attempts, 5 confirmed Easy and banked (8/10): factorable quadratic greater root, story free-fall h=0, graph exp-vs-line intersection read, common-base exponential with coefficient, single radical equation. Calibrated UP to Medium: linear-quadratic system asking y-coordinate of greater-x solution (substitute, factor, back-substitute)."
+      "accepted_count": 14,
+      "note": "2026-10-15 (run 23): 6 Easy attempts, 5 confirmed Easy and banked (8/10): factorable quadratic greater root, story free-fall h=0, graph exp-vs-line intersection read, common-base exponential with coefficient, single radical equation. Calibrated UP to Medium: linear-quadratic system asking y-coordinate of greater-x solution (substitute, factor, back-substitute). 2026-10-15 (run 25): +1 relabeled from d2 ((x-3)^2=5(x-3) sum of solutions); over target."
     },
     {
       "domain": "math",
@@ -196,8 +196,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 5,
-      "note": " 2026-10-15 (run 23): +1 relabeled from d1 (system y=x^2-5, y=4x, y of greater-x solution)."
+      "accepted_count": 9,
+      "note": "2026-10-15 (run 23): +1 relabeled from d1 (system y=x^2-5, y=4x, y of greater-x solution). 2026-10-15 (run 25): 5 attempts (1 rocket draft rejected pre-critique as duplicate of banked rocket item and regenerated), 4 Medium banked (9/10): tangent-line discriminant with k>0, quadratic-in-form exponential with rejected root, two-scanner rational work-rate with negative root, xy=10 system with x>0 selection. Calibrated Easy (relabeled to d1): (x-3)^2=5(x-3) sum of roots. Next: 1 more Medium; favor extraneous-root or multi-concept shapes."
     },
     {
       "domain": "math",
