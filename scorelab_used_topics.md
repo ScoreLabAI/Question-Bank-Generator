@@ -274,3 +274,4 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d1] Backup server caches 16^(x-1)=8^(x+1), common-base exponential (relabeled Easy).
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Graph of y=x+1 and parabola with vertex (1,8) through (0,7), positive difference of intersection x-coordinates.
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d2] Rational equation 4x/(x-2)=8/(x-2)+x with extraneous root x=2.
+- [Advanced Math/Nonlinear functions, d3] Shifted function g(x)=f(x+h) with y-intercept 12 fixing h, positive x-intercepts rejecting h=6.
