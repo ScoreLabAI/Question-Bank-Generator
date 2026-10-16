@@ -315,3 +315,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 [Advanced Math/Equivalent expressions, d2] Expand (2x+5)^2-(x-3)(x+4)=ax^2+bx+c, find a+b+c.
 [Advanced Math/Equivalent expressions, d2] Fractional exponent (27x^6)^(2/3)=ax^b.
 [Advanced Math/Equivalent expressions, d2] Farm-stand honey revenue R(p)=(30+2p)(80-3p) expanded.
+[Advanced Math/Equivalent expressions, d2] Complete the square 2x^2-12x+11=a(x-h)^2+k, find k (Medium).
+[Advanced Math/Equivalent expressions, d2] Identity x+1/x=4, find x^3+1/x^3 (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Polynomial division (2x^3-5x^2-7x+4)/(x-3) quotient plus remainder (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Nested fraction 1/(2-1/(2-1/x)) simplification (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Rationalize 48/(sqrt11-sqrt5)=a sqrt11+b sqrt5, find a+b (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Partial fractions (x+17)/((x-3)(x+2)), find A-B (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Radioactive mass model 640(1/64)^(t/6) rewritten as 640 b^(t/2) (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Quartic quadratic-form factoring 4x^4-65x^2+16 completely (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Negative/fractional exponents (8x^-3 y^(3/2))^(2/3)/(x^4 y^-2)^-1 (relabeled Medium).
+[Advanced Math/Equivalent expressions, d3] Coefficient-matching identity (ax+b)^2-(x+c)^2=8x^2+10x+3, find a+b+c (Hard).

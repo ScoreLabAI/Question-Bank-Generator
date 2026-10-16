@@ -1117,3 +1117,15 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Setup: matplotlib/numpy installed via pip. Observation: critics were given prompt files with the key stripped to preserve isolation.
 **Token usage:** 17 subagent calls (8 generators ~430k, 8 critics ~365k... approx 1.0M total subagent tokens incl. calibrators ~90k); orchestrator not included.
 **Next run should pick up at:** Equivalent expressions d2 (9/10, needs 1), then Equivalent expressions d3 (0/10).
+
+
+## Run 30 -- 2026-10-16
+**Cells worked:** Advanced Math / Equivalent expressions / d2 (needed 1, got 1 -> done, plus 8 relabeled-in => 18); d3 (needed 9 this run, got 1 Hard -> 1/10 pending).
+**Outcome:** 10 generated, 10 passed critique, 0 regenerations, 0 discards. Explanation-only fixes applied: partial-fractions D explanation (x=2 error path did not produce 23; replaced with forgetting to divide by 5), rationalizing B reworded, division C reworded, exponential-model B/D reworded, completing-square D reworded, coefficient-matching explanations rewritten to College Board style.
+**Calibration:** 1 batched call. 9 of 10 Hard-intended items came back Medium (only the (ax+b)^2-(x+c)^2 identity stayed Hard); relabeled to d2 per skill.
+**Banked:** EE d2 +9, EE d3 +1. Master 301 -> 311. 10 lines appended to used_topics.
+**Visuals:** none.
+**Validation:** validate_batch.py passed 10/10; WARN key skew (A=1,B=3,C=6,D=0) left as is.
+**Skill updates (Step 5):** none applied; nothing queued. Observation: single-technique rewrites (identity cubes, division, partial fractions, conjugates) are Medium for this subcategory; Hard needs two combined techniques or a nonlinear system.
+**Token usage:** 21 subagent calls (10 generators ~540k, 10 critics ~465k, 1 calibrator ~48k), roughly 1.05M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Equivalent expressions d3 (1/10, needs 9).
