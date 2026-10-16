@@ -325,3 +325,12 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 [Advanced Math/Equivalent expressions, d2] Quartic quadratic-form factoring 4x^4-65x^2+16 completely (relabeled Medium).
 [Advanced Math/Equivalent expressions, d2] Negative/fractional exponents (8x^-3 y^(3/2))^(2/3)/(x^4 y^-2)^-1 (relabeled Medium).
 [Advanced Math/Equivalent expressions, d3] Coefficient-matching identity (ax+b)^2-(x+c)^2=8x^2+10x+3, find a+b+c (Hard).
+[Advanced Math/Equivalent expressions, d2] Machinist cubic p(x)=x^3+ax^2+bx-6 with factors (x-2),(x+3), find bk (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Division identity (ax^2+bx+8)/(x-2)=3x+d+k/(x-2), k=d^2, find a+d+k (relabeled Medium).
+[Advanced Math/Equivalent expressions, d3] Rationalize (p+sqrt q)/(p-sqrt q)=5+n sqrt q, find p+q+n (Hard).
+[Advanced Math/Equivalent expressions, d2] Yeast culture N(t)=2*8^(at+1)*27^(2t)=C*6^(bt), find a+b+C (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Sophie-Germain quartic x^4+324=(x^2+ax+b)(x^2-ax+b), find a+b (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Partial fractions A/(x-1)+B/(x+2)=(8x+c)/(x^2+x-2), A^2+B^2=40, find c (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Denest sqrt(17+4sqrt15)=sqrt x+sqrt y, find 2x+y (relabeled Medium).
+[Advanced Math/Equivalent expressions, d3] (x^2+px+q)^2=x^4+kx^3+x^2-24x+16, find p+q+k (Hard, borderline).
+[Advanced Math/Equivalent expressions, d3] x^2+1/x^2=47, x>1, find x^(3/2)-1/x^(3/2) (Hard).

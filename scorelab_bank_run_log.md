@@ -1129,3 +1129,14 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: single-technique rewrites (identity cubes, division, partial fractions, conjugates) are Medium for this subcategory; Hard needs two combined techniques or a nonlinear system.
 **Token usage:** 21 subagent calls (10 generators ~540k, 10 critics ~465k, 1 calibrator ~48k), roughly 1.05M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Equivalent expressions d3 (1/10, needs 9).
+
+
+## Run 31 -- 2026-10-16
+**Cells worked:** Advanced Math / Equivalent expressions / d3 (needed 9, got 3 Hard -> 4/10 pending); 6 relabeled into d2 (overshoot, now 24).
+**Outcome:** 9 generated, 9 passed critique, 0 regenerations, 0 discards. Explanation-only fixes: factor-theorem item distractor B reworded; exponent-matching item distractor B reworded; denesting item distractor A/C reworded and LaTeX converted to plain text.
+**Calibration:** 2 batched calls. Hard: (p+sqrt q)/(p-sqrt q) integer argument; (x^2+px+q)^2 case-split (borderline); x^2+1/x^2=47 chained sign decisions. Medium (relabeled d2): cubic factor theorem, division identity, exponent matching, Sophie-Germain quartic, partial fractions A^2+B^2, denesting.
+**Banked:** EE d3 +3, EE d2 +6. Master 311 -> 320. 9 lines appended to used_topics.
+**Validation:** validate_batch.py passed 9/9.
+**Skill updates (Step 5):** none applied; nothing queued. Observation: Hard yield ~1/3 when mandating integer-divisibility, case-split, or chained-sign shapes vs ~1/9 for single-technique/combined routine shapes.
+**Token usage:** 21 subagent calls (9 generators ~490k, 9 critics ~410k, 2 calibrators ~95k), roughly 1.0M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Equivalent expressions d3 (4/10, needs 6).
