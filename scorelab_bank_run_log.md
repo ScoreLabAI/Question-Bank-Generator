@@ -1093,3 +1093,15 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observations: critics flagged a decimal-vs-integer choice-set leak (key product visible from building-block distractors); generator for the |x-2| system invented an incoherent distractor mechanism -- verify each distractor explanation numerically. Setup: pip install matplotlib numpy needed a second standalone run; git diff on progress/master showed large whitespace churn from re-indenting JSON.
 **Token usage:** 27 subagent calls (11 generators ~55k, 10 critics ~45k, 2 calibrators ~49k), roughly 1.2M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Equivalent expressions d1 (5/10, needs 5), then Equivalent expressions d2 (now 2/10).
+
+
+## Run 28 -- 2026-10-16
+**Cells worked:** Advanced Math / Equivalent expressions / d1 (needed 5, got 4 Easy -> 9/10 pending; 1 more banked as d2).
+**Outcome:** 5 generated, 5 passed critique, 0 regenerations, 0 discards. In-place explanation fixes: difference-of-squares distractor C reworded (halving 16 instead of 2ab); distribution item distractor A reworded (-4 x -2 = -8).
+**Calibration (one batched call):** 4 Easy confirmed; 1 relabeled Medium (3(2x-5)-4(x-2), two distributions with negative multiplier).
+**Banked:** EE d1 +4 (9/10 pending), EE d2 +1 (3/10). Master 288 -> 293. 5 lines appended to used_topics.
+**Visuals:** none; all text-only.
+**Validation:** validate_batch.py passed on both batches.
+**Skill updates (Step 5):** none applied; nothing queued.
+**Token usage:** 11 subagent calls (5 generators ~270k, 5 critics ~218k, 1 calibrator ~44k), roughly 0.53M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Equivalent expressions d1 (9/10, needs 1), then Equivalent expressions d2 (3/10).

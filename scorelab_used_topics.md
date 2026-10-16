@@ -302,3 +302,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Equivalent expressions, d1] GCF factoring 8x^2-12x.
 - [Advanced Math/Equivalent expressions, d2] Exponent rules (2x^3y^2)^3/(x^2y)^2 (relabeled Medium).
 - [Advanced Math/Equivalent expressions, d2] Radical sum sqrt(75)+sqrt(27) (relabeled Medium).
+[Advanced Math/Equivalent expressions, d1] Polynomial sum (5x^2-7x+2)+(3x^2+2x-6), find a+c.
+[Advanced Math/Equivalent expressions, d1] Difference of squares 9x^2-16 = (3x+4)(3x-c), find c.
+[Advanced Math/Equivalent expressions, d1] Museum ticket total 4(x+5)-6 equivalent to 4x+k.
+[Advanced Math/Equivalent expressions, d1] Power of a power 5(x^4)^3 = 5x^n.
+[Advanced Math/Equivalent expressions, d2] Distribute 3(2x-5)-4(x-2) = ax+b, find b (relabeled Medium).
