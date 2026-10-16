@@ -307,3 +307,4 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 [Advanced Math/Equivalent expressions, d1] Museum ticket total 4(x+5)-6 equivalent to 4x+k.
 [Advanced Math/Equivalent expressions, d1] Power of a power 5(x^4)^3 = 5x^n.
 [Advanced Math/Equivalent expressions, d2] Distribute 3(2x-5)-4(x-2) = ax+b, find b (relabeled Medium).
+[Advanced Math/Equivalent expressions, d1] Monomial product (4x^3)(6x^5)=ax^b, find a+b.
