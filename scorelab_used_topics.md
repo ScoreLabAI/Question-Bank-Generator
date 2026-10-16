@@ -295,3 +295,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] Radical equation sqrt(2x+k)=x-2, sum of integer k in [-10,10] with exactly one solution (extraneous-root regimes, k=-5 tangent and k=-4 traps).
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] Factored equation (x^2-kx+9)(x-4)=0 with exactly two distinct solutions, product of k (double-root and overlap-with-x=4 cases).
 - [Advanced Math/Nonlinear equations in one variable and systems of equations in two variables, d3] System y=|x-2|+1 and 4y=x^2-(k+2)x+2k+4, count integer k in [-10,10] with exactly three solutions (shared vertex, branch-validity conditions).
+- [Advanced Math/Equivalent expressions, d1] Subtract trinomial (5x^2+3x-7)-(2x^2-4x+3), bare expression.
+- [Advanced Math/Equivalent expressions, d1] Factor x^2+5x+6 into binomials, bare expression.
+- [Advanced Math/Equivalent expressions, d1] Square of binomial (3x-4)^2, bare expression.
+- [Advanced Math/Equivalent expressions, d1] Community-center patio area (3x+2)(x+4) vs perimeter.
+- [Advanced Math/Equivalent expressions, d1] GCF factoring 8x^2-12x.
+- [Advanced Math/Equivalent expressions, d2] Exponent rules (2x^3y^2)^3/(x^2y)^2 (relabeled Medium).
+- [Advanced Math/Equivalent expressions, d2] Radical sum sqrt(75)+sqrt(27) (relabeled Medium).

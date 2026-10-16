@@ -1081,3 +1081,15 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: single-tangency / one-discriminant count shapes calibrate Medium even with non-integer boundaries; multi-case parameter counts (several regions, boundary traps) hold Hard.
 **Token usage:** 17 subagent calls (8 generators ~55k, 8 critics ~46k, 1 calibrator ~47k), roughly 0.85M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Nonlinear equations d3 (7/10, needs 3), then Equivalent expressions d1.
+
+
+## Run 27 -- 2026-10-16
+**Cells worked:** Advanced Math / Nonlinear equations / d3 (needed 3, got 3 -> 10/10 done); Advanced Math / Equivalent expressions / d1 (needed 7, got 5 Easy -> 5/10 pending; 2 more banked as d2).
+**Outcome:** 10 generated, 10 passed critique, 0 discards. 1 pre-critique regeneration: EE d1 binomial-multiplication draft (3x-2)(x+4) was a shape near-duplicate of the patio-area (3x+2)(x+4) item; replaced with a binomial-square item. In-place fixes: NE d3 radical item stem reworded (dropped redundant "certain integer values"); NE d3 factored-equation distractor C 6.25 -> -37.5 (critic: decimals leaked key structure; D/C explanations rewritten); NE d3 |x-2| system distractor A 6 -> 8 (old explanation incoherent) and explanation cleaned; EE d1 GCF distractor A explanation rewritten; EE d1 binomial-square distractor A -> 9x^2-12x+16 (cross-term once) and C explanation corrected (old mechanism did not match value); LaTeX stripped to plain text.
+**Calibration:** NE d3: all 3 Hard (radical item borderline). EE d1: 5 Easy confirmed (patio-area kept Easy despite borderline note), 2 relabeled Medium (multi-rule exponent quotient, sqrt(75)+sqrt(27)).
+**Banked:** NE d3 +3 (10/10 done), EE d1 +5 (5/10 pending), EE d2 +2. Master 278 -> 288. 10 lines appended to used_topics.
+**Visuals:** none needed; all 10 text-only.
+**Validation:** validate_batch.py passed on all three batches (key-skew WARN on EE d1 batch: A=0; not reordered).
+**Skill updates (Step 5):** none applied; nothing queued. Observations: critics flagged a decimal-vs-integer choice-set leak (key product visible from building-block distractors); generator for the |x-2| system invented an incoherent distractor mechanism -- verify each distractor explanation numerically. Setup: pip install matplotlib numpy needed a second standalone run; git diff on progress/master showed large whitespace churn from re-indenting JSON.
+**Token usage:** 27 subagent calls (11 generators ~55k, 10 critics ~45k, 2 calibrators ~49k), roughly 1.2M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Equivalent expressions d1 (5/10, needs 5), then Equivalent expressions d2 (now 2/10).

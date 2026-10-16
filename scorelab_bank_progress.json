@@ -216,7 +216,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 5,
+   "note": "2026-10-16 (run 27): 5 Easy banked (5/10): trinomial subtraction, monic quadratic factoring, binomial square, patio area FOIL (story), GCF factoring. Calibrated UP to Medium (banked in d2): exponent rules with (2x^3y^2)^3/(x^2y)^2 and sqrt(75)+sqrt(27). Next: 5 more Easy; keep to a single routine step (distribute, factor monic/GCF, one exponent rule, one simplification); avoid multi-rule exponents and unequal-radical sums, which calibrate Medium."
   },
   {
    "domain": "math",
@@ -225,7 +226,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 2,
+   "note": "run 27: +2 relabeled-from-d1 Medium (multi-rule exponent quotient; sqrt(75)+sqrt(27))."
   },
   {
    "domain": "math",
