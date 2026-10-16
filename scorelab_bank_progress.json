@@ -216,8 +216,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "done",
-      "accepted_count": 10,
-      "note": "2026-10-16 (run 27): 5 Easy banked (5/10): trinomial subtraction, monic quadratic factoring, binomial square, patio area FOIL (story), GCF factoring. Calibrated UP to Medium (banked in d2): exponent rules with (2x^3y^2)^3/(x^2y)^2 and sqrt(75)+sqrt(27). Next: 5 more Easy; keep to a single routine step (distribute, factor monic/GCF, one exponent rule, one simplification); avoid multi-rule exponents and unequal-radical sums, which calibrate Medium. | run 28: +4 Easy (poly addition, difference of squares, story distribution, power-of-power) => 9/10. Two-term distribution with a negative multiplier calibrated Medium (banked d2). Next: 1 more Easy. | run 29: +1 Easy (monomial product (4x^3)(6x^5)=ax^b) => 10/10 done."
+      "accepted_count": 11,
+      "note": "2026-10-16 (run 27): 5 Easy banked (5/10): trinomial subtraction, monic quadratic factoring, binomial square, patio area FOIL (story), GCF factoring. Calibrated UP to Medium (banked in d2): exponent rules with (2x^3y^2)^3/(x^2y)^2 and sqrt(75)+sqrt(27). Next: 5 more Easy; keep to a single routine step (distribute, factor monic/GCF, one exponent rule, one simplification); avoid multi-rule exponents and unequal-radical sums, which calibrate Medium. | run 28: +4 Easy (poly addition, difference of squares, story distribution, power-of-power) => 9/10. Two-term distribution with a negative multiplier calibrated Medium (banked d2). Next: 1 more Easy. | run 29: +1 Easy (monomial product (4x^3)(6x^5)=ax^b) => 10/10 done. | run 29: +1 relabeled-from-d2 Easy (cancel common factor in (x^2-9)/(x^2+5x+6)) => 11 (overshoot)."
     },
     {
       "domain": "math",
@@ -226,8 +226,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 3,
-      "note": "run 27: +2 relabeled-from-d1 Medium (multi-rule exponent quotient; sqrt(75)+sqrt(27)). | run 28: +1 relabeled-from-d1 Medium (3(2x-5)-4(x-2), find b)."
+      "accepted_count": 9,
+      "note": "run 27: +2 relabeled-from-d1 Medium (multi-rule exponent quotient; sqrt(75)+sqrt(27)). | run 28: +1 relabeled-from-d1 Medium (3(2x-5)-4(x-2), find b). | run 29: +6 Medium generated directly (non-monic factoring p<r, sqrt(72x^5), rational sum 3/(x-2)+4/(x+3), (2x+5)^2-(x-3)(x+4), (27x^6)^(2/3), factored revenue model expand) => 9/10. Cell 21 d1 overshoot: rational simplification (x^2-9)/(x^2+5x+6) calibrated Easy and banked in d1."
     },
     {
       "domain": "math",

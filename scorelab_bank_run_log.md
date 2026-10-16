@@ -1105,3 +1105,15 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued.
 **Token usage:** 11 subagent calls (5 generators ~270k, 5 critics ~218k, 1 calibrator ~44k), roughly 0.53M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Equivalent expressions d1 (9/10, needs 1), then Equivalent expressions d2 (3/10).
+
+
+## Run 29 -- 2026-10-16
+**Cells worked:** Advanced Math / Equivalent expressions / d1 (needed 1, got 1 -> 10/10 done); Equivalent expressions / d2 (needed 7, got 6 Medium -> 9/10 pending; 1 generated item relabeled Easy and banked in d1).
+**Outcome:** 8 generated, 8 passed critique, 0 regenerations, 0 discards. Advisory fix: farm-stand stem reworded ("For each new flavor added... If p is the number of new flavors added") per critic's ambiguity note. No other edits.
+**Calibration:** d1 item confirmed Easy; batched d2 call: 6 Medium confirmed (Q6 fractional exponent borderline Easy), 1 relabeled Easy ((x^2-9)/(x^2+5x+6) cancel).
+**Banked:** EE d1 +2 (11, overshoot), EE d2 +6 (9/10 pending). Master 293 -> 301. 8 lines appended to used_topics.
+**Visuals:** none; all text-only.
+**Validation:** validate_batch.py passed on all batches.
+**Skill updates (Step 5):** none applied; nothing queued. Setup: matplotlib/numpy installed via pip. Observation: critics were given prompt files with the key stripped to preserve isolation.
+**Token usage:** 17 subagent calls (8 generators ~430k, 8 critics ~365k... approx 1.0M total subagent tokens incl. calibrators ~90k); orchestrator not included.
+**Next run should pick up at:** Equivalent expressions d2 (9/10, needs 1), then Equivalent expressions d3 (0/10).

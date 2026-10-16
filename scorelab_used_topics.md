@@ -308,3 +308,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 [Advanced Math/Equivalent expressions, d1] Power of a power 5(x^4)^3 = 5x^n.
 [Advanced Math/Equivalent expressions, d2] Distribute 3(2x-5)-4(x-2) = ax+b, find b (relabeled Medium).
 [Advanced Math/Equivalent expressions, d1] Monomial product (4x^3)(6x^5)=ax^b, find a+b.
+[Advanced Math/Equivalent expressions, d2] Non-monic factoring 10x^2+11x-6=(px+q)(rx+s), find q+s.
+[Advanced Math/Equivalent expressions, d1] Rational simplification (x^2-9)/(x^2+5x+6) (relabeled Easy).
+[Advanced Math/Equivalent expressions, d2] Radical with variable sqrt(72x^5)=cx^m sqrt(dx), find c+m+d.
+[Advanced Math/Equivalent expressions, d2] Add rational expressions 3/(x-2)+4/(x+3).
+[Advanced Math/Equivalent expressions, d2] Expand (2x+5)^2-(x-3)(x+4)=ax^2+bx+c, find a+b+c.
+[Advanced Math/Equivalent expressions, d2] Fractional exponent (27x^6)^(2/3)=ax^b.
+[Advanced Math/Equivalent expressions, d2] Farm-stand honey revenue R(p)=(30+2p)(80-3p) expanded.
