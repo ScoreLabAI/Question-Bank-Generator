@@ -246,8 +246,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 10,
-   "note": "2026-10-17 (run 34): 3 more generated (rate comparison of two machines, speed->time by division, two-step unit conversion with both factors given), all passed critique and calibrated Easy. Cell complete."
+   "accepted_count": 12,
+   "note": "2026-10-17 (run 34): 3 more generated (rate comparison of two machines, speed->time by division, two-step unit conversion with both factors given), all passed critique and calibrated Easy. Cell complete. Run 34 overshoot: +2 relabeled Easy from d2 generation (irrigation mL/s two-factor rate conversion; 3-part ratio 3:5:7 with total) -> 12/10."
   },
   {
    "domain": "math",
@@ -256,7 +256,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 5,
+   "note": "2026-10-17 (run 34): 7 generated for d2, 7 passed critique; 5 calibrated Medium and banked, 2 relabeled Easy. Medium shapes banked: inlet+drain net rate to fill, area scale factor squared + area unit conversion (borderline Medium/Hard), table proportion with g->kg, ratio change after adding group (algebra), cost per lb vs per kg comparison. Calibrator Easy: two-factor rate conversion with both factors given, 3-part ratio with total. Next: 5 more Medium; need a conceptual twist or 3+ steps, not just given-factor chains; avoid repeating banked shapes."
   },
   {
    "domain": "math",

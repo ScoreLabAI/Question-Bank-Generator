@@ -1161,10 +1161,15 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Next run should pick up at:** Ratios d1 (7/10, needs 3), then Ratios d2.
 
 ## Run 34 -- 2026-10-17
-**Cells worked:** PSDA / Ratios / d1 (needed 3, got 3 -> 10/10 done). Scope held to this cell only this run (3 new questions) after the unattended session was interrupted before Ratios d2 could be started; d2 (0/10) is next.
+**Cells worked:** PSDA / Ratios / d1 (needed 3, got 3 -> 10/10 done). Then worked Ratios d2 (below).
 **Outcome:** 3 generated, 3 passed critique first time, 0 regenerations, 0 discards. All calibrated Easy.
 **Banked:** Ratios d1 +3. Master 342 -> 345. 3 lines appended to used_topics.
 **Validation:** validate_batch.py passed 3/3.
 **Skill updates (Step 5):** none; nothing queued. matplotlib/numpy were missing in sandbox and installed via pip (no visuals needed this run).
 **Token usage:** 7 subagent calls (3 generators ~160k, 3 critics ~130k, 1 calibrator ~43k), roughly 0.33M subagent tokens.
-**Next run should pick up at:** Ratios d2 (0/10).
+**Also worked:** PSDA / Ratios / d2 (needed 7 this run to hold scope near 10, got 5 -> 5/10 pending). 7 generated, 7 passed critique first time, 0 regenerations, 0 discards. Calibration (1 batched call): 5 Medium banked in d2; 2 relabeled Easy and banked in d1 (overshoot, d1 now 12/10). QD (area scale) borderline Medium/Hard, kept Medium.
+**Banked totals this run:** d1 +5 (3 + 2 relabeled), d2 +5. Master 342 -> 352. 10 lines appended to used_topics.
+**Validation:** validate_batch.py passed 3/3, 2/2, 5/5; key-skew WARN left (numeric choices stay ascending).
+**Process note:** one extra generator was launched with an unfilled {SHAPE} placeholder in its prompt (orchestrator error); its output (loom rate item) was discarded, costing ~53k tokens.
+**Token usage (total run):** 21 subagent calls beyond the wasted one, roughly 1.0M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Ratios d2 (5/10, needs 5), then Ratios d3.

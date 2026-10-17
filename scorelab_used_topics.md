@@ -359,3 +359,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Warehouse label printers 18 vs 12 per minute, difference over 25 minutes (rate comparison).
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Cable-laying ship 15 km/h, hours to travel 270 km (division).
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Robot nature trail 3 km to centimeters with both conversion factors given.
+[Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Community garden drip irrigation pump 15 L/min to mL per second (relabeled Easy).
+[Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Landscape supplier blend 3:5:7 pine bark/cedar/coir, 120 cubic feet total (relabeled Easy).
+[Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Fish hatchery tank 1,260 gal, inlet 30 and drain 12 gal/min, minutes to fill.
+[Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Wetland preserve scale model 1:200, model pond 50 cm^2, actual area in m^2.
+[Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Aluminum alloy samples proportional table volume/mass, 2,500 cm^3 block in kg (table).
+[Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Harbor marina sailboats:motorboats 5:3 then 5:4 after 8 motorboats dock, original sailboats.
+[Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Cafe coffee beans $0.90/lb vs $1.75/kg, 44 kg, dollar difference.
