@@ -245,9 +245,9 @@
    "skill_subcategory": "Ratios, rates, proportional relationships, and units",
    "difficulty": 1,
    "target_count": 10,
-   "status": "pending",
-   "accepted_count": 7,
-   "note": "2026-10-17 (run 33): 7 generated, 7 passed critique, all calibrated Easy. Banked shapes: constant-rate table, part-part-total ratio, single-factor unit conversion, scale drawing, unit price proportion, rate with hours-to-minutes conversion, ratio missing part. Next: 3 more Easy items with new shapes (e.g. rate comparison, density/speed, ratio with table, percent-free proportion, two-step unit conversion with 1 factor given); avoid repeating banked shapes. Critic note: avoid distractors that add unlike quantities; key-largest-value is common in easy numeric sets."
+   "status": "done",
+   "accepted_count": 10,
+   "note": "2026-10-17 (run 34): 3 more generated (rate comparison of two machines, speed->time by division, two-step unit conversion with both factors given), all passed critique and calibrated Easy. Cell complete."
   },
   {
    "domain": "math",

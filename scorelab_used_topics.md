@@ -356,3 +356,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Ceramic mugs $36 for 8 mugs, cost of 14 mugs (unit price).
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Hospital syringe pump 0.75 mL/min over 2 hours (hours-to-minutes conversion).
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Park cleanup adult-to-youth volunteer ratio 3:7 with 42 youth.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Warehouse label printers 18 vs 12 per minute, difference over 25 minutes (rate comparison).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Cable-laying ship 15 km/h, hours to travel 270 km (division).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Robot nature trail 3 km to centimeters with both conversion factors given.

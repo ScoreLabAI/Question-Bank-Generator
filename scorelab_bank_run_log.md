@@ -1159,3 +1159,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: for EE d3, mandating unsignposted integer-enumeration shapes (divisor cases + second filter, parity on factor pairs, SFFT with filters) gave 3/3 Hard, vs 1/5 for telescoping/remainder/trick shapes.
 **Token usage:** 40 subagent calls (14 generators ~780k, 14 critics ~650k, 3 calibrators ~140k), roughly 1.6M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Ratios d1 (7/10, needs 3), then Ratios d2.
+
+## Run 34 -- 2026-10-17
+**Cells worked:** PSDA / Ratios / d1 (needed 3, got 3 -> 10/10 done). Scope held to this cell only this run (3 new questions) after the unattended session was interrupted before Ratios d2 could be started; d2 (0/10) is next.
+**Outcome:** 3 generated, 3 passed critique first time, 0 regenerations, 0 discards. All calibrated Easy.
+**Banked:** Ratios d1 +3. Master 342 -> 345. 3 lines appended to used_topics.
+**Validation:** validate_batch.py passed 3/3.
+**Skill updates (Step 5):** none; nothing queued. matplotlib/numpy were missing in sandbox and installed via pip (no visuals needed this run).
+**Token usage:** 7 subagent calls (3 generators ~160k, 3 critics ~130k, 1 calibrator ~43k), roughly 0.33M subagent tokens.
+**Next run should pick up at:** Ratios d2 (0/10).
