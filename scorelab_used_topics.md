@@ -334,3 +334,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 [Advanced Math/Equivalent expressions, d2] Denest sqrt(17+4sqrt15)=sqrt x+sqrt y, find 2x+y (relabeled Medium).
 [Advanced Math/Equivalent expressions, d3] (x^2+px+q)^2=x^4+kx^3+x^2-24x+16, find p+q+k (Hard, borderline).
 [Advanced Math/Equivalent expressions, d3] x^2+1/x^2=47, x>1, find x^(3/2)-1/x^(3/2) (Hard).
+[Advanced Math/Equivalent expressions, d3] Cubic p(x)=x^3+ax^2+bx+12 divisible by x^2-k (k perfect square), zero < -1 selects k=4, find p(5) (Hard).
+[Advanced Math/Equivalent expressions, d3] Exponent identity 12^x*18^y=2^11*3^b, b perfect square selects (2,7), find p in 12^y*18^x (Hard).
+[Advanced Math/Equivalent expressions, d3] Telescoping sum 1/(3*5)+...+1/((2n-1)(2n+1))=7/45, find n (Hard).
+[Advanced Math/Equivalent expressions, d2] sqrt((2x-5)^2)+sqrt((x+3)^2) on 2x^2+x-15<0 equals k-mx, find k+m (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Quartic x^4-22x^2+49=(x^2+px+q)(x^2-px+q), find p+q (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] Integer values of (n^2+5n+30)/(n+2), sum of positive n (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] (x^2+kx-12)/(x^2-x-6) reduces to (x+m)/(x+n), m,n>0, find k+m+n (relabeled Medium).
+[Advanced Math/Equivalent expressions, d2] a+b=1, ab=-12, a<b, find a^3-b^3 (relabeled Medium).

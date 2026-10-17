@@ -1140,3 +1140,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: Hard yield ~1/3 when mandating integer-divisibility, case-split, or chained-sign shapes vs ~1/9 for single-technique/combined routine shapes.
 **Token usage:** 21 subagent calls (9 generators ~490k, 9 critics ~410k, 2 calibrators ~95k), roughly 1.0M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Equivalent expressions d3 (4/10, needs 6).
+
+## Run 32 — 2026-10-17
+**Cell worked:** math / Advanced Math / Equivalent expressions / d3 — needed 6, got 3 (now 7/10, still pending). 8 generator attempts (two waves of 4), all passed critic first time; no regenerations or discards.
+**Banked:** EE d3 +3, EE d2 +5 (relabeled Medium by calibrators; d2 cell overshoot). Master 320 -> 328. 8 lines appended to used_topics.
+**Validation:** validate_batch.py passed 8/8.
+**Skill updates (Step 5):** none applied; nothing queued. Observation: Hard yield 3/8 when the selection condition is unsignposted (integer enumeration, telescoping); items stating the selection rule in the stem calibrate Medium.
+**Token usage:** 20 subagent calls (8 generators ~450k, 8 critics ~370k, 2 calibrators ~100k), roughly 0.9M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Equivalent expressions d3 (7/10, needs 3).
