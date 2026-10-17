@@ -1192,3 +1192,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: d3 Ratios only calibrates Hard with an unsignposted trap; discrete-count context (tubs) must divide evenly.
 **Token usage:** 12 subagent calls (5 generators ~350k, 6 critics ~275k, 1 calibrator ~47k), roughly 0.67M tokens. Run 35 total about 1.3M subagent tokens.
 **Next run should pick up at:** Ratios d3 (1/10, needs 9), then Percentages d1.
+
+## Run 36 - 2026-10-17
+**Cells worked:** Problem-Solving and Data Analysis / Ratios, rates, proportional relationships, and units, d3 (needed 9, generated 9 d3-targeted items).
+**Pipeline:** 9 generators, 9 critics (all PASS; 2 explanation-only fixes applied in place: river choice B, plate-washer choice B; 1 explanation completed for broth choice A), 2 batched calibrations (all sonnet).
+**Calibration:** 1 Hard (river float), 7 Medium, 1 Easy. Banked: d3 +1, d2 +6, d1 +1 (relabeled into correct cells). Regenerations/discards: none.
+**Banked:** master 362 -> 371. 9 lines appended to used_topics. validate_batch passed 9/9 (key-skew WARN only; choices numeric so not reorderable).
+**Note:** d3 Ratios now 2/10; d3 stays pending. Hard needs multi-unknown inference shapes, single-trap items calibrate Medium.
+**Skill updates (Step 5):** none applied; nothing queued.
+**Token usage:** ~20 subagent calls, roughly 0.95M tokens.
+**Next run should pick up at:** Ratios d3 (2/10, needs 8), then Percentages d1.
