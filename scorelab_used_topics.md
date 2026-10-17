@@ -371,3 +371,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Study-abroad currency exchange $1,000 with one-time 5% fee, spends 640 euros, dollars back after reconverting.
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Ceramics glaze feldspar:silica:kaolin 5:3:2 limiting ingredient, grams of feldspar left over.
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Forestry burned region 4 km^2, 75% plantable, 480 seedlings/hectare, bundles of 60 (relabeled Easy).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Seed bank 4 technicians + 3 volunteers (3:2 rate ratio), volunteers leave after 8 h, total hours for 5,400 packets (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Aquarium tanks 7:3, move 6 fish, new ratio 3:2, fish in Tank B after move (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] School garden rain cistern 2.0 m x 0.75 m base, 45 L/min inflow, hose 450 cm^3/s, minutes to 72 cm depth (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Campus fitness club protein powder oz tubs vs gram tubs, cost per serving, savings over 140 servings.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d3] High-speed ferry 54 km/h out, 100 s per km back, round-trip average speed (harmonic mean trap).

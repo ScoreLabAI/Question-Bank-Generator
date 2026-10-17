@@ -255,9 +255,9 @@
    "skill_subcategory": "Ratios, rates, proportional relationships, and units",
    "difficulty": 2,
    "target_count": 10,
-   "status": "pending",
-   "accepted_count": 9,
-   "note": "2026-10-17 (run 34): 7 generated for d2, 7 passed critique; 5 calibrated Medium and banked, 2 relabeled Easy. Medium shapes banked: inlet+drain net rate to fill, area scale factor squared + area unit conversion (borderline Medium/Hard), table proportion with g->kg, ratio change after adding group (algebra), cost per lb vs per kg comparison. Calibrator Easy: two-factor rate conversion with both factors given, 3-part ratio with total. Next: 5 more Medium; need a conceptual twist or 3+ steps, not just given-factor chains; avoid repeating banked shapes. | 2026-10-17 (run 35): +4 Medium: ethanol mixture + dilution (weighted concentration), combined closing speed with mixed units and head start, currency with one-time fee and round trip, limiting ingredient in 5:3:2 ratio with leftover. Next: 1 more Medium."
+   "status": "done",
+   "accepted_count": 13,
+   "note": "2026-10-17 (run 34): 7 generated for d2, 7 passed critique; 5 calibrated Medium and banked, 2 relabeled Easy. Medium shapes banked: inlet+drain net rate to fill, area scale factor squared + area unit conversion (borderline Medium/Hard), table proportion with g->kg, ratio change after adding group (algebra), cost per lb vs per kg comparison. Calibrator Easy: two-factor rate conversion with both factors given, 3-part ratio with total. Next: 5 more Medium; need a conceptual twist or 3+ steps, not just given-factor chains; avoid repeating banked shapes. | 2026-10-17 (run 35): +4 Medium: ethanol mixture + dilution (weighted concentration), combined closing speed with mixed units and head start, currency with one-time fee and round trip, limiting ingredient in 5:3:2 ratio with leftover. Next: 1 more Medium. | run 35 second round: +4 Medium (3 relabeled from d3 generation): worker-rate ratio with volunteers leaving, ratio change after transfer (one linear equation), net-rate fill with cm^3/s vs L/min and depth, unit price per serving oz vs g. Cell complete 13/10 (overshoot)."
   },
   {
    "domain": "math",
@@ -266,7 +266,8 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 1,
+   "note": "2026-10-17 (run 35): 5 d3 shapes generated; only unsignposted average-speed trap (harmonic mean, tempting arithmetic mean) calibrated Hard (1/4). Calibrated Medium: signposted worker-rate with ratio, single-equation ratio change after transfer, net-rate depth fill with conversions. Next: mandate unsignposted traps (harmonic mean/average-rate traps, hidden constants, inverse proportion with a conceptual trap), not multi-step chains."
   },
   {
    "domain": "math",

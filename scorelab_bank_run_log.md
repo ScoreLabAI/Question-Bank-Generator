@@ -1183,3 +1183,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: stems with "fee on the amount exchanged" are ambiguous; state who keeps the fee explicitly.
 **Token usage:** 12 subagent calls (5 generators ~330k, 6 critics ~280k, 1 calibrator ~46k), roughly 0.65M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Ratios d2 (9/10, needs 1), then Ratios d3.
+
+### Run 35 addendum (second round, same run)
+**Cells worked:** Ratios d2 (needed 1, generated 1 plus 3 relabeled from d3 -> 13/10, done) and Ratios d3 (generated 4 -> 1/10, pending).
+**Outcome:** 5 generated, 0 discards. Critic FLAG on unit-price item (150 servings not a whole number of tubs; changed to 140 servings, choices/explanations updated, re-critiqued PASS). Wording fixes in place: worker-rate final question reworded, cistern given a stated height (1.2 m).
+**Calibration:** 1 batched call: 4 Medium (3 generated for d3, relabeled and banked in d2), 1 Hard (average-speed trap).
+**Banked:** d2 +4, d3 +1. Master 357 -> 362. 5 lines appended to used_topics. validate_batch passed 4/4 and 1/1.
+**Skill updates (Step 5):** none applied; nothing queued. Observation: d3 Ratios only calibrates Hard with an unsignposted trap; discrete-count context (tubs) must divide evenly.
+**Token usage:** 12 subagent calls (5 generators ~350k, 6 critics ~275k, 1 calibrator ~47k), roughly 0.67M tokens. Run 35 total about 1.3M subagent tokens.
+**Next run should pick up at:** Ratios d3 (1/10, needs 9), then Percentages d1.
