@@ -366,3 +366,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Aluminum alloy samples proportional table volume/mass, 2,500 cm^3 block in kg (table).
 [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Harbor marina sailboats:motorboats 5:3 then 5:4 after 8 motorboats dock, original sailboats.
 [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Cafe coffee beans $0.90/lb vs $1.75/kg, 44 kg, dollar difference.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Pharmacy ethanol stock solutions 90%/60% mixed 2:3 to 750 mL then 250 mL water added, final concentration.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Greenway cyclists Maya 18 km/h and Theo 200 m/min toward each other, 15-min head start, minutes to meet.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Study-abroad currency exchange $1,000 with one-time 5% fee, spends 640 euros, dollars back after reconverting.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Ceramics glaze feldspar:silica:kaolin 5:3:2 limiting ingredient, grams of feldspar left over.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Forestry burned region 4 km^2, 75% plantable, 480 seedlings/hectare, bundles of 60 (relabeled Easy).

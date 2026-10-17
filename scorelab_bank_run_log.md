@@ -1173,3 +1173,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Process note:** one extra generator was launched with an unfilled {SHAPE} placeholder in its prompt (orchestrator error); its output (loom rate item) was discarded, costing ~53k tokens.
 **Token usage (total run):** 21 subagent calls beyond the wasted one, roughly 1.0M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Ratios d2 (5/10, needs 5), then Ratios d3.
+
+## Run 35 -- 2026-10-17
+**Cells worked:** PSDA / Ratios / d2 (needed 5, got 4 Medium -> 9/10 pending, 1 left). Scope held to one cell (5 generated).
+**Outcome:** 5 generated (mixture+dilution, mixed-unit closing speed with head start, currency with one-time fee, limiting ingredient, km^2/hectare/percent/bundles chain). 0 discards. 1 correctness regeneration-style fix: currency item flagged by Critic (fee ambiguity: on top vs deducted); stem reworded to "keeps 5% of the $1,000 as a fee", re-critiqued PASS. Small in-place edits: "respectively" added to the ethanol ratio; limiting-ingredient explanation sentence reworded.
+**Calibration:** 1 batched call: 4 Medium (currency borderline Medium/Easy), 1 Easy (plain chain, relabeled and banked in d1 -> 13/10).
+**Banked:** d2 +4, d1 +1. Master 352 -> 357. 5 lines appended to used_topics.
+**Validation:** validate_batch.py passed 4/4 and 1/1; key-skew WARN left (numeric choices ascending).
+**Skill updates (Step 5):** none applied; nothing queued. Observation: stems with "fee on the amount exchanged" are ambiguous; state who keeps the fee explicitly.
+**Token usage:** 12 subagent calls (5 generators ~330k, 6 critics ~280k, 1 calibrator ~46k), roughly 0.65M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Ratios d2 (9/10, needs 1), then Ratios d3.
