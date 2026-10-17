@@ -1148,3 +1148,14 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: Hard yield 3/8 when the selection condition is unsignposted (integer enumeration, telescoping); items stating the selection rule in the stem calibrate Medium.
 **Token usage:** 20 subagent calls (8 generators ~450k, 8 critics ~370k, 2 calibrators ~100k), roughly 0.9M subagent tokens; orchestrator not included.
 **Next run should pick up at:** Equivalent expressions d3 (7/10, needs 3).
+
+## Run 33 -- 2026-10-17
+**Cells worked:** (1) Advanced Math / Equivalent expressions / d3 (needed 3, got 3 Hard -> 10/10 done; 7 generated, 4 relabeled into d2). (2) PSDA / Ratios, rates, proportional relationships, and units / d1 (needed 7 this run to hold scope near 10, got 7 -> 7/10 pending, 3 left).
+**Outcome:** 14 generated, 14 passed critique first time, 0 regenerations, 0 discards. Explanation/distractor fixes applied in place: EE g3 explanation reasoning reworded; EE g4 distractor A + 'multiple' wording; EE g5 distractor A (0) replaced with 44 and choices reordered (key moved to A); ratios r2 distractor A reworded; r4 distractor D 96 replaced with 72; r3 distractor A reworded.
+**Calibration:** EE: 1 batched call on 5 (1 Hard, 4 Medium) + 1 on 2 (2 Hard). Ratios: 1 batched call, 7/7 Easy.
+**Banked:** EE d3 +3, EE d2 +4 (master 328 -> 335); Ratios d1 +7 (master 335 -> 342). 14 lines appended to used_topics.
+**Visuals:** one table (ratios r1); no graphs/geometry.
+**Validation:** validate_batch.py passed 7/7 and 7/7; WARN on key skew left as is (numeric choices must stay ascending).
+**Skill updates (Step 5):** none applied; nothing queued. Observation: for EE d3, mandating unsignposted integer-enumeration shapes (divisor cases + second filter, parity on factor pairs, SFFT with filters) gave 3/3 Hard, vs 1/5 for telescoping/remainder/trick shapes.
+**Token usage:** 40 subagent calls (14 generators ~780k, 14 critics ~650k, 3 calibrators ~140k), roughly 1.6M subagent tokens; orchestrator not included.
+**Next run should pick up at:** Ratios d1 (7/10, needs 3), then Ratios d2.

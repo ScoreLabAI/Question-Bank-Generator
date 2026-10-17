@@ -349,3 +349,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Advanced Math/Equivalent expressions, d2] (x^2-x+2)^3 expansion, a_2+a_4+a_6 via p(1), p(-1), p(0) (relabeled Medium).
 - [Advanced Math/Equivalent expressions, d3] a^2-b^2=360 positive integers, sum of all possible a via parity filter on factor pairs (Hard).
 - [Advanced Math/Equivalent expressions, d3] 1/a+1/b=1/12, a<b both even, sum of all possible a+b via (a-12)(b-12)=144 (Hard).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Bakery oven loaves per hour from constant-rate table, 8 hours (table).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Chemistry acid-to-water 3:5 mixture, 15 mL acid, find total volume.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Commuter rail route 3 miles to feet (5,280 ft/mile).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Architect blueprint scale 1 inch = 6 feet, 8-inch wall.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Ceramic mugs $36 for 8 mugs, cost of 14 mugs (unit price).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Hospital syringe pump 0.75 mL/min over 2 hours (hours-to-minutes conversion).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d1] Park cleanup adult-to-youth volunteer ratio 3:7 with 42 youth.

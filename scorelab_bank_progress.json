@@ -246,7 +246,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 7,
+   "note": "2026-10-17 (run 33): 7 generated, 7 passed critique, all calibrated Easy. Banked shapes: constant-rate table, part-part-total ratio, single-factor unit conversion, scale drawing, unit price proportion, rate with hours-to-minutes conversion, ratio missing part. Next: 3 more Easy items with new shapes (e.g. rate comparison, density/speed, ratio with table, percent-free proportion, two-step unit conversion with 1 factor given); avoid repeating banked shapes. Critic note: avoid distractors that add unlike quantities; key-largest-value is common in easy numeric sets."
   },
   {
    "domain": "math",
