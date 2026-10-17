@@ -342,3 +342,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 [Advanced Math/Equivalent expressions, d2] Integer values of (n^2+5n+30)/(n+2), sum of positive n (relabeled Medium).
 [Advanced Math/Equivalent expressions, d2] (x^2+kx-12)/(x^2-x-6) reduces to (x+m)/(x+n), m,n>0, find k+m+n (relabeled Medium).
 [Advanced Math/Equivalent expressions, d2] a+b=1, ab=-12, a<b, find a^3-b^3 (relabeled Medium).
+- [Advanced Math/Equivalent expressions, d2] Telescoping product (1-1/k^2) from k=3 to n equals 7/10, find n (relabeled Medium).
+- [Advanced Math/Equivalent expressions, d2] Quadratic p(x) remainders -1 and 7 for x-1, x+1, leading coeff = 2*p(0)^2, integer coefficients, remainder on x-3 (relabeled Medium).
+- [Advanced Math/Equivalent expressions, d3] Integer x with (2x^2-9x+29)/(x-3) a perfect square, sum of x (Hard).
+- [Advanced Math/Equivalent expressions, d2] 7/3+10/(6x+12)=(ax+b)/(cx+d), least a+b+c+d with positive integers (relabeled Medium).
+- [Advanced Math/Equivalent expressions, d2] (x^2-x+2)^3 expansion, a_2+a_4+a_6 via p(1), p(-1), p(0) (relabeled Medium).
+- [Advanced Math/Equivalent expressions, d3] a^2-b^2=360 positive integers, sum of all possible a via parity filter on factor pairs (Hard).
+- [Advanced Math/Equivalent expressions, d3] 1/a+1/b=1/12, a<b both even, sum of all possible a+b via (a-12)(b-12)=144 (Hard).
