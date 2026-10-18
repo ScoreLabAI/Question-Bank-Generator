@@ -1202,3 +1202,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued.
 **Token usage:** ~20 subagent calls, roughly 0.95M tokens.
 **Next run should pick up at:** Ratios d3 (2/10, needs 8), then Percentages d1.
+
+## Run 37 - 2026-10-18
+**Cells worked:** PSDA / Ratios, rates, proportional relationships, and units, d3 (needed 8, generated 8 d3-targeted items).
+**Pipeline:** 8 generators, 8 critics (all PASS; one advisory fix applied in place: removed "about" from leak stem and clarified choice C explanation), 2 batched calibrations (all sonnet). 0 regenerations, 0 discards.
+**Calibration:** 5 Hard (escalator, cyclists, three sorters, soap prices, hiker), 3 Medium (train, leak, glycol dilution).
+**Banked:** d3 +5 (now 7/10, pending), d2 +3 (now >10). Master 371 -> 379. 8 lines appended to used_topics. validate_batch passed 5/5 and 3/3 (key-skew WARN only; numeric choices ascending).
+**Skill updates (Step 5):** none applied; nothing queued.
+**Token usage:** 21 subagent calls, roughly 1.0M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Ratios d3 (7/10, needs 3), then Percentages d1.
