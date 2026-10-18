@@ -286,8 +286,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 10,
-   "note": "2026-10-18 (run 38): +2 relabeled from d1 (reverse percent find-whole, percent change). 2026-10-18 (run 40): 8 d2 shapes all calibrated Medium (successive changes, discount+tax reverse, percent-of-percent, percent more/fewer asymmetry, markup/discount profit, percent vs percentage points*, table percent change, compound decay). *P3 percent-of-percent and percentage-point item sit at low end of Medium. Cell complete."
+   "accepted_count": 17,
+   "note": "2026-10-18 (run 38): +2 relabeled from d1 (reverse percent find-whole, percent change). 2026-10-18 (run 40): 8 d2 shapes all calibrated Medium (successive changes, discount+tax reverse, percent-of-percent, percent more/fewer asymmetry, markup/discount profit, percent vs percentage points*, table percent change, compound decay). *P3 percent-of-percent and percentage-point item sit at low end of Medium. Cell complete. 2026-10-18 (run 41): +7 relabeled from d3 (overshoot, cell stays done)."
   },
   {
    "domain": "math",
@@ -296,7 +296,8 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 3,
+   "note": "2026-10-18 (run 41): 10 d3 shapes generated; Hard: weighted two-branch percent change with inferred base, table with chained percent-of-percent inferring unknown total, two-stage syrup dilution+sugar addition (infer unknown mass first). Calibrated Medium and relabeled d2: x% up/x% down, unknown-markup profit, product-of-factors (kiln), changing-denominator count, unknown annual rate (borderline Easy), chained greater/less lakes, markup/bulk-discount cost. Next: mandate multi-unknown inference (weighted groups, table chains, two-stage mixtures); single-equation unknown-percent items calibrate Medium."
   },
   {
    "domain": "math",

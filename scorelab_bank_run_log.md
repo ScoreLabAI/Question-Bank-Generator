@@ -1240,3 +1240,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Setup note:** `python3` was 3.11 while `pip` targeted 3.13; matplotlib/numpy installed via `python3 -m pip`.
 **Token usage:** 19 subagent calls, roughly 1.0M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Percentages d3 (0/10), then One-variable data d1.
+
+## Run 41 - 2026-10-18
+**Cells worked:** PSDA / Percentages d3 (needed 10, generated 10: 3 banked d3 -> 3/10 pending, 7 relabeled d2 -> d2 now 17, overshoot, stays done).
+**Pipeline:** 10 generators, 10 critics (9 PASS; 1 explanation-only fix on blender choice A; 1 explanation wording fix on syrup choice D, both applied in place), 1 batched calibration (all sonnet). 0 regenerations, 0 discards.
+**Calibration:** Hard: weighted library branches, logistics table, syrup two-stage mixture. Medium (relabeled d2): reservoir x%/x%, helmet markup, kiln energy, fire auxiliary, bakery growth (borderline Easy), lakes chain, blender cost.
+**Banked:** master 405 -> 415. 10 lines appended to used_topics. validate_batch passed 3/3 and 7/7. One table-visual item (no render needed).
+**Skill updates (Step 5):** none applied; nothing queued.
+**Setup note:** matplotlib/numpy installed via `python3 -m pip`.
+**Token usage:** 21 subagent calls, roughly 1.1M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Percentages d3 (3/10, needs 7), mandating multi-unknown inference shapes.

@@ -419,3 +419,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Percentages, d2] Music store acoustic guitar $250 cost, 40% markup, 10% off list, profit.
 - [Problem-Solving and Data Analysis/Percentages, d2] Regional recycling center tons of glass/metal/paper/plastic table, greatest percent increase 2021 to 2024 (table).
 - [Problem-Solving and Data Analysis/Percentages, d2] Mountain glacier 6,250 hectares in 1990, -20% per decade, area in 2020.
+- [Problem-Solving and Data Analysis/Percentages, d3] Public library two branches +10%/-20%, combined -2%, 2,450 total, find Lakeshore 2023 (weighted percent change).
+- [Problem-Solving and Data Analysis/Percentages, d3] Regional logistics company department table, percent of employees and remote percent, find Sales remote percent (table).
+- [Problem-Solving and Data Analysis/Percentages, d3] Confectionery sugar syrup 25% to 20% with 40 kg water then pure sugar to 36%, kg sugar added.
+- [Problem-Solving and Data Analysis/Percentages, d2] Mountain reservoir depth +x% then -x% ends at 91% of start, 18.2 m, find peak depth. (generated d3, relabeled Medium)
+- [Problem-Solving and Data Analysis/Percentages, d2] Bicycle shop helmet unknown markup m%, 35% off, 17% profit on cost, find m. (generated d3, relabeled Medium)
+- [Problem-Solving and Data Analysis/Percentages, d2] Ceramics studio kiln power +25%, energy -10%, percent shortening of firing. (generated d3, relabeled Medium)
+- [Problem-Solving and Data Analysis/Percentages, d2] County fire auxiliary 150 members 56% without first-aid, new certified members, 48%, find x. (generated d3, relabeled Medium)
+- [Problem-Solving and Data Analysis/Percentages, d2] Small bakery revenue same percent increase yearly, 44% greater over two years, find annual percent. (generated d3, relabeled Medium)
+- [Problem-Solving and Data Analysis/Percentages, d2] Three lakes surface area 150% greater / 50% less chain, percent less of C than A. (generated d3, relabeled Medium)
+- [Problem-Solving and Data Analysis/Percentages, d2] Restaurant supply blender 25% retail markup, 15% bulk discount, $120 profit on 80, find wholesale cost. (generated d3, relabeled Medium)
