@@ -1220,3 +1220,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued.
 **Token usage:** ~27 subagent calls, roughly 1.3M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Ratios d3 (8/10, needs 2), then Percentages d1 (5/10, needs 5).
+
+## Run 39 - 2026-10-18
+**Cells worked:** PSDA / Ratios d3 (needed 2, generated 2: 1 banked d3 -> 9/10 pending, 1 relabeled d2); PSDA / Percentages d1 (needed 5, generated 5: all banked -> 10/10 done).
+**Pipeline:** 7 generators, 7 critics (all PASS; one advisory rewording of tip choice C explanation; one decimal-direction wording in clinic choice C fixed before critique), 2 batched calibrations (all sonnet). 0 regenerations, 0 discards.
+**Calibration:** Ratios: bridge girder/panel two-unknown + kg->lb Hard; seed-packet weighted average rate with stop Medium (relabeled d2). Percentages: 5/5 Easy.
+**Banked:** master 389 -> 396. 7 lines appended to used_topics. validate_batch passed 1/1, 1/1, 5/5.
+**Scope note:** 7 new questions this run (Percentages d2 not started, to keep scope near target).
+**Skill updates (Step 5):** none applied; nothing queued.
+**Token usage:** 21 subagent calls, roughly 0.95M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Ratios d3 (9/10, needs 1), then Percentages d2.

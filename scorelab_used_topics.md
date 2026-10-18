@@ -405,3 +405,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Percentages, d2] Town library new members 80 in 2024 to 100 in 2025, percent increase (generated d1, relabeled Medium: percent change with base choice).
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d3] Bridge construction crane loads of girders and deck panels, two load readings give masses, third load in pounds.
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Agricultural seed-packet filler 900 at 30/min, 10-min stop, 300 at 5/min, overall average packets per hour (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/Percentages, d1] Lab technician 250 mL cleaning solution 8% hydrogen peroxide, find mL.
+- [Problem-Solving and Data Analysis/Percentages, d1] Town council crosswalk survey, 18 of 24 residents support, find percent.
+- [Problem-Solving and Data Analysis/Percentages, d1] Restaurant dinner bill $40 before tip, 15% tip amount.
+- [Problem-Solving and Data Analysis/Percentages, d1] Charity 10K race 140 registered runners, 45% first-timers, find number.
+- [Problem-Solving and Data Analysis/Percentages, d1] Health clinic 600 scheduled appointments, 15 cancelled, find percent.
