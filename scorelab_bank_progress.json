@@ -276,7 +276,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 5,
+   "note": "2026-10-18 (run 38): 7 d1 shapes generated (percent-of, sale price, part/whole percent, find whole, percent increase, percent change, complement count). Calibrated Easy: percent-of, sale price*, part/whole percent, percent increase*, complement count* (*borderline, kept Easy). Calibrated Medium and relabeled d2: reverse percent (find whole), percent change with base choice. Next: one-step percent items only; avoid reverse-percent and percent-change shapes at d1."
   },
   {
    "domain": "math",
@@ -285,7 +286,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 2,
+   "note": "2026-10-18 (run 38): +2 relabeled from d1 (reverse percent find-whole, percent change)."
   },
   {
    "domain": "math",

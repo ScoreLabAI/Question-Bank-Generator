@@ -396,3 +396,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Spice distributor two cumin/coriander sacks (3:2 and 1:4), total 90 kg and 38 kg cumin, infer sack masses, coriander in 40% of P plus 50% of Q (generated d3, relabeled Medium).
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d3] Beekeeping co-op honey extractors P and Q, Monday/Tuesday partial-run lots give two rate equations, Wednesday P 90-min head start, minutes to finish.
 - [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Coastal engineering lab tidal retention basin scale model, areas 450 cm^2 vs 1,800 m^2 and 4 cm depth, infer linear scale then real volume in m^3 (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/Percentages, d1] City bike-share, 35% of 480 bikes electric, find number of electric bikes.
+- [Problem-Solving and Data Analysis/Percentages, d1] Sporting goods store trail running shoes, regular price $120, 25% off, find sale price.
+- [Problem-Solving and Data Analysis/Percentages, d1] Community orchestra, 36 of 120 members play strings, find percent.
+- [Problem-Solving and Data Analysis/Percentages, d1] Harbor ferry passengers rise 15% from 3,200 in June, find July count.
+- [Problem-Solving and Data Analysis/Percentages, d1] Community orchard 240 apple trees, 35% pruned, find number not pruned.
+- [Problem-Solving and Data Analysis/Percentages, d2] Community garden, 40 unused plots are 20% of all plots, find whole (generated d1, relabeled Medium: reverse percent).
+- [Problem-Solving and Data Analysis/Percentages, d2] Town library new members 80 in 2024 to 100 in 2025, percent increase (generated d1, relabeled Medium: percent change with base choice).

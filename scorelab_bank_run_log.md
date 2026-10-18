@@ -1211,3 +1211,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued.
 **Token usage:** 21 subagent calls, roughly 1.0M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Ratios d3 (7/10, needs 3), then Percentages d1.
+
+## Run 38 - 2026-10-18
+**Cells worked:** PSDA / Ratios d3 (needed 3, generated 3: 1 banked d3, 2 relabeled d2 -> d3 now 8/10, pending); PSDA / Percentages d1 (needed 7, generated 7: 5 banked d1, 2 relabeled d2 -> d1 now 5/10, pending).
+**Pipeline:** 10 generators, 10 critics (all PASS; one explanation-wording fix on orchestra item B/D; two scenario swaps before critique to avoid near-duplicates: bike-share, orchard), 2 batched calibrations (all sonnet). 0 regenerations, 0 discards.
+**Calibration:** Ratios: 1 Hard (extractor system), 2 Medium. Percentages: 2 Easy clear, 3 borderline Easy/Medium (kept d1), 2 Medium (relabeled d2). Note: the calibrator prompt rubric ("single operation") was strict; borderline items were kept Easy by orchestrator judgment.
+**Banked:** master 379 -> 389. 10 lines appended to used_topics. validate_batch passed 3/3, 5/5, 2/2.
+**Skill updates (Step 5):** none applied; nothing queued.
+**Token usage:** ~27 subagent calls, roughly 1.3M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Ratios d3 (8/10, needs 2), then Percentages d1 (5/10, needs 5).
