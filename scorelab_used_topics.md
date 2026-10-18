@@ -403,3 +403,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Percentages, d1] Community orchard 240 apple trees, 35% pruned, find number not pruned.
 - [Problem-Solving and Data Analysis/Percentages, d2] Community garden, 40 unused plots are 20% of all plots, find whole (generated d1, relabeled Medium: reverse percent).
 - [Problem-Solving and Data Analysis/Percentages, d2] Town library new members 80 in 2024 to 100 in 2025, percent increase (generated d1, relabeled Medium: percent change with base choice).
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d3] Bridge construction crane loads of girders and deck panels, two load readings give masses, third load in pounds.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d2] Agricultural seed-packet filler 900 at 30/min, 10-min stop, 300 at 5/min, overall average packets per hour (generated d3, relabeled Medium).
