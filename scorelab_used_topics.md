@@ -410,3 +410,12 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Percentages, d1] Restaurant dinner bill $40 before tip, 15% tip amount.
 - [Problem-Solving and Data Analysis/Percentages, d1] Charity 10K race 140 registered runners, 45% first-timers, find number.
 - [Problem-Solving and Data Analysis/Percentages, d1] Health clinic 600 scheduled appointments, 15 cancelled, find percent.
+- [Problem-Solving and Data Analysis/Ratios, rates, proportional relationships, and units, d3] Marine fuel depot tanks A/B unlabeled ethanol percents, two blends 22% and 34%, third blend ethanol in mL (two-unknown elimination).
+- [Problem-Solving and Data Analysis/Percentages, d2] Regional food bank pounds +20% then -15%, net percent change 2023 to 2025.
+- [Problem-Solving and Data Analysis/Percentages, d2] Camper backpacking tent 30% off then 10% tax, total $308, find original price.
+- [Problem-Solving and Data Analysis/Percentages, d2] Community college 800 evening students, 30% health sciences, 25% of those nursing, count not in nursing.
+- [Problem-Solving and Data Analysis/Percentages, d2] Research lab spectrometer 150 samples/h is 25% more than older, percent fewer for older.
+- [Problem-Solving and Data Analysis/Percentages, d2] City household recycling rate 12% to 15%, percent increase (percentage-point trap).
+- [Problem-Solving and Data Analysis/Percentages, d2] Music store acoustic guitar $250 cost, 40% markup, 10% off list, profit.
+- [Problem-Solving and Data Analysis/Percentages, d2] Regional recycling center tons of glass/metal/paper/plastic table, greatest percent increase 2021 to 2024 (table).
+- [Problem-Solving and Data Analysis/Percentages, d2] Mountain glacier 6,250 hectares in 1990, -20% per decade, area in 2020.

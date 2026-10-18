@@ -1230,3 +1230,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued.
 **Token usage:** 21 subagent calls, roughly 0.95M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Ratios d3 (9/10, needs 1), then Percentages d2.
+
+## Run 40 - 2026-10-18
+**Cells worked:** PSDA / Ratios d3 (needed 1, got 1 -> 10/10 done); PSDA / Percentages d2 (needed 8, got 8 -> 10/10 done).
+**Pipeline:** 9 generators, 9 critics (all PASS; explanation-only wording fixes applied in place: tent none, food bank choice B, spectrometer choice B, guitar choice C, table choice B), 1 batched calibration (all sonnet). 0 regenerations, 0 discards.
+**Calibration:** Ratios d3 fuel-blend two-unknown elimination Hard. Percentages: all 8 Medium (health-sciences percent-of-percent and recycling percentage-point items are low-end Medium). No relabels.
+**Banked:** master 396 -> 405. 9 lines appended to used_topics. validate_batch passed 1/1 and 8/8. One table-visual item (no render needed).
+**Skill updates (Step 5):** none applied; nothing queued.
+**Setup note:** `python3` was 3.11 while `pip` targeted 3.13; matplotlib/numpy installed via `python3 -m pip`.
+**Token usage:** 19 subagent calls, roughly 1.0M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Percentages d3 (0/10), then One-variable data d1.
