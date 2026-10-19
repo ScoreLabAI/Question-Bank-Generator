@@ -451,3 +451,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Recycling center glass total over 12 days, mean.
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Bus stop rider wait times 5-row table, mean.
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Hiking club trail outings frequency table (15 members), median. (generated d1, relabeled Medium)
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Weather station rainfall 7 days, change in mean when Saturday outlier corrected.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Trivia teams Lark and Heron round scores, compare mean and standard deviation.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Ceramics studio morning and evening classes, combined mean pieces completed.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] City park playground ratings 1-5 bar graph, mean score (rendered bar).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Plant nursery potted herbs sold over 6 days, missing sixth-day value from mean. (generated d2, relabeled Easy)

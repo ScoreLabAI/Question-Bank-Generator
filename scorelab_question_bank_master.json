@@ -11498,5 +11498,222 @@
         ]
       ]
     }
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 2,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "question_text": "The table shows the rainfall, in millimeters (mm), that a weather station recorded on each of 7 days. A technician later found that the value recorded for Saturday was a data-entry error and that the actual rainfall on Saturday was 14 mm. By how many millimeters did the mean of the 7 rainfall values decrease when the Saturday value was corrected from 42 mm to 14 mm?",
+    "answer_a": "4",
+    "answer_b": "11",
+    "answer_c": "15",
+    "answer_d": "28",
+    "correct_answer": "A",
+    "explanation": "Choice A is correct. The mean of a data set is the sum of the values divided by the number of values. Correcting the Saturday value from 42 mm to 14 mm decreases the sum of the 7 values by 42 - 14 = 28 mm. The other 6 values are unchanged, and the number of values is still 7. Therefore, the mean decreases by 28/7 = 4 mm. This can be verified: the original sum is 8 + 12 + 9 + 11 + 10 + 13 + 42 = 105, so the original mean is 105/7 = 15; the corrected sum is 77, so the corrected mean is 77/7 = 11; and 15 - 11 = 4.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect. This is the mean of the corrected data set (77/7 = 11), not the amount by which the mean decreased.",
+    "distractor_c_explanation": "Choice C is incorrect. This is the mean of the original data set (105/7 = 15), not the amount by which the mean decreased.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the amount by which the Saturday value changed (42 - 14 = 28), not the amount by which the mean changed. It results from not dividing by the 7 values in the data set.",
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "Day",
+        "Rainfall (mm)"
+      ],
+      "rows": [
+        [
+          "Sunday",
+          "8"
+        ],
+        [
+          "Monday",
+          "12"
+        ],
+        [
+          "Tuesday",
+          "9"
+        ],
+        [
+          "Wednesday",
+          "11"
+        ],
+        [
+          "Thursday",
+          "10"
+        ],
+        [
+          "Friday",
+          "13"
+        ],
+        [
+          "Saturday",
+          "42"
+        ]
+      ]
+    },
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "Two trivia teams, Team Lark and Team Heron, each played 6 rounds. The table shows the number of points each team scored in each round.\n\nWhich of the following statements correctly compares the mean and the standard deviation of the two teams' round scores?",
+    "answer_a": "The two sets of scores have the same mean, and the standard deviation for Team Lark is greater than the standard deviation for Team Heron.",
+    "answer_b": "The two sets of scores have the same mean and the same standard deviation.",
+    "answer_c": "The two sets of scores have the same mean, and the standard deviation for Team Heron is greater than the standard deviation for Team Lark.",
+    "answer_d": "The mean for Team Heron is greater than the mean for Team Lark, and the standard deviation for Team Heron is greater than the standard deviation for Team Lark.",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. The sum of Team Lark's scores is 15 + 18 + 12 + 16 + 14 + 15 = 90, so its mean is 90/6 = 15. The sum of Team Heron's scores is 21 + 5 + 16 + 25 + 9 + 14 = 90, so its mean is also 90/6 = 15. Therefore, the two sets have the same mean. Standard deviation measures how far the values are spread from the mean. Team Lark's scores all fall between 12 and 18, close to the mean of 15, while Team Heron's scores range from 5 to 25, much farther from the mean. Therefore, the standard deviation for Team Heron is greater than the standard deviation for Team Lark.",
+    "distractor_a_explanation": "Choice A is incorrect. This reverses the comparison of spread. Team Lark's scores (12 to 18) are clustered more tightly around the mean of 15 than Team Heron's scores (5 to 25), so Team Lark has the smaller standard deviation.",
+    "distractor_b_explanation": "Choice B is incorrect. This assumes that sets with the same mean must have the same standard deviation. Equal means describe the center only, and the two sets differ in how far their values are spread from that center.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. A student may be drawn to Team Heron's high score of 25 and assume its mean is greater. But both teams' scores total 90 over 6 rounds, so both means are 15. Only the standard-deviation part of this choice is true.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "Round",
+        "Team Lark",
+        "Team Heron"
+      ],
+      "rows": [
+        [
+          "1",
+          "15",
+          "21"
+        ],
+        [
+          "2",
+          "18",
+          "5"
+        ],
+        [
+          "3",
+          "12",
+          "16"
+        ],
+        [
+          "4",
+          "16",
+          "25"
+        ],
+        [
+          "5",
+          "14",
+          "9"
+        ],
+        [
+          "6",
+          "15",
+          "14"
+        ]
+      ]
+    },
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 2,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "question_text": "A ceramics studio offers a morning class and an evening class. The 15 students in the morning class completed a mean of 18 pieces each during the term, and the 10 students in the evening class completed a mean of 28 pieces each. What is the mean number of pieces completed per student for all 25 students in the two classes combined?",
+    "answer_a": "22",
+    "answer_b": "23",
+    "answer_c": "24",
+    "answer_d": "25",
+    "correct_answer": "A",
+    "explanation": "Choice A is correct. It's given that the 15 students in the morning class completed a mean of 18 pieces each, so the morning class completed a total of 15(18) = 270 pieces. It's also given that the 10 students in the evening class completed a mean of 28 pieces each, so the evening class completed a total of 10(28) = 280 pieces. The total for both classes is 270 + 280 = 550 pieces, and there are 15 + 10 = 25 students. Therefore, the mean number of pieces completed per student for the two classes combined is 550/25 = 22.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect. This is the simple average of the two class means, (18 + 28)/2 = 23, which ignores that the morning class has more students than the evening class.",
+    "distractor_c_explanation": "Choice C is incorrect. This results from weighting each mean by the wrong class size: (15(28) + 10(18))/25 = 600/25 = 24, which pairs the larger class with the larger mean.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the total number of students, 15 + 10 = 25, not the mean number of pieces completed per student.",
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 2,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "question_text": "After a city park opened a new playground, 30 visitors each rated it with a whole-number score from 1 to 5. The bar graph shows the number of visitors who gave each score. What is the mean score of the 30 ratings?",
+    "answer_a": "3",
+    "answer_b": "3.6",
+    "answer_c": "4",
+    "answer_d": "6",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. From the bar graph, 2 visitors gave a score of 1, 4 gave a score of 2, 6 gave a score of 3, 10 gave a score of 4, and 8 gave a score of 5, for a total of 2 + 4 + 6 + 10 + 8 = 30 visitors. The sum of the 30 scores is 1(2) + 2(4) + 3(6) + 4(10) + 5(8) = 2 + 8 + 18 + 40 + 40 = 108. Therefore, the mean score is 108/30 = 3.6.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the mean of the five score values 1, 2, 3, 4, and 5, which ignores how many visitors gave each score.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This is the mode (and also the median) of the ratings, not the mean.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the mean of the five bar heights, 30/5 = 6, which is the average number of visitors per score rather than the mean score.",
+    "has_visual": true,
+    "visual_type": "graph",
+    "visual_data": {
+      "chart_type": "bar",
+      "x_label": "Score",
+      "y_label": "Number of visitors",
+      "title": "Playground ratings",
+      "categories": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "values": [
+        2,
+        4,
+        6,
+        10,
+        8
+      ],
+      "y_range": [
+        0,
+        12
+      ],
+      "y_tick_step": 2
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-19T09:53:36.328605</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 44.276172 242.000781 \nL 349.2 242.000781 \nL 349.2 28.425 \nL 44.276172 28.425 \nz\n\" style=\"fill: #ffffff\"/>\n   </g>\n   <g id=\"patch_3\">\n    <path d=\"M 58.136346 242.000781 \nL 104.336926 242.000781 \nL 104.336926 201.31968 \nL 58.136346 201.31968 \nz\n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: #2563eb\"/>\n   </g>\n   <g id=\"patch_4\">\n    <path d=\"M 115.887071 242.000781 \nL 162.087651 242.000781 \nL 162.087651 160.638579 \nL 115.887071 160.638579 \nz\n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: #2563eb\"/>\n   </g>\n   <g id=\"patch_5\">\n    <path d=\"M 173.637796 242.000781 \nL 219.838376 242.000781 \nL 219.838376 119.957478 \nL 173.637796 119.957478 \nz\n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: #2563eb\"/>\n   </g>\n   <g id=\"patch_6\">\n    <path d=\"M 231.388521 242.000781 \nL 277.589101 242.000781 \nL 277.589101 38.595275 \nL 231.388521 38.595275 \nz\n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: #2563eb\"/>\n   </g>\n   <g id=\"patch_7\">\n    <path d=\"M 289.139246 242.000781 \nL 335.339826 242.000781 \nL 335.339826 79.276376 \nL 289.139246 79.276376 \nz\n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: #2563eb\"/>\n   </g>\n   <g id=\"matplotlib.axis_1\">\n    <g id=\"xtick_1\">\n     <g id=\"line2d_1\">\n      <path d=\"M 81.236636 242.000781 \nL 81.236636 28.425 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_2\">\n      <defs>\n       <path id=\"mc4101b8138\" d=\"M 0 0 \nL 0 3.5 \n\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </defs>\n      <g>\n       <use xlink:href=\"#mc4101b8138\" x=\"81.236636\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_1\">\n      <!-- 1 -->\n      <g transform=\"translate(79.203042 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-540\" d=\"M 2041 4656 \nL 1313 4656 \nL 300 3909 \nL 300 3272 \nL 1425 4106 \nL 1456 4106 \nL 1456 0 \nL 2041 0 \nL 2041 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-540\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_2\">\n     <g id=\"line2d_3\">\n      <path d=\"M 138.987361 242.000781 \nL 138.987361 28.425 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_4\">\n      <g>\n       <use xlink:href=\"#mc4101b8138\" x=\"138.987361\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_2\">\n      <!-- 2 -->\n      <g transform=\"translate(135.938142 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-541\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_3\">\n     <g id=\"line2d_5\">\n      <path d=\"M 196.738086 242.000781 \nL 196.738086 28.425 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_6\">\n      <g>\n       <use xlink:href=\"#mc4101b8138\" x=\"196.738086\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_3\">\n      <!-- 3 -->\n      <g transform=\"translate(193.649805 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-543\" d=\"M 1984 -63 \nC 2897 -63 3572 503 3572 1266 \nC 3572 1853 3225 2284 2631 2381 \nL 2631 2419 \nC 3106 2559 3403 2944 3403 3469 \nC 3403 4131 2872 4719 2003 4719 \nC 1184 4719 516 4216 491 3484 \nL 1063 3484 \nC 1081 3938 1516 4203 1991 4203 \nC 2497 4203 2822 3900 2822 3438 \nC 2822 2956 2447 2644 1903 2644 \nL 1525 2644 \nL 1525 2128 \nL 1903 2128 \nC 2594 2128 2984 1775 2984 1272 \nC 2984 788 2559 459 1975 459 \nC 1444 459 1025 731 991 1175 \nL 391 1175 \nC 422 438 1072 -63 1984 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-543\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_4\">\n     <g id=\"line2d_7\">\n      <path d=\"M 254.488811 242.000781 \nL 254.488811 28.425 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_8\">\n      <g>\n       <use xlink:href=\"#mc4101b8138\" x=\"254.488811\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_4\">\n      <!-- 4 -->\n      <g transform=\"translate(251.259123 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-544\" d=\"M 375 947 \nL 2566 947 \nL 2566 0 \nL 3134 0 \nL 3134 947 \nL 3766 947 \nL 3766 1469 \nL 3134 1469 \nL 3134 4656 \nL 2413 4656 \nL 375 1431 \nL 375 947 \nz\nM 2569 1469 \nL 1009 1469 \nL 1009 1506 \nL 2531 3913 \nL 2569 3913 \nL 2569 1469 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-544\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_5\">\n     <g id=\"line2d_9\">\n      <path d=\"M 312.239536 242.000781 \nL 312.239536 28.425 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_10\">\n      <g>\n       <use xlink:href=\"#mc4101b8138\" x=\"312.239536\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_5\">\n      <!-- 5 -->\n      <g transform=\"translate(309.199692 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-545\" d=\"M 1956 -63 \nC 2853 -63 3509 594 3509 1488 \nC 3509 2388 2881 3047 2028 3047 \nC 1706 3047 1397 2934 1206 2775 \nL 1181 2775 \nL 1341 4134 \nL 3291 4134 \nL 3291 4656 \nL 841 4656 \nL 566 2350 \nL 1122 2281 \nC 1306 2422 1631 2525 1919 2525 \nC 2503 2525 2928 2078 2928 1478 \nC 2928 888 2519 459 1956 459 \nC 1488 459 1106 759 1069 1175 \nL 494 1175 \nC 525 463 1138 -63 1956 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-545\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"text_6\">\n     <!-- Score -->\n     <g transform=\"translate(182.961523 274.787891) scale(0.1 -0.1)\">\n      <defs>\n       <path id=\"Inter-Regular-18e\" d=\"M 2053 -81 \nC 3128 -81 3744 506 3744 1269 \nC 3744 2138 2925 2419 2425 2556 \nL 1959 2684 \nC 1619 2778 1072 2950 1072 3438 \nC 1072 3875 1472 4194 2075 4194 \nC 2628 4194 3047 3934 3100 3481 \nL 3681 3481 \nC 3653 4184 3013 4719 2094 4719 \nC 1194 4719 494 4197 494 3409 \nC 494 2791 931 2406 1681 2194 \nL 2244 2034 \nC 2741 1894 3166 1728 3166 1278 \nC 3166 781 2684 450 2053 450 \nC 1506 450 1019 691 972 1219 \nL 363 1219 \nC 416 438 1044 -81 2053 -81 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-24b\" d=\"M 1916 -75 \nC 2600 -75 3156 297 3344 919 \nL 2806 1072 \nC 2703 694 2384 428 1916 428 \nC 1219 428 897 1038 897 1725 \nC 897 2422 1219 3034 1916 3034 \nC 2375 3034 2688 2778 2791 2419 \nL 3331 2572 \nC 3141 3181 2591 3538 1916 3538 \nC 966 3538 325 2819 325 1725 \nC 325 647 966 -75 1916 -75 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-318\" d=\"M 1916 -75 \nC 2869 -75 3513 647 3513 1725 \nC 3513 2819 2869 3538 1916 3538 \nC 966 3538 325 2819 325 1725 \nC 325 647 966 -75 1916 -75 \nz\nM 1916 428 \nC 1219 428 897 1038 897 1725 \nC 897 2422 1219 3034 1916 3034 \nC 2622 3034 2944 2419 2944 1725 \nC 2944 1038 2622 428 1916 428 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-356\" d=\"M 494 0 \nL 1056 0 \nL 1056 2188 \nC 1056 2659 1425 3000 1928 3000 \nC 2078 3000 2231 2975 2266 2969 \nL 2266 3534 \nC 2200 3538 2063 3544 1981 3544 \nC 1566 3544 1203 3309 1075 2956 \nL 1038 2956 \nL 1038 3494 \nL 494 3494 \nL 494 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-267\" d=\"M 1963 -75 \nC 2678 -75 3200 284 3363 813 \nL 2819 963 \nC 2688 606 2378 425 1966 425 \nC 1347 425 922 825 894 1556 \nL 3419 1556 \nL 3419 1791 \nC 3419 3081 2638 3538 1897 3538 \nC 944 3538 325 2791 325 1719 \nC 325 644 950 -75 1963 -75 \nz\nM 897 2031 \nC 931 2566 1297 3038 1897 3038 \nC 2472 3038 2794 2625 2847 2031 \nL 897 2031 \nz\n\" transform=\"scale(0.015625)\"/>\n      </defs>\n      <use xlink:href=\"#Inter-Regular-18e\"/>\n      <use xlink:href=\"#Inter-Regular-24b\" transform=\"translate(64.15625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-318\" transform=\"translate(121.28125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(181.25 0)\"/>\n      <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(217.234375 0)\"/>\n     </g>\n    </g>\n   </g>\n   <g id=\"matplotlib.axis_2\">\n    <g id=\"ytick_1\">\n     <g id=\"line2d_11\">\n      <path d=\"M 44.276172 242.000781 \nL 349.2 242.000781 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_12\">\n      <defs>\n       <path id=\"mbe099f8f72\" d=\"M 0 0 \nL -3.5 0 \n\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </defs>\n      <g>\n       <use xlink:href=\"#mbe099f8f72\" x=\"44.276172\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_7\">\n      <!-- 0 -->\n      <g transform=\"translate(30.966797 246.844531) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-53f\" d=\"M 2019 -63 \nC 3059 -63 3656 809 3656 2325 \nC 3656 3834 3050 4719 2019 4719 \nC 988 4719 381 3834 381 2325 \nC 381 806 981 -63 2019 -63 \nz\nM 2019 456 \nC 1338 456 953 1144 953 2325 \nC 953 3509 1338 4203 2019 4203 \nC 2700 4203 3084 3513 3084 2325 \nC 3084 1144 2700 456 2019 456 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-53f\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_2\">\n     <g id=\"line2d_13\">\n      <path d=\"M 44.276172 201.31968 \nL 349.2 201.31968 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_14\">\n      <g>\n       <use xlink:href=\"#mbe099f8f72\" x=\"44.276172\" y=\"201.31968\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_8\">\n      <!-- 2 -->\n      <g transform=\"translate(31.177734 206.16343) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-541\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_3\">\n     <g id=\"line2d_15\">\n      <path d=\"M 44.276172 160.638579 \nL 349.2 160.638579 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_16\">\n      <g>\n       <use xlink:href=\"#mbe099f8f72\" x=\"44.276172\" y=\"160.638579\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_9\">\n      <!-- 4 -->\n      <g transform=\"translate(30.816797 165.482329) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-544\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_4\">\n     <g id=\"line2d_17\">\n      <path d=\"M 44.276172 119.957478 \nL 349.2 119.957478 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_18\">\n      <g>\n       <use xlink:href=\"#mbe099f8f72\" x=\"44.276172\" y=\"119.957478\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_10\">\n      <!-- 6 -->\n      <g transform=\"translate(31.074609 124.801228) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-547\" d=\"M 2019 -63 \nC 2969 -63 3588 634 3588 1503 \nC 3588 2403 2925 3044 2128 3044 \nC 1644 3044 1231 2813 981 2425 \nL 944 2425 \nC 944 3544 1375 4194 2091 4194 \nC 2575 4194 2866 3888 2969 3484 \nL 3550 3484 \nC 3438 4216 2872 4719 2091 4719 \nC 1034 4719 381 3788 381 2150 \nC 381 434 1241 -63 2019 -63 \nz\nM 2019 459 \nC 1447 459 1028 947 1028 1497 \nC 1028 2041 1469 2528 2034 2528 \nC 2597 2528 3013 2072 3013 1503 \nC 3013 922 2578 459 2019 459 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-547\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_5\">\n     <g id=\"line2d_19\">\n      <path d=\"M 44.276172 79.276376 \nL 349.2 79.276376 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_20\">\n      <g>\n       <use xlink:href=\"#mbe099f8f72\" x=\"44.276172\" y=\"79.276376\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_11\">\n      <!-- 8 -->\n      <g transform=\"translate(31.090234 84.120126) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-549\" d=\"M 1978 -63 \nC 2916 -63 3578 478 3578 1238 \nC 3578 1825 3175 2325 2669 2419 \nL 2669 2444 \nC 3109 2559 3403 2988 3403 3481 \nC 3403 4191 2794 4719 1978 4719 \nC 1150 4719 550 4191 550 3481 \nC 550 2988 838 2559 1291 2444 \nL 1291 2419 \nC 769 2325 381 1825 381 1238 \nC 381 478 1031 -63 1978 -63 \nz\nM 1978 453 \nC 1350 453 966 775 966 1269 \nC 966 1784 1391 2153 1978 2153 \nC 2553 2153 2984 1784 2984 1269 \nC 2984 775 2594 453 1978 453 \nz\nM 1978 2650 \nC 1475 2650 1125 2966 1125 3438 \nC 1125 3903 1463 4206 1978 4206 \nC 2484 4206 2828 3903 2828 3438 \nC 2828 2966 2469 2650 1978 2650 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-549\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_6\">\n     <g id=\"line2d_21\">\n      <path d=\"M 44.276172 38.595275 \nL 349.2 38.595275 \n\" clip-path=\"url(#pe9f68fbb89)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_22\">\n      <g>\n       <use xlink:href=\"#mbe099f8f72\" x=\"44.276172\" y=\"38.595275\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_12\">\n      <!-- 10 -->\n      <g transform=\"translate(26.899609 43.439025) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"text_13\">\n     <!-- Number of visitors -->\n     <g transform=\"translate(20.4875 178.814453) rotate(-90) scale(0.1 -0.1)\">\n      <defs>\n       <path id=\"Inter-Regular-12d\" d=\"M 563 0 \nL 1159 0 \nL 1159 2656 \nC 1159 2881 1138 3347 1113 3944 \nC 1475 3297 1653 2984 1866 2650 \nL 3553 0 \nL 4259 0 \nL 4259 4656 \nL 3666 4656 \nL 3666 1800 \nC 3666 1550 3669 1153 3706 703 \nC 3494 1125 3281 1481 3156 1678 \nL 1263 4656 \nL 563 4656 \nL 563 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-395\" d=\"M 1678 -44 \nC 2138 -44 2519 144 2747 653 \nL 2747 0 \nL 3291 0 \nL 3291 3494 \nL 2725 3494 \nL 2725 1400 \nC 2725 803 2347 463 1847 463 \nC 1359 463 1056 784 1056 1322 \nL 1056 3494 \nL 494 3494 \nL 494 1275 \nC 494 391 972 -44 1678 -44 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-300\" d=\"M 494 0 \nL 1056 0 \nL 1056 2200 \nC 1056 2756 1428 3044 1838 3044 \nC 2231 3044 2522 2784 2522 2397 \nL 2522 0 \nL 3084 0 \nL 3084 2281 \nC 3084 2722 3372 3044 3844 3044 \nC 4219 3044 4547 2844 4547 2341 \nL 4547 0 \nL 5113 0 \nL 5113 2356 \nC 5113 3166 4619 3556 4013 3556 \nC 3506 3556 3078 3284 2913 2844 \nC 2788 3275 2481 3556 2022 3556 \nC 1609 3556 1216 3325 1044 2853 \nL 1041 3494 \nL 494 3494 \nL 494 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-243\" d=\"M 2116 -75 \nC 2988 -75 3594 625 3594 1738 \nC 3594 2844 2984 3538 2113 3538 \nC 1431 3538 1216 3119 1100 2934 \nL 1056 2934 \nL 1056 4656 \nL 494 4656 \nL 494 0 \nL 1038 0 \nL 1038 541 \nL 1100 541 \nC 1216 347 1450 -75 2116 -75 \nz\nM 2031 428 \nC 1397 428 1050 966 1050 1744 \nC 1050 2516 1388 3034 2031 3034 \nC 2694 3034 3022 2469 3022 1744 \nC 3022 1009 2684 428 2031 428 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-6eb\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-288\" d=\"M 2119 3494 \nL 1313 3494 \nL 1313 3834 \nC 1313 4172 1463 4353 1809 4353 \nC 1966 4353 2053 4319 2113 4300 \nL 2269 4781 \nC 2184 4819 2009 4875 1744 4875 \nC 1234 4875 750 4566 750 3959 \nL 750 3494 \nL 63 3494 \nL 63 3013 \nL 750 3013 \nL 750 0 \nL 1313 0 \nL 1313 3013 \nL 2119 3013 \nL 2119 3494 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-3d6\" d=\"M 1503 0 \nL 2094 0 \nL 3428 3494 \nL 2813 3494 \nL 2069 1422 \nC 1959 1119 1878 813 1800 522 \nC 1719 813 1638 1119 1528 1422 \nL 784 3494 \nL 169 3494 \nL 1503 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-2b2\" d=\"M 494 0 \nL 1056 0 \nL 1056 3494 \nL 494 3494 \nL 494 0 \nz\nM 778 4066 \nC 994 4066 1172 4231 1172 4438 \nC 1172 4644 994 4809 778 4809 \nC 566 4809 388 4644 388 4438 \nC 388 4231 566 4066 778 4066 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-369\" d=\"M 1681 -75 \nC 2500 -75 3059 372 3059 984 \nC 3059 1463 2763 1778 2128 1928 \nL 1600 2053 \nC 1191 2150 1013 2294 1013 2553 \nC 1013 2844 1325 3059 1741 3059 \nC 2191 3059 2388 2816 2484 2566 \nL 2994 2697 \nC 2834 3188 2456 3538 1738 3538 \nC 994 3538 444 3119 444 2519 \nC 444 2028 747 1716 1381 1566 \nL 1963 1428 \nC 2306 1347 2475 1188 2475 947 \nC 2475 659 2163 419 1675 419 \nC 1256 419 972 591 872 975 \nL 338 847 \nC 463 244 963 -75 1681 -75 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-37b\" d=\"M 1869 3494 \nL 1150 3494 \nL 1150 4325 \nL 588 4325 \nL 588 3494 \nL 63 3494 \nL 63 3013 \nL 588 3013 \nL 588 863 \nC 588 291 944 -44 1547 -44 \nC 1691 -44 1850 -22 1966 19 \nL 1850 494 \nC 1756 475 1634 456 1563 456 \nC 1266 456 1150 594 1150 906 \nL 1150 3013 \nL 1869 3013 \nL 1869 3494 \nz\n\" transform=\"scale(0.015625)\"/>\n      </defs>\n      <use xlink:href=\"#Inter-Regular-12d\"/>\n      <use xlink:href=\"#Inter-Regular-395\" transform=\"translate(75.34375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-300\" transform=\"translate(134.46875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-243\" transform=\"translate(222.0625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(283.296875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(341.59375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(379.234375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-318\" transform=\"translate(407.359375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-288\" transform=\"translate(467.328125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(504.34375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-3d6\" transform=\"translate(532.46875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(588.671875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-369\" transform=\"translate(612.890625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(665.671875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(689.890625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-318\" transform=\"translate(721.640625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(781.609375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-369\" transform=\"translate(819.25 0)\"/>\n     </g>\n    </g>\n   </g>\n   <g id=\"patch_8\">\n    <path d=\"M 44.276172 242.000781 \nL 44.276172 28.425 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"patch_9\">\n    <path d=\"M 349.2 242.000781 \nL 349.2 28.425 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"patch_10\">\n    <path d=\"M 44.276172 242.000781 \nL 349.2 242.000781 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"patch_11\">\n    <path d=\"M 44.276172 28.425 \nL 349.2 28.425 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_14\">\n    <!-- Playground ratings -->\n    <g transform=\"translate(143.590273 22.425) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-178\" d=\"M 563 0 \nL 1156 0 \nL 1156 1684 \nL 2159 1684 \nC 3244 1684 3744 2344 3744 3175 \nC 3744 4003 3244 4656 2156 4656 \nL 563 4656 \nL 563 0 \nz\nM 1156 2206 \nL 1156 4134 \nL 2125 4134 \nC 2869 4134 3153 3725 3153 3175 \nC 3153 2622 2869 2206 2131 2206 \nL 1156 2206 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-2e2\" d=\"M 1056 4656 \nL 494 4656 \nL 494 0 \nL 1056 0 \nL 1056 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-1fc\" d=\"M 1472 -81 \nC 2063 -81 2391 228 2509 475 \nL 2547 475 \nL 2547 0 \nL 3100 0 \nL 3100 2303 \nC 3100 3394 2259 3538 1791 3538 \nC 1250 3538 650 3344 381 2709 \nL 922 2531 \nC 1031 2775 1303 3044 1806 3044 \nC 2291 3044 2538 2794 2538 2359 \nL 2538 2341 \nC 2538 2081 2263 2100 1641 2022 \nC 994 1941 281 1794 281 994 \nC 281 306 809 -81 1472 -81 \nz\nM 1569 416 \nC 1150 416 847 603 847 966 \nC 847 1363 1206 1494 1616 1547 \nC 1831 1575 2444 1638 2538 1747 \nL 2538 1263 \nC 2538 834 2191 416 1569 416 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-3e8\" d=\"M 438 -1266 \nC 497 -1294 650 -1331 850 -1331 \nC 1344 -1331 1681 -1078 1894 -522 \nL 3428 3494 \nL 2816 3494 \nL 2066 1422 \nC 1956 1119 1875 816 1797 525 \nC 1716 816 1638 1116 1528 1422 \nL 784 3494 \nL 169 3494 \nL 1503 -19 \nL 1403 -309 \nC 1231 -809 984 -884 641 -794 \nL 581 -778 \nL 438 -1266 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-293\" d=\"M 1909 -1381 \nC 2759 -1381 3431 -994 3431 -91 \nL 3431 3494 \nL 2884 3494 \nL 2884 2934 \nL 2831 2934 \nC 2713 3122 2488 3538 1813 3538 \nC 941 3538 325 2844 325 1763 \nC 325 666 963 56 1800 56 \nC 2475 56 2697 441 2816 641 \nL 2869 641 \nL 2869 -59 \nC 2869 -634 2466 -891 1909 -891 \nC 1294 -891 1075 -578 928 -375 \nL 472 -669 \nC 688 -1053 1134 -1381 1909 -1381 \nz\nM 1894 556 \nC 1238 556 897 1056 897 1775 \nC 897 2472 1228 3034 1894 3034 \nC 2538 3034 2875 2516 2875 1775 \nC 2875 1013 2528 556 1894 556 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-307\" d=\"M 1056 2094 \nC 1056 2691 1434 3031 1938 3031 \nC 2425 3031 2725 2709 2725 2172 \nL 2725 0 \nL 3288 0 \nL 3288 2219 \nC 3288 3103 2813 3538 2106 3538 \nC 1638 3538 1263 3341 1038 2847 \nL 1034 3494 \nL 494 3494 \nL 494 0 \nL 1056 0 \nL 1056 2094 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-256\" d=\"M 1803 -75 \nC 2469 -75 2703 347 2819 541 \nL 2881 541 \nL 2881 0 \nL 3425 0 \nL 3425 4656 \nL 2863 4656 \nL 2863 2934 \nL 2819 2934 \nC 2703 3119 2488 3538 1806 3538 \nC 934 3538 325 2844 325 1738 \nC 325 625 931 -75 1803 -75 \nz\nM 1888 428 \nC 1234 428 897 1009 897 1744 \nC 897 2469 1225 3034 1888 3034 \nC 2531 3034 2869 2516 2869 1744 \nC 2869 966 2522 428 1888 428 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-178\"/>\n     <use xlink:href=\"#Inter-Regular-2e2\" transform=\"translate(63.875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-1fc\" transform=\"translate(88.09375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-3e8\" transform=\"translate(142.78125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-293\" transform=\"translate(197.03125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(258.359375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-318\" transform=\"translate(294.34375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-395\" transform=\"translate(354.3125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-307\" transform=\"translate(413.4375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-256\" transform=\"translate(472.515625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(533.75 0)\"/>\n     <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(561.875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-1fc\" transform=\"translate(599.515625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(655.671875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(688.390625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-307\" transform=\"translate(712.609375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-293\" transform=\"translate(771.6875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-369\" transform=\"translate(833.015625 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pe9f68fbb89\">\n   <rect x=\"44.276172\" y=\"28.425\" width=\"304.923828\" height=\"213.575781\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 1,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "question_text": "A plant nursery sold potted herbs on each of 6 consecutive days. The mean number of pots sold per day for the 6 days was 47. The nursery sold 39, 52, 44, 50, and 41 pots on the first five days. How many pots did the nursery sell on the sixth day?",
+    "answer_a": "9",
+    "answer_b": "38",
+    "answer_c": "47",
+    "answer_d": "56",
+    "correct_answer": "D",
+    "explanation": "Choice D is correct. It's given that the mean number of pots sold per day for the 6 days was 47. The total number of pots sold over the 6 days is therefore 6(47), or 282. The total for the first five days is 39 + 52 + 44 + 50 + 41, or 226. The number sold on the sixth day is the difference between these totals, 282 - 226, or 56. Therefore, the nursery sold 56 pots on the sixth day.",
+    "distractor_a_explanation": "Choice A is incorrect. This results from multiplying the mean by 5, the number of known days, instead of by 6, the number of days in all, which gives 235, and then subtracting 226.",
+    "distractor_b_explanation": "Choice B is incorrect. This results from computing 235 - 226 = 9 and then subtracting 9 from the mean (47 - 9) instead of adding 9 to it.",
+    "distractor_c_explanation": "Choice C is incorrect. This is the mean for the 6 days, not the number sold on the sixth day; it results from assuming the missing value equals the mean.",
+    "distractor_d_explanation": "",
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
   }
 ]

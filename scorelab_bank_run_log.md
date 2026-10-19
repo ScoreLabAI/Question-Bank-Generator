@@ -1270,3 +1270,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Setup note:** matplotlib/numpy installed via `python3 -m pip`.
 **Token usage:** 22 subagent calls, roughly 1.1M subagent tokens (orchestrator not included).
 **Next run should pick up at:** One-variable data d1 (5/10, needs 5), then d2 (2/10), d3.
+
+## Run 44 - 2026-10-19
+**Cells worked:** PSDA / One-variable data d1 (needed 5: 4 banked d1 + 1 relabeled-in from d2 -> 10/10 done; 1 d1-generated item relabeled d2). PSDA / One-variable data d2 (needed 7, scope-capped at 5 generated: 4 banked d2 + 1 relabeled d1 earlier -> 7/10 pending, 1 generated d2 item relabeled d1).
+**Pipeline:** 10 generators, 10 critics (all PASS; advisory/explanation-only edits applied: SD item choice D explanation reworded, missing-value item choice B explanation shortened; no re-critique needed), 2 batched calibrations (all sonnet). 0 regenerations, 0 discards.
+**Calibration:** d1 honest Easy: even-count median table, bar-graph range, mean from total, mean of 5-row table. Median-from-frequency-table (n=15) relabeled Medium. d2 honest Medium: outlier mean change, mean/SD conceptual comparison, combined weighted mean, frequency bar-graph mean. Missing sixth value from mean relabeled Easy.
+**Banked:** master 432 -> 442 (net d1 +5, d2 +5 including relabels). 10 lines appended to used_topics. validate_batch passed 4/4, 1/1, 4/4, 1/1. Two bar charts rendered via render_visual.py; others table/text.
+**Skill updates (Step 5):** none applied; nothing queued.
+**Setup note:** matplotlib/numpy installed via `python3 -m pip`.
+**Token usage:** 30 subagent calls, roughly 1.5M subagent tokens (orchestrator not included).
+**Next run should pick up at:** One-variable data d2 (7/10, needs 3), then d3 (0/10).
