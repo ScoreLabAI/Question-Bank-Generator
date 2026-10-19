@@ -306,7 +306,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 5,
+      "note": "2026-10-19 (run 43): 5 Easy banked: mean of 7-value list, median of unsorted 9-value list, range from table, mode from frequency table, bar-graph difference (values on even gridlines; first draft flagged for off-gridline reads). Single-concept reads/computations calibrate Easy. Next: vary with data-in-table medians, range from bar graph, simple mean-given-total."
     },
     {
       "domain": "math",
@@ -315,7 +316,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 2,
+      "note": "2026-10-19 (run 43): 2 banked via relabel from d1: mean after adding a sixth value (stated mean and list both given), frequency-table mean (weighted, non-integer 1.8). Weighted-mean and effect-of-added-value shapes calibrate Medium."
     },
     {
       "domain": "math",

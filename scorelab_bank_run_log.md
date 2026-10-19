@@ -1260,3 +1260,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Setup note:** matplotlib/numpy installed via `python3 -m pip`.
 **Token usage:** 17 subagent calls, roughly 0.85M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Percentages d3 (7/10, needs 3), then One-variable data d1.
+
+## Run 43 - 2026-10-19
+**Cells worked:** PSDA / Percentages d3 (needed 3, got 3 -> 10/10 done). PSDA / One-variable data d1 (needed 7, generated 7: 5 banked d1 -> 5/10 pending, 2 relabeled d2 -> d2 now 2/10 pending).
+**Pipeline:** 10 generators, 10 critics (9 PASS; bar-chart item FLAG: Tue=9/Wed=17 not on labeled gridlines, fixed by changing values to 8/16 with key B retained and distractors/explanations rewritten, not re-critiqued; Q3 table item wording polish applied), 2 calibrations (all sonnet). 0 regenerations, 0 discards.
+**Calibration:** Percentages all 3 stayed Hard (two of them borderline-low Hard). One-variable: 5 honest Easy; mean-after-adding-a-value and frequency-table-mean relabeled Medium.
+**Banked:** master 422 -> 432. 10 lines appended to used_topics. validate_batch passed 3/3, 5/5, 2/2 (key skew WARN on all-numeric choices, cannot reorder). One bar-chart rendered via render_visual.py; table items need no render.
+**Skill updates (Step 5):** none applied; nothing queued. Possible future rule: bar-chart read items need values on labeled tick steps (matches existing graph-read rule).
+**Setup note:** matplotlib/numpy installed via `python3 -m pip`.
+**Token usage:** 22 subagent calls, roughly 1.1M subagent tokens (orchestrator not included).
+**Next run should pick up at:** One-variable data d1 (5/10, needs 5), then d2 (2/10), d3.

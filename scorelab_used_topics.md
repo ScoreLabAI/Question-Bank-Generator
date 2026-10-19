@@ -439,3 +439,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Percentages, d3] Recreation center swim/yoga overlap, 60% swim, 40% of swimmers yoga, 80% of yoga swim, 119 neither, members doing exactly one activity.
 - [Problem-Solving and Data Analysis/Percentages, d3] Community college welding/HVAC fall-to-spring enrollment cross-percent changes, combined 600 to 620, spring welding enrollment.
 - [Problem-Solving and Data Analysis/Percentages, d3] State park campers table (first-time/returning, tent/cabin), 40% of first-time cabin, 75% of cabin returning, percent of returning in tent (table).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Community bike shop repairs over 7 days, mean of listed counts.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Library branch books returned 9 days unsorted, median.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Chemistry student masses of five metal samples table, range.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Community garden tomatoes per plant frequency table (23 plants), mode.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Food bank volunteers by day bar graph, Wednesday minus Tuesday.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Student piano practice minutes first 5 weeks plus sixth week 40, new mean. (generated d1, relabeled Medium)
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] School soccer team goals per match frequency table (20 matches), mean. (generated d1, relabeled Medium)
