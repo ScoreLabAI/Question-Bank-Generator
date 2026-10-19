@@ -446,3 +446,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Food bank volunteers by day bar graph, Wednesday minus Tuesday.
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Student piano practice minutes first 5 weeks plus sixth week 40, new mean. (generated d1, relabeled Medium)
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] School soccer team goals per match frequency table (20 matches), mean. (generated d1, relabeled Medium)
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Food truck customers over 6 days table, median of even count.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Volunteer groups trees planted bar graph, range.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Recycling center glass total over 12 days, mean.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Bus stop rider wait times 5-row table, mean.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Hiking club trail outings frequency table (15 members), median. (generated d1, relabeled Medium)
