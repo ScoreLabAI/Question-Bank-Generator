@@ -436,3 +436,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Percentages, d2] Seed warehouse Monday 25% shipped, Tuesday 60% of remainder, Tuesday 100 more, bags left. (generated d3, relabeled Medium)
 - [Problem-Solving and Data Analysis/Percentages, d2] Two solar farms A 25% greater than B, A -10%, B +20%, B 18 MWh greater, A's new output. (generated d3, relabeled Medium)
 - [Problem-Solving and Data Analysis/Percentages, d2] University science store centrifuge rotor online 10% less plus shipping fee $27 vs in-store 8% tax equal totals, in-store price. (generated d3, relabeled Medium)
+- [Problem-Solving and Data Analysis/Percentages, d3] Recreation center swim/yoga overlap, 60% swim, 40% of swimmers yoga, 80% of yoga swim, 119 neither, members doing exactly one activity.
+- [Problem-Solving and Data Analysis/Percentages, d3] Community college welding/HVAC fall-to-spring enrollment cross-percent changes, combined 600 to 620, spring welding enrollment.
+- [Problem-Solving and Data Analysis/Percentages, d3] State park campers table (first-time/returning, tent/cabin), 40% of first-time cabin, 75% of cabin returning, percent of returning in tent (table).
