@@ -11715,5 +11715,359 @@
     "visual_type": null,
     "visual_data": null,
     "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 1,
+    "module_type": "standard",
+    "question_text": "A swim club recorded the times, in seconds, of eight laps swum by one member during practice: 62, 64, 71, 58, 66, 59, 61, and 68. The coach later found that the slowest lap, 71 seconds, was recorded incorrectly and should have been 57 seconds. What is the median of the eight lap times after the correction?",
+    "answer_a": "61",
+    "answer_b": "61.5",
+    "answer_c": "62",
+    "answer_d": "63",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. After the correction, the eight lap times are 62, 64, 57, 58, 66, 59, 61, and 68. Listed in order from least to greatest, they are 57, 58, 59, 61, 62, 64, 66, 68. Because there are 8 values, the median is the mean of the 4th and 5th values, which are 61 and 62. The mean of 61 and 62 is (61 + 62)/2 = 61.5. Therefore, the median of the lap times after the correction is 61.5 seconds.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the 4th value of the corrected, ordered list, not the mean of the 4th and 5th values; with an even number of values, the median is the mean of the two middle values.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This results from removing the 71 and finding the median of the remaining seven values (58, 59, 61, 62, 64, 66, 68) without adding the corrected value of 57.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the median of the original data set, (62 + 64)/2 = 63, and does not account for the correction from 71 to 57, which changes the order of the values.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 1,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null,
+    "question_text": "The judges of a poster design contest scored each entry on a scale from 0 to 60. For all of the entries, the mean score was 30 points and the standard deviation was 8 points. The contest organizers then converted every score to a new scale by multiplying the original score by 1.5 and then adding 12 points. What is the standard deviation, in points, of the converted scores?",
+    "answer_a": "8",
+    "answer_b": "12",
+    "answer_c": "18",
+    "answer_d": "24",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. It's given that every original score x was converted to 1.5x + 12. Multiplying every value in a data set by a constant multiplies the standard deviation by the absolute value of that constant, while adding a constant to every value shifts the entire data set and does not change how spread out the values are, so it does not change the standard deviation. The original standard deviation is 8 points, so the standard deviation of the converted scores is 1.5(8) = 12 points. Therefore, the standard deviation of the converted scores is 12 points.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the original standard deviation; it results from ignoring the multiplication by 1.5 and treating the conversion as having no effect on the spread.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This results from multiplying the standard deviation by the square of the multiplier, (1.5)^2 = 2.25, so 2.25(8) = 18, rather than by the multiplier itself.",
+    "distractor_d_explanation": "Choice D is incorrect. This results from applying the entire conversion to the standard deviation, 1.5(8) + 12 = 24, instead of recognizing that adding 12 to every score does not change the standard deviation."
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 1,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "question_text": "The histogram shows the distribution of waiting times, in minutes, for all patients who visited a walk-in clinic on one Saturday. Each bar shows the number of patients whose waiting time fell in that interval. Which of the following intervals contains the median waiting time for these patients?",
+    "answer_a": "10-19 minutes",
+    "answer_b": "20-29 minutes",
+    "answer_c": "30-39 minutes",
+    "answer_d": "40-49 minutes",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. The frequencies in the histogram are 2, 6, 8, 12, and 14, so the clinic had 2 + 6 + 8 + 12 + 14 = 42 patients. Because 42 is even, the median is the mean of the 21st and 22nd waiting times when the times are listed in order. The cumulative frequencies for the intervals 0-9, 10-19, 20-29, 30-39, and 40-49 are 2, 8, 16, 28, and 42. The 21st and 22nd values are both greater than 16 and no greater than 28, so both fall in the 30-39 interval. Therefore, the median waiting time is in the 30-39 minute interval.",
+    "distractor_a_explanation": "Choice A is incorrect. This results from finding the median of the five bar heights (8) and then locating a cumulative frequency of 8, which is reached at the end of the 10-19 interval, instead of locating the 21st and 22nd patients.",
+    "distractor_b_explanation": "Choice B is incorrect. This is the middle interval of the five listed intervals, not the interval containing the middle patient; the cumulative frequency through 20-29 is only 16, which is less than 21.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. This is the interval with the tallest bar (14 patients), which contains the mode, not the median.",
+    "has_visual": true,
+    "visual_type": "graph",
+    "visual_data": {
+      "chart_type": "bar",
+      "x_label": "Waiting time (minutes)",
+      "y_label": "Number of patients",
+      "title": "Patient Waiting Times at a Walk-In Clinic",
+      "categories": [
+        "0-9",
+        "10-19",
+        "20-29",
+        "30-39",
+        "40-49"
+      ],
+      "values": [
+        2,
+        6,
+        8,
+        12,
+        14
+      ]
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-19T14:53:52.916403</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 44.426172 242.000781 \nL 349.2 242.000781 \nL 349.2 28.425 \nL 44.426172 28.425 \nz\n\" style=\"fill: #ffffff\"/>\n   </g>\n   <g id=\"patch_3\">\n    <path d=\"M 58.279528 242.000781 \nL 104.45738 242.000781 \nL 104.45738 212.942852 \nL 58.279528 212.942852 \nz\n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: #2563eb\"/>\n   </g>\n   <g id=\"patch_4\">\n    <path d=\"M 116.001844 242.000781 \nL 162.179696 242.000781 \nL 162.179696 154.826993 \nL 116.001844 154.826993 \nz\n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: #2563eb\"/>\n   </g>\n   <g id=\"patch_5\">\n    <path d=\"M 173.72416 242.000781 \nL 219.902012 242.000781 \nL 219.902012 125.769064 \nL 173.72416 125.769064 \nz\n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: #2563eb\"/>\n   </g>\n   <g id=\"patch_6\">\n    <path d=\"M 231.446475 242.000781 \nL 277.624328 242.000781 \nL 277.624328 67.653205 \nL 231.446475 67.653205 \nz\n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: #2563eb\"/>\n   </g>\n   <g id=\"patch_7\">\n    <path d=\"M 289.168791 242.000781 \nL 335.346644 242.000781 \nL 335.346644 38.595275 \nL 289.168791 38.595275 \nz\n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: #2563eb\"/>\n   </g>\n   <g id=\"matplotlib.axis_1\">\n    <g id=\"xtick_1\">\n     <g id=\"line2d_1\">\n      <path d=\"M 81.368454 242.000781 \nL 81.368454 28.425 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_2\">\n      <defs>\n       <path id=\"m735281d7cd\" d=\"M 0 0 \nL 0 3.5 \n\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </defs>\n      <g>\n       <use xlink:href=\"#m735281d7cd\" x=\"81.368454\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_1\">\n      <!-- 0-9 -->\n      <g transform=\"translate(72.812985 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-53f\" d=\"M 2019 -63 \nC 3059 -63 3656 809 3656 2325 \nC 3656 3834 3050 4719 2019 4719 \nC 988 4719 381 3834 381 2325 \nC 381 806 981 -63 2019 -63 \nz\nM 2019 456 \nC 1338 456 953 1144 953 2325 \nC 953 3509 1338 4203 2019 4203 \nC 2700 4203 3084 3513 3084 2325 \nC 3084 1144 2700 456 2019 456 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"Inter-Regular-5c1\" d=\"M 2494 2581 \nL 450 2581 \nL 450 2063 \nL 2494 2063 \nL 2494 2581 \nz\n\" transform=\"scale(0.015625)\"/>\n        <path id=\"Inter-Regular-54a\" d=\"M 1884 -63 \nC 2938 -63 3588 866 3588 2513 \nC 3588 4225 2728 4706 1963 4719 \nC 1006 4734 381 4025 381 3156 \nC 381 2259 1044 1616 1847 1616 \nC 2334 1616 2744 1856 2994 2238 \nL 3031 2238 \nC 3031 1109 2594 463 1884 463 \nC 1394 463 1103 772 1006 1184 \nL 419 1184 \nC 528 441 1094 -63 1884 -63 \nz\nM 1934 2134 \nC 1372 2134 963 2588 963 3159 \nC 963 3734 1391 4197 1953 4197 \nC 2525 4197 2947 3706 2947 3172 \nC 2947 2625 2500 2134 1934 2134 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-53f\"/>\n       <use xlink:href=\"#Inter-Regular-5c1\" transform=\"translate(63.09375 0)\"/>\n       <use xlink:href=\"#Inter-Regular-54a\" transform=\"translate(109.09375 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_2\">\n     <g id=\"line2d_3\">\n      <path d=\"M 139.09077 242.000781 \nL 139.09077 28.425 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_4\">\n      <g>\n       <use xlink:href=\"#m735281d7cd\" x=\"139.09077\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_2\">\n      <!-- 10-19 -->\n      <g transform=\"translate(126.468114 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-540\" d=\"M 2041 4656 \nL 1313 4656 \nL 300 3909 \nL 300 3272 \nL 1425 4106 \nL 1456 4106 \nL 1456 0 \nL 2041 0 \nL 2041 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(40.671875 0)\"/>\n       <use xlink:href=\"#Inter-Regular-5c1\" transform=\"translate(103.765625 0)\"/>\n       <use xlink:href=\"#Inter-Regular-540\" transform=\"translate(149.765625 0)\"/>\n       <use xlink:href=\"#Inter-Regular-54a\" transform=\"translate(190.4375 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_3\">\n     <g id=\"line2d_5\">\n      <path d=\"M 196.813086 242.000781 \nL 196.813086 28.425 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_6\">\n      <g>\n       <use xlink:href=\"#m735281d7cd\" x=\"196.813086\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_3\">\n      <!-- 20-29 -->\n      <g transform=\"translate(182.32793 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-541\"/>\n       <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(60.984375 0)\"/>\n       <use xlink:href=\"#Inter-Regular-5c1\" transform=\"translate(124.078125 0)\"/>\n       <use xlink:href=\"#Inter-Regular-541\" transform=\"translate(166.703125 0)\"/>\n       <use xlink:href=\"#Inter-Regular-54a\" transform=\"translate(227.6875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_4\">\n     <g id=\"line2d_7\">\n      <path d=\"M 254.535402 242.000781 \nL 254.535402 28.425 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_8\">\n      <g>\n       <use xlink:href=\"#m735281d7cd\" x=\"254.535402\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_4\">\n      <!-- 30-39 -->\n      <g transform=\"translate(239.859621 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-543\" d=\"M 1984 -63 \nC 2897 -63 3572 503 3572 1266 \nC 3572 1853 3225 2284 2631 2381 \nL 2631 2419 \nC 3106 2559 3403 2944 3403 3469 \nC 3403 4131 2872 4719 2003 4719 \nC 1184 4719 516 4216 491 3484 \nL 1063 3484 \nC 1081 3938 1516 4203 1991 4203 \nC 2497 4203 2822 3900 2822 3438 \nC 2822 2956 2447 2644 1903 2644 \nL 1525 2644 \nL 1525 2128 \nL 1903 2128 \nC 2594 2128 2984 1775 2984 1272 \nC 2984 788 2559 459 1975 459 \nC 1444 459 1025 731 991 1175 \nL 391 1175 \nC 422 438 1072 -63 1984 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-543\"/>\n       <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(61.765625 0)\"/>\n       <use xlink:href=\"#Inter-Regular-5c1\" transform=\"translate(124.859375 0)\"/>\n       <use xlink:href=\"#Inter-Regular-543\" transform=\"translate(169.734375 0)\"/>\n       <use xlink:href=\"#Inter-Regular-54a\" transform=\"translate(231.5 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_5\">\n     <g id=\"line2d_9\">\n      <path d=\"M 312.257718 242.000781 \nL 312.257718 28.425 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_10\">\n      <g>\n       <use xlink:href=\"#m735281d7cd\" x=\"312.257718\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_5\">\n      <!-- 40-49 -->\n      <g transform=\"translate(297.242874 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-544\" d=\"M 375 947 \nL 2566 947 \nL 2566 0 \nL 3134 0 \nL 3134 947 \nL 3766 947 \nL 3766 1469 \nL 3134 1469 \nL 3134 4656 \nL 2413 4656 \nL 375 1431 \nL 375 947 \nz\nM 2569 1469 \nL 1009 1469 \nL 1009 1506 \nL 2531 3913 \nL 2569 3913 \nL 2569 1469 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-544\"/>\n       <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(64.59375 0)\"/>\n       <use xlink:href=\"#Inter-Regular-5c1\" transform=\"translate(127.6875 0)\"/>\n       <use xlink:href=\"#Inter-Regular-544\" transform=\"translate(173.6875 0)\"/>\n       <use xlink:href=\"#Inter-Regular-54a\" transform=\"translate(238.28125 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"text_6\">\n     <!-- Waiting time (minutes) -->\n     <g transform=\"translate(144.011523 274.787891) scale(0.1 -0.1)\">\n      <defs>\n       <path id=\"Inter-Regular-1cc\" d=\"M 1431 0 \nL 2125 0 \nL 2922 2950 \nC 3013 3288 3081 3603 3150 3984 \nC 3222 3575 3297 3247 3378 2950 \nL 4178 0 \nL 4869 0 \nL 6144 4656 \nL 5531 4656 \nL 4797 1800 \nC 4697 1406 4603 1003 4522 572 \nC 4434 1003 4341 1406 4238 1800 \nL 3491 4656 \nL 2816 4656 \nL 2063 1800 \nC 1956 1400 1866 991 1781 553 \nC 1697 991 1606 1400 1506 1800 \nL 769 4656 \nL 163 4656 \nL 1431 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-1fc\" d=\"M 1472 -81 \nC 2063 -81 2391 228 2509 475 \nL 2547 475 \nL 2547 0 \nL 3100 0 \nL 3100 2303 \nC 3100 3394 2259 3538 1791 3538 \nC 1250 3538 650 3344 381 2709 \nL 922 2531 \nC 1031 2775 1303 3044 1806 3044 \nC 2291 3044 2538 2794 2538 2359 \nL 2538 2341 \nC 2538 2081 2263 2100 1641 2022 \nC 994 1941 281 1794 281 994 \nC 281 306 809 -81 1472 -81 \nz\nM 1569 416 \nC 1150 416 847 603 847 966 \nC 847 1363 1206 1494 1616 1547 \nC 1831 1575 2444 1638 2538 1747 \nL 2538 1263 \nC 2538 834 2191 416 1569 416 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-2b2\" d=\"M 494 0 \nL 1056 0 \nL 1056 3494 \nL 494 3494 \nL 494 0 \nz\nM 778 4066 \nC 994 4066 1172 4231 1172 4438 \nC 1172 4644 994 4809 778 4809 \nC 566 4809 388 4644 388 4438 \nC 388 4231 566 4066 778 4066 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-37b\" d=\"M 1869 3494 \nL 1150 3494 \nL 1150 4325 \nL 588 4325 \nL 588 3494 \nL 63 3494 \nL 63 3013 \nL 588 3013 \nL 588 863 \nC 588 291 944 -44 1547 -44 \nC 1691 -44 1850 -22 1966 19 \nL 1850 494 \nC 1756 475 1634 456 1563 456 \nC 1266 456 1150 594 1150 906 \nL 1150 3013 \nL 1869 3013 \nL 1869 3494 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-307\" d=\"M 1056 2094 \nC 1056 2691 1434 3031 1938 3031 \nC 2425 3031 2725 2709 2725 2172 \nL 2725 0 \nL 3288 0 \nL 3288 2219 \nC 3288 3103 2813 3538 2106 3538 \nC 1638 3538 1263 3341 1038 2847 \nL 1034 3494 \nL 494 3494 \nL 494 0 \nL 1056 0 \nL 1056 2094 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-293\" d=\"M 1909 -1381 \nC 2759 -1381 3431 -994 3431 -91 \nL 3431 3494 \nL 2884 3494 \nL 2884 2934 \nL 2831 2934 \nC 2713 3122 2488 3538 1813 3538 \nC 941 3538 325 2844 325 1763 \nC 325 666 963 56 1800 56 \nC 2475 56 2697 441 2816 641 \nL 2869 641 \nL 2869 -59 \nC 2869 -634 2466 -891 1909 -891 \nC 1294 -891 1075 -578 928 -375 \nL 472 -669 \nC 688 -1053 1134 -1381 1909 -1381 \nz\nM 1894 556 \nC 1238 556 897 1056 897 1775 \nC 897 2472 1228 3034 1894 3034 \nC 2538 3034 2875 2516 2875 1775 \nC 2875 1013 2528 556 1894 556 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-6eb\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-300\" d=\"M 494 0 \nL 1056 0 \nL 1056 2200 \nC 1056 2756 1428 3044 1838 3044 \nC 2231 3044 2522 2784 2522 2397 \nL 2522 0 \nL 3084 0 \nL 3084 2281 \nC 3084 2722 3372 3044 3844 3044 \nC 4219 3044 4547 2844 4547 2341 \nL 4547 0 \nL 5113 0 \nL 5113 2356 \nC 5113 3166 4619 3556 4013 3556 \nC 3506 3556 3078 3284 2913 2844 \nC 2788 3275 2481 3556 2022 3556 \nC 1609 3556 1216 3325 1044 2853 \nL 1041 3494 \nL 494 3494 \nL 494 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-267\" d=\"M 1963 -75 \nC 2678 -75 3200 284 3363 813 \nL 2819 963 \nC 2688 606 2378 425 1966 425 \nC 1347 425 922 825 894 1556 \nL 3419 1556 \nL 3419 1791 \nC 3419 3081 2638 3538 1897 3538 \nC 944 3538 325 2791 325 1719 \nC 325 644 950 -75 1963 -75 \nz\nM 897 2031 \nC 931 2566 1297 3038 1897 3038 \nC 2472 3038 2794 2625 2847 2031 \nL 897 2031 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-59f\" d=\"M 681 1897 \nC 681 984 956 31 1488 -872 \nL 2034 -872 \nC 1497 238 1253 1069 1253 1897 \nC 1253 2809 1550 3956 2034 4941 \nL 1488 4941 \nC 1019 4169 681 2913 681 1897 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-395\" d=\"M 1678 -44 \nC 2138 -44 2519 144 2747 653 \nL 2747 0 \nL 3291 0 \nL 3291 3494 \nL 2725 3494 \nL 2725 1400 \nC 2725 803 2347 463 1847 463 \nC 1359 463 1056 784 1056 1322 \nL 1056 3494 \nL 494 3494 \nL 494 1275 \nC 494 391 972 -44 1678 -44 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-369\" d=\"M 1681 -75 \nC 2500 -75 3059 372 3059 984 \nC 3059 1463 2763 1778 2128 1928 \nL 1600 2053 \nC 1191 2150 1013 2294 1013 2553 \nC 1013 2844 1325 3059 1741 3059 \nC 2191 3059 2388 2816 2484 2566 \nL 2994 2697 \nC 2834 3188 2456 3538 1738 3538 \nC 994 3538 444 3119 444 2519 \nC 444 2028 747 1716 1381 1566 \nL 1963 1428 \nC 2306 1347 2475 1188 2475 947 \nC 2475 659 2163 419 1675 419 \nC 1256 419 972 591 872 975 \nL 338 847 \nC 463 244 963 -75 1681 -75 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-5a0\" d=\"M 300 -872 \nL 847 -872 \nC 1369 16 1653 969 1653 1897 \nC 1653 2909 1316 4172 847 4941 \nL 300 4941 \nC 784 3956 1081 2809 1081 1897 \nC 1081 1094 853 269 300 -872 \nz\n\" transform=\"scale(0.015625)\"/>\n      </defs>\n      <use xlink:href=\"#Inter-Regular-1cc\"/>\n      <use xlink:href=\"#Inter-Regular-1fc\" transform=\"translate(93.453125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(149.609375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(173.828125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(206.546875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-307\" transform=\"translate(230.765625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-293\" transform=\"translate(289.84375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(351.171875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(379.296875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(412.015625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-300\" transform=\"translate(436.234375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(523.828125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(582.125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-59f\" transform=\"translate(610.25 0)\"/>\n      <use xlink:href=\"#Inter-Regular-300\" transform=\"translate(646.71875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(734.3125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-307\" transform=\"translate(758.53125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-395\" transform=\"translate(817.609375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(876.734375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(908.484375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-369\" transform=\"translate(966.78125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-5a0\" transform=\"translate(1019.5625 0)\"/>\n     </g>\n    </g>\n   </g>\n   <g id=\"matplotlib.axis_2\">\n    <g id=\"ytick_1\">\n     <g id=\"line2d_11\">\n      <path d=\"M 44.426172 242.000781 \nL 349.2 242.000781 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_12\">\n      <defs>\n       <path id=\"mb69fcd469f\" d=\"M 0 0 \nL -3.5 0 \n\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </defs>\n      <g>\n       <use xlink:href=\"#mb69fcd469f\" x=\"44.426172\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_7\">\n      <!-- 0 -->\n      <g transform=\"translate(31.116797 246.844531) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-53f\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_2\">\n     <g id=\"line2d_13\">\n      <path d=\"M 44.426172 212.942852 \nL 349.2 212.942852 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_14\">\n      <g>\n       <use xlink:href=\"#mb69fcd469f\" x=\"44.426172\" y=\"212.942852\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_8\">\n      <!-- 2 -->\n      <g transform=\"translate(31.327734 217.786602) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-541\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_3\">\n     <g id=\"line2d_15\">\n      <path d=\"M 44.426172 183.884922 \nL 349.2 183.884922 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_16\">\n      <g>\n       <use xlink:href=\"#mb69fcd469f\" x=\"44.426172\" y=\"183.884922\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_9\">\n      <!-- 4 -->\n      <g transform=\"translate(30.966797 188.728672) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-544\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_4\">\n     <g id=\"line2d_17\">\n      <path d=\"M 44.426172 154.826993 \nL 349.2 154.826993 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_18\">\n      <g>\n       <use xlink:href=\"#mb69fcd469f\" x=\"44.426172\" y=\"154.826993\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_10\">\n      <!-- 6 -->\n      <g transform=\"translate(31.224609 159.670743) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-547\" d=\"M 2019 -63 \nC 2969 -63 3588 634 3588 1503 \nC 3588 2403 2925 3044 2128 3044 \nC 1644 3044 1231 2813 981 2425 \nL 944 2425 \nC 944 3544 1375 4194 2091 4194 \nC 2575 4194 2866 3888 2969 3484 \nL 3550 3484 \nC 3438 4216 2872 4719 2091 4719 \nC 1034 4719 381 3788 381 2150 \nC 381 434 1241 -63 2019 -63 \nz\nM 2019 459 \nC 1447 459 1028 947 1028 1497 \nC 1028 2041 1469 2528 2034 2528 \nC 2597 2528 3013 2072 3013 1503 \nC 3013 922 2578 459 2019 459 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-547\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_5\">\n     <g id=\"line2d_19\">\n      <path d=\"M 44.426172 125.769064 \nL 349.2 125.769064 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_20\">\n      <g>\n       <use xlink:href=\"#mb69fcd469f\" x=\"44.426172\" y=\"125.769064\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_11\">\n      <!-- 8 -->\n      <g transform=\"translate(31.240234 130.612814) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-549\" d=\"M 1978 -63 \nC 2916 -63 3578 478 3578 1238 \nC 3578 1825 3175 2325 2669 2419 \nL 2669 2444 \nC 3109 2559 3403 2988 3403 3481 \nC 3403 4191 2794 4719 1978 4719 \nC 1150 4719 550 4191 550 3481 \nC 550 2988 838 2559 1291 2444 \nL 1291 2419 \nC 769 2325 381 1825 381 1238 \nC 381 478 1031 -63 1978 -63 \nz\nM 1978 453 \nC 1350 453 966 775 966 1269 \nC 966 1784 1391 2153 1978 2153 \nC 2553 2153 2984 1784 2984 1269 \nC 2984 775 2594 453 1978 453 \nz\nM 1978 2650 \nC 1475 2650 1125 2966 1125 3438 \nC 1125 3903 1463 4206 1978 4206 \nC 2484 4206 2828 3903 2828 3438 \nC 2828 2966 2469 2650 1978 2650 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-549\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_6\">\n     <g id=\"line2d_21\">\n      <path d=\"M 44.426172 96.711134 \nL 349.2 96.711134 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_22\">\n      <g>\n       <use xlink:href=\"#mb69fcd469f\" x=\"44.426172\" y=\"96.711134\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_12\">\n      <!-- 10 -->\n      <g transform=\"translate(27.049609 101.554884) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_7\">\n     <g id=\"line2d_23\">\n      <path d=\"M 44.426172 67.653205 \nL 349.2 67.653205 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_24\">\n      <g>\n       <use xlink:href=\"#mb69fcd469f\" x=\"44.426172\" y=\"67.653205\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_13\">\n      <!-- 12 -->\n      <g transform=\"translate(27.260547 72.496955) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-541\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_8\">\n     <g id=\"line2d_25\">\n      <path d=\"M 44.426172 38.595275 \nL 349.2 38.595275 \n\" clip-path=\"url(#p7698e998e4)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_26\">\n      <g>\n       <use xlink:href=\"#mb69fcd469f\" x=\"44.426172\" y=\"38.595275\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_14\">\n      <!-- 14 -->\n      <g transform=\"translate(26.899609 43.439025) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-544\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"text_15\">\n     <!-- Number of patients -->\n     <g transform=\"translate(20.4875 180.697266) rotate(-90) scale(0.1 -0.1)\">\n      <defs>\n       <path id=\"Inter-Regular-12d\" d=\"M 563 0 \nL 1159 0 \nL 1159 2656 \nC 1159 2881 1138 3347 1113 3944 \nC 1475 3297 1653 2984 1866 2650 \nL 3553 0 \nL 4259 0 \nL 4259 4656 \nL 3666 4656 \nL 3666 1800 \nC 3666 1550 3669 1153 3706 703 \nC 3494 1125 3281 1481 3156 1678 \nL 1263 4656 \nL 563 4656 \nL 563 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-243\" d=\"M 2116 -75 \nC 2988 -75 3594 625 3594 1738 \nC 3594 2844 2984 3538 2113 3538 \nC 1431 3538 1216 3119 1100 2934 \nL 1056 2934 \nL 1056 4656 \nL 494 4656 \nL 494 0 \nL 1038 0 \nL 1038 541 \nL 1100 541 \nC 1216 347 1450 -75 2116 -75 \nz\nM 2031 428 \nC 1397 428 1050 966 1050 1744 \nC 1050 2516 1388 3034 2031 3034 \nC 2694 3034 3022 2469 3022 1744 \nC 3022 1009 2684 428 2031 428 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-356\" d=\"M 494 0 \nL 1056 0 \nL 1056 2188 \nC 1056 2659 1425 3000 1928 3000 \nC 2078 3000 2231 2975 2266 2969 \nL 2266 3534 \nC 2200 3538 2063 3544 1981 3544 \nC 1566 3544 1203 3309 1075 2956 \nL 1038 2956 \nL 1038 3494 \nL 494 3494 \nL 494 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-318\" d=\"M 1916 -75 \nC 2869 -75 3513 647 3513 1725 \nC 3513 2819 2869 3538 1916 3538 \nC 966 3538 325 2819 325 1725 \nC 325 647 966 -75 1916 -75 \nz\nM 1916 428 \nC 1219 428 897 1038 897 1725 \nC 897 2422 1219 3034 1916 3034 \nC 2622 3034 2944 2419 2944 1725 \nC 2944 1038 2622 428 1916 428 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-288\" d=\"M 2119 3494 \nL 1313 3494 \nL 1313 3834 \nC 1313 4172 1463 4353 1809 4353 \nC 1966 4353 2053 4319 2113 4300 \nL 2269 4781 \nC 2184 4819 2009 4875 1744 4875 \nC 1234 4875 750 4566 750 3959 \nL 750 3494 \nL 63 3494 \nL 63 3013 \nL 750 3013 \nL 750 0 \nL 1313 0 \nL 1313 3013 \nL 2119 3013 \nL 2119 3494 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-34d\" d=\"M 494 -1306 \nL 1056 -1306 \nL 1056 541 \nL 1100 541 \nC 1216 347 1450 -75 2116 -75 \nC 2988 -75 3594 625 3594 1738 \nC 3594 2844 2984 3538 2113 3538 \nC 1431 3538 1216 3119 1100 2934 \nL 1038 2934 \nL 1038 3494 \nL 494 3494 \nL 494 -1306 \nz\nM 2031 428 \nC 1397 428 1050 966 1050 1744 \nC 1050 2516 1388 3034 2031 3034 \nC 2694 3034 3022 2469 3022 1744 \nC 3022 1009 2684 428 2031 428 \nz\n\" transform=\"scale(0.015625)\"/>\n      </defs>\n      <use xlink:href=\"#Inter-Regular-12d\"/>\n      <use xlink:href=\"#Inter-Regular-395\" transform=\"translate(75.34375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-300\" transform=\"translate(134.46875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-243\" transform=\"translate(222.0625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(283.296875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(341.59375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(379.234375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-318\" transform=\"translate(407.359375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-288\" transform=\"translate(467.328125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(504.34375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-34d\" transform=\"translate(532.46875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-1fc\" transform=\"translate(594.6875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(650.84375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(683.5625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(707.78125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-307\" transform=\"translate(766.078125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(825.15625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-369\" transform=\"translate(856.90625 0)\"/>\n     </g>\n    </g>\n   </g>\n   <g id=\"patch_8\">\n    <path d=\"M 44.426172 242.000781 \nL 44.426172 28.425 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"patch_9\">\n    <path d=\"M 349.2 242.000781 \nL 349.2 28.425 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"patch_10\">\n    <path d=\"M 44.426172 242.000781 \nL 349.2 242.000781 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"patch_11\">\n    <path d=\"M 44.426172 28.425 \nL 349.2 28.425 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_16\">\n    <!-- Patient Waiting Times at a Walk-In Clinic -->\n    <g transform=\"translate(82.964961 22.425) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-178\" d=\"M 563 0 \nL 1156 0 \nL 1156 1684 \nL 2159 1684 \nC 3244 1684 3744 2344 3744 3175 \nC 3744 4003 3244 4656 2156 4656 \nL 563 4656 \nL 563 0 \nz\nM 1156 2206 \nL 1156 4134 \nL 2125 4134 \nC 2869 4134 3153 3725 3153 3175 \nC 3153 2622 2869 2206 2131 2206 \nL 1156 2206 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-19c\" d=\"M 306 4131 \nL 1772 4131 \nL 1772 0 \nL 2366 0 \nL 2366 4131 \nL 3825 4131 \nL 3825 4656 \nL 306 4656 \nL 306 4131 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-2e2\" d=\"M 1056 4656 \nL 494 4656 \nL 494 0 \nL 1056 0 \nL 1056 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-2d9\" d=\"M 494 0 \nL 1056 0 \nL 1056 1288 \nL 1425 1634 \nL 2703 0 \nL 3425 0 \nL 1853 1994 \nL 3316 3494 \nL 2619 3494 \nL 1125 1953 \nL 1056 1953 \nL 1056 4656 \nL 494 4656 \nL 494 0 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-5b5\" d=\"M 2494 2247 \nL 450 2247 \nL 450 1728 \nL 2494 1728 \nL 2494 2247 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-c5\" d=\"M 1156 4656 \nL 563 4656 \nL 563 0 \nL 1156 0 \nL 1156 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-49\" d=\"M 2447 -63 \nC 3400 -63 4163 519 4325 1466 \nL 3731 1466 \nC 3600 831 3056 488 2447 488 \nC 1613 488 959 1134 959 2325 \nC 959 3519 1609 4169 2447 4169 \nC 3053 4169 3600 3828 3731 3191 \nL 4325 3191 \nC 4159 4150 3391 4719 2447 4719 \nC 1253 4719 381 3803 381 2325 \nC 381 850 1253 -63 2447 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-24b\" d=\"M 1916 -75 \nC 2600 -75 3156 297 3344 919 \nL 2806 1072 \nC 2703 694 2384 428 1916 428 \nC 1219 428 897 1038 897 1725 \nC 897 2422 1219 3034 1916 3034 \nC 2375 3034 2688 2778 2791 2419 \nL 3331 2572 \nC 3141 3181 2591 3538 1916 3538 \nC 966 3538 325 2819 325 1725 \nC 325 647 966 -75 1916 -75 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-178\"/>\n     <use xlink:href=\"#Inter-Regular-1fc\" transform=\"translate(63.875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(120.03125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(152.75 0)\"/>\n     <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(176.96875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-307\" transform=\"translate(235.265625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(294.34375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(327.0625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-1cc\" transform=\"translate(355.1875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-1fc\" transform=\"translate(448.640625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(504.796875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(529.015625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(561.734375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-307\" transform=\"translate(585.953125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-293\" transform=\"translate(645.03125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(706.359375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-19c\" transform=\"translate(734.484375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(799.03125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-300\" transform=\"translate(823.25 0)\"/>\n     <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(910.84375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-369\" transform=\"translate(969.140625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(1021.921875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-1fc\" transform=\"translate(1050.046875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(1106.203125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(1138.921875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-1fc\" transform=\"translate(1167.046875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(1223.203125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-1cc\" transform=\"translate(1251.328125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-1fc\" transform=\"translate(1344.78125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-2e2\" transform=\"translate(1400.9375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-2d9\" transform=\"translate(1425.15625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-5b5\" transform=\"translate(1475.5 0)\"/>\n     <use xlink:href=\"#Inter-Regular-c5\" transform=\"translate(1521.5 0)\"/>\n     <use xlink:href=\"#Inter-Regular-307\" transform=\"translate(1548.359375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(1607.4375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-49\" transform=\"translate(1635.5625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-2e2\" transform=\"translate(1708.609375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(1732.828125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-307\" transform=\"translate(1757.046875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(1816.125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-24b\" transform=\"translate(1840.34375 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"p7698e998e4\">\n   <rect x=\"44.426172\" y=\"28.425\" width=\"304.773828\" height=\"213.575781\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 1,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null,
+    "question_text": "An airline tracked the departure delays, in minutes, of five flights from the same airport on one afternoon. Each delay was a positive whole number of minutes. When the delays are listed from least to greatest, the first four are 9, 15, 20, and 24, and the fifth, the greatest delay, is x. The mean of the five delays is 30 minutes. What is the range, in minutes, of the five delays?",
+    "answer_a": "21",
+    "answer_b": "73",
+    "answer_c": "82",
+    "answer_d": "97",
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The mean of 5 delays is 30, so the sum of the delays is 5 x 30 = 150. The first four delays sum to 9 + 15 + 20 + 24 = 68, so x = 150 - 68 = 82. The range is the greatest value minus the least value: 82 - 9 = 73.",
+    "distractor_a_explanation": "This treats the mean (30) as the greatest delay: 30 - 9 = 21. The mean is not the maximum; the greatest delay must be found from the sum of the delays.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "This is the value of x, the greatest delay (150 - 68 = 82), but the question asks for the range, which requires subtracting the least delay: 82 - 9 = 73.",
+    "distractor_d_explanation": "This results from leaving the delay of 24 out of the sum of the known delays: 9 + 15 + 20 = 44, so x = 150 - 44 = 106, and 106 - 9 = 97. All four known delays must be included, since x is the fifth delay."
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A botanist grew 20 tomato seedlings in each of two greenhouses, Greenhouse A and Greenhouse B. The table shows the frequency distribution of the heights, in centimeters (cm), of the seedlings in each greenhouse after three weeks. Which of the following statements about the mean and standard deviation of the seedling heights is true?",
+    "answer_a": "The means are equal, and the standard deviation is greater for Greenhouse A.",
+    "answer_b": "The means are equal, and the standard deviations are equal.",
+    "answer_c": "The means are equal, and the standard deviation is greater for Greenhouse B.",
+    "answer_d": "The mean is greater for Greenhouse B, and the standard deviation is greater for Greenhouse B.",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. The mean height for each greenhouse is the sum of the heights divided by 20. For Greenhouse A, the sum is 10(1) + 12(4) + 14(10) + 16(4) + 18(1) = 280, so the mean is 280/20 = 14 cm. For Greenhouse B, the sum is 10(5) + 12(2) + 14(6) + 16(2) + 18(5) = 280, so the mean is also 280/20 = 14 cm. The means are equal. The standard deviation measures how far the values typically fall from the mean. Greenhouse A has 10 of its 20 seedlings exactly at the mean and only 2 seedlings 4 cm away, while Greenhouse B has 10 seedlings 4 cm away from the mean and only 6 at the mean. Greenhouse B's heights are more spread out, so its standard deviation is greater. Therefore, the means are equal, and the standard deviation is greater for Greenhouse B.",
+    "distractor_a_explanation": "Choice A is incorrect. This reverses the comparison of spread. Greenhouse A has the larger count at its center value (10 seedlings at 14 cm), which does not make its data more spread out; its heights are clustered closer to the mean, so its standard deviation (about 1.8 cm) is less than that of Greenhouse B (about 3.0 cm).",
+    "distractor_b_explanation": "Choice B is incorrect. This assumes that because the means are equal, the standard deviations must be equal. The two groups have the same mean of 14 cm but different spreads: the sum of squared deviations is 64 for Greenhouse A and 176 for Greenhouse B, so the standard deviations are about 1.8 cm and 3.0 cm.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. The mean is not greater for Greenhouse B. Greenhouse B has more seedlings at 18 cm (5 versus 1), but it has the same excess at 10 cm (5 versus 1), and these cancel exactly. Both sums are 280 cm, so both means are 14 cm. Choosing D comes from looking only at the tall end of the table.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "Height (cm)",
+        "Greenhouse A (number of seedlings)",
+        "Greenhouse B (number of seedlings)"
+      ],
+      "rows": [
+        [
+          "10",
+          "1",
+          "5"
+        ],
+        [
+          "12",
+          "4",
+          "2"
+        ],
+        [
+          "14",
+          "10",
+          "6"
+        ],
+        [
+          "16",
+          "4",
+          "2"
+        ],
+        [
+          "18",
+          "1",
+          "5"
+        ]
+      ]
+    },
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A bakery recorded the number of loaves of bread in each of the 24 customer orders it filled on a Saturday morning. The frequency table shows the results. How many of these 24 orders contained more loaves than the mean number of loaves per order?",
+    "answer_a": "10",
+    "answer_b": "11",
+    "answer_c": "13",
+    "answer_d": "14",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. The total number of loaves is 1(3) + 2(4) + 3(3) + 4(3) + 5(4) + 6(5) + 7(2) = 3 + 8 + 9 + 12 + 20 + 30 + 14 = 96. There are 24 orders, so the mean is 96/24 = 4 loaves per order. The orders with more than 4 loaves are those with 5, 6, or 7 loaves, which number 4 + 5 + 2 = 11. Therefore, 11 of the orders contained more loaves than the mean.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the number of orders with fewer loaves than the mean (3 + 4 + 3 = 10), not the number with more loaves than the mean.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This is the number of orders with 4 or fewer loaves (3 + 4 + 3 + 3 = 13), which counts the orders equal to the mean and the ones below it instead of the orders above it.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the number of orders with at least 4 loaves (3 + 4 + 5 + 2 = 14), which wrongly includes the 3 orders that are equal to the mean instead of only those greater than it.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "Loaves per order",
+        "Number of orders"
+      ],
+      "rows": [
+        [
+          "1",
+          "3"
+        ],
+        [
+          "2",
+          "4"
+        ],
+        [
+          "3",
+          "3"
+        ],
+        [
+          "4",
+          "3"
+        ],
+        [
+          "5",
+          "4"
+        ],
+        [
+          "6",
+          "5"
+        ],
+        [
+          "7",
+          "2"
+        ]
+      ]
+    },
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "An entomologist set out sticky insect traps in two fields and counted the insects caught in each trap after one night. The 12 traps in the north field caught a mean of 20 insects per trap. The traps in the south field caught a mean of 32 insects per trap. For all of the traps in both fields combined, the mean number of insects caught per trap was 28. What is the total number of insects caught in the south field?",
+    "answer_a": "24",
+    "answer_b": "672",
+    "answer_c": "768",
+    "answer_d": "1,008",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. Let n be the number of traps in the south field. It's given that the north field's 12 traps caught a mean of 20 insects per trap, so they caught 12(20) = 240 insects in total. The south field's n traps caught a mean of 32 insects per trap, so they caught 32n insects in total. The combined mean of 28 insects per trap over 12 + n traps gives the equation (240 + 32n)/(12 + n) = 28. Multiplying both sides by 12 + n yields 240 + 32n = 336 + 28n. Subtracting 28n and 240 from both sides yields 4n = 96, so n = 24. The total number of insects caught in the south field is 32(24) = 768. Therefore, the south field's traps caught a total of 768 insects.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the number of traps in the south field (n = 24), not the total number of insects those traps caught. The total is the number of traps times the mean per trap, 24(32).",
+    "distractor_b_explanation": "Choice B is incorrect. This results from multiplying the number of south field traps, 24, by the combined mean of 28 instead of by the south field's own mean of 32.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. This is the total number of insects caught in both fields combined, (12 + 24)(28) = 1,008, not the total for the south field alone.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 2,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null,
+    "question_text": "A web developer recorded the load time, in milliseconds, of a company's home page on 6 test runs: 450, 850, 340, 510, 380, and 470. The mean of these 6 load times is 500 milliseconds. One of the test runs was later found to be invalid and was removed, and the mean of the remaining 5 load times is 430 milliseconds. What is the median, in milliseconds, of the remaining 5 load times?",
+    "answer_a": "430",
+    "answer_b": "450",
+    "answer_c": "460",
+    "answer_d": "470",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. It's given that the mean of the 6 load times is 500 milliseconds, so their sum is 6(500) = 3,000 milliseconds. It's also given that the mean of the remaining 5 load times is 430 milliseconds, so their sum is 5(430) = 2,150 milliseconds. The removed load time is the difference of these sums, 3,000 - 2,150 = 850 milliseconds. Removing 850 from the list leaves 340, 380, 450, 470, and 510 in order from least to greatest. The median of 5 values is the middle value, which is 450. Therefore, the median of the remaining 5 load times is 450 milliseconds.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the mean of the remaining 5 load times (2,150 / 5 = 430), not the median.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This is the median of the original 6 load times, (450 + 470) / 2 = 460, rather than the median after the removed value is taken out.",
+    "distractor_d_explanation": "Choice D is incorrect. This results from removing the smallest value, 340, instead of the value found from the two means (850); the middle value of 380, 450, 470, 510, and 850 is 470."
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 2,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "question_text": "The table shows the number of books each of the patrons at a public library branch checked out during one visit on a Saturday. The frequency for 3 books is represented by x. The mean number of books checked out per patron for this group is 2.75. What is the median number of books checked out per patron?",
+    "answer_a": "2",
+    "answer_b": "2.5",
+    "answer_c": "2.75",
+    "answer_d": "3",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. The total number of patrons is 2 + 6 + x + 2 + 2 = 12 + x, and the total number of books is 1(2) + 2(6) + 3(x) + 4(2) + 5(2) = 32 + 3x. It's given that the mean is 2.75, so (32 + 3x)/(12 + x) = 2.75. Multiplying both sides by 12 + x gives 32 + 3x = 33 + 2.75x, so 0.25x = 1 and x = 4. There are 12 + 4 = 16 patrons, so the median is the mean of the 8th and 9th values when the data are ordered. The cumulative frequencies are 2 (for 1 book), 8 (for 2 books), 12 (for 3 books), 14 (for 4 books), and 16 (for 5 books). The 8th value is 2 and the 9th value is 3. Therefore, the median is (2 + 3)/2 = 2.5.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the 8th value only; with 16 patrons, the median is the mean of the 8th and 9th values (2 and 3), not just the 8th value.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This is the mean of the data set, which is given in the problem, not the median.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the 9th value alone, or the middle of the five listed numbers of books (1, 2, 3, 4, 5), rather than the mean of the 8th and 9th values of the full data set.",
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "Books checked out",
+        "Number of patrons"
+      ],
+      "rows": [
+        [
+          "1",
+          "2"
+        ],
+        [
+          "2",
+          "6"
+        ],
+        [
+          "3",
+          "x"
+        ],
+        [
+          "4",
+          "2"
+        ],
+        [
+          "5",
+          "2"
+        ]
+      ]
+    },
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "One-variable data: distributions and measures of center and spread",
+    "difficulty": 2,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null,
+    "question_text": "The finishing times, in minutes, of six runners in a local marathon were 198, 205, 214, 226, 231, and 246. Two more runners then finished, and the mean of the finishing times of all eight runners is equal to the mean of the finishing times of the first six runners. If one of the two additional runners finished in 190 minutes, what is the range, in minutes, of the finishing times of all eight runners?",
+    "answer_a": "48",
+    "answer_b": "52",
+    "answer_c": "56",
+    "answer_d": "60",
+    "correct_answer": "D",
+    "explanation": "Choice D is correct. The sum of the first six finishing times is 198 + 205 + 214 + 226 + 231 + 246 = 1,320, so their mean is 1,320 / 6 = 220 minutes. It's given that the mean of all eight times is also 220, so the sum of all eight times is 8(220) = 1,760. The sum of the two additional times is therefore 1,760 - 1,320 = 440. Since one additional time is 190 minutes, the other is 440 - 190 = 250 minutes. The shortest of the eight times is 190 minutes and the longest is 250 minutes. Therefore, the range is 250 - 190 = 60 minutes.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the range of the original six finishing times, 246 - 198 = 48, which ignores the two additional runners.",
+    "distractor_b_explanation": "Choice B is incorrect. This results from correctly finding the other additional time, 250, but using the original shortest time, 198, instead of the new shortest time, 190: 250 - 198 = 52.",
+    "distractor_c_explanation": "Choice C is incorrect. This results from not finding the second additional time and keeping the original longest time, 246, as the maximum: 246 - 190 = 56. The second additional time, 250, is longer than 246.",
+    "distractor_d_explanation": ""
   }
 ]

@@ -456,3 +456,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Ceramics studio morning and evening classes, combined mean pieces completed.
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] City park playground ratings 1-5 bar graph, mean score (rendered bar).
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Plant nursery potted herbs sold over 6 days, missing sixth-day value from mean. (generated d2, relabeled Easy)
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Swim club lap times, median after correcting the slowest lap (generated d2, relabeled Easy).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Botanist tomato seedlings in two greenhouses frequency tables, compare mean and SD.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Bakery orders loaves per order frequency table (24 orders), count above the mean.
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Insect sticky traps north and south fields, combined mean to find south total (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Web developer page load times, remove invalid run from two means, median (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Library branch books per patron table with unknown frequency x, median (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Poster design contest scores rescaled 1.5x+12, new standard deviation (generated d3, relabeled Easy).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Walk-in clinic waiting times histogram, interval containing median (rendered bar; generated d3, relabeled Easy).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Marathon finishing times, two added runners keep mean, range (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d1] Airport flight delays five flights, find largest from mean, range (generated d3, relabeled Easy).

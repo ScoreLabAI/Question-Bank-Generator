@@ -1280,3 +1280,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Setup note:** matplotlib/numpy installed via `python3 -m pip`.
 **Token usage:** 30 subagent calls, roughly 1.5M subagent tokens (orchestrator not included).
 **Next run should pick up at:** One-variable data d2 (7/10, needs 3), then d3 (0/10).
+
+## Run 45 - 2026-10-19
+**Cells worked:** PSDA / One-variable data d2 (needed 3, generated 3: 2 banked d2, 1 relabeled d1). PSDA / One-variable data d3 (scope-capped at 7 generated, 0 banked d3: 4 calibrated Medium -> d2, 3 calibrated Easy -> d1).
+**Pipeline:** 10 generators, 10 critics (all PASS; Q2 SD item distractor D explanation rewritten per critic; b7 distractor A wording tightened), 2 batched calibrations (all sonnet). 0 regenerations, 0 discards.
+**Calibration:** d3 mandated shapes (weighted-mean unknown size, removal then median, unknown frequency then median, SD under rescale, histogram median interval, mean-preserving added values, sum-derived x) were ALL judged Easy/Medium, none Hard. Net: d1 +4 (cell now 14, overshoot), d2 +6 (cell now 13, done), d3 stays 0/10 pending.
+**Banked:** master 442 -> 452. 10 lines appended to used_topics. validate_batch passed 4/4 and 6/6 (key skew WARN, numeric choices cannot reorder). One bar chart rendered via render_visual.py (histogram, y values even); others table/text.
+**Skill updates (Step 5):** none applied. Observation for review: generator-mandated "hard" shapes in One-variable data keep calibrating Medium; d3 needs structurally harder shapes (see tracker note).
+**Token usage:** 21 subagent calls, roughly 1.0M subagent tokens (orchestrator not included).
+**Next run should pick up at:** One-variable data d3 (0/10) with harder mandates, then Two-variable data d1.
