@@ -1289,3 +1289,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation for review: generator-mandated "hard" shapes in One-variable data keep calibrating Medium; d3 needs structurally harder shapes (see tracker note).
 **Token usage:** 21 subagent calls, roughly 1.0M subagent tokens (orchestrator not included).
 **Next run should pick up at:** One-variable data d3 (0/10) with harder mandates, then Two-variable data d1.
+
+## Run 46 - 2026-10-19
+**Cells worked:** PSDA / One-variable data d3 (needed 10; scope ~10 generated): 4 banked d3 -> now 4/10 pending; 4 calibrated Medium and relabeled d2 (d2 now 17, overshoot); 1 discarded; 1 generator (Q7 combined-median feasibility) had not returned by push time and was abandoned.
+**Pipeline:** 10 generators launched (9 returned), 9 critics (8 PASS; Q6 explanation-only fix to choice A rationale applied; Q5 choice D wording, Q1 explanation sentence polished), 2 batched calibrations (sonnet). 0 regenerations.
+**Calibration:** Hard: unique-mode greatest-max (Q1), unique-mode range/mean/median second-smallest (Q6), mean>median count over unknown x (Q8), two-removal mean+median filter (Q10; lowest confidence). Medium: SD-direction edit, 2-unknown freq table median, grouped-interval least max, 3-crew weighted mean.
+**Discards:** SD-threshold item for added value (correct, answer 8, but needs sum-of-squares identity, outside SAT scope per critic).
+**Banked:** master 452 -> 460. 8 lines appended to used_topics. validate_batch passed 4/4 and 4/4 (key skew WARN, numeric choices cannot reorder). No visuals needing render (tables only).
+**Skill updates (Step 5):** none applied. Observation: Hard in this cell = at least two interacting constraints (mode/median/mean) with a trap arrangement; avoid SD computation items.
+**Token usage:** ~16 subagent calls, roughly 0.8M subagent tokens (orchestrator not included).
+**Next run should pick up at:** One-variable data d3 (4/10, needs 6) with more unique-mode/constraint-feasibility shapes, then Two-variable data d1.
