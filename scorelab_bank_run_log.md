@@ -1250,3 +1250,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Setup note:** matplotlib/numpy installed via `python3 -m pip`.
 **Token usage:** 21 subagent calls, roughly 1.1M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Percentages d3 (3/10, needs 7), mandating multi-unknown inference shapes.
+
+## Run 42 - 2026-10-19
+**Cells worked:** PSDA / Percentages d3 (needed 7, generated 7: 4 banked d3 -> 7/10 pending, 3 relabeled d2 -> overshoot, stays done). One-variable data d1 not started (scope kept at 7).
+**Pipeline:** 7 generators, 7 critics (all PASS; Q2 FLAG advisory: distractor A was a compound error duplicating B, replaced with 64% = 100%-36% and choices reordered, key stayed C; Q5 distractor A explanation reworded per critic), 2 calibrations (all sonnet). 0 regenerations, 0 discards.
+**Calibration:** Hard: two-site weighted split (borderline), coolant drain-and-refill, 4-factor profit, transit table chain. Medium (relabeled d2): seed warehouse, solar farms, rotor channel prices.
+**Banked:** master 415 -> 422. 7 lines appended to used_topics. validate_batch passed 7/7 (key skew WARN B=3, C=4: all choices numeric, so cannot reorder). One table-visual item.
+**Skill updates (Step 5):** none applied; nothing queued.
+**Setup note:** matplotlib/numpy installed via `python3 -m pip`.
+**Token usage:** 17 subagent calls, roughly 0.85M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Percentages d3 (7/10, needs 3), then One-variable data d1.

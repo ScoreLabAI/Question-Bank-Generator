@@ -429,3 +429,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Percentages, d2] Small bakery revenue same percent increase yearly, 44% greater over two years, find annual percent. (generated d3, relabeled Medium)
 - [Problem-Solving and Data Analysis/Percentages, d2] Three lakes surface area 150% greater / 50% less chain, percent less of C than A. (generated d3, relabeled Medium)
 - [Problem-Solving and Data Analysis/Percentages, d2] Restaurant supply blender 25% retail markup, 15% bulk discount, $120 profit on 80, find wholesale cost. (generated d3, relabeled Medium)
+- [Problem-Solving and Data Analysis/Percentages, d3] County health department BP screenings two sites 25%/45% flagged, 33% overall of 1,200, flagged at Site Q (weighted split).
+- [Problem-Solving and Data Analysis/Percentages, d3] Vehicle cooling system 60 L coolant 20% antifreeze, drain and refill with pure antifreeze to 36%, percent of original remaining.
+- [Problem-Solving and Data Analysis/Percentages, d3] Greenhouse cooperative tomato crates, price +20%, crates -10%, cost +30%, profit -5.5%, second-season cost as percent of price.
+- [Problem-Solving and Data Analysis/Percentages, d3] Regional transit survey table (bus/train/bike by age), train 35% under 30, under 30 is 40% of total, percent of 30+ choosing train (table).
+- [Problem-Solving and Data Analysis/Percentages, d2] Seed warehouse Monday 25% shipped, Tuesday 60% of remainder, Tuesday 100 more, bags left. (generated d3, relabeled Medium)
+- [Problem-Solving and Data Analysis/Percentages, d2] Two solar farms A 25% greater than B, A -10%, B +20%, B 18 MWh greater, A's new output. (generated d3, relabeled Medium)
+- [Problem-Solving and Data Analysis/Percentages, d2] University science store centrifuge rotor online 10% less plus shipping fee $27 vs in-store 8% tax equal totals, in-store price. (generated d3, relabeled Medium)
