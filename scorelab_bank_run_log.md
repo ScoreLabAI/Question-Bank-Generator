@@ -1335,3 +1335,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: in this cell, repeated-substitution shapes (residual sums, counting above a model, solve-for-k) calibrate Medium; Hard requires building a model then applying a unit/variable transform.
 **Token usage:** ~33 subagent calls, roughly 1.7M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Two-variable data d3 (4/10, needs 6) with build-model-then-transform shapes, then Probability d1.
+
+## Run 51 - 2026-10-20
+**Cells worked:** PSDA / Two-variable data d3: needed 6, got 5 Hard (line->39,000 cans in months; quadratic-table symmetry partner day; competing-model intersection; exponential exponent rescale months->years; z=y-12x & w=x/4 slope) -> 9/10 pending (needs 1). 1 extra item (line through point of means, stated slope) calibrated Medium and banked in d2 (now 14/10, done).
+**Pipeline:** 7 generators (one exponential-decay draft discarded pre-critic as near-duplicate of the banked ratio=b^2 shape, replaced), 6 critics: 4 PASS, Q3 (jellyfish) FLAG minor -> domain changed to 0-9, distractor D replaced, "times" wording; Q4 (orchard) FLAG minor -> distractor C explanation rewritten, scatter points rebalanced so line is a plausible fit; mean-point item FLAG data-realism -> table re-derived to slope~3. Q1 scatter rebalanced (advisory). Q5 choices reordered for key skew. 1 batched calibration (sonnet). 0 discards after critique.
+**Banked:** master 499 -> 505. validate_batch passed (6/6). 3 scatterplots rendered, 3 tables.
+**Setup note:** matplotlib needed pip install plus `--force-reinstall pillow`.
+**Skill updates (Step 5):** none applied; nothing queued. Observation: when mandating shapes, check the cell's banked shapes for the same family (my decay-table mandate duplicated the banked ratio=b^2 item).
+**Token usage:** ~8 generators/critics/calibrators ≈ 19 subagent calls, roughly 1.0M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Two-variable data d3 (9/10, needs 1), then Probability d1.
