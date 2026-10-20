@@ -336,8 +336,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 6,
-      "note": "Run 47: 3 banked d1 (scatter point read; predicted value from given line; slope interpretation). 'Which point farthest above line' calibrated Medium -> d2. Scatter via render_visual best_fit_line works. Run 48: 3 banked d1 (y-intercept interp; solve x from given line; read y of rightmost point). Calibrated Medium->d2: count points above line, pick best-fit equation from negative trend, actual-minus-predicted at labeled point, negative-slope interp with unit conversion. Needs more genuinely single-step d1 shapes."
+      "accepted_count": 8,
+      "note": "Run 47: 3 banked d1 (scatter point read; predicted value from given line; slope interpretation). 'Which point farthest above line' calibrated Medium -> d2. Scatter via render_visual best_fit_line works. Run 48: 3 banked d1 (y-intercept interp; solve x from given line; read y of rightmost point). Calibrated Medium->d2: count points above line, pick best-fit equation from negative trend, actual-minus-predicted at labeled point, negative-slope interp with unit conversion. Needs more genuinely single-step d1 shapes. Run 49: 2 banked d1 (read x of highest point; difference between labeled points Q and P). Calibrated Medium->d2: read best-fit line at x with actual-point distractor; count points above a horizontal gridline."
     },
     {
       "domain": "math",
@@ -346,7 +346,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 5
+      "accepted_count": 7,
+      "note": "Run 49: +2 relabeled from d1 (line-reading with actual-point distractor; count above horizontal gridline). Bare line-read/count items sit at Medium."
     },
     {
       "domain": "math",
