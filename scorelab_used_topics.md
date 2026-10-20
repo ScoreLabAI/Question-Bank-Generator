@@ -503,3 +503,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Mountain trail elevation vs air temperature, describe negative association.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Pottery studio members, extrapolate given y=5x+10 to 20 months (generated d2, relabeled Easy).
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Dough proofing box, slope from two labeled line points then scale to 5 minutes.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Beekeeping cooperative hives vs honey, inverse prediction: hives at which line predicts R harvest (generated d2, calibrated Easy).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Rooftop solar panels vs daily kWh, absolute difference of residuals for labeled P and Q.
