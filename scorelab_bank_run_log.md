@@ -1308,3 +1308,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued.
 **Token usage:** 22 subagent calls, roughly 1.2M subagent tokens (orchestrator not included).
 **Next run should pick up at:** One-variable data d3 (8/10, needs 2), then Two-variable data d1 (3/10).
+
+## Run 48 — 2026-10-20
+**Cells worked:** (1) Math/PSDA/One-variable data d3: needed 2, got 0 at d3 — both calibrated Medium (8-count median+range casework least mean; two-section weighted means with makeup score), banked as d2 (d2 count +2). d3 stays 8/10 pending; note updated. (2) Math/PSDA/Two-variable data d1: needed 7, got 3 at d1 (y-intercept interp; solve x from line; rightmost point read) and 4 relabeled d2 (count above line; best-fit equation from trend; actual-minus-predicted; negative slope with unit conversion). d1 now 6/10, d2 now 5/10.
+**Regenerations/discards:** none. Critic flagged one explanation defect (Q1 one-var, choice A wrongly said median 25); fixed in place. Other critic flags advisory only (line not exact least-squares fit; weak distractors on a few items) — not applied.
+**Banked:** master 470 -> 479. 9 lines appended to used_topics. validate_batch passed 2/2 and 7/7. 7 scatterplots rendered via render_visual.py.
+**Setup note:** matplotlib needed `python3 -m pip install` plus pillow force-reinstall (system PIL broken).
+**Skill updates (Step 5):** none applied; nothing queued.
+**Token usage:** 19 subagent calls, roughly 1.0M subagent tokens (orchestrator not included).
+**Next run should pick up at:** One-variable data d3 (8/10, needs 2), then Two-variable data d1 (6/10, needs 4).

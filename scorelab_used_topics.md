@@ -486,3 +486,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Greenhouse tomatoes per week scatterplot with line, week farthest above line (generated d1, relabeled Medium).
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Planetarium 8 shows, two counts b=a+12, median 24 and range 26, least possible mean (generated d3, relabeled Medium).
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Community college morning/evening sections, mean m and m-12 with sizes n and 2n, makeup score changes combined mean, morning mean after (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Ride-hail fares, interpret y-intercept of y=2x+4.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Transit bus trips, count points above line of best fit (generated d1, relabeled Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Used sedans age vs price, choose best-fit equation with negative trend (generated d1, relabeled Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Online retailer ad spending vs orders, solve x for predicted 60 orders with y=5x+20.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Smoothie stand temperature vs sales, read y of rightmost point.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Coffee cart hours vs cups, actual minus predicted at marked point P (generated d1, relabeled Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Used-car mileage vs asking price, interpret negative slope with unit conversion (generated d1, relabeled Medium).
