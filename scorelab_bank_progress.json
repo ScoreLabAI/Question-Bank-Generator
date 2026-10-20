@@ -336,7 +336,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 3,
+      "note": "Run 47: 3 banked d1 (scatter point read; predicted value from given line; slope interpretation). 'Which point farthest above line' calibrated Medium -> d2. Scatter via render_visual best_fit_line works."
     },
     {
       "domain": "math",
@@ -345,7 +346,7 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 1
     },
     {
       "domain": "math",

@@ -480,3 +480,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d3] Marine biologist sea stars 10 tide pools distinct, lower-five/upper-five means and median, greatest possible count.
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Climbing-gym bouldering ratings percent table with a,b, exact mean 3.105, least group size (generated d3, relabeled Medium).
 - [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Observatory meteor nightly log, two equal nights added keep median, mean drops, find n (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Cricket chirps vs temperature scatterplot, read chirps at 24C.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Basil/bean seedling height scatterplot, predicted height from y=2x+4 at x=6.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Sunflower seedling heights, interpret slope of y=2x+5 in days/cm.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Greenhouse tomatoes per week scatterplot with line, week farthest above line (generated d1, relabeled Medium).

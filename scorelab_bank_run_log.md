@@ -1299,3 +1299,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: Hard in this cell = at least two interacting constraints (mode/median/mean) with a trap arrangement; avoid SD computation items.
 **Token usage:** ~16 subagent calls, roughly 0.8M subagent tokens (orchestrator not included).
 **Next run should pick up at:** One-variable data d3 (4/10, needs 6) with more unique-mode/constraint-feasibility shapes, then Two-variable data d1.
+
+## Run 47 - 2026-10-20
+**Cells worked:** PSDA / One-variable data d3 (needed 6; 6 generated: 4 banked d3 -> 8/10 pending; 2 calibrated Medium, relabeled d2). PSDA / Two-variable data d1 (capped at 4 generated: 3 banked d1 -> 3/10 pending; 1 calibrated Medium, relabeled d2).
+**Pipeline:** 10 generators, 10 critics (all PASS; explanation fixes applied: Q2 k=2/k=3 median errors and missing k>=5 casework, Q1 distractor A, Q3/Q4/Q6 wording, Q6 even-n rigor + 'Originally'; T4 wording, T3 context bean not basil). 3 critics (T1-T3) falsely reported explanations belonging to another question; verified files were correct. 2 batched calibrations (sonnet). 0 regenerations, 0 discards.
+**Banked:** master 460 -> 470. 10 lines appended to used_topics. validate_batch passed 6/6 and 4/4 (key skew WARN on numeric choices). 4 scatterplots rendered via render_visual.py.
+**Setup note:** matplotlib needed pip reinstall of pillow to import.
+**Skill updates (Step 5):** none applied; nothing queued.
+**Token usage:** 22 subagent calls, roughly 1.2M subagent tokens (orchestrator not included).
+**Next run should pick up at:** One-variable data d3 (8/10, needs 2), then Two-variable data d1 (3/10).
