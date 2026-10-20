@@ -499,3 +499,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Rain barrel depth vs time, difference in y between labeled points Q and P.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Typing instructor weeks vs speed, read line of best fit at x=6 with actual-point distractor (generated d1, relabeled Medium).
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Kayak outfitter hours vs distance, count points with y greater than 30 (generated d1, relabeled Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Wading pool filling, read line of best fit at x=0 (initial depth).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Mountain trail elevation vs air temperature, describe negative association.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Pottery studio members, extrapolate given y=5x+10 to 20 months (generated d2, relabeled Easy).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Dough proofing box, slope from two labeled line points then scale to 5 minutes.

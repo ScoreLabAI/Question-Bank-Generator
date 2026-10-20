@@ -1317,3 +1317,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued.
 **Token usage:** 19 subagent calls, roughly 1.0M subagent tokens (orchestrator not included).
 **Next run should pick up at:** One-variable data d3 (8/10, needs 2), then Two-variable data d1 (6/10, needs 4).
+
+## Run 49 - 2026-10-20
+**Cells worked:** (1) PSDA / One-variable data d3: needed 2, got 2 Hard (mean=median+unique-mode casework; moved-value two-group optimization) -> 10/10 done. (2) PSDA / Two-variable data d1: needed 4+, generated 8 total: banked d1 x5 (highest-point x; P/Q y-difference; line read at x=0; negative association; extrapolation into given equation, generated d2 relabeled Easy), calibrated Medium->d2 x3 (line-read at x with data-point distractor; count above gridline; two-point slope x5 - the last was generated for d2). d1 now 11/10 done. (3) PSDA / Two-variable data d2: now 8/10 pending (needs 2).
+**Pipeline:** 14 generators, 14 critics (13 PASS, Q6 association item flagged for odd-valued points off labeled gridlines -> fixed y_tick_step=1; Q7 advisory weak distractor swapped), 3 batched calibrations (sonnet). Explanation fixes applied to one-var Q1/Q2 pre-critic. 0 regenerations, 0 discards.
+**Banked:** master 479 -> 489 (+ run-49 total 10). validate_batch passed on all batches (key skew WARN). 8 scatterplots rendered via render_visual.py.
+**Setup note:** matplotlib needed pip install plus pillow force-reinstall.
+**Skill updates (Step 5):** none applied; nothing queued.
+**Token usage:** ~28 subagent calls, roughly 1.4M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Two-variable data d2 (8/10, needs 2), then Two-variable data d3 (0/10).

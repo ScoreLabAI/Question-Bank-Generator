@@ -335,9 +335,9 @@
       "skill_subcategory": "Two-variable data: models and scatterplots",
       "difficulty": 1,
       "target_count": 10,
-      "status": "pending",
-      "accepted_count": 8,
-      "note": "Run 47: 3 banked d1 (scatter point read; predicted value from given line; slope interpretation). 'Which point farthest above line' calibrated Medium -> d2. Scatter via render_visual best_fit_line works. Run 48: 3 banked d1 (y-intercept interp; solve x from given line; read y of rightmost point). Calibrated Medium->d2: count points above line, pick best-fit equation from negative trend, actual-minus-predicted at labeled point, negative-slope interp with unit conversion. Needs more genuinely single-step d1 shapes. Run 49: 2 banked d1 (read x of highest point; difference between labeled points Q and P). Calibrated Medium->d2: read best-fit line at x with actual-point distractor; count points above a horizontal gridline."
+      "status": "done",
+      "accepted_count": 11,
+      "note": "Run 47: 3 banked d1 (scatter point read; predicted value from given line; slope interpretation). 'Which point farthest above line' calibrated Medium -> d2. Scatter via render_visual best_fit_line works. Run 48: 3 banked d1 (y-intercept interp; solve x from given line; read y of rightmost point). Calibrated Medium->d2: count points above line, pick best-fit equation from negative trend, actual-minus-predicted at labeled point, negative-slope interp with unit conversion. Needs more genuinely single-step d1 shapes. Run 49: 2 banked d1 (read x of highest point; difference between labeled points Q and P). Calibrated Medium->d2: read best-fit line at x with actual-point distractor; count points above a horizontal gridline. Run 49b: +3 d1 (line-read at x=0; negative association description; plug x into given equation, generated d2 relabeled Easy). Cell reached 11 (overshoot from relabel)."
     },
     {
       "domain": "math",
@@ -346,8 +346,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 7,
-      "note": "Run 49: +2 relabeled from d1 (line-reading with actual-point distractor; count above horizontal gridline). Bare line-read/count items sit at Medium."
+      "accepted_count": 8,
+      "note": "Run 49: +2 relabeled from d1 (line-reading with actual-point distractor; count above horizontal gridline). Bare line-read/count items sit at Medium. Run 49b: +1 banked d2 (slope from two labeled line points then x5). Substitute-into-given-equation extrapolation calibrated Easy; d2 needs 2-3 step shapes (e.g. two-point slope, residual comparisons)."
     },
     {
       "domain": "math",
