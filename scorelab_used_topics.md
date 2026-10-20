@@ -513,3 +513,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Podcast listeners vs months, line through A and B then 3 years with hundreds conversion.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Library app downloads exponential table, ratio of 2-day steps gives b, predict day 10.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Water-treatment basin silt depth, line through M and N, convert cm to mm and shift x'=x-4, predict.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] School recycling club aluminum cans vs weeks, line through A and B, reach 39,000 cans in months.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Farmers market social posts vs email subscribers table, line through point of means with stated slope (generated d3, calibrated Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Marine biologist jellyfish counts quadratic table, other day with same count by symmetry.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Orchard apple harvest vs tree age, line through A and B vs competing model y=4x+30, common harvest.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Water hyacinth reservoir area table, exponential model with x rescaled from 4-month periods to years.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Night-market lantern stall revenue vs hours, slope after z=y-12x and w=x/4.
