@@ -493,3 +493,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Smoothie stand temperature vs sales, read y of rightmost point.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Coffee cart hours vs cups, actual minus predicted at marked point P (generated d1, relabeled Medium).
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Used-car mileage vs asking price, interpret negative slope with unit conversion (generated d1, relabeled Medium).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d3] Glassblowing studio vases per day table with unknown Friday x, Saturday 14 added, mean = median and exactly one mode, sum of possible x (trap x=14 two modes).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d3] Lighthouse society tours: Harbor 5 values mean 16 median 17, one value v moved to Cliff Light table, remaining median 15, Cliff mean cap, greatest v.
