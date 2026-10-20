@@ -505,3 +505,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Dough proofing box, slope from two labeled line points then scale to 5 minutes.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Beekeeping cooperative hives vs honey, inverse prediction: hives at which line predicts R harvest (generated d2, calibrated Easy).
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Rooftop solar panels vs daily kWh, absolute difference of residuals for labeled P and Q.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Aquarium tank volume vs fish, percent overestimate of model at labeled M (generated d2, Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Climbing gym weeks vs pull-ups table, smaller sum of absolute residuals of two linear models (generated d3, calibrated Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Community theater weeks advertised vs tickets, residual at P gives unknown slope k then extrapolate (generated d3, calibrated Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Robotics club practice hours vs points, count teams with actual above undrawn model y=1.5x+4 (generated d3, calibrated Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Robotics club foam-ball launch table, quadratic with a=-2 through two points, maximum height.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Podcast listeners vs months, line through A and B then 3 years with hundreds conversion.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Library app downloads exponential table, ratio of 2-day steps gives b, predict day 10.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Water-treatment basin silt depth, line through M and N, convert cm to mm and shift x'=x-4, predict.

@@ -345,9 +345,9 @@
       "skill_subcategory": "Two-variable data: models and scatterplots",
       "difficulty": 2,
       "target_count": 10,
-      "status": "pending",
-      "accepted_count": 9,
-      "note": "Run 49: +2 relabeled from d1 (line-reading with actual-point distractor; count above horizontal gridline). Bare line-read/count items sit at Medium. Run 49b: +1 banked d2 (slope from two labeled line points then x5). Substitute-into-given-equation extrapolation calibrated Easy; d2 needs 2-3 step shapes (e.g. two-point slope, residual comparisons). Run 50: +1 banked d2 (difference of residuals for two labeled points, sign handling). Needs 1 more."
+      "status": "done",
+      "accepted_count": 13,
+      "note": "Run 49: +2 relabeled from d1 (line-reading with actual-point distractor; count above horizontal gridline). Bare line-read/count items sit at Medium. Run 49b: +1 banked d2 (slope from two labeled line points then x5). Substitute-into-given-equation extrapolation calibrated Easy; d2 needs 2-3 step shapes (e.g. two-point slope, residual comparisons). Run 50: +1 banked d2 (difference of residuals for two labeled points, sign handling). Needs 1 more. Run 50: +3 relabeled from d3 (sum of absolute residuals for two models from table; residual at P gives unknown slope k then extrapolate; count points above undrawn model, 8 computations); +1 banked d2 (percent overestimate of one residual). All three d3-generated items calibrated Medium: pure repeated substitution/one linear solve, no model construction."
     },
     {
       "domain": "math",
@@ -356,7 +356,8 @@
       "difficulty": 3,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 4,
+      "note": " Run 50: 4 banked d3 (quadratic from table via two points + vertex; line from two labeled points + year-to-month + hundreds conversion; exponential table 2-day ratio=b^2 with 3-day extrapolation; two-point line then cm->mm and x-shift change of variables). Hard = must BUILD the model and combine with a conversion/transform; residual/count/compare shapes calibrate Medium."
     },
     {
       "domain": "math",
