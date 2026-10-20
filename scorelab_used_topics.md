@@ -484,3 +484,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Basil/bean seedling height scatterplot, predicted height from y=2x+4 at x=6.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d1] Sunflower seedling heights, interpret slope of y=2x+5 in days/cm.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Greenhouse tomatoes per week scatterplot with line, week farthest above line (generated d1, relabeled Medium).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Planetarium 8 shows, two counts b=a+12, median 24 and range 26, least possible mean (generated d3, relabeled Medium).
+- [Problem-Solving and Data Analysis/One-variable data: distributions and measures of center and spread, d2] Community college morning/evening sections, mean m and m-12 with sizes n and 2n, makeup score changes combined mean, morning mean after (generated d3, relabeled Medium).
