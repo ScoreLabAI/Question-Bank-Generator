@@ -347,7 +347,7 @@
       "target_count": 10,
       "status": "done",
       "accepted_count": 15,
-      "note": "Run 49: +2 relabeled from d1 (line-reading with actual-point distractor; count above horizontal gridline). Bare line-read/count items sit at Medium. Run 49b: +1 banked d2 (slope from two labeled line points then x5). Substitute-into-given-equation extrapolation calibrated Easy; d2 needs 2-3 step shapes (e.g. two-point slope, residual comparisons). Run 50: +1 banked d2 (difference of residuals for two labeled points, sign handling). Needs 1 more. Run 50: +3 relabeled from d3 (sum of absolute residuals for two models from table; residual at P gives unknown slope k then extrapolate; count points above undrawn model, 8 computations); +1 banked d2 (percent overestimate of one residual). All three d3-generated items calibrated Medium: pure repeated substitution/one linear solve, no model construction. Run 51: +1 d2 overshoot (line of best fit through point of means, stated slope, predict)."
+      "note": "Run 49: +2 relabeled from d1 (line-reading with actual-point distractor; count above horizontal gridline). Bare line-read/count items sit at Medium. Run 49b: +1 banked d2 (slope from two labeled line points then x5). Substitute-into-given-equation extrapolation calibrated Easy; d2 needs 2-3 step shapes (e.g. two-point slope, residual comparisons). Run 50: +1 banked d2 (difference of residuals for two labeled points, sign handling). Needs 1 more. Run 50: +3 relabeled from d3 (sum of absolute residuals for two models from table; residual at P gives unknown slope k then extrapolate; count points above undrawn model, 8 computations); +1 banked d2 (percent overestimate of one residual). All three d3-generated items calibrated Medium: pure repeated substitution/one linear solve, no model construction. Run 51: +1 d2 overshoot (line of best fit through point of means, stated slope, predict). Run 52: +1 via relabel (line through A,B then 40%-greater prediction; build line + single percent step = Medium)."
     },
     {
       "domain": "math",
@@ -357,7 +357,7 @@
       "target_count": 10,
       "status": "done",
       "accepted_count": 10,
-      "note": " Run 50: 4 banked d3 (quadratic from table via two points + vertex; line from two labeled points + year-to-month + hundreds conversion; exponential table 2-day ratio=b^2 with 3-day extrapolation; two-point line then cm->mm and x-shift change of variables). Hard = must BUILD the model and combine with a conversion/transform; residual/count/compare shapes calibrate Medium. Run 51: +5 banked d3 (line->solve x in months with 1000s conversion; quadratic table symmetry partner day; two-line intersection via competing model; exponential growth exponent rescale months->years; variable-combination z=y-12x,w=x/4 slope). Needs 1 more. Mean-point line prediction calibrated Medium."
+      "note": " Run 50: 4 banked d3 (quadratic from table via two points + vertex; line from two labeled points + year-to-month + hundreds conversion; exponential table 2-day ratio=b^2 with 3-day extrapolation; two-point line then cm->mm and x-shift change of variables). Hard = must BUILD the model and combine with a conversion/transform; residual/count/compare shapes calibrate Medium. Run 51: +5 banked d3 (line->solve x in months with 1000s conversion; quadratic table symmetry partner day; two-line intersection via competing model; exponential growth exponent rescale months->years; variable-combination z=y-12x,w=x/4 slope). Needs 1 more. Mean-point line prediction calibrated Medium. Run 52: +1 banked d3 (two-table linear models, thousands vs single visitors, gap=16,200). Cell done."
     },
     {
       "domain": "math",
@@ -366,7 +366,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 7,
+      "note": "Run 52: 7 banked d1 (bag complement; table row total; spinner frequency table; expected count; raffle k/N; ratio 3:5 to part-whole; one-way table 'or' of two categories). Conditional-on-row/column table items (incl. percent form) calibrate Medium, not Easy. Needs 3 more: avoid conditional-on-subgroup shapes; use direct single-read shapes (e.g. complement from table, relative frequency, simple expected value, probability from stated percent)."
     },
     {
       "domain": "math",
@@ -375,7 +376,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 3,
+      "note": "Run 52: +3 banked d2 via relabel (conditional on row 'beginners evening' 12/30; conditional on column piano morning 24/40; percent of train riders entering evening 54/120). Cell 3/10."
     },
     {
       "domain": "math",

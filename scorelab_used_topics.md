@@ -521,3 +521,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Night-market lantern stall revenue vs hours, slope after z=y-12x and w=x/4.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Coral nursery fragment heights, line through A and B, week when predicted height is 40% above week-5 prediction (generated d3, calibrated Medium).
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Museum vs science center visitors table, thousands vs single units, week when gap between linear models equals 16,200.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Pottery class experience vs session table, beginners attending evening (generated d1, calibrated Medium).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Craft jar beads 6/14/5, probability of not blue.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Science museum tour preference table, probability visitor is a child.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Summer music camp instrument vs session table, piano players attending morning (generated d1, calibrated Medium).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Pressure sensor factory, expected passes at 0.80 of 200.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Board-game spinner four-color results table, estimated probability of green.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Community garden raffle, 5 of 40 tickets, probability of winning.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Community library donation bin, paperback to hardcover ratio 3:5, probability of hardcover.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Riverside Station commuters train/bus by morning/evening table, percent of train riders entering evening (generated d1, calibrated Medium).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Garden nursery plants sold by type table, probability herb or succulent.

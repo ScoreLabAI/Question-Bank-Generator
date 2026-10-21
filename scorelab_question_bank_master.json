@@ -15634,5 +15634,407 @@
    ]
   },
   "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "The table shows the number of participants in a community pottery class, categorized by experience level and session time. One of the beginner participants will be selected at random. What is the probability that the selected participant attends the evening session?",
+  "answer_a": "0.20",
+  "answer_b": "0.40",
+  "answer_c": "0.43",
+  "answer_d": "0.60",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. Because the participant is selected from the beginner participants, the total number of possible outcomes is the number of beginners, 30. Of these, 12 attend the evening session. The probability is therefore 12/30, or 0.40.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the probability 12/60 = 0.20, which divides the number of evening beginners by the total number of all participants instead of by the number of beginners.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is 12/28, about 0.43, which divides by the number of evening participants (the column total) instead of the number of beginners (the row total).",
+  "distractor_d_explanation": "Choice D is incorrect. This is 18/30 = 0.60, the probability that a selected beginner attends the morning session, which is the complement of the event described.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "",
+    "Morning",
+    "Evening",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Beginner",
+     "18",
+     "12",
+     "30"
+    ],
+    [
+     "Advanced",
+     "14",
+     "16",
+     "30"
+    ],
+    [
+     "Total",
+     "32",
+     "28",
+     "60"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A craft jar contains 25 beads: 6 red beads, 14 blue beads, and 5 green beads. One bead is selected at random from the jar. What is the probability that the selected bead is NOT blue?",
+  "answer_a": "6/25",
+  "answer_b": "11/25",
+  "answer_c": "14/25",
+  "answer_d": "11/14",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the jar contains 6 red beads, 14 blue beads, and 5 green beads, for a total of 6 + 14 + 5 = 25 beads. The beads that are not blue are the 6 red beads and the 5 green beads, which is 6 + 5 = 11 beads. The probability that a randomly selected bead is not blue is the number of beads that are not blue divided by the total number of beads, or 11/25. Therefore, the probability that the selected bead is not blue is 11/25.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the probability that the selected bead is red, not the probability that it is not blue; it counts only the red beads and leaves out the 5 green beads.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the probability that the selected bead is blue, not the probability that it is not blue.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the ratio of the number of beads that are not blue to the number of blue beads, 11 to 14, rather than the number of beads that are not blue to the total number of beads, 25.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A science museum surveyed 200 visitors about which type of tour they preferred. The results are summarized in the table shown.\n\nIf one of these 200 visitors is selected at random, what is the probability that the selected visitor is a child?",
+  "answer_a": "19/100",
+  "answer_b": "3/10",
+  "answer_c": "5/9",
+  "answer_d": "7/10",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that 200 visitors were surveyed, so the total number of possible outcomes is 200. The table shows that the total number of child visitors is 60. The probability that a randomly selected visitor is a child is the number of child visitors divided by the total number of visitors, or 60/200, which simplifies to 3/10. Therefore, the probability that the selected visitor is a child is 3/10.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the probability that the selected visitor is a child who preferred a guided tour (38/200), not the probability that the visitor is a child.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from dividing the number of child visitors, 60, by 108, the total number of visitors who preferred an audio guide, rather than by the total number of visitors surveyed, 200.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the probability that the selected visitor is an adult (140/200), the complement of the event, not the probability that the visitor is a child.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Visitor type",
+    "Guided tour",
+    "Audio guide",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Adult",
+     "54",
+     "86",
+     "140"
+    ],
+    [
+     "Child",
+     "38",
+     "22",
+     "60"
+    ],
+    [
+     "Total",
+     "92",
+     "108",
+     "200"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "The table shows the number of participants at a summer music camp, categorized by the instrument they play and the session they attend.\n\nOne of the participants who play piano will be selected at random. What is the probability that the selected participant attends the morning session?",
+  "answer_a": "4/15",
+  "answer_b": "4/9",
+  "answer_c": "12/25",
+  "answer_d": "3/5",
+  "correct_answer": "D",
+  "explanation": "Choice D is correct. It's given that one of the participants who play piano will be selected at random, so the 40 participants who play piano are the possible outcomes. Of these, 24 attend the morning session. Therefore, the probability that the selected participant attends the morning session is 24/40, or 3/5.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the probability of selecting a participant who plays piano and attends the morning session from all 90 participants (24/90), not from the participants who play piano.",
+  "distractor_b_explanation": "Choice B is incorrect. This is the probability that a randomly selected morning-session participant plays piano (24/54), which uses the morning row total of 54 instead of the piano column total of 40.",
+  "distractor_c_explanation": "Choice C is incorrect. This results from dividing 24 by the total number of guitar participants (50) instead of the total number of piano participants (40).",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Session",
+    "Guitar",
+    "Piano",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Morning",
+     "30",
+     "24",
+     "54"
+    ],
+    [
+     "Afternoon",
+     "20",
+     "16",
+     "36"
+    ],
+    [
+     "Total",
+     "50",
+     "40",
+     "90"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A factory tests each pressure sensor it produces before shipping. The probability that a randomly selected sensor passes the test is 0.80. If 200 sensors are tested, how many of them are expected to pass the test?",
+  "answer_a": "40",
+  "answer_b": "80",
+  "answer_c": "160",
+  "answer_d": "250",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. The expected number of sensors that pass is the probability that a sensor passes multiplied by the number of sensors tested. Therefore, the expected number is 0.80(200) = 160.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the expected number of sensors that fail, 0.20(200) = 40, which comes from using the probability of failing instead of the probability of passing.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from treating the percent value 80 as the number of sensors that pass, rather than multiplying 0.80 by the 200 sensors tested.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This results from dividing the number of sensors by the probability, 200 / 0.80 = 250, instead of multiplying them.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A game designer tested a four-colored spinner for a new board game by spinning it 200 times and recording the color it landed on each time. The results are shown in the table. Based on the table, what is the estimated probability that a spin of this spinner results in green?",
+  "answer_a": "1/4",
+  "answer_b": "1/3",
+  "answer_c": "1/2",
+  "answer_d": "5/8",
+  "correct_answer": "A",
+  "explanation": "Choice A is correct. The estimated probability that a spin results in green is the number of times the spinner landed on green divided by the total number of spins. It's given in the table that the spinner landed on green 50 times in a total of 200 spins. Therefore, the estimated probability that a spin results in green is 50/200, or 1/4.",
+  "distractor_a_explanation": "",
+  "distractor_b_explanation": "Choice B is incorrect. This is the number of green spins divided by the number of spins that were not green (50/150), not divided by the total number of spins.",
+  "distractor_c_explanation": "Choice C is incorrect. This results from treating the count of green spins, 50, as a percent (50 out of 100) rather than dividing 50 by the total of 200 spins.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the number of green spins divided by the number of blue spins (50/80), not divided by the total number of spins.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Color",
+    "Number of spins"
+   ],
+   "rows": [
+    [
+     "Red",
+     "30"
+    ],
+    [
+     "Blue",
+     "80"
+    ],
+    [
+     "Green",
+     "50"
+    ],
+    [
+     "Yellow",
+     "40"
+    ],
+    [
+     "Total",
+     "200"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A community garden sold 40 raffle tickets to raise money for new tools. One winning ticket will be drawn at random from all 40 tickets sold. Dara bought 5 of the tickets. What is the probability that Dara holds the winning ticket?",
+  "answer_a": "1/40",
+  "answer_b": "1/8",
+  "answer_c": "1/7",
+  "answer_d": "7/8",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that 40 tickets were sold and exactly one winning ticket will be drawn at random, so each ticket is equally likely to win. Dara holds 5 of the 40 tickets. The probability that Dara holds the winning ticket is the number of tickets Dara holds divided by the total number of tickets, or 5/40. Simplifying 5/40 yields 1/8. Therefore, the probability that Dara holds the winning ticket is 1/8.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the probability that one particular ticket wins, which ignores that Dara holds 5 tickets, not 1.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This results from dividing the number of Dara's tickets by the number of tickets Dara does not hold (5/35 = 1/7) instead of by the total number of tickets.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the probability that Dara does not hold the winning ticket, 35/40 = 7/8, which is the complement of the event described.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "In a community library's donation bin, the ratio of paperback books to hardcover books is 3 to 5. The bin contains only paperback books and hardcover books. If one book is chosen at random from the bin, what is the probability that the book is a hardcover book?",
+  "answer_a": "1/4",
+  "answer_b": "3/8",
+  "answer_c": "3/5",
+  "answer_d": "5/8",
+  "correct_answer": "D",
+  "explanation": "Choice D is correct. It's given that the ratio of paperback books to hardcover books is 3 to 5, and the bin contains only these two types. So for every 3 + 5 = 8 books in the bin, 5 are hardcover books. The probability that a randomly chosen book is a hardcover book is the number of hardcover books divided by the total number of books, or 5/8. Therefore, the probability that the book is a hardcover book is 5/8.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from subtracting the ratio parts, 5 - 3 = 2, and dividing by the total number of parts, 8, which gives 2/8 = 1/4. The number of hardcover books is 5 parts, not the difference between the parts.",
+  "distractor_b_explanation": "Choice B is incorrect. This is the probability that the book is a paperback book, not a hardcover book.",
+  "distractor_c_explanation": "Choice C is incorrect. This compares the number of paperback books to the number of hardcover books (3 to 5, a part-to-part ratio) rather than comparing the number of hardcover books to the total number of books.",
+  "distractor_d_explanation": "",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A transit authority counted the commuters who entered Riverside Station on one weekday and recorded whether each commuter traveled by train or by bus and whether the commuter entered in the morning or in the evening. The results are shown in the table. Of the commuters who traveled by train, which of the following is closest to the percent who entered in the evening?",
+  "answer_a": "22%",
+  "answer_b": "42%",
+  "answer_c": "45%",
+  "answer_d": "55%",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. The question asks about the commuters who traveled by train, so only the train row of the table is used. According to the table, there were 120 commuters who traveled by train, and 54 of them entered in the evening. Therefore, the percent of the commuters who traveled by train who entered in the evening is 54/120, which equals 0.45, or 45%.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from dividing 54 by 250, the total number of all commuters, rather than by 120, the total number of commuters who traveled by train (54/250 is approximately 21.6%, which rounds to 22%).",
+  "distractor_b_explanation": "Choice B is incorrect. This results from dividing 54 by 130, the total number of commuters who traveled by bus, rather than by 120, the total number of commuters who traveled by train (54/130 is approximately 41.5%, which rounds to 42%).",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is the percent of the commuters who traveled by train that entered in the morning (66/120 = 55%), not in the evening.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Travel mode",
+    "Morning",
+    "Evening",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Train",
+     "66",
+     "54",
+     "120"
+    ],
+    [
+     "Bus",
+     "74",
+     "56",
+     "130"
+    ],
+    [
+     "Total",
+     "140",
+     "110",
+     "250"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Probability and conditional probability",
+  "difficulty": 1,
+  "module_type": "standard",
+  "question_text": "A garden nursery recorded the number of plants it sold last weekend, by type. The table shows the results. One plant sold last weekend will be selected at random. What is the probability that the selected plant is an herb or a succulent?",
+  "answer_a": "7/72",
+  "answer_b": "1/3",
+  "answer_c": "5/8",
+  "answer_d": "3/4",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. It's given that the nursery sold 120 plants in total, of which 40 were herbs and 35 were succulents. Since a plant cannot be both an herb and a succulent, the number of plants that are an herb or a succulent is 40 + 35 = 75. The probability that a randomly selected plant is an herb or a succulent is the number of favorable plants divided by the total number of plants, or 75/120, which simplifies to 5/8. Therefore, the probability that the selected plant is an herb or a succulent is 5/8.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the product of the probability of an herb (40/120) and the probability of a succulent (35/120), not the probability of selecting either type.",
+  "distractor_b_explanation": "Choice B is incorrect. This is the probability that the selected plant is an herb only (40/120 = 1/3); the succulents are not included.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This results from dividing 75 by 100, the total of only three of the four types (40 + 35 + 25), rather than by the total of all 120 plants.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Type of plant",
+    "Number sold"
+   ],
+   "rows": [
+    [
+     "Herb",
+     "40"
+    ],
+    [
+     "Succulent",
+     "35"
+    ],
+    [
+     "Fern",
+     "25"
+    ],
+    [
+     "Cactus",
+     "20"
+    ],
+    [
+     "Total",
+     "120"
+    ]
+   ]
+  },
+  "visual_svg": null
  }
 ]

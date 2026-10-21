@@ -1344,3 +1344,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: when mandating shapes, check the cell's banked shapes for the same family (my decay-table mandate duplicated the banked ratio=b^2 item).
 **Token usage:** ~8 generators/critics/calibrators ≈ 19 subagent calls, roughly 1.0M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Two-variable data d3 (9/10, needs 1), then Probability d1.
+
+## Run 52 - 2026-10-21
+**Cells worked:** (1) PSDA / Two-variable data d3: needed 1; first attempt (line A,B + 40% greater prediction) calibrated Medium -> banked d2 (now 15/10); second attempt (two linear tables, thousands vs single units, gap = 16,200) calibrated Hard -> banked d3, 10/10 done. (2) PSDA / Probability d1: needed 10, generated 10 (bag complement; two-way marginal; conditional on column; expected count; spinner frequency table; raffle; ratio 3:5; percent conditional; one-way 'or' table; plus a free-shape row-conditional). Calibration: 3 conditional-on-row/column items (incl. percent form) calibrated Medium -> banked d2 (Probability d2 now 3/10). Probability d1: 7/10, pending (needs 3).
+**Pipeline:** 12 generators, 12 critics + 1 re-critic (q9 FLAGGED: ambiguous "commuters who traveled by train that entered in the evening" with A=54/250 a defensible second reading -> stem reworded to "Of the commuters who traveled by train ... percent who entered in the evening", re-critiqued PASS). Advisory fixes applied: raffle D 8 -> 7/8 (probability >1 distractor), ratio item reordered with 1/4, 3/8, 3/5, 5/8 (key now D). 2 batched/solo calibrations. 0 discards.
+**Banked:** master 505 -> 517 (+12). validate_batch passed both batches. 1 scatterplot rendered, 11 table visuals/no-visual items.
+**Skill updates (Step 5):** none applied; nothing queued. Observation: "denominator-selection" conditional table items calibrate Medium for Probability, so d1 cells should mandate direct single-read shapes; weak ">1 probability" distractors should be avoided.
+**Token usage:** ~28 subagent calls, roughly 1.4M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Probability d1 (7/10, needs 3), then Probability d2 (3/10).
