@@ -1368,3 +1368,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: Probability d3 Hard needs an unknown solved first or reverse conditioning; sample-space counting, hypergeometric and NOT-category table items calibrate Medium. My Q5 mandate duplicated Q1's shape -- check mandates against each other before launching.
 **Token usage:** ~24 subagent calls, roughly 1.2M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Probability d3 (6/10, needs 4) with Hard shapes (unknown-first or reverse conditioning), then Inference from sample statistics d1.
+
+## Run 55 - 2026-10-21
+**Cells worked:** (1) PSDA / Probability d3: needed 4, got 4 Hard (inclusion-exclusion + P(A|B) -> P(B|A); weighted-mixture missing rate then reverse conditioning; pooled two-site table with unknown x; Venn percentages with ratio of reversed conditionals) -> 10/10 done. p2 and p3 borderline Medium but calibrated Hard. (2) PSDA / Inference from sample statistics d1: needed 6 of 10, got 6 Easy -> 6/10, pending (needs 4).
+**Pipeline:** 11 generators (one draft, text-only proportion -> count of 8,000, discarded pre-critic as near-duplicate of the table-scaling item and replaced with sampling-plan shape), 10 critics (all PASS; one wording polish applied to Probability q3 distractor B; scenario of replacement item changed garden -> library to avoid topic repeat), 2 batched calibrations (sonnet). 0 regenerations after critique, 0 discards.
+**Banked:** master 538 -> 548 (+10). validate_batch passed both batches. 2 table visuals, rest no visual; no renders needed.
+**Skill updates (Step 5):** none applied; nothing queued. Observation: when launching parallel generators on a cell, mandated shapes that both reduce to "sample proportion x population" collide; and parallel generators independently reused the same scenario/noun (garden) -- give each a distinct scenario domain.
+**Token usage:** ~22 subagent calls, roughly 1.1M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Inference d1 (6/10, needs 4), then Inference d2.

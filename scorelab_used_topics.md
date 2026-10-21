@@ -556,3 +556,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Factory day/night shift widgets, solve night defect rate from overall rate, then P(night | defective).
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Tomato seed germination at two greenhouses, table with x solved from pooled 3/5, P(South | germinated).
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Town music/video streaming subscriptions, neither 5%, ratio of reversed conditionals, P(music | video).
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Public library 3,200 cardholders, sampling plan choice for spring book sale survey (random from cardholder list).
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Sugar maple forest trunk circumference mean 154 cm, margin of error 6, lower end of interval.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Botanical garden 3,000 members, 68% visit monthly, best-supported generalization.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Cedar Ridge State Park sample of 250 of 8,000 visitors by main activity table, biking estimate.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] National park trail shuttle poll 62% support, margin of error 2 points, statement about all visitors.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Greenhouse 2,400 tomato plants, sample mean 15 per plant, estimated total.

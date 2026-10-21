@@ -396,7 +396,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 6,
+   "note": "Run 55: +6 Easy (margin-of-error interval lower end; random sample proportion table -> count of 8,000; margin-of-error statement interpretation; sample mean -> total; generalization to sampled population; sampling-plan selection). All calibrated Easy (generalization and table scaling borderline Easy/Medium). One draft (proportion -> count of 8,000 text-only) discarded pre-critic as near-duplicate of the table-scaling item and replaced with sampling-plan shape. Cell 6/10."
   },
   {
    "domain": "math",
