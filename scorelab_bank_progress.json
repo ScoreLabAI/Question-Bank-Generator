@@ -376,8 +376,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "done",
-      "accepted_count": 10,
-      "note": "Run 52: +3 banked d2 via relabel (conditional on row 'beginners evening' 12/30; conditional on column piano morning 24/40; percent of train riders entering evening 54/120). Cell 3/10. Run 53: +6 banked d2 (two draws w/o replacement same flavor; column-conditional 3x3 table 22/40; hikers neither via inclusion-exclusion; at least one of 3 independent casts; relative-frequency table P(premium|TV); scaled SUV prediction from row proportion). Cell 9/10. Tried and Medium: multi-step/denominator-selection shapes; avoid more column-conditional count tables (saturated). Run 54: +1 banked d2 (which-statement-is-true comparing two conditional probabilities from bike-share table; calibrated Medium). Cell 10/10 done."
+      "accepted_count": 14,
+      "note": "Run 52: +3 banked d2 via relabel (conditional on row 'beginners evening' 12/30; conditional on column piano morning 24/40; percent of train riders entering evening 54/120). Cell 3/10. Run 53: +6 banked d2 (two draws w/o replacement same flavor; column-conditional 3x3 table 22/40; hikers neither via inclusion-exclusion; at least one of 3 independent casts; relative-frequency table P(premium|TV); scaled SUV prediction from row proportion). Cell 9/10. Tried and Medium: multi-step/denominator-selection shapes; avoid more column-conditional count tables (saturated). Run 54: +1 banked d2 (which-statement-is-true comparing two conditional probabilities from bike-share table; calibrated Medium). Cell 10/10 done. Run 54: +4 more calibrated-Medium relabels from d3 (hypergeometric exactly-one; two-wheel conditional sample space; NOT-Chemistry table; Senior subgroup prediction). Now overshoot."
     },
     {
       "domain": "math",
@@ -386,7 +386,8 @@
       "difficulty": 3,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 6,
+      "note": "Run 54: +6 Hard (screening-test reverse conditioning from rates; table with unknowns solved from a stated conditional then second conditional; add-k-cards quadratic from two-draw probability; independence of table events solving rational equation for x; independent events P(A or B) solve for P(B); three-route total probability with 'twice as many' share). Cell 6/10. Calibrated Medium (not Hard): exactly-one-of-3 hypergeometric draw; given-at-least-one-even two-wheel sample space; conditional on NOT-category table; sample-to-population subgroup proportion. Hard shapes need an unknown solved first or reverse conditioning."
     },
     {
       "domain": "math",

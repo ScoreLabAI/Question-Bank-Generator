@@ -16435,5 +16435,356 @@
       ]
     },
     "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Probability and conditional probability",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "A county water lab screens well-water samples for lead. Of all samples submitted, 20% actually contain lead above the safe limit. The screening test returns a positive result for 90% of the samples that contain lead above the limit and also returns a positive result for 15% of the samples that do not. If a randomly selected sample from this lab tests positive, what is the probability that it actually contains lead above the safe limit?",
+    "answer_a": "18%",
+    "answer_b": "40%",
+    "answer_c": "60%",
+    "answer_d": "90%",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. Suppose the lab screens 1,000 samples. It's given that 20% contain lead above the limit, so 200 samples do and 800 do not. The test is positive for 90% of the 200 samples with lead, which is 180 samples, and positive for 15% of the 800 samples without lead, which is 120 samples. In total, 180 + 120 = 300 samples test positive. Of these 300 positive samples, 180 actually contain lead above the limit, so the probability is 180/300 = 0.60, or 60%. Therefore, the probability that a sample that tests positive actually contains lead above the safe limit is 60%.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the probability that a randomly selected sample both contains lead and tests positive (0.20 × 0.90 = 0.18), not the probability that it contains lead given that it tested positive.",
+    "distractor_b_explanation": "Choice B is incorrect. This is the probability that a sample that tests positive does not contain lead (120/300), not the probability that it does contain lead.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. This is the probability that a sample tests positive given that it contains lead (the test's detection rate), not the probability that it contains lead given that it tests positive.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Probability and conditional probability",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "A climbing gym surveyed 200 of its members about the type of climbing they do most often. Each member has either a monthly membership or an annual membership, and each member chose exactly one climbing type: bouldering or top-rope. Some values in the table are unknown and are marked with a question mark (?).\n\nThe probability that a randomly selected member with a monthly membership chose bouldering is 0.4. If one of the members who chose bouldering is selected at random, what is the probability that this member has an annual membership?",
+    "answer_a": "0.32",
+    "answer_b": "0.36",
+    "answer_c": "0.40",
+    "answer_d": "0.64",
+    "correct_answer": "D",
+    "explanation": "Choice D is correct. It's given that the probability that a randomly selected monthly member chose bouldering is 0.4, and 36 monthly members chose bouldering. If m is the number of monthly members, then 36/m = 0.4, so m = 90. The table gives 200 total members, so the number of annual members is 200 - 90 = 110. Of the annual members, 46 chose top-rope, so 110 - 46 = 64 annual members chose bouldering. The total number of members who chose bouldering is 36 + 64 = 100. Therefore, the probability that a randomly selected member who chose bouldering has an annual membership is 64/100, or 0.64.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the probability that a randomly selected member of all 200 surveyed members is both an annual member and a bouldering climber (64/200), not the probability among only the members who chose bouldering.",
+    "distractor_b_explanation": "Choice B is incorrect. This is the probability that a randomly selected member who chose bouldering has a monthly membership (36/100), not an annual membership.",
+    "distractor_c_explanation": "Choice C is incorrect. This is the given probability that a monthly member chose bouldering, which conditions on the wrong group (monthly members rather than bouldering climbers).",
+    "distractor_d_explanation": "",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "",
+        "Bouldering",
+        "Top-rope",
+        "Total"
+      ],
+      "rows": [
+        [
+          "Monthly membership",
+          "36",
+          "?",
+          "?"
+        ],
+        [
+          "Annual membership",
+          "?",
+          "46",
+          "?"
+        ],
+        [
+          "Total",
+          "?",
+          "?",
+          "200"
+        ]
+      ]
+    },
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Probability and conditional probability",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "A deck contains 20 flash cards, and 2/5 of the cards are marked \"mastered.\" The rest are marked \"still learning.\" A student adds k more \"still learning\" cards to the deck and shuffles it. Two cards are then selected at random from the deck, one after the other, without replacement. The probability that both selected cards are marked \"mastered\" is 7/75. What is the value of k?",
+    "answer_a": "5",
+    "answer_b": "24",
+    "answer_c": "25",
+    "answer_d": "44",
+    "correct_answer": "A",
+    "explanation": "Choice A is correct. It's given that 2/5 of the 20 cards are mastered, so there are 8 mastered cards. After k still-learning cards are added, the deck has 20 + k cards, and the number of mastered cards is still 8. The probability that the first card is mastered is 8/(20 + k). Without replacement, 7 mastered cards remain among 19 + k cards, so the probability that the second card is also mastered is 7/(19 + k). Therefore, the probability that both are mastered is (8/(20 + k)) * (7/(19 + k)) = 56/((20 + k)(19 + k)). Setting this equal to 7/75 gives 56/((20 + k)(19 + k)) = 7/75. Cross-multiplying and dividing by 7 gives (20 + k)(19 + k) = 600, which simplifies to k^2 + 39k - 220 = 0. Factoring gives (k - 5)(k + 44) = 0, so k = 5 or k = -44. Since k is a number of cards added, k must be positive. Therefore, k = 5.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect. Solving (20 + k)(19 + k) = 600 correctly shows that the two factors are 25 and 24, so 20 + k = 25 and 19 + k = 24. This is the value of 19 + k, the number of cards left after the first draw, not the value of k.",
+    "distractor_c_explanation": "Choice C is incorrect. This is the value of 20 + k, the total number of cards in the deck after the new cards are added, not the number of cards added.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the magnitude of the negative root k = -44 of k^2 + 39k - 220 = 0. A negative root can't be used, because k is a count of cards added, and substituting 44 gives 64 * 63 = 4,032, not 600.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Probability and conditional probability",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "A public library surveyed its patrons about whether they borrowed an audiobook last month. The results are shown in the table, where x is a positive whole number. One surveyed patron will be selected at random. If the event that the patron is under 30 and the event that the patron borrowed an audiobook are independent, what is the value of x?",
+    "answer_a": "15",
+    "answer_b": "20",
+    "answer_c": "30",
+    "answer_d": "60",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. It's given that the event that the patron is under 30 and the event that the patron borrowed an audiobook are independent, so the probability that a patron borrowed an audiobook is the same for patrons under 30 as for all patrons surveyed. Among the x + 60 patrons under 30, x borrowed an audiobook, so this probability is x/(x + 60). Among all x + 60 + 30 + 90 = x + 180 patrons surveyed, x + 30 borrowed an audiobook, so this probability is (x + 30)/(x + 180). Setting these equal gives x/(x + 60) = (x + 30)/(x + 180). Cross-multiplying yields x(x + 180) = (x + 30)(x + 60), or x^2 + 180x = x^2 + 90x + 1,800. Subtracting x^2 + 90x from each side gives 90x = 1,800. Therefore, x = 20. As a check, 20/80 = 1/4 and 50/200 = 1/4.",
+    "distractor_a_explanation": "Choice A is incorrect. This results from setting the ratio x/60 (borrowers to non-borrowers among patrons under 30) equal to the proportion 30/120 of patrons 30 or older who borrowed an audiobook, which compares a ratio with a proportion.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This results from setting x/(x + 60) equal to 30/90, using the number of non-borrowers aged 30 or older as the total for that group instead of the full group total of 120.",
+    "distractor_d_explanation": "Choice D is incorrect. This results from setting x/(x + 30) equal to 60/(60 + 30), which mixes the borrower and non-borrower columns and does not represent the independence condition.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "Age group",
+        "Borrowed an audiobook",
+        "Did not borrow an audiobook"
+      ],
+      "rows": [
+        [
+          "Under 30",
+          "x",
+          "60"
+        ],
+        [
+          "30 or older",
+          "30",
+          "90"
+        ]
+      ]
+    },
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Probability and conditional probability",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "A warehouse has two smoke detectors, X and Y, that operate independently of each other. When a test fire is lit, the probability that detector X sounds an alarm is 0.25. The probability that at least one of the two detectors sounds an alarm is 0.58. What is the probability that detector Y sounds an alarm during a test fire?",
+    "answer_a": "0.33",
+    "answer_b": "0.42",
+    "answer_c": "0.44",
+    "answer_d": "0.56",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. Let P(Y) = y. It's given that P(X) = 0.25 and P(X or Y) = 0.58. Because the detectors operate independently, P(X and Y) = P(X) × P(Y) = 0.25y. By the addition rule, P(X or Y) = P(X) + P(Y) - P(X and Y), so 0.58 = 0.25 + y - 0.25y. This simplifies to 0.58 = 0.25 + 0.75y, so 0.75y = 0.33 and y = 0.44. Therefore, the probability that detector Y sounds an alarm during a test fire is 0.44.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the result of subtracting P(X) from P(X or Y), which treats the events as mutually exclusive and ignores the possibility that both detectors sound an alarm.",
+    "distractor_b_explanation": "Choice B is incorrect. This is the probability that neither detector sounds an alarm, 1 - 0.58, not the probability that detector Y sounds an alarm.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. This is the probability that detector Y does not sound an alarm, 1 - 0.44. It results from solving 0.42 = 0.75(1 - y) for 1 - y and not subtracting from 1 to find y.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Probability and conditional probability",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "A regional distribution center sends each parcel to customers by exactly one of three delivery routes: Route 1, Route 2, or Route 3. Route 2 carries 10% of all parcels, and Route 1 carries twice as many parcels as Route 3. The probability that a parcel arrives on time is 0.90 on Route 1, 0.70 on Route 2, and 0.80 on Route 3. If one parcel is selected at random from all parcels the center sends, what is the probability that it arrives on time?",
+    "answer_a": "80%",
+    "answer_b": "82%",
+    "answer_c": "85%",
+    "answer_d": "90%",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. Let x represent the proportion of all parcels sent on Route 3. It's given that Route 1 carries twice as many parcels as Route 3, so the proportion sent on Route 1 is 2x. It's also given that Route 2 carries 10%, or 0.10, of all parcels. Because every parcel uses exactly one route, x + 2x + 0.10 = 1, so 3x = 0.90 and x = 0.30. Therefore, Route 3 carries 30% of the parcels and Route 1 carries 60%. By the law of total probability, the probability that a randomly selected parcel arrives on time is (0.60)(0.90) + (0.10)(0.70) + (0.30)(0.80) = 0.54 + 0.07 + 0.24 = 0.85. Therefore, the probability is 85%.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the simple average of the three on-time probabilities, (0.90 + 0.70 + 0.80) / 3 = 0.80, which treats the three routes as if they carried equal numbers of parcels.",
+    "distractor_b_explanation": "Choice B is incorrect. This results from assigning the larger share to the wrong route (30% to Route 1 and 60% to Route 3), which gives (0.30)(0.90) + (0.10)(0.70) + (0.60)(0.80) = 0.82.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. This is the on-time probability for Route 1 alone, the route carrying the largest share of parcels. It ignores the parcels sent on Routes 2 and 3, which are less likely to arrive on time.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Probability and conditional probability",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A theater prop manager has a box of 9 stage lightbulbs, of which 4 are burned out and 5 work. She selects 3 bulbs at random, one after another, without putting any back in the box. What is the probability that exactly 1 of the 3 selected bulbs is burned out?",
+    "answer_a": "10/63",
+    "answer_b": "100/243",
+    "answer_c": "10/21",
+    "answer_d": "37/42",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. It's given that the box has 9 bulbs, 4 burned out and 5 working, and 3 bulbs are selected without replacement. The number of ways to select any 3 of the 9 bulbs is C(9,3) = 84. The number of ways to select exactly 1 burned-out bulb and 2 working bulbs is C(4,1) × C(5,2) = 4 × 10 = 40. So the probability is 40/84, or 10/21. Equivalently, one specific order such as burned out, working, working has probability (4/9)(5/8)(4/7) = 80/504, and there are 3 possible positions for the burned-out bulb, so the probability is 3 × 80/504 = 240/504, or 10/21. Therefore, the probability that exactly 1 of the 3 selected bulbs is burned out is 10/21.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the probability of only one ordering (burned out first, then two working bulbs), (4/9)(5/8)(4/7) = 10/63, and it doesn't account for the burned-out bulb being selected second or third.",
+    "distractor_b_explanation": "Choice B is incorrect. This treats the draws as independent, as if each bulb were put back, giving 3 × (4/9)(5/9)(5/9) = 100/243. The bulbs are not replaced, so the probabilities change after each selection.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. This is the probability that at least 1 of the 3 selected bulbs is burned out, 1 − C(5,3)/C(9,3) = 1 − 10/84 = 37/42, not the probability that exactly 1 is burned out.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Probability and conditional probability",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "At an arcade, a prize machine has two separate fair wheels. Each wheel is divided into 5 equal sections numbered 1, 2, 3, 4, and 5. A player spins both wheels once, and each wheel lands on exactly one section. The machine's display shows that at least one of the two wheels landed on an even number. Given this, what is the probability that the sum of the two numbers is greater than 6?",
+    "answer_a": "2/5",
+    "answer_b": "7/16",
+    "answer_c": "4/9",
+    "answer_d": "7/10",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. Each wheel has 5 outcomes, so there are 5 × 5 = 25 equally likely ordered outcomes. It's given that at least one number is even. The outcomes in which neither number is even are those in which both numbers are odd: 3 × 3 = 9 outcomes. So the number of outcomes with at least one even number is 25 − 9 = 16. Of these 16 outcomes, the ones with a sum greater than 6 are (2, 5), (5, 2), (3, 4), (4, 3), (4, 4), (4, 5), and (5, 4), which is 7 outcomes. Therefore, the probability that the sum is greater than 6, given that at least one number is even, is 7/16.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the probability that the sum is greater than 6 out of all 25 outcomes (10/25 = 2/5), which ignores the given condition that at least one number is even.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This results from counting unordered pairs instead of ordered outcomes: 4 unordered pairs with a sum greater than 6 out of 9 unordered pairs with at least one even number. These unordered pairs are not equally likely, because a pair of different numbers can occur in two ways, but a pair of equal numbers can occur in only one way.",
+    "distractor_d_explanation": "Choice D is incorrect. This reverses the conditional probability. It is the probability that at least one number is even, given that the sum is greater than 6 (7/10), not the probability that the sum is greater than 6, given that at least one number is even.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Probability and conditional probability",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A community college tutoring center recorded each of the 200 tutoring sessions held last term by subject and by how the student arrived: with a scheduled appointment or as a walk-in. The results are shown in the table. One of these sessions will be selected at random from all sessions that were NOT Chemistry sessions. What is the probability that the selected session was a walk-in?",
+    "answer_a": "47/200",
+    "answer_b": "47/140",
+    "answer_c": "2/5",
+    "answer_d": "47/80",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. It's given that the session is selected from all sessions that were not Chemistry sessions, so the sample space is the Math sessions and the Writing sessions. The number of Math sessions is 48 + 32 = 80, and the number of Writing sessions is 45 + 15 = 60, so the number of non-Chemistry sessions is 80 + 60 = 140. Of these, the walk-in sessions are the 32 Math walk-ins and the 15 Writing walk-ins, for a total of 32 + 15 = 47. Therefore, the probability that the selected session was a walk-in, given that it was not a Chemistry session, is 47/140.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the probability that a session selected at random from all 200 sessions was a non-Chemistry walk-in session; it uses the grand total as the denominator instead of the 140 non-Chemistry sessions.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This is the probability that a Math session was a walk-in (32/80), which uses only the Math row as the sample space and ignores the Writing sessions.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the reverse conditional probability: 47/80 is the probability that a walk-in session was not a Chemistry session, since it divides by the 80 total walk-in sessions rather than by the 140 non-Chemistry sessions.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "Subject",
+        "Appointment",
+        "Walk-in",
+        "Total"
+      ],
+      "rows": [
+        [
+          "Math",
+          "48",
+          "32",
+          "80"
+        ],
+        [
+          "Chemistry",
+          "27",
+          "33",
+          "60"
+        ],
+        [
+          "Writing",
+          "45",
+          "15",
+          "60"
+        ],
+        [
+          "Total",
+          "120",
+          "80",
+          "200"
+        ]
+      ]
+    },
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Probability and conditional probability",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A public library system surveyed a random sample of 400 of its cardholders about whether they had borrowed an e-book in the past year. The results, organized by membership type, are shown in the table. The library system has 18,000 cardholders, and 25% of them are Senior members. Based on the survey results, which of the following is closest to the number of Senior members in the library system who are expected to have borrowed an e-book in the past year?",
+    "answer_a": "1,350",
+    "answer_b": "1,575",
+    "answer_c": "1,620",
+    "answer_d": "1,890",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. It's given that 25% of the 18,000 cardholders are Senior members, so the library system has 0.25(18,000) = 4,500 Senior members. Because the sample is random, the proportion of Senior members in the sample who borrowed an e-book is a reasonable estimate of that proportion among all Senior members. According to the table, 120 Senior members were surveyed and 42 of them borrowed an e-book, so the estimated proportion is 42/120 = 0.35. Therefore, the number of Senior members in the library system expected to have borrowed an e-book in the past year is 0.35(4,500) = 1,575.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the result of using the proportion for Adult members, 48/160 = 0.30, instead of the proportion for Senior members.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This is the result of applying the overall sample proportion of e-book borrowers, 144/400 = 0.36, to the 4,500 Senior members instead of using the proportion for Senior members only.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the result of applying the proportion of all surveyed cardholders who were Senior members and borrowed an e-book, 42/400 = 0.105, to all 18,000 cardholders instead of using the proportion among Senior members only.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "Membership type",
+        "Borrowed an e-book",
+        "Did not borrow an e-book",
+        "Total"
+      ],
+      "rows": [
+        [
+          "Youth",
+          "54",
+          "66",
+          "120"
+        ],
+        [
+          "Adult",
+          "48",
+          "112",
+          "160"
+        ],
+        [
+          "Senior",
+          "42",
+          "78",
+          "120"
+        ],
+        [
+          "Total",
+          "144",
+          "256",
+          "400"
+        ]
+      ]
+    },
+    "visual_svg": null
   }
 ]

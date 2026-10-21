@@ -1360,3 +1360,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued.
 **Token usage:** 24 subagent calls, roughly 1.1M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Probability d2 (9/10, needs 1), then Probability d3 (0/10) with Hard shapes (e.g. conditional with two-stage tree, unknown cell solved from stated conditional).
+
+## Run 54 - 2026-10-21
+**Cells worked:** (1) PSDA / Probability d2: needed 1, got 1 Medium (which-statement-is-true comparing conditional probabilities, bike-share table) -> 10/10 done. (2) PSDA / Probability d3: needed 10, generated 10 (one screening-test draft discarded pre-critic as near-duplicate of the banked reverse-conditioning item and replaced with an independence-with-unknown table shape). Calibration: 6 Hard banked d3 (6/10, pending, needs 4); 4 calibrated Medium (exactly-one hypergeometric; two-wheel conditional sample space; NOT-category table; sample-to-population subgroup) banked d2 (d2 now 14/10, overshoot).
+**Pipeline:** 12 generators (11 + 1 replaced pre-critic), 11 critics (all PASS; 0 regenerations, 0 discards after critique), 2 calibrations (sonnet). Optional polish skipped on library e-book item (sample Senior share 30% vs 25% population; stem states 25% explicitly).
+**Banked:** master 527 -> 538 (+11). validate_batch passed both batches. 6 table visuals, rest no visual; no renders needed (matplotlib not installable here but unneeded).
+**Skill updates (Step 5):** none applied; nothing queued. Observation: Probability d3 Hard needs an unknown solved first or reverse conditioning; sample-space counting, hypergeometric and NOT-category table items calibrate Medium. My Q5 mandate duplicated Q1's shape -- check mandates against each other before launching.
+**Token usage:** ~24 subagent calls, roughly 1.2M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Probability d3 (6/10, needs 4) with Hard shapes (unknown-first or reverse conditioning), then Inference from sample statistics d1.

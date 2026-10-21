@@ -542,3 +542,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Campground hikers camera/binoculars overlap, probability of neither.
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Language-learning app 800 users, 60% subscribe, 25% annual plan, expected count (generated d2, calibrated Easy).
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d2] City bike-share member vs day-pass by weekday/weekend table, which conditional-probability comparison statement is true.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d3] County water lab lead screening, 20% prevalence, P(lead | positive) from rates.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Climbing gym monthly/annual by bouldering/top-rope table with unknowns, P(annual | bouldering) after solving from stated 0.4.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Flash card deck, add k still-learning cards, two-draw both mastered 7/75, solve for k.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Public library audiobook borrowing by age table with x, independence, solve for x.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Warehouse smoke detectors X and Y independent, P(X)=0.25, P(either)=0.58, find P(Y).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Distribution center three delivery routes, 'twice as many' share, overall on-time probability.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Theater prop box of 9 bulbs, 3 drawn without replacement, exactly 1 burned out (generated d3, calibrated Medium).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Arcade prize machine two 5-section wheels, at least one even, sum greater than 6 (generated d3, calibrated Medium).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Community college tutoring sessions by subject and arrival table, walk-in given not Chemistry (generated d3, calibrated Medium).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Library e-book borrowing sample by membership type, expected Senior borrowers of 18,000 (generated d3, calibrated Medium).
