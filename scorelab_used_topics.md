@@ -519,3 +519,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Orchard apple harvest vs tree age, line through A and B vs competing model y=4x+30, common harvest.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Water hyacinth reservoir area table, exponential model with x rescaled from 4-month periods to years.
 - [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Night-market lantern stall revenue vs hours, slope after z=y-12x and w=x/4.
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d2] Coral nursery fragment heights, line through A and B, week when predicted height is 40% above week-5 prediction (generated d3, calibrated Medium).
+- [Problem-Solving and Data Analysis/Two-variable data: models and scatterplots, d3] Museum vs science center visitors table, thousands vs single units, week when gap between linear models equals 16,200.
