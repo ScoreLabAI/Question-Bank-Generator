@@ -552,3 +552,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Arcade prize machine two 5-section wheels, at least one even, sum greater than 6 (generated d3, calibrated Medium).
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Community college tutoring sessions by subject and arrival table, walk-in given not Chemistry (generated d3, calibrated Medium).
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Library e-book borrowing sample by membership type, expected Senior borrowers of 18,000 (generated d3, calibrated Medium).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Mountain observatory clear-sky/high-wind nights, P(A or B) and P(A|B) solve P(B), ask P(B|A).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Factory day/night shift widgets, solve night defect rate from overall rate, then P(night | defective).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Tomato seed germination at two greenhouses, table with x solved from pooled 3/5, P(South | germinated).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d3] Town music/video streaming subscriptions, neither 5%, ratio of reversed conditionals, P(music | video).
