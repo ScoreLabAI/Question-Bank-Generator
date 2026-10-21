@@ -531,3 +531,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Community library donation bin, paperback to hardcover ratio 3:5, probability of hardcover.
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Riverside Station commuters train/bus by morning/evening table, percent of train riders entering evening (generated d1, calibrated Medium).
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Garden nursery plants sold by type table, probability herb or succulent.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Apartment complex survey, 35% own a bicycle, probability of not owning.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Trail race bib numbers 1-20, probability of a multiple of 4.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Community clinic flu vaccine by age table, joint probability 40 or older and vaccinated.
