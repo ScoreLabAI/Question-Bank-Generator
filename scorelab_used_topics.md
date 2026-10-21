@@ -562,3 +562,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Cedar Ridge State Park sample of 250 of 8,000 visitors by main activity table, biking estimate.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] National park trail shuttle poll 62% support, margin of error 2 points, statement about all visitors.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Greenhouse 2,400 tomato plants, sample mean 15 per plant, estimated total.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Lake fish sample of 50, sample median length 18 cm, estimate population median.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] City bus commuters 41% would ride express route, margin of error 3 points, plausible value.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Rechargeable batteries mean 11.4 hours, margin of error 0.5, width of interval.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Coffee shop 45 of 120 customers prefer maple latte, estimated percent of all customers.
