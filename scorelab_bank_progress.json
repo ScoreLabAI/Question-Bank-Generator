@@ -366,8 +366,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "done",
-      "accepted_count": 10,
-      "note": "Run 52: 7 banked d1 (bag complement; table row total; spinner frequency table; expected count; raffle k/N; ratio 3:5 to part-whole; one-way table 'or' of two categories). Conditional-on-row/column table items (incl. percent form) calibrate Medium, not Easy. Needs 3 more: avoid conditional-on-subgroup shapes; use direct single-read shapes (e.g. complement from table, relative frequency, simple expected value, probability from stated percent)."
+      "accepted_count": 11,
+      "note": "Run 52: 7 banked d1 (bag complement; table row total; spinner frequency table; expected count; raffle k/N; ratio 3:5 to part-whole; one-way table 'or' of two categories). Conditional-on-row/column table items (incl. percent form) calibrate Medium, not Easy. Needs 3 more: avoid conditional-on-subgroup shapes; use direct single-read shapes (e.g. complement from table, relative frequency, simple expected value, probability from stated percent). Run 53: +3 banked d1 (percent complement; multiples of 4 among bibs 1-20; joint cell over grand total), cell 10/10; +1 relabeled from d2 (800 users x 60% x 25% percent chain calibrated Easy) -> 11/10."
     },
     {
       "domain": "math",
@@ -376,8 +376,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 3,
-      "note": "Run 52: +3 banked d2 via relabel (conditional on row 'beginners evening' 12/30; conditional on column piano morning 24/40; percent of train riders entering evening 54/120). Cell 3/10."
+      "accepted_count": 9,
+      "note": "Run 52: +3 banked d2 via relabel (conditional on row 'beginners evening' 12/30; conditional on column piano morning 24/40; percent of train riders entering evening 54/120). Cell 3/10. Run 53: +6 banked d2 (two draws w/o replacement same flavor; column-conditional 3x3 table 22/40; hikers neither via inclusion-exclusion; at least one of 3 independent casts; relative-frequency table P(premium|TV); scaled SUV prediction from row proportion). Cell 9/10. Tried and Medium: multi-step/denominator-selection shapes; avoid more column-conditional count tables (saturated)."
     },
     {
       "domain": "math",

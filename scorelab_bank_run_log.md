@@ -1352,3 +1352,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: "denominator-selection" conditional table items calibrate Medium for Probability, so d1 cells should mandate direct single-read shapes; weak ">1 probability" distractors should be avoided.
 **Token usage:** ~28 subagent calls, roughly 1.4M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Probability d1 (7/10, needs 3), then Probability d2 (3/10).
+
+## Run 53 - 2026-10-21
+**Cells worked:** (1) PSDA / Probability d1: needed 3, got 3 Easy (percent complement; multiples of 4 among bib numbers; joint cell over grand total) -> 10/10 done. (2) PSDA / Probability d2: needed 7, generated 7 (replacement-free draws; column-conditional table; percent chain; inclusion-exclusion neither; at least one of 3 independent casts; relative-frequency conditional; scaled row-proportion prediction). Calibration: percent-chain item calibrated Easy -> banked d1 (d1 now 11/10); 6 banked d2 -> d2 9/10 pending (needs 1).
+**Pipeline:** 11 generators (one column-conditional draft discarded pre-critic as near-duplicate of banked piano/science-fair shape, replaced with a relative-frequency shape), 10 critics (all PASS; advisory fixes: d1 bicycle distractor D 1.35 -> 0.70 with doubling error path; hikers B explanation reworded), 2 batched calibrations (sonnet). 0 regenerations, 0 discards after critique.
+**Banked:** master 517 -> 527 (+10). validate_batch passed both batches. 7 table visuals, no renders needed.
+**Skill updates (Step 5):** none applied; nothing queued.
+**Token usage:** 24 subagent calls, roughly 1.1M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Probability d2 (9/10, needs 1), then Probability d3 (0/10) with Hard shapes (e.g. conditional with two-stage tree, unknown cell solved from stated conditional).

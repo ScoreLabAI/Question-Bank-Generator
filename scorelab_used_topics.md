@@ -534,3 +534,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Apartment complex survey, 35% own a bicycle, probability of not owning.
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Trail race bib numbers 1-20, probability of a multiple of 4.
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Community clinic flu vaccine by age table, joint probability 40 or older and vaccinated.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] School picnic cooler, 6 lemonade 4 orange, two without replacement same flavor.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Regional science fair projects by grade and category table, 10th grade given Robotics.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Streaming service device vs plan relative-frequency table, premium given TV.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Fishing trip, three independent casts at 0.2, at least one catch.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] EV charging station sedan/SUV by charger type table, expected 500 SUV drivers on fast charger.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Campground hikers camera/binoculars overlap, probability of neither.
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Language-learning app 800 users, 60% subscribe, 25% annual plan, expected count (generated d2, calibrated Easy).
