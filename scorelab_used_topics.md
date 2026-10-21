@@ -541,3 +541,4 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d2] EV charging station sedan/SUV by charger type table, expected 500 SUV drivers on fast charger.
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d2] Campground hikers camera/binoculars overlap, probability of neither.
 - [Problem-Solving and Data Analysis/Probability and conditional probability, d1] Language-learning app 800 users, 60% subscribe, 25% annual plan, expected count (generated d2, calibrated Easy).
+- [Problem-Solving and Data Analysis/Probability and conditional probability, d2] City bike-share member vs day-pass by weekday/weekend table, which conditional-probability comparison statement is true.
