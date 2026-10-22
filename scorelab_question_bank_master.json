@@ -18120,5 +18120,349 @@
       ]
     },
     "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Evaluating statistical claims",
+    "difficulty": 1,
+    "module_type": "standard",
+    "question_text": "A researcher wanted to know how students at Harbor View High School get to school. The researcher randomly selected 120 students from a list of all the students enrolled at Harbor View High School and asked each one how he or she usually gets to school. Of the students surveyed, 45% said they usually take the bus. Which of the following is the largest population to which the results of the survey can be reasonably generalized?",
+    "answer_a": "All students enrolled at Harbor View High School",
+    "answer_b": "The students at Harbor View High School who ride the bus",
+    "answer_c": "The 120 students who were surveyed",
+    "answer_d": "All high school students in the state",
+    "correct_answer": "A",
+    "explanation": "Choice A is correct. It's given that the researcher randomly selected the 120 students from a list of all students enrolled at Harbor View High School. Because the sample was selected at random from this population, the results of the survey can reasonably be generalized to all students enrolled at Harbor View High School. Therefore, all students enrolled at Harbor View High School is the largest population to which the results can be reasonably generalized.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect. This is a subgroup of the population, not the whole population. The sample was randomly selected from all students at the school, not only from those who ride the bus, so the results apply to all students at the school.",
+    "distractor_c_explanation": "Choice C is incorrect. The results certainly describe the 120 students who were surveyed, but because the sample was selected at random from all students at the school, the results can be generalized to a larger group than just the sample.",
+    "distractor_d_explanation": "Choice D is incorrect. The sample was selected only from students enrolled at Harbor View High School, not from all high school students in the state, so the results can't be reasonably generalized to that larger population.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Evaluating statistical claims",
+    "difficulty": 1,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null,
+    "question_text": "A researcher wanted to estimate the percent of all adult residents of a city who own a pet. She surveyed 200 adults as they left a pet-supply store in the city. Of those surveyed, 85% said they own a pet. The researcher concluded that about 85% of all adult residents of the city own a pet. Which of the following best explains why the researcher's conclusion is not well supported?",
+    "answer_a": "The sample of 200 adults is too large to give a reliable estimate.",
+    "answer_b": "The result should have been reported as a number of pets rather than as a percent of adults.",
+    "answer_c": "The survey should have included children as well as adults.",
+    "answer_d": "The adults surveyed were all at a pet-supply store, so they are not representative of all adult residents of the city.",
+    "correct_answer": "D",
+    "explanation": "Choice D is correct. It's given that the researcher surveyed only adults who were leaving a pet-supply store and then drew a conclusion about all adult residents of the city. People who shop at a pet-supply store are more likely to own a pet than adult residents of the city in general, so the sample was not selected in a way that represents the population. Therefore, the conclusion about all adult residents is not well supported.",
+    "distractor_a_explanation": "Choice A is incorrect. A larger sample generally makes an estimate more reliable, not less, so 200 adults being \"too large\" is not a flaw. The problem is how the sample was selected, not its size.",
+    "distractor_b_explanation": "Choice B is incorrect. The researcher wanted to estimate the percent of adults who own a pet, so reporting a percent of adults is the appropriate unit. Reporting a number of pets would not answer the question being studied.",
+    "distractor_c_explanation": "Choice C is incorrect. The researcher's stated population is all adult residents of the city, so children are not part of the population and including them would not address the sampling problem.",
+    "distractor_d_explanation": ""
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Evaluating statistical claims",
+    "difficulty": 1,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "Trail",
+        "Saturday",
+        "Sunday"
+      ],
+      "rows": [
+        [
+          "Cedar Loop",
+          "84",
+          "61"
+        ],
+        [
+          "Falcon Ridge",
+          "47",
+          "52"
+        ],
+        [
+          "Mill Creek",
+          "73",
+          "69"
+        ],
+        [
+          "Heron Point",
+          "38",
+          "55"
+        ]
+      ]
+    },
+    "visual_svg": null,
+    "question_text": "A park ranger counted the hikers on each of four trails on a Saturday and on the following Sunday. The results are shown in the table. Which of the following statements about the data is supported by the table?",
+    "answer_a": "Cedar Loop had fewer hikers than Mill Creek on Saturday.",
+    "answer_b": "Heron Point had more hikers on Sunday than on Saturday.",
+    "answer_c": "Every trail had more hikers on Saturday than on Sunday.",
+    "answer_d": "Falcon Ridge had the fewest hikers of the four trails on Saturday.",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. The table shows that Heron Point had 38 hikers on Saturday and 55 hikers on Sunday. Since 55 is greater than 38, Heron Point had more hikers on Sunday than on Saturday. This statement is supported by the table.",
+    "distractor_a_explanation": "Choice A is incorrect. This choice reverses the comparison of the two values. The table shows 84 hikers on Cedar Loop and 73 hikers on Mill Creek on Saturday. Since 84 is greater than 73, Cedar Loop had more, not fewer, hikers than Mill Creek on Saturday.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This choice generalizes from some of the rows to all of them. Cedar Loop (84 to 61) and Mill Creek (73 to 69) did have more hikers on Saturday, but Falcon Ridge had 47 hikers on Saturday and 52 on Sunday, and Heron Point had 38 on Saturday and 55 on Sunday. Because two trails had more hikers on Sunday, the statement is not true for every trail.",
+    "distractor_d_explanation": "Choice D is incorrect. This choice results from picking the wrong row for the smallest value in the Saturday column. Falcon Ridge had 47 hikers on Saturday, but Heron Point had only 38 hikers on Saturday, which is fewer. Falcon Ridge had the fewest hikers on Sunday (52), not on Saturday."
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Evaluating statistical claims",
+    "difficulty": 1,
+    "module_type": "standard",
+    "question_text": "A bakery owner wanted to know what percent of the bakery's customers prefer whole-grain bread. In one week, the owner asked 40 randomly selected customers and found that 55% preferred whole-grain bread. In a later week, a different owner at another location of the same bakery asked 400 randomly selected customers and found that 54% preferred whole-grain bread. Which of the following statements is best supported by this information?",
+    "answer_a": "The result from the sample of 400 customers is generally more reliable than the result from the sample of 40 customers because it is based on a larger random sample.",
+    "answer_b": "The result from the sample of 40 customers is generally more reliable than the result from the sample of 400 customers because a smaller sample is easier to keep track of accurately.",
+    "answer_c": "The sizes of the two random samples do not affect how reliable the results are, so the two results are equally reliable.",
+    "answer_d": "Because both samples were selected at random, the two results must be exactly the same, so the 1 percentage point difference shows that one survey was done incorrectly.",
+    "correct_answer": "A",
+    "explanation": "Choice A is correct. When a sample is selected at random, the percent found in the sample is an estimate of the percent for all customers. A larger random sample generally gives an estimate with a smaller margin of error, so it is generally a more reliable estimate. The sample of 400 customers is larger than the sample of 40 customers, so its result is generally more reliable.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect. Sample size is not chosen for ease of tracking responses; a smaller random sample generally has a larger margin of error, which makes its estimate less reliable, not more.",
+    "distractor_c_explanation": "Choice C is incorrect. Sample size does affect reliability: the larger the random sample, the smaller the margin of error generally is, so the two results are not equally reliable.",
+    "distractor_d_explanation": "Choice D is incorrect. Different random samples are expected to give results that vary somewhat from sample to sample, so the two results need not be identical, and a 1 percentage point difference does not show that a survey was done incorrectly.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Evaluating statistical claims",
+    "difficulty": 1,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "graph",
+    "visual_data": {
+      "chart_type": "scatter",
+      "x_label": "Hours practiced",
+      "y_label": "Number of errors",
+      "x_range": [
+        0,
+        10
+      ],
+      "y_range": [
+        0,
+        15
+      ],
+      "x_tick_step": 1,
+      "y_tick_step": 1,
+      "points": [
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          9,
+          2
+        ]
+      ]
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-22T14:55:07.231485</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 44.426172 242.000781 \nL 344.011719 242.000781 \nL 344.011719 15.64375 \nL 44.426172 15.64375 \nz\n\" style=\"fill: #ffffff\"/>\n   </g>\n   <g id=\"matplotlib.axis_1\">\n    <g id=\"xtick_1\">\n     <g id=\"line2d_1\">\n      <path d=\"M 44.426172 242.000781 \nL 44.426172 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_2\">\n      <defs>\n       <path id=\"m17327b859b\" d=\"M 0 0 \nL 0 3.5 \n\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </defs>\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"44.426172\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_1\">\n      <!-- 0 -->\n      <g transform=\"translate(41.271484 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-53f\" d=\"M 2019 -63 \nC 3059 -63 3656 809 3656 2325 \nC 3656 3834 3050 4719 2019 4719 \nC 988 4719 381 3834 381 2325 \nC 381 806 981 -63 2019 -63 \nz\nM 2019 456 \nC 1338 456 953 1144 953 2325 \nC 953 3509 1338 4203 2019 4203 \nC 2700 4203 3084 3513 3084 2325 \nC 3084 1144 2700 456 2019 456 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-53f\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_2\">\n     <g id=\"line2d_3\">\n      <path d=\"M 74.384727 242.000781 \nL 74.384727 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_4\">\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"74.384727\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_2\">\n      <!-- 1 -->\n      <g transform=\"translate(72.351133 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-540\" d=\"M 2041 4656 \nL 1313 4656 \nL 300 3909 \nL 300 3272 \nL 1425 4106 \nL 1456 4106 \nL 1456 0 \nL 2041 0 \nL 2041 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-540\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_3\">\n     <g id=\"line2d_5\">\n      <path d=\"M 104.343281 242.000781 \nL 104.343281 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_6\">\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"104.343281\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_3\">\n      <!-- 2 -->\n      <g transform=\"translate(101.294062 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-541\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_4\">\n     <g id=\"line2d_7\">\n      <path d=\"M 134.301836 242.000781 \nL 134.301836 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_8\">\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"134.301836\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_4\">\n      <!-- 3 -->\n      <g transform=\"translate(131.213555 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-543\" d=\"M 1984 -63 \nC 2897 -63 3572 503 3572 1266 \nC 3572 1853 3225 2284 2631 2381 \nL 2631 2419 \nC 3106 2559 3403 2944 3403 3469 \nC 3403 4131 2872 4719 2003 4719 \nC 1184 4719 516 4216 491 3484 \nL 1063 3484 \nC 1081 3938 1516 4203 1991 4203 \nC 2497 4203 2822 3900 2822 3438 \nC 2822 2956 2447 2644 1903 2644 \nL 1525 2644 \nL 1525 2128 \nL 1903 2128 \nC 2594 2128 2984 1775 2984 1272 \nC 2984 788 2559 459 1975 459 \nC 1444 459 1025 731 991 1175 \nL 391 1175 \nC 422 438 1072 -63 1984 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-543\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_5\">\n     <g id=\"line2d_9\">\n      <path d=\"M 164.260391 242.000781 \nL 164.260391 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_10\">\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"164.260391\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_5\">\n      <!-- 4 -->\n      <g transform=\"translate(161.030703 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-544\" d=\"M 375 947 \nL 2566 947 \nL 2566 0 \nL 3134 0 \nL 3134 947 \nL 3766 947 \nL 3766 1469 \nL 3134 1469 \nL 3134 4656 \nL 2413 4656 \nL 375 1431 \nL 375 947 \nz\nM 2569 1469 \nL 1009 1469 \nL 1009 1506 \nL 2531 3913 \nL 2569 3913 \nL 2569 1469 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-544\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_6\">\n     <g id=\"line2d_11\">\n      <path d=\"M 194.218945 242.000781 \nL 194.218945 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_12\">\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"194.218945\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_6\">\n      <!-- 5 -->\n      <g transform=\"translate(191.179102 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-545\" d=\"M 1956 -63 \nC 2853 -63 3509 594 3509 1488 \nC 3509 2388 2881 3047 2028 3047 \nC 1706 3047 1397 2934 1206 2775 \nL 1181 2775 \nL 1341 4134 \nL 3291 4134 \nL 3291 4656 \nL 841 4656 \nL 566 2350 \nL 1122 2281 \nC 1306 2422 1631 2525 1919 2525 \nC 2503 2525 2928 2078 2928 1478 \nC 2928 888 2519 459 1956 459 \nC 1488 459 1106 759 1069 1175 \nL 494 1175 \nC 525 463 1138 -63 1956 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-545\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_7\">\n     <g id=\"line2d_13\">\n      <path d=\"M 224.1775 242.000781 \nL 224.1775 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_14\">\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"224.1775\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_7\">\n      <!-- 6 -->\n      <g transform=\"translate(221.076719 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-547\" d=\"M 2019 -63 \nC 2969 -63 3588 634 3588 1503 \nC 3588 2403 2925 3044 2128 3044 \nC 1644 3044 1231 2813 981 2425 \nL 944 2425 \nC 944 3544 1375 4194 2091 4194 \nC 2575 4194 2866 3888 2969 3484 \nL 3550 3484 \nC 3438 4216 2872 4719 2091 4719 \nC 1034 4719 381 3788 381 2150 \nC 381 434 1241 -63 2019 -63 \nz\nM 2019 459 \nC 1447 459 1028 947 1028 1497 \nC 1028 2041 1469 2528 2034 2528 \nC 2597 2528 3013 2072 3013 1503 \nC 3013 922 2578 459 2019 459 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-547\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_8\">\n     <g id=\"line2d_15\">\n      <path d=\"M 254.136055 242.000781 \nL 254.136055 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_16\">\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"254.136055\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_8\">\n      <!-- 7 -->\n      <g transform=\"translate(251.306367 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-548\" d=\"M 625 0 \nL 1250 0 \nL 3316 4103 \nL 3316 4656 \nL 306 4656 \nL 306 4134 \nL 2694 4134 \nL 2694 4097 \nL 625 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-548\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_9\">\n     <g id=\"line2d_17\">\n      <path d=\"M 284.094609 242.000781 \nL 284.094609 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_18\">\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"284.094609\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_9\">\n      <!-- 8 -->\n      <g transform=\"translate(281.001641 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-549\" d=\"M 1978 -63 \nC 2916 -63 3578 478 3578 1238 \nC 3578 1825 3175 2325 2669 2419 \nL 2669 2444 \nC 3109 2559 3403 2988 3403 3481 \nC 3403 4191 2794 4719 1978 4719 \nC 1150 4719 550 4191 550 3481 \nC 550 2988 838 2559 1291 2444 \nL 1291 2419 \nC 769 2325 381 1825 381 1238 \nC 381 478 1031 -63 1978 -63 \nz\nM 1978 453 \nC 1350 453 966 775 966 1269 \nC 966 1784 1391 2153 1978 2153 \nC 2553 2153 2984 1784 2984 1269 \nC 2984 775 2594 453 1978 453 \nz\nM 1978 2650 \nC 1475 2650 1125 2966 1125 3438 \nC 1125 3903 1463 4206 1978 4206 \nC 2484 4206 2828 3903 2828 3438 \nC 2828 2966 2469 2650 1978 2650 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-549\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_10\">\n     <g id=\"line2d_19\">\n      <path d=\"M 314.053164 242.000781 \nL 314.053164 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_20\">\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"314.053164\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_10\">\n      <!-- 9 -->\n      <g transform=\"translate(310.952383 258.688281) scale(0.1 -0.1)\">\n       <defs>\n        <path id=\"Inter-Regular-54a\" d=\"M 1884 -63 \nC 2938 -63 3588 866 3588 2513 \nC 3588 4225 2728 4706 1963 4719 \nC 1006 4734 381 4025 381 3156 \nC 381 2259 1044 1616 1847 1616 \nC 2334 1616 2744 1856 2994 2238 \nL 3031 2238 \nC 3031 1109 2594 463 1884 463 \nC 1394 463 1103 772 1006 1184 \nL 419 1184 \nC 528 441 1094 -63 1884 -63 \nz\nM 1934 2134 \nC 1372 2134 963 2588 963 3159 \nC 963 3734 1391 4197 1953 4197 \nC 2525 4197 2947 3706 2947 3172 \nC 2947 2625 2500 2134 1934 2134 \nz\n\" transform=\"scale(0.015625)\"/>\n       </defs>\n       <use xlink:href=\"#Inter-Regular-54a\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"xtick_11\">\n     <g id=\"line2d_21\">\n      <path d=\"M 344.011719 242.000781 \nL 344.011719 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_22\">\n      <g>\n       <use xlink:href=\"#m17327b859b\" x=\"344.011719\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_11\">\n      <!-- 10 -->\n      <g transform=\"translate(338.823438 258.688281) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"text_12\">\n     <!-- Hours practiced -->\n     <g transform=\"translate(156.333789 274.787891) scale(0.1 -0.1)\">\n      <defs>\n       <path id=\"Inter-Regular-a1\" d=\"M 563 0 \nL 1156 0 \nL 1156 2119 \nL 3600 2119 \nL 3600 0 \nL 4194 0 \nL 4194 4656 \nL 3600 4656 \nL 3600 2644 \nL 1156 2644 \nL 1156 4656 \nL 563 4656 \nL 563 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-318\" d=\"M 1916 -75 \nC 2869 -75 3513 647 3513 1725 \nC 3513 2819 2869 3538 1916 3538 \nC 966 3538 325 2819 325 1725 \nC 325 647 966 -75 1916 -75 \nz\nM 1916 428 \nC 1219 428 897 1038 897 1725 \nC 897 2422 1219 3034 1916 3034 \nC 2622 3034 2944 2419 2944 1725 \nC 2944 1038 2622 428 1916 428 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-395\" d=\"M 1678 -44 \nC 2138 -44 2519 144 2747 653 \nL 2747 0 \nL 3291 0 \nL 3291 3494 \nL 2725 3494 \nL 2725 1400 \nC 2725 803 2347 463 1847 463 \nC 1359 463 1056 784 1056 1322 \nL 1056 3494 \nL 494 3494 \nL 494 1275 \nC 494 391 972 -44 1678 -44 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-356\" d=\"M 494 0 \nL 1056 0 \nL 1056 2188 \nC 1056 2659 1425 3000 1928 3000 \nC 2078 3000 2231 2975 2266 2969 \nL 2266 3534 \nC 2200 3538 2063 3544 1981 3544 \nC 1566 3544 1203 3309 1075 2956 \nL 1038 2956 \nL 1038 3494 \nL 494 3494 \nL 494 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-369\" d=\"M 1681 -75 \nC 2500 -75 3059 372 3059 984 \nC 3059 1463 2763 1778 2128 1928 \nL 1600 2053 \nC 1191 2150 1013 2294 1013 2553 \nC 1013 2844 1325 3059 1741 3059 \nC 2191 3059 2388 2816 2484 2566 \nL 2994 2697 \nC 2834 3188 2456 3538 1738 3538 \nC 994 3538 444 3119 444 2519 \nC 444 2028 747 1716 1381 1566 \nL 1963 1428 \nC 2306 1347 2475 1188 2475 947 \nC 2475 659 2163 419 1675 419 \nC 1256 419 972 591 872 975 \nL 338 847 \nC 463 244 963 -75 1681 -75 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-6eb\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-34d\" d=\"M 494 -1306 \nL 1056 -1306 \nL 1056 541 \nL 1100 541 \nC 1216 347 1450 -75 2116 -75 \nC 2988 -75 3594 625 3594 1738 \nC 3594 2844 2984 3538 2113 3538 \nC 1431 3538 1216 3119 1100 2934 \nL 1038 2934 \nL 1038 3494 \nL 494 3494 \nL 494 -1306 \nz\nM 2031 428 \nC 1397 428 1050 966 1050 1744 \nC 1050 2516 1388 3034 2031 3034 \nC 2694 3034 3022 2469 3022 1744 \nC 3022 1009 2684 428 2031 428 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-1fc\" d=\"M 1472 -81 \nC 2063 -81 2391 228 2509 475 \nL 2547 475 \nL 2547 0 \nL 3100 0 \nL 3100 2303 \nC 3100 3394 2259 3538 1791 3538 \nC 1250 3538 650 3344 381 2709 \nL 922 2531 \nC 1031 2775 1303 3044 1806 3044 \nC 2291 3044 2538 2794 2538 2359 \nL 2538 2341 \nC 2538 2081 2263 2100 1641 2022 \nC 994 1941 281 1794 281 994 \nC 281 306 809 -81 1472 -81 \nz\nM 1569 416 \nC 1150 416 847 603 847 966 \nC 847 1363 1206 1494 1616 1547 \nC 1831 1575 2444 1638 2538 1747 \nL 2538 1263 \nC 2538 834 2191 416 1569 416 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-24b\" d=\"M 1916 -75 \nC 2600 -75 3156 297 3344 919 \nL 2806 1072 \nC 2703 694 2384 428 1916 428 \nC 1219 428 897 1038 897 1725 \nC 897 2422 1219 3034 1916 3034 \nC 2375 3034 2688 2778 2791 2419 \nL 3331 2572 \nC 3141 3181 2591 3538 1916 3538 \nC 966 3538 325 2819 325 1725 \nC 325 647 966 -75 1916 -75 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-37b\" d=\"M 1869 3494 \nL 1150 3494 \nL 1150 4325 \nL 588 4325 \nL 588 3494 \nL 63 3494 \nL 63 3013 \nL 588 3013 \nL 588 863 \nC 588 291 944 -44 1547 -44 \nC 1691 -44 1850 -22 1966 19 \nL 1850 494 \nC 1756 475 1634 456 1563 456 \nC 1266 456 1150 594 1150 906 \nL 1150 3013 \nL 1869 3013 \nL 1869 3494 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-2b2\" d=\"M 494 0 \nL 1056 0 \nL 1056 3494 \nL 494 3494 \nL 494 0 \nz\nM 778 4066 \nC 994 4066 1172 4231 1172 4438 \nC 1172 4644 994 4809 778 4809 \nC 566 4809 388 4644 388 4438 \nC 388 4231 566 4066 778 4066 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-267\" d=\"M 1963 -75 \nC 2678 -75 3200 284 3363 813 \nL 2819 963 \nC 2688 606 2378 425 1966 425 \nC 1347 425 922 825 894 1556 \nL 3419 1556 \nL 3419 1791 \nC 3419 3081 2638 3538 1897 3538 \nC 944 3538 325 2791 325 1719 \nC 325 644 950 -75 1963 -75 \nz\nM 897 2031 \nC 931 2566 1297 3038 1897 3038 \nC 2472 3038 2794 2625 2847 2031 \nL 897 2031 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-256\" d=\"M 1803 -75 \nC 2469 -75 2703 347 2819 541 \nL 2881 541 \nL 2881 0 \nL 3425 0 \nL 3425 4656 \nL 2863 4656 \nL 2863 2934 \nL 2819 2934 \nC 2703 3119 2488 3538 1806 3538 \nC 934 3538 325 2844 325 1738 \nC 325 625 931 -75 1803 -75 \nz\nM 1888 428 \nC 1234 428 897 1009 897 1744 \nC 897 2469 1225 3034 1888 3034 \nC 2531 3034 2869 2516 2869 1744 \nC 2869 966 2522 428 1888 428 \nz\n\" transform=\"scale(0.015625)\"/>\n      </defs>\n      <use xlink:href=\"#Inter-Regular-a1\"/>\n      <use xlink:href=\"#Inter-Regular-318\" transform=\"translate(74.3125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-395\" transform=\"translate(134.28125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(193.40625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-369\" transform=\"translate(231.046875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(283.828125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-34d\" transform=\"translate(311.953125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(373.1875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-1fc\" transform=\"translate(410.828125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-24b\" transform=\"translate(466.984375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(524.109375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-2b2\" transform=\"translate(556.828125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-24b\" transform=\"translate(581.046875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(638.171875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-256\" transform=\"translate(696.46875 0)\"/>\n     </g>\n    </g>\n   </g>\n   <g id=\"matplotlib.axis_2\">\n    <g id=\"ytick_1\">\n     <g id=\"line2d_23\">\n      <path d=\"M 44.426172 242.000781 \nL 344.011719 242.000781 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_24\">\n      <defs>\n       <path id=\"m2c2b3aae2f\" d=\"M 0 0 \nL -3.5 0 \n\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </defs>\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"242.000781\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_13\">\n      <!-- 0 -->\n      <g transform=\"translate(31.116797 246.844531) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-53f\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_2\">\n     <g id=\"line2d_25\">\n      <path d=\"M 44.426172 226.910312 \nL 344.011719 226.910312 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_26\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"226.910312\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_14\">\n      <!-- 1 -->\n      <g transform=\"translate(33.358984 231.754062) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_3\">\n     <g id=\"line2d_27\">\n      <path d=\"M 44.426172 211.819844 \nL 344.011719 211.819844 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_28\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"211.819844\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_15\">\n      <!-- 2 -->\n      <g transform=\"translate(31.327734 216.663594) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-541\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_4\">\n     <g id=\"line2d_29\">\n      <path d=\"M 44.426172 196.729375 \nL 344.011719 196.729375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_30\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"196.729375\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_16\">\n      <!-- 3 -->\n      <g transform=\"translate(31.249609 201.573125) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-543\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_5\">\n     <g id=\"line2d_31\">\n      <path d=\"M 44.426172 181.638906 \nL 344.011719 181.638906 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_32\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"181.638906\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_17\">\n      <!-- 4 -->\n      <g transform=\"translate(30.966797 186.482656) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-544\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_6\">\n     <g id=\"line2d_33\">\n      <path d=\"M 44.426172 166.548437 \nL 344.011719 166.548437 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_34\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"166.548437\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_18\">\n      <!-- 5 -->\n      <g transform=\"translate(31.346484 171.392187) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-545\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_7\">\n     <g id=\"line2d_35\">\n      <path d=\"M 44.426172 151.457969 \nL 344.011719 151.457969 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_36\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"151.457969\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_19\">\n      <!-- 6 -->\n      <g transform=\"translate(31.224609 156.301719) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-547\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_8\">\n     <g id=\"line2d_37\">\n      <path d=\"M 44.426172 136.3675 \nL 344.011719 136.3675 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_38\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"136.3675\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_20\">\n      <!-- 7 -->\n      <g transform=\"translate(31.766797 141.21125) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-548\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_9\">\n     <g id=\"line2d_39\">\n      <path d=\"M 44.426172 121.277031 \nL 344.011719 121.277031 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_40\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"121.277031\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_21\">\n      <!-- 8 -->\n      <g transform=\"translate(31.240234 126.120781) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-549\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_10\">\n     <g id=\"line2d_41\">\n      <path d=\"M 44.426172 106.186562 \nL 344.011719 106.186562 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_42\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"106.186562\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_22\">\n      <!-- 9 -->\n      <g transform=\"translate(31.224609 111.030312) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-54a\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_11\">\n     <g id=\"line2d_43\">\n      <path d=\"M 44.426172 91.096094 \nL 344.011719 91.096094 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_44\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"91.096094\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_23\">\n      <!-- 10 -->\n      <g transform=\"translate(27.049609 95.939844) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_12\">\n     <g id=\"line2d_45\">\n      <path d=\"M 44.426172 76.005625 \nL 344.011719 76.005625 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_46\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"76.005625\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_24\">\n      <!-- 11 -->\n      <g transform=\"translate(29.291797 80.849375) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-540\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_13\">\n     <g id=\"line2d_47\">\n      <path d=\"M 44.426172 60.915156 \nL 344.011719 60.915156 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_48\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"60.915156\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_25\">\n      <!-- 12 -->\n      <g transform=\"translate(27.260547 65.758906) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-541\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_14\">\n     <g id=\"line2d_49\">\n      <path d=\"M 44.426172 45.824687 \nL 344.011719 45.824687 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_50\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"45.824687\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_26\">\n      <!-- 13 -->\n      <g transform=\"translate(27.182422 50.668437) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-543\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_15\">\n     <g id=\"line2d_51\">\n      <path d=\"M 44.426172 30.734219 \nL 344.011719 30.734219 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_52\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"30.734219\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_27\">\n      <!-- 14 -->\n      <g transform=\"translate(26.899609 35.577969) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-544\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"ytick_16\">\n     <g id=\"line2d_53\">\n      <path d=\"M 44.426172 15.64375 \nL 344.011719 15.64375 \n\" clip-path=\"url(#pefe6debc12)\" style=\"fill: none; stroke: #b0b0b0; stroke-opacity: 0.6; stroke-width: 0.4; stroke-linecap: square\"/>\n     </g>\n     <g id=\"line2d_54\">\n      <g>\n       <use xlink:href=\"#m2c2b3aae2f\" x=\"44.426172\" y=\"15.64375\" style=\"stroke: #000000; stroke-width: 0.8\"/>\n      </g>\n     </g>\n     <g id=\"text_28\">\n      <!-- 15 -->\n      <g transform=\"translate(27.279297 20.4875) scale(0.1 -0.1)\">\n       <use xlink:href=\"#Inter-Regular-540\"/>\n       <use xlink:href=\"#Inter-Regular-545\" transform=\"translate(40.671875 0)\"/>\n      </g>\n     </g>\n    </g>\n    <g id=\"text_29\">\n     <!-- Number of errors -->\n     <g transform=\"translate(20.4875 169.639453) rotate(-90) scale(0.1 -0.1)\">\n      <defs>\n       <path id=\"Inter-Regular-12d\" d=\"M 563 0 \nL 1159 0 \nL 1159 2656 \nC 1159 2881 1138 3347 1113 3944 \nC 1475 3297 1653 2984 1866 2650 \nL 3553 0 \nL 4259 0 \nL 4259 4656 \nL 3666 4656 \nL 3666 1800 \nC 3666 1550 3669 1153 3706 703 \nC 3494 1125 3281 1481 3156 1678 \nL 1263 4656 \nL 563 4656 \nL 563 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-300\" d=\"M 494 0 \nL 1056 0 \nL 1056 2200 \nC 1056 2756 1428 3044 1838 3044 \nC 2231 3044 2522 2784 2522 2397 \nL 2522 0 \nL 3084 0 \nL 3084 2281 \nC 3084 2722 3372 3044 3844 3044 \nC 4219 3044 4547 2844 4547 2341 \nL 4547 0 \nL 5113 0 \nL 5113 2356 \nC 5113 3166 4619 3556 4013 3556 \nC 3506 3556 3078 3284 2913 2844 \nC 2788 3275 2481 3556 2022 3556 \nC 1609 3556 1216 3325 1044 2853 \nL 1041 3494 \nL 494 3494 \nL 494 0 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-243\" d=\"M 2116 -75 \nC 2988 -75 3594 625 3594 1738 \nC 3594 2844 2984 3538 2113 3538 \nC 1431 3538 1216 3119 1100 2934 \nL 1056 2934 \nL 1056 4656 \nL 494 4656 \nL 494 0 \nL 1038 0 \nL 1038 541 \nL 1100 541 \nC 1216 347 1450 -75 2116 -75 \nz\nM 2031 428 \nC 1397 428 1050 966 1050 1744 \nC 1050 2516 1388 3034 2031 3034 \nC 2694 3034 3022 2469 3022 1744 \nC 3022 1009 2684 428 2031 428 \nz\n\" transform=\"scale(0.015625)\"/>\n       <path id=\"Inter-Regular-288\" d=\"M 2119 3494 \nL 1313 3494 \nL 1313 3834 \nC 1313 4172 1463 4353 1809 4353 \nC 1966 4353 2053 4319 2113 4300 \nL 2269 4781 \nC 2184 4819 2009 4875 1744 4875 \nC 1234 4875 750 4566 750 3959 \nL 750 3494 \nL 63 3494 \nL 63 3013 \nL 750 3013 \nL 750 0 \nL 1313 0 \nL 1313 3013 \nL 2119 3013 \nL 2119 3494 \nz\n\" transform=\"scale(0.015625)\"/>\n      </defs>\n      <use xlink:href=\"#Inter-Regular-12d\"/>\n      <use xlink:href=\"#Inter-Regular-395\" transform=\"translate(75.34375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-300\" transform=\"translate(134.46875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-243\" transform=\"translate(222.0625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(283.296875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(341.59375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(379.234375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-318\" transform=\"translate(407.359375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-288\" transform=\"translate(467.328125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(504.34375 0)\"/>\n      <use xlink:href=\"#Inter-Regular-267\" transform=\"translate(532.46875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(590.765625 0)\"/>\n      <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(629.96875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-318\" transform=\"translate(665.953125 0)\"/>\n      <use xlink:href=\"#Inter-Regular-356\" transform=\"translate(725.921875 0)\"/>\n      <use xlink:href=\"#Inter-Regular-369\" transform=\"translate(763.5625 0)\"/>\n     </g>\n    </g>\n   </g>\n   <g id=\"patch_3\">\n    <path d=\"M 44.426172 242.000781 \nL 44.426172 15.64375 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"patch_4\">\n    <path d=\"M 344.011719 242.000781 \nL 344.011719 15.64375 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"patch_5\">\n    <path d=\"M 44.426172 242.000781 \nL 344.011719 242.000781 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"patch_6\">\n    <path d=\"M 44.426172 15.64375 \nL 344.011719 15.64375 \n\" style=\"fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square\"/>\n   </g>\n   <g id=\"PathCollection_1\">\n    <defs>\n     <path id=\"m5543223203\" d=\"M 0 3 \nC 0.795609 3 1.55874 2.683901 2.12132 2.12132 \nC 2.683901 1.55874 3 0.795609 3 0 \nC 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 \nC 1.55874 -2.683901 0.795609 -3 0 -3 \nC -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 \nC -2.683901 -1.55874 -3 -0.795609 -3 0 \nC -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 \nC -1.55874 2.683901 -0.795609 3 0 3 \nz\n\" style=\"stroke: #2563eb\"/>\n    </defs>\n    <g clip-path=\"url(#pefe6debc12)\">\n     <use xlink:href=\"#m5543223203\" x=\"74.384727\" y=\"30.734219\" style=\"fill: #2563eb; stroke: #2563eb\"/>\n     <use xlink:href=\"#m5543223203\" x=\"104.343281\" y=\"60.915156\" style=\"fill: #2563eb; stroke: #2563eb\"/>\n     <use xlink:href=\"#m5543223203\" x=\"134.301836\" y=\"76.005625\" style=\"fill: #2563eb; stroke: #2563eb\"/>\n     <use xlink:href=\"#m5543223203\" x=\"164.260391\" y=\"106.186562\" style=\"fill: #2563eb; stroke: #2563eb\"/>\n     <use xlink:href=\"#m5543223203\" x=\"194.218945\" y=\"106.186562\" style=\"fill: #2563eb; stroke: #2563eb\"/>\n     <use xlink:href=\"#m5543223203\" x=\"224.1775\" y=\"136.3675\" style=\"fill: #2563eb; stroke: #2563eb\"/>\n     <use xlink:href=\"#m5543223203\" x=\"254.136055\" y=\"166.548437\" style=\"fill: #2563eb; stroke: #2563eb\"/>\n     <use xlink:href=\"#m5543223203\" x=\"284.094609\" y=\"181.638906\" style=\"fill: #2563eb; stroke: #2563eb\"/>\n     <use xlink:href=\"#m5543223203\" x=\"314.053164\" y=\"211.819844\" style=\"fill: #2563eb; stroke: #2563eb\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pefe6debc12\">\n   <rect x=\"44.426172\" y=\"15.64375\" width=\"299.585547\" height=\"226.357031\"/>\n  </clipPath>\n </defs>\n</svg>\n",
+    "question_text": "A piano teacher recorded the number of hours each of 9 students practiced a recital piece in one week and the number of errors that student made when playing the piece at the recital. The scatterplot shows these data, with one point for each student. Which of the following statements is supported by the scatterplot?",
+    "answer_a": "Students who practiced more hours generally made more errors.",
+    "answer_b": "There is no relationship between the number of hours a student practiced and the number of errors the student made.",
+    "answer_c": "The student who practiced 3 hours made fewer errors than the student who practiced 7 hours.",
+    "answer_d": "The student who practiced 2 hours made more errors than the student who practiced 6 hours.",
+    "correct_answer": "D",
+    "explanation": "Choice D is correct. In the scatterplot, the point with a practice time of 2 hours has 12 errors, and the point with a practice time of 6 hours has 7 errors. Since 12 is greater than 7, the student who practiced 2 hours made more errors than the student who practiced 6 hours.",
+    "distractor_a_explanation": "Choice A is incorrect. This reverses the direction of the association. The points trend downward from left to right, so students who practiced more hours generally made fewer errors, not more.",
+    "distractor_b_explanation": "Choice B is incorrect. The points follow a clear downward trend from left to right, so there is a relationship between hours practiced and errors made: more practice is associated with fewer errors.",
+    "distractor_c_explanation": "Choice C is incorrect. The point at 3 hours has 11 errors, and the point at 7 hours has 5 errors, so the student who practiced 3 hours made more errors, not fewer. This reverses the comparison.",
+    "distractor_d_explanation": ""
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Evaluating statistical claims",
+    "difficulty": 1,
+    "module_type": "standard",
+    "question_text": "A bike-share program in a mid-sized city has many registered members. A researcher selected 75 of these registered members at random and recorded how many rides each member took in one week. The mean number of rides for the 75 selected members was 4.2. Which of the following claims is best supported by this information?",
+    "answer_a": "Every registered member of the bike-share program took exactly 4.2 rides that week.",
+    "answer_b": "The mean number of rides per week for all registered members of the bike-share program is estimated to be about 4.2.",
+    "answer_c": "The mean number of rides per week for registered members of a bike-share program in a different city is 4.2.",
+    "answer_d": "The median number of rides per week for all registered members of the bike-share program is exactly 4.2.",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. It's given that the 75 members were selected at random from all registered members of the bike-share program, so the sample is representative of that population and the sample mean of 4.2 rides can reasonably be used to estimate the population mean. Therefore, the mean number of rides per week for all registered members is estimated to be about 4.2.",
+    "distractor_a_explanation": "Choice A is incorrect. A mean describes the group as a whole, not the value for each individual; members in the sample almost certainly took different numbers of rides (and rides come in whole numbers), so it can't be concluded that every member took exactly 4.2 rides.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. The sample was drawn only from members of this city's program, so the result can't be generalized to a different population, such as members of a program in another city.",
+    "distractor_d_explanation": "Choice D is incorrect. The value 4.2 is a sample mean, not a median, and the sample mean gives no information about the median. A sample also can't establish an exact value for the population. This may result from confusing the mean with the median.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Inference from sample statistics and margin of error",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A harbor authority has 20,000 licensed boat owners. To estimate the percent of these owners who store their boats on dry land rather than in the water, the authority conducted two surveys, each of a different random sample of the 20,000 owners. In the spring survey, 46% of the sampled owners said they store their boats on dry land, with a margin of error of 5 percentage points. In the autumn survey, 52% of the sampled owners said they store their boats on dry land, with a margin of error of 4 percentage points. Assume that the true percent of all 20,000 owners who store their boats on dry land was the same at the time of both surveys, and that for each survey this true percent is within the interval given by that survey's estimate plus or minus its margin of error. Based on both surveys, which of the following statements must be true?",
+    "answer_a": "More than 10,000 of the owners store their boats on dry land.",
+    "answer_b": "At least 10,400 of the owners store their boats on dry land.",
+    "answer_c": "The number of owners who store their boats on dry land is between 9,600 and 10,200, inclusive.",
+    "answer_d": "Because the two survey intervals only partly overlap, at least one of the intervals must not contain the true percent.",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. The spring survey gives an interval of 46 - 5 = 41% to 46 + 5 = 51%. The autumn survey gives an interval of 52 - 4 = 48% to 52 + 4 = 56%. Because the true percent is assumed to be the same for both surveys and to lie within each interval, it must lie in the overlap of the two intervals, which is 48% to 51%. Then 0.48(20,000) = 9,600 and 0.51(20,000) = 10,200, so the number of owners who store their boats on dry land must be between 9,600 and 10,200, inclusive.",
+    "distractor_a_explanation": "Choice A is incorrect. This is not guaranteed. A true percent of 51% would give 10,200 owners, but the overlap 48% to 51% also contains values such as 48% and 50%, which give 9,600 and 10,000 owners. Neither is more than 10,000, so the statement can be false. This choice results from looking only at the upper part of the overlap and not considering the whole range of plausible values.",
+    "distractor_b_explanation": "Choice B is incorrect. This takes the autumn survey's estimate of 52% as the true percent, and 0.52(20,000) = 10,400. The estimate is only the center of that survey's interval, and the true percent must also lie within the spring interval of 41% to 51%, which rules out 52%. Every value in the overlap, 48% to 51%, gives at most 10,200 owners, so this statement is false.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. This misreads what overlapping intervals mean. It's given that the true percent is within each survey's interval. Intervals from two different random samples are expected to differ somewhat, and partial overlap is not a contradiction; it simply means the true percent lies in the overlap, 48% to 51%.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Inference from sample statistics and margin of error",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A parks department wants to know how many residents favor installing lights on the public sports fields. In each of two districts, a random sample of residents was surveyed, and the results are shown in the table. In each district, the margin of error applies to the percent of all residents in that district who favor the lights. Based on these results, what is the greatest plausible number of residents in the two districts combined who do NOT favor installing lights?",
+    "answer_a": "6,960",
+    "answer_b": "8,040",
+    "answer_c": "8,730",
+    "answer_d": "9,420",
+    "correct_answer": "D",
+    "explanation": "Choice D is correct. The number of residents who do not favor the lights is greatest when the percent who favor the lights is as small as possible in each district. In the Northgate district, the sample percent is 52% with a margin of error of 4 percentage points, so the plausible percent favoring is from 48% to 56%. The least plausible percent favoring is 48%, so the greatest plausible percent not favoring is 100% - 48% = 52%. Of the 6,000 residents, 52% is 0.52(6,000) = 3,120 residents. In the Southgate district, the sample percent is 35% with a margin of error of 5 percentage points, so the plausible percent favoring is from 30% to 40%. The least plausible percent favoring is 30%, so the greatest plausible percent not favoring is 100% - 30% = 70%. Of the 9,000 residents, 70% is 0.70(9,000) = 6,300 residents. Therefore, the greatest plausible number of residents in the two districts combined who do not favor installing lights is 3,120 + 6,300 = 9,420.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the greatest plausible number of residents who DO favor installing lights (0.56(6,000) + 0.40(9,000) = 3,360 + 3,600), not the number who do not favor it.",
+    "distractor_b_explanation": "Choice B is incorrect. This is the least plausible number of residents who do not favor installing lights. It results from using the least plausible percents not favoring in each district (44% and 60%), which gives 0.44(6,000) + 0.60(9,000) = 2,640 + 5,400.",
+    "distractor_c_explanation": "Choice C is incorrect. This is the estimated number of residents who do not favor installing lights, found from the sample percents alone, 0.48(6,000) + 0.65(9,000) = 2,880 + 5,850. It does not account for the margin of error.",
+    "distractor_d_explanation": "",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "table",
+    "visual_data": {
+      "headers": [
+        "District",
+        "Number of residents",
+        "Number surveyed",
+        "Percent favoring lights",
+        "Margin of error"
+      ],
+      "rows": [
+        [
+          "Northgate",
+          "6,000",
+          "600",
+          "52%",
+          "4 percentage points"
+        ],
+        [
+          "Southgate",
+          "9,000",
+          "900",
+          "35%",
+          "5 percentage points"
+        ]
+      ]
+    },
+    "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Evaluating statistical claims",
+    "difficulty": 2,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null,
+    "question_text": "A community college's adult learning program has 1,500 members. From all 1,500 members, 120 were randomly selected for a study, and each of these 120 members was then randomly assigned to one of two groups of equal size. Members in the first group studied for a vocabulary quiz by taking practice tests, and members in the second group studied by rereading their notes. The mean quiz score for the practice-test group was 82, and the mean quiz score for the rereading group was 74. The researchers determined that this difference was statistically significant. Which of the following conclusions is best supported by the results of the study?",
+    "answer_a": "For the members of the adult learning program, practice tests cause higher mean quiz scores than rereading notes.",
+    "answer_b": "Practice tests are a more effective study technique than any other technique for all kinds of quizzes.",
+    "answer_c": "Practice tests would raise the quiz score of every adult learner in the United States by about 8 points.",
+    "answer_d": "Practice tests and higher quiz scores are associated, but no cause-and-effect conclusion can be drawn about the program's members.",
+    "correct_answer": "A",
+    "explanation": "Choice A is correct. It's given that the 120 participants were randomly selected from the members of the adult learning program and then randomly assigned to the two groups, and that the difference in mean quiz scores was statistically significant. Random assignment allows a cause-and-effect conclusion to be drawn, and random selection allows that conclusion to be generalized to the population from which the participants were selected. Therefore, the study supports the conclusion that, for the members of the adult learning program, practice tests cause higher mean quiz scores than rereading notes.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect. The study compared practice tests with only one other technique, rereading notes, on one kind of quiz, so it can't show that practice tests are more effective than any other technique for all kinds of quizzes.",
+    "distractor_c_explanation": "Choice C is incorrect. The participants were selected only from the members of this program, so the results can't be generalized to all adult learners in the United States. Also, a difference in group means doesn't guarantee the same 8-point gain for every individual.",
+    "distractor_d_explanation": "Choice D is incorrect. Because the participants were randomly assigned to the two groups, a cause-and-effect conclusion can be drawn. The conclusion applies to the program's members, from whom the participants were randomly selected."
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Evaluating statistical claims",
+    "difficulty": 2,
+    "module_type": "standard",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null,
+    "question_text": "A researcher surveyed 80 students at a community college. Each student reported his or her average number of hours of sleep per night and then took a memory test. The researcher did not assign any student a sleep schedule. The data showed that students who reported more hours of sleep tended to have higher memory test scores. Which of the following conclusions is best supported by the data?",
+    "answer_a": "Sleeping more hours per night will cause a student's memory test score to increase.",
+    "answer_b": "Among the 80 students surveyed, more hours of sleep were associated with higher memory test scores.",
+    "answer_c": "Among all college students in the country, more hours of sleep are associated with higher memory test scores.",
+    "answer_d": "Having a higher memory test score is the reason these students sleep more hours per night.",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. It's given that the researcher surveyed 80 students and found that those who reported more hours of sleep tended to have higher memory test scores. The researcher only recorded each student's habits and did not assign sleep schedules, so the data show an association among the students surveyed. Therefore, the conclusion that, among the 80 students surveyed, more hours of sleep were associated with higher memory test scores is best supported.",
+    "distractor_a_explanation": "Choice A is incorrect. A cause-and-effect conclusion requires an experiment in which participants are randomly assigned to different conditions. Here, no sleep schedules were assigned, so the data show an association but can't establish that more sleep will cause higher scores.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. The 80 students were surveyed at one community college, and the problem doesn't state that they were randomly selected from all college students in the country. The data can't be used to draw a conclusion about that larger population.",
+    "distractor_d_explanation": "Choice D is incorrect. This reverses the direction of the claim and still treats the association as cause and effect. Because the study was observational, the data don't show that either variable is the reason for the other."
   }
 ]

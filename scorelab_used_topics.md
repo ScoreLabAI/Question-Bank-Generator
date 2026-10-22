@@ -593,3 +593,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] University alumni homecoming survey, simulated sample percents table, middle 95% margin, greatest attendees of 12,000.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Transit bus Route 14 vs 22 trip-time intervals, greatest plausible difference over 20 workdays in hours.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] County elections office registered voters Alder vs Birch, greatest plausible difference in counts.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Harbor View High School random bus-commute survey, largest population for generalization.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] City pet-supply store exit survey, 85% pet ownership, unrepresentative sample.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Park ranger Saturday vs Sunday hiker counts on four trails, table claim.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Bakery whole-grain bread preference, 40 vs 400 random customers, reliability.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Piano students practice hours vs recital errors scatterplot.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Bike-share random 75 members mean weekly rides, population estimate.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Harbor boat owners dry-land storage, spring vs autumn survey interval overlap.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Parks department two districts lighting survey, greatest plausible count not favoring.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Adult learning program practice tests vs rereading, random selection and assignment.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Community college sleep hours vs memory test observational study.
