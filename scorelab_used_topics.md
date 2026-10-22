@@ -603,3 +603,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Parks department two districts lighting survey, greatest plausible count not favoring.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Adult learning program practice tests vs rereading, random selection and assignment.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Community college sleep hours vs memory test observational study.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] City bike-lane poll, commuter subgroup margin reverse-inference to full-sample margin, greatest supporters of 48,000.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] Licensed dog owners off-leash park simulation table, middle 90% cutoffs, consistent count of 8,000.
