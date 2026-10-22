@@ -605,3 +605,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Community college sleep hours vs memory test observational study.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] City bike-lane poll, commuter subgroup margin reverse-inference to full-sample margin, greatest supporters of 48,000.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] Licensed dog owners off-leash park simulation table, middle 90% cutoffs, consistent count of 8,000.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Alder Falls library website voluntary poll, claim limited to respondents.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Lakeview High random sample lunch table, pizza plurality likely.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Mountain lake depth vs temperature scatterplot, association not causation.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] After-school tutoring self-selected groups, mean difference observational, association only.
