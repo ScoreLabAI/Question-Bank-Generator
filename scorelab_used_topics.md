@@ -566,3 +566,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] City bus commuters 41% would ride express route, margin of error 3 points, plausible value.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Rechargeable batteries mean 11.4 hours, margin of error 0.5, width of interval.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Coffee shop 45 of 120 customers prefer maple latte, estimated percent of all customers.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] School-district teachers 232 of 400 support schedule change, 95% interval, plausible majority.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Riverbend clinic Tuesday diabetes-education attendees, sample of 200, generalization limited to attendees.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Stadium season-ticket holders halfway schedule, margin of error vs sample size 900 to 2,500.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Internet provider Harlow vs Pelham download speeds, greatest difference with both margins.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Banded shorebirds 8,000 at coastal refuge, 64% leave for winter, greatest number that stay.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Space museum school groups per day, 52-day sample frequency table, estimated median.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Soil pH community garden interval 5.9-6.5, doubled margin, lower endpoint.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Airport Terminal C 6,000 travelers bag-drop kiosk 42% margin 3, least number.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Farmers market 2,400 customers stall-type table, produce or prepared food estimate.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Wiring harness assembly 1,350 units interval 36.9-41.5 minutes, estimated total time.

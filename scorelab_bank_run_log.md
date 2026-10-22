@@ -1384,3 +1384,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued.
 **Token usage:** 9 subagent calls, roughly 0.4M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Inference from sample statistics d2 (0/10).
+
+## Run 57 - 2026-10-22
+**Cells worked:** PSDA / Inference from sample statistics d2: needed 10, generated 10. Calibration: 6 Medium banked d2 (6/10, pending, needs 4: scope-of-inference clinic, plausible-vs-certain interval, sample-size/margin relation, two-city greatest difference, complement+endpoint, table median); 4 calibrated Easy and banked d1 (soil pH doubled margin; airport least count; farmers-market table scaling; wiring-harness midpoint x N) -> d1 now 14/10 (overshoot).
+**Pipeline:** 10 generators (1 launched with unfilled placeholders and stopped before output, relaunched), 10 critics (all correctness PASS; applied fixes: clinic sample 60->200 and hedged choices for realistic margin; sample-size item distractor C replaced by 12.5; shorebird wording; two-city stem assumption sentence and distractor C explanation; minor wording polish), 2 batched calibrations (sonnet). 0 discards.
+**Banked:** master 552 -> 562 (+10). validate_batch passed both batches (key-skew WARN from numeric ascending order). 2 table visuals; no renders (matplotlib not installable here, unneeded).
+**Skill updates (Step 5):** none applied; nothing queued. Observation: single-multiplication or midpoint+scale items calibrate Easy for Inference; Medium needs a complement step, scope-of-inference judgment, endpoint combination, or even-n median. Next d2 mandates should use those shapes (e.g. two-interval comparison, sample size needed for target margin, which-statement-supported with overlapping intervals).
+**Token usage:** ~26 subagent calls, roughly 1.2M subagent tokens (orchestrator not included).
+**Next run should pick up at:** Inference d2 (6/10, needs 4), then Inference d3.
