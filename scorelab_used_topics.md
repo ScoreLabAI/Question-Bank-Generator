@@ -580,3 +580,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] University residence-hall sleep study 300 of 2,400, scope of conclusion.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Science center aquarium 8,000 visitors jellyfish simulation percentiles, greatest non-choosers.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Hospital staff commute table, nurses subgroup 1,350, non-drive-alone estimate.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] Smart-thermostat power company 18,500 accounts, two surveys n=400/1,600, margin scaling 1/sqrt(n), minimum plausible enrollees.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] Reading tutoring volunteers randomly assigned, difference vs margin of error, causal scope.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] County curbside composting 2019 vs 2024 surveys, smallest possible increase in participants of 12,400.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Ridgemont School District elementary/high school teacher weekly hours, greatest plausible weighted mean.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Zenith vs Orbit mobile app 90-day retention, Roman-numeral statements.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Island ferry monthly pass holders 2,500, margin formula given, greatest not-satisfied.

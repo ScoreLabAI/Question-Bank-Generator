@@ -17637,5 +17637,237 @@
   "distractor_b_explanation": "",
   "distractor_c_explanation": "Choice C is incorrect. This results from using the proportion of all sampled employees who don't drive alone, (90 + 54)/300 = 0.48, and applying it to the 1,350 nurses. That proportion describes all job roles combined, not nurses specifically.",
   "distractor_d_explanation": "Choice D is incorrect. This is the estimated number of nurses who usually drive alone, 72/120 = 0.6 and 0.6(1,350) = 810, not the number who commute by another method. It results from not finding the complement."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Survey",
+    "Sample size",
+    "Respondents who would enroll",
+    "Margin of error"
+   ],
+   "rows": [
+    [
+     "First",
+     "400",
+     "148",
+     "6 percentage points"
+    ],
+    [
+     "Second",
+     "1,600",
+     "656",
+     "Not reported"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A power company serves 18,500 customer accounts that have a smart thermostat. The company conducted two surveys, each of a different random sample of these customers, to estimate the percent who would enroll in a program that lets the company adjust thermostat settings during peak demand. Both surveys used the same confidence level, and for the same confidence level the margin of error is inversely proportional to the square root of the sample size. The results are shown in the table. The margin of error for the second survey was not reported. Based on the first survey's margin of error and the results of the second survey, what is the minimum plausible number of the 18,500 customers who would enroll in the program?",
+  "answer_a": "5,735",
+  "answer_b": "6,475",
+  "answer_c": "7,030",
+  "answer_d": "7,585",
+  "correct_answer": "C",
+  "explanation": "Choice C is correct. It's given that for the same confidence level, the margin of error is inversely proportional to the square root of the sample size, n. The second sample size, 1,600, is 4 times the first sample size, 400, so the second survey's margin of error is 1/sqrt(4) = 1/2 of the first survey's margin of error. Therefore, the second survey's margin of error is 6/2 = 3 percentage points. It's given that 656 of the 1,600 respondents in the second survey would enroll, which is 656/1,600 = 41%. The interval of plausible percents is 41% plus or minus 3 percentage points, or 38% to 44%. The minimum plausible percent is 38%, so the minimum plausible number of customers who would enroll is 0.38(18,500) = 7,030.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the minimum plausible number based on the first survey's results, not the second: 37% minus the first survey's margin of error of 6 percentage points is 31%, and 0.31(18,500) = 5,735.",
+  "distractor_b_explanation": "Choice B is incorrect. This results from subtracting the first survey's margin of error of 6 percentage points from the second survey's percent of 41%, giving 35%, without adjusting the margin of error for the larger sample size: 0.35(18,500) = 6,475.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is the number of customers corresponding to the second survey's sample percent of 41% alone, 0.41(18,500) = 7,585, without subtracting any margin of error."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Group",
+    "Number of students",
+    "Mean gain in score"
+   ],
+   "rows": [
+    [
+     "Tutoring",
+     "120",
+     "14.2"
+    ],
+    [
+     "Regular program only",
+     "120",
+     "9.6"
+    ],
+    [
+     "Difference (tutoring minus regular program only)",
+     "N/A",
+     "4.6"
+    ],
+    [
+     "Margin of error for the difference",
+     "N/A",
+     "3.1"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A school has 1,850 students. The school's reading specialist invited all students to volunteer for an after-school reading program, and 240 students volunteered. The specialist randomly assigned 120 of the volunteers to receive tutoring in addition to the regular program and the other 120 volunteers to receive the regular program only. At the end of the term, each volunteer's gain in score on a reading assessment was recorded. The table shows the results.\n\nWhich of the following conclusions is best supported by the data?",
+  "answer_a": "The tutoring caused a higher mean gain for all students at the school than the regular program would have.",
+  "answer_b": "The tutoring caused a higher mean gain for these volunteers than the regular program did.",
+  "answer_c": "The tutoring is associated with a higher mean gain for these volunteers, but it cannot be said to have caused the higher gain because they chose to volunteer.",
+  "answer_d": "The tutoring did not clearly raise these volunteers' mean gain, because the margin of error allows the two groups' mean gains to overlap.",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the 240 volunteers were randomly assigned to the tutoring group or the regular-program-only group. Because of random assignment, the two groups can be expected to differ only in whether they received tutoring, so a difference in outcomes can be attributed to the tutoring itself. The difference in mean gains is 14.2 - 9.6 = 4.6 points, and the margin of error for the difference is 3.1 points. Since 4.6 is greater than 3.1, the interval for the true difference, 4.6 plus or minus 3.1, runs from 1.5 to 7.7 and does not include 0, so the difference is larger than chance variation alone would likely produce. Because the students in the experiment were volunteers and not randomly selected from all 1,850 students, the conclusion applies only to students like these volunteers. Therefore, the tutoring caused a higher mean gain for these volunteers than the regular program did.",
+  "distractor_a_explanation": "Choice A is incorrect. Random assignment supports a cause-and-effect conclusion, but only for the group that was assigned. The participants were volunteers, not a random sample of all students at the school, so the result can't be generalized to all 1,850 students.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This confuses how students entered the study with how they were placed in groups. Volunteering limits who the conclusion applies to, but because the volunteers were randomly assigned to the two groups, a cause-and-effect conclusion is justified for the volunteers.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from applying the margin of error for the difference to each group's mean separately: 14.2 plus or minus 3.1 gives 11.1 to 17.3, and 9.6 plus or minus 3.1 gives 6.5 to 12.7, and these ranges overlap. The margin of error is for the difference in means, and the difference of 4.6 is greater than the margin of error of 3.1."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 3,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A county has 12,400 residents, and the number of residents is the same in 2019 and 2024. In 2019, a survey of a random sample of residents estimated that 64% of the county's residents did not participate in the curbside composting program, with a margin of error of 5 percentage points. In 2024, a second survey of a random sample of residents estimated that 47% of the county's residents participated in the program, with a margin of error of 3 percentage points. Assuming that the true percent for each year is within that survey's margin of error, what is the smallest possible increase in the number of county residents participating in the composting program from 2019 to 2024?",
+  "answer_a": "372",
+  "answer_b": "744",
+  "answer_c": "1,364",
+  "answer_d": "2,108",
+  "correct_answer": "A",
+  "explanation": "Choice A is correct. It's given that 64% of residents did not participate in 2019, so 100% - 64% = 36% participated, with a margin of error of 5 percentage points. The true 2019 participation percent is therefore between 36% - 5% = 31% and 36% + 5% = 41%. The true 2024 participation percent is between 47% - 3% = 44% and 47% + 3% = 50%. The increase is smallest when 2019 participation is as high as possible (41%) and 2024 participation is as low as possible (44%), which is an increase of 44% - 41% = 3 percentage points. Since 3% of 12,400 is 0.03(12,400) = 372, the smallest possible increase in the number of residents participating is 372.",
+  "distractor_a_explanation": "",
+  "distractor_b_explanation": "Choice B is incorrect. This results from adjusting only the 2019 estimate for its margin of error: 47% - 41% = 6% (using the highest 2019 value but leaving the 2024 estimate at 47% instead of 44%), and then finding 6% of 12,400, which is 744. Both margins of error must be accounted for.",
+  "distractor_c_explanation": "Choice C is incorrect. This is the increase between the two survey estimates, 47% - 36% = 11%, applied to 12,400 residents (0.11(12,400) = 1,364). It ignores the margins of error, so it is the estimated increase, not the smallest possible increase.",
+  "distractor_d_explanation": "Choice D is incorrect. This results from not converting the 2019 nonparticipation estimate to a participation estimate: the difference |64% - 47%| = 17% is taken as the increase, and 17% of 12,400 is 2,108. The 64% describes residents who did not participate, not residents who participated."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "School level",
+    "Teachers in district",
+    "Teachers surveyed",
+    "Estimate of mean weekly hours"
+   ],
+   "rows": [
+    [
+     "Elementary",
+     "1,800",
+     "120",
+     "46.2 \u00b1 1.4"
+    ],
+    [
+     "High school",
+     "1,200",
+     "180",
+     "50.1 to 54.5"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A study of teacher workload in the Ridgemont School District surveyed a random sample of elementary school teachers and a separate random sample of high school teachers about the number of hours they work each week. The table shows the number of teachers in the district at each school level, the number of teachers surveyed, and the estimate of the mean weekly hours for all teachers at that level. For elementary school, the estimate is the sample mean with its margin of error. For high school, the estimate is given as an interval. Both estimates were calculated at the same confidence level, and each gives a range of plausible values for the mean weekly hours at that school level. Based on the table, what is the greatest plausible value for the mean weekly hours of all teachers in the district, elementary and high school combined, in hours?",
+  "answer_a": "48.64",
+  "answer_b": "50.36",
+  "answer_c": "51.05",
+  "answer_d": "51.74",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that the estimate for each school level is a range of plausible values for that level's mean weekly hours. The greatest plausible value for elementary school teachers is the sample mean plus the margin of error, 46.2 + 1.4 = 47.6 hours. The greatest plausible value for high school teachers is the upper end of the given interval, 54.5 hours. The overall mean is a weighted mean, and the weights are the numbers of teachers in the district, not the numbers surveyed. There are 1,800 + 1,200 = 3,000 teachers in the district, so the greatest plausible overall mean is (1,800(47.6) + 1,200(54.5)) / 3,000 = 151,080 / 3,000 = 50.36 hours. Therefore, the greatest plausible value for the mean weekly hours of all teachers in the district is 50.36 hours.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the weighted mean of the elementary sample mean, 46.2, and the midpoint of the high school interval, 52.3, using the district totals as weights. It doesn't use the upper end of either range, so it isn't the greatest plausible value.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This is the ordinary average of the two greatest plausible values, (47.6 + 54.5) / 2 = 51.05. It gives the two school levels equal weight, even though there are 1,800 elementary teachers and only 1,200 high school teachers in the district.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the weighted mean of the two greatest plausible values using the numbers of teachers surveyed, 120 and 180, as weights: 0.4(47.6) + 0.6(54.5) = 51.74. The weights must come from the numbers of teachers in the district, not the sizes of the samples."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "App",
+    "Estimated percent still active at 90 days",
+    "Margin of error (percentage points)"
+   ],
+   "rows": [
+    [
+     "Zenith",
+     "58%",
+     "5"
+    ],
+    [
+     "Orbit",
+     "54%",
+     "6"
+    ]
+   ]
+  },
+  "visual_svg": null,
+  "question_text": "A developer surveyed a random sample of users of each of two mobile apps, Zenith and Orbit, and asked whether each user was still opening the app at least once a week 90 days after installing it. The table shows the estimated percent of all users of each app who were still active at 90 days, along with the margin of error for each estimate. Both margins of error were calculated at the same confidence level.\n\nWhich of the following statements must be supported by the data in the table?\n\nI. Among all users, the 90-day retention rate of Zenith is greater than that of Orbit.\nII. Among all Zenith users, the 90-day retention rate is greater than 50%.\nIII. Among all Orbit users, the 90-day retention rate is exactly 54%.",
+  "answer_a": "I only",
+  "answer_b": "II only",
+  "answer_c": "I and III only",
+  "answer_d": "II and III only",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. Each interval is the sample estimate plus or minus its margin of error. For Zenith, the interval is 58 - 5 = 53 to 58 + 5 = 63 percent. For Orbit, the interval is 54 - 6 = 48 to 54 + 6 = 60 percent. Statement I is not supported. The two intervals overlap from 53 to 60, so the true retention rates could be equal or Orbit's could be higher; the data do not show that Zenith's rate is greater, even though its estimate is larger. Statement II is supported. The entire interval for Zenith, 53 to 63 percent, lies above 50 percent, so every plausible value for the retention rate among all Zenith users is greater than 50%. Statement III is not supported. The 54% is only the sample estimate; the retention rate among all Orbit users could be any value from 48% to 60%, so it cannot be said to be exactly 54%. Therefore, only statement II must be supported.",
+  "distractor_a_explanation": "Choice A is incorrect. This results from concluding that Zenith's retention is greater because its estimate (58%) is larger than Orbit's (54%), without noticing that the intervals 53 to 63 and 48 to 60 overlap. This choice also omits statement II, which is supported because the Zenith interval lies entirely above 50%.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. Statement I is not supported because the intervals overlap, so a difference between the two apps cannot be concluded. Statement III is not supported because 54% is only the sample estimate, and the retention rate among all Orbit users could be any value from 48% to 60%. This choice also omits statement II, which is supported.",
+  "distractor_d_explanation": "Choice D is incorrect. Statement II is supported, but statement III is not. The 54% is only the sample estimate; the retention rate among all Orbit users could be any value from 48% to 60%, so it cannot be said to be exactly 54%."
+ },
+ {
+  "section": "math",
+  "skill_category": "Problem-Solving and Data Analysis",
+  "skill_subcategory": "Inference from sample statistics and margin of error",
+  "difficulty": 2,
+  "module_type": "standard",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null,
+  "question_text": "A ferry line serves an island with 6,000 regular commuters, of whom 2,500 hold a monthly pass. The ferry line selected a random sample of 400 of the 2,500 monthly pass holders and asked each whether they were satisfied with the current weekday schedule. In the sample, 320 pass holders said they were satisfied. The margin of error for an estimated proportion is given by 2\u221a(p(1 \u2212 p)/n), where p is the sample proportion and n is the sample size. Based on the sample proportion and this margin of error, what is the greatest plausible number of the 2,500 monthly pass holders who are NOT satisfied with the current weekday schedule?",
+  "answer_a": "500",
+  "answer_b": "600",
+  "answer_c": "1,440",
+  "answer_d": "2,100",
+  "correct_answer": "B",
+  "explanation": "Choice B is correct. It's given that 320 of the 400 sampled pass holders were satisfied, so the sample proportion is p = 320/400 = 0.80. The margin of error is 2\u221a(0.80(0.20)/400) = 2\u221a0.0004 = 2(0.02) = 0.04. So the plausible proportion of pass holders who are satisfied is between 0.80 \u2212 0.04 = 0.76 and 0.80 + 0.04 = 0.84. The proportion who are NOT satisfied is the complement, so it is between 1 \u2212 0.84 = 0.16 and 1 \u2212 0.76 = 0.24. The sample was drawn only from the 2,500 monthly pass holders, so the estimate applies to those 2,500 people and not to all 6,000 commuters. The greatest plausible number who are not satisfied is 0.24(2,500) = 600. Therefore, the greatest plausible number of monthly pass holders who are not satisfied is 600.",
+  "distractor_a_explanation": "Choice A is incorrect. This is the number of pass holders not satisfied based on the sample proportion alone, 0.20(2,500) = 500, without adding the margin of error to find the greatest plausible value.",
+  "distractor_b_explanation": "",
+  "distractor_c_explanation": "Choice C is incorrect. This applies the greatest plausible not-satisfied proportion, 0.24, to all 6,000 commuters, 0.24(6,000) = 1,440, even though the sample was taken only from the 2,500 monthly pass holders.",
+  "distractor_d_explanation": "Choice D is incorrect. This is the greatest plausible number of pass holders who are satisfied, 0.84(2,500) = 2,100, not the greatest plausible number who are not satisfied."
  }
 ]
