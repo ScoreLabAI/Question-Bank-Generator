@@ -586,3 +586,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Ridgemont School District elementary/high school teacher weekly hours, greatest plausible weighted mean.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Zenith vs Orbit mobile app 90-day retention, Roman-numeral statements.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Island ferry monthly pass holders 2,500, margin formula given, greatest not-satisfied.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] Coffee cooperative two replanting surveys, intersection of intervals, greatest non-replanters of 4,000.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] Larkspur Logistics Tacoma random sample, lunch-packing vs added sugar, observational scope of inference.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] Streaming offline-viewing survey, margin inversely proportional to sqrt(n), additional subscribers needed.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] EV-owning households overnight-charging survey, recover sample percent and margin, percent of all county households.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d3] University alumni homecoming survey, simulated sample percents table, middle 95% margin, greatest attendees of 12,000.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Transit bus Route 14 vs 22 trip-time intervals, greatest plausible difference over 20 workdays in hours.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] County elections office registered voters Alder vs Birch, greatest plausible difference in counts.
