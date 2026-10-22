@@ -609,3 +609,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Lakeview High random sample lunch table, pizza plurality likely.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Mountain lake depth vs temperature scatterplot, association not causation.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] After-school tutoring self-selected groups, mean difference observational, association only.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Oakmont High random 80 of 300 eleventh graders later start time, generalize to 11th graders.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Company 400 random employees bike vs non-bike commute stress, generalizes to company not causal.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Marlow Township random 150 vs online poll 2,400 rail extension reliability.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Screen-time app study volunteers randomly assigned, causal only for volunteers.
