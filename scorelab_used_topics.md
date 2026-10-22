@@ -576,3 +576,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Airport Terminal C 6,000 travelers bag-drop kiosk 42% margin 3, least number.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Farmers market 2,400 customers stall-type table, produce or prepared food estimate.
 - [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Wiring harness assembly 1,350 units interval 36.9-41.5 minutes, estimated total time.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Marlow Community College student election Okafor 47% vs Lindqvist 42%, overlapping intervals.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] University residence-hall sleep study 300 of 2,400, scope of conclusion.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d2] Science center aquarium 8,000 visitors jellyfish simulation percentiles, greatest non-choosers.
+- [Problem-Solving and Data Analysis/Inference from sample statistics and margin of error, d1] Hospital staff commute table, nurses subgroup 1,350, non-drive-alone estimate.
