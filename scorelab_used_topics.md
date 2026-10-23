@@ -642,3 +642,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Area and volume, d1] Pure-geometry circle radius 7, area in terms of pi.
 - [Geometry and Trigonometry/Area and volume, d1] Fabric shop triangular pennant right triangle 9-12-15, area.
 - [Geometry and Trigonometry/Area and volume, d1] Community garden raised planter, top-view base 8 ft by 5 ft with 2 ft height, volume.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Brannock library card holders by age group, protected bike lanes, MOE table vs 50% threshold + card-holder scope.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Alder Bay community gardeners vs vegetable intake by age group, confounder lowers within-group gap (no reversal).
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Tamarack Valley Power Cooperative thermostat scheduling, two studies, percent difference + design scope.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Pinecrest Running Club breathing-exercise volunteers, two outcomes, re-randomization counts vs 1% cutoff.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Marlow park-bond survey, nonresponse by age group, population-weighted estimate 53% vs 42.5% headline.
