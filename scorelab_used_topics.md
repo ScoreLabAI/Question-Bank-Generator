@@ -633,3 +633,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Cedar Hollow clinic balance-training program volunteers randomly assigned, difference in improvement.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Verona Heights remote vs on-site workers home cooking, conditional percents, association not cause.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Seventh-grade peer-tutoring study redesign needing random selection and assignment.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Delmore Valley Growers Association organic farms wheat yield CI, scope limited to organic-certified farms.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Dunmore Market produce offers coupon/points/text, three-group margin-of-error table, volunteers randomly assigned.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Community college split-design keyboard volunteers, 1,000 re-randomization simulations vs 5% cutoff.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] City forester tree canopy vs street temperature scatterplot, prediction plus extrapolation and causation.
