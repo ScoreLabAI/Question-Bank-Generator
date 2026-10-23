@@ -652,3 +652,14 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Area and volume, d1] Fish tank rectangular base 10 ft by 6 ft, volume 240, find height.
 - [Geometry and Trigonometry/Area and volume, d1] Rectangular garden bed 14 ft by 6 ft, mulch at $3 per sq ft, total cost.
 - [Geometry and Trigonometry/Area and volume, d1] Right-triangular garden bed legs 10 ft and 7 ft, bags of soil covering 5 sq ft each.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Sleep lighting trial, volunteers randomly assigned, CI for mean difference vs 10-minute worthwhile threshold.
+- [Geometry and Trigonometry/Area and volume, d2] Community swimming pool with uniform 2 m concrete deck, area of deck only.
+- [Geometry and Trigonometry/Area and volume, d1] Circular fountain basin area 81pi, find circumference.
+- [Geometry and Trigonometry/Area and volume, d1] Concert poster 8 by 6 in enlarged by factor 3, new area.
+- [Geometry and Trigonometry/Area and volume, d2] Triangular sail right triangle legs 20 ft and x, hypotenuse 29 ft, find x then area.
+- [Geometry and Trigonometry/Area and volume, d1] Solid glass float sphere diameter 12 cm, volume with formula given.
+- [Geometry and Trigonometry/Area and volume, d1] Conical popcorn cup diameter 10 cm height 12 cm, cone volume with formula given.
+- [Geometry and Trigonometry/Area and volume, d2] Rooftop terrace 24 by 15 ft, turf per square yard, total cost.
+- [Geometry and Trigonometry/Area and volume, d2] Veterinary dog run width w, length w+7, perimeter 50 m, find area.
+- [Geometry and Trigonometry/Area and volume, d1] Cylindrical grain silo radius 6 ft height 10 ft, fill time at 12pi cu ft per minute.
+- [Geometry and Trigonometry/Area and volume, d1] Shipping crate 36 by 24 by 18 in filled with 6 in cubes, count.
