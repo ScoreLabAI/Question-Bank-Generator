@@ -647,3 +647,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Tamarack Valley Power Cooperative thermostat scheduling, two studies, percent difference + design scope.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Pinecrest Running Club breathing-exercise volunteers, two outcomes, re-randomization counts vs 1% cutoff.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Marlow park-bond survey, nonresponse by age group, population-weighted estimate 53% vs 42.5% headline.
+- [Geometry and Trigonometry/Area and volume, d1] Cube-shaped storage box, square face 5 in, volume.
+- [Geometry and Trigonometry/Area and volume, d1] Cylindrical water tank, top-view radius 3 m, height 10 m, volume in terms of pi.
+- [Geometry and Trigonometry/Area and volume, d1] Fish tank rectangular base 10 ft by 6 ft, volume 240, find height.
+- [Geometry and Trigonometry/Area and volume, d1] Rectangular garden bed 14 ft by 6 ft, mulch at $3 per sq ft, total cost.
+- [Geometry and Trigonometry/Area and volume, d1] Right-triangular garden bed legs 10 ft and 7 ft, bags of soil covering 5 sq ft each.

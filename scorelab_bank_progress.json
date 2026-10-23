@@ -450,8 +450,8 @@
    "skill_subcategory": "Area and volume",
    "difficulty": 1,
    "target_count": 10,
-   "status": "pending",
-   "accepted_count": 5
+   "status": "done",
+   "accepted_count": 10
   },
   {
    "domain": "math",
