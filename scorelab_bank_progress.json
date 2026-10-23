@@ -432,8 +432,8 @@
    "skill_subcategory": "Evaluating statistical claims",
    "difficulty": 2,
    "target_count": 10,
-   "status": "pending",
-   "accepted_count": 7
+   "status": "done",
+   "accepted_count": 10
   },
   {
    "domain": "math",

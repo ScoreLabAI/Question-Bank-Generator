@@ -623,3 +623,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Harlan County fitness class, design change allowing causal conclusion for all residents.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Knee-surgery clinic Treatment A vs B, Simpson reversal pooled vs severity strata.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Gym chain City P vs City Q random samples, scope and difference of means.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Delmar Science Museum random sample guided tour vs visits table, scope and association.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] County community garden plots compost blends X vs Y, random selection and assignment table.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] County library branches weekly open hours vs visitors scatterplot, interpolation supported, causal and extrapolation traps.
