@@ -626,3 +626,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Delmar Science Museum random sample guided tour vs visits table, scope and association.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] County community garden plots compost blends X vs Y, random selection and assignment table.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] County library branches weekly open hours vs visitors scatterplot, interpolation supported, causal and extrapolation traps.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Language institute immersion vs textbook course, two outcomes with CIs, fluency supported and vocabulary inconclusive.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Ridgeline Trail Runners two studies of shoe type, random selection vs random assignment explained for each.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Kestrel Valley Medical Center patient survey, unit response rates differ, responder yes percent unreliable.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Smartwatch app volunteers steps vs resting heart rate scatterplot, prediction plus association not cause.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Cedar Hollow clinic balance-training program volunteers randomly assigned, difference in improvement.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Verona Heights remote vs on-site workers home cooking, conditional percents, association not cause.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Seventh-grade peer-tutoring study redesign needing random selection and assignment.
