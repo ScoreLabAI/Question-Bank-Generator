@@ -424,7 +424,7 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 12
+   "accepted_count": 16
   },
   {
    "domain": "math",
@@ -433,7 +433,7 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 4
+   "accepted_count": 7
   },
   {
    "domain": "math",
@@ -442,7 +442,7 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 3
   },
   {
    "domain": "math",

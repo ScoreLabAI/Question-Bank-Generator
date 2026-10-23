@@ -613,3 +613,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Company 400 random employees bike vs non-bike commute stress, generalizes to company not causal.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Marlow Township random 150 vs online poll 2,400 rail extension reliability.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Screen-time app study volunteers randomly assigned, causal only for volunteers.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Beekeepers feeding methods randomized experiment, not significant, no convincing evidence.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] Used cars age vs resale price scatterplot, association not causation, extrapolation.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Town recycling survey housing type, conditional percents vs raw counts.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Swim league age groups new program, within-group comparison of randomized experiment.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] School district books at home vs reading scores, confounder weakens causal claim.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d1] City bus-route mailed survey 22% response, nonresponse bias.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Corvane desks volunteers two outcomes, cause for volunteers, no convincing evidence on tasks.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Harlan County fitness class, design change allowing causal conclusion for all residents.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] Knee-surgery clinic Treatment A vs B, Simpson reversal pooled vs severity strata.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Gym chain City P vs City Q random samples, scope and difference of means.
