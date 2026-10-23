@@ -637,3 +637,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Dunmore Market produce offers coupon/points/text, three-group margin-of-error table, volunteers randomly assigned.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Community college split-design keyboard volunteers, 1,000 re-randomization simulations vs 5% cutoff.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] City forester tree canopy vs street temperature scatterplot, prediction plus extrapolation and causation.
+- [Geometry and Trigonometry/Area and volume, d1] Dance studio floor 12 m by 7 m rectangle, area.
+- [Geometry and Trigonometry/Area and volume, d1] Stained-glass panel area 72 with side 9, find h.
+- [Geometry and Trigonometry/Area and volume, d1] Pure-geometry circle radius 7, area in terms of pi.
+- [Geometry and Trigonometry/Area and volume, d1] Fabric shop triangular pennant right triangle 9-12-15, area.
+- [Geometry and Trigonometry/Area and volume, d1] Community garden raised planter, top-view base 8 ft by 5 ft with 2 ft height, volume.
