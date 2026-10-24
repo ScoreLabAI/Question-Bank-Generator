@@ -21638,5 +21638,325 @@
     "visual_type": null,
     "visual_data": null,
     "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Geometry and Trigonometry",
+    "skill_subcategory": "Area and volume",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "A solar developer leases a flat triangular plot of land whose sides measure 27 meters, 30 meters, and 51 meters, The figure shows the plot. A straight service road is built across the plot parallel to the 27-meter side, with its endpoints on the other two sides. The road divides the plot into a smaller triangular region, which has the vertex opposite the 27-meter side as a corner, and a trapezoidal region with an area of 180 square meters. What is the distance, in meters, between the service road and the 27-meter side of the plot?",
+    "answer_a": "4",
+    "answer_b": "8",
+    "answer_c": "16",
+    "answer_d": "24",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. The area of the whole plot is determined by its three side lengths. The semiperimeter is (27 + 30 + 51)/2 = 54, so the area is sqrt(54(54 - 27)(54 - 30)(54 - 51)) = sqrt(54 * 27 * 24 * 3) = sqrt(104,976) = 324 square meters. The altitude to the 27-meter side is therefore 2(324)/27 = 24 meters. The road is parallel to the 27-meter side, so the smaller triangle is similar to the whole plot. Its area is 324 - 180 = 144 square meters, so the ratio of its area to the area of the whole plot is 144/324 = 4/9, and the ratio of corresponding lengths is 2/3. It follows that the altitude of the smaller triangle from the vertex opposite the 27-meter side is (2/3)(24) = 16 meters. The distance between the road and the 27-meter side is the remaining part of the full altitude, 24 - 16 = 8 meters. Therefore, the service road is 8 meters from the 27-meter side.",
+    "distractor_a_explanation": "Choice A is incorrect. This results from omitting the factor of 1/2 when finding the altitude to the 27-meter side, so 324/27 = 12 is used as the full altitude. The altitude of the smaller triangle is then (2/3)(12) = 8, and 12 - 8 = 4.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This is the distance from the service road to the vertex opposite the 27-meter side (the altitude of the smaller triangle), not the distance from the road to the 27-meter side.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the altitude of the entire plot to the 27-meter side, not the distance from the service road to that side.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "geometry",
+    "visual_data": {
+      "shape": "triangle",
+      "side_lengths": [
+        27,
+        30,
+        51
+      ],
+      "side_labels": [
+        "27 m",
+        "30 m",
+        "51 m"
+      ],
+      "angle_labels": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T09:54:44.723243</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"line2d_1\">\n    <path d=\"M 26.181818 182.321485 \nL 333.818182 182.321485 \nL 190.112614 105.678515 \nL 26.181818 182.321485 \n\" clip-path=\"url(#p5557cf5ad6)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- 51 m -->\n    <g transform=\"translate(166.96875 182.321485) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-545\" d=\"M 1956 -63 \nC 2853 -63 3509 594 3509 1488 \nC 3509 2388 2881 3047 2028 3047 \nC 1706 3047 1397 2934 1206 2775 \nL 1181 2775 \nL 1341 4134 \nL 3291 4134 \nL 3291 4656 \nL 841 4656 \nL 566 2350 \nL 1122 2281 \nC 1306 2422 1631 2525 1919 2525 \nC 2503 2525 2928 2078 2928 1478 \nC 2928 888 2519 459 1956 459 \nC 1488 459 1106 759 1069 1175 \nL 494 1175 \nC 525 463 1138 -63 1956 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-540\" d=\"M 2041 4656 \nL 1313 4656 \nL 300 3909 \nL 300 3272 \nL 1425 4106 \nL 1456 4106 \nL 1456 0 \nL 2041 0 \nL 2041 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-6eb\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-300\" d=\"M 494 0 \nL 1056 0 \nL 1056 2200 \nC 1056 2756 1428 3044 1838 3044 \nC 2231 3044 2522 2784 2522 2397 \nL 2522 0 \nL 3084 0 \nL 3084 2281 \nC 3084 2722 3372 3044 3844 3044 \nC 4219 3044 4547 2844 4547 2341 \nL 4547 0 \nL 5113 0 \nL 5113 2356 \nC 5113 3166 4619 3556 4013 3556 \nC 3506 3556 3078 3284 2913 2844 \nC 2788 3275 2481 3556 2022 3556 \nC 1609 3556 1216 3325 1044 2853 \nL 1041 3494 \nL 494 3494 \nL 494 0 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-545\"/>\n     <use xlink:href=\"#Inter-Regular-540\" transform=\"translate(60.796875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(101.46875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-300\" transform=\"translate(129.59375 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- 27 m -->\n    <g transform=\"translate(247.967585 144) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-548\" d=\"M 625 0 \nL 1250 0 \nL 3316 4103 \nL 3316 4656 \nL 306 4656 \nL 306 4134 \nL 2694 4134 \nL 2694 4097 \nL 625 0 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-541\"/>\n     <use xlink:href=\"#Inter-Regular-548\" transform=\"translate(60.984375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(117.578125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-300\" transform=\"translate(145.703125 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_3\">\n    <!-- 30 m -->\n    <g transform=\"translate(93.712529 144) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-543\" d=\"M 1984 -63 \nC 2897 -63 3572 503 3572 1266 \nC 3572 1853 3225 2284 2631 2381 \nL 2631 2419 \nC 3106 2559 3403 2944 3403 3469 \nC 3403 4131 2872 4719 2003 4719 \nC 1184 4719 516 4216 491 3484 \nL 1063 3484 \nC 1081 3938 1516 4203 1991 4203 \nC 2497 4203 2822 3900 2822 3438 \nC 2822 2956 2447 2644 1903 2644 \nL 1525 2644 \nL 1525 2128 \nL 1903 2128 \nC 2594 2128 2984 1775 2984 1272 \nC 2984 788 2559 459 1975 459 \nC 1444 459 1025 731 991 1175 \nL 391 1175 \nC 422 438 1072 -63 1984 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-53f\" d=\"M 2019 -63 \nC 3059 -63 3656 809 3656 2325 \nC 3656 3834 3050 4719 2019 4719 \nC 988 4719 381 3834 381 2325 \nC 381 806 981 -63 2019 -63 \nz\nM 2019 456 \nC 1338 456 953 1144 953 2325 \nC 953 3509 1338 4203 2019 4203 \nC 2700 4203 3084 3513 3084 2325 \nC 3084 1144 2700 456 2019 456 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-543\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(61.765625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(124.859375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-300\" transform=\"translate(152.984375 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"p5557cf5ad6\">\n   <rect x=\"10.8\" y=\"101.846367\" width=\"338.4\" height=\"84.307266\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+  },
+  {
+    "section": "math",
+    "skill_category": "Geometry and Trigonometry",
+    "skill_subcategory": "Area and volume",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "A craft club cuts a flat sector with central angle 216 degrees from a circular sheet of paper of radius 15 cm, as shown. The two straight edges of the sector are joined with no overlap to form an open party hat in the shape of a cone. The hat is then set upright with its tip pointing straight down, and a liquid is poured in until the liquid's depth, measured from the tip, is 8 cm. The volume of the liquid, in cubic centimeters, can be written as kπ. What is the value of k?",
+    "answer_a": "96",
+    "answer_b": "144",
+    "answer_c": "216",
+    "answer_d": "288",
+    "correct_answer": "A",
+    "explanation": "Choice A is correct. When the sector is rolled into a cone, the sector's radius becomes the cone's slant height, so the slant height is 15 cm, and the sector's arc length becomes the circumference of the cone's base. The arc length is (216/360)(2π)(15) = 18π cm. If r is the radius of the base, then 2πr = 18π, so r = 9 cm. By the Pythagorean theorem, the cone's height is √(15² − 9²) = √144 = 12 cm. The liquid forms a smaller cone with the same tip and the same shape as the hat, with height 8 cm. The ratio of the liquid cone's height to the hat's height is 8/12 = 2/3, so the liquid cone's radius is (2/3)(9) = 6 cm. The volume of the liquid is (1/3)π(6²)(8) = 96π cubic centimeters. Therefore, k = 96.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect. This results from finding the hat's volume, (1/3)π(9²)(12) = 324π, and then multiplying by the square of the height ratio, (2/3)² = 4/9, instead of the cube, which gives 144π.",
+    "distractor_c_explanation": "Choice C is incorrect. This results from finding the hat's volume, 324π, and then multiplying by the height ratio, 2/3, as if volume scaled linearly with height, which gives 216π.",
+    "distractor_d_explanation": "Choice D is incorrect. This results from using the correct liquid cone (radius 6 cm, height 8 cm) but leaving out the factor of 1/3 in the cone volume formula, which gives π(6²)(8) = 288π, the volume of a cylinder.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "geometry",
+    "visual_data": {
+      "shape": "circle",
+      "radius": 15,
+      "radius_label": "15 cm"
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T09:54:45.233359</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 180 246.461538 \nC 207.173118 246.461538 233.236953 235.665544 252.451249 216.451249 \nC 271.665544 197.236953 282.461538 171.173118 282.461538 144 \nC 282.461538 116.826882 271.665544 90.763047 252.451249 71.548751 \nC 233.236953 52.334456 207.173118 41.538462 180 41.538462 \nC 152.826882 41.538462 126.763047 52.334456 107.548751 71.548751 \nC 88.334456 90.763047 77.538462 116.826882 77.538462 144 \nC 77.538462 171.173118 88.334456 197.236953 107.548751 216.451249 \nC 126.763047 235.665544 152.826882 246.461538 180 246.461538 \nL 180 246.461538 \nz\n\" clip-path=\"url(#p98c92c3c3f)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"line2d_1\">\n    <path d=\"M 180 144 \nL 282.461538 144 \n\" clip-path=\"url(#p98c92c3c3f)\" style=\"fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- 15 cm -->\n    <g style=\"fill: #2563eb\" transform=\"translate(231.230769 141.950769) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-540\" d=\"M 2041 4656 \nL 1313 4656 \nL 300 3909 \nL 300 3272 \nL 1425 4106 \nL 1456 4106 \nL 1456 0 \nL 2041 0 \nL 2041 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-545\" d=\"M 1956 -63 \nC 2853 -63 3509 594 3509 1488 \nC 3509 2388 2881 3047 2028 3047 \nC 1706 3047 1397 2934 1206 2775 \nL 1181 2775 \nL 1341 4134 \nL 3291 4134 \nL 3291 4656 \nL 841 4656 \nL 566 2350 \nL 1122 2281 \nC 1306 2422 1631 2525 1919 2525 \nC 2503 2525 2928 2078 2928 1478 \nC 2928 888 2519 459 1956 459 \nC 1488 459 1106 759 1069 1175 \nL 494 1175 \nC 525 463 1138 -63 1956 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-6eb\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-24b\" d=\"M 1916 -75 \nC 2600 -75 3156 297 3344 919 \nL 2806 1072 \nC 2703 694 2384 428 1916 428 \nC 1219 428 897 1038 897 1725 \nC 897 2422 1219 3034 1916 3034 \nC 2375 3034 2688 2778 2791 2419 \nL 3331 2572 \nC 3141 3181 2591 3538 1916 3538 \nC 966 3538 325 2819 325 1725 \nC 325 647 966 -75 1916 -75 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-300\" d=\"M 494 0 \nL 1056 0 \nL 1056 2200 \nC 1056 2756 1428 3044 1838 3044 \nC 2231 3044 2522 2784 2522 2397 \nL 2522 0 \nL 3084 0 \nL 3084 2281 \nC 3084 2722 3372 3044 3844 3044 \nC 4219 3044 4547 2844 4547 2341 \nL 4547 0 \nL 5113 0 \nL 5113 2356 \nC 5113 3166 4619 3556 4013 3556 \nC 3506 3556 3078 3284 2913 2844 \nC 2788 3275 2481 3556 2022 3556 \nC 1609 3556 1216 3325 1044 2853 \nL 1041 3494 \nL 494 3494 \nL 494 0 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-540\"/>\n     <use xlink:href=\"#Inter-Regular-545\" transform=\"translate(40.671875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(101.46875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-24b\" transform=\"translate(129.59375 0)\"/>\n     <use xlink:href=\"#Inter-Regular-300\" transform=\"translate(186.71875 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"p98c92c3c3f\">\n   <rect x=\"46.8\" y=\"10.8\" width=\"266.4\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+  },
+  {
+    "section": "math",
+    "skill_category": "Geometry and Trigonometry",
+    "skill_subcategory": "Area and volume",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A ceramics studio shapes a solid clay cone with a circular base of radius 12 centimeters (cm) and a height of 24 cm. The studio then makes a single cut parallel to the base, 6 cm above the base, and discards the smaller cone that is removed from the top. The remaining solid is used as a planter stand. The figure shows a vertical cross section of the original cone through its axis; the base is labeled with its diameter. The volume of the remaining solid is kπ cubic centimeters. What is the value of k?",
+    "answer_a": "288",
+    "answer_b": "486",
+    "answer_c": "666",
+    "answer_d": "1,134",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. The original cone has radius 12 cm and height 24 cm, so its volume is (1/3)π(12)^2(24) = 1,152π cubic centimeters. The cut is made 6 cm above the base, so the removed cone has height 24 - 6 = 18 cm. The cross section of the removed cone is similar to the cross section of the original cone, so its radius is 12(18/24) = 9 cm. The removed cone has volume (1/3)π(9)^2(18) = 486π cubic centimeters. The remaining solid has volume 1,152π - 486π = 666π cubic centimeters. Therefore, k = 666.",
+    "distractor_a_explanation": "Choice A is incorrect. This results from assuming that volume scales in direct proportion to height, so the removed cone has volume (18/24)(1,152π) = 864π and the remaining solid has volume 1,152π - 864π = 288π. Volume scales with the cube of the scale factor, not the scale factor itself.",
+    "distractor_b_explanation": "Choice B is incorrect. This is the volume of the removed top cone (486π), not the volume of the remaining solid.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. This results from treating the 6 cm cut height as the height of the removed cone, so its radius is taken as 12(6/24) = 3 cm and its volume is (1/3)π(3)^2(6) = 18π, giving 1,152π - 18π = 1,134π. The removed cone is the top 18 cm of the original cone, not the bottom 6 cm.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "geometry",
+    "visual_data": {
+      "shape": "triangle",
+      "side_lengths": [
+        26.83,
+        26.83,
+        24
+      ],
+      "side_labels": [
+        "",
+        "",
+        "24"
+      ],
+      "angle_labels": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T09:54:45.782727</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"line2d_1\">\n    <path d=\"M 58.893205 265.090909 \nL 301.106795 265.090909 \nL 180 22.909091 \nL 58.893205 265.090909 \n\" clip-path=\"url(#pa6bbc28cd3)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- 24 -->\n    <g transform=\"translate(172.559063 265.090909) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-544\" d=\"M 375 947 \nL 2566 947 \nL 2566 0 \nL 3134 0 \nL 3134 947 \nL 3766 947 \nL 3766 1469 \nL 3134 1469 \nL 3134 4656 \nL 2413 4656 \nL 375 1431 \nL 375 947 \nz\nM 2569 1469 \nL 1009 1469 \nL 1009 1506 \nL 2531 3913 \nL 2569 3913 \nL 2569 1469 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-541\"/>\n     <use xlink:href=\"#Inter-Regular-544\" transform=\"translate(59.421875 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pa6bbc28cd3\">\n   <rect x=\"46.782526\" y=\"10.8\" width=\"266.434949\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+  },
+  {
+    "section": "math",
+    "skill_category": "Geometry and Trigonometry",
+    "skill_subcategory": "Area and volume",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "A craftsperson inlays a circular walnut tabletop with a regular hexagon of maple, so that all six vertices of the hexagon lie on the edge of the tabletop. The figure shows the tabletop. The perimeter of the hexagon is (4x + 12) inches, and the circumference of the tabletop is (3x - 1)π inches. What is the area, in square inches, of the part of the tabletop that is outside the hexagon?",
+    "answer_a": "16π - 24√3",
+    "answer_b": "16π - 24",
+    "answer_c": "64π - 96√3",
+    "answer_d": "16π - 4√3",
+    "correct_answer": "A",
+    "explanation": "Choice A is correct. A regular hexagon inscribed in a circle can be split into 6 equilateral triangles, each with side length equal to the circle's radius r. The perimeter of the hexagon is therefore 6r, so 6r = 4x + 12 and r = (4x + 12)/6. The circumference is 2πr = (3x - 1)π, so 2r = 3x - 1. Substituting gives (4x + 12)/3 = 3x - 1, so 4x + 12 = 9x - 3 and x = 3. Then r = 24/6 = 4 inches. The area of the tabletop is π(4)^2 = 16π square inches. Each equilateral triangle with side 4 has area (4^2)(√3)/4 = 4√3, so the hexagon has area 6(4√3) = 24√3 square inches. Therefore, the area of the part of the tabletop outside the hexagon is 16π - 24√3 square inches.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect. This results from dropping the √3 when finding the area of each equilateral triangle (using 4^2/4 = 4 instead of 4√3), which makes the hexagon's area 24 instead of 24√3.",
+    "distractor_c_explanation": "Choice C is incorrect. This results from taking the radius to be the circumference divided by π, which is 8 (the diameter), rather than divided by 2π. The circle area becomes 64π and the hexagon area 6(64√3/4) = 96√3.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the circle's area minus the area of only one equilateral triangle (4√3); the hexagon is made of 6 such triangles, not 1.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "geometry",
+    "visual_data": {
+      "shape": "circle",
+      "radius": 4
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T09:54:46.391185</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 180 246.461538 \nC 207.173118 246.461538 233.236953 235.665544 252.451249 216.451249 \nC 271.665544 197.236953 282.461538 171.173118 282.461538 144 \nC 282.461538 116.826882 271.665544 90.763047 252.451249 71.548751 \nC 233.236953 52.334456 207.173118 41.538462 180 41.538462 \nC 152.826882 41.538462 126.763047 52.334456 107.548751 71.548751 \nC 88.334456 90.763047 77.538462 116.826882 77.538462 144 \nC 77.538462 171.173118 88.334456 197.236953 107.548751 216.451249 \nC 126.763047 235.665544 152.826882 246.461538 180 246.461538 \nL 180 246.461538 \nz\n\" clip-path=\"url(#p993cee7a89)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linejoin: miter\"/>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"p993cee7a89\">\n   <rect x=\"46.8\" y=\"10.8\" width=\"266.4\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+  },
+  {
+    "section": "math",
+    "skill_category": "Geometry and Trigonometry",
+    "skill_subcategory": "Area and volume",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A woodworker has a triangular offcut of walnut in the shape of the right triangle shown, with dimensions in inches. She cuts a rectangular cutting board from the offcut so that one corner of the board is at the right angle of the offcut and the opposite corner of the board lies on the longest side of the offcut. The length of the board, measured along the longer leg of the offcut, is twice the width of the board, measured along the shorter leg. The two pieces of walnut left over after the board is cut are both triangular. What is the combined area, in square inches, of these two leftover pieces?",
+    "answer_a": "54",
+    "answer_b": "72",
+    "answer_c": "75",
+    "answer_d": "78",
+    "correct_answer": "D",
+    "explanation": "Choice D is correct. The area of the offcut is (1/2)(15)(20) = 150 square inches. Let w be the width of the board, in inches, along the shorter leg; it's given that the length along the longer leg is 2w. The leftover triangle that has the board's far side as one leg has legs 15 - w and 2w, and it is similar to the full offcut because both are right triangles sharing an acute angle. Therefore (15 - w)/(2w) = 15/20, so 20(15 - w) = 30w, which gives 300 = 50w and w = 6. The board is 6 inches by 12 inches, so its area is 72 square inches. Therefore, the combined area of the two leftover pieces is 150 - 72 = 78 square inches.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the area of only one of the two leftover triangles (legs 9 and 12), not the combined area of both.",
+    "distractor_b_explanation": "Choice B is incorrect. This is the area of the cutting board itself, not the combined area of the leftover pieces.",
+    "distractor_c_explanation": "Choice C is incorrect. This results from assuming the board's far corner is at the midpoint of the longest side, so the board takes up half of the offcut, which ignores the given condition that the length is twice the width.",
+    "distractor_d_explanation": "",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "geometry",
+    "visual_data": {
+      "shape": "right_triangle",
+      "side_lengths": [
+        15,
+        20,
+        25
+      ],
+      "side_labels": [
+        "15",
+        "20",
+        "25"
+      ],
+      "angle_labels": [
+        "90°",
+        "",
+        ""
+      ]
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T09:54:46.871645</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"line2d_1\">\n    <path d=\"M 89.181818 265.090909 \nL 270.818182 265.090909 \nL 89.181818 22.909091 \nL 89.181818 265.090909 \n\" clip-path=\"url(#p997e22ebac)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- 15 -->\n    <g transform=\"translate(173.911875 265.090909) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-540\" d=\"M 2041 4656 \nL 1313 4656 \nL 300 3909 \nL 300 3272 \nL 1425 4106 \nL 1456 4106 \nL 1456 0 \nL 2041 0 \nL 2041 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-545\" d=\"M 1956 -63 \nC 2853 -63 3509 594 3509 1488 \nC 3509 2388 2881 3047 2028 3047 \nC 1706 3047 1397 2934 1206 2775 \nL 1181 2775 \nL 1341 4134 \nL 3291 4134 \nL 3291 4656 \nL 841 4656 \nL 566 2350 \nL 1122 2281 \nC 1306 2422 1631 2525 1919 2525 \nC 2503 2525 2928 2078 2928 1478 \nC 2928 888 2519 459 1956 459 \nC 1488 459 1106 759 1069 1175 \nL 494 1175 \nC 525 463 1138 -63 1956 -63 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-540\"/>\n     <use xlink:href=\"#Inter-Regular-545\" transform=\"translate(40.671875 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- 25 -->\n    <g transform=\"translate(172.693125 144) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-541\"/>\n     <use xlink:href=\"#Inter-Regular-545\" transform=\"translate(60.984375 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_3\">\n    <!-- 20 -->\n    <g transform=\"translate(81.737131 144) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-53f\" d=\"M 2019 -63 \nC 3059 -63 3656 809 3656 2325 \nC 3656 3834 3050 4719 2019 4719 \nC 988 4719 381 3834 381 2325 \nC 381 806 981 -63 2019 -63 \nz\nM 2019 456 \nC 1338 456 953 1144 953 2325 \nC 953 3509 1338 4203 2019 4203 \nC 2700 4203 3084 3513 3084 2325 \nC 3084 1144 2700 456 2019 456 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-541\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(60.984375 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_4\">\n    <!-- 90° -->\n    <g style=\"fill: #2563eb\" transform=\"translate(94.181818 260.090909) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-54a\" d=\"M 1884 -63 \nC 2938 -63 3588 866 3588 2513 \nC 3588 4225 2728 4706 1963 4719 \nC 1006 4734 381 4025 381 3156 \nC 381 2259 1044 1616 1847 1616 \nC 2334 1616 2744 1856 2994 2238 \nL 3031 2238 \nC 3031 1109 2594 463 1884 463 \nC 1394 463 1103 772 1006 1184 \nL 419 1184 \nC 528 441 1094 -63 1884 -63 \nz\nM 1934 2134 \nC 1372 2134 963 2588 963 3159 \nC 963 3734 1391 4197 1953 4197 \nC 2525 4197 2947 3706 2947 3172 \nC 2947 2625 2500 2134 1934 2134 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-619\" d=\"M 1463 2591 \nC 2038 2591 2509 3059 2509 3638 \nC 2509 4219 2038 4694 1463 4694 \nC 881 4694 406 4219 406 3638 \nC 406 3059 881 2591 1463 2591 \nz\nM 1463 3059 \nC 1138 3059 878 3319 878 3638 \nC 878 3959 1138 4222 1463 4222 \nC 1781 4222 2041 3959 2041 3638 \nC 2041 3319 1781 3059 1463 3059 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-54a\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(62.015625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-619\" transform=\"translate(125.109375 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"p997e22ebac\">\n   <rect x=\"80.1\" y=\"10.8\" width=\"199.8\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+  },
+  {
+    "section": "math",
+    "skill_category": "Geometry and Trigonometry",
+    "skill_subcategory": "Area and volume",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A grain hopper is shaped like an inverted cone, with its vertex pointing down and a circular opening at the top. The top opening has a diameter of 18 feet, and the hopper is 12 feet tall. The figure shows a vertical cross-section through the vertex. The hopper currently holds grain to a depth that is 2/3 of the hopper's height, measured from the vertex. A conveyor adds grain at a constant rate of 6π cubic feet per minute. How many more minutes will it take to fill the hopper completely?",
+    "answer_a": "18",
+    "answer_b": "30",
+    "answer_c": "38",
+    "answer_d": "54",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. The hopper is a cone with radius 9 feet and height 12 feet. The grain forms a smaller cone that is similar to the hopper, with a depth that is 2/3 of the hopper's height. Because volume scales with the cube of the linear scale factor, the grain's volume is (2/3)^3 = 8/27 of the hopper's volume. The hopper's volume is (1/3)π(9^2)(12) = 324π cubic feet, so the grain's volume is (8/27)(324π) = 96π cubic feet. The space still to be filled is 324π - 96π = 228π cubic feet. At 6π cubic feet per minute, this takes 228π / 6π = 38 minutes. Therefore, it will take 38 more minutes to fill the hopper completely.",
+    "distractor_a_explanation": "Choice A is incorrect. This results from treating the grain's volume as 2/3 of the hopper's volume (216π cubic feet) because the depth is 2/3 of the height, which leaves 108π cubic feet to fill; 108π / 6π = 18. Volume does not scale linearly with depth for a cone.",
+    "distractor_b_explanation": "Choice B is incorrect. This results from squaring the depth ratio instead of cubing it, so the grain's volume is taken as (2/3)^2 = 4/9 of 324π, or 144π cubic feet. That leaves 180π cubic feet to fill, and 180π / 6π = 30. Volume of a similar solid scales with the cube of the scale factor, not the square.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. This is the time to fill the entire hopper from empty (324π / 6π = 54 minutes). It ignores the grain already in the hopper.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "geometry",
+    "visual_data": {
+      "shape": "triangle",
+      "side_lengths": [
+        18,
+        15,
+        15
+      ],
+      "side_labels": [
+        "18 ft",
+        "",
+        ""
+      ],
+      "angle_labels": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T09:54:47.376345</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"line2d_1\">\n    <path d=\"M 53.863636 265.090909 \nL 306.136364 265.090909 \nL 124.5 22.909091 \nL 53.863636 265.090909 \n\" clip-path=\"url(#pe424962a2f)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- 18 ft -->\n    <g transform=\"translate(203.500057 144) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-540\" d=\"M 2041 4656 \nL 1313 4656 \nL 300 3909 \nL 300 3272 \nL 1425 4106 \nL 1456 4106 \nL 1456 0 \nL 2041 0 \nL 2041 4656 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-549\" d=\"M 1978 -63 \nC 2916 -63 3578 478 3578 1238 \nC 3578 1825 3175 2325 2669 2419 \nL 2669 2444 \nC 3109 2559 3403 2988 3403 3481 \nC 3403 4191 2794 4719 1978 4719 \nC 1150 4719 550 4191 550 3481 \nC 550 2988 838 2559 1291 2444 \nL 1291 2419 \nC 769 2325 381 1825 381 1238 \nC 381 478 1031 -63 1978 -63 \nz\nM 1978 453 \nC 1350 453 966 775 966 1269 \nC 966 1784 1391 2153 1978 2153 \nC 2553 2153 2984 1784 2984 1269 \nC 2984 775 2594 453 1978 453 \nz\nM 1978 2650 \nC 1475 2650 1125 2966 1125 3438 \nC 1125 3903 1463 4206 1978 4206 \nC 2484 4206 2828 3903 2828 3438 \nC 2828 2966 2469 2650 1978 2650 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-6eb\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-288\" d=\"M 2119 3494 \nL 1313 3494 \nL 1313 3834 \nC 1313 4172 1463 4353 1809 4353 \nC 1966 4353 2053 4319 2113 4300 \nL 2269 4781 \nC 2184 4819 2009 4875 1744 4875 \nC 1234 4875 750 4566 750 3959 \nL 750 3494 \nL 63 3494 \nL 63 3013 \nL 750 3013 \nL 750 0 \nL 1313 0 \nL 1313 3013 \nL 2119 3013 \nL 2119 3494 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-37b\" d=\"M 1869 3494 \nL 1150 3494 \nL 1150 4325 \nL 588 4325 \nL 588 3494 \nL 63 3494 \nL 63 3013 \nL 588 3013 \nL 588 863 \nC 588 291 944 -44 1547 -44 \nC 1691 -44 1850 -22 1966 19 \nL 1850 494 \nC 1756 475 1634 456 1563 456 \nC 1266 456 1150 594 1150 906 \nL 1150 3013 \nL 1869 3013 \nL 1869 3494 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-540\"/>\n     <use xlink:href=\"#Inter-Regular-549\" transform=\"translate(40.671875 0)\"/>\n     <use xlink:href=\"#Inter-Regular-6eb\" transform=\"translate(102.53125 0)\"/>\n     <use xlink:href=\"#Inter-Regular-288\" transform=\"translate(130.65625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-37b\" transform=\"translate(164.25 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pe424962a2f\">\n   <rect x=\"41.25\" y=\"10.8\" width=\"277.5\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+  },
+  {
+    "section": "math",
+    "skill_category": "Geometry and Trigonometry",
+    "skill_subcategory": "Area and volume",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A rain-barrel company builds a closed prototype barrel in the shape of a right circular cylinder. The figure shows a side view of the prototype, where the width of the rectangle is the diameter of the cylinder and the height of the rectangle is the height of the cylinder; both measurements are in centimeters. The production barrel is a larger, similar cylinder. The total outer surface area of the prototype (including both circular ends) is 680π square centimeters, and the total outer surface area of the production barrel is 1,530π square centimeters. The volume of the production barrel is kπ liters. What is the value of k? (1 liter = 1,000 cubic centimeters)",
+    "answer_a": "3.6",
+    "answer_b": "5.4",
+    "answer_c": "8.1",
+    "answer_d": "32.4",
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. The prototype has diameter 20 centimeters, so its radius is 10 centimeters, and its height is 24 centimeters. Its volume is π(10)^2(24) = 2,400π cubic centimeters, which is 2.4π liters. The ratio of the surface areas of the two similar cylinders is 680π : 1,530π = 4 : 9. The ratio of corresponding lengths is the square root of the area ratio, so the linear scale factor is 2 : 3, and the ratio of the volumes is 2^3 : 3^3 = 8 : 27. Therefore, the volume of the production barrel is 2.4π(27/8) = 8.1π liters, so k = 8.1.",
+    "distractor_a_explanation": "Choice A is incorrect. This results from taking the square root of the surface area ratio to get the scale factor 3/2 but then multiplying the prototype volume, 2.4π liters, by 3/2 rather than cubing it. Volume scales with the cube of the linear scale factor.",
+    "distractor_b_explanation": "Choice B is incorrect. This results from multiplying the prototype volume, 2.4π liters, by the surface area ratio 9/4 rather than by the volume ratio 27/8. The area ratio applies to surface areas, not volumes.",
+    "distractor_c_explanation": "",
+    "distractor_d_explanation": "Choice D is incorrect. This results from reading the 20-centimeter width as the radius instead of the diameter, which gives a prototype volume of π(20)^2(24) = 9,600π cubic centimeters, or 9.6π liters, and then scaling by 27/8 to get 32.4π liters.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "geometry",
+    "visual_data": {
+      "shape": "rectangle",
+      "width": 20,
+      "height": 24,
+      "width_label": "20",
+      "height_label": "24"
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T09:54:48.032434</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 110.625 227.25 \nL 249.375 227.25 \nL 249.375 60.75 \nL 110.625 60.75 \nL 110.625 227.25 \nz\n\" clip-path=\"url(#pd6be340b54)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- 20 -->\n    <g transform=\"translate(172.555313 243.9) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-541\" d=\"M 481 0 \nL 3447 0 \nL 3447 522 \nL 1300 522 \nL 1300 559 \nL 2319 1644 \nC 3141 2519 3369 2916 3369 3419 \nC 3369 4147 2778 4719 1947 4719 \nC 1119 4719 494 4159 494 3334 \nL 1063 3334 \nC 1063 3859 1400 4203 1931 4203 \nC 2428 4203 2806 3900 2806 3413 \nC 2806 2984 2544 2666 2028 2106 \nL 481 428 \nL 481 0 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-53f\" d=\"M 2019 -63 \nC 3059 -63 3656 809 3656 2325 \nC 3656 3834 3050 4719 2019 4719 \nC 988 4719 381 3834 381 2325 \nC 381 806 981 -63 2019 -63 \nz\nM 2019 456 \nC 1338 456 953 1144 953 2325 \nC 953 3509 1338 4203 2019 4203 \nC 2700 4203 3084 3513 3084 2325 \nC 3084 1144 2700 456 2019 456 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-541\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(60.984375 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- 24 -->\n    <g transform=\"translate(81.868125 148.365234) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-544\" d=\"M 375 947 \nL 2566 947 \nL 2566 0 \nL 3134 0 \nL 3134 947 \nL 3766 947 \nL 3766 1469 \nL 3134 1469 \nL 3134 4656 \nL 2413 4656 \nL 375 1431 \nL 375 947 \nz\nM 2569 1469 \nL 1009 1469 \nL 1009 1506 \nL 2531 3913 \nL 2569 3913 \nL 2569 1469 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-541\"/>\n     <use xlink:href=\"#Inter-Regular-544\" transform=\"translate(59.421875 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pd6be340b54\">\n   <rect x=\"69\" y=\"10.8\" width=\"222\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+  },
+  {
+    "section": "math",
+    "skill_category": "Geometry and Trigonometry",
+    "skill_subcategory": "Area and volume",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A machinist starts with a solid aluminum cube. The sum of the lengths of all 12 edges of the cube is 120 centimeters. She then drills a cylindrical hole straight through the center of one pair of opposite faces, so that the hole's axis is perpendicular to those faces. The diameter of the hole is two-fifths of the cube's edge length. The figure shows one of the faces that was drilled, before drilling. What is the total surface area, in square centimeters, of the drilled solid, including the inside wall of the hole?",
+    "answer_a": "600 - 8π",
+    "answer_b": "600 + 32π",
+    "answer_c": "600 + 36π",
+    "answer_d": "600 + 40π",
+    "correct_answer": "B",
+    "explanation": "Choice B is correct. A cube has 12 edges of equal length, so it's given that 12s = 120, where s is the edge length in centimeters. Therefore, s = 10. The diameter of the hole is (2/5)(10) = 4 centimeters, so the radius of the hole is 2 centimeters. Before drilling, the surface area of the cube is 6(10)² = 600 square centimeters. Drilling removes a circle of radius 2 from each of the two drilled faces, which removes 2(π)(2)² = 8π square centimeters. Drilling also creates an inside wall, which is a cylinder's lateral surface with radius 2 and height 10 and has area 2π(2)(10) = 40π square centimeters. Therefore, the total surface area is 600 - 8π + 40π = 600 + 32π square centimeters.",
+    "distractor_a_explanation": "Choice A is incorrect. This is the surface area of the cube after the two circular openings are removed, but it doesn't include the inside wall of the hole.",
+    "distractor_b_explanation": "",
+    "distractor_c_explanation": "Choice C is incorrect. This results from removing the area of only one circular opening (4π) instead of both openings before adding the inside wall.",
+    "distractor_d_explanation": "Choice D is incorrect. This is the cube's original surface area plus the inside wall of the hole, without subtracting the area of the two circular openings.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "geometry",
+    "visual_data": {
+      "shape": "rectangle",
+      "width": 10,
+      "height": 10,
+      "width_label": "s",
+      "height_label": "s"
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T09:54:48.551097</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"patch_2\">\n    <path d=\"M 96.75 227.25 \nL 263.25 227.25 \nL 263.25 60.75 \nL 96.75 60.75 \nL 96.75 227.25 \nz\n\" clip-path=\"url(#pb856723141)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linejoin: miter\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- s -->\n    <g transform=\"translate(176.833125 243.9) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-369\" d=\"M 1681 -75 \nC 2500 -75 3059 372 3059 984 \nC 3059 1463 2763 1778 2128 1928 \nL 1600 2053 \nC 1191 2150 1013 2294 1013 2553 \nC 1013 2844 1325 3059 1741 3059 \nC 2191 3059 2388 2816 2484 2566 \nL 2994 2697 \nC 2834 3188 2456 3538 1738 3538 \nC 994 3538 444 3119 444 2519 \nC 444 2028 747 1716 1381 1566 \nL 1963 1428 \nC 2306 1347 2475 1188 2475 947 \nC 2475 659 2163 419 1675 419 \nC 1256 419 972 591 872 975 \nL 338 847 \nC 463 244 963 -75 1681 -75 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-369\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- s -->\n    <g transform=\"translate(73.76625 148.365234) scale(0.12 -0.12)\">\n     <use xlink:href=\"#Inter-Regular-369\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pb856723141\">\n   <rect x=\"46.8\" y=\"10.8\" width=\"266.4\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
+  },
+  {
+    "section": "math",
+    "skill_category": "Geometry and Trigonometry",
+    "skill_subcategory": "Area and volume",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "A theater stage floor is shaped like an isosceles trapezoid. The shorter of its two parallel sides, at the back of the stage, is 12 feet long. Each slanted side is 8 feet long and makes a 60° angle with the longer parallel side, at the front of the stage. The figure shows the right triangle formed by one slanted side, the perpendicular distance between the parallel sides, and part of the longer parallel side. A semicircular orchestra pit with a diameter of 12 feet is cut out of the floor, with its diameter centered along the longer parallel side. What is the area, in square feet, of the stage floor that remains?",
+    "answer_a": "64 − 18π",
+    "answer_b": "48√3 − 18π",
+    "answer_c": "56√3 − 18π",
+    "answer_d": "64√3 − 18π",
+    "correct_answer": "D",
+    "explanation": "Choice D is correct. Split off a right triangle at each end of the trapezoid. Each has hypotenuse 8 and a 60° angle at the longer base, so it is a 30-60-90 triangle. The horizontal leg (next to the 60° angle) is 8/2 = 4, and the vertical leg, which is the trapezoid's height, is 4√3. The longer base is therefore 12 + 4 + 4 = 20. The trapezoid's area is (1/2)(12 + 20)(4√3) = 64√3. The semicircular pit has radius 6, so its area is (1/2)π(6)^2 = 18π. The remaining floor is 64√3 − 18π, approximately 54.3 square feet. The pit's radius of 6 is less than the height 4√3 ≈ 6.9, so the pit fits within the stage.",
+    "distractor_a_explanation": "Choice A is incorrect. This results from using 4 (the horizontal leg) as the trapezoid's height instead of 4√3, swapping the sine and cosine sides of the 30-60-90 triangle: (1/2)(32)(4) = 64, then subtracting 18π.",
+    "distractor_b_explanation": "Choice B is incorrect. This results from treating the stage as a 12-by-4√3 rectangle, ignoring the two end triangles and so the longer base of 20: 12 · 4√3 = 48√3, then subtracting 18π.",
+    "distractor_c_explanation": "Choice C is incorrect. This results from adding the 4-foot horizontal extension only once, so the longer base is taken as 16 instead of 20: (1/2)(12 + 16)(4√3) = 56√3, then subtracting 18π.",
+    "distractor_d_explanation": "",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": true,
+    "visual_type": "geometry",
+    "visual_data": {
+      "shape": "right_triangle",
+      "side_lengths": [
+        4,
+        6.9282,
+        8
+      ],
+      "side_labels": [
+        "",
+        "",
+        "8"
+      ],
+      "angle_labels": [
+        "90°",
+        "60°",
+        ""
+      ]
+    },
+    "visual_svg": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"360pt\" height=\"288pt\" viewBox=\"0 0 360 288\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n <metadata>\n  <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n   <cc:Work>\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n    <dc:date>2026-10-24T09:54:49.070040</dc:date>\n    <dc:format>image/svg+xml</dc:format>\n    <dc:creator>\n     <cc:Agent>\n      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>\n     </cc:Agent>\n    </dc:creator>\n   </cc:Work>\n  </rdf:RDF>\n </metadata>\n <defs>\n  <style type=\"text/css\">*{stroke-linejoin: round; stroke-linecap: butt}</style>\n </defs>\n <g id=\"figure_1\">\n  <g id=\"patch_1\">\n   <path d=\"M 0 288 \nL 360 288 \nL 360 0 \nL 0 0 \nz\n\" style=\"fill: #ffffff\"/>\n  </g>\n  <g id=\"axes_1\">\n   <g id=\"line2d_1\">\n    <path d=\"M 110.088098 265.090909 \nL 249.911902 265.090909 \nL 110.088098 22.909091 \nL 110.088098 265.090909 \n\" clip-path=\"url(#pfcf9a7fd05)\" style=\"fill: none; stroke: #0f1f3d; stroke-width: 2; stroke-linecap: square\"/>\n   </g>\n   <g id=\"text_1\">\n    <!-- 8 -->\n    <g transform=\"translate(176.288437 144) scale(0.12 -0.12)\">\n     <defs>\n      <path id=\"Inter-Regular-549\" d=\"M 1978 -63 \nC 2916 -63 3578 478 3578 1238 \nC 3578 1825 3175 2325 2669 2419 \nL 2669 2444 \nC 3109 2559 3403 2988 3403 3481 \nC 3403 4191 2794 4719 1978 4719 \nC 1150 4719 550 4191 550 3481 \nC 550 2988 838 2559 1291 2444 \nL 1291 2419 \nC 769 2325 381 1825 381 1238 \nC 381 478 1031 -63 1978 -63 \nz\nM 1978 453 \nC 1350 453 966 775 966 1269 \nC 966 1784 1391 2153 1978 2153 \nC 2553 2153 2984 1784 2984 1269 \nC 2984 775 2594 453 1978 453 \nz\nM 1978 2650 \nC 1475 2650 1125 2966 1125 3438 \nC 1125 3903 1463 4206 1978 4206 \nC 2484 4206 2828 3903 2828 3438 \nC 2828 2966 2469 2650 1978 2650 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-549\"/>\n    </g>\n   </g>\n   <g id=\"text_2\">\n    <!-- 90° -->\n    <g style=\"fill: #2563eb\" transform=\"translate(115.088098 260.090909) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-54a\" d=\"M 1884 -63 \nC 2938 -63 3588 866 3588 2513 \nC 3588 4225 2728 4706 1963 4719 \nC 1006 4734 381 4025 381 3156 \nC 381 2259 1044 1616 1847 1616 \nC 2334 1616 2744 1856 2994 2238 \nL 3031 2238 \nC 3031 1109 2594 463 1884 463 \nC 1394 463 1103 772 1006 1184 \nL 419 1184 \nC 528 441 1094 -63 1884 -63 \nz\nM 1934 2134 \nC 1372 2134 963 2588 963 3159 \nC 963 3734 1391 4197 1953 4197 \nC 2525 4197 2947 3706 2947 3172 \nC 2947 2625 2500 2134 1934 2134 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-53f\" d=\"M 2019 -63 \nC 3059 -63 3656 809 3656 2325 \nC 3656 3834 3050 4719 2019 4719 \nC 988 4719 381 3834 381 2325 \nC 381 806 981 -63 2019 -63 \nz\nM 2019 456 \nC 1338 456 953 1144 953 2325 \nC 953 3509 1338 4203 2019 4203 \nC 2700 4203 3084 3513 3084 2325 \nC 3084 1144 2700 456 2019 456 \nz\n\" transform=\"scale(0.015625)\"/>\n      <path id=\"Inter-Regular-619\" d=\"M 1463 2591 \nC 2038 2591 2509 3059 2509 3638 \nC 2509 4219 2038 4694 1463 4694 \nC 881 4694 406 4219 406 3638 \nC 406 3059 881 2591 1463 2591 \nz\nM 1463 3059 \nC 1138 3059 878 3319 878 3638 \nC 878 3959 1138 4222 1463 4222 \nC 1781 4222 2041 3959 2041 3638 \nC 2041 3319 1781 3059 1463 3059 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-54a\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(62.015625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-619\" transform=\"translate(125.109375 0)\"/>\n    </g>\n   </g>\n   <g id=\"text_3\">\n    <!-- 60° -->\n    <g style=\"fill: #2563eb\" transform=\"translate(254.911902 260.090909) scale(0.11 -0.11)\">\n     <defs>\n      <path id=\"Inter-Regular-547\" d=\"M 2019 -63 \nC 2969 -63 3588 634 3588 1503 \nC 3588 2403 2925 3044 2128 3044 \nC 1644 3044 1231 2813 981 2425 \nL 944 2425 \nC 944 3544 1375 4194 2091 4194 \nC 2575 4194 2866 3888 2969 3484 \nL 3550 3484 \nC 3438 4216 2872 4719 2091 4719 \nC 1034 4719 381 3788 381 2150 \nC 381 434 1241 -63 2019 -63 \nz\nM 2019 459 \nC 1447 459 1028 947 1028 1497 \nC 1028 2041 1469 2528 2034 2528 \nC 2597 2528 3013 2072 3013 1503 \nC 3013 922 2578 459 2019 459 \nz\n\" transform=\"scale(0.015625)\"/>\n     </defs>\n     <use xlink:href=\"#Inter-Regular-547\"/>\n     <use xlink:href=\"#Inter-Regular-53f\" transform=\"translate(62.015625 0)\"/>\n     <use xlink:href=\"#Inter-Regular-619\" transform=\"translate(125.109375 0)\"/>\n    </g>\n   </g>\n  </g>\n </g>\n <defs>\n  <clipPath id=\"pfcf9a7fd05\">\n   <rect x=\"103.096908\" y=\"10.8\" width=\"153.806183\" height=\"266.4\"/>\n  </clipPath>\n </defs>\n</svg>\n"
   }
 ]

@@ -683,3 +683,12 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Area and volume, d3] Vineyard triangular plot 13-14-15, similar plot with altitude 33.6 to longest side, area.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Larchmont Parks Dept Lakeside Recreation Center member survey, three proposals with 4% margins, 50% threshold intervals.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] State licensing board electricians simulator vs written refresher, two outcomes, 2% cutoff two-tail simulation (12+11 of 1,000), CI contains 0, random selection scope.
+- [Geometry and Trigonometry/Area and volume, d3] Solar developer triangular plot 27-30-51, Heron area 324, service road parallel to 27 m side, trapezoid 180, road-to-base distance.
+- [Geometry and Trigonometry/Area and volume, d3] Craft-club party hat from 216-degree sector of radius-15 circle, liquid depth 8 cm in cone, volume.
+- [Geometry and Trigonometry/Area and volume, d2] Ceramics studio clay cone r12 h24 cut 6 cm above base, frustum planter stand volume. (generated for d3, calibrated down to d2)
+- [Geometry and Trigonometry/Area and volume, d3] Craftsperson hexagon maple inlay in circular walnut tabletop, perimeter 4x+12 and circumference (3x-1)pi, area outside hexagon.
+- [Geometry and Trigonometry/Area and volume, d2] Woodworker cutting board in 15-20-25 walnut offcut, length twice width, combined leftover triangle area. (generated for d3, calibrated down to d2)
+- [Geometry and Trigonometry/Area and volume, d2] Grain hopper inverted cone d18 h12 filled to 2/3 depth, 6pi cu ft/min fill time. (generated for d3, calibrated down to d2)
+- [Geometry and Trigonometry/Area and volume, d2] Rain-barrel company similar cylinders, surface areas 680pi and 1,530pi, production volume in liters. (generated for d3, calibrated down to d2)
+- [Geometry and Trigonometry/Area and volume, d2] Machinist aluminum cube edge-sum 120 with cylindrical hole through, total surface area incl. inner wall. (generated for d3, calibrated down to d2)
+- [Geometry and Trigonometry/Area and volume, d2] Theater stage isosceles trapezoid 12 ft back, 8 ft legs at 60 degrees, semicircular orchestra pit removed. (generated for d3, calibrated down to d2)
