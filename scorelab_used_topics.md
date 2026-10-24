@@ -692,3 +692,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Area and volume, d2] Rain-barrel company similar cylinders, surface areas 680pi and 1,530pi, production volume in liters. (generated for d3, calibrated down to d2)
 - [Geometry and Trigonometry/Area and volume, d2] Machinist aluminum cube edge-sum 120 with cylindrical hole through, total surface area incl. inner wall. (generated for d3, calibrated down to d2)
 - [Geometry and Trigonometry/Area and volume, d2] Theater stage isosceles trapezoid 12 ft back, 8 ft legs at 60 degrees, semicircular orchestra pit removed. (generated for d3, calibrated down to d2)
+- [Geometry and Trigonometry/Area and volume, d2] Landscape designer 9-12-15 triangular garden bed with inscribed circular fountain pad, groundcover area. (generated for d3, calibrated down to d2)
+- [Geometry and Trigonometry/Area and volume, d3] Cube inscribed in sphere of volume 864 sqrt3 pi, cube surface area.
+- [Geometry and Trigonometry/Area and volume, d3] Park with circular pond, 24 m tangent chord, ring area, 5/8 gravel at $20/m^2.
+- [Geometry and Trigonometry/Area and volume, d2] Sphere and cylinder equal volume and radius, sphere surface area 144 pi, cylinder total surface area. (generated for d3, calibrated down to d2)
+- [Geometry and Trigonometry/Area and volume, d2] Planetarium gift shop glass cone slant 13 lateral 65 pi in matching cylinder case, gel volume. (generated for d3, calibrated down to d2)
+- [Geometry and Trigonometry/Area and volume, d3] Equilateral triangular window pane perimeter 36 with inscribed and circumscribed circles, colored glass ring area.
