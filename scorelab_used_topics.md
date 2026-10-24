@@ -702,3 +702,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Lines, angles, and triangles, d1] Skateboard ramp right triangle with 35-degree ground angle, angle with support wall.
 - [Geometry and Trigonometry/Lines, angles, and triangles, d1] Community-garden triangular flower bed with angles 2x, 3x, 4x, largest angle.
 - [Geometry and Trigonometry/Lines, angles, and triangles, d2] Similar triangles ABC~DEF, AB=6, BC=12, DE=9, find EF. (generated for d1, calibrated up to d2)
+- [Geometry and Trigonometry/Area and volume, d2] Fabricator steel gusset plate 17-25-28, largest inscribed disc radius via altitude and area = r*s. (generated for d3, calibrated down to d2)
+- [Geometry and Trigonometry/Area and volume, d3] Woodworker rectangular walnut inlay x by 2x-4, area 48, corners on circular maple tabletop, varnished area outside inlay.
+- [Geometry and Trigonometry/Area and volume, d3] Cone with slant height 25 and total surface area 224 pi, solve r then h then volume.
