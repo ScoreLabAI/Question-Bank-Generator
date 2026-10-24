@@ -21614,5 +21614,29 @@
       ]
     },
     "visual_svg": null
+  },
+  {
+    "section": "math",
+    "skill_category": "Problem-Solving and Data Analysis",
+    "skill_subcategory": "Evaluating statistical claims",
+    "difficulty": 3,
+    "module_type": "standard",
+    "question_text": "A state licensing board wanted to know whether a simulator-based refresher course changes the performance of licensed electricians. The board randomly selected 120 of the 3,400 licensed electricians in the state. It then randomly assigned 60 of the 120 to a simulator-based refresher course and the other 60 to the standard written refresher course. Two outcomes were measured. For the practical-exam score, the simulator group's mean was 5.1 points higher than the standard group's mean. To test whether this difference could be due to chance alone, the board ran a simulation of 1,000 random re-assignments of the 120 electricians to two groups of 60. In 12 of the re-assignments, the simulator group's mean was at least 5.1 points higher, and in 11 of the re-assignments, the standard group's mean was at least 5.1 points higher. The board had decided in advance to treat a result as convincing only if fewer than 2% of the re-assignments produced a difference at least as extreme as the one observed, in either direction. For the number of code violations found in a follow-up inspection of each electrician's work, a 95% confidence interval for the difference in means (standard minus simulator) was -0.4 to 1.2 violations. Which of the following conclusions is best supported by the results of the study?",
+    "answer_a": "For the state's licensed electricians, the data are not convincing evidence that the simulator course changes either outcome, but they do not show that the course has no effect on either outcome.",
+    "answer_b": "Although the data are not convincing for practical-exam scores, the interval containing 0 shows that the simulator course has no effect on the number of code violations for the state's licensed electricians.",
+    "answer_c": "Random assignment and the simulation results show that the simulator course caused higher practical-exam scores for the state's licensed electricians, and the interval leaves the effect on code violations unclear.",
+    "answer_d": "Although neither result is convincing, the data suggest that the simulator course would also make no real difference for licensed electricians in other states, since the 120 electricians were selected at random.",
+    "correct_answer": "A",
+    "explanation": "Choice A is correct. For the practical-exam score, the simulation counts differences at least as extreme as 5.1 in either direction, so both tails must be included: 12 + 11 = 23 of the 1,000 re-assignments, or 2.3%. Because 2.3% is not less than the board's 2% cutoff, a difference of 5.1 points could plausibly occur by chance alone, so the result is not convincing evidence of a difference in mean scores. For code violations, the 95% confidence interval of -0.4 to 1.2 contains 0, so a mean difference of 0 is plausible, but the interval also contains values such as 1.0 and -0.3, so the data do not show that there is no effect. Because the electricians were randomly selected from the state's licensed electricians, the results can be applied to that population, and because they were randomly assigned to the courses, a convincing difference could have been attributed to the course. Therefore, the data are not convincing evidence that the simulator course changes either outcome, but the data do not show that the course has no effect on either outcome.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect. A confidence interval that contains 0 means that no difference is plausible, not that it has been shown that there is no difference; the interval also contains positive and negative values, so an effect cannot be ruled out.",
+    "distractor_c_explanation": "Choice C is incorrect. This results from counting only one direction of the simulation (12 of 1,000, or 1.2%, which is below 2%) instead of both directions (23 of 1,000, or 2.3%, which is not below 2%).",
+    "distractor_d_explanation": "Choice D is incorrect. The electricians were randomly selected only from the state's licensed electricians, so the results cannot be generalized to electricians in other states, whether the conclusion is about an effect or no effect.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
   }
 ]

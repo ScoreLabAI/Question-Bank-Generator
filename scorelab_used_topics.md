@@ -682,3 +682,4 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Area and volume, d2] School running track rectangle with semicircular ends, perimeter 96+14pi, enclosed area.
 - [Geometry and Trigonometry/Area and volume, d3] Vineyard triangular plot 13-14-15, similar plot with altitude 33.6 to longest side, area.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Larchmont Parks Dept Lakeside Recreation Center member survey, three proposals with 4% margins, 50% threshold intervals.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d3] State licensing board electricians simulator vs written refresher, two outcomes, 2% cutoff two-tail simulation (12+11 of 1,000), CI contains 0, random selection scope.
