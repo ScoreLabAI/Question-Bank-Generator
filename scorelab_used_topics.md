@@ -709,3 +709,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Lines, angles, and triangles, d1] Roof truss triangle, angles 52 and 63, exterior angle at C.
 - [Geometry and Trigonometry/Lines, angles, and triangles, d1] Ladder against wall right triangle, acute angles (x+10) and (2x+5), ground angle.
 - [Geometry and Trigonometry/Lines, angles, and triangles, d1] Garden shed gable isosceles, base angles 52, apex angle.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Equilateral trellis panel sides 2x+3, 2x+3, 15, find x.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] TV wall mount arm 16, post 12, brace hypotenuse c (Pythagorean).
+- [Geometry and Trigonometry/Area and volume, d3] Right triangle legs x and x+7, hypotenuse 17, semicircle on hypotenuse minus triangle area.
