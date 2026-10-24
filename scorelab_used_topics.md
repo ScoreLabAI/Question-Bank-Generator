@@ -698,3 +698,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Area and volume, d2] Sphere and cylinder equal volume and radius, sphere surface area 144 pi, cylinder total surface area. (generated for d3, calibrated down to d2)
 - [Geometry and Trigonometry/Area and volume, d2] Planetarium gift shop glass cone slant 13 lateral 65 pi in matching cylinder case, gel volume. (generated for d3, calibrated down to d2)
 - [Geometry and Trigonometry/Area and volume, d3] Equilateral triangular window pane perimeter 36 with inscribed and circumscribed circles, colored glass ring area.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Triangular pennant, 40-degree apex between two 10 ft equal sides, base angle.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Skateboard ramp right triangle with 35-degree ground angle, angle with support wall.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Community-garden triangular flower bed with angles 2x, 3x, 4x, largest angle.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Similar triangles ABC~DEF, AB=6, BC=12, DE=9, find EF. (generated for d1, calibrated up to d2)
