@@ -663,3 +663,12 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Area and volume, d2] Veterinary dog run width w, length w+7, perimeter 50 m, find area.
 - [Geometry and Trigonometry/Area and volume, d1] Cylindrical grain silo radius 6 ft height 10 ft, fill time at 12pi cu ft per minute.
 - [Geometry and Trigonometry/Area and volume, d1] Shipping crate 36 by 24 by 18 in filled with 6 in cubes, count.
+- [Geometry and Trigonometry/Area and volume, d2] Rectangular metal plate 20 by 12 cm with circular hole radius 3 cm, mass at 2 g per sq cm.
+- [Geometry and Trigonometry/Area and volume, d2] Plant nursery rainwater tank base 2.5 by 1.6 m, depth 35 cm, volume in liters.
+- [Geometry and Trigonometry/Area and volume, d1] Cylindrical tank radius 4 in height 9 in, redesigned with doubled radius and one-third height.
+- [Geometry and Trigonometry/Area and volume, d2] School spirit club isosceles pennant sides 13, 13, base 10, area via altitude.
+- [Geometry and Trigonometry/Area and volume, d2] Skate park pad 20 by 12 m, length +40% and width +25%, percent area increase.
+- [Geometry and Trigonometry/Area and volume, d2] Splash pad basin 20 by 9 ft, 8 in depth, hose 25 gal/min, 7.5 gal per cu ft, fill time.
+- [Geometry and Trigonometry/Area and volume, d1] Metal sphere radius 3 cm submerged in cylinder radius 6 cm, water level rise.
+- [Geometry and Trigonometry/Area and volume, d2] Grain-feed container cylinder topped by cone radius 3 ft, total height 14 ft, cone 6 ft.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Dunleigh Driving Institute simulator vs video randomized volunteers, difference CI excludes 0 while group CIs overlap.
