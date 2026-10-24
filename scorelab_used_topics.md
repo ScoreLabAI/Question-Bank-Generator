@@ -672,3 +672,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Area and volume, d1] Metal sphere radius 3 cm submerged in cylinder radius 6 cm, water level rise.
 - [Geometry and Trigonometry/Area and volume, d2] Grain-feed container cylinder topped by cone radius 3 ft, total height 14 ft, cone 6 ft.
 - [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Dunleigh Driving Institute simulator vs video randomized volunteers, difference CI excludes 0 while group CIs overlap.
+- [Geometry and Trigonometry/Area and volume, d2] Conical paper cup (d 12, h 16) poured into cylindrical glass d 8, water height.
+- [Geometry and Trigonometry/Area and volume, d2] Circular reflecting pool walkway width 5 ft, outer circumference 60pi, resurfacing cost at $6/sq ft.
+- [Geometry and Trigonometry/Area and volume, d2] Cylindrical tank radius +25%, volume +40%, percent change in lateral surface area.
+- [Geometry and Trigonometry/Area and volume, d2] Rectangular reflecting pool length pi times width, perimeter 16pi+16, equal-area circular fountain basin circumference.
+- [Geometry and Trigonometry/Area and volume, d2] Theater storage shed right triangular prism 8-15-17, paint cost with whole gallons, floor excluded.
+- [Geometry and Trigonometry/Area and volume, d2] Candle-maker square pyramid mold base 24, slant edge 22, wax cost per 100 cu cm.
+- [Geometry and Trigonometry/Area and volume, d2] Metal sphere inscribed in cylindrical canister of volume 432pi, packing-foam volume.
+- [Geometry and Trigonometry/Area and volume, d2] School running track rectangle with semicircular ends, perimeter 96+14pi, enclosed area.
+- [Geometry and Trigonometry/Area and volume, d3] Vineyard triangular plot 13-14-15, similar plot with altitude 33.6 to longest side, area.
+- [Problem-Solving and Data Analysis/Evaluating statistical claims, d2] Larchmont Parks Dept Lakeside Recreation Center member survey, three proposals with 4% margins, 50% threshold intervals.
