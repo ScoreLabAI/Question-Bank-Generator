@@ -705,3 +705,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Area and volume, d2] Fabricator steel gusset plate 17-25-28, largest inscribed disc radius via altitude and area = r*s. (generated for d3, calibrated down to d2)
 - [Geometry and Trigonometry/Area and volume, d3] Woodworker rectangular walnut inlay x by 2x-4, area 48, corners on circular maple tabletop, varnished area outside inlay.
 - [Geometry and Trigonometry/Area and volume, d3] Cone with slant height 25 and total surface area 224 pi, solve r then h then volume.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Sailmaker triangular sail, angles 47 and 71, third angle.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Roof truss triangle, angles 52 and 63, exterior angle at C.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Ladder against wall right triangle, acute angles (x+10) and (2x+5), ground angle.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Garden shed gable isosceles, base angles 52, apex angle.
