@@ -740,3 +740,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Lines, angles, and triangles, d2] Baker's puff pastry triangle BCD, perpendicular cut CA, angles 45 and 30, CD=16, perimeter via 45-45-90 and 30-60-90. (generated for d3, calibrated d2)
 - [Geometry and Trigonometry/Lines, angles, and triangles, d3] Clinic waiting-area right triangle, partition wall CD altitude, AD=x, DB=x+7, CD=2x-6 (quadratic, reject x=4/3).
 - [Geometry and Trigonometry/Lines, angles, and triangles, d3] Radio telescopes triangle with centroid G, AG=x^2-4x+1, GD=x-2, GE=x+2 (reject x=1), distance BE.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d1] Hiker west then south to lookout tower, 8 and 17 km, missing leg 15.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d1] Triangle ABC right angle B, BC=9, AC=41, sin A (9-40-41).
+- [Geometry and Trigonometry/Right triangles and trigonometry, d1] Triangle ABC right angle A, AB=20, AC=21, tan B (20-21-29).
+- [Geometry and Trigonometry/Right triangles and trigonometry, d1] Square quilt block side 7 in, ribbon along diagonal, 45-45-90, 7sqrt2.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d1] Pure 30-60-90 triangle, hypotenuse 18 cm, side opposite 30 degrees.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d1] Community garden paths 12 m and 16 m meeting at gate, new path greenhouse to compost, hypotenuse 20.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d1] Right triangle hypotenuse 136 cm, sin A = 8/17, opposite side 64.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Triangle right angle C, sin A = 7/25, find cos B (cofunction). (generated for d1, calibrated d2)
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Surveyor's cross-staff 5-12-13 similar to field triangle, hypotenuse 65 m, side opposite theta 25. (generated for d1, calibrated d2)
+- [Geometry and Trigonometry/Right triangles and trigonometry, d1] Rectangular cabinet door 36 in wide, 60 in diagonal brace, height 48.
