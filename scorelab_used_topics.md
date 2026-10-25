@@ -722,3 +722,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Lines, angles, and triangles, d2] Dog run right triangle legs x and x+7, hypotenuse 13, fencing perimeter.
 - [Geometry and Trigonometry/Lines, angles, and triangles, d2] Weather mast 72 ft shadow vs 5 ft surveyor 12 ft shadow, mast-top to shadow-tip distance.
 - [Geometry and Trigonometry/Lines, angles, and triangles, d2] Pergola brace sides 9 and 14 and whole-number x, smallest perimeter (triangle inequality).
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Parallel lines m and n with transversal AB, triangle ABC, angle DAB 48 and angle ACB 67, find angle BAC.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Loading ramp side panel 30-60-90 triangle, 4 ft vertical side, trim strip perimeter. (generated for d2, calibrated d1)
