@@ -712,3 +712,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Lines, angles, and triangles, d1] Equilateral trellis panel sides 2x+3, 2x+3, 15, find x.
 - [Geometry and Trigonometry/Lines, angles, and triangles, d1] TV wall mount arm 16, post 12, brace hypotenuse c (Pythagorean).
 - [Geometry and Trigonometry/Area and volume, d3] Right triangle legs x and x+7, hypotenuse 17, semicircle on hypotenuse minus triangle area.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Urban-farm rectangular plot diagonal path 13 m, short side 5, find long side x (Pythagorean leg).
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Playground shade sail isosceles, apex (6x+4), base angles (3x+4), apex angle. (generated for d2, calibrated d1)
+- [Geometry and Trigonometry/Lines, angles, and triangles, d1] Camping tent flap isosceles, sides 3x-2 and x+8 equal, base 2x+1, perimeter 37. (generated for d2, calibrated d1)
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Museum atrium 9-12-15 glass triangle, altitude support post to hypotenuse (7.2).
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Sailing-club similar sails 6-8-10 vs 15-foot corresponding side, larger area.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Garden bed stakes A,B,C exterior angle at C (5x-10) with remote angles 3x-5, x+25, interior angle at C.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Shade cloth ABC with cord DE parallel to BC, AD=8, DB=12, BC=30, find DE.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Dog run right triangle legs x and x+7, hypotenuse 13, fencing perimeter.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Weather mast 72 ft shadow vs 5 ft surveyor 12 ft shadow, mast-top to shadow-tip distance.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Pergola brace sides 9 and 14 and whole-number x, smallest perimeter (triangle inequality).
