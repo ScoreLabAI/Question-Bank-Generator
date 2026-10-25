@@ -486,8 +486,9 @@
       "skill_subcategory": "Lines, angles, and triangles",
       "difficulty": 2,
       "target_count": 10,
-      "status": "pending",
-      "accepted_count": 9
+      "status": "complete",
+      "accepted_count": 12,
+      "note": "2026-10-25 (run 73): +1 from d2 draft (parallel lines alternate-interior then angle sum) and +3 from d3-intended drafts (BIC, straight-angle-on-parallel-lines, bisector theorem + parallel). 30-60-90 perimeter item calibrated Easy (banked d1). Cell now 12/10 (overshoot)."
     },
     {
       "domain": "math",
@@ -496,7 +497,8 @@
       "difficulty": 3,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 5,
+      "note": "2026-10-25 (run 73): 8 hard attempts, 5 confirmed Hard and banked: DE||BC similarity with quadratic and rejected root then quadrilateral perimeter; altitude-to-hypotenuse with 1:4 ratio then radical legs and perimeter; isosceles 36-72-72 split with D off-figure; median + altitude angle MCH (borderline, shortcut |A-B|); right-triangle legs 3x,6x with area then inscribed corner square perimeter. Calibrated DOWN to Medium (banked d2): angle bisectors BIC with algebraic angle sum; straight-angle at A on parallel lines then angle sum (ACB = x+35 shortcut); angle bisector theorem + parallel line DE (shortcut AB*AC/(AB+AC)). Hard needs a rejected-root or 4+ step chain with no one-line shortcut."
     },
     {
       "domain": "math",

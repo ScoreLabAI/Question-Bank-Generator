@@ -724,3 +724,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Lines, angles, and triangles, d2] Pergola brace sides 9 and 14 and whole-number x, smallest perimeter (triangle inequality).
 - [Geometry and Trigonometry/Lines, angles, and triangles, d2] Parallel lines m and n with transversal AB, triangle ABC, angle DAB 48 and angle ACB 67, find angle BAC.
 - [Geometry and Trigonometry/Lines, angles, and triangles, d1] Loading ramp side panel 30-60-90 triangle, 4 ft vertical side, trim strip perimeter. (generated for d2, calibrated d1)
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Rooftop garden triangle, angles 4x-8, 5x+2, 3x+6, bisectors of B and C meet at I, angle BIC. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Pedestrian bridge brace under parallel deck lines, angles 2x+10, 4x-5, x+35 at A, find angle ACB. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Triangle AB=10 AC=15 BC=20, bisector of A meets BC at D, line DE parallel to AC, find DE. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] Triangle ABC with DE parallel to BC, AD=x, DB=x+4, DE=x+3, BC=5x-6, AC=4x+8, AB=2x+4, perimeter of DBCE (quadratic, reject negative root).
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] Right triangle ABC right angle at C, altitude CH=4, AH:HB=1:4, perimeter of ABC.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] Isosceles ABC AB=AC, D on AC with BD=BC=AD, angle ADB (36-72-72).
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] Right triangle angle A 28 degrees, M midpoint of hypotenuse, H foot of altitude, angle MCH.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] Woodworker plywood right triangle legs 3x and 6x, area 144, inscribed corner square perimeter.
