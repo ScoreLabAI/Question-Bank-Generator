@@ -752,3 +752,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Right triangles and trigonometry, d1] Rectangular cabinet door 36 in wide, 60 in diagonal brace, height 48.
 - [Geometry and Trigonometry/Right triangles and trigonometry, d1] Triangular garden bed legs 28 ft and 45 ft, cos of angle between 28 leg and longest side (28-45-53).
 - [Geometry and Trigonometry/Right triangles and trigonometry, d1] Metal shelf bracket 45-45-90, hypotenuse 14sqrt2, find leg 14.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Park ranger 40 m from fire lookout tower, tan theta 3/4, walks 60 m farther, new tangent 3/10.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Sailboat triangular sail, 60 degree angle, side opposite 12sqrt3 ft, perimeter 36+12sqrt3.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Radio mast with 15 m wire 9 m from base, second wire to stake 35 m away, length 37 (9-12-15 then 12-35-37).
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Right triangle ABC, angles (3k+4) and (2k-4) complementary via sin=cos, find angle A = 58.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Rectangular display screen 48 in wide with 52 in diagonal, area 960 (20-48-52).
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] 25 ft ladder base 7 ft from wall, top slides down 4 ft, base moves out 8 ft.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Equilateral felt patch side 18 cm, altitude 9sqrt3, area 81sqrt3.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Right triangle ABC tan A = 8/15 with perimeter 120, hypotenuse 51.
