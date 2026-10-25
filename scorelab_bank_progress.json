@@ -487,8 +487,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "complete",
-      "accepted_count": 12,
-      "note": "2026-10-25 (run 73): +1 from d2 draft (parallel lines alternate-interior then angle sum) and +3 from d3-intended drafts (BIC, straight-angle-on-parallel-lines, bisector theorem + parallel). 30-60-90 perimeter item calibrated Easy (banked d1). Cell now 12/10 (overshoot)."
+      "accepted_count": 14,
+      "note": "2026-10-25 (run 73): +1 from d2 draft (parallel lines alternate-interior then angle sum) and +3 from d3-intended drafts (BIC, straight-angle-on-parallel-lines, bisector theorem + parallel). 30-60-90 perimeter item calibrated Easy (banked d1). Cell now 12/10 (overshoot). | run 74: +2 banked d2 (overshoot; calibrated down from d3)."
     },
     {
       "domain": "math",
@@ -496,9 +496,9 @@
       "skill_subcategory": "Lines, angles, and triangles",
       "difficulty": 3,
       "target_count": 10,
-      "status": "pending",
-      "accepted_count": 5,
-      "note": "2026-10-25 (run 73): 8 hard attempts, 5 confirmed Hard and banked: DE||BC similarity with quadratic and rejected root then quadrilateral perimeter; altitude-to-hypotenuse with 1:4 ratio then radical legs and perimeter; isosceles 36-72-72 split with D off-figure; median + altitude angle MCH (borderline, shortcut |A-B|); right-triangle legs 3x,6x with area then inscribed corner square perimeter. Calibrated DOWN to Medium (banked d2): angle bisectors BIC with algebraic angle sum; straight-angle at A on parallel lines then angle sum (ACB = x+35 shortcut); angle bisector theorem + parallel line DE (shortcut AB*AC/(AB+AC)). Hard needs a rejected-root or 4+ step chain with no one-line shortcut."
+      "status": "done",
+      "accepted_count": 11,
+      "note": "2026-10-25 (run 73): 8 hard attempts, 5 confirmed Hard and banked: DE||BC similarity with quadratic and rejected root then quadrilateral perimeter; altitude-to-hypotenuse with 1:4 ratio then radical legs and perimeter; isosceles 36-72-72 split with D off-figure; median + altitude angle MCH (borderline, shortcut |A-B|); right-triangle legs 3x,6x with area then inscribed corner square perimeter. Calibrated DOWN to Medium (banked d2): angle bisectors BIC with algebraic angle sum; straight-angle at A on parallel lines then angle sum (ACB = x+35 shortcut); angle bisector theorem + parallel line DE (shortcut AB*AC/(AB+AC)). Hard needs a rejected-root or 4+ step chain with no one-line shortcut. | 2026-10-25 (run 74): 8 generated; 6 held Hard and banked d3 (bowtie similar triangles quadratic rejected root; right triangle area+hypotenuse incircle via (a+b)^2; parallel-cut areas 240/135 with loop equation; perimeter quadratic with triangle-inequality rejected root; altitude with AD=x,DB=x+7,CD=2x-6 rejected negative CD; centroid 2:1 quadratic with rejected root then second median) -> d3 now 11/10 DONE (overshoot 1). 2 calibrated Medium and banked d2: isosceles+exterior angle+second triangle linear chains; 30-60-90 + 45-45-90 shared leg perimeter."
     },
     {
       "domain": "math",

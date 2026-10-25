@@ -732,3 +732,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Lines, angles, and triangles, d3] Isosceles ABC AB=AC, D on AC with BD=BC=AD, angle ADB (36-72-72).
 - [Geometry and Trigonometry/Lines, angles, and triangles, d3] Right triangle angle A 28 degrees, M midpoint of hypotenuse, H foot of altitude, angle MCH.
 - [Geometry and Trigonometry/Lines, angles, and triangles, d3] Woodworker plywood right triangle legs 3x and 6x, area 144, inscribed corner square perimeter.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] Soccer agility drill, parallel lines with crossing cords AC and BD at O, OA=x, OB=x+3, OC=x+4, OD=2x+3, CD=20, bowtie similar triangles quadratic (reject x=-2), perimeter of OAB.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] Bridge gusset plate right triangle, area 28, hypotenuse 12, inscribed circular hole radius via (a+b)^2 trick.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Stained-glass panel ABD, C on BD, isosceles ABC (apex 4x-10, base 3x+5) with exterior angle feeding triangle ACD (2y-3, y+5), find angle BAD. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] City broadband district ABC, DE parallel to BC, areas 240 and 135, BC=20, loop DE+EC+CB+BD=48, perimeter of ABC.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] Commuter-rail loop triangle AB=x^2, BC=x+1, CA=29-6x, perimeter 24 (quadratic, reject x=2 by triangle inequality), longest segment.
+- [Geometry and Trigonometry/Lines, angles, and triangles, d2] Baker's puff pastry triangle BCD, perpendicular cut CA, angles 45 and 30, CD=16, perimeter via 45-45-90 and 30-60-90. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] Clinic waiting-area right triangle, partition wall CD altitude, AD=x, DB=x+7, CD=2x-6 (quadratic, reject x=4/3).
+- [Geometry and Trigonometry/Lines, angles, and triangles, d3] Radio telescopes triangle with centroid G, AG=x^2-4x+1, GD=x-2, GE=x+2 (reject x=1), distance BE.
