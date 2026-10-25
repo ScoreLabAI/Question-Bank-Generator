@@ -750,3 +750,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Right triangles and trigonometry, d2] Triangle right angle C, sin A = 7/25, find cos B (cofunction). (generated for d1, calibrated d2)
 - [Geometry and Trigonometry/Right triangles and trigonometry, d2] Surveyor's cross-staff 5-12-13 similar to field triangle, hypotenuse 65 m, side opposite theta 25. (generated for d1, calibrated d2)
 - [Geometry and Trigonometry/Right triangles and trigonometry, d1] Rectangular cabinet door 36 in wide, 60 in diagonal brace, height 48.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d1] Triangular garden bed legs 28 ft and 45 ft, cos of angle between 28 leg and longest side (28-45-53).
+- [Geometry and Trigonometry/Right triangles and trigonometry, d1] Metal shelf bracket 45-45-90, hypotenuse 14sqrt2, find leg 14.
