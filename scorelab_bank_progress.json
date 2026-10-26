@@ -534,9 +534,9 @@
    "skill_subcategory": "Circles",
    "difficulty": 1,
    "target_count": 10,
-   "status": "pending",
-   "accepted_count": 6,
-   "note": " Run 79: d1 holds single-theorem/single-formula items (circumference->radius, inscribed=half central, Thales, isosceles from radii, 1/n of circle, radius from equation). Calibrator moved diameter->radius->area and fraction-of-circle arc/sector items to d2."
+   "status": "done",
+   "accepted_count": 10,
+   "note": " Run 79: d1 holds single-theorem/single-formula items (circumference->radius, inscribed=half central, Thales, isosceles from radii, 1/n of circle, radius from equation). Calibrator moved diameter->radius->area and fraction-of-circle arc/sector items to d2. Run 80: tangent-radius angle sum, circle-equation center read-off, circumference from radius, 60-degree chord (equilateral) all held d1."
   },
   {
    "domain": "math",

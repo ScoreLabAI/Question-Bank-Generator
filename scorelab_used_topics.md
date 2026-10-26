@@ -787,3 +787,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Circles, d2] Model-railway arc, radius 12, central angle 120, arc length 8pi. (generated d1, calibrated d2)
 - [Geometry and Trigonometry/Circles, d2] Coastal radar sweep sector 60 deg radius 12 km, area 24pi. (generated d1, calibrated d2)
 - [Geometry and Trigonometry/Circles, d2] Manhole cover diameter 14 in, area 49pi. (generated d1, calibrated d2)
+- [Geometry and Trigonometry/Circles, d1] Tangent at A, angle AOB=52, find ABO=38.
+- [Geometry and Trigonometry/Circles, d1] Circle (x+5)^2+(y-2)^2=49, x-coordinate of center -5.
+- [Geometry and Trigonometry/Circles, d1] Circle radius 9 cm, circumference 18pi.
+- [Geometry and Trigonometry/Circles, d1] Radius 9, central angle 60 deg, chord AB=9 (equilateral).
