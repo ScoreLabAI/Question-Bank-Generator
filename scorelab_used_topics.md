@@ -760,3 +760,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Right triangles and trigonometry, d2] 25 ft ladder base 7 ft from wall, top slides down 4 ft, base moves out 8 ft.
 - [Geometry and Trigonometry/Right triangles and trigonometry, d2] Equilateral felt patch side 18 cm, altitude 9sqrt3, area 81sqrt3.
 - [Geometry and Trigonometry/Right triangles and trigonometry, d2] Right triangle ABC tan A = 8/15 with perimeter 120, hypotenuse 51.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d3] Steel gusset plate legs x, x+23, hyp x+32, sin theta, rejected root (33-56-65).
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Right triangle sin(x)=cos(y), x-y=20, AC=12, find AB = 20.9. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Right triangle cos B = 12/37, area 840, difference of legs 46. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Stained-glass 30-60-90 panel area 50sqrt3, perimeter 30+10sqrt3. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Isosceles triangle 26-26-20, altitude, 156 tan(theta/half apex)=65. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Right triangle pi/3 radians, opposite 13sqrt3, hypotenuse 4x+2, perimeter. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Right triangles and trigonometry, d3] Survey drone tan theta=5/12, observer B 33 m from A, distance 25 to drone, d=52.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d3] Similar right triangles ABC 9-12-15 and DEF hyp 35, angle D = angle C, altitude segment DG=22.4.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d3] Abstract 'must be true' trig identity for every right triangle at C (sin A cos B + cos A sin B = 1).
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Barn roof truss base 96 ft tan theta=7/24, four pieces total 210 ft. (generated for d3, calibrated d2)
