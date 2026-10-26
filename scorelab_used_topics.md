@@ -791,3 +791,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Circles, d1] Circle (x+5)^2+(y-2)^2=49, x-coordinate of center -5.
 - [Geometry and Trigonometry/Circles, d1] Circle radius 9 cm, circumference 18pi.
 - [Geometry and Trigonometry/Circles, d1] Radius 9, central angle 60 deg, chord AB=9 (equilateral).
+- [Geometry and Trigonometry/Circles, d2] Pond radius 8, external point B 17 m from center, tangent footpath AB=15.
+- [Geometry and Trigonometry/Circles, d2] Glass plate radius 13, chord at distance 5 from center, chord length 24.
+- [Geometry and Trigonometry/Circles, d2] Ferris wheel radius 12, arc AB=5pi, central angle 75 deg.
+- [Geometry and Trigonometry/Circles, d2] Tabletop radius 9, inscribed angle 40 -> minor arc 4pi.
+- [Geometry and Trigonometry/Circles, d2] Fountain plaza diameter 20, arc 6pi, sector area 30pi.
+- [Geometry and Trigonometry/Circles, d3] Circle x^2+y^2-6x+8y=11, complete the square, radius 6. (generated d2, calibrated d3)

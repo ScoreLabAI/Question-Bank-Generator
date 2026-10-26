@@ -545,8 +545,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 4,
-   "note": " Run 79: d1 holds single-theorem/single-formula items (circumference->radius, inscribed=half central, Thales, isosceles from radii, 1/n of circle, radius from equation). Calibrator moved diameter->radius->area and fraction-of-circle arc/sector items to d2."
+   "accepted_count": 9,
+   "note": " Run 79: d1 holds single-theorem/single-formula items (circumference->radius, inscribed=half central, Thales, isosceles from radii, 1/n of circle, radius from equation). Calibrator moved diameter->radius->area and fraction-of-circle arc/sector items to d2. Run 80: tangent length (8-15-17), chord via perpendicular distance (5-12-13), reverse arc-length angle, inscribed->arc length, diameter->arc fraction->sector area all held d2. Completing-the-square circle equation calibrated d3 (banked in d3)."
   },
   {
    "domain": "math",
@@ -555,8 +555,8 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0,
-   "note": " Run 79: d1 holds single-theorem/single-formula items (circumference->radius, inscribed=half central, Thales, isosceles from radii, 1/n of circle, radius from equation). Calibrator moved diameter->radius->area and fraction-of-circle arc/sector items to d2."
+   "accepted_count": 1,
+   "note": " Run 79: d1 holds single-theorem/single-formula items (circumference->radius, inscribed=half central, Thales, isosceles from radii, 1/n of circle, radius from equation). Calibrator moved diameter->radius->area and fraction-of-circle arc/sector items to d2. Run 80: completing-the-square general-form circle equation -> radius held d3."
   },
   {
    "domain": "reading_writing",
