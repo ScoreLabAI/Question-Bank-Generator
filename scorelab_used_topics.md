@@ -770,3 +770,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Right triangles and trigonometry, d3] Similar right triangles ABC 9-12-15 and DEF hyp 35, angle D = angle C, altitude segment DG=22.4.
 - [Geometry and Trigonometry/Right triangles and trigonometry, d3] Abstract 'must be true' trig identity for every right triangle at C (sin A cos B + cos A sin B = 1).
 - [Geometry and Trigonometry/Right triangles and trigonometry, d2] Barn roof truss base 96 ft tan theta=7/24, four pieces total 210 ft. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Right triangles and trigonometry, d3] Corner shelf legs x, x+7, perimeter 4x+8, tan Q (8-15-17), rejected root.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d3] Roof brace altitude CD=6 to hypotenuse, DB=AD+5, sin DCB.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d3] Abstract 'must be true' for right triangle: tan A + tan B >= 2 (AM-GM) vs three false inequalities.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d2] Lighthouse between two observers 100 m apart, tan 3/4 and 7/24, height 21. (generated for d3, calibrated d2)
+- [Geometry and Trigonometry/Right triangles and trigonometry, d3] Folded triangular paper 21-28-35, crease bisecting right angle, length 12sqrt2.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d3] Right triangle hyp 25, sin A=(x+8)/25, cos A=(4x-8)/25, rejected root, tan B=4/3.
+- [Geometry and Trigonometry/Right triangles and trigonometry, d3] Climbing-wall panel 20-21-29, rope to D on CB with tan CAD=3/4, tan DAB=24/143.
