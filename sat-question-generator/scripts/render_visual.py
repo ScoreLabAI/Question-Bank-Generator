@@ -319,7 +319,7 @@ def render_geometry(data, ax):
             ax.annotate(data["radius_label"], (r / 2, 0.3), fontsize=12, color="#2563EB")
         # Optional extras (added run 79), all backward compatible:
         #   "center_label": "O"
-        #   "points": [{"angle": 40, "label": "A"}, ...]  -- labeled points ON the circle, angle in degrees
+        #   "points": [{"angle": 40, "label": "A", "distance": 1.0}, ...]  -- labeled points, angle in degrees; optional distance (run 80) = multiple of radius from center (>1 puts the point outside, e.g. tangent external point)
         #   "segments": [{"from": "O"|label, "to": "O"|label, "label": "8"}, ...] -- chords/radii/diameters
         #   "central_angle": {"from": 0, "to": 72, "label": "72°"} -- wedge from the center, degrees
         if data.get("center_label"):
@@ -329,7 +329,8 @@ def render_geometry(data, ax):
         coords = {"O": (0.0, 0.0)}
         for pt in data.get("points", []):
             a = math.radians(pt["angle"])
-            coords[pt["label"]] = (r * math.cos(a), r * math.sin(a))
+            d = r * pt.get("distance", 1.0)  # optional (run 80): distance from center in units of r, >1 = outside circle
+            coords[pt["label"]] = (d * math.cos(a), d * math.sin(a))
             ax.plot([coords[pt["label"]][0]], [coords[pt["label"]][1]], "o",
                     color="#0F1F3D", markersize=4)
             ax.annotate(pt["label"], coords[pt["label"]], fontsize=12,
@@ -354,8 +355,9 @@ def render_geometry(data, ax):
                 mid = math.radians((a0 + a1) / 2)
                 ax.annotate(ca["label"], (0.45 * r * math.cos(mid), 0.45 * r * math.sin(mid)),
                             fontsize=11, color="#2563EB", ha="center", va="center")
-        ax.set_xlim(-r * 1.3, r * 1.3)
-        ax.set_ylim(-r * 1.3, r * 1.3)
+        ext = max([r] + [max(abs(c[0]), abs(c[1])) for c in coords.values()])
+        ax.set_xlim(-ext * 1.3 if ext > r else -r * 1.3, ext * 1.3)
+        ax.set_ylim(-ext * 1.3 if ext > r else -r * 1.3, ext * 1.3)
         ax.set_aspect("equal")
 
     elif shape == "rectangle":
