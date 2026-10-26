@@ -777,3 +777,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Right triangles and trigonometry, d3] Folded triangular paper 21-28-35, crease bisecting right angle, length 12sqrt2.
 - [Geometry and Trigonometry/Right triangles and trigonometry, d3] Right triangle hyp 25, sin A=(x+8)/25, cos A=(4x-8)/25, rejected root, tan B=4/3.
 - [Geometry and Trigonometry/Right triangles and trigonometry, d3] Climbing-wall panel 20-21-29, rope to D on CB with tan CAD=3/4, tan DAB=24/143.
+- [Geometry and Trigonometry/Circles, d1] Drum head circumference 26pi, find radius.
+- [Geometry and Trigonometry/Circles, d1] Central angle AOB=84 -> inscribed angle ACB=42.
+- [Geometry and Trigonometry/Circles, d1] Thales: diameter AB, angle CAB=35, find ABC=55.
+- [Geometry and Trigonometry/Circles, d1] Isosceles triangle OAB from two radii, central angle 70 -> angle OAB 55.
+- [Geometry and Trigonometry/Circles, d1] Arc AB = 1/9 circumference, central angle 40.
+- [Geometry and Trigonometry/Circles, d1] Circle (x+3)^2+(y-5)^2=81, diameter 18.
+- [Geometry and Trigonometry/Circles, d2] Koi pond diameter AB=18 ft, area 81pi. (generated d1, calibrated d2)
+- [Geometry and Trigonometry/Circles, d2] Model-railway arc, radius 12, central angle 120, arc length 8pi. (generated d1, calibrated d2)
+- [Geometry and Trigonometry/Circles, d2] Coastal radar sweep sector 60 deg radius 12 km, area 24pi. (generated d1, calibrated d2)
+- [Geometry and Trigonometry/Circles, d2] Manhole cover diameter 14 in, area 49pi. (generated d1, calibrated d2)
