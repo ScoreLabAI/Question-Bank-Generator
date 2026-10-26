@@ -798,3 +798,12 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Circles, d2] Fountain plaza diameter 20, arc 6pi, sector area 30pi.
 - [Geometry and Trigonometry/Circles, d3] Circle x^2+y^2-6x+8y=11, complete the square, radius 6. (generated d2, calibrated d3)
 - [Geometry and Trigonometry/Circles, d2] Lawn sprinkler sector radius 12 m, central angle 5pi/6 radians, area 60pi.
+- [Geometry and Trigonometry/Circles, d3] Circle tangent to both axes in first quadrant through (9,2), quadratic r^2-22r+85=0, smaller root 5.
+- [Geometry and Trigonometry/Circles, d3] Circle inscribed in right triangle (leg 10, hypotenuse 26), inradius 4, circle area 16pi.
+- [Geometry and Trigonometry/Circles, d3] Circle x^2+y^2+Dx+Ey=0 through O(0,0), A(7,1), B(3,9), solve system, radius 5.
+- [Geometry and Trigonometry/Circles, d3] Line y=2x+k tangent to x^2+y^2=20, k<0 root, x-coordinate of tangency point 4.
+- [Geometry and Trigonometry/Circles, d3] Two externally tangent gears radii r and 2r-2, centers 25 apart, external tangent cord PQ=24.
+- [Geometry and Trigonometry/Circles, d2] Tangent to circle (x-3)^2+(y+2)^2=100 at P(9,6), x-intercept 17. (generated d3, calibrated d2)
+- [Geometry and Trigonometry/Circles, d2] Tangents PA=6sqrt3, angle APB=60, area of quadrilateral OAPB=36sqrt3. (generated d3, calibrated d2)
+- [Geometry and Trigonometry/Circles, d2] Park running track between concentric circles, tangent fence chord 28 m, annulus area 196pi. (generated d3, calibrated d2)
+- [Geometry and Trigonometry/Circles, d2] Central (9x+12) and inscribed (4x+12) angles, diameter 30, minor arc 10pi. (generated d3, calibrated d2)
