@@ -797,3 +797,4 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Circles, d2] Tabletop radius 9, inscribed angle 40 -> minor arc 4pi.
 - [Geometry and Trigonometry/Circles, d2] Fountain plaza diameter 20, arc 6pi, sector area 30pi.
 - [Geometry and Trigonometry/Circles, d3] Circle x^2+y^2-6x+8y=11, complete the square, radius 6. (generated d2, calibrated d3)
+- [Geometry and Trigonometry/Circles, d2] Lawn sprinkler sector radius 12 m, central angle 5pi/6 radians, area 60pi.
