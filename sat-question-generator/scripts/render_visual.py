@@ -93,6 +93,10 @@ Spec format (visual_type "geometry"):
     // circle:
     "radius": 5,
     "radius_label": "5",
+    // optional (run 79): "center_label": "O",
+    //   "points": [{"angle": 40, "label": "A"}],           labeled points on the circle (degrees)
+    //   "segments": [{"from": "O", "to": "A", "label": "8"}],  "O" = center; others = point labels
+    //   "central_angle": {"from": 0, "to": 72, "label": "72°"}
 
     // rectangle:
     "width": 8, "height": 5,
@@ -313,6 +317,43 @@ def render_geometry(data, ax):
         if data.get("radius_label"):
             ax.plot([0, r], [0, 0], color="#2563EB", linewidth=1.5)
             ax.annotate(data["radius_label"], (r / 2, 0.3), fontsize=12, color="#2563EB")
+        # Optional extras (added run 79), all backward compatible:
+        #   "center_label": "O"
+        #   "points": [{"angle": 40, "label": "A"}, ...]  -- labeled points ON the circle, angle in degrees
+        #   "segments": [{"from": "O"|label, "to": "O"|label, "label": "8"}, ...] -- chords/radii/diameters
+        #   "central_angle": {"from": 0, "to": 72, "label": "72°"} -- wedge from the center, degrees
+        if data.get("center_label"):
+            ax.plot([0], [0], "o", color="#0F1F3D", markersize=4)
+            ax.annotate(data["center_label"], (0, 0), fontsize=12, xytext=(-12, -14),
+                        textcoords="offset points")
+        coords = {"O": (0.0, 0.0)}
+        for pt in data.get("points", []):
+            a = math.radians(pt["angle"])
+            coords[pt["label"]] = (r * math.cos(a), r * math.sin(a))
+            ax.plot([coords[pt["label"]][0]], [coords[pt["label"]][1]], "o",
+                    color="#0F1F3D", markersize=4)
+            ax.annotate(pt["label"], coords[pt["label"]], fontsize=12,
+                        xytext=(8 * math.cos(a) - 4, 8 * math.sin(a) - 4),
+                        textcoords="offset points")
+        for seg in data.get("segments", []):
+            p, q = coords[seg["from"]], coords[seg["to"]]
+            ax.plot([p[0], q[0]], [p[1], q[1]], color="#2563EB", linewidth=1.5)
+            if seg.get("label"):
+                ax.annotate(seg["label"], ((p[0] + q[0]) / 2, (p[1] + q[1]) / 2), fontsize=12,
+                            color="#2563EB", xytext=(4, 5), textcoords="offset points")
+        ca = data.get("central_angle")
+        if ca:
+            a0, a1 = ca["from"], ca["to"]
+            ts = np.radians(np.linspace(a0, a1, 60))
+            ax.fill(np.concatenate([[0], r * np.cos(ts)]), np.concatenate([[0], r * np.sin(ts)]),
+                    color="#2563EB", alpha=0.12)
+            for a in (a0, a1):
+                ax.plot([0, r * math.cos(math.radians(a))], [0, r * math.sin(math.radians(a))],
+                        color="#2563EB", linewidth=1.5)
+            if ca.get("label"):
+                mid = math.radians((a0 + a1) / 2)
+                ax.annotate(ca["label"], (0.45 * r * math.cos(mid), 0.45 * r * math.sin(mid)),
+                            fontsize=11, color="#2563EB", ha="center", va="center")
         ax.set_xlim(-r * 1.3, r * 1.3)
         ax.set_ylim(-r * 1.3, r * 1.3)
         ax.set_aspect("equal")
