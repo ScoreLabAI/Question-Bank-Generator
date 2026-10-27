@@ -822,3 +822,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Words in Context, d1] 19th-century town print-shop owner 'indispensable' (appositive clause).
 - [Craft and Structure/Words in Context, d1] Fiction: cobbler Tomasz 'patient' (behavior clue).
 - [Craft and Structure/Words in Context, d1] Pocket water filter public response 'enthusiastic' (Despite concession).
+- [Craft and Structure/Words in Context, d2] Geochemist Lena Hargrove's single-grain claim, evidence 'tenuous' (Yet/As a result).
+- [Craft and Structure/Words in Context, d2] Concrete-lined urban rivers 'exacerbates' downstream flooding.
+- [Craft and Structure/Words in Context, d2] Painter Odalys Verrin, stance toward tradition 'iconoclastic'.
+- [Craft and Structure/Words in Context, d2] Mindfulness study, student stress reduction 'ephemeral' (whereas).
+- [Craft and Structure/Words in Context, d1] Botanist Ilse Verhagen 'obscure' in her lifetime (Although; relabeled from d2).
+- [Craft and Structure/Words in Context, d2] DISCARDED (not banked): Mr. Okafor hospital corridor 'lurched'.

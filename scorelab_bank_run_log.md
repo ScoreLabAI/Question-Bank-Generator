@@ -1590,3 +1590,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none; nothing queued. Observation: WIC easy generators produce keys clustered on B/C; reorder at assembly.
 **Token usage:** 16 subagent calls this segment, roughly 0.9M subagent tokens.
 **Next run should pick up at:** Words in Context d1 (6/10, needs 4), then d2.
+
+## Run 83 — 2026-10-27
+**Cells worked:** Words in Context d1: needed 4, got 4 -> 10/10 DONE (+1 overshoot from d2 relabel = 11). Words in Context d2: needed 6 this run, got 4 -> 4/10 pending, needs 6.
+**Pipeline:** 11 generators (4 d1, 6 d2, +1 regeneration because the language-attrition draft duplicated the keyed word 'tenuous' with the geochem item), 11 critics + 1 re-critic, 2 batched calibrations (sonnet throughout). d1: 4 PASS, all calibrated Easy. d2: 5 PASS, 1 FLAG (Okafor 'lurched': 'sprang' defensible, no cue for sudden vs slow). Fixed once and re-critiqued; second FLAG ('eased' still defensible) -> discarded per rules. Calibrator moved the botanist 'obscure' item to Easy; banked in d1 cell. Key letters of all-B/A drafts reordered at assembly with explanations re-lettered. validate_batch passed. Master 804 -> 813.
+**Skill updates (Step 5):** none applied; nothing queued. Observations: WiC generators key B/A heavily (reorder at assembly); parallel d2 generators can collide on the keyed word, so list prior keyed words in each mandate; movement-verb items need an explicit speed cue.
+**Token usage:** about 25 subagent calls, roughly 1.2M subagent tokens.
+**Next run should pick up at:** Words in Context d2 (4/10, needs 6), then d3.
