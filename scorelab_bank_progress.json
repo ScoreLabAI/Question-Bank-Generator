@@ -565,8 +565,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 11,
-   "note": "Run 82: all 6 held Easy: contrast (Although/in fact), cause-effect (Because), literary emotion clue, colon-examples, rather-than contrast, As-a-result clause. The numeric-giveaway result-clause item (increased, forty to four hundred) is the floor of Easy; avoid stating the outcome outright in future. Run 83: 4 more held Easy (however-contrast mimosa, appositive print-shop, behavior-clue cobbler, despite-concession water filter); keys reordered at assembly (all drafted B). Run 83: +1 overshoot (obscure/botanist, relabeled from d2); cell now 11."
+   "accepted_count": 12,
+   "note": "Run 82: all 6 held Easy: contrast (Although/in fact), cause-effect (Because), literary emotion clue, colon-examples, rather-than contrast, As-a-result clause. The numeric-giveaway result-clause item (increased, forty to four hundred) is the floor of Easy; avoid stating the outcome outright in future. Run 83: 4 more held Easy (however-contrast mimosa, appositive print-shop, behavior-clue cobbler, despite-concession water filter); keys reordered at assembly (all drafted B). Run 83: +1 overshoot (obscure/botanist, relabeled from d2); cell now 11. Run 84: +1 overshoot (prudent/pension fund, relabeled from d2: 'Although' contrast with outcome stated by 'since' clause)."
   },
   {
    "domain": "reading_writing",
@@ -575,8 +575,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 4,
-   "note": " Run 83: 4 held Medium (tenuous/geochem, exacerbates/rivers, iconoclastic/art, ephemeral/mindfulness). Fiction-movement verb item (lurched) discarded after 2 critic FLAGs: stem lacked a cue separating sudden vs slow rise. One obscure/botanist item calibrated Easy and banked in d1."
+   "accepted_count": 9,
+   "note": "Run 83: 4 held Medium (tenuous/geochem, exacerbates/rivers, iconoclastic/art, ephemeral/mindfulness). Fiction-movement verb item (lurched) discarded after 2 critic FLAGs: stem lacked a cue separating sudden vs slow rise. One obscure/botanist item calibrated Easy and banked in d1. Run 84: +5 held Medium (stoic/barn+sister cue, discrete/guild with 'no central authority', surmises/otters, tenacious/Aubin with 'but' contrast, patronizing/Colonel Ashby). Homophone pair (discrete/discreet) replaced because it tests spelling. Needs 1 more."
   },
   {
    "domain": "reading_writing",
@@ -585,7 +585,8 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 4,
+   "note": "Run 84: 4 held Hard: corroborates item (relabeled from d2 after control sentence added; qualifies distractor), spare/secondary sense (relabeled from d2), resolve/optics technical sense, decoupling/abstract noun. Medium-calibrated from d3 mandates: tenacious (contrast marker), patronizing (text nearly defines the word). Hard shapes that held: secondary technical sense, abstract relationship noun."
   },
   {
    "domain": "reading_writing",

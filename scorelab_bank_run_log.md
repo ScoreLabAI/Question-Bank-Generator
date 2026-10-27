@@ -1597,3 +1597,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observations: WiC generators key B/A heavily (reorder at assembly); parallel d2 generators can collide on the keyed word, so list prior keyed words in each mandate; movement-verb items need an explicit speed cue.
 **Token usage:** about 25 subagent calls, roughly 1.2M subagent tokens.
 **Next run should pick up at:** Words in Context d2 (4/10, needs 6), then d3.
+
+## Run 84 — 2026-10-27
+**Cells worked:** Words in Context d2: needed 6 (generated 6) + Words in Context d3: needed 10 (generated 4 of the run's ~10 budget). After calibration: d2 +5 (9/10, needs 1), d3 +4 (4/10, needs 6), d1 +1 overshoot (12/10, done). Total 10 new questions banked; master 813 -> 823.
+**Pipeline:** 10 generators, 10 critics + 4 re-critics, 2 batched calibrations (sonnet throughout). First-pass critic FLAGs: corroborates item (stem never ruled out impurities -> added a purified-electrode control sentence, replaced two distractors, then PASS), discrete/discreet (homophone pair is a spelling trap -> replaced 'discreet' with 'hierarchical', added 'no central authority', PASS), Anselm/stoic ('apathetic' arguable -> added 'for she knew how long he had saved to build that barn', PASS), concert-hall/spare ('meager' a credible second answer -> replaced with 'ornate', PASS). 0 discards. Calibration moved prudent->d1, corroborates and spare->d3 (from d2), tenacious and patronizing d3->d2. validate_batch passed (batch_words_in_context_run84.json).
+**Skill updates (Step 5):** none applied; nothing queued. Observations: (1) homophone/spelling-confusable key pairs should be avoided in WiC; (2) hard-mandated generators drift Medium when the stem near-defines the key ('bestowed from a height' -> patronizing) or a contrast marker fixes connotation; (3) 'meager'-type near-synonym distractors of a secondary-sense key invite a second answer.
+**Token usage:** about 30 subagent calls, roughly 1.5M subagent tokens.
+**Next run should pick up at:** Words in Context d2 (9/10, needs 1) then d3 (4/10, needs 6).
