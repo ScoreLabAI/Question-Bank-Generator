@@ -1611,3 +1611,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued.
 **Token usage:** 14 subagent calls, roughly 0.7M subagent tokens.
 **Next run should pick up at:** Words in Context d3 (8/10, needs 2), then Text Structure and Purpose d1.
+
+## Run 86 - 2026-10-27
+**Cells worked:** Words in Context d3: needed 2, got 1 held Hard (symptom) -> 9/10 pending, needs 1; the other (discharged, legal sense) calibrated Medium and was banked in d2 (overshoot). Text Structure and Purpose d1: needed 8 this run, got 8 -> 8/10 pending, needs 2. Total 10 new questions; master 830 -> 840.
+**Pipeline:** 10 generators, 10 critics (3 batched), 2 batched calibrations (sonnet throughout). Critic FLAG (minor): songbird/shrub item (A 'casualty' weak, 'the same land-use change' lacked antecedent) -> stem changed to 'flourished in' / 'a broader land-use change' and B explanation rewritten, not re-critiqued (wording only). Advisory fixes: Odile item distractor C replaced (family-business history); wind-blade C explanation reworded. 0 discards. 7/8 Text Structure keys came back A; reordered at assembly with explanations re-lettered. validate_batch passed (batch_words_in_context_run86.json, batch_text_structure_d1_run86.json).
+**Skill updates (Step 5):** none applied; nothing queued. Observations: text-structure d1 generators all key A; legal-sense WiC items with weak distractors calibrate Medium.
+**Token usage:** about 20 subagent calls, roughly 1.0M subagent tokens.
+**Next run should pick up at:** Words in Context d3 (9/10, needs 1), then Text Structure d1 (8/10, needs 2), then d2.

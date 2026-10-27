@@ -847,3 +847,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Words in Context, d3] qualified: Aksum coinage trade thesis; archaeologist Selam Tesfaye's 'qualified' endorsement.
 - [Craft and Structure/Words in Context, d2] discharged: Contract-law obligation 'discharged' through performance, agreement, or excuse.
 - [Craft and Structure/Words in Context, d3] symptom: Songbird decline and invasive shrub as 'symptom' of broader land-use change.
+- [Craft and Structure/Text Structure and Purpose, d1] octopus brooding eggs 4.5 yrs (main purpose, report finding)
+- [Craft and Structure/Text Structure and Purpose, d1] Tang Chang'an cosmopolitan view + evidence (structure)
+- [Craft and Structure/Text Structure and Purpose, d1] Andean woven belt example sentence (function of underlined)
+- [Craft and Structure/Text Structure and Purpose, d1] Odile first customer in shop window (fiction, emotions)
+- [Craft and Structure/Text Structure and Purpose, d1] Wind turbine blade recycling problem/solution (structure)
+- [Craft and Structure/Text Structure and Purpose, d1] Tool libraries funding complication, 'However' sentence (function)
+- [Craft and Structure/Text Structure and Purpose, d1] Architect Yasmin Haque rural schools, Bangladesh (main purpose, biography)
+- [Craft and Structure/Text Structure and Purpose, d1] Brooks Range orange rivers and permafrost thaw (structure)
