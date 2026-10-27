@@ -845,3 +845,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Words in Context, d2] obsequiously: Fiction: Teodor refills new director's glass at reception 'obsequiously'.
 - [Craft and Structure/Words in Context, d3] precludes: City parking minimums on 3,000 sq ft infill lot 'precludes' small apartment builds.
 - [Craft and Structure/Words in Context, d3] qualified: Aksum coinage trade thesis; archaeologist Selam Tesfaye's 'qualified' endorsement.
+- [Craft and Structure/Words in Context, d2] discharged: Contract-law obligation 'discharged' through performance, agreement, or excuse.
+- [Craft and Structure/Words in Context, d3] symptom: Songbird decline and invasive shrub as 'symptom' of broader land-use change.
