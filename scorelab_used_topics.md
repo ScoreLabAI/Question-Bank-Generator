@@ -807,3 +807,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Circles, d2] Tangents PA=6sqrt3, angle APB=60, area of quadrilateral OAPB=36sqrt3. (generated d3, calibrated d2)
 - [Geometry and Trigonometry/Circles, d2] Park running track between concentric circles, tangent fence chord 28 m, annulus area 196pi. (generated d3, calibrated d2)
 - [Geometry and Trigonometry/Circles, d2] Central (9x+12) and inscribed (4x+12) angles, diameter 30, minor arc 10pi. (generated d3, calibrated d2)
+- [Geometry and Trigonometry/Circles, d3] Rectangle inscribed in circle, perimeter 68 and area 240, circle area 169pi.
+- [Geometry and Trigonometry/Circles, d3] Circumscribed circle of isosceles triangle 10-10-12, radius 25/4.
+- [Geometry and Trigonometry/Circles, d3] Circle x^2+y^2+10x+Ey+c=0 tangent to y-axis, line y=1 chord AB=8, center below x-axis, c=4.
+- [Geometry and Trigonometry/Circles, d2] Common chord of x^2+y^2=169 and x^2+y^2-28x=29, length 24. (generated d3, calibrated d2)

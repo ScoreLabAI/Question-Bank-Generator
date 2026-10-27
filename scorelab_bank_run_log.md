@@ -1576,3 +1576,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observations: critics rated the incircle, annulus, tangent-line and central/inscribed-algebra items Medium; calibrator held incircle d3 but sent the other three plus two-tangents to d2. Circle-through-three-points items must avoid pairs at equal height or diametrically opposite points. Items that describe the key auxiliary construction in the stem calibrate down.
 **Token usage:** 24 subagent calls (10 generators, 11 critics, 2 calibrators + 1 re-critique = see counts), roughly 1.1M subagent tokens (orchestrator not included).
 **Next run should pick up at:** Circles d3 (6/10, needs 4), then Reading & Writing Words in Context d1.
+
+## Run 82 - 2026-10-27 (cloud)
+**Cells worked:** Geometry and Trigonometry / Circles d3: needed 4, generated 4 -> 3 held Hard and banked d3 (inscribed rectangle perimeter/area -> circle area; circumradius 10-10-12; tangent-to-y-axis chord circle c=4) -> d3 now 9/10 pending, needs 1; 1 calibrated Medium and banked d2 (common chord of two circles 24) -> d2 overshoot. Run stopped after this cell to stay within scope/time (see note); Words in Context d1 not started.
+**Pipeline:** 4 generators, 4 critics (3 PASS, 1 FLAG: common-chord item drew OA/OB and radius label handing over the 5-12-13 triangle, distractor 14 weak -> segments/label removed, 14 replaced by 10 with new explanation, applied in place), 1 batched calibration (sonnet). 0 discards. Env note: pip-installed matplotlib broke on system PIL; fixed with `pip install --ignore-installed pillow`. validate_batch passed. Master 793 -> 797.
+**Skill updates (Step 5):** none; nothing queued.
+**Token usage:** 9 subagent calls, roughly 0.5M subagent tokens.
+**Next run should pick up at:** Circles d3 (9/10, needs 1), then Words in Context d1.
