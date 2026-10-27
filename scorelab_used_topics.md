@@ -818,3 +818,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Words in Context, d1] City bike-share riders, 'diverse' group (colon examples).
 - [Craft and Structure/Words in Context, d1] Marsh restoration ducks 'increased' sharply (As a result).
 - [Craft and Structure/Words in Context, d1] Fiction: Marta 'relieved' by letter about her brother.
+- [Craft and Structure/Words in Context, d1] Mimosa plant 'hardy' despite fragile look (However contrast).
+- [Craft and Structure/Words in Context, d1] 19th-century town print-shop owner 'indispensable' (appositive clause).
+- [Craft and Structure/Words in Context, d1] Fiction: cobbler Tomasz 'patient' (behavior clue).
+- [Craft and Structure/Words in Context, d1] Pocket water filter public response 'enthusiastic' (Despite concession).
