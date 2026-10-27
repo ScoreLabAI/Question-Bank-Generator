@@ -1583,3 +1583,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none; nothing queued.
 **Token usage:** 9 subagent calls, roughly 0.5M subagent tokens.
 **Next run should pick up at:** Circles d3 (9/10, needs 1), then Words in Context d1.
+
+## Run 82b - 2026-10-27 (cloud, same run, continued)
+**Cells worked:** Circles d3: needed 1, got 1 (sector area=perimeter, rejected root; borderline d2/d3, calibrator kept d3) -> d3 10/10 DONE. Words in Context d1: needed 6 this run, generated 6, all 6 calibrated Easy and banked d1 -> 6/10 pending, needs 4. Run 82 total: 11 new questions (10 target cells + 1 d2 overshoot).
+**Pipeline:** 7 generators, 7 critics (6 PASS; 1 FLAG on the ducks item as trivial because the stem states forty->four hundred, kept as Easy-floor item; sector item FLAG: 'shaded region' wording with unshaded figure -> reworded to 'sector AOB'), 1 batched calibration (sonnet). 0 discards. Answer keys on WIC batch re-ordered (3 items) to clear key-skew WARN, with explanations re-lettered. validate_batch passed. Master 797 -> 804.
+**Skill updates (Step 5):** none; nothing queued. Observation: WIC easy generators produce keys clustered on B/C; reorder at assembly.
+**Token usage:** 16 subagent calls this segment, roughly 0.9M subagent tokens.
+**Next run should pick up at:** Words in Context d1 (6/10, needs 4), then d2.

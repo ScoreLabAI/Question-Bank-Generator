@@ -811,3 +811,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Geometry and Trigonometry/Circles, d3] Circumscribed circle of isosceles triangle 10-10-12, radius 25/4.
 - [Geometry and Trigonometry/Circles, d3] Circle x^2+y^2+10x+Ey+c=0 tangent to y-axis, line y=1 chord AB=8, center below x-axis, c=4.
 - [Geometry and Trigonometry/Circles, d2] Common chord of x^2+y^2=169 and x^2+y^2-28x=29, length 24. (generated d3, calibrated d2)
+- [Geometry and Trigonometry/Circles, d3] Sector with central angle (15-r)/r rad, area equals perimeter, rejected root r=3, area 25.
+- [Craft and Structure/Words in Context, d1] Deep-sea camera survey, animals 'abundant' (Although/in fact contrast).
+- [Craft and Structure/Words in Context, d1] Lighthouse keeper 'careful' about trimming the wick (Because clause).
+- [Craft and Structure/Words in Context, d1] Muralist Dana Ruiz 'simplify' her newest mural (rather than dozens of busy shapes).
+- [Craft and Structure/Words in Context, d1] City bike-share riders, 'diverse' group (colon examples).
+- [Craft and Structure/Words in Context, d1] Marsh restoration ducks 'increased' sharply (As a result).
+- [Craft and Structure/Words in Context, d1] Fiction: Marta 'relieved' by letter about her brother.

@@ -554,9 +554,9 @@
    "skill_subcategory": "Circles",
    "difficulty": 3,
    "target_count": 10,
-   "status": "pending",
-   "accepted_count": 9,
-   "note": " Run 79: d1 holds single-theorem/single-formula items (circumference->radius, inscribed=half central, Thales, isosceles from radii, 1/n of circle, radius from equation). Calibrator moved diameter->radius->area and fraction-of-circle arc/sector items to d2. Run 80: completing-the-square general-form circle equation -> radius held d3. Run 81: held d3: tangent-to-both-axes quadratic with smaller root; incircle of 10-x-26 right triangle; circle through 3 points (system -> complete square); line tangent to x^2+y^2=20 with rejected k; externally tangent gears 2r-2 with hidden tangent-length construction. Calibrated d2 (banked d2): tangent-line intercept at a given point, two tangents 30-60-90 quadrilateral, concentric annulus chord, algebraic central/inscribed angles -> arc. Run 82: held d3: rectangle inscribed in circle given perimeter+area -> circle area (diagonal=diameter hidden); circumradius of 10-10-12 isosceles triangle; circle x^2+y^2+10x+Ey+c=0 tangent to y-axis, chord AB=8 on y=1, center below axis (rejected root) -> c. Calibrated d2: common chord of two intersecting circles via subtracting equations (generated d3)."
+   "status": "done",
+   "accepted_count": 10,
+   "note": " Run 79: d1 holds single-theorem/single-formula items (circumference->radius, inscribed=half central, Thales, isosceles from radii, 1/n of circle, radius from equation). Calibrator moved diameter->radius->area and fraction-of-circle arc/sector items to d2. Run 80: completing-the-square general-form circle equation -> radius held d3. Run 81: held d3: tangent-to-both-axes quadratic with smaller root; incircle of 10-x-26 right triangle; circle through 3 points (system -> complete square); line tangent to x^2+y^2=20 with rejected k; externally tangent gears 2r-2 with hidden tangent-length construction. Calibrated d2 (banked d2): tangent-line intercept at a given point, two tangents 30-60-90 quadrilateral, concentric annulus chord, algebraic central/inscribed angles -> arc. Run 82: held d3: rectangle inscribed in circle given perimeter+area -> circle area (diagonal=diameter hidden); circumradius of 10-10-12 isosceles triangle; circle x^2+y^2+10x+Ey+c=0 tangent to y-axis, chord AB=8 on y=1, center below axis (rejected root) -> c. Calibrated d2: common chord of two intersecting circles via subtracting equations (generated d3). Run 82b: sector with angle (15-r)/r rad, area = perimeter, rejected root r=3 (angle 4 rad > pi) held d3 (borderline 2)."
   },
   {
    "domain": "reading_writing",
@@ -565,7 +565,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 6,
+   "note": "Run 82: all 6 held Easy: contrast (Although/in fact), cause-effect (Because), literary emotion clue, colon-examples, rather-than contrast, As-a-result clause. The numeric-giveaway result-clause item (increased, forty to four hundred) is the floor of Easy; avoid stating the outcome outright in future."
   },
   {
    "domain": "reading_writing",
