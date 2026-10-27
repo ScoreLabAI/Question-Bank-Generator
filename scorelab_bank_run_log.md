@@ -1604,3 +1604,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observations: (1) homophone/spelling-confusable key pairs should be avoided in WiC; (2) hard-mandated generators drift Medium when the stem near-defines the key ('bestowed from a height' -> patronizing) or a contrast marker fixes connotation; (3) 'meager'-type near-synonym distractors of a secondary-sense key invite a second answer.
 **Token usage:** about 30 subagent calls, roughly 1.5M subagent tokens.
 **Next run should pick up at:** Words in Context d2 (9/10, needs 1) then d3 (4/10, needs 6).
+
+## Run 85 — 2026-10-27
+**Cells worked:** Words in Context d2: needed 1, got 1 (+2 overshoot from d3 relabel) -> 12/10 DONE. Words in Context d3: needed 6, got 4 -> 8/10 pending, needs 2. Total 7 new questions banked (below the ~10 target; Text Structure d1 not started, because the next pending cell needs 10); master 823 -> 830.
+**Pipeline:** 7 generators, 7 critics (all PASS on correctness; advisory fixes applied in place: parking item 'lot' -> 'buildable area' slip, Aksum item distractor 'perfunctory' -> 'indifferent' plus passage trim, explanation rewording on 3 items), 1 batched calibration (sonnet throughout). Calibrator moved asymmetry and obsequiously d3 -> d2. Note: critics rated most d3 items Medium (or the gig item Easy) while the calibrator kept them; flagged as an observation. 0 discards. Keys were all C/D at generation; reordered at assembly with explanations re-lettered. validate_batch passed (batch_words_in_context_run85.json). Env note: matplotlib had to be pip-installed (not needed for R&W items); two subagent/tool calls hit a transient classifier error and were retried.
+**Skill updates (Step 5):** none applied; nothing queued.
+**Token usage:** 14 subagent calls, roughly 0.7M subagent tokens.
+**Next run should pick up at:** Words in Context d3 (8/10, needs 2), then Text Structure and Purpose d1.

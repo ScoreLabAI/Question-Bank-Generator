@@ -838,3 +838,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Words in Context, d3] resolve: Because diffraction blurs every point of light into a small disk, a telescope's ability to...
 - [Craft and Structure/Words in Context, d2] patronizing: Colonel Ashby's welcome of the young surveyor was warm in every outward particular: he pre...
 - [Craft and Structure/Words in Context, d3] decoupling: Economists studying sixty mid-sized cities found that neighborhoods receiving new transit ...
+- [Craft and Structure/Words in Context, d2] precarious: Gig-delivery drivers' finances described as 'precarious' (no guaranteed hours/sick pay).
+- [Craft and Structure/Words in Context, d3] standing: Advocacy group's landfill lawsuit dismissed for lack of 'standing' (legal sense).
+- [Craft and Structure/Words in Context, d3] sanguine: Composer's final symphony written as hearing failed; 'sanguine' about decline.
+- [Craft and Structure/Words in Context, d2] asymmetry: Grassland rainfall manipulation plots; biomass response 'asymmetry'.
+- [Craft and Structure/Words in Context, d2] obsequiously: Fiction: Teodor refills new director's glass at reception 'obsequiously'.
+- [Craft and Structure/Words in Context, d3] precludes: City parking minimums on 3,000 sq ft infill lot 'precludes' small apartment builds.
+- [Craft and Structure/Words in Context, d3] qualified: Aksum coinage trade thesis; archaeologist Selam Tesfaye's 'qualified' endorsement.
