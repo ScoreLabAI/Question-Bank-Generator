@@ -1625,3 +1625,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observations: Text Structure Medium mandates drift Easy when distractors each differ by one explicit structural element; the calibrator labels borderline fiction/concession items Hard while critics find them clear, so d3 TSP items may be soft. Env note: matplotlib pip-installed (unused).
 **Token usage:** 21 subagent calls, roughly 1.0M subagent tokens.
 **Next run should pick up at:** Words in Context d3 (9/10, needs 1), then Text Structure d2 (2/10, needs 8).
+
+## Run 88 — 2026-10-28
+**Cells worked:** Words in Context d3: needed 1, got 1 (mediates) -> 10/10 DONE. Text Structure and Purpose d2: needed 8 (generated 9), 7 held Medium -> 9/10 pending, needs 1. +1 to d1 (overshoot), +1 to d3 (now 3/10). Total 10 new questions banked; master 850 -> 860.
+**Pipeline:** 10 generators, 10 critics (all PASS; advisory fixes in place: posh acronym sentence replaced + distractor D swapped, Okafor key choice trimmed, Ines distractor A 'calmly' removed, bays 'rather than all at once' added, guild B explanation tightened), 1 batched calibration (sonnet throughout). 0 discards. Calibrator moved Okafor d2->d1 and guild d2->d3. Generators keyed C for 9/10; reordered at assembly with explanations re-lettered. First TS generator was launched with a blank mandate and corrected by message. validate_batch passed (batch_words_in_context_run88.json, batch_text_structure_d{1,2,3}_run88.json).
+**Skill updates (Step 5):** none applied; nothing queued. Observation: critics rated 7 of 9 TS d2 items Easy while calibrator kept Medium (same pattern as run 85).
+**Token usage:** 21 subagent calls, roughly 1.1M subagent tokens.
+**Next run should pick up at:** Text Structure d2 (9/10, needs 1), then d3 (3/10, needs 7).
