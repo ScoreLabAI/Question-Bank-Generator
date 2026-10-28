@@ -1646,3 +1646,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: Cross-Text items with a concede-then-qualify second text calibrate Medium; Easy needs a single explicit relationship.
 **Token usage:** 22 subagent calls, roughly 1.1M subagent tokens.
 **Next run should pick up at:** Text Structure d3 (needs 2; avoid signposted shapes), then Cross-Text d1 (needs 7).
+
+## Run 91 — 2026-10-28
+**Cells worked:** Text Structure and Purpose d3: needed 2, generated 2; 1 held Hard (Marguerite fiction subtext) -> 9/10 pending, needs 1; 1 calibrated Medium (Leeds dialect-map qualification, signposted) banked d2 (overshoot). Cross-Text Connections d1: needed 7, generated 7; 4 held Easy -> 7/10 pending, needs 3; 3 calibrated Medium banked d2 (6/10 pending, needs 4). Total 9 new questions banked; master 878 -> 887.
+**Pipeline:** 9 generators, 9 critics (all PASS, answer keys confirmed; advisory fixes in place: choice C lengthened (falcons), "her branches" wording, C explanation relabel (sleeves), B shortened (museum), A shortened (salt-dilution)), 2 calibration calls (sonnet throughout). 0 discards. Keys reordered at assembly to spread letters with explanations re-lettered. validate_batch passed on batch_cross_text_d{1,2}_run91.json and batch_text_structure_d{2,3}_run91.json.
+**Skill updates (Step 5):** none applied; nothing queued. Observation: Cross-Text 'example illustrates claim', 'alternative interpretation', and 'method extended to new setting' calibrate Medium even with explicit relationships; Easy holds for problem->solution, contradicted prediction, observation->cause, opposing recommendation.
+**Token usage:** 20 subagent calls, roughly 1.0M subagent tokens.
+**Next run should pick up at:** Text Structure d3 (needs 1, unsignposted subtext), Cross-Text d1 (needs 3), then Cross-Text d2 (needs 4).
