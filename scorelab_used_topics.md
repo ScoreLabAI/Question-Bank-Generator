@@ -884,3 +884,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Text Structure and Purpose, d3] Self-healing polymer coating hairline scratches scope limit (underlined function, materials science)
 - [Craft and Structure/Text Structure and Purpose, d3] Wilhelmina Prasad ironing tablecloth, single place setting (underlined function, fiction)
 - [Craft and Structure/Text Structure and Purpose, d3] Psychologist Okoye children narrating errors, parent-diary bias concession (underlined function, psychology)
+- [Craft and Structure/Text Structure and Purpose, d3] Ferry crossing Teodoro folding ticket, subtext (underlined function, fiction)
+- [Craft and Structure/Text Structure and Purpose, d3] Marrow Bay sewers vs typhoid, Lower Quay reframed (underlined function, public health history)
+- [Craft and Structure/Text Structure and Purpose, d2] Crater counting scope limit, Mars lava plains (underlined function, planetary geology)
+- [Craft and Structure/Text Structure and Purpose, d2] Ethnomusicologist Varga Dorovec laments, skeptic objection (underlined function, ethnomusicology)
