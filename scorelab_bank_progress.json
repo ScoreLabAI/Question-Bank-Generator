@@ -576,7 +576,7 @@
    "target_count": 10,
    "status": "done",
    "accepted_count": 13,
-   "note": "Run 83: 4 held Medium (tenuous/geochem, exacerbates/rivers, iconoclastic/art, ephemeral/mindfulness). Fiction-movement verb item (lurched) discarded after 2 critic FLAGs: stem lacked a cue separating sudden vs slow rise. One obscure/botanist item calibrated Easy and banked in d1. Run 84: +5 held Medium (stoic/barn+sister cue, discrete/guild with 'no central authority', surmises/otters, tenacious/Aubin with 'but' contrast, patronizing/Colonel Ashby). Homophone pair (discrete/discreet) replaced because it tests spelling. Needs 1 more. Run 85: +1 (precarious/gig drivers, held Medium) fills cell; +2 overshoot from d3 mandates calibrated Medium (asymmetry/grassland rainfall, obsequiously/Teodor; numbers or motive clause nearly define the word)."
+   "note": "Run 83: 4 held Medium (tenuous/geochem, exacerbates/rivers, iconoclastic/art, ephemeral/mindfulness). Fiction-movement verb item (lurched) discarded after 2 critic FLAGs: stem lacked a cue separating sudden vs slow rise. One obscure/botanist item calibrated Easy and banked in d1. Run 84: +5 held Medium (stoic/barn+sister cue, discrete/guild with 'no central authority', surmises/otters, tenacious/Aubin with 'but' contrast, patronizing/Colonel Ashby). Homophone pair (discrete/discreet) replaced because it tests spelling. Needs 1 more. Run 85: +1 (precarious/gig drivers, held Medium) fills cell; +2 overshoot from d3 mandates calibrated Medium (asymmetry/grassland rainfall, obsequiously/Teodor; numbers or motive clause nearly define the word). Run 87: +1 overshoot from d3 relabel (register; stem nearly defines word)."
   },
   {
    "domain": "reading_writing",
@@ -586,7 +586,7 @@
    "target_count": 10,
    "status": "pending",
    "accepted_count": 9,
-   "note": "Run 84: 4 held Hard: corroborates item (relabeled from d2 after control sentence added; qualifies distractor), spare/secondary sense (relabeled from d2), resolve/optics technical sense, decoupling/abstract noun. Medium-calibrated from d3 mandates: tenacious (contrast marker), patronizing (text nearly defines the word). Hard shapes that held: secondary technical sense, abstract relationship noun. Run 85: +4 held Hard: standing (legal sense, everyday-sense distractors), sanguine (complacent trap), precludes (parking arithmetic), qualified (hedge/concession). Needs 2 more. Critics rated most of these Medium; calibrator kept them Hard. Run 86: +1 held Hard: symptom (abstract relationship noun; borderline Medium). 'discharged' (legal sense, distractors weak, text nearly defines) calibrated Medium -> banked d2 (overshoot). Needs 1 more."
+   "note": "Run 84: 4 held Hard: corroborates item (relabeled from d2 after control sentence added; qualifies distractor), spare/secondary sense (relabeled from d2), resolve/optics technical sense, decoupling/abstract noun. Medium-calibrated from d3 mandates: tenacious (contrast marker), patronizing (text nearly defines the word). Hard shapes that held: secondary technical sense, abstract relationship noun. Run 85: +4 held Hard: standing (legal sense, everyday-sense distractors), sanguine (complacent trap), precludes (parking arithmetic), qualified (hedge/concession). Needs 2 more. Critics rated most of these Medium; calibrator kept them Hard. Run 86: +1 held Hard: symptom (abstract relationship noun; borderline Medium). 'discharged' (legal sense, distractors weak, text nearly defines) calibrated Medium -> banked d2 (overshoot). Needs 1 more. Run 87: generated 1 for d3 (register, sociolinguistics) calibrated Medium -> banked d2. Still needs 1 Hard; try an item where an everyday-sense distractor is fully plausible and stem does not paraphrase the key."
   },
   {
    "domain": "reading_writing",
@@ -595,8 +595,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 10,
-   "note": "Run 86: +8 all calibrated Easy (explicit signals: report finding, view+evidence, 'for example' function, fiction emotion, problem/solution, 'However' complication, bio summary, phenomenon/explanation). Keys came back A for 7/8; reordered at assembly. Needs 2 more; vary shapes (e.g. cause-effect, definition, narrative sequence)."
+   "accepted_count": 13,
+   "note": "Run 86: +8 all calibrated Easy (explicit signals: report finding, view+evidence, 'for example' function, fiction emotion, problem/solution, 'However' complication, bio summary, phenomenon/explanation). Keys came back A for 7/8; reordered at assembly. Needs 2 more; vary shapes (e.g. cause-effect, definition, narrative sequence). Run 87: +2 (cause-effect railroad time zones; definition underlined counterpoint) held Easy, cell complete. +3 overshoot from d2 relabel (explicit analogy underlined, technique+effect main purpose, two-approaches structure all calibrated Easy)."
   },
   {
    "domain": "reading_writing",
@@ -605,7 +605,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 2,
+   "note": "Run 87: 7 generated for d2; only 2 held Medium (hypothesis/experiment/partial support; assumption->artifact->revision structure). 3 calibrated Easy (explicit analogy, technique+effect, two approaches), 2 Hard (concession underlined sentence with 'Yet' pivot; fiction words-vs-actions). Medium shapes held: multi-part structure where distractors each change one structural element. Needs 8 more. Generators key C heavily; reordered at assembly."
   },
   {
    "domain": "reading_writing",
@@ -614,7 +615,8 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 2,
+   "note": "Run 87: +2 overshoot from d2 relabel (concession underlined sentence, economics; fiction words-vs-actions subtext). Calibrator rated them Hard though critics found them clear; treat as borderline Hard. Needs 8 more."
   },
   {
    "domain": "reading_writing",

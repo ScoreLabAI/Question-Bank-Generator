@@ -1618,3 +1618,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observations: text-structure d1 generators all key A; legal-sense WiC items with weak distractors calibrate Medium.
 **Token usage:** about 20 subagent calls, roughly 1.0M subagent tokens.
 **Next run should pick up at:** Words in Context d3 (9/10, needs 1), then Text Structure d1 (8/10, needs 2), then d2.
+
+## Run 87 — 2026-10-28
+**Cells worked:** Words in Context d3: needed 1, got 0 held Hard (register calibrated Medium -> banked d2, 13/13 done); d3 still 9/10, needs 1. Text Structure and Purpose d1: needed 2, got 2 (13/10 incl. 3 overshoot from d2 relabels) DONE. Text Structure and Purpose d2: needed 7 generated, only 2 held Medium -> 2/10 pending, needs 8. Text Structure d3: +2 via relabel from d2 (2/10). Total 10 new questions banked; master 840 -> 850.
+**Pipeline:** 10 generators, 10 critics (all PASS; advisory fixes applied in place: shortened/trimmed longest key choices in 3 items, open-sun clause added to cactus stem, Nadia B explanation reworded, poet B explanation reworded), 2 batched calibrations (sonnet throughout). 0 discards. Calibration moved 3 d2 -> d1 (analogy, technique+effect, two approaches) and 2 d2 -> d3 (concession, fiction subtext). Generators keyed C for 6/7 d2 items; reordered at assembly with explanations re-lettered. validate_batch passed on batch_words/text_structure files (batch_run87a.json, batch_text_structure_d{1,2,3}_run87.json).
+**Skill updates (Step 5):** none applied; nothing queued. Observations: Text Structure Medium mandates drift Easy when distractors each differ by one explicit structural element; the calibrator labels borderline fiction/concession items Hard while critics find them clear, so d3 TSP items may be soft. Env note: matplotlib pip-installed (unused).
+**Token usage:** 21 subagent calls, roughly 1.0M subagent tokens.
+**Next run should pick up at:** Words in Context d3 (9/10, needs 1), then Text Structure d2 (2/10, needs 8).
