@@ -1632,3 +1632,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: critics rated 7 of 9 TS d2 items Easy while calibrator kept Medium (same pattern as run 85).
 **Token usage:** 21 subagent calls, roughly 1.1M subagent tokens.
 **Next run should pick up at:** Text Structure d2 (9/10, needs 1), then d3 (3/10, needs 7).
+
+## Run 89 — 2026-10-28
+**Cells worked:** Text Structure and Purpose d2: needed 1, generated 1 (+4 relabeled in from d3) -> 14/10 DONE. Text Structure and Purpose d3: needed 7, generated 7, only 3 held Hard -> 6/10 pending, needs 4. Total 8 new questions banked; master 860 -> 868.
+**Pipeline:** 8 generators, 8 critics (all PASS; advisory fixes applied: Lima choice B parallelism + A explanation, Wilhelmina D explanation, Baltic explanations, Okoye "gap"->"difference"), 1 batched calibration (sonnet throughout). 0 discards. Calibrator moved 4 d3 items (corporate liability, Baltic, Aldous, Kerkstraat) to d2. Generators keyed B for 7/8; reordered at assembly with explanations re-lettered. validate_batch passed on batch_text_structure_d2_run89.json and batch_text_structure_d3_run89.json.
+**Skill updates (Step 5):** none applied. Observation: whole-text main-purpose/structure items calibrate Medium even with abstract wording; only underlined-sentence items with a precise role or fiction subtext hold Hard.
+**Token usage:** 17 subagent calls, roughly 0.9M subagent tokens.
+**Next run should pick up at:** Text Structure d3 (needs 4 more; use underlined-sentence/subtext shapes), then Cross-Text Connections d1.
