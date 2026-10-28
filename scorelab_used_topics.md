@@ -855,3 +855,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Text Structure and Purpose, d1] Tool libraries funding complication, 'However' sentence (function)
 - [Craft and Structure/Text Structure and Purpose, d1] Architect Yasmin Haque rural schools, Bangladesh (main purpose, biography)
 - [Craft and Structure/Text Structure and Purpose, d1] Brooks Range orange rivers and permafrost thaw (structure)
+- [Craft and Structure/Words in Context, d2] Bilingual radio host: register (sociolinguistics)
+- [Craft and Structure/Text Structure and Purpose, d1] Standard time zones & railroads (cause-effect, history)
+- [Craft and Structure/Text Structure and Purpose, d1] Baroque counterpoint defined (underlined function, music)
