@@ -1639,3 +1639,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: whole-text main-purpose/structure items calibrate Medium even with abstract wording; only underlined-sentence items with a precise role or fiction subtext hold Hard.
 **Token usage:** 17 subagent calls, roughly 0.9M subagent tokens.
 **Next run should pick up at:** Text Structure d3 (needs 4 more; use underlined-sentence/subtext shapes), then Cross-Text Connections d1.
+
+## Run 90 — 2026-10-28
+**Cells worked:** Text Structure and Purpose d3: needed 4 (this run's cap), generated 4, 2 held Hard (ferry ticket subtext; Marrow Bay sewers reframed evidence) -> 8/10 pending, needs 2; 2 calibrated Medium (crater-count scope limit; Varga skeptic objection, both explicit signposts) banked in d2 (overshoot). Cross-Text Connections d1: needed 6, generated 6, 3 held Easy -> 3/10 pending, needs 7; 3 calibrated Medium banked in d2 (3/10, pending, needs 7). Total 10 new questions banked; master 868 -> 878.
+**Pipeline:** 10 generators, 10 critics (all keys confirmed; advisory fixes applied in place: astro choice D + explanation, ferry C explanation, school "its"->"their", geo choice C replaced with emissions-dispute distractor, lit B/C explanations, arch "feasting" wording, bean C wording), 2 batched calibrations (sonnet throughout). 0 discards. Reordered choices at assembly to spread keys. validate_batch passed on batch_text_structure_d{2,3}_run90.json and batch_cross_text_d{1,2}_run90.json.
+**Skill updates (Step 5):** none applied; nothing queued. Observation: Cross-Text items with a concede-then-qualify second text calibrate Medium; Easy needs a single explicit relationship.
+**Token usage:** 22 subagent calls, roughly 1.1M subagent tokens.
+**Next run should pick up at:** Text Structure d3 (needs 2; avoid signposted shapes), then Cross-Text d1 (needs 7).

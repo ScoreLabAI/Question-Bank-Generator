@@ -625,7 +625,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 3,
+      "note": "Run 90: generated 6 for d1; 3 held Easy (extends-recommendation, mechanism, flat disagreement). Needs 7 more. Easy shapes: explicit single relationship with reversed/unsupported distractors; partial-agreement/concede-then-qualify and 'finding supports hypothesis' calibrate Medium."
     },
     {
       "domain": "reading_writing",
@@ -634,7 +635,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 3,
+      "note": "Run 90: +3 overshoot from d1 relabels (hypothesis-supported-by-finding, concede-then-cost-concern, partial-disagreement overstatement). Needs 7 more."
     },
     {
       "domain": "reading_writing",
