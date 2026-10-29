@@ -903,3 +903,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Cross-Text Connections, d2] Urban peregrine falcons on office towers illustrate cities-as-habitat claim (example, urban ecology)
 - [Craft and Structure/Cross-Text Connections, d2] Unnamed novel narrator: loneliness vs reader identification (alternative reading, literary criticism)
 - [Craft and Structure/Cross-Text Connections, d2] Salt-dilution flow gauging extended from rocky stream to irrigation canal (method applied elsewhere, hydrology)
+- [Craft and Structure/Text Structure and Purpose, d2] Antarctic icefish: cold oxygen-rich seawater and low demand make hemoglobin-free blood workable (underlined mechanism sentence, marine biology)
+- [Craft and Structure/Cross-Text Connections, d1] Calder Valley vineyards: delayed pruning proposed against early-budding frost loss (problem->solution, viticulture)
+- [Craft and Structure/Cross-Text Connections, d1] Pendulum bob mass vs swing time: teacher's prediction contradicted by student trials (physics)
+- [Craft and Structure/Cross-Text Connections, d1] Hallen Valley bone pipes: toy claim rejected by burial context and lack of wear (flat disagreement, music history)
