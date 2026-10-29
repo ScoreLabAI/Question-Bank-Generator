@@ -911,3 +911,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Cross-Text Connections, d2] Play 'Salt Orchard': pear-tree small talk and salt cellar on sealed letter illustrate avoidance claim (excerpt illustrates critic's claim, drama)
 - [Craft and Structure/Cross-Text Connections, d2] Village grain cooperatives: benefit real on paved roads but absent where roads flood (concede-then-qualify, development economics)
 - [Craft and Structure/Cross-Text Connections, d1] Varenne plain market-town spacing: travel-limit explanation vs royal charter radius (competing causes, medieval economic history)
+- [Craft and Structure/Text Structure and Purpose, d2] Print shop Dae-ho hides mother's peppermint tin, turns up radio (unsignposted fiction subtext; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d1] Tavari single word for blue/green: discrimination experiment contradicts perception claim (contradicted prediction, linguistics; generated for d2, calibrated d1)
