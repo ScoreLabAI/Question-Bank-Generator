@@ -921,3 +921,4 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Cross-Text Connections, d3] Earthen wall heat storage: delayed interior peak holds in humid town, comfort claim doubted; which Text 1 claim survives (building physics)
 - [Craft and Structure/Cross-Text Connections, d2] Poem 'Last Jar' quince preserves: sealed jar as deferral vs refusal of neighbor's death (two critics' readings, poetry; generated for d3, calibrated d2)
 - [Craft and Structure/Cross-Text Connections, d1] Wood thrush spring arrival vs March temperature: direction confirmed, magnitude one day not three (model partially supported, ornithology; generated for d3, calibrated d1)
+- [Craft and Structure/Text Structure and Purpose, d2] Salt-pan raker Revathi secretly repairing the boy's rows before owner's inspection (fiction subtext, salt works; generated for d3, calibrated d2)
