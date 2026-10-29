@@ -930,3 +930,4 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Cross-Text Connections, d2] Quarry Ridge sauropod trackways: herd vs separate passage on a narrow mud strip (paleontology; generated for d3, calibrated d2)
 - [Craft and Structure/Cross-Text Connections, d2] Vellmar Basin fjord sediment cores: thickened dark layers, river flood vs shifted bottom currents (geology; generated for d3, calibrated d2)
 - [Craft and Structure/Cross-Text Connections, d2] Tessaly Chronicle translations: later versions closer to original, damaged-manuscript/critical-edition cause (translation studies; generated for d3, calibrated d2)
+- [Craft and Structure/Text Structure and Purpose, d2] Greta and Wen Brahms solo: escalating transposed audition, page turned face down (music/family fiction subtext; generated for d3, calibrated d2)
