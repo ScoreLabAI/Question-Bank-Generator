@@ -913,3 +913,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Cross-Text Connections, d1] Varenne plain market-town spacing: travel-limit explanation vs royal charter radius (competing causes, medieval economic history)
 - [Craft and Structure/Text Structure and Purpose, d2] Print shop Dae-ho hides mother's peppermint tin, turns up radio (unsignposted fiction subtext; generated for d3, calibrated d2)
 - [Craft and Structure/Cross-Text Connections, d1] Tavari single word for blue/green: discrimination experiment contradicts perception claim (contradicted prediction, linguistics; generated for d2, calibrated d1)
+- [Craft and Structure/Cross-Text Connections, d2] Ketchum Sound kelp/sea otters: same outcome, mechanism rejected via otter-free coves and disease (accept outcome/reject cause, marine ecology; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Corvane tram extension: ridership accurate but wrong success standard vs Eastgate purpose (different standard of worth, urban transit; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Saint Aubert altarpiece infrared underdrawing: revisions fit tracing onto narrower panel (reinterpreted evidence, art history; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Pooled swab testing: lower pooled cutoff answers dilution worry (feature addresses unmentioned concern, public health lab; generated for d3, calibrated d2)

@@ -634,9 +634,9 @@
    "skill_subcategory": "Cross-Text Connections",
    "difficulty": 2,
    "target_count": 10,
-   "status": "pending",
-   "accepted_count": 9,
-   "note": "Run 90: +3 overshoot from d1 relabels (hypothesis-supported-by-finding, concede-then-cost-concern, partial-disagreement overstatement). Needs 7 more. Run 91: +3 overshoot from d1 relabels (falcon example, unnamed narrator alt reading, salt-dilution method extension). Needs 4 more. Run 92: generated 4 for d2; 3 held Medium (self-selection methodological objection, play-excerpt illustrates critic claim, concede-then-qualify grain cooperatives); 1 calibrated Easy (competing causal explanation with plainly stated disagreement) -> banked d1. Needs 1 more. Avoid 'competing explanation' for d2 unless Text 2's rejection is implicit. Run 93: generated 1 for d2 (implicit-rejection by data) calibrated Easy -> banked d1. Still needs 1; implicit rejection by experiment data is still Easy; use concession/methodological shapes."
+   "status": "done",
+   "accepted_count": 13,
+   "note": "Run 90: +3 overshoot from d1 relabels (hypothesis-supported-by-finding, concede-then-cost-concern, partial-disagreement overstatement). Needs 7 more. Run 91: +3 overshoot from d1 relabels (falcon example, unnamed narrator alt reading, salt-dilution method extension). Needs 4 more. Run 92: generated 4 for d2; 3 held Medium (self-selection methodological objection, play-excerpt illustrates critic claim, concede-then-qualify grain cooperatives); 1 calibrated Easy (competing causal explanation with plainly stated disagreement) -> banked d1. Needs 1 more. Avoid 'competing explanation' for d2 unless Text 2's rejection is implicit. Run 93: generated 1 for d2 (implicit-rejection by data) calibrated Easy -> banked d1. Still needs 1; implicit rejection by experiment data is still Easy; use concession/methodological shapes. Run 93: +4 overshoot from d3 relabels (kelp/otters outcome-yes-cause-no; tram different success standard; altarpiece reinterpreted evidence; pooled-test cutoff addressing unmentioned worry). All calibrated Medium even with implicit relationships, critic-checked tempting distractors; pooled-test borderline Hard."
   },
   {
    "domain": "reading_writing",
@@ -645,7 +645,8 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 0,
+   "note": "Run 93: 4 d3 attempts (accept-outcome-reject-mechanism; differing standard of worth; reinterpreted evidence; feature addressing unmentioned worry) all calibrated Medium -> banked d2. Distractors fail on single checkable claims. Needs 10. For Hard: make EVERY distractor a blend of both texts' true statements (each distractor accurate about one text, wrong about the relationship), keep Text 2's stance hedged, avoid evidence that rebuts Text 1 point-by-point."
   },
   {
    "domain": "reading_writing",
