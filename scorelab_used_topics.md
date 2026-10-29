@@ -922,3 +922,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Cross-Text Connections, d2] Poem 'Last Jar' quince preserves: sealed jar as deferral vs refusal of neighbor's death (two critics' readings, poetry; generated for d3, calibrated d2)
 - [Craft and Structure/Cross-Text Connections, d1] Wood thrush spring arrival vs March temperature: direction confirmed, magnitude one day not three (model partially supported, ornithology; generated for d3, calibrated d1)
 - [Craft and Structure/Text Structure and Purpose, d2] Salt-pan raker Revathi secretly repairing the boy's rows before owner's inspection (fiction subtext, salt works; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Documentary 'Low Water' held interview shots: aimed at viewers vs the genre's cut-away convention (shared premise, film criticism; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Armyworm-damaged maize wasp-guiding blend: dependable in hybrids vs possibly dulled by breeding (plant ecology; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Brennick Yard welding apprenticeship wage gap: skill vs certificate making skill visible (labor economics; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Port Calloway Mercer Street gas lamps vs earlier shop window light: which claim Text 2 still accepts (urban history; generated for d3, calibrated d2)
