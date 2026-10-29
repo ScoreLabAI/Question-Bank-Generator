@@ -917,3 +917,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Cross-Text Connections, d2] Corvane tram extension: ridership accurate but wrong success standard vs Eastgate purpose (different standard of worth, urban transit; generated for d3, calibrated d2)
 - [Craft and Structure/Cross-Text Connections, d2] Saint Aubert altarpiece infrared underdrawing: revisions fit tracing onto narrower panel (reinterpreted evidence, art history; generated for d3, calibrated d2)
 - [Craft and Structure/Cross-Text Connections, d2] Pooled swab testing: lower pooled cutoff answers dilution worry (feature addresses unmentioned concern, public health lab; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d3] Norse settlers vs English farmers as adult learners behind loss of noun endings: agree on mechanism, differ on which learners (medieval English linguistics)
+- [Craft and Structure/Cross-Text Connections, d3] Earthen wall heat storage: delayed interior peak holds in humid town, comfort claim doubted; which Text 1 claim survives (building physics)
+- [Craft and Structure/Cross-Text Connections, d2] Poem 'Last Jar' quince preserves: sealed jar as deferral vs refusal of neighbor's death (two critics' readings, poetry; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d1] Wood thrush spring arrival vs March temperature: direction confirmed, magnitude one day not three (model partially supported, ornithology; generated for d3, calibrated d1)
