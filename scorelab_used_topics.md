@@ -926,3 +926,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Cross-Text Connections, d2] Armyworm-damaged maize wasp-guiding blend: dependable in hybrids vs possibly dulled by breeding (plant ecology; generated for d3, calibrated d2)
 - [Craft and Structure/Cross-Text Connections, d2] Brennick Yard welding apprenticeship wage gap: skill vs certificate making skill visible (labor economics; generated for d3, calibrated d2)
 - [Craft and Structure/Cross-Text Connections, d2] Port Calloway Mercer Street gas lamps vs earlier shop window light: which claim Text 2 still accepts (urban history; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d3] Little League pitch-count cap vs weekly totals: implicit premise Text 2 relies on (cumulative arm strain; youth sports medicine)
+- [Craft and Structure/Cross-Text Connections, d2] Quarry Ridge sauropod trackways: herd vs separate passage on a narrow mud strip (paleontology; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Vellmar Basin fjord sediment cores: thickened dark layers, river flood vs shifted bottom currents (geology; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Tessaly Chronicle translations: later versions closer to original, damaged-manuscript/critical-edition cause (translation studies; generated for d3, calibrated d2)
