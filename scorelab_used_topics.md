@@ -931,3 +931,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Cross-Text Connections, d2] Vellmar Basin fjord sediment cores: thickened dark layers, river flood vs shifted bottom currents (geology; generated for d3, calibrated d2)
 - [Craft and Structure/Cross-Text Connections, d2] Tessaly Chronicle translations: later versions closer to original, damaged-manuscript/critical-edition cause (translation studies; generated for d3, calibrated d2)
 - [Craft and Structure/Text Structure and Purpose, d2] Greta and Wen Brahms solo: escalating transposed audition, page turned face down (music/family fiction subtext; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d3] Alder Heights rezoning vs Voss: implicit premise Text 2 relies on (rents fall only via housing built; urban economics)
+- [Craft and Structure/Cross-Text Connections, d2] Arlen/Vosse/Tren curled-leaf capitals: masons vs bishops/abbots as carriers of models (medieval architecture; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Steel stack vortex shedding: fins vs tuned mass damper, which Text 1 claim survives (engineering; generated for d3, calibrated d2)
+- [Craft and Structure/Cross-Text Connections, d2] Teller Estuary restored marsh bird counts vs reference marsh: recorded vs dependent species (ecology; generated for d3, calibrated d2)

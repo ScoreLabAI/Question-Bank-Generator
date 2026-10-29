@@ -1674,3 +1674,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: Cross-Text Hard needs distractors that fail on relationship, not one word; shapes that stay Medium regardless of rewrites: accept-observation/vary-cause, evidence-fits-both, scope-open. Shape that held Hard: implicit-premise ('what must Text 2's author accept for its objection to make sense'). Recorded in the d3 cell note.
 **Token usage:** 21 subagent calls, roughly 1.1M subagent tokens.
 **Next run should pick up at:** Text Structure d3 (needs 1), Cross-Text d3 (needs 7; mandate the implicit-premise stem with varied topics), then Central Ideas and Details d1.
+
+## Run 95 — 2026-10-29
+**Cells worked:** Text Structure and Purpose d3: needed 1, generated 1 (Greta/Wen Brahms audition fiction subtext); critic FLAG (A defensible on hostile reading) -> A, C, explanation rewritten, re-critique PASS; calibrated Medium -> banked d2 (d3 stays 9/10). Cross-Text d3: needed 7, generated 4 (cut short of 7 to stay within usage scope); 1 held Hard (Alder Heights zoning implicit premise) -> d3 now 4/10; 3 calibrated Medium -> d2 (medieval capitals carriers, stack/damper, marsh birds). Total 5 new questions banked; master 914 -> 919. Under the ~10 target because each generate+critique+calibrate round is costly and only 5 were produced.
+**Pipeline:** 5 generators, 6 critics (all PASS after minor advisory/explanation fixes; one correctness FLAG fixed and re-critiqued), 2 calibration calls. 0 discards. validate_batch passed (batch_text_structure_d3_run95, batch_cross_text_d3_run95).
+**Skill updates (Step 5):** none applied; nothing queued. Observation recorded in cell notes: only the implicit-premise 'must accept' stem holds Hard in Cross-Text; fiction-subtext items with an assignment frame in the stem calibrate Medium.
+**Token usage:** 13 subagent calls, roughly 0.7M subagent tokens.
+**Next run should pick up at:** Text Structure d3 (needs 1), Cross-Text d3 (needs 6; implicit-premise stem only), then Central Ideas and Details d1.
