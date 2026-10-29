@@ -907,3 +907,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Craft and Structure/Cross-Text Connections, d1] Calder Valley vineyards: delayed pruning proposed against early-budding frost loss (problem->solution, viticulture)
 - [Craft and Structure/Cross-Text Connections, d1] Pendulum bob mass vs swing time: teacher's prediction contradicted by student trials (physics)
 - [Craft and Structure/Cross-Text Connections, d1] Hallen Valley bone pipes: toy claim rejected by burial context and lack of wear (flat disagreement, music history)
+- [Craft and Structure/Cross-Text Connections, d2] Handwritten vs typed notes study: self-selection confound objection (methodological objection, educational psychology)
+- [Craft and Structure/Cross-Text Connections, d2] Play 'Salt Orchard': pear-tree small talk and salt cellar on sealed letter illustrate avoidance claim (excerpt illustrates critic's claim, drama)
+- [Craft and Structure/Cross-Text Connections, d2] Village grain cooperatives: benefit real on paved roads but absent where roads flood (concede-then-qualify, development economics)
+- [Craft and Structure/Cross-Text Connections, d1] Varenne plain market-town spacing: travel-limit explanation vs royal charter radius (competing causes, medieval economic history)
