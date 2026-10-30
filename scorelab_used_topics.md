@@ -958,3 +958,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 [Information and Ideas/Central Ideas and Details, d1] Parrotfish scrape reefs and excrete coral sand that forms tropical beaches (marine biology, main idea)
 [Information and Ideas/Central Ideas and Details, d1] Venus flytrap trigger hairs must be touched twice within twenty seconds (botany, stated detail)
 [Information and Ideas/Central Ideas and Details, d1] Lake-effect snow: cold air over warm lake yields heavy downwind snow (weather, main idea)
+[Craft and Structure/Cross-Text Connections, d3] Sarrovian wheat-duty repeal vs flat flour prices: Text 2 needs repeal to have substantially cut mill costs (economic history)
+[Craft and Structure/Cross-Text Connections, d2] Marden Panel smalt pigment vs repair campaign: Text 2 needs smalt unavailable before 1541 (art history, conservation)
+[Craft and Structure/Cross-Text Connections, d2] Kellis Cave stalagmite band thickness vs rainfall scale, airflow confound (paleoclimate)
+[Craft and Structure/Cross-Text Connections, d2] Second-grade reading program and regression to the mean: selection by earlier test score (education research)
+[Craft and Structure/Cross-Text Connections, d3] Karrow adze blades gradient vs coastal village loss: fair-sample assumption (archaeology)
