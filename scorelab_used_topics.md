@@ -963,3 +963,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 [Craft and Structure/Cross-Text Connections, d2] Kellis Cave stalagmite band thickness vs rainfall scale, airflow confound (paleoclimate)
 [Craft and Structure/Cross-Text Connections, d2] Second-grade reading program and regression to the mean: selection by earlier test score (education research)
 [Craft and Structure/Cross-Text Connections, d3] Karrow adze blades gradient vs coastal village loss: fair-sample assumption (archaeology)
+[Information and Ideas/Central Ideas and Details, d1] Philadelphia volunteer fire company of 1736 replaces informal firefighting (colonial civics history, main idea)
+[Information and Ideas/Central Ideas and Details, d1] Vacuum flask: removed air between walls limits heat transfer (everyday technology, stated cause)
+[Information and Ideas/Central Ideas and Details, d1] Plant iron absorption improved by pairing with vitamin C (nutrition, main idea)
+[Information and Ideas/Central Ideas and Details, d2] Beaver ponds cool streams only when spring-fed, warm them when runoff-fed (ecology, finding plus qualification)
+[Information and Ideas/Central Ideas and Details, d2] Chess coach's attitude toward student's rook-pawn opening shifts from correction to acceptance (fiction, attitude change)

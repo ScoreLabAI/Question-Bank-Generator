@@ -1702,3 +1702,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; nothing queued. Observation: Cross-Text d3 still fails to hold Hard; surviving-claim items where the key is the only plain observation, and implicit-premise items whose wrong choices carry overreach words, calibrate Medium. Setup note: matplotlib was not preinstalled; pip install took >2 min (not needed for these R&W cells).
 **Token usage:** roughly 1.0M subagent tokens (about 19 subagent calls, ~55k each).
 **Next run should pick up at:** Cross-Text d3 (needs 5), Central Ideas d1 (needs 3), then Central Ideas d2/d3.
+
+## Run 99 — 2026-10-30
+**Cells worked:** Cross-Text Connections d3: needed 5, generated 5 (econ-history wheat duty, art-history smalt, paleoclimate stalagmite, education regression-to-mean, archaeology adze blades); wheat-duty critic FLAG (stem asked 'idea from Text 1' but key not in Text 1) fixed in place (stem reworded, key reworded, explanations adjusted), re-critique FLAG explanation-only, fixed. Calibrated: wheat-duty and adze blades Hard -> d3 (now 7/10); smalt, stalagmite, regression calibrated Medium -> banked d2 (d2 cell +3). Central Ideas and Details d1: needed 3, got 3 (cell done 10/10). Central Ideas d2: needed 2 (capped for run size), got 2 (now 4/10).
+**Pipeline:** 10 generators, 11 critics (incl. 1 re-critique), 2 batched calibrators, all sonnet. Keys reshuffled at assembly (all generators keyed C). validate_batch passed both batches (5/5 each). No discards.
+**Skill updates (Step 5):** none applied. Observation: Cross-Text Hard holds when key is a premise absent from both texts and one distractor echoes Text 2's own conditional; stem must say 'assumption underlying Text 1' not 'idea from Text 1' when the key isn't stated in Text 1.
+**Token usage:** roughly 1.2M subagent tokens (~21 subagent calls, ~55k each).
+**Next run should pick up at:** Cross-Text d3 (needs 3), Central Ideas d2 (needs 6), then Central Ideas d3.
