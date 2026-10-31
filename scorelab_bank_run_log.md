@@ -1724,3 +1724,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: for Central Ideas d3, only the literary tacit-inference shape held Hard; signposted informational passages (economics, history of science) calibrate Medium.
 **Token usage:** roughly 0.45M subagent tokens (17 subagent calls).
 **Next run should pick up at:** Cross-Text d3 (needs 2), Central Ideas d3 (needs 9) -- use fiction/poetry with tacit central idea; then Command of Evidence (Textual).
+
+## Run 102 — 2026-10-31 (scheduled)
+**Cells worked:** Cross-Text Connections d3: needed 1-2 (was 8/10), 2 gens; 1 held Hard (Kernow whaling logs, implicit premise) -> d3 now 9/10; 1 calibrated Medium (Calvern greeting) -> banked d2. Central Ideas and Details d3: needed 9 (scope capped), 6 gens; 2 held Hard (harbor poem; ferry rope reinterpretation) -> d3 now 3/10; 4 calibrated Medium -> banked d2 (cheese-wire, tenant mediation, garden poem, fair judge).
+**Total banked:** 8 new questions (CT d3 +1, CT d2 +1, CI d3 +2, CI d2 +4). Cross-Text d3 still pending (9/10); Central Ideas d3 pending (3/10).
+**Pipeline:** 8 generators, 8 critics (all PASS or minor FLAG; explanation/wording fixes applied in place WITHOUT re-critique: CT2 stem/choice tweak removing 'as the radio account would predict', gender-neutral rewrite of harbor poem choices, D/B/C explanation corrections), 3 calibration calls, all sonnet. No regenerations or discards. Keys not reshuffled (A=3, B=2, C=3 across batch; validator passed all batches).
+**Skill updates (Step 5):** none applied. Observation: CI d3 Hard held only where the text does not signpost the gap (poem omission, reinterpretation of a colleague's act); first-sentence framing/direct questions/explicit contrasts calibrate Medium.
+**Token usage:** roughly 0.45M subagent tokens (19 subagent calls, ~45-60k each).
+**Next run should pick up at:** Cross-Text d3 (needs 1), Central Ideas d3 (needs 7), then Command of Evidence (Textual) d1.

@@ -990,3 +990,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Central Ideas and Details, d3] Harbor poem: speaker skips Mainland column of tide table, ambivalence about leaving (poetry, tacit ambivalence)
 - [Information and Ideas/Central Ideas and Details, d2] Tenant-association mediation: narrator wins rent freeze but dodges courtyard-garden question (first-person fiction; generated for d3, calibrated Medium)
 - [Information and Ideas/Central Ideas and Details, d3] Ferry deckhand Okafor retying stern line to give late passenger time, newcomer Ansel infers (fiction, reinterpretation of colleague)
+- [Information and Ideas/Central Ideas and Details, d2] Back Bed poem: speaker tends garden, sweeps around chair, gloves untouched, unnamed loss (poetry; generated for d3, calibrated Medium)
+- [Information and Ideas/Central Ideas and Details, d2] Hesper judging village fair quilt: delays and hedges before giving honest praise (fiction; generated for d3, calibrated Medium)
