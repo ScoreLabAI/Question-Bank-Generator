@@ -1716,3 +1716,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: Central Ideas Medium-targeted items with a clear problem/solution/caveat structure or an explicit stated causal chain calibrate Easy; Cross-Text fisheries/mortar shapes calibrated Medium (distractors fall to 'could'/'Even if'/overreach cues).
 **Token usage:** roughly 0.5M subagent tokens (18 subagent calls, ~50-70k each).
 **Next run should pick up at:** Cross-Text d3 (needs 2), Central Ideas d2 (needs 2), then Central Ideas d3 (needs 10).
+
+## Run 101 — 2026-10-31 (scheduled)
+**Cells worked:** Cross-Text Connections d3: needed 2, got 0 at d3 (2 gens, both calibrated Medium -> banked d2; d2 cell +2). Central Ideas and Details d2: needed 2, got 1 at d2 (fungal networks); 2 generated for d3 calibrated Medium -> banked d2 (cell now 11/10, done); 1 generated for d2 (Condori weaving) calibrated Easy -> banked d1. Central Ideas d3: needed 6 (scope capped), 3 gens, 1 held Hard (Marguerite interpreter; now 1/10).
+**Total banked:** 7 new questions (tracked by tag: CT d2 +2, CI d1 +1, CI d2 +3, CI d3 +1). Cross-Text d3 still 8/10.
+**Pipeline:** 7 generators (5 CI + 2 CT; all sonnet), 8 critics (all key-confirmed; FLAGs were minor/advisory and fixed in place; CT stem rewritten after FLAG and re-critiqued PASS; the Rosen C-wording fix, interpreter distractor replacements, and diaries distractor/C rewrites after critic FLAGs were applied in place WITHOUT a second critic pass -- worth a human glance), 2 calibration calls. No discards. Keys reshuffled at assembly (all generators keyed C). validate_batch passed all batches.
+**Skill updates (Step 5):** none applied. Observation: for Central Ideas d3, only the literary tacit-inference shape held Hard; signposted informational passages (economics, history of science) calibrate Medium.
+**Token usage:** roughly 0.45M subagent tokens (17 subagent calls).
+**Next run should pick up at:** Cross-Text d3 (needs 2), Central Ideas d3 (needs 9) -- use fiction/poetry with tacit central idea; then Command of Evidence (Textual).
