@@ -968,3 +968,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 [Information and Ideas/Central Ideas and Details, d1] Plant iron absorption improved by pairing with vitamin C (nutrition, main idea)
 [Information and Ideas/Central Ideas and Details, d2] Beaver ponds cool streams only when spring-fed, warm them when runoff-fed (ecology, finding plus qualification)
 [Information and Ideas/Central Ideas and Details, d2] Chess coach's attitude toward student's rook-pawn opening shifts from correction to acceptance (fiction, attitude change)
+[Craft and Structure/Cross-Text Connections, d3] Old Kestrian ei/ai vowel merger: merchants spell by pronunciation and match scribes (historical linguistics)
+[Craft and Structure/Cross-Text Connections, d2] Verrin Shelf grey hake survey: stations oversample inner shelf (fisheries survey method)
+[Craft and Structure/Cross-Text Connections, d2] St. Brannoch chapel mortar shell vs quarry sand: builders weigh site cost (architectural history)
