@@ -992,3 +992,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Central Ideas and Details, d3] Ferry deckhand Okafor retying stern line to give late passenger time, newcomer Ansel infers (fiction, reinterpretation of colleague)
 - [Information and Ideas/Central Ideas and Details, d2] Back Bed poem: speaker tends garden, sweeps around chair, gloves untouched, unnamed loss (poetry; generated for d3, calibrated Medium)
 - [Information and Ideas/Central Ideas and Details, d2] Hesper judging village fair quilt: delays and hedges before giving honest praise (fiction; generated for d3, calibrated Medium)
+- [Craft and Structure/Cross-Text Connections, d2] Tolvan pottery glaze thickness: finer powder vs hotter kilns, thickness survives firing (ceramics history; generated for d3, calibrated Medium)
+- [Craft and Structure/Cross-Text Connections, d3] Swimmers' resting heart rate as overtraining signal vs statistician false-positive rate (sports science, implicit premise)
