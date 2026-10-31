@@ -997,3 +997,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Central Ideas and Details, d3] Name-tape poem: speaker sews mother's name tapes for care home, re-sews tape on already-named hat (poetry, tacit reluctance)
 - [Information and Ideas/Central Ideas and Details, d2] Seed-bank clerk Oriel hand-copies labels, notices damp lentil packets logs missed (fiction; generated for d3, calibrated Medium)
 - [Information and Ideas/Central Ideas and Details, d3] Surveyor stakes boundary beside grandfather's pear row, counts trees, refuses blossom-friendly tape color (fiction, tacit attachment)
+- [Information and Ideas/Central Ideas and Details, d2] Lighthouse keeper Teodor's knocking ritual, newcomer Imani imitates it (fiction; generated for d3, calibrated Medium)
+- [Information and Ideas/Central Ideas and Details, d2] Bakery back door propped open, stool with bag of day-old loaves and thermos (fiction; generated for d3, calibrated Medium)
+- [Information and Ideas/Central Ideas and Details, d3] Larch Street bike-running poem: parent keeps arm out after child balances (poetry, tacit reluctance to let go)

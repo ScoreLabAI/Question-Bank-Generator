@@ -1732,3 +1732,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: CI d3 Hard held only where the text does not signpost the gap (poem omission, reinterpretation of a colleague's act); first-sentence framing/direct questions/explicit contrasts calibrate Medium.
 **Token usage:** roughly 0.45M subagent tokens (19 subagent calls, ~45-60k each).
 **Next run should pick up at:** Cross-Text d3 (needs 1), Central Ideas d3 (needs 7), then Command of Evidence (Textual) d1.
+
+## Run 103 — 2026-10-31 (scheduled)
+**Cells worked:** Cross-Text Connections d3: needed 1, 2 gens; swimmer heart-rate (implicit premise) held Hard -> d3 now 10/10 DONE; Tolvan glaze calibrated Medium -> banked d2. Central Ideas and Details d3: needed 7 (scope capped), 6 gens; 3 held Hard (name-tape poem, surveyor pear-row, Larch Street bike poem) -> d3 now 6/10; 3 calibrated Medium -> banked d2 (seed-bank labels, lighthouse knocking, bakery open door).
+**Total banked:** 8 new questions (CT d3 +1, CT d2 +1, CI d3 +3, CI d2 +3). Central Ideas d3 still pending (6/10, needs 4).
+**Pipeline:** 8 generators, 8 critics (2 PASS; 4 FLAG fixed in place without re-critique: seed-bank link clause + distractor/length rebalance; name-tape iron/sew inconsistency; surveyor family-ownership overreach softened + distractors C/D; bakery key hedged + D replaced), 4 calibration calls, all sonnet. No regenerations or discards. Validator passed all batches.
+**Skill updates (Step 5):** none applied. Observation: critics repeatedly flag that the keyed choice is longest/most elaborate and asserts unsupported backstory; Generator prompts for literary CI items should require parallel-length choices and key wording no stronger than the text.
+**Token usage:** roughly 0.45M subagent tokens (~20 subagent calls).
+**Next run should pick up at:** Central Ideas d3 (needs 4), then Command of Evidence (Textual) d1.
