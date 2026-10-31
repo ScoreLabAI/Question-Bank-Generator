@@ -1709,3 +1709,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: Cross-Text Hard holds when key is a premise absent from both texts and one distractor echoes Text 2's own conditional; stem must say 'assumption underlying Text 1' not 'idea from Text 1' when the key isn't stated in Text 1.
 **Token usage:** roughly 1.2M subagent tokens (~21 subagent calls, ~55k each).
 **Next run should pick up at:** Cross-Text d3 (needs 3), Central Ideas d2 (needs 6), then Central Ideas d3.
+
+## Run 100 — 2026-10-31 (scheduled)
+**Cells worked:** Cross-Text Connections d3: needed 3, got 1 at d3 (linguistics merchants'-letters implicit premise; now 8/10); 2 calibrated Medium -> banked d2 (fisheries survey station placement; chapel mortar cost-weighing; d2 cell +2 overshoot). Central Ideas and Details d2: needed 6, got 4 at d2 (now 8/10); 2 calibrated Easy -> banked d1 (satellite drag sail; cooperage guild stated cause; d1 +2 overshoot).
+**Pipeline:** 9 generators, 9 critics (all PASS; explanation-only/advisory fixes applied in place to 4 items: distractor explanations, 'unstated' added to one stem, one choice shortened), 2 batched calibrators, all sonnet. No regenerations or discards. Keys reshuffled at assembly. validate_batch passed both batches (3/3, 6/6).
+**Skill updates (Step 5):** none applied. Observation: Central Ideas Medium-targeted items with a clear problem/solution/caveat structure or an explicit stated causal chain calibrate Easy; Cross-Text fisheries/mortar shapes calibrated Medium (distractors fall to 'could'/'Even if'/overreach cues).
+**Token usage:** roughly 0.5M subagent tokens (18 subagent calls, ~50-70k each).
+**Next run should pick up at:** Cross-Text d3 (needs 2), Central Ideas d2 (needs 2), then Central Ideas d3 (needs 10).

@@ -655,8 +655,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "done",
-      "accepted_count": 10,
-      "note": "Run 97: banked 4 d1 (kangaroo rats, glassblower, farmers market, dunes); all calibrated Easy. Needs 6 more; vary subjects and keep passages plain and explicit. Run 98: banked 3 d1 (parrotfish sand, Venus flytrap detail, lake-effect snow); all calibrated Easy. Needs 3 more. Run 99: banked 3 d1 (colonial fire company main idea; vacuum flask stated cause; iron+vitamin C main idea); all calibrated Easy. Cell done."
+      "accepted_count": 12,
+      "note": "Run 97: banked 4 d1 (kangaroo rats, glassblower, farmers market, dunes); all calibrated Easy. Needs 6 more; vary subjects and keep passages plain and explicit. Run 98: banked 3 d1 (parrotfish sand, Venus flytrap detail, lake-effect snow); all calibrated Easy. Needs 3 more. Run 99: banked 3 d1 (colonial fire company main idea; vacuum flask stated cause; iron+vitamin C main idea); all calibrated Easy. Cell done. Run 100: +2 overshoot from d2 (drag sail; cooperage guild). Easy."
     },
     {
       "domain": "reading_writing",
@@ -665,8 +665,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 4,
-      "note": "Run 97: +2 overshoot from d1 (mail carrier fiction; puppet troupe -- fiction/inference load and 'purpose' vocabulary calibrated Medium). Run 99: banked 2 d2 (beaver ponds finding-plus-qualification main idea; chess coach attitude shift from actions). Both held Medium. Needs 6 more."
+      "accepted_count": 8,
+      "note": "Run 97: +2 overshoot from d1 (mail carrier fiction; puppet troupe -- fiction/inference load and 'purpose' vocabulary calibrated Medium). Run 99: banked 2 d2 (beaver ponds finding-plus-qualification main idea; chess coach attitude shift from actions). Both held Medium. Needs 6 more. Run 100: banked 4 d2 (street trees+sidewalks finding-plus-qualification; violin plate tuning main idea with 'templates remain' qualification; radiator poem changing relationship; fiction Ines action-shown decision). All held Medium. Needs 2 more. Two Medium-targeted gens (satellite drag sail with cost caveat; cooperage guild stated-cause detail) calibrated Easy -> d1: plain problem/solution/caveat with 'however' signpost and a direct causal chain stated outright are Easy shapes."
     },
     {
       "domain": "reading_writing",
