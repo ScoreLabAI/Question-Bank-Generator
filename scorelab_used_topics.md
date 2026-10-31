@@ -994,3 +994,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Central Ideas and Details, d2] Hesper judging village fair quilt: delays and hedges before giving honest praise (fiction; generated for d3, calibrated Medium)
 - [Craft and Structure/Cross-Text Connections, d2] Tolvan pottery glaze thickness: finer powder vs hotter kilns, thickness survives firing (ceramics history; generated for d3, calibrated Medium)
 - [Craft and Structure/Cross-Text Connections, d3] Swimmers' resting heart rate as overtraining signal vs statistician false-positive rate (sports science, implicit premise)
+- [Information and Ideas/Central Ideas and Details, d3] Name-tape poem: speaker sews mother's name tapes for care home, re-sews tape on already-named hat (poetry, tacit reluctance)
+- [Information and Ideas/Central Ideas and Details, d2] Seed-bank clerk Oriel hand-copies labels, notices damp lentil packets logs missed (fiction; generated for d3, calibrated Medium)
+- [Information and Ideas/Central Ideas and Details, d3] Surveyor stakes boundary beside grandfather's pear row, counts trees, refuses blossom-friendly tape color (fiction, tacit attachment)
