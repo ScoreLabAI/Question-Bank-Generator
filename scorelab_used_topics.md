@@ -1000,3 +1000,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Central Ideas and Details, d2] Lighthouse keeper Teodor's knocking ritual, newcomer Imani imitates it (fiction; generated for d3, calibrated Medium)
 - [Information and Ideas/Central Ideas and Details, d2] Bakery back door propped open, stool with bag of day-old loaves and thermos (fiction; generated for d3, calibrated Medium)
 - [Information and Ideas/Central Ideas and Details, d3] Larch Street bike-running poem: parent keeps arm out after child balances (poetry, tacit reluctance to let go)
+- [Information and Ideas/Central Ideas and Details, d2] Night-shift pharmacist Sorel routes refills via side window, shields customers counting coins (fiction; generated for d3, calibrated Medium)
+- [Information and Ideas/Central Ideas and Details, d2] Narrator copies aunt's address book to spreadsheet, then hand-addresses cut names (fiction; generated for d3, calibrated Medium)
+- [Information and Ideas/Central Ideas and Details, d2] Print-shop newcomer Nadia finds manager Pell has been quietly reprinting her jobs (fiction; generated for d3, calibrated Medium)
+- [Information and Ideas/Central Ideas and Details, d3] Workshop poem: speaker tends brother's side of the bench, credits his cabinet to delivery man (poetry, tacit pride/absence)
