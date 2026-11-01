@@ -1772,3 +1772,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: Hard CoE-T shapes are two-half claims shown in a single image/with half-supporting distractors and mechanism claims needing necessity plus rival ruled out; primary-source items with visible timing/attribution cues and threshold claims with numeric mapping calibrate Medium.
 **Token usage:** roughly 0.9M subagent tokens (25 subagent calls).
 **Next run should pick up at:** CoE Textual d3 (needs 8), then CoE Quantitative d1 (needs 10; requires table/graph visuals).
+
+## Run 108 — 2026-11-01 (scheduled)
+**Cells worked:** Command of Evidence (Textual) d3: needed 8, 8 gens in two rounds (round 2 hardened); none held Hard. Calibrated Medium -> banked d2: ice-cooling, ant-handling, bilingual signs, typhoid/water act, bat mites. Calibrated Easy -> banked d1: bell-ringer (Medium-leaning-easy, tagged d2 per calibrator), composer letter, doorframe poem. d3 still 2/10 (pending). d2 now 17, d1 now 14 (overshoot).
+**Total banked:** 8 new questions (CoE-T d2 +6, d1 +2). Note: bell-ringer banked d2 in round 1.
+**Pipeline:** 8 generators, 8 critics (all keys confirmed; fixes applied in place without re-critique: ice C explanation; bell choice A replaced with relief-valence near-miss; sign A/D explanations; bats stem softened and D grammar; music C 'second march' -> 'second variation' and D explanation; door C 'left untouched' and explanation; typhoid source wording, B rewritten, explanations), 2 batched calibrators; all sonnet. No discards. validate_batch passed both batches (4/4, 4/4).
+**Skill updates (Step 5):** none applied; queued Hard-yield proposal in review queue.
+**Token usage:** roughly 0.7M subagent tokens (18 subagent calls).
+**Next run should pick up at:** CoE Textual d3 (needs 8) -- consider review-queue proposal -- then CoE Quantitative d1 (needs visuals).

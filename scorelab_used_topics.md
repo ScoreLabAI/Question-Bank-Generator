@@ -1042,3 +1042,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Textual), d2] Story 'The Sunday Peal': bell-ringer Halda Voss gives up rope publicly, privately attached (Reyes reading, quotation; generated for d3, calibrated Medium)
 - [Information and Ideas/Command of Evidence (Textual), d2] Ecologist Salomaa: ant handling helps bluebract seedlings only under deep leaf litter (field trial; generated for d3, calibrated Medium)
 - [Information and Ideas/Command of Evidence (Textual), d2] Sociolinguist Enquist: bilingual Vietnamese shop signs on Harlow Row raise foot traffic (lottery; weakener; generated for d3, calibrated Medium)
+- [Information and Ideas/Command of Evidence (Textual), d2] Historian Anselm: Basin Water Act filtering, not wages, cut Calder Basin typhoid (matched-town registers; generated for d3, calibrated Medium)
+- [Information and Ideas/Command of Evidence (Textual), d2] Ecologist Orlund: Kellar's fruit bats leave caves because of roost mites not warming (2x2 manipulation; generated for d3, calibrated Medium)
+- [Information and Ideas/Command of Evidence (Textual), d1] Historian Oyelowo: composer Draeger's Variations on a Folk Tune written for village bands (letter quotation; generated for d3, calibrated Easy)
+- [Information and Ideas/Command of Evidence (Textual), d1] Poem 'Forwarding Address' by fictional Ekberg: speaker clearing parents' house spares childhood doorframe pencil heights (Obuya reading; generated for d3, calibrated Easy)
