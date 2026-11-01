@@ -1028,3 +1028,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Textual), d2] Hydrologist Brandvold: terracing reduces hillside soil loss (terraced vs unterraced plot comparison)
 - [Information and Ideas/Command of Evidence (Textual), d2] Historian Oduya: shopkeeper Odile Marrand sold stock at cost in 1871 siege out of obligation to neighbors (diary quotation)
 - [Information and Ideas/Command of Evidence (Textual), d2] Sleep researcher Rutherford: afternoon nap improves memory consolidation only in short sleepers (conditional finding)
+- [Information and Ideas/Central Ideas and Details, d3] Poem 'Hives, First Frost': beekeeper wraps neighbor Dessa's hives' leftover tar paper, estranged neighbor answers by setting stone square (tacit reconciliation)
+- [Information and Ideas/Central Ideas and Details, d2] Poem: baker-mother on Calder Street, daughter's new bakery sign, two portions of dough not four (pride and absence)
