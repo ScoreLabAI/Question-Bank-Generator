@@ -1038,3 +1038,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Textual), d3] Biologist Voss: homing pigeons navigate by airborne chemical gradient map, not magnetic sensing (nerve-cut vs magnet findings)
 - [Information and Ideas/Command of Evidence (Textual), d2] Materials scientist Aberg: silicon carbide whiskers strengthen ceramic tiles only at >=10 percent volume
 - [Information and Ideas/Command of Evidence (Textual), d2] Historian Halvorsen: mill owner Penhallow knew dam at Teller's Reach was unsound before raising pond 1847 (memo vs letters)
+- [Information and Ideas/Command of Evidence (Textual), d2] Glaciologist Tolland: Lake Harrow ice booms from rapid cooling not wind (cooling vs wind nights; generated for d3, calibrated Medium)
+- [Information and Ideas/Command of Evidence (Textual), d2] Story 'The Sunday Peal': bell-ringer Halda Voss gives up rope publicly, privately attached (Reyes reading, quotation; generated for d3, calibrated Medium)
+- [Information and Ideas/Command of Evidence (Textual), d2] Ecologist Salomaa: ant handling helps bluebract seedlings only under deep leaf litter (field trial; generated for d3, calibrated Medium)
+- [Information and Ideas/Command of Evidence (Textual), d2] Sociolinguist Enquist: bilingual Vietnamese shop signs on Harlow Row raise foot traffic (lottery; weakener; generated for d3, calibrated Medium)
