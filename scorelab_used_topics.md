@@ -1034,3 +1034,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Textual), d2] Linguist Kowalczyk: contact languages borrow nouns for new objects more than everyday verbs (Tavari/Oruwen)
 - [Information and Ideas/Command of Evidence (Textual), d2] Economist Almeida: printing presses caused later town commercial growth (matched towns 1470 vs 1520)
 - [Information and Ideas/Command of Evidence (Textual), d1] Poem 'Sill Light': lantern in window as private welcome to estranged sister Maren (Whitlock reading, quotation)
+- [Information and Ideas/Command of Evidence (Textual), d3] Poem 'Salt Ledger': daughter selling late father's ship chandlery, divided feelings (Hendry reading, quotation)
+- [Information and Ideas/Command of Evidence (Textual), d3] Biologist Voss: homing pigeons navigate by airborne chemical gradient map, not magnetic sensing (nerve-cut vs magnet findings)
+- [Information and Ideas/Command of Evidence (Textual), d2] Materials scientist Aberg: silicon carbide whiskers strengthen ceramic tiles only at >=10 percent volume
+- [Information and Ideas/Command of Evidence (Textual), d2] Historian Halvorsen: mill owner Penhallow knew dam at Teller's Reach was unsound before raising pond 1847 (memo vs letters)

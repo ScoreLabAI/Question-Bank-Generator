@@ -694,9 +694,9 @@
    "skill_subcategory": "Command of Evidence (Textual)",
    "difficulty": 2,
    "target_count": 10,
-   "status": "pending",
-   "accepted_count": 9,
-   "note": "Run 104: +2 from d1-targeted generations (primrose hypothesis experiment; Bramwell intent-vs-hurried quotation). Medium shapes: comparative/controlled design, or near-miss distractor that shares the key's detail but supplies the opposite motive. Run 105: +1 (cleaner-wrasse comparative design, generated for d1). Run 106: +3 generated for d2, all held Medium (terracing controlled comparison; historian-motive diary quotation with practical-motive near-miss; conditional-only nap claim). Now 6/10. Run 107: +3 held Medium (soil mulch fungi/bacteria controlled comparison; Kowalczyk noun-vs-verb borrowing, low-Medium; Almeida printing-press causal claim with matched-town control, upper Medium ~58%). Now 9/10. Keep: causal claims needing a control/matching cue calibrate upper Medium."
+   "status": "done",
+   "accepted_count": 11,
+   "note": "Run 104: +2 from d1-targeted generations (primrose hypothesis experiment; Bramwell intent-vs-hurried quotation). Medium shapes: comparative/controlled design, or near-miss distractor that shares the key's detail but supplies the opposite motive. Run 105: +1 (cleaner-wrasse comparative design, generated for d1). Run 106: +3 generated for d2, all held Medium (terracing controlled comparison; historian-motive diary quotation with practical-motive near-miss; conditional-only nap claim). Now 6/10. Run 107: +3 held Medium (soil mulch fungi/bacteria controlled comparison; Kowalczyk noun-vs-verb borrowing, low-Medium; Almeida printing-press causal claim with matched-town control, upper Medium ~58%). Now 9/10. Keep: causal claims needing a control/matching cue calibrate upper Medium. Run 107 round 2: +2 (whisker-tile threshold; Penhallow dam), generated for d3, calibrated Medium -> d2 now 11/10 (overshoot)."
   },
   {
    "domain": "reading_writing",
@@ -705,7 +705,8 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 2,
+   "note": "Run 107: first run, 4 gens (Salt Ledger divided-feelings poem quotation; pigeon chemical-vs-magnetic mechanism; whisker-tile threshold; Penhallow dam primary sources). Held Hard: ledger (key doesn't echo claim; A/B each give half; D right feeling wrong object, ~45%) and pigeon (rule out rival pathway + isolate own; borderline ~50%). Calibrated Medium -> d2: tile threshold (key numbers map directly to the 10% cutoff, ~65%) and dam (timing/attribution cues visible, key echoes claim, ~72%). Hard shapes: two-half claim illustrated by one image with half-supporting distractors; mechanism claim needing necessity + rival ruled out. Needs 8 more."
   },
   {
    "domain": "reading_writing",

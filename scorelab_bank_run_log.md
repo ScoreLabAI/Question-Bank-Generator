@@ -1764,3 +1764,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: poems/prose with cumulative considerate-act cues (laundromat) or explicit stated-reason-vs-action contrast calibrate Medium for CI d3; only the pond poem (practical reason as lure, no cue pointing at gap) held Hard.
 **Token usage:** roughly 0.6M subagent tokens (20 subagent calls).
 **Next run should pick up at:** Central Ideas d3 (needs 1), CoE Textual d2 (needs 4), then CoE Textual d3 (needs 10).
+
+## Run 107 — 2026-11-01 (scheduled)
+**Cells worked:** Central Ideas and Details d3: needed 1, 3 gens (2 critiqued; cider-press fiction dropped for scope/known-Medium shape); beehive poem held Hard -> d3 now 10/10 (done); bakery poem calibrated Medium -> banked d2. Command of Evidence (Textual) d2: needed 4, 4 gens; soil-mulch, noun/verb borrowing, printing-press held Medium (d2 now 9/10 before round 2); Sill Light quotation calibrated Easy -> banked d1 (overshoot 12/10). Command of Evidence (Textual) d3: scope-capped at 4 gens; Salt Ledger poem and pigeon navigation held Hard (d3 now 2/10); whisker-tile and Penhallow dam calibrated Medium -> banked d2 (d2 now 11/10, done, overshoot).
+**Total banked:** 10 new questions (CI d3 +1, CI d2 +1, CoE-T d3 +2, CoE-T d2 +5, CoE-T d1 +1). CoE-T d3 still pending (2/10).
+**Pipeline:** 11 generators, 10 critics (all PASS, keys confirmed; polish applied in place without re-critique: bakery choice B, hives estrangement wording and C/D explanations, press explanation, Sill Light stem/choice B, tile and pigeon explanations), 4 calibrator calls; all sonnet. No regenerations or discards (1 draft unused for scope). validate_batch passed all merges.
+**Skill updates (Step 5):** none applied. Observation: Hard CoE-T shapes are two-half claims shown in a single image/with half-supporting distractors and mechanism claims needing necessity plus rival ruled out; primary-source items with visible timing/attribution cues and threshold claims with numeric mapping calibrate Medium.
+**Token usage:** roughly 0.9M subagent tokens (25 subagent calls).
+**Next run should pick up at:** CoE Textual d3 (needs 8), then CoE Quantitative d1 (needs 10; requires table/graph visuals).
