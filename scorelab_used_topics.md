@@ -1030,3 +1030,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Textual), d2] Sleep researcher Rutherford: afternoon nap improves memory consolidation only in short sleepers (conditional finding)
 - [Information and Ideas/Central Ideas and Details, d3] Poem 'Hives, First Frost': beekeeper wraps neighbor Dessa's hives' leftover tar paper, estranged neighbor answers by setting stone square (tacit reconciliation)
 - [Information and Ideas/Central Ideas and Details, d2] Poem: baker-mother on Calder Street, daughter's new bakery sign, two portions of dough not four (pride and absence)
+- [Information and Ideas/Command of Evidence (Textual), d2] Soil ecologist Okafor: wood-chip mulch raises fungi but not bacteria (mulched vs unmulched beds)
+- [Information and Ideas/Command of Evidence (Textual), d2] Linguist Kowalczyk: contact languages borrow nouns for new objects more than everyday verbs (Tavari/Oruwen)
+- [Information and Ideas/Command of Evidence (Textual), d2] Economist Almeida: printing presses caused later town commercial growth (matched towns 1470 vs 1520)
+- [Information and Ideas/Command of Evidence (Textual), d1] Poem 'Sill Light': lantern in window as private welcome to estranged sister Maren (Whitlock reading, quotation)
