@@ -1010,3 +1010,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Textual), d1] Basalt-fiber vs steel rebar corrosion in coastal bridge decks (test-result finding)
 - [Information and Ideas/Command of Evidence (Textual), d2] Evening primrose pollinated by night-flying moths (seed-set experiment; generated for d1, calibrated Medium)
 - [Information and Ideas/Command of Evidence (Textual), d2] Fictional painter Ilse Bramwell's deliberately faded canvas edges (notebook quotation; generated for d1, calibrated Medium)
+- [Information and Ideas/Central Ideas and Details, d3] Salt-marsh hay staddle poem: speaker keeps grandfather's wooden rake handle, leaves new aluminum rake unused (poetry, tacit attachment)
+- [Information and Ideas/Central Ideas and Details, d2] Tram-stop poem: speaker fusses with bench, bag, timetable, umbrella before traveler leaves (poetry, tacit reluctance; generated for d3, calibrated Medium)
+- [Information and Ideas/Central Ideas and Details, d2] Piano tuner Mr. Aberra's closing hymn; apprentice Nilufar stops counting seconds (fiction; generated for d3, calibrated Medium)
