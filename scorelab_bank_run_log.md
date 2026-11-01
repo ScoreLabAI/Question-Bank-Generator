@@ -1756,3 +1756,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: Easy CoE items with a comparative-design hypothesis (fish) calibrate Medium, consistent with primrose in run 104.
 **Token usage:** roughly 0.55M subagent tokens (20 subagent calls).
 **Next run should pick up at:** Central Ideas d3 (needs 2, poems with tacit omission), CoE Textual d1 (needs 1), then CoE Textual d2 (needs 7).
+
+## Run 106 — 2026-11-01 (scheduled)
+**Cells worked:** Central Ideas and Details d3: needed 2, 4 gens; 1 held Hard (pond-shoveling poem) -> d3 now 9/10; 3 calibrated Medium -> banked d2 (absent-person poem; checkers fiction; laundromat poem). Command of Evidence (Textual) d1: needed 1, 2 gens; both held Easy -> d1 now 11/10 (done, overshoot). Command of Evidence (Textual) d2: needed 7, 3 gens generated for d2 (scope cap); all held Medium -> d2 now 6/10 (3 + 3 banked).
+**Total banked:** 9 new questions (CI d3 +1, CI d2 +3, CoE-T d1 +2, CoE-T d2 +3). CI d3 (9/10) and CoE-T d2 (6/10) still pending; CoE-T d3 untouched (0/10).
+**Pipeline:** 9 generators, 9 critics (all PASS, keys confirmed; polish applied in place without re-critique: ci_a explanation wording, ci_b "leaves the coat", ci_c distractor C explanation, coe2_b "fed the children that winter"), 1 batched calibrator for CI d3 and 1 for the rest; all sonnet. No regenerations or discards. validate_batch passed 9/9.
+**Skill updates (Step 5):** none applied. Observation: poems/prose with cumulative considerate-act cues (laundromat) or explicit stated-reason-vs-action contrast calibrate Medium for CI d3; only the pond poem (practical reason as lure, no cue pointing at gap) held Hard.
+**Token usage:** roughly 0.6M subagent tokens (20 subagent calls).
+**Next run should pick up at:** Central Ideas d3 (needs 1), CoE Textual d2 (needs 4), then CoE Textual d3 (needs 10).
