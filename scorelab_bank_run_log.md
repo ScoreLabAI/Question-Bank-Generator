@@ -1740,3 +1740,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: critics repeatedly flag that the keyed choice is longest/most elaborate and asserts unsupported backstory; Generator prompts for literary CI items should require parallel-length choices and key wording no stronger than the text.
 **Token usage:** roughly 0.45M subagent tokens (~20 subagent calls).
 **Next run should pick up at:** Central Ideas d3 (needs 4), then Command of Evidence (Textual) d1.
+
+## Run 104 — 2026-11-01 (scheduled)
+**Cells worked:** Central Ideas and Details d3: needed 3+ (scope-capped), 4 gens; 1 held Hard (workshop-bench poem) -> d3 now 7/10; 3 calibrated Medium -> banked d2 (pharmacist side window; address book; print-shop reprints). Command of Evidence (Textual) d1: needed 6, 6 gens; 4 held Easy -> d1 now 4/10; 2 calibrated Medium -> banked d2 (primrose pollination; Bramwell notebook; d2 cell now 2/10).
+**Total banked:** 10 new questions (CI d3 +1, CI d2 +3, CoE-T d1 +4, CoE-T d2 +2). CI d3 (7/10) and CoE-T d1 (4/10) still pending.
+**Pipeline:** 10 generators, 10 critics (all keys confirmed; minor/advisory FLAGs fixed in place WITHOUT re-critique: pharmacist/press/address-book/bench rewordings and replaced distractors, social stem + explanations, primrose key rewritten to isolate moths vs daytime insects, pruning C explanation softened), 2 batched calibrators; all sonnet. No discards. validate_batch passed both batches (4/4, 6/6). Keys not reshuffled (A=3,B=2,C=2... within CoE batch A=3); ok.
+**Skill updates (Step 5):** none applied. Observation: stated-reason-vs-action fiction and arcs with explicit numbers/evidence calibrate Medium for CI d3; poems remain the reliable Hard shape. CoE Textual Easy shape documented in the cell note.
+**Token usage:** roughly 0.6M subagent tokens (22 subagent calls, ~45-75k each).
+**Next run should pick up at:** Central Ideas d3 (needs 3, poems with tacit omission), then CoE Textual d1 (needs 6).
