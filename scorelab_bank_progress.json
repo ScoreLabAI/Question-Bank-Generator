@@ -685,8 +685,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 4,
-   "note": "Run 104: first run for this cell; 6 gens (social-science survey, Kano guild, poem quotation, basalt rebar, primrose pollination, Bramwell notebook). 4 held Easy (single plain claim, key matches claim wording, distractors off-topic or reversed). Primrose (comparative experiment, 'rather than daytime insects') and Bramwell (intent vs hurried-work near-miss distractor) calibrated Medium -> banked d2. Easy shape: one claim, support finding/quotation that maps directly, reversal + off-topic distractors."
+   "accepted_count": 9,
+   "note": "Run 104: first run for this cell; 6 gens (social-science survey, Kano guild, poem quotation, basalt rebar, primrose pollination, Bramwell notebook). 4 held Easy (single plain claim, key matches claim wording, distractors off-topic or reversed). Primrose (comparative experiment, 'rather than daytime insects') and Bramwell (intent vs hurried-work near-miss distractor) calibrated Medium -> banked d2. Easy shape: one claim, support finding/quotation that maps directly, reversal + off-topic distractors. Run 105: 5 held Easy (Lanterns novel quotation, comet tail, flint quarries, classroom plants, Net Mender poem; all single claim + reversal + 2 off-topic). Fish cleaner-wrasse comparative design calibrated Medium -> d2. Now 9/10; needs 1."
   },
   {
    "domain": "reading_writing",
@@ -695,8 +695,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 2,
-   "note": "Run 104: +2 from d1-targeted generations (primrose hypothesis experiment; Bramwell intent-vs-hurried quotation). Medium shapes: comparative/controlled design, or near-miss distractor that shares the key's detail but supplies the opposite motive."
+   "accepted_count": 3,
+   "note": "Run 104: +2 from d1-targeted generations (primrose hypothesis experiment; Bramwell intent-vs-hurried quotation). Medium shapes: comparative/controlled design, or near-miss distractor that shares the key's detail but supplies the opposite motive. Run 105: +1 (cleaner-wrasse comparative design, generated for d1)."
   },
   {
    "domain": "reading_writing",

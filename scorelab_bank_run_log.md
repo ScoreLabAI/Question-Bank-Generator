@@ -1748,3 +1748,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: stated-reason-vs-action fiction and arcs with explicit numbers/evidence calibrate Medium for CI d3; poems remain the reliable Hard shape. CoE Textual Easy shape documented in the cell note.
 **Token usage:** roughly 0.6M subagent tokens (22 subagent calls, ~45-75k each).
 **Next run should pick up at:** Central Ideas d3 (needs 3, poems with tacit omission), then CoE Textual d1 (needs 6).
+
+## Run 105 — 2026-11-01 (scheduled)
+**Cells worked:** Central Ideas and Details d3: needed 3, 3 gens; 1 held Hard (salt-marsh hay poem) -> d3 now 8/10; 2 calibrated Medium -> banked d2 (tram-stop poem; piano-tuner fiction). Command of Evidence (Textual) d1: needed 6, 6 gens; 5 held Easy -> d1 now 9/10; 1 calibrated Medium -> banked d2 (cleaner-wrasse comparative design; d2 cell now 3/10).
+**Total banked:** 9 new questions (CI d3 +1, CI d2 +2, CoE-T d1 +5, CoE-T d2 +1). CI d3 (8/10) and CoE-T d1 (9/10) still pending.
+**Pipeline:** 9 generators, 9 critics (all keys confirmed PASS/minor FLAG; polish applied in place without re-critique: tram-stop A/B explanations, hay-poem explanation wording, piano-tuner C explanation, Lanterns stem "grew up" removed, comet B explanation), 2 batched calibrators; all sonnet. No regenerations or discards. validate_batch passed both batches (3/3, 6/6).
+**Skill updates (Step 5):** none applied. Observation: Easy CoE items with a comparative-design hypothesis (fish) calibrate Medium, consistent with primrose in run 104.
+**Token usage:** roughly 0.55M subagent tokens (20 subagent calls).
+**Next run should pick up at:** Central Ideas d3 (needs 2, poems with tacit omission), CoE Textual d1 (needs 1), then CoE Textual d2 (needs 7).
