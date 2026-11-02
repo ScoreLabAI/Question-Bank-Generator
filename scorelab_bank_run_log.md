@@ -1804,3 +1804,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill/tooling updates (Step 5):** render_visual.py: added optional `bar_labels: true` for bar charts (exact values above bars); critics flagged unreadable bar values between gridlines; default off so existing specs unchanged. Environment: matplotlib installs under /usr/bin/python3 (use that interpreter; /usr/local python3.13 lacks it).
 **Token usage:** roughly 0.7M subagent tokens (about 16 subagent calls).
 **Next run should pick up at:** CoE Textual d3 (needs 3; Hard yield is low, shapes keep calibrating Medium), then CoE Quantitative d1 (needs 8; favor 3-category single-comparison bar charts and direct tables).
+
+## Run 112 — 2026-11-02 (cloud routine)
+**Cells worked:** CoE Textual d3 (needed 3, got 1 d3 + 2 relabeled d2); CoE Quantitative d1 (needed 7 this run of 8, got 7).
+**Banked:** 10 new questions (CoE-T d3 +1, CoE-T d2 +2 by calibration, CoE-Q d1 +7). No discards, no regenerations.
+**Pipeline:** 10 generators, 10 critics (all PASS; in-place fixes without re-critique: Harlow choice C explanation rewritten, free-throw table removed from stem text since visual_data carries it, warbler B explanation reworded, "fictional" removed from stem, day-book explanation wording), 2 batched calibrators; all sonnet. Choices reordered at assembly to fix key skew (CoE-Q batch). validate_batch passed (3/3, 7/7). Bar charts rendered via render_visual.py with bar_labels.
+**Calibration:** Hard held only for the basalt 2x2 (mirror-distractor sharing four numbers). Day-book single-record and warbler weakener -> Medium.
+**Skill/tooling updates:** none. Environment note: use /usr/bin/python3 (matplotlib not on default python3; pip install went to it).
+**Token usage:** about 1.0M subagent tokens (about 22 subagent calls).
+**Next run should pick up at:** CoE Textual d3 (needs 2), then CoE Quantitative d1 (needs 1), then CoE-Q d2/d3.
