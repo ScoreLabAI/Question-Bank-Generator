@@ -1066,3 +1066,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] City arts council Marlow Park concerts: jazz vs folk vs classical attendance (bar chart)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Millbrook Public Library Saturday story hour: weekend child visits by year (table)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Ecologist Tolliver: ground beetle species on meadow/mowed lawn/gravel lot (bar chart)
+- [Information and Ideas/Command of Evidence (Textual), d3] Geologist Arkwright: basalt column width set by cooling rate not thickness (2x2 remelted blocks 5/20 cm x fast/slow; mirror distractor)
+- [Information and Ideas/Command of Evidence (Textual), d2] Historian Solheim: apothecary Hallam 1794 day-book, stated first-come rule vs practice (single-record quotation; generated for d3, calibrated Medium)
+- [Information and Ideas/Command of Evidence (Textual), d2] Ornithologist Raabe: tawny reed warbler arrival earlier after wet winters via fat-load mechanism (weakener, mirror supporter; generated for d3, calibrated Medium)
