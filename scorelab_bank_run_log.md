@@ -1796,3 +1796,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied.
 **Token usage:** roughly 0.6M subagent tokens (11 subagent calls).
 **Next run should pick up at:** CoE Textual d3 (needs 3), then CoE Quantitative d1 (needs 10, tables/graphs).
+
+## Run 111 — 2026-11-02 (scheduled)
+**Cells worked:** Command of Evidence (Textual) d3: needed 3, 3 gens (crossed 2x2 astronomy; single-record schooner log; weakener with mirror distractor). All three calibrated Medium -> banked d2 (overshoot; d3 stays 7/10, pending). Command of Evidence (Quantitative) d1: needed 7 but only 4 attempted to keep scope ~10 (2 tables, 2 bar charts). Calibration: 2 Easy held (concert genre bars, beetle bars) -> d1 now 2/10; 2 Medium (zooplankton depth table, library story-hour table) -> banked d2 (CoE-Q d2 now 2/10).
+**Total banked:** 7 new questions (CoE-T d2 +3, CoE-Q d1 +2, CoE-Q d2 +2). No discards.
+**Pipeline:** 7 generators, 7 critics (all PASS, keys independently confirmed; in-place fixes without re-critique: D explanation wording, schooner pronouns/B explanation), 2 batched calibrators; all sonnet. Choice order shuffled at assembly (all generator keys were C). validate_batch passed (3/3, 4/4).
+**Skill/tooling updates (Step 5):** render_visual.py: added optional `bar_labels: true` for bar charts (exact values above bars); critics flagged unreadable bar values between gridlines; default off so existing specs unchanged. Environment: matplotlib installs under /usr/bin/python3 (use that interpreter; /usr/local python3.13 lacks it).
+**Token usage:** roughly 0.7M subagent tokens (about 16 subagent calls).
+**Next run should pick up at:** CoE Textual d3 (needs 3; Hard yield is low, shapes keep calibrating Medium), then CoE Quantitative d1 (needs 8; favor 3-category single-comparison bar charts and direct tables).
