@@ -1788,3 +1788,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied. Observation: Hard yield improved to 3/8 using crossed-design mechanism items and an oblique single-record two-person item; "hardening" by making all choices two-sided worked only when the key still needed a cross-check of who/which condition. WARN: all 8 keys this run were C in non-numeric items (A=0,B=1,C=7,D=0 across run) -- generators gravitate to C; consider asking for key reordering at assembly (queued).
 **Token usage:** roughly 1.0M subagent tokens (about 26 subagent calls).
 **Next run should pick up at:** CoE Textual d3 (needs 5; crossed-design / two-person single-record shapes), then CoE Quantitative d1 (needs 10, requires table/graph visuals).
+
+## Run 110 — 2026-11-02 (scheduled)
+**Cells worked:** Command of Evidence (Textual) d3: needed 5, 5 gens (mandated crossed-2x2 / single-record shapes). Held Hard: bike-lane separation vs width, footbridge rhythm vs count (weakener) -> d3 now 7/10 (pending). Calibrated Medium -> banked d2: shrub soil/humidity, theater letter-book, pear oxygen/temperature (d2 overshoot).
+**Total banked:** 5 new questions (d3 +2, d2 +3). Run stopped at 5 rather than ~10: Hard yield remains ~40% and the next cell (CoE Quantitative d1) needs visuals; left for next run.
+**Pipeline:** 5 generators, 5 critics (keys all independently confirmed; fixes without re-critique: pear explanation letter typo from my reorder, footbridge choice D replaced with a clearly non-weakening distractor + explanation), 1 batched calibrator; all sonnet. Choice order shuffled at assembly to fix all-B key skew. No discards. validate_batch passed (2/2, 3/3). Environment note: matplotlib needed a Pillow reinstall (`pip install --force-reinstall pillow`) before import worked; no visuals were needed this run.
+**Skill updates (Step 5):** none applied.
+**Token usage:** roughly 0.6M subagent tokens (11 subagent calls).
+**Next run should pick up at:** CoE Textual d3 (needs 3), then CoE Quantitative d1 (needs 10, tables/graphs).
