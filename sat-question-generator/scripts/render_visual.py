@@ -66,7 +66,7 @@ Spec format (visual_type "graph"):
     "points": [[1, 2], [2, 4.1], [3, 5.9]],
     "best_fit_line": {"m": 2, "b": 0.1}   // optional
 
-    // chart_type == "bar":
+    // chart_type == "bar": (optional "bar_labels": true prints exact values above bars; added run 111)
     "categories": ["A", "B", "C"],
     "values": [5, 8, 3]
   }
@@ -223,7 +223,11 @@ def render_graph(data, ax):
             ax.plot(x, y, linewidth=1.5, color="#0F1F3D", linestyle="--")
 
     elif chart_type == "bar":
-        ax.bar(data["categories"], data["values"], color="#2563EB")
+        bars = ax.bar(data["categories"], data["values"], color="#2563EB")
+        # Optional (run 111): "bar_labels": true prints each bar's value above it so the
+        # student can read exact values. Off by default; existing specs are unchanged.
+        if data.get("bar_labels"):
+            ax.bar_label(bars, labels=[f"{v:g}" for v in data["values"]], padding=2)
 
     else:
         raise ValueError(f"Unknown chart_type: {chart_type}")
