@@ -1076,3 +1076,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Climatologist Vandermeer: Tamsin Valley winter snowfall valley floor/mid-slope/summit (bar chart, lower than both)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Student Nandakumar: radish height by fertilizer treatment, kelp extract tallest (table, 4 rows)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Tallow Bay lighthouse trail visitors 2010/2015/2020 rising (bar chart, increase at each point)
+- [Information and Ideas/Command of Evidence (Textual), d2] Textile engineer Solano: wicking height weave density vs fiber, crossed 2x2 (mirror distractor)
+- [Information and Ideas/Command of Evidence (Textual), d3] Folklorist Brandvold: tale "The Sleeping Miller" lowland-to-upland spread, weakener via dialect refrain
