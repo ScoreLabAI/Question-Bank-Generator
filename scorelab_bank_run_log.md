@@ -1813,3 +1813,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill/tooling updates:** none. Environment note: use /usr/bin/python3 (matplotlib not on default python3; pip install went to it).
 **Token usage:** about 1.0M subagent tokens (about 22 subagent calls).
 **Next run should pick up at:** CoE Textual d3 (needs 2), then CoE Quantitative d1 (needs 1), then CoE-Q d2/d3.
+
+## Run 113 — 2026-11-02 (cloud routine)
+**Cells worked:** CoE Textual d3 (needed 2, got 1 d3 + 1 relabeled d2); CoE Quantitative d1 (needed 1, got 1 plus 4 more); CoE Quantitative d2 (needed 8, attempted 4; all 4 calibrated Easy -> banked d1).
+**Banked:** 7 new questions (CoE-T d3 +1, CoE-T d2 +1, CoE-Q d1 +5). CoE-Q d1 now complete (14/10, overshoot). CoE-Q d2 remains 2/10, CoE-T d3 9/10. Scope kept at 7 generations to stay near ~10 including critique cost. No discards, no regenerations.
+**Pipeline:** 7 generators, 7 critics (Textual both PASS; Quant critics minor FLAGs, advisory only: explanation rewordings, birds key B reworded to state 'highest rate of any plot', tree stem 'air temperature' -> 'sidewalk temperatures'; fixes applied without re-critique), 2 batched calibrators; all sonnet. validate_batch passed (2/2, 5/5). Bar charts/scatter rendered via render_visual.py (needs wrapper {visual_type, visual_data}; /usr/bin/python3 has matplotlib after pip install).
+**Calibration:** Textual: Solano 2x2 -> Medium (mirror is a plain factor swap); Brandvold weakener held Hard (~42%). Quant: every d2-targeted item came back Easy; d2 shapes need a derived inference the key does not state.
+**Skill updates:** none applied. Note: keys ended C,C,A,B,C,B,C-heavy in non-numeric items; not reordered this run.
+**Token usage:** roughly 0.9M subagent tokens (about 16 subagent calls).
+**Next run should pick up at:** CoE Textual d3 (needs 1), then CoE Quantitative d2 (needs 8; require a derived-inference shape where the key does not state the result), then CoE-Q d3.

@@ -714,9 +714,9 @@
       "skill_subcategory": "Command of Evidence (Quantitative)",
       "difficulty": 1,
       "target_count": 10,
-      "status": "pending",
-      "accepted_count": 9,
-      "note": "Run 111: 4 gens (table/bar). Easy held: bar charts with 3 categories and one-comparison claim (concert genres ~85%, beetle species ~85%). Medium: tables where the claim needs an inference (middle depth, first year vs year before). Needs 8 more. Bar charts now use bar_labels:true so exact values are readable. Run 112: 7 gens all held Easy (~75-90%): 3-category bar charts (one comparison, ratio claim, 'lower than both', increase at each time point, peak at middle) and direct tables (4-row max; 3-row with distractor column present in only one choice). Near-boundary: fly-ash peak-in-middle (~75%) and free-throw table (~75%)."
+      "status": "done",
+      "accepted_count": 14,
+      "note": "Run 111: 4 gens (table/bar). Easy held: bar charts with 3 categories and one-comparison claim (concert genres ~85%, beetle species ~85%). Medium: tables where the claim needs an inference (middle depth, first year vs year before). Needs 8 more. Bar charts now use bar_labels:true so exact values are readable. Run 112: 7 gens all held Easy (~75-90%): 3-category bar charts (one comparison, ratio claim, 'lower than both', increase at each time point, peak at middle) and direct tables (4-row max; 3-row with distractor column present in only one choice). Near-boundary: fly-ash peak-in-middle (~75%) and free-throw table (~75%). Run 113: 5 gens (ice-melt 3-bar chart intended d1; 4 intended d2: wren nest-box table, banding-rate table, tree-species 5-bar chart, pond scatter) ALL calibrated Easy (82-93%): 3-row tables, labeled 5-bar charts, 5-point scatter, and even a 5-row rate table (once key states the result) stay Easy. Cell complete (overshoot +4)."
     },
     {
       "domain": "reading_writing",
@@ -726,7 +726,7 @@
       "target_count": 10,
       "status": "pending",
       "accepted_count": 2,
-      "note": "Run 111: +2 from d1-targeted gens calibrated Medium (zooplankton depth table w/ distractor temperature column ~65%; library story-hour table needing year-boundary inference ~60%)."
+      "note": "Run 111: +2 from d1-targeted gens calibrated Medium (zooplankton depth table w/ distractor temperature column ~65%; library story-hour table needing year-boundary inference ~60%). Run 113: 4 d2-targeted gens all calibrated Easy -> banked d1. Medium needs a genuinely derived inference (key must NOT state the computed result; 4+ columns or year-boundary arithmetic; distractors with correct numbers but wrong comparison). Still needs 8."
     },
     {
       "domain": "reading_writing",

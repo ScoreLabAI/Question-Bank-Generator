@@ -1078,3 +1078,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Tallow Bay lighthouse trail visitors 2010/2015/2020 rising (bar chart, increase at each point)
 - [Information and Ideas/Command of Evidence (Textual), d2] Textile engineer Solano: wicking height weave density vs fiber, crossed 2x2 (mirror distractor)
 - [Information and Ideas/Command of Evidence (Textual), d3] Folklorist Brandvold: tale "The Sleeping Miller" lowland-to-upland spread, weakener via dialect refrain
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Student Venkataraman: ice melt time on aluminum/ceramic/wood slabs (bar chart, about-half claim)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Urban ornithologist Venkataraman: predator guards on wren nest boxes fledging % 2021-2023, gap widening (table, 3 rows)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Ornithologist Venkataraman: songbird mist-net banding rate per net-hour at five plots (table, fewest-birds plot highest rate)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Urban forester Quintero: sidewalk cooling by five street tree species, sugar maple second (bar chart)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Limnologist Brandt: pond surface temperature peak at 14:00 and 22:00 above 6:00 (scatterplot)
