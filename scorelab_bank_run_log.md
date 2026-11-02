@@ -1780,3 +1780,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates (Step 5):** none applied; queued Hard-yield proposal in review queue.
 **Token usage:** roughly 0.7M subagent tokens (18 subagent calls).
 **Next run should pick up at:** CoE Textual d3 (needs 8) -- consider review-queue proposal -- then CoE Quantitative d1 (needs visuals).
+
+## Run 109 — 2026-11-02 (scheduled)
+**Cells worked:** Command of Evidence (Textual) d3: needed 8, 8 gens in two rounds of 4 (mandated shapes: poem divided-feeling, mechanism 2x2, scope-condition economics, fiction narrator; round 2: acoustics 2x2, cognitive 2x2, poem, council-minutes two-part primary source). Held Hard: cuttlefish 2x2, study-spacing 2x2, Ostrey Vale council minutes -> d3 now 5/10 (pending). Calibrated Medium -> banked d2: Early Coach poem, Margin Hand narrator, tuition-waiver economics, bottle-pitch acoustics, Thursday Rounds kettle poem (d2 now overshoot).
+**Total banked:** 8 new questions (CoE-T d3 +3, d2 +5). First cuttlefish draft was truncated by the generator and regenerated once (passed).
+**Pipeline:** 9 generators, 8 critics (all keys confirmed; in-place fixes without re-critique: narrator C wording/explanation, poem B replaced with no-tenderness version and C reworded, econ childcare wording, study stem/A interval/B explanation, council B and stem), 2 batched calibrators; all sonnet. No discards. validate_batch passed both batches (4/4, 4/4).
+**Skill updates (Step 5):** none applied. Observation: Hard yield improved to 3/8 using crossed-design mechanism items and an oblique single-record two-person item; "hardening" by making all choices two-sided worked only when the key still needed a cross-check of who/which condition. WARN: all 8 keys this run were C in non-numeric items (A=0,B=1,C=7,D=0 across run) -- generators gravitate to C; consider asking for key reordering at assembly (queued).
+**Token usage:** roughly 1.0M subagent tokens (about 26 subagent calls).
+**Next run should pick up at:** CoE Textual d3 (needs 5; crossed-design / two-person single-record shapes), then CoE Quantitative d1 (needs 10, requires table/graph visuals).

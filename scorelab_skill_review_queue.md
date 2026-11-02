@@ -235,3 +235,6 @@ the ten attempts run 11 implied.
 ## Run 108 — CoE (Textual) d3 Hard yield
 **Prompted by:** 8 Hard-targeted generations in one run (two rounds, second round explicitly hardened with all-two-sided distractors) all calibrated Medium or easier (~60-90% est. correct). Run 107 yielded 2 Hard of 4.
 **Proposal:** (a) accept lower Hard yield and raise the generation cap for this cell, or (b) revise the d3 definition for CoE-T to include the shapes that actually held Hard (divided-feeling poem quotation; mechanism claim needing necessity + rival ruled out with an oblique key), or (c) have the Generator write 2 drafts per slot and keep the harder. Not applied: touches difficulty meaning and cost.
+
+## Run 109 — key-letter skew and CoE-T d3 yield
+**Prompted by:** run 109 keyed C on 7 of 8 non-numeric items (one B). Generators gravitate to C. Proposal: at assembly, shuffle choices of non-numeric items to even out key letters (moving explanations with them). Also: CoE-T d3 Hard yield was 3/8 with crossed-design mechanism and oblique single-record shapes; supports Run 108 option (b)/(c) of redefining shapes for the cell. Not applied (changes bank content conventions / difficulty meaning).
