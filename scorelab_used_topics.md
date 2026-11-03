@@ -1111,3 +1111,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 116: Calder River mussel density by reach (grouped bar); Haldane Falls radio/TV/telephone ownership (table); Nwosu flu reminders by age (table); Haddad microplastics per litre by site (table) 
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 116: Calder River mussel density by reach (grouped bar); Haldane Falls radio/TV/telephone ownership (table); Nwosu flu reminders by age (table); Haddad microplastics per litre by site (table) 
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 116: Calder River mussel density by reach (grouped bar); Haldane Falls radio/TV/telephone ownership (table); Nwosu flu reminders by age (table); Haddad microplastics per litre by site (table) 
+- [Information and Ideas/Command of Evidence (Textual), d3] Run 117: Nutrient-release lab 2x2 oxygen/temperature weakener (kelp-bay sediment)
+- [Information and Ideas/Command of Evidence (Textual), d2] Run 117: Oyelaran, unsigned Tallow Row receipt book, chandler quotation
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 117: Apple-graft rootstock take-rate table (six rootstocks)
+- [Information and Ideas/Command of Evidence (Quantitative), d3] Run 117: Ponderosa pine seedlings burned vs unburned by elevation (grouped bar, ratio)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 117: Balance-training sessions per week by age group stance-time gain (table)
