@@ -1822,3 +1822,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none applied. Note: keys ended C,C,A,B,C,B,C-heavy in non-numeric items; not reordered this run.
 **Token usage:** roughly 0.9M subagent tokens (about 16 subagent calls).
 **Next run should pick up at:** CoE Textual d3 (needs 1), then CoE Quantitative d2 (needs 8; require a derived-inference shape where the key does not state the result), then CoE-Q d3.
+
+## Run 114 — 2026-11-03 (cloud routine)
+**Cells worked:** CoE Textual d3 (needed 1, 1 gen -> calibrated Medium, banked d2); CoE Quantitative d2 (needed 8, attempted 7: 5 held d2, 2 calibrated Easy -> d1).
+**Banked:** 8 new questions (CoE-T d2 +1, CoE-Q d2 +5 -> 7/10, CoE-Q d1 +2 overshoot). CoE-T d3 stays 9/10; CoE-Q d2 needs 3 more. No discards.
+**Pipeline:** 8 generators, 8 critics, 1 batched calibrator; all sonnet. Critic FLAGs fixed without re-critique: sorghum pronoun + choice C made neutral (it weakened the side claim); orchard stem rewritten so it no longer restated the key and D replaced with a true-but-insufficient pairwise comparison; hive stem reworded ("reasoning") and D explanation corrected; otter D replaced with the peak-year increase; study-session scatter values changed to even numbers with y_tick_step 2 for readability and D replaced; infection stem dropped a clause contradicting the data. validate_batch passed (1/1, 5/5, 2/2); only WARN was key skew (C-heavy) in the CoE-Q d2 batch, not reordered.
+**Calibration:** derived-inference shapes (ratio of rates, year-over-year slowing, combined columns, 2x2 conditional) hold Medium; sum-of-bars and single-bar one-third comparisons go Easy.
+**Skill updates:** none. Environment: matplotlib installed via pip into /usr/bin/python3.
+**Token usage:** roughly 0.9M subagent tokens (17 subagent calls).
+**Next run should pick up at:** CoE Textual d3 (needs 1), CoE Quantitative d2 (needs 3), then CoE-Q d3.
