@@ -1095,3 +1095,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Materials engineer Wolanski: wind-turbine blade mass vs cycles to cracking, coated subset (table)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] County health analyst: mobile cancer-screening outreach, proportional increase by neighborhood (grouped bar chart)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Education researcher Adeyemi-Park: part-time work hours vs coursework completion, rise then fall (scatterplot)
+- [Information and Ideas/Command of Evidence (Textual), d2] Literary fiction: Wenna repays Pardoe's forty-shilling loan in goods, quotation shows debt discharge plus attachment
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Music festival coordinator: workshop vs main-stage preference by admission type, shares (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Transit planner: light-rail boardings vs population, gap above best-fit line (scatterplot)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Library-science researcher: e-book vs audiobook checkouts growth 2014-2020 (table)

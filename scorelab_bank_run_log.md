@@ -1831,3 +1831,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. Environment: matplotlib installed via pip into /usr/bin/python3.
 **Token usage:** roughly 0.9M subagent tokens (17 subagent calls).
 **Next run should pick up at:** CoE Textual d3 (needs 1), CoE Quantitative d2 (needs 3), then CoE-Q d3.
+
+## Run 115 — 2026-11-03 (cloud routine)
+**Cells worked:** CoE Textual d3 (needed 1; 2 gens); CoE Quantitative d2 (needed 3; 7 gens attempted across 2 rounds). CoE-Q d3 not started (0/10).
+**Banked:** 8 new questions, all relabeled: CoE-T d2 +2 (historian telegraph weakener ~60% Medium; Wenna quotation item), CoE-Q d1 +6 (blade-mass table, screenings grouped bar, work-hours scatter, festival share table, light-rail scatter vs fit line, library growth table). CoE-T d3 stays 9/10, CoE-Q d2 stays 7/10. 1 regeneration (Wenna item: passage was just the choices list + defensible half-answer), no discards.
+**Pipeline:** 8 generators + 1 regen, 8 critics (+1 re-critic), 2 batched calibrators, all sonnet. Critic fixes applied without re-critique: telegraph item (dropped merchants side-claim, D/A replaced with clean strengthener/irrelevant), screenings item (distractors rebuilt: Ridge proportional trap, explanations), scatter-vs-line stem tightened to 'farther above the line' to remove ratio-reading tie, library stem 'far more' -> 'more'. validate_batch passed (1/1, 3/3, 1/1, 3/3). The Wenna d2 tag was assigned from the cell's documented rule (key only choice with both arms), not a fresh calibrator call.
+**Calibration:** all 7 CoE-Q d2-targeted items came back Easy (75-85%): keys that state endpoints / line values / counts turn derived inference into a lookup-and-subtract. Hard (CoE-T) again calibrated Medium when the key was unoblique.
+**Skill updates:** extended scripts/render_visual.py with grouped (multi-series) bar charts via 'series' (backward compatible; rendered with /usr/bin/python3 since /usr/local python's matplotlib is broken by PIL). Committed run start.
+**Token usage:** roughly 0.9M subagent tokens (about 20 subagent calls).
+**Next run should pick up at:** CoE Textual d3 (needs 1), CoE Quantitative d2 (needs 3; key must NOT supply endpoints/line values), then CoE-Q d3.
