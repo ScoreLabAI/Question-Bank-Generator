@@ -1091,3 +1091,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Urban planner Eskandari: bike-share support survey, five neighborhoods agree+strongly agree (table)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Entomologist Olowu: apple orchard flower visits by insect group, bees dominant (bar chart)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Infection-control researcher Okafor-Lindqvist: hand-hygiene measures infection rate, one-third reduction (bar chart)
+- [Information and Ideas/Command of Evidence (Textual), d2] Economic historian: telegraph offices vs rail links shrinking wheat price gaps, weakener (timing in towns with both)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Materials engineer Wolanski: wind-turbine blade mass vs cycles to cracking, coated subset (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] County health analyst: mobile cancer-screening outreach, proportional increase by neighborhood (grouped bar chart)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Education researcher Adeyemi-Park: part-time work hours vs coursework completion, rise then fall (scatterplot)
