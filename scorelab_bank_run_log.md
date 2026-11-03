@@ -1840,3 +1840,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** extended scripts/render_visual.py with grouped (multi-series) bar charts via 'series' (backward compatible; rendered with /usr/bin/python3 since /usr/local python's matplotlib is broken by PIL). Committed run start.
 **Token usage:** roughly 0.9M subagent tokens (about 20 subagent calls).
 **Next run should pick up at:** CoE Textual d3 (needs 1), CoE Quantitative d2 (needs 3; key must NOT supply endpoints/line values), then CoE-Q d3.
+
+## Run 115 — 2026-11-03
+**Cells worked:** CoE Textual d3 (needed 1, got 0 at d3; item calibrated Medium -> banked d2); CoE Quantitative d2 (needed 3, got 1 at d2; 4 Easy-calibrated -> banked in CoE-Q d1, overshoot). 6 generated, 6 accepted, 0 discarded.
+**Pipeline:** 6 generators, 7 critics (gripper critiqued 3x: original flagged for 5 g-increment inconsistency and A/C/D equivalence class; I rebuilt choices (values multiples of 5, distinct distractors), re-critiqued twice, then softened D's texture gap to 15 g; PASS), 2 batched calibrators. All sonnet. validate_batch passed on all three batches (key-skew WARN on the CoE-Q d1 batch only).
+**Calibration:** gripper -> d2; nitrate bar -> d2; wheat, sherds, composting, prairie scatter -> d1.
+**Tracker now:** CoE-T d3 9/10 (pending), CoE-Q d2 8/10 (pending), CoE-Q d3 0/10 (pending); CoE-Q d1 overshoot +4, CoE-T d2 overshoot +1.
+**Skill updates:** none to scripts. Cell notes updated. Review-queue candidate (not applied): CoE-Q d2 and CoE-T d3 keep yielding off-tier items; consider revising targets/shapes for those cells.
+**Token usage:** ~1.0M subagent tokens (13 subagent calls).
+**Next run:** CoE-T d3 (1), CoE-Q d2 (2), then CoE-Q d3.
