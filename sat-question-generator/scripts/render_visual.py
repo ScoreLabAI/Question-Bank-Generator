@@ -69,6 +69,8 @@ Spec format (visual_type "graph"):
     // chart_type == "bar": (optional "bar_labels": true prints exact values above bars; added run 111)
     "categories": ["A", "B", "C"],
     "values": [5, 8, 3]
+    // OR grouped bars (run 115): "series": [{"label": "Before", "values": [..]}, {"label": "After", "values": [..]}],
+    //   "legend": true, "y_max": 280, "y_tick_step": 20 (use "series" instead of "values")
   }
 }
 
@@ -223,10 +225,33 @@ def render_graph(data, ax):
             ax.plot(x, y, linewidth=1.5, color="#0F1F3D", linestyle="--")
 
     elif chart_type == "bar":
-        bars = ax.bar(data["categories"], data["values"], color="#2563EB")
+        if "series" in data:
+            # Grouped bars (added run 115): "series": [{"label": "Before", "values": [..]}, ...]
+            # with optional "legend": true, "y_max", "y_tick_step".
+            import numpy as _np
+            n = len(data["series"])
+            w = 0.8 / n
+            xs0 = _np.arange(len(data["categories"]))
+            cols = ["#2563EB", "#F59E0B", "#10B981", "#6B7280"]
+            for i, sr in enumerate(data["series"]):
+                b = ax.bar(xs0 + (i - (n - 1) / 2) * w, sr["values"], w,
+                           color=cols[i % 4], label=sr.get("label"))
+                if data.get("bar_labels"):
+                    ax.bar_label(b, labels=[f"{v:g}" for v in sr["values"]], padding=2)
+            ax.set_xticks(xs0)
+            ax.set_xticklabels(data["categories"])
+            if data.get("legend"):
+                ax.legend()
+            if data.get("y_max"):
+                ax.set_ylim(0, data["y_max"])
+            if data.get("y_tick_step"):
+                ax.yaxis.set_major_locator(MultipleLocator(data["y_tick_step"]))
+            bars = None
+        else:
+            bars = ax.bar(data["categories"], data["values"], color="#2563EB")
         # Optional (run 111): "bar_labels": true prints each bar's value above it so the
         # student can read exact values. Off by default; existing specs are unchanged.
-        if data.get("bar_labels"):
+        if data.get("bar_labels") and bars is not None:
             ax.bar_label(bars, labels=[f"{v:g}" for v in data["values"]], padding=2)
 
     else:
