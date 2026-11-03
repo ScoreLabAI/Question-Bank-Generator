@@ -1849,3 +1849,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none to scripts. Cell notes updated. Review-queue candidate (not applied): CoE-Q d2 and CoE-T d3 keep yielding off-tier items; consider revising targets/shapes for those cells.
 **Token usage:** ~1.0M subagent tokens (13 subagent calls).
 **Next run:** CoE-T d3 (1), CoE-Q d2 (2), then CoE-Q d3.
+
+## Run 116 — 2026-11-03 (cloud routine)
+**Cells worked:** CoE Textual d3 (needed 1; 1 gen, discarded); CoE Quantitative d2 (needed 2; 2 gens); CoE Quantitative d3 (needed 10, attempted 5, scope cap).
+**Banked:** 6 new questions: CoE-Q d2 +2 (string-program share table; flu-reminder 2x2 table relabeled from d3) -> now 10/10 done; CoE-Q d1 +4 overshoot (sleep grouped bar, mussel gap bar, radio/TV/phone table, microplastic per-litre table). CoE-T d3 stays 9/10; CoE-Q d3 stays 0/10.
+**Discards (2):** bread/rye CoE-T d3 weakener (critic FLAG: rye-lowers distractors C/D arguably consistent or weakening, implausible baselines; not regenerated, as this cell has repeatedly yielded off-tier items); green-roof scatter plateau (critic FLAG: 'slightly more' vague with 14 cm outlier, key echoes hypothesis, would calibrate Easy).
+**Pipeline:** 8 generators, 8 critics, 2 batched calibrators; all sonnet. Critic fixes applied without re-critique: sleep stem narrowed to 'depends on the type of word pairs'; string-program stem softened to share-of-enrollment hypothesis; mussel D/B explanations strengthened; tech stem 'census period' -> 'decade'; flu B explanation adds 15- vs 10-point comparison. validate_batch passed (2/2, 4/4); key-skew WARN on the CoE-Q d3 batch (C-heavy), not reordered. render_visual needs the {visual_type, visual_data} wrapper spec; run with /usr/bin/python3 (matplotlib installed there).
+**Calibration:** Hard-targeted CoE-Q: 1 Medium, 3 Easy. Keys naming the pattern or listing paired values are Easy; a stem that mentions the volume confound hints the method.
+**Skill updates:** none. Review-queue candidate (not applied): CoE-Q d3 and CoE-T d3 keep yielding 0 Hard; consider redefining Hard shapes or lowering targets for those cells.
+**Token usage:** ~0.6M subagent tokens (about 18 subagent calls).
+**Next run should pick up at:** CoE Textual d3 (needs 1), then CoE Quantitative d3 (needs 10; key must omit values, 4+ rows, no method hint).

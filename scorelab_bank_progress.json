@@ -715,7 +715,7 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "done",
-      "accepted_count": 25,
+      "accepted_count": 28,
       "note": "Run 111: 4 gens (table/bar). Easy held: bar charts with 3 categories and one-comparison claim (concert genres ~85%, beetle species ~85%). Medium: tables where the claim needs an inference (middle depth, first year vs year before). Needs 8 more. Bar charts now use bar_labels:true so exact values are readable. Run 112: 7 gens all held Easy (~75-90%): 3-category bar charts (one comparison, ratio claim, 'lower than both', increase at each time point, peak at middle) and direct tables (4-row max; 3-row with distractor column present in only one choice). Near-boundary: fly-ash peak-in-middle (~75%) and free-throw table (~75%). Run 113: 5 gens (ice-melt 3-bar chart intended d1; 4 intended d2: wren nest-box table, banding-rate table, tree-species 5-bar chart, pond scatter) ALL calibrated Easy (82-93%): 3-row tables, labeled 5-bar charts, 5-point scatter, and even a 5-row rate table (once key states the result) stay Easy. Cell complete (overshoot +4). Run 114: +2 overshoot from d2-targeted bar charts calibrated Easy. Run 115: +3 overshoot from d2-targeted items calibrated Easy (~78-85%): coated-subset table filter with monotone ordering, grouped-bar proportional change with key restating claim, single-peak scatter whose key restates the hypothesis. Run 115 round 2: 3 more d2-targeted gens ALL calibrated Easy (~75-82%): two-group share table where key lists counts/totals, scatter-vs-fit-line with line value stated in each choice, per-year growth table where key gives equal-span endpoints. Medium needs the student to compute from raw columns with the key NOT supplying endpoints or line values; still needs 3 more d2. Run 115: +4 overshoot from d2-targeted gens calibrated Easy (wheat share-vs-count, sherds per unit, composting percent-growth, prairie scatter residual)."
     },
     {
@@ -724,9 +724,9 @@
       "skill_subcategory": "Command of Evidence (Quantitative)",
       "difficulty": 2,
       "target_count": 10,
-      "status": "pending",
-      "accepted_count": 9,
-      "note": "Run 111: +2 from d1-targeted gens calibrated Medium (zooplankton depth table w/ distractor temperature column ~65%; library story-hour table needing year-boundary inference ~60%). Run 113: 4 d2-targeted gens all calibrated Easy -> banked d1. Medium needs a genuinely derived inference (key must NOT state the computed result; 4+ columns or year-boundary arithmetic; distractors with correct numbers but wrong comparison). Still needs 8. Run 114: 7 gens with derived-inference shapes; 5 held Medium (hive windbreak rates, 2x2 mycorrhizae, otter year-over-year slowing, study-session plateau scatter, bike-share combined columns), 2 calibrated Easy -> d1 (orchard pollinator sum-of-bars, infection-rate one-third bar). Needs 3 more. Run 115: 5 gens; only nitrate grouped-bar change-vs-level held Medium; 4 calibrated Easy. Stems that hint the method (unit counts, 'percentage', fitted line) or keys that state endpoints go Easy. Needs 2 more. Run 116: 2 gens; table share-of-enrollment 2x2 held Medium (~60%, key not stating fractions) -> banked d2; sleep grouped bar calibrated Easy (key states 'farther apart', stem names the comparison) -> d1. Needs 1 more."
+      "status": "done",
+      "accepted_count": 10,
+      "note": "Run 111: +2 from d1-targeted gens calibrated Medium (zooplankton depth table w/ distractor temperature column ~65%; library story-hour table needing year-boundary inference ~60%). Run 113: 4 d2-targeted gens all calibrated Easy -> banked d1. Medium needs a genuinely derived inference (key must NOT state the computed result; 4+ columns or year-boundary arithmetic; distractors with correct numbers but wrong comparison). Still needs 8. Run 114: 7 gens with derived-inference shapes; 5 held Medium (hive windbreak rates, 2x2 mycorrhizae, otter year-over-year slowing, study-session plateau scatter, bike-share combined columns), 2 calibrated Easy -> d1 (orchard pollinator sum-of-bars, infection-rate one-third bar). Needs 3 more. Run 115: 5 gens; only nitrate grouped-bar change-vs-level held Medium; 4 calibrated Easy. Stems that hint the method (unit counts, 'percentage', fitted line) or keys that state endpoints go Easy. Needs 2 more. Run 116: 2 gens; table share-of-enrollment 2x2 held Medium (~60%, key not stating fractions) -> banked d2; sleep grouped bar calibrated Easy (key states 'farther apart', stem names the comparison) -> d1. Needs 1 more. Run 116 round 2: Hard-targeted d3 gens relabeled here: flu-reminder 2x2 'undermine' w/ unequal groups held Medium (~52%) -> d2, cell reaches 10/10."
     },
     {
       "domain": "reading_writing",
@@ -735,7 +735,8 @@
       "difficulty": 3,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 0,
+      "note": "Run 116: 5 Hard-targeted gens (rate-vs-raw table, narrowing-gap grouped bar, 2x2 undermine, scatter plateau, crossover table); 4 passed critic, all calibrated Easy/Medium (mussel gap bar ~78%, radio/TV/phone crossover ~72%, microplastic per-litre ~65-70% since stem hints volumes, flu 2x2 ~52%) and were banked d1/d1/d1/d2; scatter plateau discarded (key echoes hypothesis, 'slightly more' vague). Lesson: keys that name the pattern or list the paired values go Easy; Hard needs key that omits values, 4+ rows to verify, and no volume/method hint in stem."
     },
     {
       "domain": "reading_writing",
