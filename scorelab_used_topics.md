@@ -1105,3 +1105,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Agronomist Villanueva: winter wheat seed lots Harbin Farm vs Pell Cooperative germination share (table)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Danforth Heights curbside composting pilot enrollment percentage growth by year (table)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Conservation biologist: prairie patch area vs native species, patch above fitted line (scatterplot)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 116: sleep vs word-pair type (grouped bar); string program share of enrollment (table) 
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 116: sleep vs word-pair type (grouped bar); string program share of enrollment (table) 
