@@ -1116,3 +1116,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 117: Apple-graft rootstock take-rate table (six rootstocks)
 - [Information and Ideas/Command of Evidence (Quantitative), d3] Run 117: Ponderosa pine seedlings burned vs unburned by elevation (grouped bar, ratio)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 117: Balance-training sessions per week by age group stance-time gain (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 117: Salvesen lichenometry diameter vs boulder exposure age scatter, scatter widens past 50 yr
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 117: Adult-literacy oral reading fluency before/after table, percent gain vs starting level (five centers)

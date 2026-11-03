@@ -1859,3 +1859,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. Review-queue candidate (not applied): CoE-Q d3 and CoE-T d3 keep yielding 0 Hard; consider redefining Hard shapes or lowering targets for those cells.
 **Token usage:** ~0.6M subagent tokens (about 18 subagent calls).
 **Next run should pick up at:** CoE Textual d3 (needs 1), then CoE Quantitative d3 (needs 10; key must omit values, 4+ rows, no method hint).
+
+## Run 117 — 2026-11-03 (cloud routine)
+**Cells worked:** CoE Textual d3 (needed 1, got 1 -> now 10/10 done); CoE Quantitative d3 (needed 10, attempted 6 gens, got 1 at d3 -> 1/10, pending).
+**Banked:** 7 new questions: CoE-T d3 +1 (kelp-bay oxygen/temperature 2x2 weakener, ~42%); CoE-Q d3 +1 (ponderosa burned/unburned grouped bar, ratio vs raw difference, ~45%); relabeled overshoot: CoE-T d2 +1 (tallow receipt-book quotation), CoE-Q d2 +3 (apple-graft rates, lichen scatter, literacy percent-gain), CoE-Q d1 +1 (balance-training table).
+**Discards (1):** vineyard trellis/row-spacing confound table (critic FLAG: two defensible keys B and C; not regenerated, scope).
+**Pipeline:** 9 generators (sonnet, one per question; wrote to scratchpad files), 7 critics, 2 calibrators; all sonnet. Critic fix applied without re-critique: lichen stem 'line fitted to all ten points' -> 'a fitted line' (stated line isn't exact least squares). validate_batch passed on both batches. Render via /usr/bin/python3.
+**Skill updates:** none. Review-queue candidate (not applied): CoE-Q d3 yields ~1 Hard per 6 gens; ratio-vs-raw traps hold Hard, 'proportionally' hints and pattern-naming keys do not.
+**Token usage:** ~0.9M subagent tokens (about 18 subagent calls).
+**Next run should pick up at:** CoE Quantitative d3 (needs 9; ratio-vs-raw trap shape, no method hints), then Inferences d1.
