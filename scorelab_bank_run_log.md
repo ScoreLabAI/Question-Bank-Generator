@@ -1904,3 +1904,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Pipeline:** 10 generators, 10 critics, 2 batched calibrators; all sonnet. No visuals needed (text-only cell).
 **Skill updates:** none. REVIEW-QUEUE: owner decision still needed on CoE-Q d3 (lower target / redefine Hard); this run skipped it unilaterally. Easy-tagged Inferences are very easy (85-93%); Medium needs a hedged conclusion plus a tempting distractor.
 **Next run should pick up at:** CoE Quantitative d3 is still first pending (owner decision needed); otherwise Inferences d1 (needs 2), then Inferences d2.
+
+## Run 122 — 2026-11-04 (cloud routine)
+**Cells worked:** Inferences d1 (needed 2) and Inferences d2 (needed 8); skipped CoE Quantitative d3 again (stuck, owner decision pending).
+**Generated:** 10 (2 d1-targeted, 8 d2-targeted). Calibrated: 7 Easy -> banked d1 (d1 cell now 15, done; overshoot), 3 Medium -> banked d2 (d2 now 5/10, pending). 0 discards.
+**Critic fixes:** power-loom choice A reworded (cheap machine-spun yarn/low entry costs) without re-critique; Peru distractor C explanation corrected; school-ventilation stem tidied (malformed double stem line). Choices reordered on 4 items for key balance. validate_batch passed (7/7, 3/3).
+**Pipeline:** only 5 of 8 d2 gens landed Medium-range; "ran 8 d2 gens" yielded 3 Medium. 8 generators(+2 d1), 10 critics, 1 batched calibrator, all sonnet; no visuals.
+**Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 owner decision still outstanding (6th run).
+**Token usage:** ~1.0M subagent tokens (21 subagent calls).
+**Next run should pick up at:** Inferences d2 (needs 5), then Inferences d3; CoE-Q d3 still pending owner decision.

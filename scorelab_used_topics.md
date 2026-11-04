@@ -1142,3 +1142,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d1] Run 121: Memory researchers have found that the timing of review matters. In one experiment, some students reviewed a l
 - [Information and Ideas/Inferences, d2] Run 121: Before 2021, drivers on Alder Street in the city of Marlow often stopped in the bike lane to drop off passenge
 - [Information and Ideas/Inferences, d2] Run 121: In written Japanese, a script called katakana is used mainly for words borrowed from other languages, such as 
+- [Information and Ideas/Inferences, d1] Run 122: Along the coast of Peru, a cold ocean current flows northward from the Southern Ocean. As it moves, it pulls d
+- [Information and Ideas/Inferences, d1] Run 122: The harpsichord, a keyboard instrument popular in Europe during the 1600s, makes sound by plucking a string wi
+- [Information and Ideas/Inferences, d1] Run 122: Although tempered glass is roughly four times stronger than ordinary glass of the same thickness, it cannot be
+- [Information and Ideas/Inferences, d1] Run 122: Ecologists studying a population of great tits in a woodland noticed that nests built in boxes hung on trees n
+- [Information and Ideas/Inferences, d1] Run 122: In the 1910s, a county health officer compared absence records from two groups of rural schools. Schools that 
+- [Information and Ideas/Inferences, d1] Run 122: In the highland farming villages that a folklorist studied, evening storytellers had long reshaped each tale f
+- [Information and Ideas/Inferences, d1] Run 122: Transit planners who set the spacing of bus stops face a tradeoff: stops placed close together shorten every r
+- [Information and Ideas/Inferences, d2] Run 122: When power looms arrived in the cotton towns of northern England in the 1810s, many observers expected hand-lo
+- [Information and Ideas/Inferences, d2] Run 122: When a planet passes in front of its star as seen from Earth, the star's light dims by an amount that depends 
+- [Information and Ideas/Inferences, d2] Run 122: Archaeologists excavating Kestrel Ledge, a rock shelter, dated charcoal from two hearths. Charcoal from the de
