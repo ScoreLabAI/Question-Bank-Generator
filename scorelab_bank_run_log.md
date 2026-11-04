@@ -1887,3 +1887,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. REVIEW-QUEUE (4th consecutive run, needs owner decision): CoE-Q d3 yields ~0 Hard; consider lowering its target, redefining Hard shape, or skipping to Inferences d1.
 **Token usage:** ~0.35M subagent tokens (7 subagent calls).
 **Next run should pick up at:** CoE Quantitative d3 (needs 9) unless owner approves skipping to Inferences d1.
+
+## Run 120 — 2026-11-04 (cloud routine)
+**Cells worked:** CoE Quantitative d3 (needed 9; 5 Hard-targeted gens with new mandated shapes, 0 held Hard -> stays 1/10, pending).
+**Banked:** 5 new questions as overshoot: CoE-Q d2 +4 (pea seedling scatter, biochar threshold table, Verra Bay subset-share table, Nucella two-researcher scatter), CoE-Q d1 +1 (nitrate 3-series bar).
+**Discards:** 0. Critic fix applied without re-critique: biochar choice D replaced (misstated table) with accurate supporting sandy-soil row. Choices reordered on 4 items for key balance. 
+**Pipeline:** 5 generators, 5 critics, 1 batched calibrator; all sonnet. validate_batch passed (5/5). Render via /usr/bin/python3 (matplotlib not in /usr/local/bin python3).
+**Skill updates:** none. REVIEW-QUEUE (5th consecutive run, needs owner decision): CoE-Q d3 now ~1 Hard in 20 gens; interval-trend, subgroup-threshold, ordering, subset-share, and two-researcher shapes all calibrated Medium/Easy. Recommend lowering target, redefining Hard for this cell, or skipping to Inferences d1.
+**Token usage:** ~0.6M subagent tokens (11 subagent calls).
+**Next run should pick up at:** CoE Quantitative d3 (needs 9) unless owner approves skipping to Inferences d1.

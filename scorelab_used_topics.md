@@ -1127,3 +1127,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 119: Vandersloot glacier dust vs clean ice melt by site (grouped bar, ratio)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 119: Varga-Holt Harlow cloth market bolts by fiber 1780 vs 1820 (table, share)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 119: Ferreira Alder Bay rooftop farms unequal survey intervals (table, rate)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 120: Halvorsen pea seedling height growth phases (scatter)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 120: Brandvold biochar quinoa harvest by soil type, sample-size threshold (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 120: Kamau-Ellison planted-buffer nitrate three-series bar
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 120: Okonkwo-Reyes Verra Bay pilots' guild glossary loanwords by language (table, subset share)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 120: Lindgren vs Okonkwo Nucella shell thickness vs wave exposure (scatter)
