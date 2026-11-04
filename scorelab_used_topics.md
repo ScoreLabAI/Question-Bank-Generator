@@ -1124,3 +1124,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 118: Odell-Hayes Kestrel River wheat canal vs rail crossover (grouped bar)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 118: Solder reflow nitrogen vs air by board size (Simpson-style table)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 118: Public fast-charging ports by region, relative growth 2020-22 (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 119: Vandersloot glacier dust vs clean ice melt by site (grouped bar, ratio)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 119: Varga-Holt Harlow cloth market bolts by fiber 1780 vs 1820 (table, share)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 119: Ferreira Alder Bay rooftop farms unequal survey intervals (table, rate)

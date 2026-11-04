@@ -1877,3 +1877,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. Review-queue candidate (not applied): CoE-Q d3 has now yielded 1 Hard in 12 gens across runs 116-118; consider lowering target or redefining Hard shape for this cell.
 **Token usage:** ~0.9M subagent tokens (about 15 subagent calls).
 **Next run should pick up at:** CoE Quantitative d3 (needs 9) or skip to Inferences d1 if owner approves.
+
+## Run 119 — 2026-11-04 (cloud routine)
+**Cells worked:** CoE Quantitative d3 (needed 9; 3 Hard-targeted gens, 0 held Hard -> stays 1/10, pending).
+**Banked:** 3 new questions as overshoot: CoE-Q d2 +3 (glacier dust grouped bar ~55%, Harlow cloth share table ~50% borderline, rooftop-farm unequal-interval table ~65%).
+**Discards:** 0. Critic fixes applied without re-critique: rooftop stem 'early 2000s' -> 'turn of the century' (peak pace was 1998-2001); cloth table caption '(all recorded sales)'. Glacier optional 'proportionally' hint deliberately not added (would lower difficulty).
+**Pipeline:** 3 generators, 3 critics, 1 batched calibrator; all sonnet. validate_batch passed (3/3). Render via /usr/bin/python3.
+**Scope note:** stopped at 3 gens (not ~10) because this cell has now yielded 1 Hard in 15 gens across runs 116-119 and each extra gen only overshoots d2.
+**Skill updates:** none. REVIEW-QUEUE (4th consecutive run, needs owner decision): CoE-Q d3 yields ~0 Hard; consider lowering its target, redefining Hard shape, or skipping to Inferences d1.
+**Token usage:** ~0.35M subagent tokens (7 subagent calls).
+**Next run should pick up at:** CoE Quantitative d3 (needs 9) unless owner approves skipping to Inferences d1.
