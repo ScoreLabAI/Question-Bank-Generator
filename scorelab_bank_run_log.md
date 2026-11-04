@@ -1868,3 +1868,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. Review-queue candidate (not applied): CoE-Q d3 yields ~1 Hard per 6 gens; ratio-vs-raw traps hold Hard, 'proportionally' hints and pattern-naming keys do not.
 **Token usage:** ~0.9M subagent tokens (about 18 subagent calls).
 **Next run should pick up at:** CoE Quantitative d3 (needs 9; ratio-vs-raw trap shape, no method hints), then Inferences d1.
+
+## Run 118 — 2026-11-04 (cloud routine)
+**Cells worked:** CoE Quantitative d3 (needed 9; 6 Hard-targeted gens, 0 held Hard -> stays 1/10, pending).
+**Banked:** 6 new questions as overshoot: CoE-Q d2 +5 (hull-coating ratio bar, district per-household table, immersion threshold scatter, solder Simpson table, charging-port relative-growth table), CoE-Q d1 +1 (canal/rail crossover bar).
+**Discards:** 0. Critic fixes applied without re-critique: portal stem self-contradiction removed; charging-port 'any single' -> 'one' two-year period; immersion B explanation wording. Choices reordered on 3 items to balance keys (A1 B2 C2 D1 after).
+**Pipeline:** 6 generators, 6 critics, 2 batched calibrators; all sonnet. validate_batch passed (1/1, 5/5). Render via /usr/bin/python3.
+**Skill updates:** none. Review-queue candidate (not applied): CoE-Q d3 has now yielded 1 Hard in 12 gens across runs 116-118; consider lowering target or redefining Hard shape for this cell.
+**Token usage:** ~0.9M subagent tokens (about 15 subagent calls).
+**Next run should pick up at:** CoE Quantitative d3 (needs 9) or skip to Inferences d1 if owner approves.

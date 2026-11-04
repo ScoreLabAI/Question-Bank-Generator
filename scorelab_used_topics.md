@@ -1118,3 +1118,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 117: Balance-training sessions per week by age group stance-time gain (table)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 117: Salvesen lichenometry diameter vs boulder exposure age scatter, scatter widens past 50 yr
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 117: Adult-literacy oral reading fluency before/after table, percent gain vs starting level (five centers)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 118: Hull coating fuel-per-voyage by vessel class (grouped bar, ratio)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 118: Olawale district portal requests per household (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 118: Backstrom cold-water immersion soreness threshold (scatter)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 118: Odell-Hayes Kestrel River wheat canal vs rail crossover (grouped bar)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 118: Solder reflow nitrogen vs air by board size (Simpson-style table)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 118: Public fast-charging ports by region, relative growth 2020-22 (table)
