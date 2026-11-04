@@ -1132,3 +1132,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 120: Kamau-Ellison planted-buffer nitrate three-series bar
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 120: Okonkwo-Reyes Verra Bay pilots' guild glossary loanwords by language (table, subset share)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 120: Lindgren vs Okonkwo Nucella shell thickness vs wave exposure (scatter)
+- [Information and Ideas/Inferences, d1] Run 121: Hermit crabs protect their soft bodies by living inside empty snail shells, and a crab that grows must eventua
+- [Information and Ideas/Inferences, d1] Run 121: Archaeologists excavating a trading town on the Indian Ocean coast of East Africa found glass beads made in wo
+- [Information and Ideas/Inferences, d1] Run 121: A lunar lander called Delphi-4 is designed to study a crater whose floor never receives direct sunlight. The l
+- [Information and Ideas/Inferences, d1] Run 121: Lettuce is a cool-season crop. Its seeds germinate poorly when the soil stays warmer than about 80 degrees Fah
+- [Information and Ideas/Inferences, d1] Run 121: Before the 1840s, painters stored oil paint in animal bladders, which were bulky and often leaked or dried out
+- [Information and Ideas/Inferences, d1] Run 121: Physiologists compared two groups of volunteers who each ran for 60 minutes in a warm room. One group drank wa
+- [Information and Ideas/Inferences, d1] Run 121: In some desert towns, the air can pass 100 degrees Fahrenheit in the afternoon and fall below 50 degrees befor
+- [Information and Ideas/Inferences, d1] Run 121: Memory researchers have found that the timing of review matters. In one experiment, some students reviewed a l
+- [Information and Ideas/Inferences, d2] Run 121: Before 2021, drivers on Alder Street in the city of Marlow often stopped in the bike lane to drop off passenge
+- [Information and Ideas/Inferences, d2] Run 121: In written Japanese, a script called katakana is used mainly for words borrowed from other languages, such as 

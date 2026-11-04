@@ -745,7 +745,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 8,
+      "note": "Run 121: 10 gens (marine, trade, urban, linguistics, space, botany, art, sports, architecture, psychology); all passed critic; 8 calibrated Easy (~85-93%) banked d1; hermit-crab, East-Africa beads, lunar lander, lettuce, paint tube, running heart rate, adobe, spaced study. Two (bike-lane ~75%, katakana ~68%) calibrated Medium -> banked d2."
     },
     {
       "domain": "reading_writing",
@@ -754,7 +755,7 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 2
     },
     {
       "domain": "reading_writing",
