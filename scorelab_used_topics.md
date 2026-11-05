@@ -1190,3 +1190,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Standard English Conventions/Boundaries, d2] Run 126: Riga Cathedral Walcker organ
 - [Standard English Conventions/Boundaries, d2] Run 126: Basilica of San Vitale Ravenna
 - [Standard English Conventions/Boundaries, d1] Run 126: Birch Lane community garden tomatoes and pole beans
+- [Standard English Conventions/Boundaries, d2] Run 127: cog ships Weser/Bremen 1962
+- [Standard English Conventions/Boundaries, d1] Run 127: Babbage Difference Engine
+- [Standard English Conventions/Boundaries, d2] Run 127: fynbos shrubland Western Cape fire
+- [Standard English Conventions/Boundaries, d2] Run 127: Swedish shipyard conversion district
+- [Standard English Conventions/Boundaries, d2] Run 127: festival flamenco/taiko/fiddling trio series
+- [Standard English Conventions/Boundaries, d2] Run 127: Very Large Array New Mexico
+- [Standard English Conventions/Boundaries, d3] Run 127: Namib darkling beetle fog
+- [Standard English Conventions/Boundaries, d2] Run 127: Ines Varga 'glossa' linguistics
+- [Standard English Conventions/Boundaries, d2] Run 127: John Snow 1854 cholera Broad Street
+- [Standard English Conventions/Boundaries, d2] Run 127: tower karst southern China

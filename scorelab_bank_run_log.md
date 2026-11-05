@@ -1946,3 +1946,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
 **Token usage:** ~1.2M subagent tokens (21 subagent calls).
 **Next run should pick up at:** Boundaries d3 (needs 7), then Form, Structure, and Sense d1.
+
+## Run 127 — 2026-11-05 (cloud routine)
+**Cells worked:** Boundaries d3 (needed 7, got 1 Hard banked d3 -> 4/10 pending). The other 9 calibrated down: 8 banked d2 (Boundaries d2 overshoot), 1 d1 (Babbage). Skipped CoE-Q d3 and Inferences d3 (owner decision pending).
+**Pipeline:** 10 generators (one two-rule shape each), 10 critics (all PASS; fixes: q4 blank placement/choice spacing, q6 'Although'->'Because' + arm wording, q7 interrupter lengthened to defuse C-vs-D risk, q9 'map'->'findings', q10 plateau->plain, explanation fixes on q1, q3, q5 (weak distractor C swapped), q8), 1 batched calibrator; all sonnet; no visuals. validate_batch passed 10/10. No discards or regenerations.
+**Calibration:** Hard held only for Namib beetle (~45%). Medium 55-70%: cog, fynbos, shipyard, festival series, VLA, glossa, Snow, karst. Easy: Babbage (~80%).
+**Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
+**Token usage:** ~1.3M subagent tokens (26 subagent calls).
+**Next run should pick up at:** Boundaries d3 (needs 6), then Form, Structure, and Sense d1.
