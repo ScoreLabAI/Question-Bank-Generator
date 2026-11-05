@@ -1180,3 +1180,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Standard English Conventions/Boundaries, d2] Run 125: jam gelling with pectin
 - [Standard English Conventions/Boundaries, d2] Run 125: piezoelectric gas grill igniter
 - [Standard English Conventions/Boundaries, d2] Run 125: Mekong River Commission tour, Can Tho/Phnom Penh/Vientiane
+- [Standard English Conventions/Boundaries, d2] Run 126: Tanabe woodblock printer Kyoto
+- [Standard English Conventions/Boundaries, d1] Run 126: Burano lace washing factors
+- [Standard English Conventions/Boundaries, d3] Run 126: Hollerith tabulating machine census
+- [Standard English Conventions/Boundaries, d2] Run 126: Fresnel lighthouse lens
+- [Standard English Conventions/Boundaries, d2] Run 126: St. Olaf's Church pipe organ corrosion
+- [Standard English Conventions/Boundaries, d3] Run 126: Tom Eames Tasmanian fishing boat restoration
+- [Standard English Conventions/Boundaries, d3] Run 126: Ines Marlowe hydrothermal vents Juan de Fuca
+- [Standard English Conventions/Boundaries, d2] Run 126: Riga Cathedral Walcker organ
+- [Standard English Conventions/Boundaries, d2] Run 126: Basilica of San Vitale Ravenna
+- [Standard English Conventions/Boundaries, d1] Run 126: Birch Lane community garden tomatoes and pole beans

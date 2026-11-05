@@ -775,8 +775,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 10,
-   "note": "Run 124: 10 gens (one per punctuation rule: semicolon, FANBOYS, colon, subject-verb, appositive pair, intro comma, dash pair, restrictive clause, period/fragment, series); all passed critic (q6 stem order fixed, q7 distractor D replaced, explanations tightened); calibrated 5 Easy (FANBOYS, colon list, intro comma, period, series; 80-90%) -> d1, 5 Medium (semicolon contrast ~72%, long-subject comma ~68%, appositive ~60%, dash pair ~65%, restrictive that-clause ~50%) -> d2. Run 125: 10 gens (comma-splice/semicolon, that-clause no comma, colon after clause, intro comma, compound predicate; d2: semicolon+however, nonrestrictive which, verb-complement no punctuation, trailing participle comma, semicolon series); all passed critic after fixes; calibrated 5 Easy (80-88%) -> d1, 5 Medium (55-65%) -> d2."
+   "accepted_count": 12,
+   "note": "Run 124: 10 gens (one per punctuation rule: semicolon, FANBOYS, colon, subject-verb, appositive pair, intro comma, dash pair, restrictive clause, period/fragment, series); all passed critic (q6 stem order fixed, q7 distractor D replaced, explanations tightened); calibrated 5 Easy (FANBOYS, colon list, intro comma, period, series; 80-90%) -> d1, 5 Medium (semicolon contrast ~72%, long-subject comma ~68%, appositive ~60%, dash pair ~65%, restrictive that-clause ~50%) -> d2. Run 125: 10 gens (comma-splice/semicolon, that-clause no comma, colon after clause, intro comma, compound predicate; d2: semicolon+however, nonrestrictive which, verb-complement no punctuation, trailing participle comma, semicolon series); all passed critic after fixes; calibrated 5 Easy (80-88%) -> d1, 5 Medium (55-65%) -> d2. Run 126 overshoot +2."
   },
   {
    "domain": "reading_writing",
@@ -785,8 +785,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 10,
-   "note": "Run 124: 10 gens (one per punctuation rule: semicolon, FANBOYS, colon, subject-verb, appositive pair, intro comma, dash pair, restrictive clause, period/fragment, series); all passed critic (q6 stem order fixed, q7 distractor D replaced, explanations tightened); calibrated 5 Easy (FANBOYS, colon list, intro comma, period, series; 80-90%) -> d1, 5 Medium (semicolon contrast ~72%, long-subject comma ~68%, appositive ~60%, dash pair ~65%, restrictive that-clause ~50%) -> d2. Run 125: 10 gens (comma-splice/semicolon, that-clause no comma, colon after clause, intro comma, compound predicate; d2: semicolon+however, nonrestrictive which, verb-complement no punctuation, trailing participle comma, semicolon series); all passed critic after fixes; calibrated 5 Easy (80-88%) -> d1, 5 Medium (55-65%) -> d2."
+   "accepted_count": 15,
+   "note": "Run 124: 10 gens (one per punctuation rule: semicolon, FANBOYS, colon, subject-verb, appositive pair, intro comma, dash pair, restrictive clause, period/fragment, series); all passed critic (q6 stem order fixed, q7 distractor D replaced, explanations tightened); calibrated 5 Easy (FANBOYS, colon list, intro comma, period, series; 80-90%) -> d1, 5 Medium (semicolon contrast ~72%, long-subject comma ~68%, appositive ~60%, dash pair ~65%, restrictive that-clause ~50%) -> d2. Run 125: 10 gens (comma-splice/semicolon, that-clause no comma, colon after clause, intro comma, compound predicate; d2: semicolon+however, nonrestrictive which, verb-complement no punctuation, trailing participle comma, semicolon series); all passed critic after fixes; calibrated 5 Easy (80-88%) -> d1, 5 Medium (55-65%) -> d2. Run 126 overshoot +5."
   },
   {
    "domain": "reading_writing",
@@ -795,7 +795,8 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 3,
+   "note": "Run 126: 10 gens, 3 held Hard (~40-45%: semicolon+paired 'however'; coordinate/cumulative adjectives + nonrestrictive which; closing comma + integrated quote), 5 Medium, 2 Easy. Lesson: two interacting rules (each wrong choice gets one half right) hold Hard; single-rule dash/comma-pair items are Medium."
   },
   {
    "domain": "reading_writing",

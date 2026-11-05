@@ -1938,3 +1938,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
 **Token usage:** ~1.2M subagent tokens (24 subagent calls).
 **Next run should pick up at:** Boundaries d3 (needs 10).
+
+## Run 126 — 2026-11-05 (cloud routine)
+**Cells worked:** Boundaries d3 (needed 10, got 3 Hard banked d3 -> 3/10 pending). The other 7 calibrated down and were banked in the matching cells: 5 d2 (Boundaries d2 now 15, overshoot), 2 d1 (Boundaries d1 now 12, overshoot). Skipped CoE-Q d3 and Inferences d3 (owner decision pending).
+**Pipeline:** 10 generators (one two-rule shape each), 10 critics (all PASS; explanation fixes on q1,q2,q4,q6,q7,q10; factual/wording fixes: Canadian->Austrian census, Riga stem simplified, 'called'->'dubbed', 'several years', 'city's'), 1 batched calibrator; all sonnet; no visuals. Keys reordered on 3 items (final A2 B2 C3 D3 before relabel). validate_batch passed 10/10. No discards or regenerations.
+**Calibration:** Hard held (~40-45%): Hollerith semicolon+however, adjectives+which, quote+closing comma. Medium: dash pair, organ semicolon, Riga, San Vitale, Fresnel. Easy: Burano colon, garden colon.
+**Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
+**Token usage:** ~1.2M subagent tokens (21 subagent calls).
+**Next run should pick up at:** Boundaries d3 (needs 7), then Form, Structure, and Sense d1.
