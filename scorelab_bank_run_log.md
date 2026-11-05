@@ -1929,3 +1929,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decision still outstanding.
 **Token usage:** ~1.1M subagent tokens (21 subagent calls).
 **Next run should pick up at:** Boundaries d1 (needs 5), Boundaries d2 (needs 5), then Boundaries d3.
+
+## Run 125 — 2026-11-05 (cloud routine)
+**Cells worked:** Boundaries d1 (needed 5, got 5 -> 10/10 done) and Boundaries d2 (needed 5, got 5 -> 10/10 done). Skipped CoE-Q d3 and Inferences d3 (owner decision pending).
+**Pipeline:** 10 generators (one rule-shape each), 13 critic calls (3 re-critiques after correctness fixes), 1 batched calibrator; all sonnet; no visuals. 
+**Critic FLAGs:** horseshoe-crab item (stem 'at the same time' allowed relative-clause reading of B -> reworded to 'in the bay'); pulsar item (choice D 'something: a strange signal' was also defensible -> replaced with 'something strange a signal'); bookbinding (stem/choice word duplication removed). Explanation-only fixes on streetcar, sundew, jam, igniter, Mekong, pulsar D. Choices reordered on 6 items for key balance (final keys B3 C4 D3). validate_batch passed 10/10. No discards.
+**Calibration:** all 10 honest as generated (5 Easy 80-88%, 5 Medium 55-65%).
+**Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
+**Token usage:** ~1.2M subagent tokens (24 subagent calls).
+**Next run should pick up at:** Boundaries d3 (needs 10).
