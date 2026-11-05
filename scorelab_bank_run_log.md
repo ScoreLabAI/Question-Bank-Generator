@@ -1913,3 +1913,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 owner decision still outstanding (6th run).
 **Token usage:** ~1.0M subagent tokens (21 subagent calls).
 **Next run should pick up at:** Inferences d2 (needs 5), then Inferences d3; CoE-Q d3 still pending owner decision.
+
+## Run 123 — 2026-11-05
+**Cells worked:** Inferences d2 (needed 5, got 6 banked d2 incl. 3 from Hard-targeted gens; +2 banked d1) and Inferences d3 (needed 5, got 0: all 3 Hard-targeted gens calibrated Medium and were banked d2).
+**Pipeline:** 8 generators (5 d2-targeted, 3 d3-targeted), 8 critics (all PASS; 5 explanation-only fixes applied, 1 advisory length/hedge fix on satellite item), 1 batched calibrator, all sonnet; no visuals (matplotlib not installed; not needed for text-only items). validate_batch passed 8/8. No regenerations, no discards.
+**Calibration:** PLA ~85% d1, lemur ~82% d1, Venice ~62%, elders ~58%, folk ~66%, trees ~66%, satellite ~50%, retrosplenial ~55% (all d2).
+**Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 owner decision still outstanding; Inferences d3 has failed to yield Hard in 3 shapes.
+**Token usage:** ~0.6M subagent tokens (17 subagent calls).
+**Next run should pick up at:** Inferences d3 (needs 10), then next pending cells in tracker order; CoE-Q d3 still pending owner decision.

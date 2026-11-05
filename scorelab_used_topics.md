@@ -1152,3 +1152,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 122: When power looms arrived in the cotton towns of northern England in the 1810s, many observers expected hand-lo
 - [Information and Ideas/Inferences, d2] Run 122: When a planet passes in front of its star as seen from Earth, the star's light dims by an amount that depends 
 - [Information and Ideas/Inferences, d2] Run 122: Archaeologists excavating Kestrel Ledge, a rock shelter, dated charcoal from two hearths. Charcoal from the de
+- [Information and Ideas/Inferences, d1] Run 123: In a laboratory test, polylactic acid food containers, made from a plant-based plastic, broke down within about twelve w
+- [Information and Ideas/Inferences, d1] Run 123: Researchers tested 14 adult ring-tailed lemurs from one forest reserve in Madagascar. Each lemur watched a trained compa
+- [Information and Ideas/Inferences, d2] Run 123: In fifteenth-century Venice, a merchant could lend spare capital ashore at 12 percent interest per year. Alternatively, 
+- [Information and Ideas/Inferences, d2] Run 123: A linguist reviewed nine community programs that aimed to teach an endangered language to children. In all four programs
+- [Information and Ideas/Inferences, d2] Run 123: A folklorist compared two printed song collections from one valley. The 1788 collection holds 41 songs, none with a refr
+- [Information and Ideas/Inferences, d2] Run 123: After a city planted street trees along 30 blocks of one district, heat-related emergency calls from those blocks in sum
+- [Information and Ideas/Inferences, d2] Run 123: A satellite operator reviewed five years of reaction-wheel failures in two fleets. Fleet A, which has 600 satellites in 
+- [Information and Ideas/Inferences, d2] Run 123: Neuroscientists asked whether a brain region called the retrosplenial cortex is needed to recall familiar scenes. Imagin
