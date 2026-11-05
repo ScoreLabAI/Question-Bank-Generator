@@ -1160,3 +1160,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 123: After a city planted street trees along 30 blocks of one district, heat-related emergency calls from those blocks in sum
 - [Information and Ideas/Inferences, d2] Run 123: A satellite operator reviewed five years of reaction-wheel failures in two fleets. Fleet A, which has 600 satellites in 
 - [Information and Ideas/Inferences, d2] Run 123: Neuroscientists asked whether a brain region called the retrosplenial cortex is needed to recall familiar scenes. Imagin
+- [Standard English Conventions/Boundaries, d2] Run 124: Copper spreads heat from a burner across the whole pan very quickly ______ stainless steel spreads the same heat much mo
+- [Standard English Conventions/Boundaries, d1] Run 124: Visitors to central Iran often admire the arched bridges of Isfahan. The Khaju Bridge was built in the 1650s ______ it s
+- [Standard English Conventions/Boundaries, d1] Run 124: Kente cloth, a handwoven textile with bright geometric patterns, has long been associated with the Asante people of Ghan
+- [Standard English Conventions/Boundaries, d2] Run 124: The collection of hand-dyed textiles stored in the archive at the Valle Cultural Center in Oaxaca ______ more than two t
+- [Standard English Conventions/Boundaries, d2] Run 124: The Atacama Desert ______ receives almost no rain in many years, so astronomers have built several large telescopes ther
+- [Standard English Conventions/Boundaries, d1] Run 124: Because the roots of the Indian rubber fig tree grow strong and thick over many years ______ the Khasi people of northea
+- [Standard English Conventions/Boundaries, d2] Run 124: Textile conservator Marisol Quispe spent two years restoring a ceremonial tunic—woven in the Andes more than five hundre
+- [Standard English Conventions/Boundaries, d2] Run 124: Marine biologist Wanjiru Kamau spent three seasons surveying Kenya's Kiunga reef after a record heat wave. She found tha
+- [Standard English Conventions/Boundaries, d1] Run 124: Mumbai's dabbawalas deliver roughly two hundred thousand lunch boxes to office workers every day ______ color codes pain
+- [Standard English Conventions/Boundaries, d1] Run 124: Before crossing the Atacama plateau in northern Chile, the survey team carefully checked its gear. In the end, the team 

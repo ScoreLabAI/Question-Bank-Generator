@@ -1921,3 +1921,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 owner decision still outstanding; Inferences d3 has failed to yield Hard in 3 shapes.
 **Token usage:** ~0.6M subagent tokens (17 subagent calls).
 **Next run should pick up at:** Inferences d3 (needs 10), then next pending cells in tracker order; CoE-Q d3 still pending owner decision.
+
+## Run 124 — 2026-11-05 (cloud routine)
+**Cells worked:** Boundaries d1 (needed 10): 10 generated, 5 calibrated Easy -> banked d1 (5/10 pending), 5 calibrated Medium -> banked d2 (Boundaries d2 now 5/10 pending). Skipped CoE Quantitative d3 and Inferences d3 (stuck, owner decision pending; Boundaries was the first fresh cell).
+**Pipeline:** 10 generators (one rule-shape each), 10 critics (8 PASS, 2 FLAG: q6 stem/question-line order, q7 arbitrary stacked-punctuation distractor "ago:—" replaced with "ago:"; explanation tightenings on q2, q6), 1 batched calibrator; all sonnet; no visuals. Choices reordered on 8 items for key balance. validate_batch passed 10/10. No discards or regenerations.
+**Calibration lesson:** Single-rule items with long subjects/interrupters (subject-verb comma, dash pair, appositive pair, restrictive clause) are Medium, not Easy; short, standard rules (FANBOYS, intro comma, colon list, series, period) hold Easy.
+**Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decision still outstanding.
+**Token usage:** ~1.1M subagent tokens (21 subagent calls).
+**Next run should pick up at:** Boundaries d1 (needs 5), Boundaries d2 (needs 5), then Boundaries d3.
