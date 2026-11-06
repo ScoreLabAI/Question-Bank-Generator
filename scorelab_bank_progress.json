@@ -805,7 +805,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 2,
+      "note": "Run 129: 5 gens (SV agreement prep-phrase, collective pronoun, tense, dangling modifier, inverted SV). Discarded crew pronoun item (critic: 'their' defensible for collective noun). Banked 4: wind-turbine row (Easy ~85%) and Eddington tense (Easy ~90%) -> d1; dangling modifier Dara (~65%, B swapped to non-possessive) and inverted-subject museum compasses (~60%) -> d2. Lesson: dangling-modifier and inverted SV go Medium; need fresh Easy shapes (plain pronoun case, noun plural/possessive, simple verb form)."
     },
     {
       "domain": "reading_writing",
@@ -814,7 +815,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 0
+      "accepted_count": 2,
+      "note": "Run 129: received 2 downgrades from d1 gens (dangling modifier, inverted SV)."
     },
     {
       "domain": "reading_writing",

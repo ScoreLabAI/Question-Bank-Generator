@@ -1962,3 +1962,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
 **Token usage:** ~0.9M subagent tokens (16 subagent calls).
 **Next run should pick up at:** Boundaries d3 (needs 5), then Form, Structure, and Sense d1.
+
+## Run 129 — 2026-11-06 (cloud routine)
+**Cells worked:** Boundaries d3 (needed 5, got 1 Hard banked d3 -> 6/10 pending; 1 banked d2 overshoot, 1 d1 overshoot). Form, Structure, and Sense d1 (needed 5, got 2 banked d1 -> 2/10 pending; 2 downgraded and banked in FSS d2 -> 2/10). Skipped CoE-Q d3 and Inferences d3 (owner decision pending, per runs 124-128).
+**Pipeline:** 10 generators (5 Boundaries two-rule shapes, 5 FSS Easy shapes), 10 critics, 2 batched calibrators; all sonnet; no visuals. Critic outcomes: Boundaries 2 FLAG -> discarded (Duluth museum: stem and choices both contain 'displays'; Fleming: '; yet' defensible under Chicago style and item Easy), 3 PASS (windmill stem fixed: trailing 'windmill' removed from stem; Medellín D explanation rewritten). FSS: 1 FLAG discarded (lifeboat crew 'their' defensible), dangling-modifier choice B swapped to non-possessive form, 3 PASS. Key skew fixed on 3 FSS items by reordering. validate_batch passed 3/3 and 4/4. No regenerations.
+**Calibration:** Boundaries: Hard held for windmill compound-predicate interrupter (~45%); Calloway complex series Medium (~65%); Medellín 'which' Easy (~80%). FSS: wind turbines Easy ~85%, Eddington Easy ~90%, Dara dangling Medium ~65%, museum inverted SV Medium ~60%.
+**Skill updates:** none to files; cell notes updated. Lesson recorded in Boundaries note: stem must not end with a word that choices begin with (duplicate-word defect hit 2 of 5 drafts; the FSS prompts included the warning and none repeated it). REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
+**Token usage:** ~1.4M subagent tokens (22 subagent calls).
+**Next run should pick up at:** Boundaries d3 (needs 4), then Form, Structure, and Sense d1 (needs 8).
