@@ -1954,3 +1954,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
 **Token usage:** ~1.3M subagent tokens (26 subagent calls).
 **Next run should pick up at:** Boundaries d3 (needs 6), then Form, Structure, and Sense d1.
+
+## Run 128 — 2026-11-06 (cloud routine)
+**Cells worked:** Boundaries d3 (needed 6, got 1 Hard banked d3 -> 5/10 pending). Other 5 calibrated down: 4 banked d2 (overshoot), 1 d1 (overshoot). Skipped CoE-Q d3 and Inferences d3 (owner decision pending, per runs 124-127).
+**Pipeline:** 6 generators (one two-rule shape each), 6 critics + 3 re-critics after correctness rewrites (telegraph: appositive->relative clause; Viol Consort: stem made closed set so 'that' not defensible; Laennec: colon->semicolon in fragment distractor), 1 batched calibrator; all sonnet; no visuals. Q3 doubled word 'categories' fixed; q5 'consequently'->'for instance'. validate_batch passed 6/6 (key skew WARN B4/D2, not reordered). No discards.
+**Calibration:** Hard (borderline ~45%): Viol Consort discs. Medium: telegraph, limpets, archaeology list, Laennec. Easy: microlensing.
+**Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
+**Token usage:** ~0.9M subagent tokens (16 subagent calls).
+**Next run should pick up at:** Boundaries d3 (needs 5), then Form, Structure, and Sense d1.
