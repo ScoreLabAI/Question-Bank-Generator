@@ -1986,3 +1986,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
 **Token usage:** ~1.3M subagent tokens (21 subagent calls).
 **Next run should pick up at:** Boundaries d3 (needs 2), then Form, Structure, and Sense d2 (needs 6).
+
+## Run 132 — 2026-11-06 (cloud routine)
+**Cells worked:** Boundaries d3 (needed 2, got 0 Hard: both calibrated Medium and banked d2 overshoot -> still 8/10 pending). Form, Structure, and Sense d2 (needed 6, got 4 banked d2 -> 8/10 pending; 2 downgraded to d1 overshoot). Skipped CoE-Q d3 and Inferences d3 (owner decision pending, per runs 124-131). Run scoped to 8 gens (not 10) since remaining cells were the pending-decision ones.
+**Pipeline:** 8 generators, 8 critics (all PASS; fixes: Boundaries colon/comma+and/no-punct explanations reworded; kettle/resident distractors made singular + 'installation'->'use'; minor explanation softening on 3 items), 2 calibrators (batched); all sonnet; no visuals; no discards or regenerations. validate_batch passed 2/2 and 6/6. Used Python merge; master now 1224 questions.
+**Calibration:** Boundaries: closing comma after appositive w/ internal list ~58% (Medium), colon+noun phrase ~68% (Medium). FSS: 'the number of' ~85% Easy, fronted modifier ~80% Easy, past perfect ~66%, correlative parallelism ~45-60% (borderline Hard, tagged d2), neither/nor+tense ~58%, mandative subjunctive ~55%.
+**Skill updates:** none to files; cell notes updated. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
+**Token usage:** ~1.1M subagent tokens (18 subagent calls).
+**Next run should pick up at:** Boundaries d3 (needs 2), then FSS d2 (needs 2), then FSS d3 (needs 10).
