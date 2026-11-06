@@ -775,7 +775,7 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "done",
-      "accepted_count": 14,
+      "accepted_count": 15,
       "note": "Run 124: 10 gens (one per punctuation rule: semicolon, FANBOYS, colon, subject-verb, appositive pair, intro comma, dash pair, restrictive clause, period/fragment, series); all passed critic (q6 stem order fixed, q7 distractor D replaced, explanations tightened); calibrated 5 Easy (FANBOYS, colon list, intro comma, period, series; 80-90%) -> d1, 5 Medium (semicolon contrast ~72%, long-subject comma ~68%, appositive ~60%, dash pair ~65%, restrictive that-clause ~50%) -> d2. Run 125: 10 gens (comma-splice/semicolon, that-clause no comma, colon after clause, intro comma, compound predicate; d2: semicolon+however, nonrestrictive which, verb-complement no punctuation, trailing participle comma, semicolon series); all passed critic after fixes; calibrated 5 Easy (80-88%) -> d1, 5 Medium (55-65%) -> d2. Run 126 overshoot +2. Run 127: +1 overshoot (Babbage) from Boundaries d3 gens."
     },
     {
@@ -785,7 +785,7 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "done",
-      "accepted_count": 27,
+      "accepted_count": 28,
       "note": "Run 124: 10 gens (one per punctuation rule: semicolon, FANBOYS, colon, subject-verb, appositive pair, intro comma, dash pair, restrictive clause, period/fragment, series); all passed critic (q6 stem order fixed, q7 distractor D replaced, explanations tightened); calibrated 5 Easy (FANBOYS, colon list, intro comma, period, series; 80-90%) -> d1, 5 Medium (semicolon contrast ~72%, long-subject comma ~68%, appositive ~60%, dash pair ~65%, restrictive that-clause ~50%) -> d2. Run 125: 10 gens (comma-splice/semicolon, that-clause no comma, colon after clause, intro comma, compound predicate; d2: semicolon+however, nonrestrictive which, verb-complement no punctuation, trailing participle comma, semicolon series); all passed critic after fixes; calibrated 5 Easy (80-88%) -> d1, 5 Medium (55-65%) -> d2. Run 126 overshoot +5. Run 127: +8 overshoot from Boundaries d3 gens."
     },
     {
@@ -795,8 +795,8 @@
       "difficulty": 3,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 5,
-      "note": "Run 126: 10 gens, 3 held Hard (~40-45%: semicolon+paired 'however'; coordinate/cumulative adjectives + nonrestrictive which; closing comma + integrated quote), 5 Medium, 2 Easy. Lesson: two interacting rules (each wrong choice gets one half right) hold Hard; single-rule dash/comma-pair items are Medium. Run 127: 10 gens (two-rule shapes), all passed critic (fixes: q4 blank placement, q6 'Although'->'Because', q7 lengthened interrupter, q9 'map'->'findings', q10 plateau->plain); only 1 held Hard (Namib beetle compound predicate + absolute phrase, ~45%); 8 Medium, 1 Easy. Lesson: interrupter inside a compound predicate (closing comma before 'and') holds Hard; semicolon/colon/dash pairs with an obviously invalid distractor go Medium. Run 128: 6 gens (appositive list, intro clause+participle, colon/semicolon list, restrictive-vs-which+possessive, conj adverb, dash vs compound predicate); all passed critic after fixes (3 correctness rewrites: telegraph appositive->relative clause, discs stem made closed-set, Laennec colon->semicolon fragment). Calibrated: 1 Hard (restrictive/nonrestrictive+possessive, ~45% borderline), 4 Medium, 1 Easy (plain semicolon+adverb). Lesson: context-determined restrictiveness holds Hard only if stem makes the closed set explicit."
+      "accepted_count": 6,
+      "note": "Run 126: 10 gens, 3 held Hard (~40-45%: semicolon+paired 'however'; coordinate/cumulative adjectives + nonrestrictive which; closing comma + integrated quote), 5 Medium, 2 Easy. Lesson: two interacting rules (each wrong choice gets one half right) hold Hard; single-rule dash/comma-pair items are Medium. Run 127: 10 gens (two-rule shapes), all passed critic (fixes: q4 blank placement, q6 'Although'->'Because', q7 lengthened interrupter, q9 'map'->'findings', q10 plateau->plain); only 1 held Hard (Namib beetle compound predicate + absolute phrase, ~45%); 8 Medium, 1 Easy. Lesson: interrupter inside a compound predicate (closing comma before 'and') holds Hard; semicolon/colon/dash pairs with an obviously invalid distractor go Medium. Run 128: 6 gens (appositive list, intro clause+participle, colon/semicolon list, restrictive-vs-which+possessive, conj adverb, dash vs compound predicate); all passed critic after fixes (3 correctness rewrites: telegraph appositive->relative clause, discs stem made closed-set, Laennec colon->semicolon fragment). Calibrated: 1 Hard (restrictive/nonrestrictive+possessive, ~45% borderline), 4 Medium, 1 Easy (plain semicolon+adverb). Lesson: context-determined restrictiveness holds Hard only if stem makes the closed set explicit. Run 129: 5 gens (compound-predicate participial interrupter, complex series+colon, sentence-which, appositive w/ city-state, fronted phrase+yet). 2 discarded by critic (windmill-style duplicate-verb stem in Duluth museum item; Fleming ';yet' defensible under Chicago, Easy anyway); 3 banked: windmill compound-predicate interrupter held Hard (~45%) -> d3; Calloway complex series ~65% -> d2; Medellin 'which' ~80% -> d1. Lesson: stem must not end with a word that choices begin with (duplicate-word defect hit 2 of 5 drafts)."
     },
     {
       "domain": "reading_writing",
