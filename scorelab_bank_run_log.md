@@ -1970,3 +1970,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none to files; cell notes updated. Lesson recorded in Boundaries note: stem must not end with a word that choices begin with (duplicate-word defect hit 2 of 5 drafts; the FSS prompts included the warning and none repeated it). REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
 **Token usage:** ~1.4M subagent tokens (22 subagent calls).
 **Next run should pick up at:** Boundaries d3 (needs 4), then Form, Structure, and Sense d1 (needs 8).
+
+## Run 130 — 2026-11-06 (cloud routine)
+**Cells worked:** Boundaries d3 (needed 4, got 1 Hard banked d3 -> 7/10 pending; 3 downgraded and banked d2 as overshoot). Form, Structure, and Sense d1 (needed 8 but run capped at 5 gens; got 3 banked d1 -> 5/10 pending; 2 downgraded to d2 -> FSS d2 4/10). Skipped CoE-Q d3 and Inferences d3 (owner decision pending, per runs 124-129).
+**Pipeline:** 10 generators, 10 critics + 2 re-critics, 2 batched calibrators; all sonnet; no visuals. Critic outcomes: Boundaries 1 PASS, 1 PASS (restrictive-because), 1 FLAG correctness (dash item stem ungrammatical: 'were collected' -> 'all collected', re-critic PASS), 1 FLAG correctness (tide-pool D defensible; D replaced, stem 'they'->'the animals', re-critic PASS), 1 FLAG discarded (Veiga letters: awkward discontinuous modifier; suggested fix would make it single-rule/Medium). FSS: all 5 PASS (explanation tweaks; Ngozi item given 'her first rehearsal' gender cue). Key skew: all 5 FSS were keyed C; reordered. validate_batch passed 1/1, 5/5, 3/3.
+**Calibration:** Hard: Dunmore ferry (~42%). Medium: Raman participial (~65%), Kellerman dash appositive (~70%), tide-pool colon+semicolon (~60%), pronoun case between (~70%), Fez doors (~75%). Easy: growers (~85%), had driven (~90%), comparative (~88%).
+**Skill updates:** none to files; cell notes updated. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
+**Token usage:** ~1.4M subagent tokens (24 subagent calls).
+**Next run should pick up at:** Boundaries d3 (needs 3), then Form, Structure, and Sense d1 (needs 5).

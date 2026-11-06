@@ -785,8 +785,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "done",
-      "accepted_count": 28,
-      "note": "Run 124: 10 gens (one per punctuation rule: semicolon, FANBOYS, colon, subject-verb, appositive pair, intro comma, dash pair, restrictive clause, period/fragment, series); all passed critic (q6 stem order fixed, q7 distractor D replaced, explanations tightened); calibrated 5 Easy (FANBOYS, colon list, intro comma, period, series; 80-90%) -> d1, 5 Medium (semicolon contrast ~72%, long-subject comma ~68%, appositive ~60%, dash pair ~65%, restrictive that-clause ~50%) -> d2. Run 125: 10 gens (comma-splice/semicolon, that-clause no comma, colon after clause, intro comma, compound predicate; d2: semicolon+however, nonrestrictive which, verb-complement no punctuation, trailing participle comma, semicolon series); all passed critic after fixes; calibrated 5 Easy (80-88%) -> d1, 5 Medium (55-65%) -> d2. Run 126 overshoot +5. Run 127: +8 overshoot from Boundaries d3 gens."
+      "accepted_count": 31,
+      "note": "Run 124: 10 gens (one per punctuation rule: semicolon, FANBOYS, colon, subject-verb, appositive pair, intro comma, dash pair, restrictive clause, period/fragment, series); all passed critic (q6 stem order fixed, q7 distractor D replaced, explanations tightened); calibrated 5 Easy (FANBOYS, colon list, intro comma, period, series; 80-90%) -> d1, 5 Medium (semicolon contrast ~72%, long-subject comma ~68%, appositive ~60%, dash pair ~65%, restrictive that-clause ~50%) -> d2. Run 125: 10 gens (comma-splice/semicolon, that-clause no comma, colon after clause, intro comma, compound predicate; d2: semicolon+however, nonrestrictive which, verb-complement no punctuation, trailing participle comma, semicolon series); all passed critic after fixes; calibrated 5 Easy (80-88%) -> d1, 5 Medium (55-65%) -> d2. Run 126 overshoot +5. Run 127: +8 overshoot from Boundaries d3 gens. Run 130: +3 overshoot from Boundaries d3 downgrades."
     },
     {
       "domain": "reading_writing",
@@ -795,8 +795,8 @@
       "difficulty": 3,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 6,
-      "note": "Run 126: 10 gens, 3 held Hard (~40-45%: semicolon+paired 'however'; coordinate/cumulative adjectives + nonrestrictive which; closing comma + integrated quote), 5 Medium, 2 Easy. Lesson: two interacting rules (each wrong choice gets one half right) hold Hard; single-rule dash/comma-pair items are Medium. Run 127: 10 gens (two-rule shapes), all passed critic (fixes: q4 blank placement, q6 'Although'->'Because', q7 lengthened interrupter, q9 'map'->'findings', q10 plateau->plain); only 1 held Hard (Namib beetle compound predicate + absolute phrase, ~45%); 8 Medium, 1 Easy. Lesson: interrupter inside a compound predicate (closing comma before 'and') holds Hard; semicolon/colon/dash pairs with an obviously invalid distractor go Medium. Run 128: 6 gens (appositive list, intro clause+participle, colon/semicolon list, restrictive-vs-which+possessive, conj adverb, dash vs compound predicate); all passed critic after fixes (3 correctness rewrites: telegraph appositive->relative clause, discs stem made closed-set, Laennec colon->semicolon fragment). Calibrated: 1 Hard (restrictive/nonrestrictive+possessive, ~45% borderline), 4 Medium, 1 Easy (plain semicolon+adverb). Lesson: context-determined restrictiveness holds Hard only if stem makes the closed set explicit. Run 129: 5 gens (compound-predicate participial interrupter, complex series+colon, sentence-which, appositive w/ city-state, fronted phrase+yet). 2 discarded by critic (windmill-style duplicate-verb stem in Duluth museum item; Fleming ';yet' defensible under Chicago, Easy anyway); 3 banked: windmill compound-predicate interrupter held Hard (~45%) -> d3; Calloway complex series ~65% -> d2; Medellin 'which' ~80% -> d1. Lesson: stem must not end with a word that choices begin with (duplicate-word defect hit 2 of 5 drafts)."
+      "accepted_count": 7,
+      "note": "Run 126: 10 gens, 3 held Hard (~40-45%: semicolon+paired 'however'; coordinate/cumulative adjectives + nonrestrictive which; closing comma + integrated quote), 5 Medium, 2 Easy. Lesson: two interacting rules (each wrong choice gets one half right) hold Hard; single-rule dash/comma-pair items are Medium. Run 127: 10 gens (two-rule shapes), all passed critic (fixes: q4 blank placement, q6 'Although'->'Because', q7 lengthened interrupter, q9 'map'->'findings', q10 plateau->plain); only 1 held Hard (Namib beetle compound predicate + absolute phrase, ~45%); 8 Medium, 1 Easy. Lesson: interrupter inside a compound predicate (closing comma before 'and') holds Hard; semicolon/colon/dash pairs with an obviously invalid distractor go Medium. Run 128: 6 gens (appositive list, intro clause+participle, colon/semicolon list, restrictive-vs-which+possessive, conj adverb, dash vs compound predicate); all passed critic after fixes (3 correctness rewrites: telegraph appositive->relative clause, discs stem made closed-set, Laennec colon->semicolon fragment). Calibrated: 1 Hard (restrictive/nonrestrictive+possessive, ~45% borderline), 4 Medium, 1 Easy (plain semicolon+adverb). Lesson: context-determined restrictiveness holds Hard only if stem makes the closed set explicit. Run 129: 5 gens (compound-predicate participial interrupter, complex series+colon, sentence-which, appositive w/ city-state, fronted phrase+yet). 2 discarded by critic (windmill-style duplicate-verb stem in Duluth museum item; Fleming ';yet' defensible under Chicago, Easy anyway); 3 banked: windmill compound-predicate interrupter held Hard (~45%) -> d3; Calloway complex series ~65% -> d2; Medellin 'which' ~80% -> d1. Lesson: stem must not end with a word that choices begin with (duplicate-word defect hit 2 of 5 drafts). Run 130: 5 gens (participial+comma-and, dash appositive w/ series, restrictive-because+semicolon, long-subject appositive, colon+semicolon). Discarded long-subject appositive (critic: awkward discontinuous modifier). Two needed correctness repairs (dash item ungrammatical stem; tide-pool item had defensible D). 1 held Hard (Dunmore ferry restrictive-because + semicolon, ~42%); other 3 Medium and banked d2 (overshoot). Lesson: context-forced restrictiveness of a trailing 'because' clause plus a semicolon boundary holds Hard; matched-pair dash/comma and colon+semicolon items go Medium."
     },
     {
       "domain": "reading_writing",
@@ -805,8 +805,8 @@
       "difficulty": 1,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 2,
-      "note": "Run 129: 5 gens (SV agreement prep-phrase, collective pronoun, tense, dangling modifier, inverted SV). Discarded crew pronoun item (critic: 'their' defensible for collective noun). Banked 4: wind-turbine row (Easy ~85%) and Eddington tense (Easy ~90%) -> d1; dangling modifier Dara (~65%, B swapped to non-possessive) and inverted-subject museum compasses (~60%) -> d2. Lesson: dangling-modifier and inverted SV go Medium; need fresh Easy shapes (plain pronoun case, noun plural/possessive, simple verb form)."
+      "accepted_count": 5,
+      "note": "Run 129: 5 gens (SV agreement prep-phrase, collective pronoun, tense, dangling modifier, inverted SV). Discarded crew pronoun item (critic: 'their' defensible for collective noun). Banked 4: wind-turbine row (Easy ~85%) and Eddington tense (Easy ~90%) -> d1; dangling modifier Dara (~65%, B swapped to non-possessive) and inverted-subject museum compasses (~60%) -> d2. Lesson: dangling-modifier and inverted SV go Medium; need fresh Easy shapes (plain pronoun case, noun plural/possessive, simple verb form). Run 130: 5 gens (pronoun case, plural/possessive, had+participle, pronoun-antecedent with singular lure, comparative of two). Calibrated: possessive growers ~85%, had driven ~90%, comparative ~88% -> d1; between-pronoun case (~70%) and Fez doors pronoun-antecedent (~75%) -> d2."
     },
     {
       "domain": "reading_writing",
@@ -815,8 +815,8 @@
       "difficulty": 2,
       "target_count": 10,
       "status": "pending",
-      "accepted_count": 2,
-      "note": "Run 129: received 2 downgrades from d1 gens (dangling modifier, inverted SV)."
+      "accepted_count": 4,
+      "note": "Run 129: received 2 downgrades from d1 gens (dangling modifier, inverted SV). Run 130: +2 from FSS d1 downgrades (pronoun case after 'between', pronoun-antecedent with nearby singular nouns)."
     },
     {
       "domain": "reading_writing",
