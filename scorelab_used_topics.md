@@ -1234,3 +1234,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Standard English Conventions/Form, Structure, and Sense, d1] Run 131: Marrow Bay lighthouse breakwater could have damaged
 - [Standard English Conventions/Boundaries, d2] Run 132: harbor museum restoration team appositive w/ internal list closing comma
 - [Standard English Conventions/Boundaries, d2] Run 132: Ardmore Valley pear cooperative colon + noun phrase
+- [Standard English Conventions/Form, Structure, and Sense, d1] Run 132: Willowbrook seed-lending desk 'the number of' agreement
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 132: Kessling bell foundry past perfect by the time
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 132: Haddad Arctic tern not only/but also parallelism
+- [Standard English Conventions/Form, Structure, and Sense, d1] Run 132: Wexley Falls groundwater fronted adjective phrase modifier
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 132: Ketterman Ridge orchid neither/nor proximity + present perfect
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 132: Pelham Ridge observatory mandative subjunctive
