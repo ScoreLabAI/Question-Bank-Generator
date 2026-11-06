@@ -1978,3 +1978,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none to files; cell notes updated. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
 **Token usage:** ~1.4M subagent tokens (24 subagent calls).
 **Next run should pick up at:** Boundaries d3 (needs 3), then Form, Structure, and Sense d1 (needs 5).
+
+## Run 131 — 2026-11-06 (cloud routine)
+**Cells worked:** Boundaries d3 (needed 3, got 1 Hard banked d3 -> 8/10 pending; 3 banked d2 overshoot, 1 d1 overshoot). Form, Structure, and Sense d1 (needed 5, got 5 banked d1 -> 10/10 DONE). Skipped CoE-Q d3 and Inferences d3 (owner decision pending, per prior runs).
+**Pipeline:** 10 generators (5 Boundaries two-rule shapes, 5 FSS Easy shapes), 10 critics (all PASS; explanation-only tweaks: Icefield C, Quillbase A/B wording, soil C), 1 batched calibrator; all sonnet; no visuals. validate_batch passed 10/10. FSS keys reordered to fix B-skew. No discards or regenerations.
+**Calibration:** Hard: Kessler Icefield dash-set list + compound predicate (~45%). Medium: fungi appositive (~65%), Dreyer restrictive+colon (~52%), soil cores nevertheless (~76%). Easy: Quillbase quote+which (~80%), all 5 FSS (85-92%).
+**Skill updates:** none. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
+**Token usage:** ~1.3M subagent tokens (21 subagent calls).
+**Next run should pick up at:** Boundaries d3 (needs 2), then Form, Structure, and Sense d2 (needs 6).
