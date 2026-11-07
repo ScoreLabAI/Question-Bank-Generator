@@ -1271,3 +1271,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 136: Valcourt wetland restoration cumulative species pace after year 2/5/11 (table)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 136: Faulkner-Osei grain storage mold, lots inspected x percent (table)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 136: Whitfern Kessock River salmon hatcheries eggs vs fry (grouped bar)
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: Hokusai introduction (ukiyo-e artist)
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: Pearl millet vs corn maturation time
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: Barn owl wing serrations purpose
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: Brennick Institute street-tree pavement cooling study
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: The Tale of Genji age emphasis
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: Canal lock raising a boat (process)
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: Ferrada, Portugal fishing town for visitors
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: Hollis Park soccer turf before/after cancellations
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 137: Quillo messaging app network effect example
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: Baridi Box solar vaccine cooler (Kamau)

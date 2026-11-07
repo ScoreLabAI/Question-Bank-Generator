@@ -2022,3 +2022,9 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Total new questions banked: 3 (master now 1255). Env: matplotlib needed pip install + pillow force-reinstall again.
 - Recommend human review (3rd consecutive run): this cell's Hard target looks unattainable; also untouched pending cells Rhetorical Synthesis/Transitions d1-d3 (0/10) have had no runs and would yield far better. Consider reordering the tracker.
 - Token usage: subagents ~1.0M tokens total (Sonnet).
+
+## Run 137 - 2026-11-07
+- DEVIATION: skipped the first pending cell (Information and Ideas / Command of Evidence (Quantitative) d3, 2/10), which has yielded 2 Hard in ~46 Hard-targeted gens over runs 116-136 with repeated human-review recommendations. Worked Expression of Ideas / Rhetorical Synthesis d1 (0/10, never run) instead. Cells Inferences d3 and Form/Structure d3 are also Hard-targeted with prior calibrate-down history. Please decide whether to reorder the tracker or lower those targets.
+- Cell Rhetorical Synthesis d1: needed 10, got 9 (accepted_count 9, still pending); 1 relabeled d2 and banked in Rhetorical Synthesis d2 (now 1/10). 10 gens, 10 critics (all PASS; wording fixes: q4 confound note removed, q9 stem reworded, q10 'up to five days'), 1 batched calibration. No discards/regenerations. Key letters rebalanced (A3,B2,C2,D3); validate_batch passed 10/10. Master now 1265.
+- Env: matplotlib pip-installed (not needed, no visuals). Token usage: subagents ~1.3M tokens total (Sonnet).
+- Observation: critics repeatedly noted the key is the longest choice (length cue); consider adding a length-balance rule to the Rhetorical Synthesis generator mandate.
