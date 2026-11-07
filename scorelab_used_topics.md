@@ -1268,3 +1268,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 135: Township tool-lending libraries loans per resident (bar + stem populations)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 135: Wexcombe rainwater barrels percentage-point gain vs starting level (table)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 135: Viticulture elevation vs grape sugar peak at 400 m (scatter)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 136: Valcourt wetland restoration cumulative species pace after year 2/5/11 (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 136: Faulkner-Osei grain storage mold, lots inspected x percent (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 136: Whitfern Kessock River salmon hatcheries eggs vs fry (grouped bar)

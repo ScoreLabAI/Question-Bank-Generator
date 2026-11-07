@@ -2016,3 +2016,9 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Files changed: scripts/render_visual.py (multi-series scatter via "series", backward compatible). Env note: Pillow needed force-reinstall again.
 - Recommend human review: ~38 Hard-targeted gens in this cell yielded 2 Hard; consider lowering target or redefining Hard for this cell. Run scoped to this one cell (8 questions) per cell-by-cell rule.
 - Token usage: subagents ~1.1M tokens total (Sonnet); orchestrator not measured.
+
+## Run 136 - 2026-11-07
+- Cell Information and Ideas / Command of Evidence (Quantitative) d3: needed 8, got 0 Hard (accepted_count stays 2). 4 gens (not the full 8: cell has yielded 2 Hard in ~42 Hard-targeted gens, so run was kept small). 3 banked as d2 (wetland pace table, grain-mold weighted table, hatchery grouped bar); 1 discarded (abalone outlier scatter: critic found "weaken" framing incoherent). Fixes applied after critic: stem metric defined (wetland), distractor B replaced, grain stem/steel-bin 38%, hatchery values moved onto labeled gridlines (step 10); all three re-critiqued PASS. Key letters rebalanced on two items.
+- Total new questions banked: 3 (master now 1255). Env: matplotlib needed pip install + pillow force-reinstall again.
+- Recommend human review (3rd consecutive run): this cell's Hard target looks unattainable; also untouched pending cells Rhetorical Synthesis/Transitions d1-d3 (0/10) have had no runs and would yield far better. Consider reordering the tracker.
+- Token usage: subagents ~1.0M tokens total (Sonnet).
