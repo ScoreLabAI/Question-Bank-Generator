@@ -2009,3 +2009,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Discards/regenerations: none. Total new questions banked: 10 (master now 1244).
 - Environment note: system python had a broken Pillow; fixed with pip install --force-reinstall pillow before rendering.
 - Token usage: subagents ~1.1M tokens total (Sonnet); orchestrator not measured.
+
+## Run 135 - 2026-11-07
+- Cell Information and Ideas / Command of Evidence (Quantitative) d3: needed 8 (of 10), got 0 Hard (accepted_count stays 2). 8 gens, all passed critic first time (fixes: cormorant choice C 'each year' -> 'average per year'; street-lighting D explanation; grape-sugar A explanation; per-capita D wording; stem table duplicate removed). Calibration: 7 banked d2, 1 banked d1 (willow cuttings). Cell still pending.
+- Discards/regenerations: none. Total new questions banked: 8 (master now 1252). Key letters reordered on 2 items to fix skew.
+- Files changed: scripts/render_visual.py (multi-series scatter via "series", backward compatible). Env note: Pillow needed force-reinstall again.
+- Recommend human review: ~38 Hard-targeted gens in this cell yielded 2 Hard; consider lowering target or redefining Hard for this cell. Run scoped to this one cell (8 questions) per cell-by-cell rule.
+- Token usage: subagents ~1.1M tokens total (Sonnet); orchestrator not measured.
