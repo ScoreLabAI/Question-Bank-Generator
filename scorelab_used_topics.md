@@ -1242,3 +1242,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 132: Pelham Ridge observatory mandative subjunctive
 - [Standard English Conventions/Boundaries, d3] Run 133: Pell Harbor boatyard schooner mainmast riggers participial interrupter in compound predicate
 - [Standard English Conventions/Boundaries, d2] Run 133: Veluwe Grain Cooperative winter rye restrictive that + semicolon consequently
+- [Standard English Conventions/Form, Structure, and Sense, d1] Run 133: Sun vs Moon ocean tides comparison pronoun 'those'
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 133: Ostrava Technical Museum mineral collection catalog 2019 agreement+tense
