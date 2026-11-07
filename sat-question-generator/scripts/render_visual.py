@@ -65,6 +65,7 @@ Spec format (visual_type "graph"):
     // chart_type == "scatter":
     "points": [[1, 2], [2, 4.1], [3, 5.9]],
     "best_fit_line": {"m": 2, "b": 0.1}   // optional
+    // OR multi-series (run 135): "series": [{"label": "A", "points": [[1, 2], ...]}, ...], "legend": true
 
     // chart_type == "bar": (optional "bar_labels": true prints exact values above bars; added run 111)
     "categories": ["A", "B", "C"],
@@ -213,10 +214,26 @@ def render_graph(data, ax):
             ax.legend(fontsize=9, loc="best")
 
     elif chart_type == "scatter":
-        points = data["points"]
-        xs = [p[0] for p in points]
-        ys = [p[1] for p in points]
-        ax.scatter(xs, ys, color="#2563EB", zorder=3)
+        if "series" in data:
+            # Multi-series scatter (added run 135): "series": [{"label": "A", "points": [[x, y], ...]}, ...]
+            # with optional "legend": true. Each series gets its own color and marker.
+            cols = ["#2563EB", "#F59E0B", "#10B981", "#6B7280"]
+            marks = ["o", "s", "^", "D"]
+            xs, ys = [], []
+            for i, sr in enumerate(data["series"]):
+                sx = [p[0] for p in sr["points"]]
+                sy = [p[1] for p in sr["points"]]
+                xs += sx
+                ys += sy
+                ax.scatter(sx, sy, color=cols[i % 4], marker=marks[i % 4],
+                           zorder=3, label=sr.get("label"))
+            if data.get("legend"):
+                ax.legend()
+        else:
+            points = data["points"]
+            xs = [p[0] for p in points]
+            ys = [p[1] for p in points]
+            ax.scatter(xs, ys, color="#2563EB", zorder=3)
         if "best_fit_line" in data:
             x_min, x_max = data.get("x_range", [min(xs) - 1, max(xs) + 1])
             x = np.linspace(x_min, x_max, 100)
