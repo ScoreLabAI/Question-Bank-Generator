@@ -1256,3 +1256,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 134: Solano hawkmoth thoracic temperature vs wingbeat frequency threshold (scatter)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 134: Seaward Sailing Academy crew size vs penalty-free race gain (table)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 134: Brandvold vs Achterberg mussel density by current speed, peak (bar)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 134: Osei-Brandt Calder Valley Hospital ward size vs shift-proposal agreement among respondents (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 134: Raghunathan Tessaly Basin wind capacity 2015 vs 2023, absolute growth (grouped bar)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 134: Okonkwo-Lindqvist lichen cover vs altitude residual spread (scatter + best fit)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 134: Falconer-Adu neighborhood bakeries oven size flour ordered vs used (grouped bar)

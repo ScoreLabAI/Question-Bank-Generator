@@ -2002,3 +2002,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none to files; cell notes updated. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding; FSS d3 has now produced 0 Hard from 6 gens - consider same treatment (accept lower yield or revisit d3 definition).
 **Token usage:** ~0.65M subagent tokens (about 19 subagent calls).
 **Next run should pick up at:** Boundaries d3 (needs 1; FSS d2 reached 13 via overshoot so is now done), then FSS d3 (needs 10).
+
+## Run 134 - 2026-11-07
+- Cell Standard English Conventions / Boundaries d3: needed 1, got 1 (Saturn gravity-assist route; passed critic first time, calibrated Hard ~45-50%). Cell now 10/10 done.
+- Cell Information and Ideas / Command of Evidence (Quantitative) d3: needed 9, got 1 Hard (accepted_count 1 -> 2). 9 gens total (two batches of 5 and 4), all passed critic (minor explanation fixes: stem table duplicated in text removed, lichen D / wind A explanations, bakery A wording). Calibration: 1 Hard (apprenticeship union/non-union dollar-gap grouped bar), banked 8 elsewhere: d2 x5 (bus routes, sailing crews, hospital wards, lichen scatter, bakery), d1 x3 (hawkmoth threshold scatter, mussel peak bar, wind absolute growth). Cell still pending at 2/10; ~30 Hard-targeted gens across runs have yielded 2 Hard - recommend human review of whether this cell's target is attainable at current difficulty definitions.
+- Discards/regenerations: none. Total new questions banked: 10 (master now 1244).
+- Environment note: system python had a broken Pillow; fixed with pip install --force-reinstall pillow before rendering.
+- Token usage: subagents ~1.1M tokens total (Sonnet); orchestrator not measured.
