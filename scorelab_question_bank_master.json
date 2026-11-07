@@ -39654,5 +39654,29 @@
   "distractor_b_explanation": "Choice B is incorrect because the plural pronoun \"their\" doesn't agree in number with its singular antecedent, \"the Tamarack Water Board,\" a collective noun that the sentence treats as one entity (\"has three duties\"). The gerund phrase \"publishing reports\" is correctly parallel, so the pronoun is the only problem.",
   "distractor_c_explanation": "",
   "distractor_d_explanation": "Choice D is incorrect because it breaks parallel structure. The noun phrase \"the publication of reports\" switches from the -ing verb forms with objects (\"repairing aging mains,\" \"metering every connection\") that begin the other items in the list. The pronoun \"its\" is correct here, so the series is the only problem."
+ },
+ {
+  "section": "reading_writing",
+  "skill_category": "Standard English Conventions",
+  "skill_subcategory": "Boundaries",
+  "difficulty": 3,
+  "module_type": "standard",
+  "question_text": "Although mission planners at first favored a direct flight to Saturn ______ and persuaded the team to adopt a gravity-assist route that cut the fuel requirement by nearly half.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_a": "Priya Raman, a navigator who had modeled dozens of routes, including several that swung past Jupiter, reran the numbers",
+  "answer_b": ", Priya Raman, a navigator who had modeled dozens of routes, including several that swung past Jupiter, reran the numbers,",
+  "answer_c": ", Priya Raman, a navigator who had modeled dozens of routes, including several that swung past Jupiter, reran the numbers",
+  "answer_d": ", Priya Raman, a navigator who had modeled dozens of routes, including several that swung past Jupiter reran the numbers",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer. The convention being tested is the use of punctuation to mark boundaries between clauses, supplements, and compound predicates. The introductory clause \"Although mission planners at first favored a direct flight to Saturn\" is subordinate, so a comma must separate it from the main clause that begins with the subject \"Priya Raman.\" The appositive \"a navigator who had modeled dozens of routes, including several that swung past Jupiter\" is a nonessential supplement between the subject and the verb \"reran,\" so it must be set off by a pair of commas: one after \"Raman\" and one after \"Jupiter.\" Finally, \"reran the numbers and persuaded the team\" is a compound predicate sharing one subject, so no comma belongs before \"and.\"",
+  "distractor_a_explanation": "Choice A is incorrect because it omits the comma that must follow the introductory subordinate clause \"Although mission planners at first favored a direct flight to Saturn.\" Without it, the subordinate clause runs directly into the subject \"Priya Raman,\" which violates the rule that a comma separates a fronted dependent clause from the main clause.",
+  "distractor_b_explanation": "Choice B is incorrect because it places a comma after \"numbers,\" before \"and.\" The conjunction joins two verbs, \"reran\" and \"persuaded,\" that share the subject \"Priya Raman,\" and a comma should not separate the parts of a compound predicate.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect because it omits the comma after \"Jupiter.\" The appositive \"a navigator who had modeled dozens of routes, including several that swung past Jupiter\" is nonessential and needs a closing comma to pair with the one after \"Raman\"; without it, the supplement is set off on one side only and the subject is not properly separated from the verb \"reran.\"",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": false,
+  "visual_type": null,
+  "visual_data": null,
+  "visual_svg": null
  }
 ]
