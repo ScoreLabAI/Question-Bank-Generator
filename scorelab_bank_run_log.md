@@ -2001,4 +2001,4 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Calibration:** Boundaries: participial interrupter in compound predicate ~45% Hard; restrictive 'only ... that' + semicolon ~58% Medium. FSS d2: pronoun-in-comparison ~80% Easy; museum agreement+past cue ~72%. FSS d3 gens: 88/55/65/52/72/78% -> none Hard.
 **Skill updates:** none to files; cell notes updated. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding; FSS d3 has now produced 0 Hard from 6 gens - consider same treatment (accept lower yield or revisit d3 definition).
 **Token usage:** ~0.65M subagent tokens (about 19 subagent calls).
-**Next run should pick up at:** Boundaries d3 (needs 1), FSS d2 (needs 1), then FSS d3 (needs 10).
+**Next run should pick up at:** Boundaries d3 (needs 1; FSS d2 reached 13 via overshoot so is now done), then FSS d3 (needs 10).
