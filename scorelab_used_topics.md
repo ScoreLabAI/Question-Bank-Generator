@@ -1244,3 +1244,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Standard English Conventions/Boundaries, d2] Run 133: Veluwe Grain Cooperative winter rye restrictive that + semicolon consequently
 - [Standard English Conventions/Form, Structure, and Sense, d1] Run 133: Sun vs Moon ocean tides comparison pronoun 'those'
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 133: Ostrava Technical Museum mineral collection catalog 2019 agreement+tense
+- [Standard English Conventions/Form, Structure, and Sense, d1] Run 133: Alder Ridge rail tunnel past-unreal conditional would have shifted
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 133: English admiralty salvage reward who/whom with interrupter + tense
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 133: Cluny monastery 12th-century pilgrim itinerary dangling modifier + agreement
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 133: Meridian Map Library Hallberg chart 'one of the few charts that' + present perfect
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 133: Chicago basement jazz session engineer 'along with' agreement + fronted modifier
+- [Standard English Conventions/Form, Structure, and Sense, d1] Run 133: Tamarack Water Board duties parallel gerunds + collective 'its'

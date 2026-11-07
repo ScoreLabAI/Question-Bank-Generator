@@ -1994,3 +1994,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 **Skill updates:** none to files; cell notes updated. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding.
 **Token usage:** ~1.1M subagent tokens (18 subagent calls).
 **Next run should pick up at:** Boundaries d3 (needs 2), then FSS d2 (needs 2), then FSS d3 (needs 10).
+
+## Run 133 — 2026-11-07 (cloud routine)
+**Cells worked:** Boundaries d3 (needed 2: 1 Hard banked d3 -> 9/10 pending; 1 calibrated Medium banked d2 overshoot). Form, Structure, and Sense d2 (needed 2: 1 banked d2 -> 9/10 pending; 1 Easy banked d1 overshoot). Form, Structure, and Sense d3 (needed 6: 0 Hard; 4 banked d2 overshoot, 2 banked d1 overshoot -> still 0/10). Skipped CoE-Q d3 and Inferences d3 (owner decision pending, per runs 124-132).
+**Pipeline:** 10 generators, 10 critics (all PASS/minor FLAG; fixes: salvage item stem duplicated the clause that also appeared in all choices -> stem trimmed to end "captain ______ the most in recovering..."; mineral item rebuilt option set so key is number-marked-free of trivial agreement and distractors each fail one rule; tide/tunnel/salvage/pilgrim explanation tweaks), 3 batched calibrators; all sonnet; no visuals; no discards. validate_batch passed on all batches. Master now 1234 questions. Salvage item's stem fix was applied without a re-critique (critic had already evaluated the fixed version).
+**Calibration:** Boundaries: participial interrupter in compound predicate ~45% Hard; restrictive 'only ... that' + semicolon ~58% Medium. FSS d2: pronoun-in-comparison ~80% Easy; museum agreement+past cue ~72%. FSS d3 gens: 88/55/65/52/72/78% -> none Hard.
+**Skill updates:** none to files; cell notes updated. REVIEW-QUEUE: CoE-Q d3 and Inferences d3 owner decisions still outstanding; FSS d3 has now produced 0 Hard from 6 gens - consider same treatment (accept lower yield or revisit d3 definition).
+**Token usage:** ~0.65M subagent tokens (about 19 subagent calls).
+**Next run should pick up at:** Boundaries d3 (needs 1), FSS d2 (needs 1), then FSS d3 (needs 10).
