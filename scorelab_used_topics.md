@@ -1251,3 +1251,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 133: Chicago basement jazz session engineer 'along with' agreement + fronted modifier
 - [Standard English Conventions/Form, Structure, and Sense, d1] Run 133: Tamarack Water Board duties parallel gerunds + collective 'its'
 - [Standard English Conventions/Boundaries, d3] Run 134: Saturn gravity-assist route navigator Priya Raman fronted clause + appositive w/ internal comma + compound predicate
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 134: Larkmoor bus routes express vs local delayed departure rate (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d3] Run 134: Adeyemi-Park apprenticeship union vs non-union wage gap by county size (grouped bar)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 134: Solano hawkmoth thoracic temperature vs wingbeat frequency threshold (scatter)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 134: Seaward Sailing Academy crew size vs penalty-free race gain (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 134: Brandvold vs Achterberg mussel density by current speed, peak (bar)
