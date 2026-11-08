@@ -1303,3 +1303,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 140: Kimchi is a Korean dish of fermented vegetables, most often napa cabbage.
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 140: Mary Anning (1799-1847) was a fossil collector who lived in Lyme Regis, a seasid
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 140: Researchers at the Calder Materials Lab tested cushioning made from mushroom myc
+- [Expression of Ideas/Transitions, d1] Run 140: Many flatfish are masters of disguise, changing their appearance to match the se
+- [Expression of Ideas/Transitions, d1] Run 140: Sea otters eat sea urchins, which graze heavily on kelp. When otters were hunted
+- [Expression of Ideas/Transitions, d1] Run 140: When the city of Halvorsen opened its first public bike-share stations in 2019, 
+- [Expression of Ideas/Transitions, d1] Run 140: Dragonflies are among the fastest insects in the air, reaching speeds of about t
+- [Expression of Ideas/Transitions, d1] Run 140: To make sourdough bread, a baker first mixes flour and water and lets the mixtur

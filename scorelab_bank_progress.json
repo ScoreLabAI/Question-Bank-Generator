@@ -863,8 +863,8 @@
    "skill_subcategory": "Transitions",
    "difficulty": 1,
    "target_count": 10,
-   "status": "pending",
-   "accepted_count": 5,
+   "status": "done",
+   "accepted_count": 10,
    "note": "Run 139: first Transitions run. 5 gens (contrast, cause/result, example, addition, sequence), all PASS critic (1 explanation wording fix), all calibrated Easy (78-90%) -> banked d1. Next: vary to subtler relationships (concession, qualification, restatement) for d2."
   },
   {
