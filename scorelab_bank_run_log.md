@@ -2043,3 +2043,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Master now 1284. No discards/regenerations.
 - Observation: audience-register (jargon) and omission rivals hold Medium in RS; when/where and process+why goals go Easy.
 - Token usage: subagents ~1.5M tokens total (Sonnet) (sum of reported ~1.45M).
+
+## Run 140 - 2026-11-08
+- Cells chosen per prompt (prefer partially-done): RS d2 (needed 3, 7/10), Transitions d1 (needed 5, 5/10), CoE Quantitative d3 (needed 2 of 8, 2/10). Hard cells Inferences/Form-Structure/RS d3 untouched (0 progress); CoE Quant d3 included only as 2-gen partial-cell filler.
+- RS d2: 3 gens, 3 critics PASS (1 distractor wording polish, 1 explanation fix), 1 calibration: Anning ~62% and mycelium ~60% banked d2 (now 9/10, pending); kimchi ~88% Easy -> banked d1 (RS d1 now 19). Got 2 of 3 for d2.
+- Transitions d1: 5 gens, 5 critics; dragonfly FLAGged (two defensible: However/Moreover), stem edited and re-critiqued PASS. Calibration all Easy -> 5 banked d1; cell 10/10 done.
+- CoE Quantitative d3: 2 gens, both PASS critic; calibrated Medium (~70%) -> d2 and Easy (~80%) -> d1. 0 Hard; cell stays 2/10, pending. Fish-ladder draft had table pasted in stem; removed (table lives in visual_data).
+- validate_batch passed 3/3, 5/5, 2/2. Keys rebalanced. Master now 1294. No discards.
+- Skill-review queue: none new (CoE Quant d3 Hard target still recommended for human review, 3rd+ run in a row).
+- Token usage: subagents ~1.6M tokens total (Sonnet).

@@ -1308,3 +1308,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Transitions, d1] Run 140: When the city of Halvorsen opened its first public bike-share stations in 2019, 
 - [Expression of Ideas/Transitions, d1] Run 140: Dragonflies are among the fastest insects in the air, reaching speeds of about t
 - [Expression of Ideas/Transitions, d1] Run 140: To make sourdough bread, a baker first mixes flour and water and lets the mixtur
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 140: A textile conservator at a regional museum tested a new protective coating inten
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 140: Fisheries biologist Imani Strand tagged migrating salmon at the base of five fis
