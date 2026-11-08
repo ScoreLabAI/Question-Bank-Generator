@@ -2061,3 +2061,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Lesson: near-synonymous rivals (However vs To be sure, Instead vs Alternatively) create a second defensible key; subtle relationships hold Medium, additive/intensification go Easy.
 - Skill-review queue: none new. Hard-target cell recommendation stands.
 - Token usage: subagents ~1.4M tokens total (Sonnet; 26 subagent calls).
+
+## Run 142 - 2026-11-08
+- DEVIATION (continuing runs 137-141): skipped Hard-target cells (CoE Quantitative d3 2/10, Inferences d3, Form/Structure d3, RS d3, Transitions d3); human decision on those targets still needed. Worked RS d2 (1 needed) and Transitions d2 (4 needed). Scope: 5 gens only (below ~10) to limit cost.
+- RS d2: 2 gens, both PASS critic (kamishibai polish: removed unsupported clause in B, note-faithful wording in D). Calibration: roof contrast ~85% Easy -> d1 overshoot; kamishibai ~66% -> d2. RS d2 now 10/10 done.
+- Transitions d2: 3 gens (Meanwhile, Specifically, Rather); all PASS critic (Lowell 'automatic looms' anachronism -> 'improved power looms'; C explanation tightened). Calibration: Meanwhile ~68% d2, Rather ~58% d2, Specifically ~80% -> d1 overshoot. Transitions d2 now 8/10, pending (needs 2).
+- validate_batch passed 2/2 and 3/3. Keys rebalanced (C,A,D,B,C). Master now 1309. No discards.
+- Lesson: textbook-cue elaboration ('Specifically') and single-dimension contrast go Easy; parallel-development and correction ('Rather') hold Medium.
+- Skill-review queue: none new. Hard-target cell recommendation stands.
+- Token usage: subagents ~0.8M tokens total (Sonnet; 13 subagent calls).
