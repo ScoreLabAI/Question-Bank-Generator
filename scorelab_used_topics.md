@@ -1300,3 +1300,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Transitions, d1] Run 139: Not all woodwind instruments produce sound in the same way. ______ a f
 - [Expression of Ideas/Transitions, d1] Run 139: The Eastbrook Public Library now lends telescopes to cardholders, who 
 - [Expression of Ideas/Transitions, d1] Run 139: In March, a team of surveyors spent two weeks mapping the main passage
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 140: Kimchi is a Korean dish of fermented vegetables, most often napa cabbage.
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 140: Mary Anning (1799-1847) was a fossil collector who lived in Lyme Regis, a seasid
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 140: Researchers at the Calder Materials Lab tested cushioning made from mushroom myc

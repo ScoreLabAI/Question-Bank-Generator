@@ -835,7 +835,7 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 17,
+   "accepted_count": 18,
    "note": "Run 137: 10 gens (introduce person, compare, purpose, study findings, emphasize, process, place, before/after, example-of-claim, invention); all passed critic (q4 confound note removed, q9 stem reworded, q10 'up to'); calibrated Easy x9 (several ~72-76% borderline), network-effect example item ~58% -> banked d2. 9/10; 1 more needed. Run 138: 4 Medium-targeted gens calibrated Easy (floor-system weight contrast ~88%, sea-breeze cause ~78%, pottery before/after ~82%, elephant alike/differ ~73%) + umami definition d1 -> banked here (overshoot; cell done at 14). Run 139: +3 overshoot from d2 cell."
   },
   {
@@ -845,7 +845,7 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 7,
+   "accepted_count": 9,
    "note": "Run 137: 1 overshoot from d1 cell (network-effect example-of-general-claim, ~58% Medium). Run 138: 9 gens (1 d1 + 8 d2-targeted). Held Medium (60-66%): skeptic-example roundabout, finding+limitation study, significance of historical figure, persuade-families museum. Lesson: single-dimension contrast/process/cause items go Easy; Medium needs a plausible audience-fit or omission rival. Critic noted audience-wording cue (fixed by repeating audience in rival). Run 139: 5 d2-targeted gens (introduce-to-unfamiliar-audience seismograph ~60% -> d2; moth finding-to-general-audience w/ overreach rival ~65% -> d2; quipu/abacus compare+shared ~75%, sailing accomplishment+when/where ~85%, recording-history process+why ~78% -> d1 overshoot). All passed critic (wording tweaks only). Lesson: audience-register (jargon) + omission rivals hold Medium; when/where and process+why goals go Easy."
   },
   {
