@@ -864,8 +864,8 @@
    "difficulty": 1,
    "target_count": 10,
    "status": "done",
-   "accepted_count": 10,
-   "note": "Run 139: first Transitions run. 5 gens (contrast, cause/result, example, addition, sequence), all PASS critic (1 explanation wording fix), all calibrated Easy (78-90%) -> banked d1. Next: vary to subtler relationships (concession, qualification, restatement) for d2. Run 140: 5 more gens (flatfish example, otter-kelp cause, bike-share contrast, dragonfly addition, sourdough sequence); all Easy 82-90% -> d1, now 10/10 done. Dragonfly item first draft FLAGged (However arguably defensible; 'in short bursts' contrast cue) -> removed cue, re-critiqued PASS. Next: d2 Transitions needs subtler relationships (concession, qualification, restatement)."
+   "accepted_count": 13,
+   "note": "Run 139: first Transitions run. 5 gens (contrast, cause/result, example, addition, sequence), all PASS critic (1 explanation wording fix), all calibrated Easy (78-90%) -> banked d1. Next: vary to subtler relationships (concession, qualification, restatement) for d2. Run 140: 5 more gens (flatfish example, otter-kelp cause, bike-share contrast, dragonfly addition, sourdough sequence); all Easy 82-90% -> d1, now 10/10 done. Dragonfly item first draft FLAGged (However arguably defensible; 'in short bursts' contrast cue) -> removed cue, re-critiqued PASS. Next: d2 Transitions needs subtler relationships (concession, qualification, restatement). Run 141: 3 d2-targeted overshoot banked d1 (Even so, In fact, Alternatively)."
   },
   {
    "domain": "reading_writing",
@@ -874,7 +874,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 6,
+   "note": "Run 141: first Transitions d2 run. 9 gens (concession ~52%, restatement ~62%, parallel ~70%, replaced-expectation ~65%, narrowing 'In particular' ~72%, conclusion 'Overall' ~58% -> d2); 'Even so' ~74%, 'In fact' ~80%, 'Alternatively' ~82% -> d1 overshoot. Critic FLAGs fixed: concession item (However defensible -> replaced with Similarly), restatement item (tree vs orchard scope -> reworded), Alternatively item (Instead defensible -> replaced with Likewise). Lesson: subtle relationships (concession, restatement, parallel, replaced expectation, conclusion) hold Medium; intensification, additive-option and obstacle-persistence go Easy. Offering a near-synonymous rival (However vs To be sure, Instead vs Alternatively) creates a second defensible key."
   },
   {
    "domain": "reading_writing",

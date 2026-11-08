@@ -2052,3 +2052,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - validate_batch passed 3/3, 5/5, 2/2. Keys rebalanced. Master now 1294. No discards.
 - Skill-review queue: none new (CoE Quant d3 Hard target still recommended for human review, 3rd+ run in a row).
 - Token usage: subagents ~1.6M tokens total (Sonnet).
+
+## Run 141 - 2026-11-08
+- DEVIATION (continuing runs 137-140): skipped Hard-target cells CoE (Quantitative) d3 (2/10, ~50 Hard-targeted gens yielded 2 Hard), Inferences d3, Form/Structure d3, Rhetorical Synthesis d3. Human decision on those targets still needed. Worked Transitions d2 (first run, 0/10) plus 1 RS d2 gen.
+- Transitions d2: 9 gens (concession, restatement, 'even so', parallel, replaced-expectation, intensification, narrowing, alternative option, conclusion-from-evidence). 9 critics + 3 re-critics. FLAGs: concession item (However defensible alongside To be sure -> choice replaced with Similarly, re-critique PASS), restatement item (tree-vs-orchard scope mismatch made For example defensible -> stem reworded, re-critique PASS), alternative-option item (Instead defensible -> replaced with Likewise, re-critique PASS). Minor explanation fixes on 5 items. 2 batched calibrations: Medium x6 (concession ~52%, restatement ~62%, parallel ~70%, replaced-expectation ~65%, narrowing ~72%, conclusion ~58%) banked d2 (cell now 6/10, pending); Easy x3 ('Even so' ~74%, 'In fact' ~80%, 'Alternatively' ~82%) banked d1 (Transitions d1 overshoot, now 13/10).
+- RS d2: 1 gen (dendrochronology intro to unfamiliar audience) passed critic (D explanation fixed: 'exact year' unsupported) but calibrated Easy (~82%) -> banked RS d1 overshoot. RS d2 still 9/10 pending.
+- 10 questions banked total (6 T-d2, 3 T-d1, 1 RS-d1). Keys rebalanced (A3,B2,C2,D3). validate_batch passed 6/6, 3/3, 1/1. Master now 1304. No discards.
+- Lesson: near-synonymous rivals (However vs To be sure, Instead vs Alternatively) create a second defensible key; subtle relationships hold Medium, additive/intensification go Easy.
+- Skill-review queue: none new. Hard-target cell recommendation stands.
+- Token usage: subagents ~1.4M tokens total (Sonnet; 26 subagent calls).

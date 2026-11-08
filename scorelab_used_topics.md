@@ -1310,3 +1310,13 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Transitions, d1] Run 140: To make sourdough bread, a baker first mixes flour and water and lets the mixtur
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 140: A textile conservator at a regional museum tested a new protective coating inten
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 140: Fisheries biologist Imani Strand tagged migrating salmon at the base of five fis
+- [Expression of Ideas/Transitions, d2] Run 141: Recycled plastic lumber is a popular decking material for footbridges in coastal parks, res
+- [Expression of Ideas/Transitions, d2] Run 141: Many apple growers struggle with biennial bearing, a pattern in which an orchard's output a
+- [Expression of Ideas/Transitions, d2] Run 141: Bookbinders in the Kestrel Row district once relied on imported glue, but a shortage of sup
+- [Expression of Ideas/Transitions, d2] Run 141: Most residents of Quarry Hill assumed that the town's abandoned limestone quarry would even
+- [Expression of Ideas/Transitions, d2] Run 141: Mild dehydration can lower concentration in people of nearly every age. ______ older adults
+- [Expression of Ideas/Transitions, d2] Run 141: In its first year of operation, a rural library's book van route recorded a 40 percent rise
+- [Expression of Ideas/Transitions, d1] Run 141: Last winter, a hailstorm shattered nearly half the glass panels of the Orrin Street greenho
+- [Expression of Ideas/Transitions, d1] Run 141: The weekly film nights at the Kestrel Hollow Library have proved popular with residents. __
+- [Expression of Ideas/Transitions, d1] Run 141: Visitors to the island of Karsa can reach it by ferry, a crossing that takes about ninety m
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 141: Dendrochronology (tree-ring dating) introduced to an unfamiliar audience
