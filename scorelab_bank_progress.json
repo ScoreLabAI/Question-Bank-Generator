@@ -834,9 +834,9 @@
    "skill_subcategory": "Rhetorical Synthesis",
    "difficulty": 1,
    "target_count": 10,
-   "status": "pending",
-   "accepted_count": 9,
-   "note": "Run 137: 10 gens (introduce person, compare, purpose, study findings, emphasize, process, place, before/after, example-of-claim, invention); all passed critic (q4 confound note removed, q9 stem reworded, q10 'up to'); calibrated Easy x9 (several ~72-76% borderline), network-effect example item ~58% -> banked d2. 9/10; 1 more needed."
+   "status": "done",
+   "accepted_count": 14,
+   "note": "Run 137: 10 gens (introduce person, compare, purpose, study findings, emphasize, process, place, before/after, example-of-claim, invention); all passed critic (q4 confound note removed, q9 stem reworded, q10 'up to'); calibrated Easy x9 (several ~72-76% borderline), network-effect example item ~58% -> banked d2. 9/10; 1 more needed. Run 138: 4 Medium-targeted gens calibrated Easy (floor-system weight contrast ~88%, sea-breeze cause ~78%, pottery before/after ~82%, elephant alike/differ ~73%) + umami definition d1 -> banked here (overshoot; cell done at 14)."
   },
   {
    "domain": "reading_writing",
@@ -845,8 +845,8 @@
    "difficulty": 2,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 1,
-   "note": "Run 137: 1 overshoot from d1 cell (network-effect example-of-general-claim, ~58% Medium)."
+   "accepted_count": 5,
+   "note": "Run 137: 1 overshoot from d1 cell (network-effect example-of-general-claim, ~58% Medium). Run 138: 9 gens (1 d1 + 8 d2-targeted). Held Medium (60-66%): skeptic-example roundabout, finding+limitation study, significance of historical figure, persuade-families museum. Lesson: single-dimension contrast/process/cause items go Easy; Medium needs a plausible audience-fit or omission rival. Critic noted audience-wording cue (fixed by repeating audience in rival)."
   },
   {
    "domain": "reading_writing",

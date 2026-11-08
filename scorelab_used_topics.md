@@ -1281,3 +1281,12 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: Hollis Park soccer turf before/after cancellations
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 137: Quillo messaging app network effect example
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 137: Baridi Box solar vaccine cooler (Kamau)
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 138: Umami is one of the five basic tastes, along with sweet, sour, salty
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 138: Architects compared two floor systems for a six-story office buildin
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 138: A sea breeze is a wind that blows from the ocean toward the land alo
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 138: Pottery that has been shaped from wet clay and left to dry is called
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 138: African elephants and Asian elephants are both herbivores that spend
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 138: A roundabout is a circular intersection where drivers yield to traff
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 138: Researchers at Alderwick University studied whether a ten-minute out
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 138: Bartolomeo Cristofori was born in Padua, Italy, in 1655.
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 138: The Wexley Mill Museum occupies a restored 1880s flour mill in the t

@@ -2028,3 +2028,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Cell Rhetorical Synthesis d1: needed 10, got 9 (accepted_count 9, still pending); 1 relabeled d2 and banked in Rhetorical Synthesis d2 (now 1/10). 10 gens, 10 critics (all PASS; wording fixes: q4 confound note removed, q9 stem reworded, q10 'up to five days'), 1 batched calibration. No discards/regenerations. Key letters rebalanced (A3,B2,C2,D3); validate_batch passed 10/10. Master now 1265.
 - Env: matplotlib pip-installed (not needed, no visuals). Token usage: subagents ~1.3M tokens total (Sonnet).
 - Observation: critics repeatedly noted the key is the longest choice (length cue); consider adding a length-balance rule to the Rhetorical Synthesis generator mandate.
+
+## Run 138 - 2026-11-08
+- DEVIATION (continuing run 137's note): skipped first pending cell CoE (Quantitative) d3 (2/10, ~46 Hard-targeted gens yielded 2 Hard) and Inferences d3 / Form-Structure d3 (0/10, Hard-targeted with calibrate-down history). Worked Rhetorical Synthesis d1 (needed 1) and d2 (needed 9) per the "finish partial cells" preference. Human decision still needed on the Hard-target cells.
+- 9 gens (1 d1, 8 d2-targeted), 9 critics (all PASS; wording fixes: umami "after"->"when", sea-breeze distractor D absolutes removed, roundabout "even though"->"while", Cristofori A/B/D tightened + unsupported claim removed, museum B audience wording), 1 batched calibration: Easy x5 (0,1,2,6,7), Medium x4 (3,4,5,8). Key letters rebalanced before banking. validate_batch passed 5/5 and 4/4.
+- Result: RS d1 +5 (overshoot, now 14, done); RS d2 +4 (now 5/10, pending). No discards. Master now 1274.
+- Observation: d2 RS items with a single-dimension goal (contrast/process/cause) calibrate Easy; Medium needs audience-fit or omission rivals.
+- Token usage: subagents ~0.9M tokens total (Sonnet) (sum of reported subagent usage ~ 0.88M).
