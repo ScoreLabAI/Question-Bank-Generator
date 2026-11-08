@@ -1290,3 +1290,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 138: Researchers at Alderwick University studied whether a ten-minute out
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 138: Bartolomeo Cristofori was born in Padua, Italy, in 1655.
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 138: The Wexley Mill Museum occupies a restored 1880s flour mill in the t
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 139: A seismograph is an instrument that detects and records the ground mot
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 139: The quipu was a record-keeping device made of knotted cords and used i
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 139: Tidewater Academy's sailing team was formed in 1998 in Port Alder, Mai
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 139: Entomologists compared moth activity beneath two kinds of LED streetli
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 139: Before 1925, record companies used acoustic recording: performers play
