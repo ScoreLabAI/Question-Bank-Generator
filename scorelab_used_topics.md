@@ -1320,3 +1320,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Transitions, d1] Run 141: The weekly film nights at the Kestrel Hollow Library have proved popular with residents. __
 - [Expression of Ideas/Transitions, d1] Run 141: Visitors to the island of Karsa can reach it by ferry, a crossing that takes about ninety m
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 141: Dendrochronology (tree-ring dating) introduced to an unfamiliar audience
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 142: While researching urban stormwater management, a student has taken the following notes:  • A green r
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 142: While researching a topic, a student has taken the following notes:  • Kamishibai is a form of Japan
+- [Expression of Ideas/Transitions, d1] Run 142: Modern smartphone cameras depend heavily on software to improve photographs after the shutter button
+- [Expression of Ideas/Transitions, d2] Run 142: In the 1880s, textile manufacturers in Lowell, Massachusetts, began replacing older looms with faste
+- [Expression of Ideas/Transitions, d2] Run 142: Crusty gray-green patches on rocks and tree bark are often assumed to be a kind of moss, a single sm
