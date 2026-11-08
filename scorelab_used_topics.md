@@ -1295,3 +1295,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 139: Tidewater Academy's sailing team was formed in 1998 in Port Alder, Mai
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 139: Entomologists compared moth activity beneath two kinds of LED streetli
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 139: Before 1925, record companies used acoustic recording: performers play
+- [Expression of Ideas/Transitions, d1] Run 139: Bobbin lace makers once learned their craft only through years of appr
+- [Expression of Ideas/Transitions, d1] Run 139: In 2022, the town of Marlow began sending residents text alerts whenev
+- [Expression of Ideas/Transitions, d1] Run 139: Not all woodwind instruments produce sound in the same way. ______ a f
+- [Expression of Ideas/Transitions, d1] Run 139: The Eastbrook Public Library now lends telescopes to cardholders, who 
+- [Expression of Ideas/Transitions, d1] Run 139: In March, a team of surveyors spent two weeks mapping the main passage

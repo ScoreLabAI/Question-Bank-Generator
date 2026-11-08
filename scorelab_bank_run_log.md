@@ -2035,3 +2035,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Result: RS d1 +5 (overshoot, now 14, done); RS d2 +4 (now 5/10, pending). No discards. Master now 1274.
 - Observation: d2 RS items with a single-dimension goal (contrast/process/cause) calibrate Easy; Medium needs audience-fit or omission rivals.
 - Token usage: subagents ~0.9M tokens total (Sonnet) (sum of reported subagent usage ~ 0.88M).
+
+## Run 139 - 2026-11-08
+- DEVIATION (continuing runs 137-138): skipped Hard-target cells CoE (Quantitative) d3, Inferences d3, Form/Structure d3, Rhetorical Synthesis d3 (0 runs, Hard-targeted). Human decision on those cells still needed. Worked RS d2 (needed 5) and Transitions d1 (first run, 0/10 -> 5).
+- RS d2: 5 gens (audience-intro, compare+shared, accomplishment+when/where, finding-to-general-audience, process+why); 5 critics all PASS (wording/explanation tweaks only); 1 batched calibration: 2 Medium (banked d2, now 7/10), 3 Easy (banked d1 overshoot, RS d1 now 17/10). Keys rebalanced. validate passed 5/5.
+- Transitions d1: needed 10, got 5 (5/10, pending). 5 gens, 5 critics all PASS (Marlow name collision fixed, explanation wording), 1 calibration all Easy. validate passed 5/5.
+- Master now 1284. No discards/regenerations.
+- Observation: audience-register (jargon) and omission rivals hold Medium in RS; when/where and process+why goals go Easy.
+- Token usage: subagents ~1.5M tokens total (Sonnet) (sum of reported ~1.45M).
