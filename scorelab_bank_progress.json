@@ -885,7 +885,8 @@
    "difficulty": 3,
    "target_count": 10,
    "status": "pending",
-   "accepted_count": 0
+   "accepted_count": 0,
+   "note": "Run 146: 5 Hard-targeted gens (Indeed intensifier ~75%; Granted concession ~65%; Put differently restatement ~70%; In turn chain ~55% (critic: 'As a result' also defensible -> swapped that distractor to 'Even so'); Instead substitution ~70%). All passed critic (2 in-place fixes, no re-critique: t3 numbers removed, t4 distractor swap). 0 Hard; all banked d2 (overshoot, Transitions d2 +5). Lesson: single-sentence-relation items stay Medium; keys that are textbook SAT transitions are findable."
   }
  ]
 }

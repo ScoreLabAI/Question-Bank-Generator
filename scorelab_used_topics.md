@@ -1341,3 +1341,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 146: Eiffel Tower 1909 permit renewal and radio antenna
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 146: Mangrove strips wave height reduction, ordinary-conditions limitation
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 146: Windcatchers and prairie dog burrows shared pressure principle
+- [Expression of Ideas/Transitions, d2] Run 146: Yellowstone wolves-elk-willows-beavers chain (In turn)
+- [Expression of Ideas/Transitions, d2] Run 146: Cargo bicycles vs delivery vans capacity concession (Granted)
+- [Expression of Ideas/Transitions, d2] Run 146: Hallam Street Archive handwritten ledgers vs scanning software (Indeed)
+- [Expression of Ideas/Transitions, d2] Run 146: Flashy streams hydrology (Put differently)
+- [Expression of Ideas/Transitions, d2] Run 146: Parish bell crack welded instead of recast (Instead)

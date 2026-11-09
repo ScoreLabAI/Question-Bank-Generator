@@ -238,3 +238,6 @@ the ten attempts run 11 implied.
 
 ## Run 109 — key-letter skew and CoE-T d3 yield
 **Prompted by:** run 109 keyed C on 7 of 8 non-numeric items (one B). Generators gravitate to C. Proposal: at assembly, shuffle choices of non-numeric items to even out key letters (moving explanations with them). Also: CoE-T d3 Hard yield was 3/8 with crossed-design mechanism and oblique single-record shapes; supports Run 108 option (b)/(c) of redefining shapes for the cell. Not applied (changes bank content conventions / difficulty meaning).
+
+## Run 146 - Hard targets for RS d3 and Transitions d3
+**Prompted by:** 10 Hard-targeted gens (5 each) with abstract/relational mandated shapes all calibrated Easy/Medium (55-85%). **Proposal:** accept d3 yield near zero for these subcategories and lower target_count to what is attainable, or redefine d3 for them (e.g., multi-requirement goals with 2+ partial-fit distractors). Not applied: changes difficulty meaning/targets.

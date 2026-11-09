@@ -2094,3 +2094,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - DEVIATION (continuing runs 137-144): scope only 1 gen. Skipped the remaining pending cells (CoE Quantitative d3 2/10 with ~46 futile Hard-targeted gens; Inferences d3; Form/Structure d3; Rhetorical Synthesis d3 and Transitions d3, which are untried but also Hard-target). Human decision on Hard targets still needed; all other cells are done. Rhetorical Synthesis d3 and Transitions d3 have no run history and could be attempted next.
 - validate_batch passed 1/1. Master now 1320. No discards.
 - Token usage: subagents ~0.18M tokens (Sonnet; 3 calls).
+
+## Run 146 - 2026-11-09
+- Cells worked (DEVIATION, continuing 137-145): skipped CoE Quantitative d3 (2/10, ~46 futile Hard gens), Inferences d3, Form/Structure d3; tried the two untried Hard cells instead: Rhetorical Synthesis d3 (5 gens) and Transitions d3 (5 gens). Human decision on Hard targets still needed.
+- Rhetorical Synthesis d3 (needed 10, got 0 Hard): 5 gens all passed critic (g3 Eiffel fixed: notes lacked stated cause, re-critiqued PASS; g5 unsupported 'windy' distractor replaced). Calibrated d1 x3 (~80-85%), d2 x2 (~57-75%); banked to RS d1 (+3) and RS d2 (+2). RS d3 still 0/10.
+- Transitions d3 (needed 10, got 0 Hard): 5 gens, all passed critic (t3 numbers removed; t4 'As a result' double-key risk -> distractor swapped to 'Even so', not re-critiqued). All calibrated d2 (~55-75%); banked to Transitions d2 (+5). Transitions d3 still 0/10.
+- validate_batch passed 5/5 and 5/5 (Transitions batch key skew B=4 WARN, left). No discards. Master now 1330.
+- Lesson: ~10 more Hard-targeted gens, 0 Hard. Strongly recommend human review of d3 targets for R&W (see review queue).
+- Token usage: subagents ~1.3M tokens (Sonnet; 17 calls).
