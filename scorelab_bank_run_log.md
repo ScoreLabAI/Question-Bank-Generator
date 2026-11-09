@@ -2080,3 +2080,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Environment: matplotlib needed pip install --force-reinstall pillow to import in this sandbox.
 - Skill-review queue: none new beyond the standing Hard-target recommendation.
 - Token usage: subagents ~1.9M tokens total (Sonnet; ~29 subagent calls).
+
+## Run 144 - 2026-11-09
+- Cell worked: reading_writing / Expression of Ideas / Transitions d2 (needed 2 for 10/10; got 1 d2 -> 9/10, pending). 2 gens, both PASS critic without fixes.
+- Calibration: container-ship 'Otherwise' ~62% -> d2; comet 'By contrast' ~80% -> d1 overshoot (Transitions d1 +1).
+- DEVIATION (continuing runs 137-143): scope only 2 gens; skipped Hard-target cells (CoE Quantitative d3 2/10, Inferences d3, Form/Structure d3, RS d3, Transitions d3). Human decision on those targets still needed. matplotlib missing in sandbox initially (pip install done; no visuals needed this run).
+- validate_batch passed 2/2. Master now 1319. No discards.
+- Skill-review queue: none new; standing Hard-target recommendation.
+- Token usage: subagents ~0.37M tokens (Sonnet; 5 calls).
