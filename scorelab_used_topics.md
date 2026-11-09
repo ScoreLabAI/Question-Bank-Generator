@@ -1346,3 +1346,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Transitions, d2] Run 146: Hallam Street Archive handwritten ledgers vs scanning software (Indeed)
 - [Expression of Ideas/Transitions, d2] Run 146: Flashy streams hydrology (Put differently)
 - [Expression of Ideas/Transitions, d2] Run 146: Parish bell crack welded instead of recast (Instead)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 147: Spanish exam flashcards vs app, six colleges Simpson table (pooled)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 147: Coastal lagoon restoration nesting pairs vs shoreline length grouped bar
+- [Information and Ideas/Command of Evidence (Quantitative), d3] Run 147: Beetle species Alder vs Birch plots unequal survey periods rate-gap table
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 147: Book proofreading team size diminishing returns scatter
+- [Information and Ideas/Command of Evidence (Quantitative), d3] Run 147: Archive handwriting scan collections hand-corrected/re-scanned percent-base table
