@@ -1351,3 +1351,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d3] Run 147: Beetle species Alder vs Birch plots unequal survey periods rate-gap table
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 147: Book proofreading team size diminishing returns scatter
 - [Information and Ideas/Command of Evidence (Quantitative), d3] Run 147: Archive handwriting scan collections hand-corrected/re-scanned percent-base table
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 147: Pelham water meters Eastgate vs Ridgeline unequal-interval crossover table
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 147: County elevator inspections failure rate vs share-of-failures column table
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 147: Alpine hut overnight stays vs beds grouped bar (Brack/Corran)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 147: Pothole repair hot-mix vs cold-mix depots Simpson-style table
+- [Information and Ideas/Command of Evidence (Quantitative), d3] Run 147: Fly-ash concrete curing strength gain scatter

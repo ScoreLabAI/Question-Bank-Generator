@@ -2102,3 +2102,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - validate_batch passed 5/5 and 5/5 (Transitions batch key skew B=4 WARN, left). No discards. Master now 1330.
 - Lesson: ~10 more Hard-targeted gens, 0 Hard. Strongly recommend human review of d3 targets for R&W (see review queue).
 - Token usage: subagents ~1.3M tokens (Sonnet; 17 calls).
+
+## Run 147 - 2026-11-09
+- Cell worked: reading_writing / Information and Ideas / Command of Evidence (Quantitative) d3 (needed 8, got 3 Hard -> 5/10, still pending). 10 Hard-targeted gens, all passed critic (explanation/stem polish fixes only: g2 distractor A mechanism, g5 stem + D explanation, h7 B explanation, h9/h10/h6 wording; no regenerations, no discards). Calibration: 3 held Hard (beetle unequal-period rate-gap table ~45%; archive wrong-base percent column table ~48%; concrete-curing scatter gain-before/after day 18 ~42%), banked d3 (+3 from 2 to 5). Others banked to d2 (+5: Simpson pooled table, lagoon per-km bar, hut stays-per-bed bar, unequal-interval crossover table, pothole Simpson table) and d1 (+2: proofreader scatter, elevator failure-rate table); CoE Quant d1 now 33, d2 now 23.
+- Run note: first Hard yield in this cell since run 134 (3 of 10 vs ~2 of 46). Shapes that held: metric never named in stem or key + 2+ derived values; displayed distractor percent column on the wrong base; scatter where three choices are arithmetically true. Cell still needs 5 Hard; next run can continue with these shapes.
+- Setup note: matplotlib was missing; pip3 targeted a different python than python3 (3.13 vs 3.11) - fixed with `python3 -m pip install matplotlib numpy pillow` (needed --ignore-installed pillow). validate_batch passed 5/5 and 5/5 (key skew WARNs left; non-numeric items not reordered). Master now 1340.
+- Skill-review queue: none new.
+- Token usage: subagents ~1.5M tokens (Sonnet; 25 calls: 10 gen, 10 critic, 2 calibrate... counts approximate).
