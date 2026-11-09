@@ -1335,3 +1335,4 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 143: Brenmoor water-refill stations cumulative total, annual additions slowing (bar)
 - [Expression of Ideas/Transitions, d1] Run 144: Short-period vs long-period comets, Kuiper Belt vs Oort Cloud orbits (By contrast)
 - [Expression of Ideas/Transitions, d2] Run 144: Container ship crews fastening cargo stacks with lashing rods and twist-locks (Otherwise)
+- [Expression of Ideas/Transitions, d2] Run 145: Pole vaulting fiberglass poles replacing bamboo/aluminum (For instance)

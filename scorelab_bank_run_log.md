@@ -2088,3 +2088,9 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - validate_batch passed 2/2. Master now 1319. No discards.
 - Skill-review queue: none new; standing Hard-target recommendation.
 - Token usage: subagents ~0.37M tokens (Sonnet; 5 calls).
+
+## Run 145 - 2026-11-09
+- Cell worked: reading_writing / Expression of Ideas / Transitions d2 (needed 1, got 1 -> 10/10, DONE). 1 gen, PASS critic without fixes; calibrated Medium (~68%, 'For instance' example relation).
+- DEVIATION (continuing runs 137-144): scope only 1 gen. Skipped the remaining pending cells (CoE Quantitative d3 2/10 with ~46 futile Hard-targeted gens; Inferences d3; Form/Structure d3; Rhetorical Synthesis d3 and Transitions d3, which are untried but also Hard-target). Human decision on Hard targets still needed; all other cells are done. Rhetorical Synthesis d3 and Transitions d3 have no run history and could be attempted next.
+- validate_batch passed 1/1. Master now 1320. No discards.
+- Token usage: subagents ~0.18M tokens (Sonnet; 3 calls).

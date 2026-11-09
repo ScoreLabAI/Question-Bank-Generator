@@ -43002,5 +43002,29 @@
     "visual_type": null,
     "visual_data": null,
     "visual_svg": null
+  },
+  {
+    "section": "reading_writing",
+    "skill_category": "Expression of Ideas",
+    "skill_subcategory": "Transitions",
+    "difficulty": 2,
+    "module_type": "standard",
+    "question_text": "Pole vaulting has changed repeatedly as new equipment has reached the sport. ______ when fiberglass poles replaced rigid bamboo and aluminum ones in the early 1960s, vaulters could bend the pole and be launched higher, and the world record climbed by more than a foot within two years.\n\nWhich choice completes the text with the most logical transition?",
+    "answer_a": "For instance,",
+    "answer_b": "In general,",
+    "answer_c": "Similarly,",
+    "answer_d": "Even so,",
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer because it logically signals that the second sentence offers a specific example of the claim made in the first. The first sentence states that pole vaulting has changed repeatedly as new equipment has arrived, and the second sentence describes one particular instance of this: the switch to fiberglass poles in the early 1960s, which let vaulters reach greater heights. \"For instance\" correctly marks this relationship between a general claim and an illustration of it.",
+    "distractor_a_explanation": "",
+    "distractor_b_explanation": "Choice B is incorrect because \"In general\" introduces a broad summary or generalization. The second sentence does the opposite: it narrows to one specific event (the switch to fiberglass poles in the early 1960s) rather than summarizing the sport's changes as a whole.",
+    "distractor_c_explanation": "Choice C is incorrect because \"Similarly\" signals that the second sentence presents a parallel case to something already described. The first sentence gives only a general claim, not a comparable situation, so the second sentence illustrates that claim rather than echoing an earlier example.",
+    "distractor_d_explanation": "Choice D is incorrect because \"Even so\" signals a concession, in which something holds in spite of what came before. The second sentence does not contrast with or limit the first; it supports the claim that equipment has changed the sport.",
+    "is_diagnostic": false,
+    "is_active": true,
+    "has_visual": false,
+    "visual_type": null,
+    "visual_data": null,
+    "visual_svg": null
   }
 ]
