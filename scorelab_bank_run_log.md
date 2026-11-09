@@ -2070,3 +2070,13 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Lesson: textbook-cue elaboration ('Specifically') and single-dimension contrast go Easy; parallel-development and correction ('Rather') hold Medium.
 - Skill-review queue: none new. Hard-target cell recommendation stands.
 - Token usage: subagents ~0.8M tokens total (Sonnet; 13 subagent calls).
+
+## Run 143 - 2026-11-09
+- Cell worked (file order, partial first): reading_writing / Information and Ideas / Command of Evidence (Quantitative) d3 (needed 8, got 0 Hard; accepted_count stays 2/10, pending). 8 Hard-targeted gens with new mandated shapes.
+- Critic: Q1 FLAG (choice B was also a supporting true statement) -> rewrote B as false distractor, re-critic FLAG minor (B explanation mechanism, A wording) -> wording fixed. Q6 FLAG (near-tie at 30 mL unreadable) -> data widened, re-critic PASS. Q8 FLAG (bars off gridlines, A/B entailed by stem) -> regenerated data on gridlines + replaced A, re-critic PASS. Q5 first draft had no key -> resumed generator, PASS. No discards.
+- Calibration: Medium x5 (infection-style bridge table ~65%, gypsum interaction ~74%, tire ranges ~66%, songbird scatter ~70%, irrigation per-liter ~60%) banked d2; Easy x3 (DNA kit crossover ~85%, symphony rank reversal ~78%, station cumulative bar ~80%) banked d1. 0 Hard.
+- 8 questions banked (5 d2, 3 d1; overshoot cells). Keys rebalanced (C,B,D,A,B,D,C,A). validate_batch passed 8/8. Master now 1317. 
+- Lesson: ~46 Hard-targeted gens in this cell have yielded 2 Hard. Stems that state the claim and keys that restate it calibrate Medium/Easy regardless of shape. Human decision on this cell's Hard target (or on how Hard is defined for CoE Quantitative) is still needed; runs 137-142 skipped these cells for that reason.
+- Environment: matplotlib needed pip install --force-reinstall pillow to import in this sandbox.
+- Skill-review queue: none new beyond the standing Hard-target recommendation.
+- Token usage: subagents ~1.9M tokens total (Sonnet; ~29 subagent calls).

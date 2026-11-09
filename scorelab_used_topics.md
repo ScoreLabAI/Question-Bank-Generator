@@ -1325,3 +1325,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Transitions, d1] Run 142: Modern smartphone cameras depend heavily on software to improve photographs after the shutter button
 - [Expression of Ideas/Transitions, d2] Run 142: In the 1880s, textile manufacturers in Lowell, Massachusetts, began replacing older looms with faste
 - [Expression of Ideas/Transitions, d2] Run 142: Crusty gray-green patches on rocks and tree bark are often assumed to be a kind of moss, a single sm
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 143: Idowu zinc-coating gusset plates five bridges, pooled corrosion share vs count (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 143: Soil scientist gypsum infiltration by baseline category, gap larger at low baseline (grouped bar)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 143: Rensberg tire tread rolling resistance mean and range, non-overlapping ranges (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 143: Ornithologist songbird song length vs mass in forest/grassland, within-group vs pooled (two-series scatter)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 143: Viticulturist drip irrigation yield per liter, diminishing returns at unequal doses (table)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 143: Clinical lab DNA extraction Kit A vs Kit B crossover by sample volume (two-series scatter)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 143: Symphony orchestra works by era, least-to-most rank reversal (grouped bar)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 143: Brenmoor water-refill stations cumulative total, annual additions slowing (bar)
