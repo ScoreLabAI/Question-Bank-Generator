@@ -1366,3 +1366,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 148: Hoverfly UV nectar-guide pattern hidden-film null result
 - [Information and Ideas/Inferences, d2] Run 148: Orrin/Teague pharmacy residents-per-pharmacy threshold rule
 - [Information and Ideas/Inferences, d2] Run 148: Okoro toll-increase charter-loss Hexley counterexample
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 149: Seed-oyster nursery stocking vs harvest table
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 149: Sleep clinic deep-sleep before/after scatter
+- [Information and Ideas/Command of Evidence (Quantitative), d3] Run 149: Ostler/Fen fossil dig cumulative specimens table
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 149: Writers' residency applied/accepted grouped bar
