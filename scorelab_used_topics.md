@@ -1361,3 +1361,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 148: Tarnow Basin reservoir Secchi depth before/after scatter
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 148: Tarn Valley wildflower margin pollinator grouped bar
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 148: Pell River alder fungal treatment cost-per-survivor table
+- [Information and Ideas/Inferences, d2] Run 148: Tutoring app subgroup-vs-overall score change composition
+- [Information and Ideas/Inferences, d2] Run 148: Veldkamp workshop azurite necessary-condition panel attribution
+- [Information and Ideas/Inferences, d2] Run 148: Hoverfly UV nectar-guide pattern hidden-film null result
+- [Information and Ideas/Inferences, d2] Run 148: Orrin/Teague pharmacy residents-per-pharmacy threshold rule
+- [Information and Ideas/Inferences, d2] Run 148: Okoro toll-increase charter-loss Hexley counterexample

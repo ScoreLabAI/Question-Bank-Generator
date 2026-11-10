@@ -2109,3 +2109,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Setup note: matplotlib was missing; pip3 targeted a different python than python3 (3.13 vs 3.11) - fixed with `python3 -m pip install matplotlib numpy pillow` (needed --ignore-installed pillow). validate_batch passed 5/5 and 5/5 (key skew WARNs left; non-numeric items not reordered). Master now 1340.
 - Skill-review queue: none new.
 - Token usage: subagents ~1.5M tokens (Sonnet; 25 calls: 10 gen, 10 critic, 2 calibrate... counts approximate).
+
+## Run 148 - 2026-11-10
+- Cells worked: reading_writing / Information and Ideas / Command of Evidence (Quantitative) d3 (needed 5; 5 gens -> 1 Hard banked d3, a2 shell damage-rate table; 3 d2, 1 d1; cell now 6/10, pending) and Inferences d3 (5 gens, 0 Hard; all calibrated Medium and banked d2; cell still 0/10, pending).
+- Critic: all 10 PASS; fixes: CoE a1 explanation wording; a5 stem defined 'cost-effective' after rival-choice flag, re-critiqued PASS; Inferences b3 distractor tails reworded + A explanation; b5 qualifier + A explanation (advisory, no re-critique). No regenerations, no discards.
+- validate_batch passed 5/5 and 5/5 (key skew WARNs left; non-numeric items not reordered). Master now 1350.
+- Housekeeping: matplotlib install needed (python3 -m pip install --ignore-installed matplotlib numpy pillow); render_visual.py expects spec {visual_type, visual_data}. Two generator launches were started with incomplete prompts and immediately stopped/relaunched (no output used).
+- Lesson: Hard-targeted Inferences still 0 Hard; recommend human review of d3 targets (see earlier review queue entries).
+- Token usage: subagents ~1.5M tokens (Sonnet; ~22 calls: 10 gen, 10 critic, 2 calibrate, 1 re-critic).

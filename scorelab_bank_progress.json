@@ -766,7 +766,7 @@
       "target_count": 10,
       "status": "pending",
       "accepted_count": 0,
-      "note": "Run 123: 3 Hard-targeted gens (confound + hedged key; rate vs count + confound; three-finding reconciliation) all passed critic but calibrated Medium (50-66%) and were banked d2. 0 Hard still. Lesson: keys that are the only hedged/longest choice and stems that state the confound go Medium; try keys requiring a numeric deduction hidden from stem or distractors that are also hedged."
+      "note": "Run 123: 3 Hard-targeted gens (confound + hedged key; rate vs count + confound; three-finding reconciliation) all passed critic but calibrated Medium (50-66%) and were banked d2. 0 Hard still. Lesson: keys that are the only hedged/longest choice and stems that state the confound go Medium; try keys requiring a numeric deduction hidden from stem or distractors that are also hedged. Run 148: 5 Hard-targeted gens with new shapes (subgroup-vs-overall composition deduction ~65%; necessary-condition contrapositive in humanities passage ~57%; null-result experiment ~62%; threshold-rule two-town comparison ~67%; scholar-commitment sufficiency vs necessity ~52% borderline). All passed critic (b3 distractor tails reworded; b5 qualifier + A explanation). All calibrated Medium -> banked d2 (+5). 0 Hard; still 0/10. Lesson unchanged: stems that state the premise (necessary mark, rule threshold) or reduce to one computation go Medium; hedged key is longest/only qualified option."
     },
     {
       "domain": "reading_writing",
