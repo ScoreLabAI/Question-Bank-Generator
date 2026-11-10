@@ -1376,3 +1376,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 149: Calder Valley apple bloom cold-air drainage assumption
 - [Information and Ideas/Inferences, d2] Run 149: Verdal fungicide bumblebee lab vs field studies
 - [Information and Ideas/Inferences, d2] Run 149: Brandvold steam curing sheds surviving fisheries survivorship
+- [Information and Ideas/Command of Evidence (Quantitative), d3] Run 150: Youth soccer injuries vs hours by playing surface table
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 150: Five city museums 2019 vs 2023 attendance grouped bar
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 150: Insomnia app age-group mean reduction weighted table
