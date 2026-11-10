@@ -1398,3 +1398,4 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d1] Run 151: Beekeepers guild honey jars per-month vs per-apiary comparison
 - [Information and Ideas/Command of Evidence (Quantitative), d3] Run 152: Volcano seismic stations unequal months in service tremor table (share-of-total column)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 152: Insurance company phishing-workshop clicks before/after grouped bar
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 152: Earbud charging-case battery swelling by model, cases tested vs swollen (share-of-total column)
