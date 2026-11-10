@@ -1396,3 +1396,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d1] Run 151: Odalys father's carpentry shop cracked brass level kept
 - [Information and Ideas/Inferences, d2] Run 151: Sports-clinic mailing list marathon stress fracture survey bias
 - [Information and Ideas/Inferences, d1] Run 151: Beekeepers guild honey jars per-month vs per-apiary comparison
+- [Information and Ideas/Command of Evidence (Quantitative), d3] Run 152: Volcano seismic stations unequal months in service tremor table (share-of-total column)
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 152: Insurance company phishing-workshop clicks before/after grouped bar
