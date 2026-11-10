@@ -2117,3 +2117,11 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Housekeeping: matplotlib install needed (python3 -m pip install --ignore-installed matplotlib numpy pillow); render_visual.py expects spec {visual_type, visual_data}. Two generator launches were started with incomplete prompts and immediately stopped/relaunched (no output used).
 - Lesson: Hard-targeted Inferences still 0 Hard; recommend human review of d3 targets (see earlier review queue entries).
 - Token usage: subagents ~1.5M tokens (Sonnet; ~22 calls: 10 gen, 10 critic, 2 calibrate, 1 re-critic).
+
+## Run 149 - 2026-11-10
+- Cells worked: reading_writing / Information and Ideas / Command of Evidence (Quantitative) d3 (needed 4 of 4 target; 4 gens -> 1 Hard banked d3 (fossil-dig cumulative table, pace never named in key, ~35%), 3 banked d2; cell now 7/10, pending) and Inferences d3 (6 gens, 0 Hard; all calibrated Medium ~50-65% and banked d2; cell still 0/10, pending).
+- Critic: 9 PASS, 1 FLAG minor (writers' residency bar: stem said other tracks all receive more applications, false for 2 genres; stem reworded, not re-critiqued); B-explanation wording tweak on fossil item. No regenerations, no discards.
+- validate_batch passed 4/4 and 6/6 (key skew WARN left). Master now 1360.
+- Setup note: matplotlib needed `python3 -m pip install --ignore-installed matplotlib numpy pillow`.
+- Lesson: Inferences d3 still 0 Hard after ~14 tries; recommend human review of target (see review queue).
+- Token usage: subagents ~1.5M tokens (Sonnet; 10 gen, 10 critic, 2 calibrate).

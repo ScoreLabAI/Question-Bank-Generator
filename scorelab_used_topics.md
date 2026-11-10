@@ -1370,3 +1370,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 149: Sleep clinic deep-sleep before/after scatter
 - [Information and Ideas/Command of Evidence (Quantitative), d3] Run 149: Ostler/Fen fossil dig cumulative specimens table
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 149: Writers' residency applied/accepted grouped bar
+- [Information and Ideas/Inferences, d2] Run 149: Valcourt sarcophagus two-criteria provenance
+- [Information and Ideas/Inferences, d2] Run 149: Jumping routine bone-strength trial narrow sample
+- [Information and Ideas/Inferences, d2] Run 149: Observatory 150-hour allocation across nine projects
+- [Information and Ideas/Inferences, d2] Run 149: Calder Valley apple bloom cold-air drainage assumption
+- [Information and Ideas/Inferences, d2] Run 149: Verdal fungicide bumblebee lab vs field studies
+- [Information and Ideas/Inferences, d2] Run 149: Brandvold steam curing sheds surviving fisheries survivorship
