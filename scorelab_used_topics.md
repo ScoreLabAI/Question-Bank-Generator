@@ -1399,3 +1399,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d3] Run 152: Volcano seismic stations unequal months in service tremor table (share-of-total column)
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 152: Insurance company phishing-workshop clicks before/after grouped bar
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 152: Earbud charging-case battery swelling by model, cases tested vs swollen (share-of-total column)
+- [Information and Ideas/Inferences, d2] Run 152: Stroke patients irregular words vs invented strings double dissociation
+- [Information and Ideas/Inferences, d2] Run 152: Sorbent resins dye removal spectrophotometer ceiling (absorbance cap 2.0)
+- [Information and Ideas/Inferences, d2] Run 152: Ostrand vs Velmark milk depots infant mortality comparison region
+- [Information and Ideas/Inferences, d2] Run 152: Harrowmere Lament manuscript scribal corrections copy vs composition date
+- [Information and Ideas/Inferences, d1] Run 152: Freshwater snail foot groove two clusters separate origin (Aldovia/Tessaril)
+- [Information and Ideas/Inferences, d2] Run 152: Brightwater ride-hail surcharge taxi substitution
+- [Information and Ideas/Inferences, d2] Run 152: Bean seedling stomatal closure velarin gene-expression time-course
