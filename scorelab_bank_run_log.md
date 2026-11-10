@@ -2132,3 +2132,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - validate_batch passed 3/3 and 7/7. Master now 1370. Setup note: default python3 lacked matplotlib after pip install; /usr/bin/python3 has it (used for render_visual.py).
 - Lesson: Inferences d3 still 0 Hard after ~21 tries; calibrator consistently says stems state the premise. Strongly recommend human review of the target / difficulty definition for this cell.
 - Token usage: subagents ~1.3M tokens total (Sonnet; 10 gen, 10 critic, 2 calibrate).
+
+## Run 151 - 2026-11-10
+- Cells worked: reading_writing / Information and Ideas / Command of Evidence (Quantitative) d3 (needed 2; 2 gens -> mural per-crew-day table ~67% banked d2, seed-lending fraction bar ~78% banked d1; cell still 8/10, pending) and Inferences d3 (needed 8; 8 gens with new shapes, 0 Hard: 5 banked d2, 3 banked d1; cell still 0/10, pending).
+- Critic: 10/10 PASS or minor FLAG; fixes applied: seed-lending stem/B reworded after giveaway flag (explanation/stem edits, not re-critiqued), stratigraphy backfill clause, regression distractor C wording, B-explanation polish. Re-skinned two items (guide cooperative, beekeepers) to avoid 4x ceramics duplication; reordered 3 items to fix key skew (keys now A,B,C,D,A,B,C,D). No regenerations, no discards.
+- validate_batch passed 2/2 and 8/8. Master now 1380. Setup note: matplotlib missing for default python3; /usr/bin/python3 has it (used for render_visual.py).
+- Lesson: Inferences d3 still 0 Hard after ~29 tries; CoE Quant d3 ~40 tries 2-5 Hard. Strongly recommend human review of both d3 targets / difficulty definition.
+- Token usage: subagents ~1.4M tokens total (Sonnet; 10 gen, 10 critic, 2 calibrate).

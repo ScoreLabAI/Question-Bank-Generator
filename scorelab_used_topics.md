@@ -1388,3 +1388,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 150: Screening test for infected lots base-rate
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 151: Mural conservation crew repaired area per crew-day table
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 151: Seed-lending program branch return fraction grouped bar
+- [Information and Ideas/Inferences, d1] Run 151: Kiln mug glaze-chip weighted mean wood vs electric
+- [Information and Ideas/Inferences, d2] Run 151: Mountain-guide cooperative certification overlap lower bound
+- [Information and Ideas/Inferences, d2] Run 151: Kiln cracking rates regression to the mean slow-cooling schedule
+- [Information and Ideas/Inferences, d2] Run 151: Veldmoor harbor master absence hull inspection conditional chain
+- [Information and Ideas/Inferences, d2] Run 151: Port Merrow ropewalk/harbor master house stratigraphy coin dating
+- [Information and Ideas/Inferences, d1] Run 151: Odalys father's carpentry shop cracked brass level kept
+- [Information and Ideas/Inferences, d2] Run 151: Sports-clinic mailing list marathon stress fracture survey bias
+- [Information and Ideas/Inferences, d1] Run 151: Beekeepers guild honey jars per-month vs per-apiary comparison
