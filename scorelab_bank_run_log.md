@@ -2125,3 +2125,10 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Setup note: matplotlib needed `python3 -m pip install --ignore-installed matplotlib numpy pillow`.
 - Lesson: Inferences d3 still 0 Hard after ~14 tries; recommend human review of target (see review queue).
 - Token usage: subagents ~1.5M tokens (Sonnet; 10 gen, 10 critic, 2 calibrate).
+
+## Run 150 - 2026-11-10
+- Cells worked: reading_writing / Information and Ideas / Command of Evidence (Quantitative) d3 (needed 3; 3 gens -> youth-soccer injuries-vs-hours table ~50% banked d3, insomnia weighted-mean table ~62% d2, museum grouped bar ~80% d1; cell now 8/10, pending) and Inferences d3 (needed 7 this run; 7 gens with new shapes, 0 Hard: 6 banked d2, 1 banked d1; cell still 0/10, pending).
+- Critic: 10/10 PASS; explanation-only fixes applied on 3 items (q1 'far' removed, q2 key B parallelised, Inferences s3/s6 explanation wording). No regenerations, no discards.
+- validate_batch passed 3/3 and 7/7. Master now 1370. Setup note: default python3 lacked matplotlib after pip install; /usr/bin/python3 has it (used for render_visual.py).
+- Lesson: Inferences d3 still 0 Hard after ~21 tries; calibrator consistently says stems state the premise. Strongly recommend human review of the target / difficulty definition for this cell.
+- Token usage: subagents ~1.3M tokens total (Sonnet; 10 gen, 10 critic, 2 calibrate).

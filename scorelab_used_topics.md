@@ -1379,3 +1379,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d3] Run 150: Youth soccer injuries vs hours by playing surface table
 - [Information and Ideas/Command of Evidence (Quantitative), d1] Run 150: Five city museums 2019 vs 2023 attendance grouped bar
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 150: Insomnia app age-group mean reduction weighted table
+- [Information and Ideas/Inferences, d2] Run 150: Harrowgate Cooperative bee/goat/cheese quantifier-scope survey
+- [Information and Ideas/Inferences, d2] Run 150: Alpine lake pondweed vs water clarity timing
+- [Information and Ideas/Inferences, d1] Run 150: State lake inventories differing acreage/access criteria
+- [Information and Ideas/Inferences, d2] Run 150: Proxy-measure validity (lichen snow-free months moraine age)
+- [Information and Ideas/Inferences, d2] Run 150: Pellham per-bag trash fee bag count vs volume
+- [Information and Ideas/Inferences, d2] Run 150: Osei hand-lettering chart office motive
+- [Information and Ideas/Inferences, d2] Run 150: Screening test for infected lots base-rate
