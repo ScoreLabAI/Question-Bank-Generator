@@ -212,3 +212,20 @@ required step beyond the comparison — a genuine post-comparison equation solve
 shape), a boundary case requiring a non-obvious strict/non-strict resolution, or a "must be true" structural
 claim — or expect the item to calibrate to Medium regardless of how many constraints or how much word-problem
 dressing it carries.
+
+## Run 152 additions
+
+**CoE (Quantitative) exposure tables: keep the exposure gap moderate.** The volcano tremor-station table held Hard
+(~48%) with the keyed row's exposure at 1/2-1/4 of the others; the earbud-battery table with the keyed row at 1/4-1/8
+of the others calibrated Medium (~62%) because a lone extreme-outlier row points students straight at it. Aim for
+the keyed row to differ from its rivals by roughly 2-2.5x on exposure, with counts close enough that raw totals mislead.
+
+**CoE (Quantitative) choices describe data in plain values, never gridline positions.** A run-152 Generator, told
+not to list paired values, wrote choices like "the post-training bar ends at the fourth labeled line" -- off-format
+for the Digital SAT. If an oblique key is wanted, make it a threshold/relationship statement in plain words, not a
+description of chart geometry.
+
+**Don't label a mechanism "the standard account" unless it is real science.** A run-152 Inferences draft presented
+slow gene expression as the standard account of ABA-driven stomatal closure; in reality ABA closes stomata within
+minutes via ion channels. Students may absorb passage framing as fact. When a passage needs a hypothetical
+mechanism, attribute it to the (invented) researcher's own proposal and use an invented compound name.

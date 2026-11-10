@@ -2139,3 +2139,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - validate_batch passed 2/2 and 8/8. Master now 1380. Setup note: matplotlib missing for default python3; /usr/bin/python3 has it (used for render_visual.py).
 - Lesson: Inferences d3 still 0 Hard after ~29 tries; CoE Quant d3 ~40 tries 2-5 Hard. Strongly recommend human review of both d3 targets / difficulty definition.
 - Token usage: subagents ~1.4M tokens total (Sonnet; 10 gen, 10 critic, 2 calibrate).
+
+## Run 152 - 2026-11-10
+- Cells worked: reading_writing / Information and Ideas / Command of Evidence (Quantitative) d3 (needed 2; 3 gens -> volcano tremor-station unequal-months table ~48% banked d3 HELD; phishing-workshop before/after grouped bar ~80-85% banked d1; earbud battery-swelling table ~62% banked d2; cell now 9/10, pending) and Inferences d3 (needed 10, did 7 to keep the run near 10; 7 gens with new shapes and strict anti-cue rules, 0 Hard: 6 banked d2, 1 banked d1; cell still 0/10, pending).
+- Critic: 10 items. Regenerations/fixes: the phishing draft used gridline-position choices and was sent back to the Generator for plain-value choices. Three Inferences FLAGs were fixed in place and re-critiqued PASS: manuscript D was half-true (reworded); snail ancestor wording was ambiguous (MRCA wording, new D); stomata passage misstated real ABA science (switched to an invented compound "velarin"). Wording and explanation fixes, not re-critiqued: CoE battery A/D wording; phishing legend and B explanation; ride-hail "taxi operators" clarification; ceiling D "at all" removed; explanation fixes on seismology, stomata and double-dissociation items. No discards.
+- Key skew: swapped choices A/C on the milk-depot item. Inferences keys are now A,D,C,B,B,A,C.
+- validate_batch passed 2/2, 1/1 and 7/7. Master now 1390.
+- Skill files changed: references/item-design-rules.md (3 run-152 rules: moderate exposure gap; plain-value CoE choices; no false "standard account" science). Review queue: Inferences d3 / CoE d3 decision request (recurring, about 10 runs).
+- Setup note: `python3 -m pip install --ignore-installed matplotlib numpy pillow` needed; render_visual.py spec must wrap as {"visual_type":..., "visual_data":...}.
+- Token usage: subagents ~1.9M tokens total (Sonnet; 11 gen + 1 revision, 13 critic incl. 3 re-critiques, 4 calibrate).
