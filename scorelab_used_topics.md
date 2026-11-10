@@ -1386,3 +1386,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 150: Pellham per-bag trash fee bag count vs volume
 - [Information and Ideas/Inferences, d2] Run 150: Osei hand-lettering chart office motive
 - [Information and Ideas/Inferences, d2] Run 150: Screening test for infected lots base-rate
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 151: Mural conservation crew repaired area per crew-day table
+- [Information and Ideas/Command of Evidence (Quantitative), d1] Run 151: Seed-lending program branch return fraction grouped bar
