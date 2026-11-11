@@ -2185,3 +2185,24 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Review queue: escalated decision request. All remaining pending cells are stalled d3 cells (~66 gens, 0 Hard).
 - Setup note: `pip install matplotlib numpy` was needed (no visuals this run).
 - Token usage: subagents ~1.9M tokens total (Sonnet; 10 gen + 1 regeneration, 14 critic incl. 4 re-critiques, 4 calibrate).
+
+## Run 156 - 2026-11-11
+- Cell selection: all 4 pending cells are d3. Inferences d3 skipped again (same reason as run 155: 0 Hard in ~50 gens, human decision still open). FSS d3 and RS d3 were tried last run, so this run went to Transitions d3 (untouched since run 146).
+- Cell worked: reading_writing / Expression of Ideas / Transitions d3. Needed 10, did 8 (to keep the run near 10 with regenerations). Results:
+  - 0 Hard. Banked 6 at d2 and 2 at d1.
+  - Shapes and calibration: all-additive Similarly ~78% d1; long-range Even so ~65% d2; surface-contrast Accordingly ~72% d2; concession-then-return Even so ~62% d2; sequence-not-cause Afterward ~55% d2; Specifically vs For example ~52% d2; summary In short ~72% d2; Conversely ~80% d1.
+  - Cell still 0/10, pending.
+- Critic: 8 items, 15 critic calls including 6 re-critiques and 1 regeneration.
+  - T1: FLAG ("Moreover" defensible; "Orlen" is a real company). C swapped to "In turn"; renamed Varnek, then Tolvane after the re-critique noted Varnek is a real place. Re-critique PASS.
+  - T2: FLAG ("In fact" defensible; "Tamsar" possibly real). A swapped to "For example"; renamed Verrelin; key explanation corrected. Re-critique PASS.
+  - T4: "Admittedly" arguable. D swapped to "Similarly". Re-critique PASS.
+  - T5: FLAG ("Consequently" defensible because the evidence came after the blank). Regenerated with the evidence inside the blank sentence. Re-critique PASS.
+  - T6: FLAG ("one feature" ambiguous; "only" was an overclaim). Changed to "one suffix" and "typically". Re-critique PASS.
+  - T7: FLAG (indigo is not mordant-fixed; "Finally" arguable). Changed to madder with "certain mordants"; A swapped to "Instead". Re-critique PASS.
+  - T3, T8: explanation polish only.
+  - No discards.
+- Key skew: reordered 4 items. Keys are now B,A,D,C,B,C,A,D.
+- validate_batch passed 2/2 (d1) and 6/6 (d2). Master 1418 -> 1426. Tracker: Transitions d1 14->16, d2 10->16 (note: the master actually held 15 d1 / 15 d2 Transitions before this run, so the tracker counts were already slightly off).
+- Skill files changed: references/item-design-rules.md (run-156 rules: reattaching distractors, evidence placement, Finally/Admittedly, "one feature" ambiguity, indigo vat-dye fact). Review queue: escalated again; ~74 Hard-targeted gens across the 4 remaining cells, 0 Hard.
+- Setup note: `pip install matplotlib numpy` was needed (no visuals this run).
+- Token usage: subagents ~1.5M tokens total (Sonnet; 8 gen + 1 regeneration ~0.6M, 14 critic incl. 6 re-critiques ~0.87M, 1 batched calibrate ~65k).

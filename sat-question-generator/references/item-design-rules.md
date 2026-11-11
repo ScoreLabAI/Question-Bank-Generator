@@ -283,3 +283,22 @@ ways". If a feature is shared, state it once ("In both traditions, ...") instead
 cities" was flagged because the notes said "three trusts", not cities. Words such as "city", "wild", or "first" must be
 in the notes or they become a reason to eliminate the key. Also do not name an invented item close to a real one in
 the stated country (a "Rokel-1" rice in Sierra Leone sat next to the real ROK series and was renamed).
+
+## Run 156 additions
+
+**Transitions: a distractor that can reattach to an EARLIER sentence is a second key.** "In fact," (after a concession,
+reinforcing the claim two sentences back) and "Moreover," (adding a second parallel example) were both judged defensible.
+Transition words can skip over an aside, so a distractor fails only if it misfits every sentence it could attach to.
+
+**Transitions: evidence that rules out the tempting relation must be at or before the blank.** A sequence-vs-cause draft
+put the anti-causal evidence in the sentence after the blank; "Consequently," was defensible, and a following "however"
+even read as rebutting it. Putting "rather than to the app" inside the blank sentence fixed it (~55%, Medium).
+
+**Transitions: avoid "Finally," after a chronological list and "Admittedly," as distractors.** "Finally," also opens a
+concluding remark, and "Admittedly," can read as a concession to the reader; both were arguable keys.
+
+**Transitions: "one feature" is ambiguous between "a single" and "one of several".** If the key is "Specifically," over
+"For example,", name the category so that there is only one (e.g. "one suffix on its verbs").
+
+**Facts in dressed passages: indigo is a vat dye (no mordant).** A run-156 draft had mordants fixing indigo; madder is the
+mordant-dependent plant dye. Check dye/fiber chemistry and any "the X" generalization ("certain mordants").
