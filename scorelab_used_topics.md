@@ -1418,3 +1418,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 154: Sociolinguist bilingual language-switch counts at market stalls in four towns (Pellar, Doran, Kesk, Mirov), hours recorded vs switches (share-of-total column)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 154: Tern Harbor ferry authority schedule overhaul, weekday ridership 2019 vs 2023 on four routes (share-of-combined-increase column)
 - [Information and Ideas/Command of Evidence (Quantitative), d3] Run 154: Tamsin Reserve fox camera traps in four sectors, camera-nights vs fox photographs (share-of-total column)
+- [Information and Ideas/Inferences, d2] Run 154: Mycologist Anouk Brandt, pale ringcap mushroom fruiting after wet summers, girdled vs shallow-cut spruce plots (necessary not sufficient)
+- [Information and Ideas/Inferences, d2] Run 154: Maren Highlands rural lending program, title-only collateral, borrowers' harvests up 18 percent, scope to untitled majority
+- [Information and Ideas/Inferences, d2] Run 154: Varnholt Baltic port lead cloth seals on rejected bolts, workshop marks in complaint replies; seals fix accountability not quality
+- [Information and Ideas/Inferences, d2] Run 154: Dance historian on choreographer Corvina Aldane's notated scores, solo bar share falls; 1946 repeat-sign notation for solo phrases only
+- [Information and Ideas/Inferences, d2] Run 154: Novel excerpt: harbor school model-sailboat regatta, math master Halvard records Pim's deep keel on back page and calls for a rerun in light wind
+- [Information and Ideas/Inferences, d2] Run 154: Hospital mindfulness course for burned-out nurses, 156 of 240 completers analyzed, dose-response burnout drop; conclusion limited to completers
