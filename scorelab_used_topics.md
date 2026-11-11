@@ -1434,3 +1434,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 155: Lindqvist 1884 steam well pump vs lever pumps, exclusive lift-height advantage
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 155: Sesay Sierra Leone Tumani-4 rice breeding chronology, notes out of date order
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 155: Tarrin hellbender eDNA study reason for unfamiliar audience
+- [Expression of Ideas/Transitions, d1] Run 156: Tolvane Range granite frost wedging vs coastal sandstone salt weathering (Similarly)
+- [Expression of Ideas/Transitions, d2] Run 156: Verrelin river-port merchants' guild tax registers, steep entry fee concession (Even so)
+- [Expression of Ideas/Transitions, d2] Run 156: Tavrin Cooperative four-day workweek, output per hour up, overtime down (Accordingly)
+- [Expression of Ideas/Transitions, d2] Run 156: Ardenvale Marionette Company in converted grain mill, poor acoustics vs doubled attendance (Even so)
+- [Expression of Ideas/Transitions, d2] Run 156: Quillabrook Cycling Club ride-tracking app, mileage rise credited to reopened trail (Afterward)
+- [Expression of Ideas/Transitions, d2] Run 156: Ketharan endangered language secondhand-evidential verb suffix -ru (Specifically)
+- [Expression of Ideas/Transitions, d2] Run 156: Textile chemist Ysolde Kvaranta, madder mordants and fixing bath career summary (In short)
+- [Expression of Ideas/Transitions, d1] Run 156: Pellmoor Institute sleep study, ghrelin/leptin short vs long sleep (Conversely)
