@@ -1415,3 +1415,6 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 153: Musicologist Quennell on Lindenhof court ensemble pitch (organ pipes revoiced) and tempo (partbook pendulum lengths)
 - [Information and Ideas/Inferences, d2] Run 153: Ostrel harbor vowel fronting, contact vs prestige accounts, disdainful salt-hauling villages
 - [Information and Ideas/Inferences, d2] Run 153: Tessaly irrigation councils first-draw lottery on abundant channels, symbolic vs equalizing function
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 154: Sociolinguist bilingual language-switch counts at market stalls in four towns (Pellar, Doran, Kesk, Mirov), hours recorded vs switches (share-of-total column)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 154: Tern Harbor ferry authority schedule overhaul, weekday ridership 2019 vs 2023 on four routes (share-of-combined-increase column)
+- [Information and Ideas/Command of Evidence (Quantitative), d3] Run 154: Tamsin Reserve fox camera traps in four sectors, camera-nights vs fox photographs (share-of-total column)
