@@ -302,3 +302,13 @@ concluding remark, and "Admittedly," can read as a concession to the reader; bot
 
 **Facts in dressed passages: indigo is a vat dye (no mordant).** A run-156 draft had mordants fixing indigo; madder is the
 mordant-dependent plant dye. Check dye/fiber chemistry and any "the X" generalization ("certain mordants").
+
+## Run 157 additions
+
+**FSS tense cue must govern the MAIN clause (run 157).** A "Not one of the varieties that growers were testing during
+the drought of 2008 ___ capable" draft put the only past-time marker inside the relative clause. The critic found
+present perfect ("has been") defensible for the main verb. Fronting the marker ("During the drought of 2008, not one
+of ...") fixed it. This is the same lesson as run 155's reported-speech item: the time cue has to attach to the blank's clause.
+
+**FSS 2x2 pronoun x verb grids calibrate Easy (run 157).** "its/their findings suggest/suggests" went ~82%. The verb
+half is decided by the adjacent noun ("findings"), so it never hides the controlling element. Don't use this shape for d2/d3.

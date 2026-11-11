@@ -2206,3 +2206,27 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Skill files changed: references/item-design-rules.md (run-156 rules: reattaching distractors, evidence placement, Finally/Admittedly, "one feature" ambiguity, indigo vat-dye fact). Review queue: escalated again; ~74 Hard-targeted gens across the 4 remaining cells, 0 Hard.
 - Setup note: `pip install matplotlib numpy` was needed (no visuals this run).
 - Token usage: subagents ~1.5M tokens total (Sonnet; 8 gen + 1 regeneration ~0.6M, 14 critic incl. 6 re-critiques ~0.87M, 1 batched calibrate ~65k).
+
+## Run 157 - 2026-11-11
+- Cell selection: all 4 pending cells are d3 with 0 Hard. Inferences d3 was skipped again (same reason as runs 155-156). Rotation put this run on Form, Structure, and Sense d3, last tried in run 155.
+- Cell worked: reading_writing / Standard English Conventions / Form, Structure, and Sense d3. Needed 10. Generated 6, cut from about 10 to limit spend on a cell with 0 Hard in ~11 prior gens.
+  - Locative inversion after "found that" + past tense (Dunmarrow satchel): ~60%, d2.
+  - Hidden missing main verb behind restrictive and nonrestrictive clauses (Vennick survey): ~62%, d2.
+  - Gerund subject + "Since 2004" present perfect (Ostvelt lute account books): ~55%, d2. Closest to Hard.
+  - "Not one of" + fronted past frame (Quessel Valley seeds): ~60%, d2.
+  - Compound subject + "for the past decade" (Halvern Cove ferry): ~70%, d2.
+  - 2x2 their/its x suggest(s) (Brennock Shoal): ~82%, d1.
+  - 0 Hard. Cell still 0/10, pending.
+- Critic: 6 items, 7 critic calls including 1 re-critique. There was no regeneration and no discard.
+  - F4: FLAG. The past-time marker sat inside the relative clause, so "has been" was defensible. The marker was moved to the front of the sentence and the re-critique passed.
+  - F2: B and D both failed on finiteness. D was replaced with the redundant-pronoun "it reveals". "Orrin" was renamed "Tarrow" because of the real River Orrin.
+  - F5: "Orrin Shoal" was renamed "Brennock Shoal" before critique to avoid a collision within the batch. The B/A explanation wording was tightened.
+  - F1: the satchel stem was rewritten before critique, from a passive inversion to "found that tucked inside its lining were ...".
+  - F1 and F3: explanation polish only.
+  - F4: "Tolvane" was renamed before critique because it was used in run 156.
+- One batched calibration call covered all 6 items.
+- Key skew: reordered 2 items. d2 keys are B, D, B, A, C; d1 key is C.
+- validate_batch passed 5/5 (d2) and 1/1 (d1). Master 1426 -> 1432. Tracker: FSS d2 18->23, FSS d1 12->13.
+- Skill files changed: references/item-design-rules.md (run-157 rules: the tense cue must govern the main clause; 2x2 pronoun x verb grids are Easy). Review queue: escalated again (~80 Hard-targeted gens across the 4 remaining cells, 0 Hard).
+- Setup note: `pip install matplotlib numpy` was needed (no visuals this run).
+- Token usage: subagents about 0.92M tokens total (Sonnet: 6 gen ~0.45M, 7 critic ~0.44M, 1 calibrate ~64k).
