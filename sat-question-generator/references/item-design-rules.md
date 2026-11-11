@@ -229,3 +229,21 @@ description of chart geometry.
 slow gene expression as the standard account of ABA-driven stomatal closure; in reality ABA closes stomata within
 minutes via ion channels. Students may absorb passage framing as fact. When a passage needs a hypothetical
 mechanism, attribute it to the (invented) researcher's own proposal and use an invented compound name.
+
+## Run 153 additions
+
+**CoE (Quantitative) exposure tables: at least two distractors must mention the target row.** A run-153 flu-clinic
+table had no stem hint about exposure and a fresh relational key, yet calibrated Medium (~70%) because only the key
+and one distractor named the target branch; students dropped the two off-target choices by relevance alone. The
+banked Hard volcano item had two distractors about the target row (raw total, share). Also: a stem sentence noting
+that exposure "differed from site to site" names the metric as surely as the word "rate" (run-153 meteor item, ~65%).
+
+**Don't reuse a banked key template in the same cell.** Two run-153 CoE drafts reproduced the volcano key
+("at least twice as long, yet none twice as many") with new nouns; one was rejected pre-critique as a near-duplicate.
+When mandating the exposure-table shape, name the banked key template and require a different relational form.
+
+**Inferences: dense register alone does not make an item Hard.** Seven run-153 drafts written in a scholarly register
+(concession to track, abstract paraphrased keys, distractors reusing passage vocabulary) all calibrated Medium
+(48-72%). The key was still the one modest or qualified option, so overreaching distractors fell away. The two
+lowest (~48% and ~55%) both had a highly abstract key plus a distractor that restated the account the passage
+had just undercut.

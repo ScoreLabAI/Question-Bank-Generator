@@ -2148,3 +2148,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Skill files changed: references/item-design-rules.md (3 run-152 rules: moderate exposure gap; plain-value CoE choices; no false "standard account" science). Review queue: Inferences d3 / CoE d3 decision request (recurring, about 10 runs).
 - Setup note: `python3 -m pip install --ignore-installed matplotlib numpy pillow` needed; render_visual.py spec must wrap as {"visual_type":..., "visual_data":...}.
 - Token usage: subagents ~1.9M tokens total (Sonnet; 11 gen + 1 revision, 13 critic incl. 3 re-critiques, 4 calibrate).
+
+## Run 153 - 2026-11-11
+- Cells worked: reading_writing / Information and Ideas / Command of Evidence (Quantitative) d3 (needed 1; 3 gens: a linguist dual-suffix table was rejected pre-critique as a near-duplicate of the banked volcano item; a meteor-observatory weaken table ~60-68% and a flu-clinic library table ~70% were banked d2; cell still 9/10, pending). Inferences d3 (needed 10, did 7 to keep the run near 10; new dense-register strategy; all 7 passed critique and all calibrated Medium 48-72%, banked d2; cell still 0/10, pending).
+- Critic: 9/9 PASS. Fixes applied without re-critique: flu C shortened (length cue); jargon labels removed from the CoE explanations; meteor table removed from the question_text; musicology D swapped for a disproof-vs-unsupported trap and its key explanation corrected; explanation polish on the ordinance and irrigation items; wording polish on the manuscript-cuts A and vowel-fronting stem. Renamed duplicate person names (Brandvold to Kjelland; Odalys to Sunniva). No regenerations, no discards beyond the near-duplicate.
+- Key skew: 4 Inferences items reordered; keys are now A,C,B,D,A,B,D.
+- validate_batch passed 2/2 and 7/7. Master now 1399.
+- Skill files changed: references/item-design-rules.md (run-153 rules: target-row distractors, no reused key template, register alone is not Hard). Review queue: decision request repeated (~11 consecutive runs, still open), plus a new option (d) to skip stalled cells.
+- Setup note: `python3 -m pip install --ignore-installed matplotlib numpy pillow` was needed again.
+- Token usage: subagents ~1.4M tokens total (Sonnet; 10 gen, 9 critic, 3 calibrate).
