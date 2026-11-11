@@ -1429,3 +1429,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 155: Sirin port shipping-levy proceeds paid for temple, 'By 1791' past perfect + plural proceeds
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 155: Verran Shoals wreck hull-timber dating, gerund-subject agreement + past tense
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 155: Ruvale Institute single-bacterium arsenic detector, bacterium's number + possessive
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 155: Harsk Valley vs Teluan Coast temple bell founders, shared pitch standard + tuning method contrast
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 155: Community land trusts in Marrow Creek/Ostby/Telford Heights, foreclosure generalization vs one-case loan fund
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 155: Lindqvist 1884 steam well pump vs lever pumps, exclusive lift-height advantage
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 155: Sesay Sierra Leone Tumani-4 rice breeding chronology, notes out of date order
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 155: Tarrin hellbender eDNA study reason for unfamiliar audience
