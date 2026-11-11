@@ -1406,3 +1406,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d1] Run 152: Freshwater snail foot groove two clusters separate origin (Aldovia/Tessaril)
 - [Information and Ideas/Inferences, d2] Run 152: Brightwater ride-hail surcharge taxi substitution
 - [Information and Ideas/Inferences, d2] Run 152: Bean seedling stomatal closure velarin gene-expression time-course
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 153: Amateur observatories meteor detections vs clear-sky hours (weaken, share-of-total column)
+- [Information and Ideas/Command of Evidence (Quantitative), d2] Run 153: Library branch flu-shot pop-up clinics, hours open vs shots (share-of-total column)

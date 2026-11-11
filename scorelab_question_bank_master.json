@@ -45866,5 +45866,120 @@
   "visual_type": null,
   "visual_data": null,
   "visual_svg": null
+ },
+ {
+  "section": "reading_writing",
+  "skill_category": "Information and Ideas",
+  "skill_subcategory": "Command of Evidence (Quantitative)",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "A researcher compared meteor detections at four amateur observatories over the same observing season. Each observatory logged only the hours of the season during which its sky was clear enough for observing, and those totals differed from site to site. The researcher concluded that Kestrel Ridge's site has the lowest meteor detection frequency of the four, because Kestrel Ridge logged the fewest detected meteors.\n\nWhich choice best describes data from the table that weaken the researcher's conclusion?",
+  "answer_a": "Kestrel Ridge accounted for a smaller percentage of all meteors detected than did any of the other three observatories.",
+  "answer_b": "Kestrel Ridge detected at least 36 fewer meteors than each of the other three observatories did.",
+  "answer_c": "Each of the other three observatories logged at least twice as many clear-sky hours as Kestrel Ridge did, yet none of them detected twice as many meteors.",
+  "answer_d": "Marlow Flat logged more clear-sky hours than any other observatory and also detected more meteors than any other observatory.",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer because it describes data that undercut the researcher's inference from a low total to a low frequency. The researcher treats Kestrel Ridge's small count of detected meteors as proof of a low detection frequency, but the observatories logged different numbers of clear-sky hours, so a fair comparison has to account for how long each site was observing. The table shows that Oro Basin logged 48 hours, which is exactly twice Kestrel Ridge's 24 hours, and that Tern Point (52 hours) and Marlow Flat (60 hours) logged even more. Twice Kestrel Ridge's 54 detections is 108, and none of the other three observatories reached that figure (they detected 90, 96, and 100). Each of the other sites therefore had at least double the observing time without producing double the detections, which means Kestrel Ridge detected more meteors for each hour of clear sky than every other site. That is the opposite of having the lowest frequency, so the conclusion is weakened.",
+  "distractor_a_explanation": "Choice A is incorrect. This is true of the table, but the percentages are shares of all 340 detected meteors, which depend on how long each site was observing, so a small share does not indicate a low frequency. Kestrel Ridge's small share is what the researcher's reasoning already relies on, and it supports the conclusion rather than weakening it.",
+  "distractor_b_explanation": "Choice B is incorrect. This is true of the raw counts (54 compared with 90, 96, and 100), but it restates the researcher's own evidence that Kestrel Ridge logged the fewest detections. It does not account for the differing clear-sky hours, so it supports the conclusion rather than weakening it.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect. This is true of the table, but it compares Marlow Flat with the other observatories and says nothing about how Kestrel Ridge's detections compare with its own observing time. It therefore does not bear on whether Kestrel Ridge's frequency is the lowest.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Observatory",
+    "Clear-sky hours logged",
+    "Meteors detected",
+    "Percent of all meteors detected"
+   ],
+   "rows": [
+    [
+     "Kestrel Ridge",
+     "24",
+     "54",
+     "15.9%"
+    ],
+    [
+     "Marlow Flat",
+     "60",
+     "100",
+     "29.4%"
+    ],
+    [
+     "Tern Point",
+     "52",
+     "96",
+     "28.2%"
+    ],
+    [
+     "Oro Basin",
+     "48",
+     "90",
+     "26.5%"
+    ]
+   ]
+  },
+  "visual_svg": null
+ },
+ {
+  "section": "reading_writing",
+  "skill_category": "Information and Ideas",
+  "skill_subcategory": "Command of Evidence (Quantitative)",
+  "difficulty": 2,
+  "module_type": "standard",
+  "question_text": "During one October week, a county health department set up free flu-shot pop-up clinics at four city library branches. A public health analyst reviewing the results concluded that demand for flu shots was strongest at the Eastgate branch.\n\nWhich choice best describes data from the table that support the analyst's conclusion?",
+  "answer_a": "Lakeshore administered the most shots of the four branches, and its share of all shots administered was greater than one-third.",
+  "answer_b": "Riverview administered more shots than Northside and was also open for more hours than Northside.",
+  "answer_c": "Eastgate was open less than half as long as each other branch but gave more than half as many shots as each.",
+  "answer_d": "Eastgate administered the fewest shots of the four branches, and its share of all shots administered was less than 18 percent.",
+  "correct_answer": "C",
+  "explanation": "Choice C is the best answer. The table lists how many hours each branch was open as well as how many shots it administered, so a fair comparison of demand has to take both columns into account. Eastgate was open 12 hours, which is fewer than half of Northside's 26 hours, Riverview's 28 hours, and Lakeshore's 30 hours. Yet Eastgate's 137 shots is more than half of Northside's 171 (half is 85.5), more than half of Riverview's 203 (half is 101.5), and more than half of Lakeshore's 262 (half is 131). A branch that was open for less than half the time of a rival but still gave more than half as many shots must have been giving shots at a faster pace than that rival. Because this holds against all three other branches, it supports the conclusion that demand was strongest at Eastgate even though its raw total was the lowest.",
+  "distractor_a_explanation": "Choice A is incorrect because it relies on a raw total and a share of the total, which are the wrong measures for judging demand when branches were open for different lengths of time. The statement is arithmetically true: Lakeshore gave 262 shots, the most of any branch, and 262 out of 773 is about 33.9 percent, which is more than one-third. But Lakeshore was also open the longest (30 hours), so its large total mostly reflects more open time. This choice does not support the claim about Eastgate.",
+  "distractor_b_explanation": "Choice B is incorrect because it compares two branches that are not the one named in the conclusion. The statement is true: Riverview gave 203 shots to Northside's 171, and was open 28 hours to Northside's 26. However, it says nothing about Eastgate, so it cannot show that demand was strongest there.",
+  "distractor_c_explanation": "",
+  "distractor_d_explanation": "Choice D is incorrect because it uses Eastgate's raw total and its percent-of-all-shots figure, both of which ignore the number of hours open. The statement is true: Eastgate gave 137 shots, the fewest of the four, and its share is 17.7 percent, which is under 18 percent. But these figures describe a small total produced in the shortest open period, and, taken at face value, they suggest Eastgate had the weakest demand rather than the strongest. It does not support the conclusion.",
+  "is_diagnostic": false,
+  "is_active": true,
+  "has_visual": true,
+  "visual_type": "table",
+  "visual_data": {
+   "headers": [
+    "Branch",
+    "Hours open",
+    "Shots administered",
+    "Percent of all shots administered"
+   ],
+   "rows": [
+    [
+     "Eastgate",
+     "12",
+     "137",
+     "17.7%"
+    ],
+    [
+     "Northside",
+     "26",
+     "171",
+     "22.1%"
+    ],
+    [
+     "Riverview",
+     "28",
+     "203",
+     "26.3%"
+    ],
+    [
+     "Lakeshore",
+     "30",
+     "262",
+     "33.9%"
+    ]
+   ],
+   "title": "Flu-Shot Pop-Up Clinics at Four Library Branches"
+  },
+  "visual_svg": null
  }
 ]
