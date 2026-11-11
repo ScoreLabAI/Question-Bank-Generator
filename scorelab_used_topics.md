@@ -1408,3 +1408,10 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 152: Bean seedling stomatal closure velarin gene-expression time-course
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 153: Amateur observatories meteor detections vs clear-sky hours (weaken, share-of-total column)
 - [Information and Ideas/Command of Evidence (Quantitative), d2] Run 153: Library branch flu-shot pop-up clinics, hours open vs shots (share-of-total column)
+- [Information and Ideas/Inferences, d2] Run 153: Literary critic on novelist Marit Kjelland's manuscript cuts of narratorial irony (closing chapter vs satirical chapters 2 and 5)
+- [Information and Ideas/Inferences, d2] Run 153: Calvani port 1471 weighing ordinance, fine rolls vs weigher's registers, selective enforcement on resident merchants
+- [Information and Ideas/Inferences, d2] Run 153: Lindqvist Annunciation panel attribution, rosette punch set lent to rival workshop (guild ledger)
+- [Information and Ideas/Inferences, d2] Run 153: Political theorist Varga-Okoro on closed-door budget committee, two senses of transparency
+- [Information and Ideas/Inferences, d2] Run 153: Musicologist Quennell on Lindenhof court ensemble pitch (organ pipes revoiced) and tempo (partbook pendulum lengths)
+- [Information and Ideas/Inferences, d2] Run 153: Ostrel harbor vowel fronting, contact vs prestige accounts, disdainful salt-hauling villages
+- [Information and Ideas/Inferences, d2] Run 153: Tessaly irrigation councils first-draw lottery on abundant channels, symbolic vs equalizing function
