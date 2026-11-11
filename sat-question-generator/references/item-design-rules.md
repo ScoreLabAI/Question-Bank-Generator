@@ -263,3 +263,23 @@ form ("only at X was [exposure] smaller than four times [count]").
 diet plus smaller oysters implies MORE oysters harvested, making that distractor defensible. When adding a fact to
 eliminate a choice, check what else the fact entails. Also: when a mechanism acts on a shared resource (a bay's beds,
 a shared aquifer), a comparison group must be stated to draw on a separate resource, or the prediction does not follow.
+
+**FSS tense items: mark the time sequence inside the clause, not only in another sentence (run 155).** A Sirin
+council draft keyed "had been spent" in reported speech ("the treasurer informed members that the proceeds ___ spent"),
+with the earlier date given only in a prior sentence. The critic correctly found the simple past "were" acceptable:
+reported speech allows the simple past when context supplies the order. The fix put a past reference point in the
+same clause ("By 1791, the proceeds ... had paid for ...") and dropped the simple past from the choices.
+
+**FSS: avoid two distractors that fail for the same reason (run 155).** Two non-finite forms ("suggesting",
+"having suggested") fall together once a student knows a finite verb is needed. Replace one with a form that fails a
+different rule (run 155 used a redundant subject pronoun, "it suggests"). Do not use a bare past-tense form as the
+replacement where the passage doesn't force present tense, because it agrees with any subject and may be defensible.
+
+**Rhetorical Synthesis "difference" notes: two near-synonyms are a real difference to a careful student (run 155).**
+A bells draft meant "a wooden beam" vs "a log" as a non-contrast. The critic found it defensible as "where they part
+ways". If a feature is shared, state it once ("In both traditions, ...") instead of in two differently worded notes.
+
+**Rhetorical Synthesis: every detail in a choice must appear in the notes (run 155).** "In each of three different
+cities" was flagged because the notes said "three trusts", not cities. Words such as "city", "wild", or "first" must be
+in the notes or they become a reason to eliminate the key. Also do not name an invented item close to a real one in
+the stated country (a "Rokel-1" rice in Sierra Leone sat next to the real ROK series and was renamed).
