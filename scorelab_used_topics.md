@@ -1424,3 +1424,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 154: Dance historian on choreographer Corvina Aldane's notated scores, solo bar share falls; 1946 repeat-sign notation for solo phrases only
 - [Information and Ideas/Inferences, d2] Run 154: Novel excerpt: harbor school model-sailboat regatta, math master Halvard records Pim's deep keel on back page and calls for a rerun in light wind
 - [Information and Ideas/Inferences, d2] Run 154: Hospital mindfulness course for burned-out nurses, 156 of 240 completers analyzed, dose-response burnout drop; conclusion limited to completers
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 155: Hallmoor Province remittance-dependence index, long appositive + finite singular verb (suggests)
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 155: Larkmoor Chapel hymnals margin notes, cross-sentence pronoun antecedent their/its
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 155: Sirin port shipping-levy proceeds paid for temple, 'By 1791' past perfect + plural proceeds
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 155: Verran Shoals wreck hull-timber dating, gerund-subject agreement + past tense
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 155: Ruvale Institute single-bacterium arsenic detector, bacterium's number + possessive
