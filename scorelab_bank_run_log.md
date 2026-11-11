@@ -2157,3 +2157,12 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Skill files changed: references/item-design-rules.md (run-153 rules: target-row distractors, no reused key template, register alone is not Hard). Review queue: decision request repeated (~11 consecutive runs, still open), plus a new option (d) to skip stalled cells.
 - Setup note: `python3 -m pip install --ignore-installed matplotlib numpy pillow` was needed again.
 - Token usage: subagents ~1.4M tokens total (Sonnet; 10 gen, 9 critic, 3 calibrate).
+
+## Run 154 - 2026-11-11
+- Cells worked: reading_writing / Information and Ideas / Command of Evidence (Quantitative) d3 (needed 1; 3 gens: sociolinguist language-switch exposure table ~52% banked d2; ferry before/after ratio table ~70% banked d2; fox camera-trap table ~40% banked d3 HELD; cell now 10/10, DONE). Inferences d3 (needed 10, did 7 to keep the run near 10; 7 gens with new anti-cue shapes; 6 passed critique and all calibrated Medium 52-72%, banked d2; cell still 0/10, pending).
+- Critic: CoE 3/3 PASS (pattern-tag jargon stripped from explanations; ferry stem dropped a sentence that named the metric; fox conclusion reworded before critique). Inferences: I1, I3, I4, I6 PASS with polish (I3 A reworded, D explanation softened; I4 'steadily' removed and C made parallel to the other limiting choices). I2 needed two in-place fixes (B extremity, then D selection-effect reading) and passed its third critique. I5 FLAG (back-page clue read as a rules issue; stem named both clues; C overstated), fixed and re-critiqued PASS. I7 (oyster middens) DISCARDED after two FLAGs: a shared-beds hole, then the fix's 'constant diet' sentence made D defensible.
+- Key skew: swapped choices on 2 Inferences items (C<->D, A<->C); keys are now C,D,A,A,C,B.
+- validate_batch passed 3/3 and 6/6. Master now 1408.
+- Skill files changed: references/item-design-rules.md (run-154 rules: CoE key must not be the only two-column choice; an elimination sentence can revive another distractor; shared-resource comparison groups). Review queue: Inferences d3 decision request repeated (~12 consecutive runs, still open).
+- Setup note: `python3 -m pip install --ignore-installed matplotlib numpy pillow` was needed again.
+- Token usage: subagents ~1.9M tokens total (Sonnet; 10 gen, 14 critic incl. 4 re-critiques, 4 calibrate).

@@ -247,3 +247,19 @@ When mandating the exposure-table shape, name the banked key template and requir
 (48-72%). The key was still the one modest or qualified option, so overreaching distractors fell away. The two
 lowest (~48% and ~55%) both had a highly abstract key plus a distractor that restated the account the passage
 had just undercut.
+
+## Run 154 additions
+
+**CoE (Quantitative) exposure tables: the key must not be the only two-column choice.** A run-154 sociolinguistics table
+(metric never named, wrong-base share column, key "at least 14 more hours, but none more than 54 more switches") still
+calibrated ~52% because the key was the only choice that set exposure against count; a ferry before/after table went
+~70% because the key was the only choice in ratio language. The fox camera-trap table that held Hard (~40%) had all three
+distractors about the target row, and two of them also combined exposure with count or share -- including a TRUE
+target-vs-one-rival comparison that fails only because it leaves out the closest rival. The key used a fresh threshold
+form ("only at X was [exposure] smaller than four times [count]").
+
+**Inferences: a sentence added to kill one distractor can revive another.** A run-154 oyster-midden draft added
+"population and diet stayed constant" to rule out a rising-harvest distractor; the critic pointed out that constant
+diet plus smaller oysters implies MORE oysters harvested, making that distractor defensible. When adding a fact to
+eliminate a choice, check what else the fact entails. Also: when a mechanism acts on a shared resource (a bay's beds,
+a shared aquifer), a comparison group must be stated to draw on a separate resource, or the prediction does not follow.
