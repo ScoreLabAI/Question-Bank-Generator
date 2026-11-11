@@ -1442,3 +1442,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Transitions, d2] Run 156: Ketharan endangered language secondhand-evidential verb suffix -ru (Specifically)
 - [Expression of Ideas/Transitions, d2] Run 156: Textile chemist Ysolde Kvaranta, madder mordants and fixing bath career summary (In short)
 - [Expression of Ideas/Transitions, d1] Run 156: Pellmoor Institute sleep study, ghrelin/leptin short vs long sleep (Conversely)
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 157: Dunmarrow millrace leather satchel bone dice + tally stick, locative inversion after 'found that' + past tense (were)
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 157: Vennick River Authority Tarrow basin culvert/levee survey, hidden missing main verb (reveals)
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 157: Ostvelt lute makers' account books Alpine spruce, gerund subject + Since 2004 present perfect
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 157: Quessel Valley cooperative drought seed varieties, 'not one of' singular + past frame
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 157: Halvern Cove ferry schedule and fare table shop hours, compound subject + present perfect
+- [Standard English Conventions/Form, Structure, and Sense, d1] Run 157: Brennock Shoal hydrographers vs 1902 chart, their/its findings suggest(s)
