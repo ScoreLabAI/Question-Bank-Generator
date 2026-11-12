@@ -338,3 +338,27 @@ less common keys. The key's rarity alone ("Fittingly," ~58%) does not make an it
 
 **Transitions: "Still," reattaches to earlier setbacks (run 159).** After a multi-stage story of failures, then a fix, "Still,"
 was defensible as "despite those failures". It was swapped for "Similarly,". Same family as the run-156 reattachment rule.
+
+## Run 160 additions
+
+**Transitions Hard: which abstract-register relations reach Hard (run 160).** 8 abstract-register gens, each with a different
+mandated key. Two reached Hard: "More broadly," (narrow lease rulings widened to all private law; "For example,"/"In short,"
+misreadings, ~47%) and "Nonetheless," (a framework, then a specific quantitative anomaly immediately before the blank, then a
+return that carries its own "because" reason; "Therefore,"/"Specifically," misreadings, ~48%). The abstract register did NOT
+lift restatement ("In other words," ~70%), inverse ("Conversely," ~76%), purpose ("To that end," ~55%), cross-domain parallel
+("Likewise," ~52%) or substitution after an explicit denial ("Instead," ~72%). For Transitions d3, mandate generalization of
+scope or concession-then-return; other relations will mostly bank as d2 overshoot.
+
+**Transitions: a limitation sentence right before a method sentence makes "As a result," a second key (run 160).** "The documents
+cannot supply such an account. ______ researchers are cross-reading other sources" let "As a result," attach to the limitation,
+because a deliberate response can still be a result. For a purpose key ("To that end,"), put the GOAL sentence immediately
+before the blank and move any limitation earlier.
+
+**Transitions: an "Accordingly," blank sentence must not restate the premise (run 160).** A practice that literally embodies the
+premise ("her editions print each song as a pitch cycle plus entry rule" after "a song is a procedure") made "That is,"
+defensible. An earlier version with "less a fixed piece than a procedure" made "Instead," defensible. The item was discarded
+after two FLAGs. The consequence has to be a downstream action that does not paraphrase or replace anything in the premise.
+
+**Transitions: when a concession is followed by a return, name the anomaly in the blank sentence (run 160).** "______ landmark
+binding remains the best account" let "Therefore," reattach to an earlier supporting sentence. Rewording to "______ the Tessarun
+result does not displace landmark binding, which remains ..." tied the blank to the anomaly, and the item still calibrated Hard.

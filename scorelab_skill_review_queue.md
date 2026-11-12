@@ -281,3 +281,8 @@ the ten attempts run 11 implied.
 ## Run 159 - Transitions d3 produced the first Hard items (2) in the stalled R&W d3 cells; decision still open
 **What this run did:** Followed the skip rotation and tried Transitions d3 (last tried in run 156) with 6 new less-common keys. 2 items calibrated Hard: "By extension," (~44%) and "Hence," (~45%). Both were dense, abstract passages with two distractors that fit plausible misreadings. Transitions d3 is now 2/10. The other 4 items were banked as overshoot (3 d2, 1 d1).
 **Implication:** the abstract-register approach can reach Hard for Transitions. A future run could mandate that shape (scholarly passage, generalization or a consequence hidden behind a pseudo-contrast) for every Transitions d3 gen. Proposals (a)-(d) from runs 155-158 still need a human decision for Inferences, FSS, and RS d3.
+
+## Run 160 - Transitions d3 reached 4/10 (2 more Hard); proposals for the other three d3 cells still need a decision
+**What this run did:** Transitions d3 was the only partially done pending cell, so it went first. 8 abstract-register gens with mandated keys. 2 calibrated Hard ("More broadly," ~47%; "Nonetheless," ~48%). 5 banked as overshoot (4 d2, 1 d1). 1 was discarded after two FLAGs.
+**Finding:** Hard Transitions items come from two relations: generalization of scope, and concession-then-return with a specific anomaly. Even in an abstract register, the other relations calibrate Medium. Mandating only those two shapes should yield roughly 2 Hard per 8 gens. At that rate the cell needs about 3 more runs.
+**Still open (runs 155-159):** proposals (a)-(d) for Inferences d3, FSS d3, and RS d3. After this cell is done, those three remain, at about 90 Hard-targeted gens with 0 Hard.

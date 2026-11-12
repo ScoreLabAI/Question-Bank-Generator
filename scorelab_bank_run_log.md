@@ -2273,3 +2273,27 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - validate_batch passed 2/2 (d3), 3/3 (d2), and 1/1 (d1). Master 1438 -> 1444. Tracker: Transitions d3 0->2, d2 16->19, d1 16->17.
 - Skill files changed: references/item-design-rules.md (run-159: abstract register + misreading distractors reached Hard; "Still," reattachment). Review queue: run-159 entry added (first Hard yield; proposals for the other 3 d3 cells still open).
 - Token usage: subagents about 0.95M tokens total (Sonnet: 6 gen ~452k, 7 critic incl. 1 re-critique ~432k, 1 batched calibrate ~65k).
+
+## Run 160 - 2026-11-12
+- Cell selection: Transitions d3 (2/10) is the only partially done pending cell, so it went first per the "finish partial cells first" rule. Inferences, FSS, and RS d3 remain at 0/10. 8 gens.
+- Cell worked: reading_writing / Expression of Ideas / Transitions d3. Needed 8. Got 2 Hard. All 8 gens used an abstract scholarly register with mandated keys:
+  - More broadly (Valcescu, Karnovian lease rulings -> all private law): ~47%, **d3 Hard**.
+  - Nonetheless (Sutherwick landmark genealogies, Tessarun anomaly): ~48%, **d3 Hard**.
+  - To that end (Tallowmere parish papers): ~55%, d2.
+  - Likewise (Pellisar ledgers / ring charts): ~52%, d2.
+  - In other words (Oskeld salt unit of account): ~70%, d2.
+  - Instead (Maurek Sundrel halls): ~72%, d2.
+  - Conversely (energy-budget costly traits): ~76%, d1.
+  - Accordingly (Vethari songs / Teodoran): **discarded** after two FLAGs ("Instead," was defensible, then "That is," was defensible).
+  - Transitions d3 is now 4/10 and still pending; 6 more are needed.
+- Critic: 8 first-pass critiques plus 3 re-critiques.
+  - T3 FLAG: "As a result," attached to the limitation sentence. It was regenerated with the goal sentence placed right before the blank and distractors Likewise/For instance/In sum. The re-critique passed.
+  - T4: FLAG on the first pass and FLAG again after regeneration, so it was discarded.
+  - T7 FLAG: "Therefore," could reattach to the 11-community sentence. The orchestrator applied the critic's stem fix ("the Tessarun result does not displace...") and rewrote the A and D explanations. The re-critique passed.
+  - Advisory fixes, applied without re-critique: T1's A explanation was trimmed. T5's generalization was attributed to Valcescu. T6's astronomy wording was hedged ("schematic ... charts", "one school of astronomers") and a clause was added to its A explanation. T8's main and B explanations were softened.
+- Calibration: one batched call for 6 items, plus one call for T7 after its re-critique.
+- Keys: d3 C and B (T7 reordered). d2: A (T1 reordered), C, D, B (T8 reordered). d1: B.
+- validate_batch passed 2/2 (d3), 4/4 (d2), and 1/1 (d1). Master 1444 -> 1451. Tracker: Transitions d3 2->4, d2 19->23, d1 17->18.
+- Skill files changed: references/item-design-rules.md (run-160 Transitions rules: which relations reach Hard; limitation-before-method lets "As a result," attach; "Accordingly," must not restate the premise; name the anomaly in a concession-return blank). Review queue: run-160 entry added.
+- Setup note: `pip` points to Python 3.13 while `python3` is 3.11. Use `python3 -m pip install matplotlib numpy`, and reinstall pillow (`--ignore-installed`), because the system PIL lacks `_imaging`.
+- Token usage: subagents about 1.48M tokens total (Sonnet: 8 gen + 2 regen ~600k, 11 critic incl. 3 re-critiques ~680k, 2 calibrate ~120k).
