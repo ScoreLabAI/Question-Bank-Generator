@@ -312,3 +312,17 @@ of ...") fixed it. This is the same lesson as run 155's reported-speech item: th
 
 **FSS 2x2 pronoun x verb grids calibrate Easy (run 157).** "its/their findings suggest/suggests" went ~82%. The verb
 half is decided by the adjacent noun ("findings"), so it never hides the controlling element. Don't use this shape for d2/d3.
+
+## Run 158 additions
+
+**Rhetorical Synthesis: a "procedural detail" distractor must not hint at selection (run 158).** "212 enrolled after more
+families than expected signed up" was read by the critic as a self-selection limitation, which made the "not a limitation"
+distractor defensible. Use a plainly neutral method detail (e.g. how arrival times were recorded).
+
+**Rhetorical Synthesis: "challenge an assumption" goals must require stating the assumption (run 158).** With the goal
+"challenge a common assumption", a choice giving the contradicting finding alone was defensible. "Present a finding ... as
+a challenge to a common assumption" fixed it.
+
+**Rhetorical Synthesis: if the key's explanation says "main clause", check that it is (run 158).** A key written "X and Y
+are companies that both mark ..." puts the similarity in a relative clause, which undercuts the reason given for rejecting
+a subordinate-clause distractor. Put the shared feature in the key's main clause.

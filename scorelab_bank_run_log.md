@@ -2230,3 +2230,26 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Skill files changed: references/item-design-rules.md (run-157 rules: the tense cue must govern the main clause; 2x2 pronoun x verb grids are Easy). Review queue: escalated again (~80 Hard-targeted gens across the 4 remaining cells, 0 Hard).
 - Setup note: `pip install matplotlib numpy` was needed (no visuals this run).
 - Token usage: subagents about 0.92M tokens total (Sonnet: 6 gen ~0.45M, 7 critic ~0.44M, 1 calibrate ~64k).
+
+## Run 158 - 2026-11-12
+- Cell selection: all 4 pending cells are d3 with 0 Hard. Inferences d3 skipped again (as in runs 155-157). The rotation put this run on Rhetorical Synthesis d3, last tried in run 155. Generated 6 (not 10) to limit spend on a cell with 0 Hard in ~10 prior gens.
+- Cell worked: reading_writing / Expression of Ideas / Rhetorical Synthesis d3. Needed 10. Generated 6:
+  - Three-requirement goal (similarity + unfamiliar audience + emphasis), Veltri/Okanda street theater: ~65%, d2.
+  - Conclusion + genuine vs procedural limitation, Ressler walking school bus: ~85%, d1.
+  - Magnitude of the difference with computed increases (120 vs 6), Haskett/Idlewick marsh nesting pairs: ~80%, d1.
+  - Inverted audience (already familiar with the architect), Vallespina's Danuyan Rain Market: ~80%, d1.
+  - Challenge an assumption with consistent and irrelevant "yet" rivals, Tellwyn sunflower heliotropism: ~88%, d1.
+  - Paradox resolution ("despite a disadvantage"), Brisford canal coal: ~78%, d1.
+  - 0 Hard. Cell still 0/10, pending.
+- Critic: 6 first-pass critiques plus 3 re-critiques. There was no regeneration and no discard.
+  - #1 FLAG: the key's explanation said "main clause" for a relative clause, and D was defensible. B was restructured, D lost its identifiers, and the explanations were rewritten. The re-critique passed.
+  - #2 FLAG: "more families than expected signed up" read as self-selection, a real limitation. It was replaced with an attendance-system detail and the re-critique passed.
+  - #5 FLAG: A was defensible as a challenge on its own. The goal was reworded to "present a finding ... as a challenge to" and the re-critique passed. A and the key explanation also got polish.
+  - #4 and #6: explanation fixes only.
+  - Pre-critique renames to avoid collisions with the bank: Varnholt -> Brisford, Corran -> Haskett, Dunmarrow -> Cobbleton, Pellam -> Ressler, Dunmere -> Tellwyn. Generator #4's B had an unsupported "poured concrete", which was removed.
+- One batched calibration call covered all 6.
+- Keys: d1 B, C, D, B, C; d2 B. No reorder needed.
+- validate_batch passed 5/5 (d1) and 1/1 (d2). Master 1432 -> 1438. Tracker: RS d1 21->26, RS d2 13->14, RS d3 still 0.
+- Skill files changed: references/item-design-rules.md (run-158 RS rules: neutral procedural details, "challenge an assumption" goal wording, the key's main clause). Review queue: escalated again (~86 Hard-targeted gens across the 4 remaining cells, 0 Hard).
+- Setup note: `pip install matplotlib numpy` was needed (no visuals this run).
+- Token usage: subagents about 0.62M tokens total (Sonnet: 6 gen ~0.43M, 9 critic ~0.57M... see note) -- precisely: 6 gen ~427k, 9 critic/re-critic ~567k, 1 calibrate ~68k; total ~1.06M.
