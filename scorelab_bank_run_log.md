@@ -2252,4 +2252,4 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - validate_batch passed 5/5 (d1) and 1/1 (d2). Master 1432 -> 1438. Tracker: RS d1 21->26, RS d2 13->14, RS d3 still 0.
 - Skill files changed: references/item-design-rules.md (run-158 RS rules: neutral procedural details, "challenge an assumption" goal wording, the key's main clause). Review queue: escalated again (~86 Hard-targeted gens across the 4 remaining cells, 0 Hard).
 - Setup note: `pip install matplotlib numpy` was needed (no visuals this run).
-- Token usage: subagents about 0.62M tokens total (Sonnet: 6 gen ~0.43M, 9 critic ~0.57M... see note) -- precisely: 6 gen ~427k, 9 critic/re-critic ~567k, 1 calibrate ~68k; total ~1.06M.
+- Token usage: subagents about 1.06M tokens total (Sonnet: 6 gen ~427k, 9 critic incl. 3 re-critiques ~567k, 1 batched calibrate ~68k).
