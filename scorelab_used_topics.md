@@ -1448,3 +1448,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 157: Quessel Valley cooperative drought seed varieties, 'not one of' singular + past frame
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 157: Halvern Cove ferry schedule and fare table shop hours, compound subject + present perfect
 - [Standard English Conventions/Form, Structure, and Sense, d1] Run 157: Brennock Shoal hydrographers vs 1902 chart, their/its findings suggest(s)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 158: Veltri Quarter Players vs Okanda Street Ensemble street theater, shared chalk-line playing areas (similarity + unfamiliar audience)
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 158: Ressler Institute walking school bus in Cobbleton, conclusion + grades 1-3 limitation
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 158: Haskett vs Idlewick Marsh shorebird nesting pairs, fox fencing, magnitude of increase (120 vs 6)
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 158: Architect Teodoro Vallespina's lesser-known Danuyan Rain Market (bamboo roof cistern), audience familiar with architect
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 158: Tellwyn Agricultural College sunflower heliotropism, mature heads face east (challenge assumption)
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 158: Brisford iron town with no coal, Deepmere canal barges (rise despite disadvantage)
