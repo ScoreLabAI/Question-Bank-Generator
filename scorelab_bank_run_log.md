@@ -2253,3 +2253,23 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Skill files changed: references/item-design-rules.md (run-158 RS rules: neutral procedural details, "challenge an assumption" goal wording, the key's main clause). Review queue: escalated again (~86 Hard-targeted gens across the 4 remaining cells, 0 Hard).
 - Setup note: `pip install matplotlib numpy` was needed (no visuals this run).
 - Token usage: subagents about 1.06M tokens total (Sonnet: 6 gen ~427k, 9 critic incl. 3 re-critiques ~567k, 1 batched calibrate ~68k).
+
+## Run 159 - 2026-11-12
+- Cell selection: all 4 pending cells are R&W d3. Followed the run 155-158 skip rotation: Inferences d3 skipped again, Transitions d3 chosen (last tried run 156). Generated 6 to limit spend.
+- Cell worked: reading_writing / Expression of Ideas / Transitions d3. Needed 10. Generated 6 with mandated less-common keys:
+  - By extension (Mirrovan tone normalization -> all speech perception): ~44%, **d3 Hard**.
+  - Hence (art critic Haldevar on painter Quorrin; pseudo-contrast "rather than" before the blank): ~45%, **d3 Hard**.
+  - Regardless (Sarrow shell-mound debate, radiocarbon occupation): ~52%, d2.
+  - Fittingly (conservator Valtorre's renamed lab in the 1974 flooded map room): ~58%, d2.
+  - Ultimately (Varnmouth footbridge sway, self-retuning dampers): ~74%, d2.
+  - Previously (Verlund Postal Service time reversal): ~77%, d1.
+  - Result: the first Hard items accepted in any of the stalled R&W d3 cells. Transitions d3 0 -> 2/10, still pending.
+- Critic: 6 first-pass critiques plus 1 re-critique. There was no regeneration and no discard.
+  - T6 FLAG: "Still," was defensible by reattaching to the earlier setbacks. It was swapped for "Similarly," and the B explanation was rewritten. The re-critique passed.
+  - Advisory fixes, applied without re-critique: T1's renaming sentence was clarified (the lab had borne the donor's name). T4 changed "until 1924" to "until 1928" and dropped "that the machine replaced" from D's explanation. T2's key explanation got a wording fix.
+  - Pre-critique fixes: T3's "lowest layers" was changed to "layers throughout the mounds" so the continuity claim follows. T5 had Corvane/Verhoeven, names already in the bank, which were renamed to Quorrin/Haldevar.
+- One batched calibration call covered all 6.
+- Keys: d3 C, B. d2 T1 was reordered from B to A, giving A, B, D. d1 C.
+- validate_batch passed 2/2 (d3), 3/3 (d2), and 1/1 (d1). Master 1438 -> 1444. Tracker: Transitions d3 0->2, d2 16->19, d1 16->17.
+- Skill files changed: references/item-design-rules.md (run-159: abstract register + misreading distractors reached Hard; "Still," reattachment). Review queue: run-159 entry added (first Hard yield; proposals for the other 3 d3 cells still open).
+- Token usage: subagents about 0.95M tokens total (Sonnet: 6 gen ~452k, 7 critic incl. 1 re-critique ~432k, 1 batched calibrate ~65k).

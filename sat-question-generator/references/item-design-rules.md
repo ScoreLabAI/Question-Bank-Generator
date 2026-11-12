@@ -326,3 +326,15 @@ a challenge to a common assumption" fixed it.
 **Rhetorical Synthesis: if the key's explanation says "main clause", check that it is (run 158).** A key written "X and Y
 are companies that both mark ..." puts the similarity in a relative clause, which undercuts the reason given for rejecting
 a subordinate-clause distractor. Put the shared feature in the key's main clause.
+
+## Run 159 additions
+
+**Transitions Hard: the first two Hard R&W d3 items came from abstract passages (run 159).** "By extension," (a tone-perception
+finding generalized to all speech perception, ~44%) and "Hence," (an art-critic's structural claim whose preceding
+"rather than" sentence looks like a contrast, ~45%) calibrated Hard. Both used a dense scholarly register in which the relation
+has to be reconstructed, and two distractors each fit a plausible misreading (restatement/example; summary/contrast). Concrete
+narratives with explicit dates or engineering stages ("Previously," ~77%; "Ultimately," ~74%) stayed Easy/Medium even with
+less common keys. The key's rarity alone ("Fittingly," ~58%) does not make an item Hard.
+
+**Transitions: "Still," reattaches to earlier setbacks (run 159).** After a multi-stage story of failures, then a fix, "Still,"
+was defensible as "despite those failures". It was swapped for "Similarly,". Same family as the run-156 reattachment rule.
