@@ -374,3 +374,28 @@ effects. Two items went Medium: "More generally," (~54%), where "in any ... trad
 distractor tempted, and "Thus," (~58%), a linear consequence whose sentence after the blank reinforced it. For a generalization key,
 keep the scope jump implicit (no "any"/"all" right after the blank) and make two distractors tempting. For a consequence key, give it
 two effects and let the pseudo-contrast carry the misreading.
+
+## Run 162 additions
+
+**Inferences Hard: the first two Hard items came from one shape (run 162).** 8 gens with mandated shapes under anti-cue rules
+(key not longest, all choices equal length and equally hedged, two distractors fitting named misreadings). Both Hard items
+(~47%, ~49%) were "received account undercut by THREE separate quiet details": a granary register (dialect, auditors count only
+sacks, famine relief by recorded total regardless of family size) and bridge cutwaters (placement only above a raft boom, none at
+an equal-current bridge below it, costly granite recut each spring). Each had an abstract key that names no single detail, a
+distractor rescuing the received account, and a distractor fitting the most salient detail that only a quieter detail defeats.
+The Transitions Hard relations did NOT transfer: concession-then-return (~66-68%) and implicit scope generalization (~57-66%) went
+Medium because an Inferences stem has to lay out the mechanism and the confound. Single-literary-critic undercut readings with two
+details (~54%) and "rather than" method consequences (~56%) also stayed Medium. For Inferences d3, mandate the three-detail
+undercut-received-account shape in institutional/technological history, with one detail being an absence or contrast case.
+
+**Inferences: a restatement distractor that is TRUE is a second key (run 162).** A "For example" misreading that restates the
+finding the mechanism was proposed to explain (B: "explains why the children produce wrong plurals for rarely heard nouns") is a
+true consequence of the mechanism, so it was defensible. Fix: make the restatement also limit scope ("applies only to plural nouns").
+
+**Inferences: a key must name the passage's actual cause (run 162).** A sunbird key said "the abundance ... can raise the cost ...
+even faster", but the passage attributed the intruder surge to a neighboring fig tree, not nectar abundance. Flagged.
+
+**Inferences: a distractor that names the true "what" can still be tempting even with an overreach tail (run 162).** Pointed
+cutwaters really do deflect logs, so "keep rafts moving" was partly defensible until a wear detail (points recut every spring) was
+added to separate impact damage from passage of logs. When the key and a distractor share a real-world mechanism, add one passage
+detail that only the key explains.

@@ -2318,3 +2318,33 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Setup: `python3 -m pip install matplotlib numpy` plus `--ignore-installed pillow` was again needed.
 - Skill files changed: references/item-design-rules.md (run-161 note: mandating the two Hard relations yields about 6/8 Hard; how the 2 Medium items failed). Review queue: run-161 entry added. Transitions d3 is done; the other 3 d3 cells still need a human decision.
 - Token usage: subagents about 1.12M tokens total (Sonnet: 8 gen ~575k, 8 critic ~497k, 2 calibrate ~127k).
+
+## Run 162 - 2026-11-12
+- Cell selection: all 3 pending cells were d3 at 0/10. FSS d3 was last tried in run 157 and RS d3 in run 158. Inferences d3, the first pending cell in file order, had been skipped since run 154. It was chosen to test run 161's suggestion of applying the Transitions recipe to it. 8 gens, in two waves of 4.
+- Cell worked: reading_writing / Information and Ideas / Inferences d3. Needed 10, got 2 Hard (**first Hard ever for this cell**, now 2/10, still pending). 6 were banked as d2 overshoot.
+  - Sarnagar granary register (undercut anti-fraud account, 3 quiet details): ~47%, d3.
+  - Teln valley bridge cutwaters (undercut streamlining account, raft boom, Orrel contrast, granite recut each spring): ~49%, d3.
+  - Ilvane lunar crater sample-exclusion concession: ~66%, d2.
+  - Okafor-Brandt overregularization scope generalization: ~66%, d2.
+  - Corvetti Institute sturgeon-glue "rather than" consequence: ~56%, d2.
+  - Orrego/Cienfuegar name-stripping undercut reading: ~54%, d2.
+  - Moravec sunbird concession-then-return: ~68%, d2.
+  - Orfeyev Carrowick/Pellory cross-institution generalization: ~57%, d2.
+- Critic: 5 PASS on the first pass. There were 3 FLAGs, each fixed in place with the critic's wording and re-critiqued to PASS:
+  - G2: the restatement distractor was true, so "only plural nouns" was added.
+  - G6: the key misattributed the cause to nectar abundance, so A was reworded and the stem changed to "ten of the eleven" and "reports".
+  - G8: the "keep rafts moving" distractor was partly defensible, so a recut-each-spring detail was added and the boom placement clarified.
+  - There were no regenerations or discards.
+- Advisory fixes, applied without re-critique:
+  - G1: C wording changed to "the team's own sampling rule".
+  - G3: "any" became "a".
+  - G4: B got a "since" clause because it was the only choice without one, and "(Pattern: ...)" tags were removed from the explanations.
+  - G5: C was reworded to drop the unsupported "memory" gloss, and the A explanation was softened.
+  - G7: the passage was trimmed from ~165 to ~158 words, the electorate wording clarified, and the explanation's last sentence fixed.
+- Renames: "Brantvold" became Ilvane (too close to the logged Brandvold). "Tamsin" became Corvetti (already logged). The sunbird researcher's first name "Ilse" became Danuta, to avoid a duplicate within the run.
+- Calibration: 2 batched calls (3 items and 5 items).
+- Keys: d3 B and D (the bridge item was reordered B->D). d2: C, A, B, C, A, D (the Orfeyev item was reordered C->D).
+- validate_batch passed 2/2 (d3) and 6/6 (d2). Master 1459 -> 1467. Tracker: Inferences d3 0->2, d2 30->36.
+- Skill files changed: references/item-design-rules.md (run-162 Inferences Hard shape; true-restatement distractor; key must name the actual cause; shared-mechanism distractor). Review queue: run-162 entry added. FSS d3 and RS d3 still await a human decision.
+- Setup: again needed `python3 -m pip install matplotlib numpy` plus `--ignore-installed pillow`.
+- Token usage: subagents about 1.75M tokens total (Sonnet: 8 gen ~654k, 11 critic incl. 3 re-critiques ~690k, 2 calibrate ~125k).
