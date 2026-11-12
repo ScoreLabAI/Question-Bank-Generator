@@ -1475,3 +1475,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Transitions, d3] Run 161: Historian Odile Hartnoll, Sarnwick parish burial registers vs customs records, 1711-1714 shortfall from clerkship vacancy (Still)
 - [Expression of Ideas/Transitions, d2] Run 161: Ethnomusicologist Ilsabet Orrowan, Kallomar bowed-lyre ensemble absorbs pitch drift into ornaments, generalized to oral traditions (More generally)
 - [Expression of Ideas/Transitions, d2] Run 161: Sociologist Ysmene Talcorre, Ketterhal street-market vendor seniority leaves council registers silent on pitch quarrels (Thus)
+- [Information and Ideas/Inferences, d3] Run 162: Sarnagar kingdom district granary register in cultivators' dialect, auditors count sacks, famine relief by recorded total; register as household claim on granary
+- [Information and Ideas/Inferences, d3] Run 162: Upper Teln valley stone bridges, granite upstream cutwaters only above the Sandry timber-raft boom, none at Orrel, recut each spring; impact protection not streamlining
+- [Information and Ideas/Inferences, d2] Run 162: Planetary geologist Ilse Ilvane, lunar crater depth-to-diameter ratio vs age, Sorensen basin wall crater K-17 excluded by 8-degree slope rule
+- [Information and Ideas/Inferences, d2] Run 162: Linguist Marisol Okafor-Brandt, preschoolers' "geeses"/"slinged" overregularization, retrieval-blocking mechanism extends to past-tense verbs
+- [Information and Ideas/Inferences, d2] Run 162: Corvetti Institute 1958 sturgeon-glue consolidation of the Orsolo Altarpiece with grid-referenced log vs acrylic resin; reversibility and traceability
+- [Information and Ideas/Inferences, d2] Run 162: Critic Matias Orrego on poet Rosalba Cienfuegar striking place names only from village poems while adding a green-shuttered pharmacy
+- [Information and Ideas/Inferences, d2] Run 162: Ethologist Danuta Moravec, sunbird territory defense on Tamsari Ridge, richest patch beside fruiting fig tree shows low chasing
+- [Information and Ideas/Inferences, d2] Run 162: Political scientist Lucinda Orfeyev, Carrowick council named-vote bulletin and cross-bloc co-sponsors; Pellory salt guild named minutes vs Orsk sealed ballot
