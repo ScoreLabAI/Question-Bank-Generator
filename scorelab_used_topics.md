@@ -1454,3 +1454,9 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 158: Architect Teodoro Vallespina's lesser-known Danuyan Rain Market (bamboo roof cistern), audience familiar with architect
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 158: Tellwyn Agricultural College sunflower heliotropism, mature heads face east (challenge assumption)
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 158: Brisford iron town with no coal, Deepmere canal barges (rise despite disadvantage)
+- [Expression of Ideas/Transitions, d3] Run 159: Mirrovan tonal-language listeners' pitch-range normalization generalized to vowels/loudness/tempo (By extension)
+- [Expression of Ideas/Transitions, d3] Run 159: Painter Ilsabet Quorrin's 1970s abstract canvases, critic Lucan Haldevar, structural unease vs iconographic readings (Hence)
+- [Expression of Ideas/Transitions, d2] Run 159: Conservator Ines Valtorre, Merrowen State Archive lab renamed, sits in 1974 flooded map room (Fittingly)
+- [Expression of Ideas/Transitions, d2] Run 159: Sarrow estuary shell mounds, refuse vs deliberate debate, radiocarbon continuous occupation (Regardless)
+- [Expression of Ideas/Transitions, d2] Run 159: Varnmouth estuary footbridge sway, fixed then self-retuning dampers (Ultimately)
+- [Expression of Ideas/Transitions, d1] Run 159: Verlund Postal Service 1931 keyboard sorting machine vs earlier clerk pigeonholes (Previously)
