@@ -2297,3 +2297,24 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Skill files changed: references/item-design-rules.md (run-160 Transitions rules: which relations reach Hard; limitation-before-method lets "As a result," attach; "Accordingly," must not restate the premise; name the anomaly in a concession-return blank). Review queue: run-160 entry added.
 - Setup note: `pip` points to Python 3.13 while `python3` is 3.11. Use `python3 -m pip install matplotlib numpy`, and reinstall pillow (`--ignore-installed`), because the system PIL lacks `_imaging`.
 - Token usage: subagents about 1.48M tokens total (Sonnet: 8 gen + 2 regen ~600k, 11 critic incl. 3 re-critiques ~680k, 2 calibrate ~120k).
+
+## Run 161 - 2026-11-12
+- Cell selection: Transitions d3 (4/10) was the only partially done pending cell. It needed 6, and 8 gens were run to allow for Medium fallout. Inferences, FSS, and RS d3 remain at 0/10.
+- Cell worked: reading_writing / Expression of Ideas / Transitions d3. Needed 6, got 6 Hard. **Cell DONE 10/10.**
+  - By extension (Taldovar calibration standards): ~47%, d3.
+  - Even so (Marsk stalagmite isotope anomaly): ~46%, d3.
+  - Hence (Rhoskel/Pennevar idiom translation): ~46%, d3.
+  - Nevertheless (Quillon Ostrenne groats, 1392 issue): ~47%, d3.
+  - More broadly (Teskeri thornwren rattle): ~45%, d3.
+  - Still (Hartnoll Sarnwick burial registers): ~49%, d3 (borderline).
+  - More generally (Orrowan Kallomar lyre): ~54%, banked d2.
+  - Thus (Talcorre Ketterhal markets): ~58%, banked d2.
+- Critic: 8/8 PASS on the first pass. There were no FLAGs, regenerations, or discards.
+  - Advisory and explanation fixes, applied without re-critique: T1's stem got "whose repertoire is passed down by ear", and its A and D explanations were rewritten per the critic. T2's explanation wording was changed to "a further case". T3's A explanation now names the slow-growth reason.
+  - T7's scholar was renamed from Brannoch-Teku to Talcorre, because "Brannoch" was already in the used-topics log.
+- Calibration: 2 batched calls of 4 items each.
+- Keys: d3 D, C, B, B, D, C. d2 B, C.
+- validate_batch passed 6/6 (d3) and 2/2 (d2). Master 1451 -> 1459. Tracker: Transitions d3 4->10 (done), d2 23->25.
+- Setup: `python3 -m pip install matplotlib numpy` plus `--ignore-installed pillow` was again needed.
+- Skill files changed: references/item-design-rules.md (run-161 note: mandating the two Hard relations yields about 6/8 Hard; how the 2 Medium items failed). Review queue: run-161 entry added. Transitions d3 is done; the other 3 d3 cells still need a human decision.
+- Token usage: subagents about 1.12M tokens total (Sonnet: 8 gen ~575k, 8 critic ~497k, 2 calibrate ~127k).

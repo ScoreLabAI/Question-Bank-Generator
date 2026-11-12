@@ -286,3 +286,7 @@ the ten attempts run 11 implied.
 **What this run did:** Transitions d3 was the only partially done pending cell, so it went first. 8 abstract-register gens with mandated keys. 2 calibrated Hard ("More broadly," ~47%; "Nonetheless," ~48%). 5 banked as overshoot (4 d2, 1 d1). 1 was discarded after two FLAGs.
 **Finding:** Hard Transitions items come from two relations: generalization of scope, and concession-then-return with a specific anomaly. Even in an abstract register, the other relations calibrate Medium. Mandating only those two shapes should yield roughly 2 Hard per 8 gens. At that rate the cell needs about 3 more runs.
 **Still open (runs 155-159):** proposals (a)-(d) for Inferences d3, FSS d3, and RS d3. After this cell is done, those three remain, at about 90 Hard-targeted gens with 0 Hard.
+
+## Run 161 - Transitions d3 is DONE (10/10); three d3 cells remain and still need the open decision
+**What this run did:** 8 Transitions d3 gens mandated to the run-159/160 Hard relations. 6 calibrated Hard, and the cell is now 10/10. 2 were banked d2.
+**Now:** the only pending cells are Inferences d3, FSS d3 and RS d3, all at 0/10 after about 90 Hard-targeted gens. Proposals (a)-(d) from runs 155-158 still need a human decision. Possible next step, unapplied: try the Transitions recipe on those cells, i.e. mandate the abstract scholarly register plus two misreading-fit distractors, as the analogue of what finally worked here.

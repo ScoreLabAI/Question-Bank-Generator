@@ -362,3 +362,15 @@ after two FLAGs. The consequence has to be a downstream action that does not par
 **Transitions: when a concession is followed by a return, name the anomaly in the blank sentence (run 160).** "______ landmark
 binding remains the best account" let "Therefore," reattach to an earlier supporting sentence. Rewording to "______ the Tessarun
 result does not displace landmark binding, which remains ..." tied the blank to the anomaly, and the item still calibrated Hard.
+
+## Run 161 additions
+
+**Transitions Hard: mandating only the two Hard relations works (run 161).** 8 abstract-register gens, each given a mandated key
+and misreading set from the run-159/160 findings: 6 calibrated Hard (45-49%), and all 8 passed the critic on the first pass.
+Concession-then-return was 4/4 Hard ("Even so," "Nevertheless," "Still," with a single quantitative anomaly right before the blank and
+a blank sentence that names it and gives its own "because" reason distinct from the earlier support). "By extension," and "More broadly,"
+were Hard. "Hence," was Hard when the prior "rather than" pseudo-contrast concerned a method and the consequence was two downstream
+effects. Two items went Medium: "More generally," (~54%), where "in any ... tradition ... may" made the widening explicit and only one
+distractor tempted, and "Thus," (~58%), a linear consequence whose sentence after the blank reinforced it. For a generalization key,
+keep the scope jump implicit (no "any"/"all" right after the blank) and make two distractors tempting. For a consequence key, give it
+two effects and let the pseudo-contrast carry the misreading.
