@@ -1495,3 +1495,8 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d3] Run 164: Pellamar Botanical Garden printed seed lists, Quenmoor hand-inked packets, sowing ledgers by packet number, print run = director's roll, engraved title page naming recipients; affirms peer standing
 - [Information and Ideas/Inferences, d3] Run 164: Quillmere College chained books with givers' brass plates, Dorrow College unchained, no losses chained or unchained, bequest-funded re-engraving; commemorates benefactors
 - [Information and Ideas/Inferences, d2] Run 164: Skelmoor Cooperative cheese-cellar rim notches, Penvar single-dairy cellar no notches, nine households' shared rows; identifies co-owner household
+- [Standard English Conventions/Form, Structure, and Sense, d3] Run 164: Daravine scriptoria copyists altering glosses on the Thessil grammar, noun-clause subject 'That ...' + singular 'suggests'
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 164: Vennholt Records Society 1887 flood audit, land-grant register, mandative subjunctive 'recommended that ... be moved'
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 164: Tarvell wool guild Halmsey inquiry 1874 copper seal, 'every ledger and every receipt ... was'
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 164: Halvesk survey 1952 flooded abbey cellar tithe cartulary, past perfect 'had lain'
+- [Standard English Conventions/Form, Structure, and Sense, d1] Run 164: Velkhov Philological Society dialect verb-ending classification 1904, collective noun 'its'
