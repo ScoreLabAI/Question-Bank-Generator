@@ -421,3 +421,26 @@ Adding "each stone bears exactly seven notches" (seven villages) gave a positive
 **Inferences: a key that depends on an unstated premise about the target site is under-supported (run 163).** An apothecary item's key
 (tint marks guild stock against unlicensed healers) required inferring that Marrowick HAD unlicensed healers from the fact that the
 comparison city barred them. State the target-site side of any contrast explicitly.
+
+## Run 164 additions
+
+**Inferences Hard: steering away from economic keys still works (run 164, 3 Hard of 4 surviving).** Keys steered to labor-time
+discipline (mill whistle, ~48%), institutional prestige (seed lists sent only to gardens already on the roll, ~46%) and donor
+commemoration (chained books with givers' plates, ~50%) all reached Hard. The co-owner-identification key went Medium (~56%) because
+the stem said "each household cutting a pattern of its own into its wheels", which nearly states the key.
+
+**Inferences: an "it was already X before the signal" detail must show the THING the distractor names was already running (run 164).**
+"Steam was already up twenty minutes before the first blast" did not kill "cue the engine room to start the machinery", because
+raising steam normally precedes starting the engine. "The engine already turning twenty minutes before the first blast and running
+on after the closing one" did.
+
+**Inferences: a training/skill-transmission key competes with an inspection distractor (run 164, discarded item).** A proof sheet that
+a journeyman marks with errors reads as quality control as easily as teaching. Two fixes in a row left inspection arguable. If you use
+a training key, the passage must say whose work the marks were on AND that the object inspected was already approved.
+
+**FSS Hard: the first Hard item came from a noun-clause subject (run 164, ~50%).** "That the copyists ... altered dozens of glosses
+... to reconcile conflicting dialect forms ______ that ..." with choices suggest / to suggest / suggesting / suggests. The subject's
+number is carried by no noun, plural nouns sit right before the blank, and the plural "suggest" sounds right by ear. Replacing a
+second plural-verb distractor ("have suggested") with a non-finite one ("to suggest") follows the run-155 rule. Rules students know
+by name stayed Medium even when the key sounds odd: mandative subjunctive "be moved" (~55%), "every X and every Y ... was" (~58%),
+"had lain" (~60%). A collective noun with "whose members" before the blank went Easy (~80%).

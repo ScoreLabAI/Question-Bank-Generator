@@ -2378,3 +2378,55 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Skill files changed: references/item-design-rules.md (run-163 additions: shape confirmed with the Hard vs Medium separators, steering key types across a wave, dangling "by contrast", co-occurrence keys need a positive link, state the target-site side of a contrast). Review queue: run-163 entry added.
 - Setup: needed `python3 -m pip install matplotlib numpy --ignore-installed pillow` again.
 - Token usage: subagents about 1.57M tokens total (Sonnet: 8 gen ~572k, 14 critic incl. 6 re-critiques ~870k, 2 calibrate ~128k).
+
+## Run 164 - 2026-11-13
+- **Cell selection:**
+  - Inferences d3 (7/10) was the only partially done pending cell, so it went first. It needed 3, and 5 gens were run.
+  - With ~5 questions of budget left, the next pending cell in file order was FSS d3 (0/10, untouched since run 157). It got 5 gens.
+  - RS d3 was not touched.
+- **Inferences d3: needed 3, got 3. Now 10/10 and DONE.**
+  - 5 gens used the run-162/163 three-detail undercut shape. Each was given a different non-economic key type.
+  - Hard:
+    - Garrowby mill whistle marking paid working time: ~48%, key C.
+    - Pellamar seed lists affirming peer standing: ~46%, key B.
+    - Quillmere chained books commemorating givers: ~50%, key D.
+  - Medium, banked as d2 overshoot (Inferences d2 is now 40): Skelmoor cheese notches identifying the co-owner household, ~56%, key B.
+  - Discarded: Vandrel proof sheets (training key).
+    - First FLAG: an inspection distractor was defensible. The passage was fixed so apprentices pulled sheets from long-used matrices.
+    - The re-critique FLAGged again: inspection was still weakly arguable, because the journeyman's marks were not tied to the apprentices.
+    - It was discarded under the two-failure rule.
+- **Inferences critic results:**
+  - G4 (Pellamar): FLAG for explanation wording only. The explanations for A and D were fixed and a stem clause polished. No re-critique was needed.
+  - G2 (Skelmoor): FLAG for wording. The stem's "same" was given a referent, and the A and C explanations were rewritten. The ownership clause was also made less explicit.
+  - G5 (Quillmere): FLAG for an ambiguous "a decade earlier", a non-diagnostic inventory clue and an ambiguous "requested".
+    - Fixes: "recent acquisitions"; "inventories record no loss, chained or unchained"; "consulted"; and the "daily use" wording dropped from D.
+    - Re-critique: PASS.
+  - G3 (Garrowby): FLAG because the engine-start distractor was defensible and the valve sentence was incoherent.
+    - The engine was set running before and after the blasts, and the whistle maintenance was rewritten.
+    - The re-critique FLAGged only minor wording: "town clock", dropping "Each October", "keep its timing set", and the A explanation. These were applied as advisory (see review queue).
+  - Renames: Pellwick became Garrowby (it clashed with Pellamar in the same run). Dunhallow became Ellisford (already logged in run 163).
+  - Key lengths were adjusted so no key was the longest choice: G3 C and G5 D were shortened.
+- **FSS d3: needed 10, got 1 (now 1/10, the first Hard ever for this cell). Still pending.**
+  - Hard: the Daravine noun-clause subject item ("That the copyists ... ______" -> "suggests"), ~50%.
+  - Banked as d2 (FSS d2 is now 26):
+    - Vennholt mandative subjunctive "be moved": ~55%. The calibrator said "honest at 3, borderline", but it was banked d2 conservatively (see review queue).
+    - Tarvell "every ledger and every receipt ... was": ~58%.
+    - Halvesk "had lain": ~60%.
+  - Banked as d1 (FSS d1 is now 14): Velkhov Society "its", ~80%.
+- **FSS critic results:** all 5 PASSed on the first pass. Before critique, the orchestrator changed F1 from "move" to the passive "be moved", because a register does not move itself. Advisory distractor swaps after critique:
+  - F2: "have suggested" became "to suggest", so two distractors no longer failed for the same reason. The key moved from C to D.
+  - F4: "one's" became "it's".
+  - F5: "had lied" became "has lain".
+- **Calibration:** 2 batched calls, Inferences (4 items) and FSS (5 items).
+- **Validation and merge:**
+  - validate_batch passed: Inferences d3 3/3, d2 1/1; FSS d3 1/1, d2 3/3, d1 1/1.
+  - Master grew from 1475 to 1484.
+  - Two commits were pushed, one after each cell.
+- **Skill files changed:**
+  - references/item-design-rules.md: run-164 additions covering non-economic Inferences keys, the "already running" rival-killer, the training-vs-inspection trap, and the FSS noun-clause Hard shape.
+  - Review queue: run-164 entry added.
+- **Setup:** needed `python3 -m pip install matplotlib numpy --ignore-installed pillow` again.
+- **Token usage:** subagents used about 1.72M tokens total, all Sonnet:
+  - 10 gens: ~760k.
+  - 13 critiques, including 3 re-critiques: ~835k.
+  - 2 calibrations: ~129k.
