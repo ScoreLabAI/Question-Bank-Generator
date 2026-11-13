@@ -1520,3 +1520,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 166: Ternvale uplands longhouse steep roofs snow shedding 1790s, that-clause + 'was among the chief reasons'
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 167: Karsemi caves sandstone figures 1908 survey, who-clause subject + 'has remained an open question'
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 167: Veshtari Plateau lapis beads, Calvessa river traders, where-clause subject + 'has puzzled archaeologists since the 1870s'
+- [Expression of Ideas/Rhetorical Synthesis, d3] Run 167: Kelvard Array tidally locked red-dwarf planets night-side cold trap, Marrowen hypothesis qualified (thin vs thick atmospheres)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 167: paired-reflex dating of language divergence, constant retention rate limitation vs no-written-records usefulness (concession mirror)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 167: Ostrell (guild tax ledgers) and Ferreby (oral histories), Orrin Basin weaving households, same conclusion
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 167: Halvorn Fugues Wolmar vs pupil Linne attribution, Dellacroft multispectral imaging of scraped notation
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 167: Teshwater basin guild market halls, open arcades vs walled Ketterby floodplain hall (generalization + exception)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 167: Dessarow Terrace hearth arc, Peskin shared-meal layout vs Dosseh gradual build-up (two readings of one piece of evidence)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 167: Ostrowe Brannock Cognition Lab background speech and reading comprehension, ages 60-75 (finding + population/setting)
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 167: Marrel newts in saline high-altitude ponds, antifreeze glycoprotein vs ruled-out fat layer (explain why)
