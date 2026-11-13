@@ -1518,3 +1518,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Standard English Conventions/Form, Structure, and Sense, d3] Run 166: Vesperin tin mines Orlith workshop bronze ingots, which-clause subject + 'has puzzled'
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 166: Ombrisk coast dyers fermented bark liquor reds, that-clause + 'not only explains ... but also clarifies'
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 166: Ternvale uplands longhouse steep roofs snow shedding 1790s, that-clause + 'was among the chief reasons'
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 167: Karsemi caves sandstone figures 1908 survey, who-clause subject + 'has remained an open question'
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 167: Veshtari Plateau lapis beads, Calvessa river traders, where-clause subject + 'has puzzled archaeologists since the 1870s'
