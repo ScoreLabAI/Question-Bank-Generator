@@ -1491,3 +1491,7 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 163: Haldrenne coppersmiths' guild lead seals on kettles, fixed seasonal allotment, Ostrevik unsealed; seals as cap on total sales
 - [Information and Ideas/Inferences, d2] Run 163: Tarnmoor ore district numbered brass miners' tokens chalked on tubs, Lowgill foreman's list; tokens tie output to weighing
 - [Information and Ideas/Inferences, d2] Run 163: Marrowick apothecaries' amber/green tinted bottles, Dunhallow plain glass and barred unlicensed healers; tint marks guild stock
+- [Information and Ideas/Inferences, d3] Run 164: Garrowby spinning-mill steam whistle, Ellisford piece-wage mill no whistle, engine turning before/after blasts, owners pay to reset blast times; marks paid working time
+- [Information and Ideas/Inferences, d3] Run 164: Pellamar Botanical Garden printed seed lists, Quenmoor hand-inked packets, sowing ledgers by packet number, print run = director's roll, engraved title page naming recipients; affirms peer standing
+- [Information and Ideas/Inferences, d3] Run 164: Quillmere College chained books with givers' brass plates, Dorrow College unchained, no losses chained or unchained, bequest-funded re-engraving; commemorates benefactors
+- [Information and Ideas/Inferences, d2] Run 164: Skelmoor Cooperative cheese-cellar rim notches, Penvar single-dairy cellar no notches, nine households' shared rows; identifies co-owner household
