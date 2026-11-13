@@ -467,3 +467,22 @@ Salt Flats" read notionally as a set of letters. Adding a head noun ("book-lengt
 calibrator called "it + verb" and the bare participle "obvious eliminations" every time. The two Hard items in this run used a tense
 or voice distractor ("divided", "has been divided") or a plural lure that sounds right by ear. Also, "it + verb" after a fronted phrase
 needs an explanation that names the dangling or unattached phrase, not only a "redundant subject".
+
+## Run 166 additions
+
+**FSS Hard: interrogative noun clauses plus a tense-locking time cue (run 166, 6 Hard of 8).** Why/Whether/When/How/Which-clause
+subjects all reached Hard (~50-54%) when a cue fixed the tense ("ever since ... the 1950s", "since the 1930s", "Until ... was published
+in 2020", "in the four centuries since") and a second distractor was a tense or voice error ("had puzzled", "has documented" with no
+object). "Which of the three X ..." also works. A "That" clause went Medium once a second visible rule gave it away: "not only
+explains ... but also ______" (parallelism, ~65%), or a plural complement after the blank ("among the chief reasons", ~58%).
+
+**FSS: soft present cues leave the simple past defensible (run 166).** "Even today" let "was never settled" pass ("never solved, even
+today"), and a fronted "In 2019," let "is the question the survey set out to answer" pass. Use a since-phrase or an until-clause, which
+grammatically requires the perfect or the past.
+
+**FSS: a sentence-initial "That + adjective + noun" reads as a demonstrative (run 166).** "That heavy snow slid off ... ______" let the
+non-finite "being" stand as a trailing participle ("That heavy snow slid ..., being among the reasons"). With a That-clause subject,
+make all four choices finite. Under the demonstrative parse every finite choice then fails, so only the noun-clause parse survives.
+
+**FSS: "both" after an object pronoun creates a garden path (run 166).** "...before mordanting them both explains" reads as "them
+both". Use "not only ... but also", or avoid the correlative.

@@ -2494,3 +2494,60 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
   - 10 gens: ~714k.
   - 14 critiques: ~876k.
   - 2 calibrations: ~122k.
+
+## Run 166 - 2026-11-13
+- **Timestamp:** fired 2026-11-13 15:53 UTC (scheduled for 15:48).
+- **Cell selection:**
+  - Only 2 pending cells remain: FSS d3 (3/10, partly done) and RS d3 (0/10).
+  - FSS d3 went first. It needed 7; 8 Hard-targeted gens were run, each mandated a different noun-clause type or predicate (Why / Whether-A-or-B / That + compound predicate / When / How + passive / Whether + perfect passive / Which-of-the-three / That + plural complement).
+  - RS d3 was not touched (run scope cap of ~10).
+- **FSS d3: needed 7, got 6 (now 9/10). Still pending, needs 1 more.**
+  - Hard:
+    - Mordath Ridge why-clause "remains": ~52%.
+    - Marrick Pond whether-or clause "was": ~50%.
+    - Tolmeri when-clause "has been": ~50%.
+    - Oruvian starlings how-clause "has been documented": ~52%.
+    - Threnholm whether-clause "has never been settled": ~54%, borderline; the calibrator said honest 3.
+    - Vesperin which-clause "has puzzled": ~50%.
+  - Banked as d2 overshoot (FSS d2 is now 35):
+    - Ombrisk that-clause "not only explains ... but also clarifies": ~65%.
+    - Ternvale that-clause "was among the chief reasons": ~58%.
+- **Critic results:** 13 critiques in total (8 first-pass, 5 re-critiques). 0 discards.
+  - g2: FLAGged because a fronted "In 2019," left "is" defensible.
+    - Reframed with "Until a ... survey ... was published in 2020" and "the pond's juvenile crayfish" (a plural lure before the blank).
+    - Re-critique: PASS.
+  - g3: FLAGged for a "them both explains" garden path, and because "has clarified" was defensible.
+    - Changed to "not only ... but also", and D became "clarifying".
+    - Re-critique: PASS, with polish to the C explanation.
+  - g4: FLAGged because "was long" was defensible and the "Consequently ... long" logic clashed.
+    - Rewritten with "As a result" and "ever since the earliest of those dates was published in the 1950s"; choices became have been/had been/was/has been.
+    - The re-critique caught an orchestrator agreement slip ("the earliest ... were"), fixed to "was" as an advisory fix.
+  - g6: PASS, but the critic called "was never settled, even today" weakly defensible.
+    - Hardened to "in the four centuries since".
+    - Re-critique: PASS.
+  - g8: FLAGged because "being" was defensible under a demonstrative "That heavy snow" parse.
+    - D became the finite "have been".
+    - Re-critique: PASS, with polish to the key explanation.
+  - g1, g5, g7: PASS first time. g1 needed a fix to the B explanation.
+  - Pre-critique fixes by the orchestrator:
+    - g7's D "has been puzzled" became "had puzzled", so the set wouldn't clone the banked luthiers item's distractors.
+    - g5's A explanation wrongly called "departure" plural.
+- **Renames before critique:** "Quillane" (already logged) became "Ombrisk", and "Corvane" (already logged) became "Ternvale".
+- **Generator output normalized:** g2 came back in a non-schema shape (passage/choices fields) and was normalized by the orchestrator.
+- **Key skew:** d3 had C=3, so g7 was swapped A<->C. d2 was B=2, so g8 was swapped A<->B. Final keys: d3 C,D,D,B,C,A; d2 B,A.
+- **Calibration:** 1 batched call covering all 8 items.
+- **Validation and merge:**
+  - validate_batch passed: d3 6/6, d2 2/2.
+  - Master grew from 1494 to 1502.
+  - Pushed after the merge.
+- **Skill files changed:** references/item-design-rules.md got run-166 additions:
+  - Interrogative noun clauses + a tense-locking cue.
+  - Soft present cues leave the simple past defensible.
+  - "That + adjective + noun" reads as a demonstrative.
+  - The "them both" garden path.
+- **Queued:** nothing.
+- **Setup:** needed `python3 -m pip install matplotlib numpy --ignore-installed pillow` again.
+- **Token usage:** subagents used about 1.45M tokens total, all Sonnet:
+  - 8 gens: ~580k.
+  - 13 critiques: ~807k.
+  - 1 calibration: ~63k.
