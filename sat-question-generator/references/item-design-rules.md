@@ -444,3 +444,26 @@ number is carried by no noun, plural nouns sit right before the blank, and the p
 second plural-verb distractor ("have suggested") with a non-finite one ("to suggest") follows the run-155 rule. Rules students know
 by name stayed Medium even when the key sounds odd: mandative subjunctive "be moved" (~55%), "every X and every Y ... was" (~58%),
 "had lain" (~60%). A collective noun with "whose members" before the blank went Easy (~80%).
+
+## Run 165 additions
+
+**FSS Hard: the noun-clause subject family is the one reliable Hard lever (run 165).** Run 164's "That ..." clause was joined by a
+"Whether ..." clause (~52%, mangrove propagules "... ______ largely on" -> "depends") and a "How ..." clause with a present-perfect cue
+in the main clause (~52%, "... ______ musicologists for more than a century now" -> "has divided"; distractors have divided / divided /
+has been divided). Shapes that put a number-carrying noun at the head of the subject went Medium even when the noun was hidden:
+gerund subject (~60%), "the only one of ... that" (~58%), fronted-adjective inversion (~58%), fraction + noncount noun (~58%), "to
+whoever" (~56%). A one-person "the designer and chief engineer, [name]," compound subject went Easy (~85%), because the name gives it away.
+
+**FSS: avoid "What"-clause subjects (run 165).** A free relative "What the engineers learned ... ______" was FLAGGED because "what" can be
+notionally plural, so "have shaped" is defensible. Use That/Whether/How clauses, which are always singular.
+
+**FSS: an infinitive subject invites a purpose-phrase parse (run 165).** "To reconstruct X ______ careful filtering" let "it requires"
+stand as "To reconstruct X, it requires ..." (an expletive "it" with a fronted purpose phrase). A gerund subject removes that parse.
+
+**FSS: a plural-form title alone is not a safe singular subject (run 165).** The critic defended a plural verb with "Letters from the
+Salt Flats" read notionally as a set of letters. Adding a head noun ("book-length poem") fixes it, but that also makes the item Medium.
+
+**FSS: limit the {plural lure, -ing participle, "it" + verb} distractor template (run 165).** Four of ten drafts converged on it, and the
+calibrator called "it + verb" and the bare participle "obvious eliminations" every time. The two Hard items in this run used a tense
+or voice distractor ("divided", "has been divided") or a plural lure that sounds right by ear. Also, "it + verb" after a fronted phrase
+needs an explanation that names the dangling or unattached phrase, not only a "redundant subject".

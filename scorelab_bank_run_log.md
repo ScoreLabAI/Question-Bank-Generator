@@ -2430,3 +2430,67 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
   - 10 gens: ~760k.
   - 13 critiques, including 3 re-critiques: ~835k.
   - 2 calibrations: ~129k.
+
+## Run 165 - 2026-11-13
+- **Cell selection:**
+  - Only 2 pending cells remain: FSS d3 (1/10, partly done) and RS d3 (0/10).
+  - FSS d3 went first. It needed 9; 10 Hard-targeted gens were run, each with a different mandated hidden-number shape.
+  - RS d3 was not touched.
+- **FSS d3: needed 9, got 2 (now 3/10). Still pending.**
+  - Hard:
+    - Pelluma whether-clause "depends": ~52%.
+    - Ostrazzo how-clause "has divided": ~52%.
+  - Banked as d2 overshoot (FSS d2 is now 33):
+    - Kessmar "knowledge ... has shaped": ~72%.
+    - Radar songbirds gerund "requires": ~60%.
+    - Selvik-7 "the only one ... that has shown": ~58%.
+    - Ilango book-length poem "traces": ~68%.
+    - Orrenvale inversion "was": ~58%.
+    - Tavish two-thirds of sediment "was laid": ~58%.
+    - Ravelstane "to whoever": ~56%.
+  - Banked as d1 overshoot (FSS d1 is now 15): Rahimova one-person compound "was awarded", ~85%.
+- **Critic results:** 14 critiques in total (10 first-pass, 4 re-critiques). 0 discards.
+  - g2 (what-clause): FLAGged because a notional-plural "what" made "have shaped" defensible.
+    - Rewritten with the subject "The knowledge the engineers gained ...".
+    - Re-critique: PASS. Explanation polish was applied.
+  - g3 (infinitive subject): FLAGged because "it requires" was defensible as purpose phrase + expletive.
+    - Rewritten as a gerund subject, and "thrushes" became "songbirds" (radar can't identify species).
+    - Re-critique: PASS, with a fix to the B explanation (the finite verbs "produce" and "can be drawn").
+  - g4 ("the only one"): FLAGged because "since 2019" sat inside a participial phrase, so "showed" could stand.
+    - The cue was moved into the blank's clause.
+    - Re-critique: PASS, with a fix to the D explanation (relative clause, not fragment).
+  - g5 (plural title): FLAGged because a notional plural "Letters" was defensible and the comparison was faulty.
+    - Fixes: "book-length poem" added; the ending became "unlike her first book, a collection of discrete lyrics".
+    - Re-critique: PASS.
+  - g7 (inversion): FLAGged because "Equally surprising" had no prior surprise.
+    - The first sentence now reads "were surprised to find most of the caverns dry despite the region's heavy rainfall".
+    - Re-critique: PASS, with a fix to the C explanation.
+  - g10: FLAGged for a relay (team event) awarding an individual. "Relay" became "Trial" as an advisory fix, with no re-critique since the key was unaffected.
+  - g1: PASS. Advisory wording was applied: "remain stranded", plus the D explanation.
+  - g6, g8, g9: PASS first time.
+  - Pre-critique fix by the orchestrator: g6's D "awarded" (a finite active verb) became "being awarded".
+- **Renames before critique:**
+  - "Tessaly" became "Pelluma" (Tessaly was already logged and is too close to Thessaly).
+  - "Kessarin-9" became "Selvik-7" (too close to Kessmar in the same run; Orvane was already logged).
+  - "Quillaro" became "Ostrazzo" (too close to Quillmere).
+  - "violas d'amore" became "instruments".
+  - "Corvane Fells" became "Kelthorn Fells" (Corvane was logged), and "Ashgill" (a real place) became "Ravelstane".
+  - The asterisk italics in the title were changed to quotes, to match the bank's convention.
+- **Key skew:** the d2 batch had B=4. The g4 and g7 choices were swapped A<->B, moving the key letters in the explanations with them.
+- **Calibration:** 2 batched calls, 5 items each.
+- **Validation and merge:**
+  - validate_batch passed: d3 2/2, d2 7/7, d1 1/1.
+  - Master grew from 1484 to 1494.
+  - Pushed after the merge.
+- **Skill files changed:** references/item-design-rules.md got run-165 additions:
+  - The noun-clause Hard family.
+  - Avoid what-clauses.
+  - The infinitive purpose-phrase parse.
+  - Plural-title notional agreement.
+  - Limit the {plural, -ing, it+verb} distractor template.
+- **Queued:** nothing.
+- **Setup:** needed `python3 -m pip install matplotlib numpy --ignore-installed pillow` again.
+- **Token usage:** subagents used about 1.71M tokens total, all Sonnet:
+  - 10 gens: ~714k.
+  - 14 critiques: ~876k.
+  - 2 calibrations: ~122k.
