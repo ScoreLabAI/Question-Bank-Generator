@@ -486,3 +486,29 @@ make all four choices finite. Under the demonstrative parse every finite choice 
 
 **FSS: "both" after an object pronoun creates a garden path (run 166).** "...before mordanting them both explains" reads as "them
 both". Use "not only ... but also", or avoid the correlative.
+
+## Run 167 additions
+
+**FSS noun-clause subjects: a singular predicate noun after the blank gives the number away (run 167).** "Who carved the
+figures ... ______ an open question for more than a century now" calibrated ~62%, because the singular complement "an open
+question" signals a singular verb. Use a transitive predicate with a PLURAL object ("has puzzled archaeologists"). A
+"Where"-clause with that fix still came out at ~58%: "Where ..." reads as one obvious unit. "Which of the three ..." and
+"Whether ..." clauses remain the most reliable Hard shapes.
+
+**Rhetorical Synthesis emphasis: "X, but Y" does not decide emphasis firmly enough to be a wrong answer (run 167).** A critic
+defended "usefulness, but limitation" as acknowledging the limitation while emphasizing usefulness, because the sentence
+LEADS with the usefulness. A strict mirror pair works: "Although [limitation], [usefulness]" (key) against
+"Although [usefulness], [limitation]". Likewise, a trailing participle ("..., concluding that ...") can carry sentence-final
+emphasis. Don't use it as the only failure of a rival that contains every goal element.
+
+**Rhetorical Synthesis: "conditions" in a goal is ambiguous with procedural study conditions (run 167).** "Indicating the
+conditions under which it was observed" let a scheduling and randomization rival count. Name what you mean: "the population
+and setting in which the finding was observed". Avoid "applies to", which overstates what a study that tested one group shows.
+
+**Rhetorical Synthesis Hard: the first Hard RS item came from a STANCE goal (run 167).** "Present the findings as a
+qualification of, rather than a refutation of, X's hypothesis" calibrated ~50%. All four choices carried the same accurate
+data and differed only in how they related it to the prior claim: contradict / consistent only under one condition (key) /
+confirm / neutral report that includes the cause but takes no stance. Goals that name a structural element (a limitation, a
+conclusion, conditions, interpretations, a cause) stayed Medium (55-74%) even with mirror-image rivals, because the key
+can be found by checking which choice has the named element. Physical facts in dressed notes need a check too: fresh
+pond water cannot stay liquid below 0 °C, so a sub-zero setting needs saline water.

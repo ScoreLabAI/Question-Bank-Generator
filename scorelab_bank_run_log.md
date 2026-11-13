@@ -2551,3 +2551,39 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
   - 8 gens: ~580k.
   - 13 critiques: ~807k.
   - 1 calibration: ~63k.
+
+## Run 167 - 2026-11-13
+- **Cells worked:**
+  - FSS d3 (needed 1): 2 Hard-targeted gens, 0 Hard. Both were banked d2, so the cell is still 9/10.
+    - Who-clause "Who carved the figures ... ______ an open question for more than a century now" (Karsemi caves) came in at ~62%. The singular complement gives the number away.
+    - Where-clause "Where the Calvessa river traders ... obtained the lapis beads ... ______ archaeologists since the 1870s" came in at ~58%, borderline, and was banked d2 conservatively.
+    - Both passed critique first time, with explanation-only fixes.
+  - Rhetorical Synthesis d3 (needed 10): 8 Hard-targeted gens with a different framing/emphasis shape each. **1 HARD, the first ever for this cell:** a qualification-vs-refutation stance goal (Kelvard Array planets, ~50%). The cell is now 1/10.
+    - 6 were banked d2 (overshoot) and 1 was banked d1 (overshoot).
+- **Critic FLAGs, all fixed and re-critiqued PASS:**
+  - G1, concession: "X, but Y" was defensible. The generator rewrote it as a strict "Although" mirror.
+  - G3, different evidence/same conclusion: the participial-conclusion rival was defensible. It was replaced with a no-conclusion rival.
+  - G5, newts: freshwater below -1 °C was physically impossible, and the causal claim was not entailed. Fixed with saline ponds and an explicit "concluded ... is what keeps the blood from freezing" note.
+  - G8, scope: "conditions" let the procedural rival count. The goal was reworded to "population and setting in which the finding was observed".
+- **Explanation-only and advisory fixes:**
+  - G2: A explanation corrected.
+  - G4: key explanation's "main clause" claim corrected, and the stilted "bore on" rival changed to "helped address".
+  - G6: key explanation corrected.
+  - G7: D tightened (dropped "rejecting his view") and gendered pronoun removed.
+- **Renames:**
+  - Tamsin -> Kelvard and Orvane -> Marrowen (both already in the log).
+  - Rennick -> Ostrell (too close to logged Brennick).
+  - Halvard -> Corwin and Tessaly -> Brannock (both logged).
+- **Discards:** none.
+- **Key balance:** the d2 batch came back C-heavy. G1 was swapped A<->C, G4 C<->D and G7 C<->D. Final d2 keys: A, C, D, B, D, C.
+- **Calibration:** 1 FSS call each for the 2 FSS items, and 1 batched call for the 8 RS items.
+- **Validation and merge:** validate_batch passed on every batch (fss d2 2/2, rs d3 1/1, rs d2 6/6, rs d1 1/1). Master grew from 1502 to 1512. Pushed after each cell.
+- **Skill files changed:** references/item-design-rules.md got the run-167 additions:
+  - The FSS singular-complement giveaway.
+  - In RS, "X, but Y" and trailing participles don't decide emphasis.
+  - The RS "conditions" ambiguity.
+  - The RS Hard lever is a stance/framing goal, plus a physical-fact check.
+- **Queued:** nothing new. The open proposals (a)-(d) for RS d3 still stand. The stance-goal shape is a new lead and could be mandated for every RS d3 gen next run.
+- **Token usage:** subagents used about 1.85M tokens total, all Sonnet:
+  - FSS: 2 gens + 2 critics + 2 calibrations, ~0.41M.
+  - RS: 8 gens + 1 regen, ~0.66M; 8 critiques + 3 re-critiques, ~0.70M; 1 batched calibration, ~0.07M.
