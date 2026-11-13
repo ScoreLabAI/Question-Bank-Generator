@@ -399,3 +399,25 @@ even faster", but the passage attributed the intruder surge to a neighboring fig
 cutwaters really do deflect logs, so "keep rafts moving" was partly defensible until a wear detail (points recut every spring) was
 added to separate impact damage from passage of logs. When the key and a distractor share a real-world mechanism, add one passage
 detail that only the key explains.
+
+## Run 163 additions
+
+**Inferences Hard: the three-detail undercut shape is now confirmed (run 163, 5 Hard of 8).** All 8 gens were mandated to the run-162
+shape. Five calibrated Hard (~45-50%), three Medium (~52-57%). What separated them: Hard items had an abstract key whose decisive
+support was a QUIET detail (a fair copy sent to accounts, councils paying to recut dies, a boundary road lit with no traffic), and each
+distractor was defeated by a different detail. The Medium items had either a key that echoed an explicit passage phrase ("said nothing
+about how much to take") or two distractors that each died on a single explicit sentence ("inspectors never checked what a bottle held").
+Assign each generator a different subject area AND steer the key type (economic vs jurisdictional vs civic/status) so a wave of keys
+does not all converge on "fees/revenue" (wave 1 of run 163 did).
+
+**Inferences: a "by contrast" rival-killer must name what it contrasts with (run 163).** Two critics flagged a dangling "by contrast"
+after a sentence about a different entity (e.g. "Highland inspectors, by contrast," directly after a sentence about the lowland post).
+Use "meanwhile" or attach the contrast explicitly.
+
+**Inferences: a co-occurrence-only key needs one positive link (run 163).** A millstone-notch key (notches encode the villages'
+grinding order) rested only on Tarsen having both a fixed order and notches while Dovrel had neither; the critic called it a leap.
+Adding "each stone bears exactly seven notches" (seven villages) gave a positive link and the item still calibrated ~50%.
+
+**Inferences: a key that depends on an unstated premise about the target site is under-supported (run 163).** An apothecary item's key
+(tint marks guild stock against unlicensed healers) required inferring that Marrowick HAD unlicensed healers from the fact that the
+comparison city barred them. State the target-site side of any contrast explicitly.

@@ -1483,3 +1483,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Information and Ideas/Inferences, d2] Run 162: Critic Matias Orrego on poet Rosalba Cienfuegar striking place names only from village poems while adding a green-shuttered pharmacy
 - [Information and Ideas/Inferences, d2] Run 162: Ethologist Danuta Moravec, sunbird territory defense on Tamsari Ridge, richest patch beside fruiting fig tree shows low chasing
 - [Information and Ideas/Inferences, d2] Run 162: Political scientist Lucinda Orfeyev, Carrowick council named-vote bulletin and cross-bloc co-sponsors; Pellory salt guild named minutes vs Orsk sealed ballot
+- [Information and Ideas/Inferences, d3] Run 163: Corrastane Roads harbor mole bell tolled only with pilot cutter present, Merholt no bell, pilots' guild fee per anchored ship; bell as fee-securing device
+- [Information and Ideas/Inferences, d3] Run 163: Karsmere Railway telegraph minute-by-minute log only for fee-paying private senders, Dessane line none, fair copy to accounts; record of service to paying customers
+- [Information and Ideas/Inferences, d3] Run 163: Hallowmere numbered iron lamp posts only inside charter, Dunnock Ford unlit, boundary road kept lit, numbered from charter stone; display of council jurisdiction
+- [Information and Ideas/Inferences, d3] Run 163: Tarsen valley millstone rim notches recut each dressing, seven notches for seven villages' fixed grinding order, Dovrel no notches
+- [Information and Ideas/Inferences, d3] Run 163: Veskerran highland post twelve-petal handstamp, Karrow plain name stamp, transit logs ignore mark, town councils pay to recut dies; civic emblem
+- [Information and Ideas/Inferences, d2] Run 163: Haldrenne coppersmiths' guild lead seals on kettles, fixed seasonal allotment, Ostrevik unsealed; seals as cap on total sales
+- [Information and Ideas/Inferences, d2] Run 163: Tarnmoor ore district numbered brass miners' tokens chalked on tubs, Lowgill foreman's list; tokens tie output to weighing
+- [Information and Ideas/Inferences, d2] Run 163: Marrowick apothecaries' amber/green tinted bottles, Dunhallow plain glass and barred unlicensed healers; tint marks guild stock

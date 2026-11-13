@@ -2348,3 +2348,33 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - Skill files changed: references/item-design-rules.md (run-162 Inferences Hard shape; true-restatement distractor; key must name the actual cause; shared-mechanism distractor). Review queue: run-162 entry added. FSS d3 and RS d3 still await a human decision.
 - Setup: again needed `python3 -m pip install matplotlib numpy` plus `--ignore-installed pillow`.
 - Token usage: subagents about 1.75M tokens total (Sonnet: 8 gen ~654k, 11 critic incl. 3 re-critiques ~690k, 2 calibrate ~125k).
+
+## Run 163 - 2026-11-13
+- Cell selection: Inferences d3 (2/10) was the only partially done pending cell, so it went first. 8 gens in two waves of 4, all mandated to the run-162 three-detail undercut-received-account shape, each with a different subject area. Wave 2 was also steered away from economic keys, because all four wave-1 keys landed on fees, revenue, quotas or pay.
+- Cell worked: reading_writing / Information and Ideas / Inferences d3. Needed 8, got 5 Hard (now 7/10, still pending). 3 were banked as d2 overshoot (Inferences d2 is now 39).
+  - Corrastane Roads harbor bell / pilots' guild fees: ~48%, d3.
+  - Karsmere Railway telegraph minute log for fee-paying senders: ~45%, d3.
+  - Hallowmere charter-boundary lamp posts as a display of jurisdiction: ~46%, d3.
+  - Tarsen millstone rim notches for the villages' grinding order: ~50% (borderline, calibrator verdict 3), d3.
+  - Veskerran postal handstamp as a civic emblem: ~47%, d3.
+  - Haldrenne coppersmith seal quota: ~52%, d2.
+  - Tarnmoor miners' tokens tied to weighing: ~57%, d2.
+  - Marrowick apothecary tinted glass vs unlicensed healers: ~55%, d2.
+- Critic: 2 PASS on the first pass (G3, G5). There were 6 FLAGs, each fixed in place with the critic's wording and re-critiqued:
+  - G1: the pilots-called-out distractor was defensible, so a cutter-log detail was added and the cutter/pilots-ashore wording aligned. Re-critique PASS.
+  - G2: the key said "each workshop's sales limit", but seals could be traded between masters, so it became a total cap. Re-critique PASS.
+  - G4: the anti-theft distractor was defensible, so the theft-inspection detail was made explicit (also done at Lowgill). The weak "tub order" distractor became a work-roster misreading. Re-critique PASS.
+  - G6: the key depended on an unstated premise (unlicensed healers in Marrowick), so it was stated, the dangling "by contrast" removed, and D reworded. Re-critique PASS.
+  - G7: the key was a co-occurrence-only leap, so "exactly seven notches" and "same full depth however worn" were added. Re-critique PASS.
+  - G8: B and C were defensible, so the Karrow stamp now bears the full name, the delivery logs became transit logs, and councils commissioned the designs. The re-critique FLAGged again, but only as minor: "civic standing" overstated, D's since-clause echoed the passage, and the explanation counted details wrong. The critic said only D had a real case. These were treated as advisory and applied without a third critique (see review queue). There were no regenerations or discards.
+- Advisory fixes, applied without re-critique:
+  - G3: "fee-paying" added to the private senders, and the B choice and explanation tightened.
+  - G5: the outer road is placed on the charter boundary, the watch reports were added, and the D explanation was fixed.
+  - Smaller explanation fixes on G2, G4, G6, G7.
+- Renames: "Tessaly Roads" became Corrastane Roads and "Quillon" became Merholt (both already logged). "Orvane" became Veskerran (Orvane was logged in run 161).
+- Calibration: 2 batched calls of 4 items each.
+- Keys: d3 C, D, C, B, D. d2: D, B, D.
+- validate_batch passed 5/5 (d3) and 3/3 (d2). Master 1467 -> 1475. Tracker: Inferences d3 2->7, d2 36->39.
+- Skill files changed: references/item-design-rules.md (run-163 additions: shape confirmed with the Hard vs Medium separators, steering key types across a wave, dangling "by contrast", co-occurrence keys need a positive link, state the target-site side of a contrast). Review queue: run-163 entry added.
+- Setup: needed `python3 -m pip install matplotlib numpy --ignore-installed pillow` again.
+- Token usage: subagents about 1.57M tokens total (Sonnet: 8 gen ~572k, 14 critic incl. 6 re-critiques ~870k, 2 calibrate ~128k).
