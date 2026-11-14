@@ -2747,3 +2747,32 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
   - 10 gens: ~0.72M
   - 10 critiques + 6 re-critiques: ~1.05M
   - 5 calibration calls: ~0.31M
+
+## Run 172 - 2026-11-14 (scheduled)
+- **Cell worked:** Reading & Writing / Expression of Ideas / Rhetorical Synthesis / d3. It was the only pending cell (7/10). It needed 3 and got 3 Hard, so it is now **10/10, done**. **Every cell in the tracker is now done or complete: the bank is finished.** The next run should log "Bank complete, no pending cells".
+- **Gens:** 10, all to the effect + "because" mechanism + separate-proxy shape. G1-G7 used a variety of proxies. After the first critiques and calibrations, G8-G10 were mandated to use proxies whose link to the mechanism can be inferred from the task's procedure.
+- **Hard -> d3 (3):**
+  - Tennick drivers 65-80, center shape + edge target, farthest correct distance (~50%, PASS first time)
+  - Valbourne bilingual children, middle-arrow task slowdown (~52%). The first critique FLAGged a missing bridge. The fix added one operational fact ("the outer arrows never affected which key was correct"), and the re-critique was PASS.
+  - Thorncombe tarnwing chickadees, returns to emptied feeders (~53%, PASS first time). The calibrator said "honest at 3, borderline". **Judgement call:** this was banked as Hard on the calibrator's verdict, although its estimate is a little above the <=50-52% of earlier Hard items.
+- **Medium -> d2 overshoot (5), RS d2 now 51:**
+  - Dunweather crows, cone beside dish (~57%). The first FLAG was about hunger as an alternative. A same-time, same-fasting note was added, and the re-critique was PASS.
+  - Orrowin bees, odor-alone tongue extension (~60%). PASS. A "same colony" hardening was applied.
+  - Palloway nap, slow responses on a random-dot task (~64%). The FLAG asked for a bridge, so "widely used to gauge how alert a person is" was added, and the re-critique was PASS.
+  - Fenwraith café chatter, skin conductance (~65%). The FLAG said outside knowledge was needed, so a sweat/keyed-up note was added, and the re-critique was PASS.
+  - Tesmoor couriers, pointing task (~60%). The FLAG was about landmarks vs districts, fixed with "one landmark in each of 12 districts". The re-critique was PASS.
+- **Discarded after a second FLAG (2):**
+  - Hadrane cordgrass. The redox potential needed chemistry knowledge, so it was switched to dissolved oxygen. The second FLAG said a concentration is not oxygen supply.
+  - Varnell standing desks. NIR hemoglobin: the first FLAG asked whether students were standing, and whether a tissue concentration measures blood amount. After the fix, the second FLAG asked "concentration per liter of what?"
+- **Orchestrator renames for collisions:**
+  - Sonnet reused first names across gens (Marisol, Corwin/Corvin, Ysolde, Ingrith). They were renamed to Ysolde Tennick, Bram Aldersey, Rhea Fenwraith, Anders Hallisey, Petra Varnell, Leopold Ashdell, Annika Garrick and Lucan Thorncombe.
+  - Bank collisions renamed: Penhallow -> Thursby, Fenwick -> Halsworth, Quenby -> Varnell, Wexmoor -> Ashgrove, Pellwick -> Strand Hollow.
+- **Critic procedure:** critics read the question file first and the explanations file only afterwards (Step B), so the key was hidden while they argued each choice. The G8/G9 re-critique prompts added one sentence: "SAT Hard RS items legitimately require a one-step inference the notes don't spell out; flag only if a careful student could FAIRLY reject the link." This was queued for review.
+- **Key balance:** keys were reordered at assembly. The d3 keys this run are C, A, D (RS d3 overall: A2 B3 C2 D3) and the d2 keys are B, C, D, A, B.
+- **Validation/merge:** validate_batch passed d3 1/1 + 2/2 and d2 4/4 + 1/1. The master bank grew from 1547 to 1555. There was an interim merge and push after the first 5 items (b73dc49), the cell-done merge (e349df6), and this log.
+- **Skill files changed:** item-design-rules.md got "Run 172 additions": specialist-science proxies, procedures that re-enact the mechanism go Medium, and operational facts instead of purpose notes. A run 172 entry was queued in scorelab_skill_review_queue.md.
+- **Environment:** matplotlib is still not importable after pip install. No visuals were needed.
+- **Token usage:** subagents used about 2.2M tokens total, all Sonnet, estimated from per-agent usage reports:
+  - 10 gens: ~0.77M
+  - 10 critiques + 7 re-critiques: ~1.09M
+  - 5 calibration calls: ~0.31M
