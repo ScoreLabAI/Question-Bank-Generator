@@ -532,3 +532,27 @@ read into them.
 **FSS: a simple-past key is number-neutral (run 168).** In "Until ... 1974, whether ... ______ historians" with the key
 "divided", agreement only removed the lone plural choice. The item went ~58-60%. For Hard noun-clause items, the key must
 differ by number from at least one tense-correct distractor, e.g. present perfect "has occupied" vs "have occupied".
+
+## Run 169 additions
+
+**Rhetorical Synthesis: a neutral "accurately characterize" goal is not enough on its own for Hard (run 169, 1 Hard of 8).** All nine
+gens used a neutral goal ("accurately characterize what the findings indicate about X's claim") with four stance choices and no
+neutral-report rival. Seven went Medium (58-72%). The calibrator rated an item Medium whenever one note stated the decisive fact
+outright: a scope note ("makes no prediction about experienced shooters"), "Both accounts predict ...", or a universal "every" met by one
+counterexample. It also went Medium when a single division settled the item (raw count vs rate). The one Hard item (Halbeck nectar
+guides, ~48-50%) made the student split the prior claim into two parts themselves (the claim that guides increase visits, and the stated
+mechanism, shorter handling time) and test each part against different data (71% landings vs equal 4.2 s). Its rivals were refute
+(mechanism data only), confirm (visit data only), and the swapped split.
+
+**Rhetorical Synthesis: a universal "every/all" prior claim makes "undermines" a second key against a "holds only for ..." key (run 169).**
+A Thornevik vowel-lengthening draft stated the proposal for "every dialect". The four failing regions then refuted it, so "undermines"
+and "bears out only for the five regions" were both defensible. Use a universal claim only when the key is "cannot be true as stated".
+Do not pair it with a qualify key.
+
+**Rhetorical Synthesis: a "cannot bear on it" rival needs a premise that is clearly irrelevant (run 169).** "Present-day speakers rather
+than the earlier speakers she described" added a fact not in the notes. With that fact removed, "a present-day survey cannot show a
+past change" still had real appeal, and the item was discarded after a second FLAG. Build a does-not-bear rival from a detail that plainly
+does not touch the claim, such as the sampling week or the number of plots.
+
+**Rhetorical Synthesis: a "favors A over B" item with a stated shared prediction calibrates near Easy (run 169, ~72%).** A note saying "Both
+accounts predict X" tells the student to set X aside.

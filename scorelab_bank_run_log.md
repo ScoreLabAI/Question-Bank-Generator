@@ -2617,3 +2617,45 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - **Token usage:** subagents used about 1.6M tokens total, all Sonnet:
   - FSS: 2 gens + 2 critics + 1 calibration, ~0.33M.
   - RS: 8 gens ~0.57M; 8 critiques + 2 re-critiques ~0.64M; 1 batched calibration ~0.07M.
+
+## Run 169 - 2026-11-14 (scheduled)
+**Cells worked:**
+- **Rhetorical Synthesis d3** (the only pending cell): needed 9, got 1 Hard. The cell is now 2/10 and still pending.
+  - 9 gens, all mandated to the inferred-stance shape from run 168's proposal (d): a neutral goal, four stance choices, no neutral-report rival, and a different relation per gen.
+  - **HARD (1):** Halbeck nectar guides, outcome yes / mechanism no (~48-50%).
+  - **Medium -> d2 overshoot (7):**
+    - Maddock caddisfly, raw count vs rate (~60%).
+    - Odeline seal, universal claim + 1 counterexample (~58%).
+    - Orlen pits, favors the rival account (~72%).
+    - Pryce/Wenlow Canal, cause came too late (~68%).
+    - Odanel, outside the claim's scope (~66%).
+    - Renquist lime, dose shape (~72%).
+    - Kestow jug, narrowed but not decided (~66%).
+  - **Critic FLAGs:**
+    - Thornevik: universal wording gave two keys, so it was regenerated. Its re-critique FLAGged a "cannot bear on it" rival with real appeal, and the item was **discarded**.
+    - Pryce: "started the shift" was ambiguous. Rewritten as "did not appear until", re-critique PASS.
+    - Odeline: C and D stances were near-synonyms and the goal said "survey's findings". Fixed, re-critique PASS.
+    - Renquist: "every lime rate" included the control, C had an ambiguous "them", and D was soft. Fixed, re-critique PASS.
+  - **Advisory fixes, no re-critique:**
+    - Halbeck: randomized flower positions noted; D now carries the numbers.
+    - Odanel: "experienced shooters" added to note 4.
+    - Odeline: the 1962 date was removed.
+    - Pryce: note 4 now says "single-task assignment".
+    - Explanation polish on Orlen D, Kestow key and Maddock C.
+  - **Renames:** Halloway Station -> Brackenfold Station (it clashed with Halloway the art historian); Ketterling Museum -> Amberlaine Museum (it was a near-collision with Ketteridge).
+  - **Key balance:** generators keyed 5 of 7 d2 items at B. 4 were swapped, so the d2 keys are B, C, A, D, B, C, A. The d3 key is D.
+- **Calibration:** 2 batched calls (5 items + 3 items).
+- **Validation/merge:**
+  - validate_batch passed: rs d2 7/7 and rs d3 1/1. The first pass failed only on missing is_diagnostic/is_active in one item, which were added.
+  - Master grew from 1522 to 1530.
+  - Pushed after the merge and again with this log.
+- **Skill files changed:** references/item-design-rules.md got the "Run 169 additions":
+  - A neutral goal alone does not make an item Hard.
+  - A universal claim vs a qualify key gives two keys.
+  - A does-not-bear rival needs a plainly irrelevant premise.
+  - A stated shared prediction makes the item near Easy.
+- **Queued:** a run 169 entry in scorelab_skill_review_queue.md. Proposals (a)-(d) are still unanswered; this has been **RECURRING since run 155, about 15 runs.** RS d3 is the only pending cell left.
+- **Token usage:** subagents used about 1.75M tokens total, all Sonnet:
+  - 9 gens + 1 regen: ~0.78M.
+  - 9 critiques + 4 re-critiques: ~0.83M.
+  - 2 calibrations: ~0.13M.
