@@ -556,3 +556,29 @@ does not touch the claim, such as the sampling week or the number of plots.
 
 **Rhetorical Synthesis: a "favors A over B" item with a stated shared prediction calibrates near Easy (run 169, ~72%).** A note saying "Both
 accounts predict X" tells the student to set X aside.
+
+## Run 170 additions
+
+**Rhetorical Synthesis: split-the-claim items reach Hard only when the split is NOT visible in the claim's wording (run 170, 1 Hard of 7 calibrated).**
+Eight gens each used a different two-part claim, with a neutral goal and refute-whole / confirm-whole / swapped-split rivals. Six went Medium
+(58-72%): two named effects joined by "and" (grazing), place + period (ewer), immediate gain + "and the advantage lasts" (quizzes), an
+intermediate step + an outcome (lane narrowing), source + agent (boulders), and practice + "the dip is what gave" (lye). The calibrator's
+reason was the same each time: the claim's grammar announces the two parts, so students go looking for a "supports X but not Y" choice. The
+one Hard item (Ondrey, ~52%) matches run 169's Halbeck: an observed effect plus a "because" mechanism, and the mechanism is tested by a
+SEPARATE PROXY measure (a syllable-discrimination task) that the student must recognize as bearing on the "because" clause.
+
+**Rhetorical Synthesis: the swapped-split rival is usually eliminated by its own incoherence (run 170).** "Supports the explanation but not the
+observation", "the advantage lasts but quizzes do not raise scores", and "isotopes do not bear out the place" can all be dropped without
+reading data. If the swapped-split rival must stay, it needs a real misreading path (e.g. treating a "differs from other X" fact as counting
+against the source). Generator-written swapped rivals also twice contained nonsense comparisons ("zircon ages differ from the rounded
+condition") or invented facts ("kept by an organist rather than a quarryman"). Check them before critique.
+
+**Rhetorical Synthesis: a conjunctive single-predicate claim makes "undermine" a second key (run 170, discarded item).** "Composed by the
+quarrymen themselves as protests against the wage cut" is one predicate, so refuting the purpose refutes the whole sentence and the refute-whole
+rival became defensible. The critic accepted "undermine" as wrong when the claim had two clearly separate assertions ("X, and that Y"), or
+an effect plus "because". Write the claim so that each part could stand as its own sentence.
+
+**Rhetorical Synthesis: the "not borne out" data must be clearly not in the claimed direction (run 170).** $212 -> $211 for "lowers spending"
+was technically a decrease and made the confirm-whole rival defensible. Use identical values or a slight change the opposite way. Also, a
+measured property must match the claim's wording: compression force measures firmness, not density. And sampling notes that put two tests on
+different parts of an object (a spout core vs the base metal) let students argue the tests examined different things.

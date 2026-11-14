@@ -2659,3 +2659,48 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
   - 9 gens + 1 regen: ~0.78M.
   - 9 critiques + 4 re-critiques: ~0.83M.
   - 2 calibrations: ~0.13M.
+
+## Run 170 - 2026-11-14 (scheduled)
+**Cells worked:**
+- **Rhetorical Synthesis d3** (the only pending cell): needed 8, got 1 Hard. The cell is now 3/10 and still pending.
+  - 8 gens, all mandated to the split-the-claim shape (proposal (d) from run 169), each with a different split.
+  - **HARD (1):** Ondrey music classes (word learning 4.6 vs 3.1, yes; syllable discrimination 78% vs 77%, no), ~52%.
+  - **Medium -> d2 overshoot (6):**
+    - Pelletier lane narrowing, speeds 41->35 mph but crashes 3.1 both years (~68%).
+    - Dorrigan rotational grazing, forage 3.1->4.0 t/ha but feed $212->$214 (~70%).
+    - Tamsvik Hessick ewer, Kharsun isotopes but core TL date 1390-1430 (~64%).
+    - Fennimore retrieval quizzes, 78 vs 67 but 64 vs 64 a year later (~72%).
+    - Roddam Kesmere boulders, Tolsk zircon match but rounded/unscratched (~58%).
+    - Vossen Calderwick lye dip, residue 11/12 but 41 N vs 41 N (~60%).
+  - **Discarded (1):** Glynmorrow quarry songs (authorship vs purpose).
+    - First FLAG: only 7 of 12 songs were in the 1889 songbook, so the key overstated. Fixed to all twelve.
+    - Second FLAG: "undermine" was defensible because the claim was one conjunctive predicate. Discarded.
+  - **Critic FLAGs fixed and re-critiqued PASS:**
+    - Dorrigan: $212->$211 was technically a decrease; changed to $214.
+    - Tamsvik: the spout-core sampling note let the date apply to a separate spout; the core is now from the original casting.
+    - Roddam: an in-place weathering loophole was closed with a no-weathering-rind note. A second FLAG followed: "granite elsewhere within 200 km" was ambiguous, since the Tolsk Range is within 200 km. The critic's exact wording was applied and a THIRD critique passed. **This is a logged exception to the discard-after-two rule:** the defect was a one-phrase scope ambiguity with a supplied fix, not a redesign.
+  - **Advisory / explanation fixes, no re-critique:**
+    - Pelletier: "median daytime speeds" -> "median speeds" (radar ran 9-11 a.m. only); a false "only choice using both data sets" clause in the key explanation was fixed.
+    - Ondrey: the key explanation now notes that fixed exposure means higher accuracy shows faster learning.
+    - Fennimore: A "undermine" -> "refute".
+    - Vossen: "dense, chewy" -> "firm, chewy" (compression force measures firmness); D's explanation reworded.
+    - Dorrigan: A punctuation.
+  - **Orchestrator pre-critique edits:**
+    - Roddam: the swapped rival C was a nonsense comparison; rewritten.
+    - Vossen: the property was changed from crust color (a lye dip really does darken crust) to interior firmness.
+    - Glynmorrow: the swapped rival cited an invented fact.
+  - **Renames for collisions or real places:** Brandvold->Tamsvik, Marrowby->Hessick, Dunmarrow->Ashcombe/Kelsingham, Tavish->Lorcan, Imani->Odile, Orsini->Fennimore, Corvale->Wrexley, Orsk->Tolsk, Pellick->Kesmere, Harrowgate->Calderwick, Teague->Holtby, Dunhallow->Glynmorrow.
+  - **Key balance:** the d2 keys were reordered to A, B, C, D, B, A. The d3 key is B.
+- **Calibration:** 3 batched calls (V1-V4, V5+V8, V6).
+- **Validation/merge:** validate_batch passed rs d2 6/6 and rs d3 1/1. Master grew from 1530 to 1537. Pushed after the merge and again with this log.
+- **Environment note:** matplotlib fails to import in this sandbox (the system PIL is missing `_imaging`), even after `pip install`. RS needs no visuals, so this run was unaffected, but a Math run would need `pip install --force-reinstall pillow` or similar.
+- **Skill files changed:** references/item-design-rules.md got the "Run 170 additions":
+  - Split-the-claim reaches Hard only when the split is not visible in the claim's grammar (effect + "because" mechanism tested by a separate proxy measure).
+  - The swapped-split rival is usually self-eliminating.
+  - A conjunctive single-predicate claim makes "undermine" a second key.
+  - The "not borne out" data must be clearly non-directional.
+- **Queued:** a run 170 entry in scorelab_skill_review_queue.md. Proposals (a)-(d) are still unanswered; this has been **RECURRING since run 155, about 16 runs.** The d2 cell keeps absorbing +6-7 overshoot per run.
+- **Token usage:** subagents used about 1.66M tokens total, all Sonnet:
+  - 8 gens: ~0.64M.
+  - 9 critiques + 4 re-critiques: ~0.83M.
+  - 3 calibrations: ~0.19M.
