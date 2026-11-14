@@ -582,3 +582,28 @@ an effect plus "because". Write the claim so that each part could stand as its o
 was technically a decrease and made the confirm-whole rival defensible. Use identical values or a slight change the opposite way. Also, a
 measured property must match the claim's wording: compression force measures firmness, not density. And sampling notes that put two tests on
 different parts of an object (a spout core vs the base metal) let students argue the tests examined different things.
+
+## Run 171 additions
+
+**Rhetorical Synthesis Hard: the effect + "because" + proxy shape works when the proxy needs an INFERENTIAL BRIDGE (run 171, 4 Hard of 10).**
+All ten gens used a neutral "accurately characterize" goal, a claim of the form "[group] show [effect], because [mechanism]", and two measures.
+Four calibrated Hard (~50-52%), and in each one the student had to supply the link between the proxy and the mechanism:
+- activity onset in constant dim light -> internal clock
+- video gaze at eyes and mouth -> attention to faces
+- oxygen use at a fixed treadmill pace -> energy spent
+- backward digit span -> holding and rearranging information
+
+Six went Medium (60-68%), for three reasons:
+- **The proxy measured the mechanism's own quantity.** Soil total nitrogen was used for "enrich the soil with nitrogen", and a white-blood-cell count for "raises white blood cells".
+- **The proxy's wording echoed the mechanism.** A verbatim-copying share was used for "in their own words", and a calorie-estimate error for "aware of how many calories".
+- **A note stated the bridge outright.** "Traders from the far bank sold mostly far-bank pottery" and "incoming sunlight was the same; most melt is in July-August" were both added to fix critic FLAGs, and both spelled out the link.
+
+Watch this trade-off: a critic will often ask for a bridging note to close a "neither confirms nor refutes" loophole. Prefer proxies that are sound tests on their face, such as standard measures like O2 cost or digit span, so that no bridging note is needed.
+
+**Rhetorical Synthesis: the mirror variant (mechanism premise borne out, effect not) makes "undermine" defensible (run 171).** "Swimmers catch
+fewer colds because cold raises white blood cells": with colds equal and the blood count higher, the critic read the failed effect as
+undermining the whole claim. The fix was to retarget the refute rival ("undermine what X claimed about white blood cells"). The item passed, but it calibrated Medium.
+Do not use the mirror variant for Hard.
+
+**Rhetorical Synthesis: the "bears out and shows the groups were otherwise comparable" rival has a genuine misreading path (run 171).**
+Critics judged it non-arbitrary: a null mechanism measure is misread as a matched-control check. It must not assert a fact the notes do not contain.

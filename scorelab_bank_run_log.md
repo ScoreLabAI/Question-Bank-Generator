@@ -2704,3 +2704,46 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
   - 8 gens: ~0.64M.
   - 9 critiques + 4 re-critiques: ~0.83M.
   - 3 calibrations: ~0.19M.
+
+## Run 171 - 2026-11-14 (scheduled)
+- **Cell worked:** Reading & Writing / Expression of Ideas / Rhetorical Synthesis / d3. It is the only pending cell. It needed 7 and got 4 Hard, so it is now **7/10** and still pending.
+- **Overshoot:** 6 items calibrated Medium and were banked to RS d2, which is now 46/10.
+- **Shape:** all 10 gens were mandated to the effect + "because" mechanism + separate-proxy sub-shape, per proposal (d) from runs 169/170. 9 were effect-yes / mechanism-no and 1 was the mirror variant.
+- **Hard (~50-52%):**
+  - Pellanor ashcrest warblers (aviary activity onset)
+  - Aldecott pet vs shelter dogs (video gaze)
+  - Pellerin-Voss carbon-plate shoe (O2 at a fixed pace)
+  - Tasburgh Hexamar board game (backward digit span)
+- **Medium -> d2 (~60-68%):**
+  - Hollenbeck intercropping (soil nitrogen)
+  - Vaelhorn handwritten notes (verbatim share)
+  - Oskarsen cold-water swimmers (mirror variant)
+  - Corrowby calorie counts (estimate error)
+  - Ashmoor Ostbury bridge market (far-bank sherds)
+  - Valtorsen Karsholt Glacier (reflected fraction)
+- **Critique:**
+  - **PASS first time:** G1, G3, G6 and G10 (polish only on G1 and G3).
+  - **Correctness FLAGs, fixed and re-critiqued PASS:**
+    - G2: the nitrate proxy could be explained away by plant uptake, so it was switched to total soil nitrogen.
+    - G4: in the mirror variant, "undermine" was defensible. The refute rival was retargeted, the swapped-split rival replaced the D rival, and the key was reworded to "physiological difference".
+    - G7: the survey did not say the croissant's count was on the board, so that was added.
+    - G8: the link between traders and pottery was missing from the notes, so a note was added. The second critique asked for explanation-only fixes, which were applied.
+    - G9: the notes did not state equal incoming sunlight or the melt season, so both were added and the explanation was fixed.
+  - **Minor FLAG on G5:** an ambiguous denominator was fixed and a gendered pronoun in the key was removed. The second critique was wording-only (a pronoun in an explanation, and the baited cup), so those fixes were applied as advisory.
+  - **Discards:** none.
+- **Orchestrator renames for collisions:**
+  - Fennimore -> Ravelstone
+  - Pellegrin -> Ardoven
+  - Wenlowe/Wenn -> Ostbury/Tarrel (Wenlow was used in run 169)
+  - Haldane Brook -> Pemberly Lane
+  - Ingrid Valtorsen -> Halla; Oskarsdal -> Brekkvold
+  - Odalys Pellerin -> Wynne Tasburgh; Anselm Sundqvist -> Piet Sundqvist
+- **Topic overlap:** G3 (handwritten vs typed notes) shares a topic with an older Cross-Text d2 item, but the shape is different.
+- **Key balance:** keys were reordered. The d3 keys are A, C, D, B and the d2 keys are A, C, D, C, B, D.
+- **Validation/merge:** validate_batch passed d3 4/4 and d2 6/6. The master bank grew from 1537 to 1547. Pushed after the merge (bac044f) and again with this log.
+- **Skill files changed:** item-design-rules.md got "Run 171 additions": the inferential-bridge rule, no mirror variant for Hard, and the comparable-groups rival. A run 171 entry was queued in scorelab_skill_review_queue.md.
+- **Environment:** matplotlib is still not importable after `pip install` (the PIL `_imaging` issue). This run needed no visuals.
+- **Token usage:** subagents used about 2.08M tokens total, all Sonnet:
+  - 10 gens: ~0.72M
+  - 10 critiques + 6 re-critiques: ~1.05M
+  - 5 calibration calls: ~0.31M
