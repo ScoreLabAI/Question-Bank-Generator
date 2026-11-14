@@ -1528,3 +1528,5 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 167: Dessarow Terrace hearth arc, Peskin shared-meal layout vs Dosseh gradual build-up (two readings of one piece of evidence)
 - [Expression of Ideas/Rhetorical Synthesis, d2] Run 167: Ostrowe Brannock Cognition Lab background speech and reading comprehension, ages 60-75 (finding + population/setting)
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 167: Marrel newts in saline high-altitude ponds, antifreeze glycoprotein vs ruled-out fat layer (explain why)
+- [Standard English Conventions/Form, Structure, and Sense, d3] Run 168: Tavrik Glacier three moraine ridges farthest advance, which-clause subject + 'has occupied glaciologists ever since ... 1950s'
+- [Standard English Conventions/Form, Structure, and Sense, d2] Run 168: Vellacorte cathedral archive 1974, town water clocks single foundry vs workshops, whether-clause + 'Until' simple past 'divided'
