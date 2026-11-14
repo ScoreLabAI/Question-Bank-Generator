@@ -607,3 +607,16 @@ Do not use the mirror variant for Hard.
 
 **Rhetorical Synthesis: the "bears out and shows the groups were otherwise comparable" rival has a genuine misreading path (run 171).**
 Critics judged it non-arbitrary: a null mechanism measure is misread as a matched-control check. It must not assert a fact the notes do not contain.
+
+## Run 172 additions
+
+**Rhetorical Synthesis Hard: the proxy's link to the mechanism must come from its PROCEDURE plus ordinary reasoning, never from specialist knowledge (run 172).**
+Three proxies whose link to the mechanism needs science vocabulary were each FLAGGED by the critic as answerable only with outside knowledge, because without that knowledge "bear out the claim" or "otherwise comparable" became defensible. They were soil redox potential for root oxygen, fingertip skin conductance for arousal, and near-infrared hemoglobin concentration for blood reaching the brain. The fix (a bridging note, or a proxy naming the mechanism's quantity) either made the item Medium (skin conductance, ~65%) or drew a second FLAG and a discard (redox -> dissolved oxygen: concentration is not supply; hemoglobin: per liter of what?).
+The proxies that reached Hard all used a task whose DESIGN lets an ordinary reader work out what it measures. Examples:
+- naming a central shape while locating a target flashed toward the screen edge, recorded as the farthest correct distance -> "region of a scene taken in at a single glance" (~50%)
+- 8 feeders, one seed each, an emptied feeder stays empty, count returns to emptied feeders -> "keep track of where things are" (~53%)
+
+**Rhetorical Synthesis: a proxy procedure that re-enacts the mechanism calibrates Medium (run 172).** An odor puffed alone 24 h after odor-sugar training, for "remember the scent" (~60%), and a cone set beside a familiar dish, for "at ease around unfamiliar objects" (~57%), both went Medium. A critic-requested note like "widely used to gauge how alert a person is" also went Medium (~64%).
+
+**Rhetorical Synthesis: one operational fact can close a "the notes never connect it" FLAG without stating the bridge (run 172).**
+"The direction of the outer arrows never affected which key was correct" (arrow task, for "ignoring irrelevant information") closed the gap, passed, and calibrated Hard (~52%). So did "one landmark in each of the city's 12 districts" (pointing task, for "how the districts are laid out"), but that item calibrated Medium (~60%) because "district" now echoed the mechanism wording. Both state a fact about the task's design, not its purpose. Prefer this over the critic's usual suggestion of a "the team used this task to measure X" note, which hands over the bridge.
