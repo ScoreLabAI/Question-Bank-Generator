@@ -512,3 +512,23 @@ confirm / neutral report that includes the cause but takes no stance. Goals that
 conclusion, conditions, interpretations, a cause) stayed Medium (55-74%) even with mirror-image rivals, because the key
 can be found by checking which choice has the named element. Physical facts in dressed notes need a check too: fresh
 pond water cannot stay liquid below 0 °C, so a sub-zero setting needs saline water.
+
+## Run 168 additions
+
+**Rhetorical Synthesis: two-part "X rather than Y" stance goals calibrate Medium, not Hard (run 168, 0 Hard of 8).** Eight
+stance goals were each a different relation: extend-not-overturn, favor-A-without-ruling-out-B, confirm direction-not-size,
+revise when-not-who, challenge method-not-conclusion, puzzle-not-counterevidence, unresolved-between-two, and
+strengthen-not-settle. All eight went 63-82%. A goal that names both halves becomes a checklist. The rivals fall into "only
+the first half", "the opposite stance" and "neutral report", and the key is the only choice with both halves. Mirror rivals
+(favor A / favor B) eliminate each other and pushed one item to ~82%. Run 167's lone Hard item differed: its key stance
+("consistent ... only for the seven") had to be INFERRED from mixed data, and its "confirm" rival cited only the true
+supporting subset.
+
+**Rhetorical Synthesis: a neutral rival must not carry the key's decisive fact (run 168).** A neutral report that included
+"matching neither hypothesis" was defensible as presenting a puzzle. Likewise, a "confirmed" rival that also mentioned the
+new setting was defensible as an extension. Cut the decisive fact from neutral and confirm-only rivals, or the stance can be
+read into them.
+
+**FSS: a simple-past key is number-neutral (run 168).** In "Until ... 1974, whether ... ______ historians" with the key
+"divided", agreement only removed the lone plural choice. The item went ~58-60%. For Hard noun-clause items, the key must
+differ by number from at least one tense-correct distractor, e.g. present perfect "has occupied" vs "have occupied".

@@ -1530,3 +1530,11 @@ Each entry is a rough scenario/topic fingerprint for one question already in the
 - [Expression of Ideas/Rhetorical Synthesis, d1] Run 167: Marrel newts in saline high-altitude ponds, antifreeze glycoprotein vs ruled-out fat layer (explain why)
 - [Standard English Conventions/Form, Structure, and Sense, d3] Run 168: Tavrik Glacier three moraine ridges farthest advance, which-clause subject + 'has occupied glaciologists ever since ... 1950s'
 - [Standard English Conventions/Form, Structure, and Sense, d2] Run 168: Vellacorte cathedral archive 1974, town water clocks single foundry vs workshops, whether-clause + 'Until' simple past 'divided'
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 168: Vessaly snapping-shrimp crackle reef-fish model extended to mangrove estuaries, Tanvoss playbacks (extend vs overturn stance)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 168: Brakewater Codex high-copper ink, Ysolt Priory vs Hollin Abbey, Falkner vs Wrenfield (favor without ruling out)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 168: Selwick 2011 brushed mustard seedlings 31% shorter vs Ostergaard 2023 replication 8% (direction not size)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 168: Brevik bass viol dendrochronology, Dunmere redates 1725 to 1698-1705, maker kept (revise when not who)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 168: Nordell 1994 Vaskel Island kittiwake boat counts vs Bexley aerial photos, 40% vs 36% decline (method not conclusion)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 168: Danvell Kestrane seamount chain, Ilmarsh 14 Myr too old, hotspot vs fracture hypothesis (puzzle not counterevidence)
+- [Expression of Ideas/Rhetorical Synthesis, d2] Run 168: Quist Vorrask Cave charred chickpeas 10,500 yr, 30% larger seeds vs camp-site soil (strengthen not settle)
+- [Expression of Ideas/Rhetorical Synthesis, d1] Run 168: Cael-12 periodic dimming, Corrow dust clump vs Maskell companion star, 42-day spacing in both ranges (unresolved)

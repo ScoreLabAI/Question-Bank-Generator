@@ -2587,3 +2587,33 @@ All 5 surviving, critique-passed drafts were sent to one batched Calibrator call
 - **Token usage:** subagents used about 1.85M tokens total, all Sonnet:
   - FSS: 2 gens + 2 critics + 2 calibrations, ~0.41M.
   - RS: 8 gens + 1 regen, ~0.66M; 8 critiques + 3 re-critiques, ~0.70M; 1 batched calibration, ~0.07M.
+
+## Run 168 - 2026-11-14 (scheduled)
+**Cells worked:**
+- **FSS d3:** needed 1, got 1. The cell is DONE at 10/10.
+  - 2 gens. 1 HARD: Which-of-the-three Tavrik moraine ridges + "has occupied glaciologists ever since ... the 1950s" (~50%). The draft tacked on a second main verb ("remains unsettled in print"); the orchestrator fixed it before critique. Critic PASS.
+  - 1 Medium -> d2 overshoot: Vellacorte water clocks, whether-clause + "Until ... 1974" with key "divided" (~58-60%). Critic PASS with an advisory: the number-neutral simple-past key, so the explanation was reworded to tense/voice.
+  - Renames: Orsolo -> Vellacorte and Haldrenn -> Tavrik (both collided with logged names).
+- **Rhetorical Synthesis d3:** needed 9, got 0 Hard. The cell stays at 1/10.
+  - 8 gens, each a different two-part stance goal. Calibrated 63-82%: banked 7 d2 and 1 d1 (the Cael-12 "unresolved" item at ~82%).
+  - Critic FLAGs, both fixed and re-critiqued PASS:
+    - Extension item: "confirmed ... + mangrove fish also" was defensible as an extension. The rival was cut to confirm-only, and the dangling "again" in the key was fixed.
+    - Puzzle item: the neutral rival carried "matching neither hypothesis". That clause was dropped, and B was changed to "outweighed".
+  - Pre-critique orchestrator edits:
+    - Chickpea A replaced with a "no bearing" dismissal rival, so the key is not the only hedged choice.
+    - Seamount B rewritten as a dismissal.
+    - Kittiwake: missing "Choice X" explanation prefixes added; the stem now states "declined steeply".
+    - Advisory fixes applied: replication key connector, viol "its" ambiguity, explanation wording.
+  - Renames: Oyelaran -> Dunmere, Maren -> Anneli (Maren reused within this run), Hollindrake -> Ostergaard (Hollin clash), Orrin -> Tessavel, Haldrum -> Vorrask, Skerry -> Vaskel.
+  - Key balance: generators keyed 6 of 8 at C. 4 items were swapped. Final d2 keys: A, C, D, D, B, A, B.
+- **Discards:** none. Regenerations: none (both FLAGs were fixed in place from the critics' concrete rewrites).
+- **Calibration:** 1 batched call for the 2 FSS items and 1 batched call for the 8 RS items.
+- **Validation/merge:** validate_batch passed on all batches (fss d3 1/1, fss d2 1/1, rs d2 7/7, rs d1 1/1). Master grew from 1512 to 1522. Pushed after the FSS cell and again at the end.
+- **Skill files changed:** references/item-design-rules.md got the "Run 168 additions":
+  - Two-part stance goals calibrate Medium.
+  - Neutral and confirm-only rivals must not carry the key's decisive fact.
+  - A simple-past FSS key is number-neutral.
+- **Queued:** a run 168 entry in scorelab_skill_review_queue.md. RS d3 is now the ONLY pending cell (1/10 after ~41 gens). Proposals (a)-(d) still need a human; this has been RECURRING since run 155.
+- **Token usage:** subagents used about 1.6M tokens total, all Sonnet:
+  - FSS: 2 gens + 2 critics + 1 calibration, ~0.33M.
+  - RS: 8 gens ~0.57M; 8 critiques + 2 re-critiques ~0.64M; 1 batched calibration ~0.07M.
